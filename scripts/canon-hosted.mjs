@@ -10,7 +10,7 @@ const output = process.argv[3] ?? "/tmp/pyknon-hosted-canon/review.json";
 const directory = path.dirname(output);
 await mkdir(directory, { recursive: true });
 const local = JSON.parse(await readFile("docs/canon-browser.json", "utf8"));
-const expectedStudy = await readFile("examples/canon-six-tones-reading.html");
+const expectedStudy = await readFile(process.argv[4] ?? "examples/canon-six-tones-reading.html");
 const hash = (bytes) => createHash("sha256").update(bytes).digest("hex");
 async function downloadBytes(download) {
   const chunks = [];

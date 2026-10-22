@@ -1,30 +1,61 @@
-export async function offline(status: HTMLElement) {
+export async function offline(status: HTMLElement): Promise<void> {
   if (!import.meta.env.PROD || !("serviceWorker" in navigator)) {
     status.textContent = "Offline saving is available in the published build.";
     return;
   }
-  try {
-    await navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`);
-    const registration = await navigator.serviceWorker.ready;
+  const unavailable = "Offline saving was unavailable. Keep this tab open or save a study.";
+  let generation = 0;
+  async function inspect(worker: ServiceWorker | null): Promise<void> {
+    if (!worker) return;
+    const request = ++generation;
     const channel = new MessageChannel();
-    const response = new Promise<{ edition: string; complete: boolean }>((resolve, reject) => {
-      const timer = setTimeout(() => {
-        channel.port1.close();
-        reject(new Error("timeout"));
-      }, 8000);
-      channel.port1.onmessage = (event) => {
-        clearTimeout(timer);
-        channel.port1.close();
-        resolve(event.data);
-      };
-    });
-    registration.active?.postMessage({ type: "PYKNON_INSPECT" }, [channel.port2]);
-    const saved = await response;
-    status.textContent =
-      saved.edition === __PYKNON_EDITION__ && saved.complete
-        ? "Ready offline · audio, diagrams & source scans saved."
-        : "Offline edition is updating. Reload online to finish.";
+    let timer: ReturnType<typeof setTimeout> | undefined;
+    try {
+      const saved = await new Promise<{
+        type?: unknown;
+        edition?: unknown;
+        complete?: unknown;
+      } | null>((resolve, reject) => {
+        timer = setTimeout(() => reject(new Error("timeout")), 8000);
+        channel.port1.onmessage = (event) => resolve(event.data);
+        worker.postMessage({ type: "PYKNON_INSPECT" }, [channel.port2]);
+      });
+      // A reply from a superseded worker must not replace a newer inspection.
+      if (request !== generation) return;
+      status.textContent =
+        saved?.type === "PYKNON_EDITION" &&
+        saved.edition === __PYKNON_EDITION__ &&
+        saved.complete === true
+          ? "Ready offline · all three rooms, audio, diagrams & source scans saved."
+          : "This page’s offline edition is not ready. It will be checked when the worker changes; reload online if needed.";
+    } catch {
+      if (request === generation) status.textContent = unavailable;
+    } finally {
+      clearTimeout(timer);
+      channel.port1.close();
+    }
+  }
+
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    void inspect(navigator.serviceWorker.controller);
+  });
+  // Registration can wait behind an unfinished install. Check an existing
+  // controller now, then re-check when the complete new edition claims this page.
+  void inspect(navigator.serviceWorker.controller);
+  let timer: ReturnType<typeof setTimeout> | undefined;
+  try {
+    const registration = await Promise.race([
+      navigator.serviceWorker
+        .register(`${import.meta.env.BASE_URL}sw.js`)
+        .then(() => navigator.serviceWorker.ready),
+      new Promise<never>((_, reject) => {
+        timer = setTimeout(() => reject(new Error("timeout")), 10000);
+      }),
+    ]);
+    await inspect(navigator.serviceWorker.controller ?? registration.active);
   } catch {
-    status.textContent = "Offline saving was unavailable. Keep this tab open or save a study.";
+    if (generation === 0) status.textContent = unavailable;
+  } finally {
+    clearTimeout(timer);
   }
 }
