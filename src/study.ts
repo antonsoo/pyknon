@@ -1,0 +1,16 @@
+import { ARCHIVE } from "./content";
+import { at, cents, genus, notes, queryFor, type State } from "./core/tetrachord";
+import { ruler } from "./drawing";
+
+export function study(state: State): string {
+  const g = genus(state.genus);
+  const values = notes(state);
+  return `<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Pyknon · ${g.name} · ${state.root} Hz</title>
+<style>body{max-width:900px;margin:40px auto;padding:0 24px;font:17px/1.6 Georgia,serif;color:#282038;background:#fff}h1{font-size:40px;line-height:1.1}table{border-collapse:collapse;width:100%;font:14px/1.5 system-ui}th,td{padding:9px;border-bottom:1px solid #ccc;text-align:left}svg{width:100%;height:auto;font:15px system-ui}.grid{stroke:#ddd}.pitch-line{stroke:#36275e;stroke-width:3}.interval{stroke:#36275e;fill:none}.rounding{stroke:#c0b8cd;fill:none}.original circle{fill:#36275e}.original text{fill:#fff}.rounded circle{fill:#fff;stroke:#574273}.rounded text{fill:#36275e}.pyknon{stroke:#967322;fill:none}.key{fill:#eee;stroke:#999}.accidental{fill:#36275e}.on-dark{fill:#fff}.svg-small{font-size:12px}.svg-heading{font-size:13px}.svg-ratio{font-size:16px}a{color:#493178}footer{border-top:1px solid #999;margin-top:2em;padding-top:1em;font-size:14px}@media print{body{margin:0}svg,table{break-inside:avoid}a{color:inherit}}</style>
+<header><p>PYKNON / SAVED LISTENING STUDY</p><h1>${g.name} <span lang="grc">${g.greek}</span></h1><p>Archytas’s division, as reported by Ptolemy. Modern reference: A${state.root === 110 ? 2 : state.root === 220 ? 3 : 4} = ${state.root} Hz. Playback direction: ${state.direction === "up" ? "ascending" : "descending"}.</p></header>
+${ruler(state)}
+<p>Adjacent ascending ratios: ${g.intervals.map((r) => `${r[0]}/${r[1]} (${cents(r).toFixed(2)} cents)`).join(" → ")}. Together: 4/3, or ${at(values, 3).cents.toFixed(2)} cents.</p>
+<table><caption>Ancient ratios and modern nearest-100-cent comparison</caption><thead><tr><th>Note</th><th>Ratio to base</th><th>Hz</th><th>Cents</th><th>Rounded Hz</th><th>Shift (¢)</th></tr></thead><tbody>${values.map((n) => `<tr><th>${n.index + 1}</th><td>${n.ratio.join("/")}</td><td>${n.hz.toFixed(3)}</td><td>${n.cents.toFixed(2)}</td><td>${n.keyboardHz.toFixed(3)}</td><td>${n.error.toFixed(2)}</td></tr>`).join("")}</tbody></table>
+<p>${new Set(values.map((n) => n.key)).size === 3 ? "The two inner notes round to the same modern key. The rounded sequence has only three distinct pitches." : "Four distinct pitches survive this rounding, but their intervals change."} Rounding is a modern comparison, not an ancient tuning.</p>
+<footer><p>Source: <a href="${ARCHIVE}">Ptolemy, Harmonics I.13, Greek and Latin edition by John Wallis (Oxford, 1682), pp. 62–63</a>. This study models transmitted ratios. A chosen modern pitch reference and synthesized sine tones do not reconstruct an ancient performance. ‘One moving note’ describes this particular scheme, not every ancient tetrachord.</p><p><a href="https://antonsoo.github.io/pyknon/${queryFor(state)}#listen">Open this listening study</a> · <a href="https://github.com/antonsoo/pyknon">Source code</a>. This document contains its own diagram and styles and makes no external requests.</p></footer></html>`;
+}
