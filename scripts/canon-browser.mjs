@@ -133,6 +133,11 @@ try {
           audits.push({ label, violations: 0 });
         }
         await audit("shared landing");
+        const playBounds = await page.locator("#play").boundingBox();
+        assert(
+          playBounds.y >= 0 && playBounds.y + playBounds.height < 650,
+          "Listening controls precede the long diagram",
+        );
         const rendered = [];
         for (let n = 0; n <= 6; n++) {
           const button = page.locator(`.step-buttons [data-step="${n}"]`);

@@ -453,3 +453,7 @@
     break-inside: avoid;
   }
 }
+
+.canon-workbench > .canon-status {
+  margin-bottom: 18px;
+}
