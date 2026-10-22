@@ -33,6 +33,32 @@ The published app works offline once its footer confirms the complete edition
 has been saved, including all three source scans. No account or external font
 service is used.
 
+## Read a surviving song
+
+The source checkout also includes a **Seikilos song reader**, at
+`http://127.0.0.1:4329/pyknon/song.html` after starting the app. Its publication
+status is recorded separately in [the reading review](docs/seikilos-review.md).
+
+Select a Greek syllable to locate it in the museum's photograph and hear its
+notes. The first syllable of **φαίνου** carries three rising notes; the last
+syllable of **ἀπαιτεῖ** ends with a reversed gamma whose early misreading changed
+the melody's ending. The source images and the historical correction are
+included, with photographer credits and licenses.
+
+![Reading the ending against the actual inscription](docs/assets/seikilos-desktop.png)
+- Read four complete verses, with 29 syllables, 37 notes and English word notes.
+- Hear one syllable, its verse or the full song. Follow notes across physical
+  line breaks without moving keyboard focus.
+- Choose a modern pitch reference and pace. Playback uses equal temperament
+  and sine tones; it does not infer an ancient tuning or instrument.
+- Save a verse as WAV, or save an HTML reading with the photograph embedded,
+  all verses and their pitch tables. Both app pages work offline once saved.
+
+The Greek text is normalized; the image shows the surviving lettering.
+The duration reading follows Armand D'Angour's modern transcription. Monro's
+1894 correction supplies evidence for the final pitch sign, with its different
+rhythm explicitly identified. [Sources and image licenses](THIRD_PARTY.md).
+
 ## Run locally
 
 Requires Node.js 24 or later. Python 3 is used only for independent verification.
@@ -73,9 +99,11 @@ playback after cancellation. [Detailed model and implementation](docs/model.md).
 
 ## Accuracy and limits
 
-This is a listening experiment about transmitted theory. It does not reconstruct
-an ancient performance, melody or instrument timbre. The chosen A frequencies
-and equal-tempered piano comparison are modern. These three divisions do not
+The tetrachord comparison is a listening experiment about transmitted theory;
+it does not infer a melody or instrument timbre from those ratios. The Seikilos
+reader follows a modern transcription of surviving notation. Its pitch
+reference, equal temperament, pace and sine tones are modern choices, rather
+than recovered ancient performance details. These three tetrachord divisions do not
 represent every ancient Greek tuning; no inference about regional practice or
 musical prevalence follows from them.
 
@@ -116,6 +144,9 @@ npm run verify:ratios
 npx playwright install chromium firefox
 npm run test:browser -- /tmp/pyknon-review/browser.json
 python3 scripts/audio-oracle.py /tmp/pyknon-review/browser.json
+npm run verify:song
+npm run test:song -- /tmp/pyknon-song-review/browser.json
+python3 scripts/song-oracle.py /tmp/pyknon-song-review/browser.json
 ```
 
 The browser script serves the existing build itself. Do not rebuild `dist`
@@ -126,5 +157,6 @@ merely because a file was produced.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Changes to historical claims need a
 source; changes to audio need signal-level evidence. Code and original diagrams
-are MIT © 2026 Anton Soloviev. Public-domain scans and OFL fonts retain the
-notices in [THIRD_PARTY.md](THIRD_PARTY.md).
+are MIT © 2026 Anton Soloviev. Museum photographs and their annotated
+presentations are CC BY-SA 4.0; public-domain scans and OFL fonts retain their
+notices. See [THIRD_PARTY.md](THIRD_PARTY.md).

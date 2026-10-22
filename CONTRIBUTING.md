@@ -18,3 +18,10 @@ check offline operation. Inspect any screenshots it produces. Do not rebuild
 
 Small fixes with a reproduced user-facing problem are welcome. Include the
 observed behavior and what changed. Preserve source and font notices.
+
+For the Seikilos reader, also run `npm run verify:song`,
+`npm run test:song -- /tmp/pyknon-song-review/browser.json`, and
+`python3 scripts/song-oracle.py /tmp/pyknon-song-review/browser.json`.
+Inspect the contact sheet of all source selections as well as the page views.
+The museum photographs and annotated presentations are CC BY-SA 4.0; preserve
+those credits and terms independently of the MIT code license.

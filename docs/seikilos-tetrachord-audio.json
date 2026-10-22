@@ -1,0 +1,2329 @@
+{
+  "method": "Python wave + interpolated positive zero crossings, independent source-number frequencies",
+  "files": 38,
+  "measured_tones": 304,
+  "maximum_error_cents": 0.008145313293712937,
+  "tolerance_cents": 0.02,
+  "finite_duration_seconds": 5.95,
+  "silent_gaps_and_envelopes_checked": true,
+  "results": [
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "enharmonic",
+      "root": 110,
+      "direction": "up",
+      "file": "audio/chromium-1440-pyknon-enharmonic-110-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "792ec65bbf8078342e75ca42463940f1606e671682379466783466b1369a1ad2",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 110.0,
+          "measured_hz": 110.00003769189887,
+          "error_cents": 0.0005932135229759004
+        },
+        {
+          "note": 2,
+          "expected_hz": 114.07407407407408,
+          "measured_hz": 114.0740439817337,
+          "error_cents": 0.00045669352630075757
+        },
+        {
+          "note": 3,
+          "expected_hz": 117.33333333333333,
+          "measured_hz": 117.33338920637591,
+          "error_cents": 0.0008243973639090448
+        },
+        {
+          "note": 4,
+          "expected_hz": 146.66666666666666,
+          "measured_hz": 146.6666382428996,
+          "error_cents": 0.0003355104414173325
+        },
+        {
+          "note": 5,
+          "expected_hz": 110.0,
+          "measured_hz": 110.00003769189873,
+          "error_cents": 0.000593213520669434
+        },
+        {
+          "note": 6,
+          "expected_hz": 116.54094037952248,
+          "measured_hz": 116.5409406289247,
+          "error_cents": 3.704909208357381e-6
+        },
+        {
+          "note": 7,
+          "expected_hz": 116.54094037952248,
+          "measured_hz": 116.5409406289247,
+          "error_cents": 3.704909208357381e-6
+        },
+        {
+          "note": 8,
+          "expected_hz": 146.8323839587038,
+          "measured_hz": 146.8323324705944,
+          "error_cents": 0.0006070730537968284
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "enharmonic",
+      "root": 110,
+      "direction": "down",
+      "file": "audio/chromium-1440-pyknon-enharmonic-110-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "c36661eaee80dc3f9eecd86b5a3739b424f7dfbe02cf80f91e423f3e5e0ff9b0",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 146.66666666666666,
+          "measured_hz": 146.66663824289958,
+          "error_cents": 0.0003355104418017438
+        },
+        {
+          "note": 2,
+          "expected_hz": 117.33333333333333,
+          "measured_hz": 117.33336209151031,
+          "error_cents": 0.0004243221229937154
+        },
+        {
+          "note": 3,
+          "expected_hz": 114.07407407407408,
+          "measured_hz": 114.07404398173364,
+          "error_cents": 0.0004566935272617858
+        },
+        {
+          "note": 4,
+          "expected_hz": 110.0,
+          "measured_hz": 110.0000003769188,
+          "error_cents": 5.932133379754368e-6
+        },
+        {
+          "note": 5,
+          "expected_hz": 146.8323839587038,
+          "measured_hz": 146.83241520812592,
+          "error_cents": 0.0003684477250684858
+        },
+        {
+          "note": 6,
+          "expected_hz": 116.54094037952248,
+          "measured_hz": 116.5409406289247,
+          "error_cents": 3.704909208357381e-6
+        },
+        {
+          "note": 7,
+          "expected_hz": 116.54094037952248,
+          "measured_hz": 116.5409406289247,
+          "error_cents": 3.704909208357381e-6
+        },
+        {
+          "note": 8,
+          "expected_hz": 110.0,
+          "measured_hz": 110.0000003769188,
+          "error_cents": 5.932133379754368e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "enharmonic",
+      "root": 220,
+      "direction": "up",
+      "file": "audio/chromium-1440-pyknon-enharmonic-220-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "8ca73b5ff20f5b5715de5ced49d9a36b0ce13dc80e23cc508a37afb50545a429",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 220.0,
+          "measured_hz": 219.99995330277778,
+          "error_cents": 0.00036747195300587427
+        },
+        {
+          "note": 2,
+          "expected_hz": 228.14814814814815,
+          "measured_hz": 228.14809833658282,
+          "error_cents": 0.0003779802206426851
+        },
+        {
+          "note": 3,
+          "expected_hz": 234.66666666666666,
+          "measured_hz": 234.6666103359774,
+          "error_cents": 0.0004155750808907975
+        },
+        {
+          "note": 4,
+          "expected_hz": 293.3333333333333,
+          "measured_hz": 293.33327769559605,
+          "error_cents": 0.000328370298752325
+        },
+        {
+          "note": 5,
+          "expected_hz": 220.0,
+          "measured_hz": 219.9999533027779,
+          "error_cents": 0.0003674719522370517
+        },
+        {
+          "note": 6,
+          "expected_hz": 233.08188075904496,
+          "measured_hz": 233.0818601508838,
+          "error_cents": 0.00015306874872311955
+        },
+        {
+          "note": 7,
+          "expected_hz": 233.08188075904496,
+          "measured_hz": 233.0819600913566,
+          "error_cents": 0.0005892469002983327
+        },
+        {
+          "note": 8,
+          "expected_hz": 293.6647679174076,
+          "measured_hz": 293.6647519582237,
+          "error_cents": 9.408375232914271e-5
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "enharmonic",
+      "root": 220,
+      "direction": "down",
+      "file": "audio/chromium-1440-pyknon-enharmonic-220-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "92f2982a15be45ddde12c2e8ec110f3c6cbbede8604f6759195d717ab7e9b508",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 293.3333333333333,
+          "measured_hz": 293.33334265242564,
+          "error_cents": 5.500066937138829e-5
+        },
+        {
+          "note": 2,
+          "expected_hz": 234.66666666666666,
+          "measured_hz": 234.6666944296592,
+          "error_cents": 0.0002048191837574808
+        },
+        {
+          "note": 3,
+          "expected_hz": 228.14814814814815,
+          "measured_hz": 228.1481723501915,
+          "error_cents": 0.00018364996418751263
+        },
+        {
+          "note": 4,
+          "expected_hz": 220.0,
+          "measured_hz": 219.9999533027777,
+          "error_cents": 0.0003674719537746967
+        },
+        {
+          "note": 5,
+          "expected_hz": 293.6647679174076,
+          "measured_hz": 293.6647356822999,
+          "error_cents": 0.00019003477805842385
+        },
+        {
+          "note": 6,
+          "expected_hz": 233.08188075904496,
+          "measured_hz": 233.0818601508838,
+          "error_cents": 0.00015306874872311955
+        },
+        {
+          "note": 7,
+          "expected_hz": 233.08188075904496,
+          "measured_hz": 233.0819600913566,
+          "error_cents": 0.0005892469002983327
+        },
+        {
+          "note": 8,
+          "expected_hz": 220.0,
+          "measured_hz": 219.99995330277835,
+          "error_cents": 0.00036747194858514475
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "enharmonic",
+      "root": 440,
+      "direction": "up",
+      "file": "audio/chromium-1440-pyknon-enharmonic-440-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "7472e2089df669e50b7b3f9294d6848cde3ca0256f49b155973871bc7d9a850c",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 440.0,
+          "measured_hz": 439.99995365924013,
+          "error_cents": 0.00018233342175069664
+        },
+        {
+          "note": 2,
+          "expected_hz": 456.2962962962963,
+          "measured_hz": 456.2963439373355,
+          "error_cents": 0.0001807548858567057
+        },
+        {
+          "note": 3,
+          "expected_hz": 469.3333333333333,
+          "measured_hz": 469.33328706168936,
+          "error_cents": 0.00017068263384119377
+        },
+        {
+          "note": 4,
+          "expected_hz": 586.6666666666666,
+          "measured_hz": 586.6666943952121,
+          "error_cents": 8.182602410693453e-5
+        },
+        {
+          "note": 5,
+          "expected_hz": 440.0,
+          "measured_hz": 439.9999536592403,
+          "error_cents": 0.0001823334209818742
+        },
+        {
+          "note": 6,
+          "expected_hz": 466.1637615180899,
+          "measured_hz": 466.1638014323519,
+          "error_cents": 0.00014823315760057915
+        },
+        {
+          "note": 7,
+          "expected_hz": 466.1637615180899,
+          "measured_hz": 466.1638014323519,
+          "error_cents": 0.00014823315760057915
+        },
+        {
+          "note": 8,
+          "expected_hz": 587.3295358348151,
+          "measured_hz": 587.3294769686839,
+          "error_cents": 0.00017351597286306673
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "enharmonic",
+      "root": 440,
+      "direction": "down",
+      "file": "audio/chromium-1440-pyknon-enharmonic-440-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "3f7596d353295b66e8239624cc996de94844bb06bc5d419fad447048370ea677",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 586.6666666666666,
+          "measured_hz": 586.6666296492928,
+          "error_cents": 0.00010923705685862791
+        },
+        {
+          "note": 2,
+          "expected_hz": 469.3333333333333,
+          "measured_hz": 469.33328706168913,
+          "error_cents": 0.0001706826346100162
+        },
+        {
+          "note": 3,
+          "expected_hz": 456.2962962962963,
+          "measured_hz": 456.296293636929,
+          "error_cents": 1.0089907064237646e-5
+        },
+        {
+          "note": 4,
+          "expected_hz": 440.0,
+          "measured_hz": 439.99995365923985,
+          "error_cents": 0.0001823334229039303
+        },
+        {
+          "note": 5,
+          "expected_hz": 587.3295358348151,
+          "measured_hz": 587.3294769686839,
+          "error_cents": 0.00017351597286306673
+        },
+        {
+          "note": 6,
+          "expected_hz": 466.1637615180899,
+          "measured_hz": 466.1638014323519,
+          "error_cents": 0.00014823315760057915
+        },
+        {
+          "note": 7,
+          "expected_hz": 466.1637615180899,
+          "measured_hz": 466.1638014323519,
+          "error_cents": 0.00014823315760057915
+        },
+        {
+          "note": 8,
+          "expected_hz": 440.0,
+          "measured_hz": 439.9999536592403,
+          "error_cents": 0.0001823334209818742
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "chromatic",
+      "root": 110,
+      "direction": "up",
+      "file": "audio/chromium-1440-pyknon-chromatic-110-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "791d202101018812027ea54d1c2650684615c59745acbd12b75eba004dea7768",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 110.0,
+          "measured_hz": 110.00003769189887,
+          "error_cents": 0.0005932135229759004
+        },
+        {
+          "note": 2,
+          "expected_hz": 114.07407407407408,
+          "measured_hz": 114.0740439817337,
+          "error_cents": 0.00045669352630075757
+        },
+        {
+          "note": 3,
+          "expected_hz": 123.75,
+          "measured_hz": 123.74991638702146,
+          "error_cents": 0.0011697267418908305
+        },
+        {
+          "note": 4,
+          "expected_hz": 146.66666666666666,
+          "measured_hz": 146.6666382428996,
+          "error_cents": 0.0003355104414173325
+        },
+        {
+          "note": 5,
+          "expected_hz": 110.0,
+          "measured_hz": 110.00003769189873,
+          "error_cents": 0.000593213520669434
+        },
+        {
+          "note": 6,
+          "expected_hz": 116.54094037952248,
+          "measured_hz": 116.5409406289247,
+          "error_cents": 3.704909208357381e-6
+        },
+        {
+          "note": 7,
+          "expected_hz": 123.47082531403103,
+          "measured_hz": 123.47085735624997,
+          "error_cents": 0.0004492767670051523
+        },
+        {
+          "note": 8,
+          "expected_hz": 146.8323839587038,
+          "measured_hz": 146.8323324705944,
+          "error_cents": 0.0006070730537968284
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "chromatic",
+      "root": 110,
+      "direction": "down",
+      "file": "audio/chromium-1440-pyknon-chromatic-110-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "9fefc67b7c5cb8b4a56cb203633f24ab27aa998b8ae36219c0f41394ef95c7cb",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 146.66666666666666,
+          "measured_hz": 146.66663824289958,
+          "error_cents": 0.0003355104418017438
+        },
+        {
+          "note": 2,
+          "expected_hz": 123.75,
+          "measured_hz": 123.75000947840148,
+          "error_cents": 0.00013260065267200737
+        },
+        {
+          "note": 3,
+          "expected_hz": 114.07407407407408,
+          "measured_hz": 114.07404398173364,
+          "error_cents": 0.0004566935272617858
+        },
+        {
+          "note": 4,
+          "expected_hz": 110.0,
+          "measured_hz": 110.0000003769188,
+          "error_cents": 5.932133379754368e-6
+        },
+        {
+          "note": 5,
+          "expected_hz": 146.8323839587038,
+          "measured_hz": 146.83241520812592,
+          "error_cents": 0.0003684477250684858
+        },
+        {
+          "note": 6,
+          "expected_hz": 123.47082531403103,
+          "measured_hz": 123.4708536493723,
+          "error_cents": 0.000397301158677037
+        },
+        {
+          "note": 7,
+          "expected_hz": 116.54094037952248,
+          "measured_hz": 116.5409406289247,
+          "error_cents": 3.704909208357381e-6
+        },
+        {
+          "note": 8,
+          "expected_hz": 110.0,
+          "measured_hz": 110.0000003769188,
+          "error_cents": 5.932133379754368e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "chromatic",
+      "root": 220,
+      "direction": "up",
+      "file": "audio/chromium-1440-pyknon-chromatic-220-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "5a24b2d0a2402d1f71b199a88c589c943bd3dfcec5472e3db1b9c81052caf1da",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 220.0,
+          "measured_hz": 219.99995330277778,
+          "error_cents": 0.00036747195300587427
+        },
+        {
+          "note": 2,
+          "expected_hz": 228.14814814814815,
+          "measured_hz": 228.14809833658282,
+          "error_cents": 0.0003779802206426851
+        },
+        {
+          "note": 3,
+          "expected_hz": 247.5,
+          "measured_hz": 247.4999333800062,
+          "error_cents": 0.0004659992610329876
+        },
+        {
+          "note": 4,
+          "expected_hz": 293.3333333333333,
+          "measured_hz": 293.33327769559605,
+          "error_cents": 0.000328370298752325
+        },
+        {
+          "note": 5,
+          "expected_hz": 220.0,
+          "measured_hz": 219.9999533027779,
+          "error_cents": 0.0003674719522370517
+        },
+        {
+          "note": 6,
+          "expected_hz": 233.08188075904496,
+          "measured_hz": 233.0818601508838,
+          "error_cents": 0.00015306874872311955
+        },
+        {
+          "note": 7,
+          "expected_hz": 246.94165062806206,
+          "measured_hz": 246.94162662764316,
+          "error_cents": 0.00016825976623921217
+        },
+        {
+          "note": 8,
+          "expected_hz": 293.6647679174076,
+          "measured_hz": 293.6647519582237,
+          "error_cents": 9.408375232914271e-5
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "chromatic",
+      "root": 220,
+      "direction": "down",
+      "file": "audio/chromium-1440-pyknon-chromatic-220-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "37edaea8fe8378c7a9c7568392fb39e877f4787f54ab73e38c5fcf121ef2cfec",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 293.3333333333333,
+          "measured_hz": 293.33334265242564,
+          "error_cents": 5.500066937138829e-5
+        },
+        {
+          "note": 2,
+          "expected_hz": 247.5,
+          "measured_hz": 247.49995696294476,
+          "error_cents": 0.00030103928025420045
+        },
+        {
+          "note": 3,
+          "expected_hz": 228.14814814814815,
+          "measured_hz": 228.1481723501915,
+          "error_cents": 0.00018364996418751263
+        },
+        {
+          "note": 4,
+          "expected_hz": 220.0,
+          "measured_hz": 219.9999533027777,
+          "error_cents": 0.0003674719537746967
+        },
+        {
+          "note": 5,
+          "expected_hz": 293.6647679174076,
+          "measured_hz": 293.6647356822999,
+          "error_cents": 0.00019003477805842385
+        },
+        {
+          "note": 6,
+          "expected_hz": 246.94165062806206,
+          "measured_hz": 246.94162662764316,
+          "error_cents": 0.00016825976623921217
+        },
+        {
+          "note": 7,
+          "expected_hz": 233.08188075904496,
+          "measured_hz": 233.0819600913566,
+          "error_cents": 0.0005892469002983327
+        },
+        {
+          "note": 8,
+          "expected_hz": 220.0,
+          "measured_hz": 219.99995330277835,
+          "error_cents": 0.00036747194858514475
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "chromatic",
+      "root": 440,
+      "direction": "up",
+      "file": "audio/chromium-1440-pyknon-chromatic-440-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "2c24a1f44f0575a9deefbffab2fb8336010f41ad8ec1d2655bed32cee377c34d",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 440.0,
+          "measured_hz": 439.99995365924013,
+          "error_cents": 0.00018233342175069664
+        },
+        {
+          "note": 2,
+          "expected_hz": 456.2962962962963,
+          "measured_hz": 456.2963439373355,
+          "error_cents": 0.0001807548858567057
+        },
+        {
+          "note": 3,
+          "expected_hz": 495.0,
+          "measured_hz": 495.0000051960041,
+          "error_cents": 1.8172725550061785e-5
+        },
+        {
+          "note": 4,
+          "expected_hz": 586.6666666666666,
+          "measured_hz": 586.6666943952121,
+          "error_cents": 8.182602410693453e-5
+        },
+        {
+          "note": 5,
+          "expected_hz": 440.0,
+          "measured_hz": 439.9999536592403,
+          "error_cents": 0.0001823334209818742
+        },
+        {
+          "note": 6,
+          "expected_hz": 466.1637615180899,
+          "measured_hz": 466.1638014323519,
+          "error_cents": 0.00014823315760057915
+        },
+        {
+          "note": 7,
+          "expected_hz": 493.8833012561241,
+          "measured_hz": 493.883268838117,
+          "error_cents": 0.00011363647953519384
+        },
+        {
+          "note": 8,
+          "expected_hz": 587.3295358348151,
+          "measured_hz": 587.3294769686839,
+          "error_cents": 0.00017351597286306673
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "chromatic",
+      "root": 440,
+      "direction": "down",
+      "file": "audio/chromium-1440-pyknon-chromatic-440-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "98e6065a5b993bf4f23325d5a1991f963f5e5864e7f24f612b63bc2deb65d551",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 586.6666666666666,
+          "measured_hz": 586.6666296492928,
+          "error_cents": 0.00010923705685862791
+        },
+        {
+          "note": 2,
+          "expected_hz": 495.0,
+          "measured_hz": 495.00001537038014,
+          "error_cents": 5.3757020437378915e-5
+        },
+        {
+          "note": 3,
+          "expected_hz": 456.2962962962963,
+          "measured_hz": 456.296293636929,
+          "error_cents": 1.0089907064237646e-5
+        },
+        {
+          "note": 4,
+          "expected_hz": 440.0,
+          "measured_hz": 439.99995365923985,
+          "error_cents": 0.0001823334229039303
+        },
+        {
+          "note": 5,
+          "expected_hz": 587.3295358348151,
+          "measured_hz": 587.3294769686839,
+          "error_cents": 0.00017351597286306673
+        },
+        {
+          "note": 6,
+          "expected_hz": 493.8833012561241,
+          "measured_hz": 493.8833011198954,
+          "error_cents": 4.775294072330223e-7
+        },
+        {
+          "note": 7,
+          "expected_hz": 466.1637615180899,
+          "measured_hz": 466.1638014323519,
+          "error_cents": 0.00014823315760057915
+        },
+        {
+          "note": 8,
+          "expected_hz": 440.0,
+          "measured_hz": 439.9999536592403,
+          "error_cents": 0.0001823334209818742
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "diatonic",
+      "root": 110,
+      "direction": "up",
+      "file": "audio/chromium-1440-pyknon-diatonic-110-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "00b88e89c46cf0c212376558d0f168aa5273486a3b4b82a00c032ecb822a2c21",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 110.0,
+          "measured_hz": 110.00003769189887,
+          "error_cents": 0.0005932135229759004
+        },
+        {
+          "note": 2,
+          "expected_hz": 114.07407407407408,
+          "measured_hz": 114.0740439817337,
+          "error_cents": 0.00045669352630075757
+        },
+        {
+          "note": 3,
+          "expected_hz": 130.37037037037038,
+          "measured_hz": 130.3703608522709,
+          "error_cents": 0.000126394198932555
+        },
+        {
+          "note": 4,
+          "expected_hz": 146.66666666666666,
+          "measured_hz": 146.6666382428996,
+          "error_cents": 0.0003355104414173325
+        },
+        {
+          "note": 5,
+          "expected_hz": 110.0,
+          "measured_hz": 110.00003769189873,
+          "error_cents": 0.000593213520669434
+        },
+        {
+          "note": 6,
+          "expected_hz": 116.54094037952248,
+          "measured_hz": 116.5409406289247,
+          "error_cents": 3.704909208357381e-6
+        },
+        {
+          "note": 7,
+          "expected_hz": 130.8127826502993,
+          "measured_hz": 130.81277918243111,
+          "error_cents": 4.58952975523764e-5
+        },
+        {
+          "note": 8,
+          "expected_hz": 146.8323839587038,
+          "measured_hz": 146.8323324705944,
+          "error_cents": 0.0006070730537968284
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "diatonic",
+      "root": 110,
+      "direction": "down",
+      "file": "audio/chromium-1440-pyknon-diatonic-110-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "b7a82582d8fe501e3d09849c4c6ba5a91a1ce3cb1e305afd89c3a03e0741fb39",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 146.66666666666666,
+          "measured_hz": 146.66663824289958,
+          "error_cents": 0.0003355104418017438
+        },
+        {
+          "note": 2,
+          "expected_hz": 130.37037037037038,
+          "measured_hz": 130.37036085227084,
+          "error_cents": 0.00012639419970137742
+        },
+        {
+          "note": 3,
+          "expected_hz": 114.07407407407408,
+          "measured_hz": 114.07404398173364,
+          "error_cents": 0.0004566935272617858
+        },
+        {
+          "note": 4,
+          "expected_hz": 110.0,
+          "measured_hz": 110.0000003769188,
+          "error_cents": 5.932133379754368e-6
+        },
+        {
+          "note": 5,
+          "expected_hz": 146.8323839587038,
+          "measured_hz": 146.83241520812592,
+          "error_cents": 0.0003684477250684858
+        },
+        {
+          "note": 6,
+          "expected_hz": 130.8127826502993,
+          "measured_hz": 130.81280684153532,
+          "error_cents": 0.0003201574551660921
+        },
+        {
+          "note": 7,
+          "expected_hz": 116.54094037952248,
+          "measured_hz": 116.5409406289247,
+          "error_cents": 3.704909208357381e-6
+        },
+        {
+          "note": 8,
+          "expected_hz": 110.0,
+          "measured_hz": 110.0000003769188,
+          "error_cents": 5.932133379754368e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "diatonic",
+      "root": 220,
+      "direction": "up",
+      "file": "audio/chromium-1440-pyknon-diatonic-220-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "a341eeb054f5f01f45082063485a2671ac6c8ac91121b79069370c4729cdaaaa",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 220.0,
+          "measured_hz": 219.99995330277778,
+          "error_cents": 0.00036747195300587427
+        },
+        {
+          "note": 2,
+          "expected_hz": 228.14814814814815,
+          "measured_hz": 228.14809833658282,
+          "error_cents": 0.0003779802206426851
+        },
+        {
+          "note": 3,
+          "expected_hz": 260.74074074074076,
+          "measured_hz": 260.74074074074076,
+          "error_cents": 0.0
+        },
+        {
+          "note": 4,
+          "expected_hz": 293.3333333333333,
+          "measured_hz": 293.33327769559605,
+          "error_cents": 0.000328370298752325
+        },
+        {
+          "note": 5,
+          "expected_hz": 220.0,
+          "measured_hz": 219.9999533027779,
+          "error_cents": 0.0003674719522370517
+        },
+        {
+          "note": 6,
+          "expected_hz": 233.08188075904496,
+          "measured_hz": 233.0818601508838,
+          "error_cents": 0.00015306874872311955
+        },
+        {
+          "note": 7,
+          "expected_hz": 261.6255653005986,
+          "measured_hz": 261.6255405799194,
+          "error_cents": 0.0001635821925010162
+        },
+        {
+          "note": 8,
+          "expected_hz": 293.6647679174076,
+          "measured_hz": 293.6647519582237,
+          "error_cents": 9.408375232914271e-5
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "diatonic",
+      "root": 220,
+      "direction": "down",
+      "file": "audio/chromium-1440-pyknon-diatonic-220-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "992ea5252218d4b164eeb144539c07076c7347d09a4bd5c251ea3f125325f027",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 293.3333333333333,
+          "measured_hz": 293.33334265242564,
+          "error_cents": 5.500066937138829e-5
+        },
+        {
+          "note": 2,
+          "expected_hz": 260.74074074074076,
+          "measured_hz": 260.74076840745187,
+          "error_cents": 0.00018369798905560323
+        },
+        {
+          "note": 3,
+          "expected_hz": 228.14814814814815,
+          "measured_hz": 228.1481723501915,
+          "error_cents": 0.00018364996418751263
+        },
+        {
+          "note": 4,
+          "expected_hz": 220.0,
+          "measured_hz": 219.9999533027777,
+          "error_cents": 0.0003674719537746967
+        },
+        {
+          "note": 5,
+          "expected_hz": 293.6647679174076,
+          "measured_hz": 293.6647356822999,
+          "error_cents": 0.00019003477805842385
+        },
+        {
+          "note": 6,
+          "expected_hz": 261.6255653005986,
+          "measured_hz": 261.6255905859191,
+          "error_cents": 0.00016731853246399386
+        },
+        {
+          "note": 7,
+          "expected_hz": 233.08188075904496,
+          "measured_hz": 233.0819600913566,
+          "error_cents": 0.0005892469002983327
+        },
+        {
+          "note": 8,
+          "expected_hz": 220.0,
+          "measured_hz": 219.99995330277835,
+          "error_cents": 0.00036747194858514475
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "diatonic",
+      "root": 440,
+      "direction": "up",
+      "file": "audio/chromium-1440-pyknon-diatonic-440-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "a8a528572bbef90648908cba00c940944547a182ccc44d17c9a3e46ef411e618",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 440.0,
+          "measured_hz": 439.99995365924013,
+          "error_cents": 0.00018233342175069664
+        },
+        {
+          "note": 2,
+          "expected_hz": 456.2962962962963,
+          "measured_hz": 456.2963439373355,
+          "error_cents": 0.0001807548858567057
+        },
+        {
+          "note": 3,
+          "expected_hz": 521.4814814814815,
+          "measured_hz": 521.4814353703052,
+          "error_cents": 0.00015308164302848572
+        },
+        {
+          "note": 4,
+          "expected_hz": 586.6666666666666,
+          "measured_hz": 586.6666943952121,
+          "error_cents": 8.182602410693453e-5
+        },
+        {
+          "note": 5,
+          "expected_hz": 440.0,
+          "measured_hz": 439.9999536592403,
+          "error_cents": 0.0001823334209818742
+        },
+        {
+          "note": 6,
+          "expected_hz": 466.1637615180899,
+          "measured_hz": 466.1638014323519,
+          "error_cents": 0.00014823315760057915
+        },
+        {
+          "note": 7,
+          "expected_hz": 523.2511306011972,
+          "measured_hz": 523.2510880820948,
+          "error_cents": 0.0001406791434197312
+        },
+        {
+          "note": 8,
+          "expected_hz": 587.3295358348151,
+          "measured_hz": 587.3294769686839,
+          "error_cents": 0.00017351597286306673
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "diatonic",
+      "root": 440,
+      "direction": "down",
+      "file": "audio/chromium-1440-pyknon-diatonic-440-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "b9510fe1c2853cca2230defdbacb1e8e52f4f623d0494b58ae146db55e863462",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 586.6666666666666,
+          "measured_hz": 586.6666296492928,
+          "error_cents": 0.00010923705685862791
+        },
+        {
+          "note": 2,
+          "expected_hz": 521.4814814814815,
+          "measured_hz": 521.4814353703052,
+          "error_cents": 0.00015308164302848572
+        },
+        {
+          "note": 3,
+          "expected_hz": 456.2962962962963,
+          "measured_hz": 456.296293636929,
+          "error_cents": 1.0089907064237646e-5
+        },
+        {
+          "note": 4,
+          "expected_hz": 440.0,
+          "measured_hz": 439.99995365923985,
+          "error_cents": 0.0001823334229039303
+        },
+        {
+          "note": 5,
+          "expected_hz": 587.3295358348151,
+          "measured_hz": 587.3294769686839,
+          "error_cents": 0.00017351597286306673
+        },
+        {
+          "note": 6,
+          "expected_hz": 523.2511306011972,
+          "measured_hz": 523.2510880820948,
+          "error_cents": 0.0001406791434197312
+        },
+        {
+          "note": 7,
+          "expected_hz": 466.1637615180899,
+          "measured_hz": 466.1638014323519,
+          "error_cents": 0.00014823315760057915
+        },
+        {
+          "note": 8,
+          "expected_hz": 440.0,
+          "measured_hz": 439.9999536592403,
+          "error_cents": 0.0001823334209818742
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "genus": "enharmonic",
+      "root": 220,
+      "direction": "up",
+      "file": "audio/chromium-375-pyknon-enharmonic-220-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "8ca73b5ff20f5b5715de5ced49d9a36b0ce13dc80e23cc508a37afb50545a429",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 220.0,
+          "measured_hz": 219.99995330277778,
+          "error_cents": 0.00036747195300587427
+        },
+        {
+          "note": 2,
+          "expected_hz": 228.14814814814815,
+          "measured_hz": 228.14809833658282,
+          "error_cents": 0.0003779802206426851
+        },
+        {
+          "note": 3,
+          "expected_hz": 234.66666666666666,
+          "measured_hz": 234.6666103359774,
+          "error_cents": 0.0004155750808907975
+        },
+        {
+          "note": 4,
+          "expected_hz": 293.3333333333333,
+          "measured_hz": 293.33327769559605,
+          "error_cents": 0.000328370298752325
+        },
+        {
+          "note": 5,
+          "expected_hz": 220.0,
+          "measured_hz": 219.9999533027779,
+          "error_cents": 0.0003674719522370517
+        },
+        {
+          "note": 6,
+          "expected_hz": 233.08188075904496,
+          "measured_hz": 233.0818601508838,
+          "error_cents": 0.00015306874872311955
+        },
+        {
+          "note": 7,
+          "expected_hz": 233.08188075904496,
+          "measured_hz": 233.0819600913566,
+          "error_cents": 0.0005892469002983327
+        },
+        {
+          "note": 8,
+          "expected_hz": 293.6647679174076,
+          "measured_hz": 293.6647519582237,
+          "error_cents": 9.408375232914271e-5
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "enharmonic",
+      "root": 110,
+      "direction": "up",
+      "file": "audio/firefox-1440-pyknon-enharmonic-110-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "6714b55f088c5cb1b95bc9675ed79e558877bf365ac63d6f37b4a37bf809c557",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 110.0,
+          "measured_hz": 110.00037490990354,
+          "error_cents": 0.005900506220460646
+        },
+        {
+          "note": 2,
+          "expected_hz": 114.07407407407408,
+          "measured_hz": 114.0735373662346,
+          "error_cents": 0.008145313292751904
+        },
+        {
+          "note": 3,
+          "expected_hz": 117.33333333333333,
+          "measured_hz": 117.33347795278591,
+          "error_cents": 0.002133834939121834
+        },
+        {
+          "note": 4,
+          "expected_hz": 146.66666666666666,
+          "measured_hz": 146.66619762901456,
+          "error_cents": 0.0055364676272441835
+        },
+        {
+          "note": 5,
+          "expected_hz": 110.0,
+          "measured_hz": 110.00037490990357,
+          "error_cents": 0.005900506221229466
+        },
+        {
+          "note": 6,
+          "expected_hz": 116.54094037952248,
+          "measured_hz": 116.5405245216222,
+          "error_cents": 0.006177645715760862
+        },
+        {
+          "note": 7,
+          "expected_hz": 116.54094037952248,
+          "measured_hz": 116.5405245216222,
+          "error_cents": 0.006177645715760862
+        },
+        {
+          "note": 8,
+          "expected_hz": 146.8323839587038,
+          "measured_hz": 146.83255379370058,
+          "error_cents": 0.0020024462668981045
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "enharmonic",
+      "root": 110,
+      "direction": "down",
+      "file": "audio/firefox-1440-pyknon-enharmonic-110-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "f0651f563da92d7da90f300f167db00e99d04e83f8dc5569890e3c16d057828b",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 146.66666666666666,
+          "measured_hz": 146.66619762901465,
+          "error_cents": 0.005536467626283153
+        },
+        {
+          "note": 2,
+          "expected_hz": 117.33333333333333,
+          "measured_hz": 117.33347795278591,
+          "error_cents": 0.002133834939121834
+        },
+        {
+          "note": 3,
+          "expected_hz": 114.07407407407408,
+          "measured_hz": 114.07353736623455,
+          "error_cents": 0.008145313293712937
+        },
+        {
+          "note": 4,
+          "expected_hz": 110.0,
+          "measured_hz": 110.00037490990346,
+          "error_cents": 0.005900506219307417
+        },
+        {
+          "note": 5,
+          "expected_hz": 146.8323839587038,
+          "measured_hz": 146.8325537937003,
+          "error_cents": 0.0020024462638228184
+        },
+        {
+          "note": 6,
+          "expected_hz": 116.54094037952248,
+          "measured_hz": 116.5405245216222,
+          "error_cents": 0.006177645715760862
+        },
+        {
+          "note": 7,
+          "expected_hz": 116.54094037952248,
+          "measured_hz": 116.5405245216222,
+          "error_cents": 0.006177645715760862
+        },
+        {
+          "note": 8,
+          "expected_hz": 110.0,
+          "measured_hz": 110.00037490990357,
+          "error_cents": 0.005900506221229466
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "enharmonic",
+      "root": 220,
+      "direction": "up",
+      "file": "audio/firefox-1440-pyknon-enharmonic-220-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "9434ab2beeb4e048cb32b6a9f3a36e4e6f19456b8c3643da4d5079d56cd93e36",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 220.0,
+          "measured_hz": 220.00036423901366,
+          "error_cents": 0.0028662839110710366
+        },
+        {
+          "note": 2,
+          "expected_hz": 228.14814814814815,
+          "measured_hz": 228.1476509517748,
+          "error_cents": 0.0037728302225013477
+        },
+        {
+          "note": 3,
+          "expected_hz": 234.66666666666666,
+          "measured_hz": 234.66699982301077,
+          "error_cents": 0.002457831806011686
+        },
+        {
+          "note": 4,
+          "expected_hz": 293.3333333333333,
+          "measured_hz": 293.3336501828059,
+          "error_cents": 0.0018700237469314875
+        },
+        {
+          "note": 5,
+          "expected_hz": 220.0,
+          "measured_hz": 220.00036423901338,
+          "error_cents": 0.002866283908764573
+        },
+        {
+          "note": 6,
+          "expected_hz": 233.08188075904496,
+          "measured_hz": 233.08227022975686,
+          "error_cents": 0.002892822007605977
+        },
+        {
+          "note": 7,
+          "expected_hz": 233.08188075904496,
+          "measured_hz": 233.08227022975686,
+          "error_cents": 0.002892822007605977
+        },
+        {
+          "note": 8,
+          "expected_hz": 293.6647679174076,
+          "measured_hz": 293.6651324084867,
+          "error_cents": 0.0021487731733304174
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "enharmonic",
+      "root": 220,
+      "direction": "down",
+      "file": "audio/firefox-1440-pyknon-enharmonic-220-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "c7652f70a54063c49a0495d90db1af4b4a98c836f05f94c884e6725209542b52",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 293.3333333333333,
+          "measured_hz": 293.33365018280585,
+          "error_cents": 0.001870023746547077
+        },
+        {
+          "note": 2,
+          "expected_hz": 234.66666666666666,
+          "measured_hz": 234.66699982301077,
+          "error_cents": 0.002457831806011686
+        },
+        {
+          "note": 3,
+          "expected_hz": 228.14814814814815,
+          "measured_hz": 228.1476509517747,
+          "error_cents": 0.003772830223270172
+        },
+        {
+          "note": 4,
+          "expected_hz": 220.0,
+          "measured_hz": 220.0003642390136,
+          "error_cents": 0.0028662839106866262
+        },
+        {
+          "note": 5,
+          "expected_hz": 293.6647679174076,
+          "measured_hz": 293.6651324084867,
+          "error_cents": 0.0021487731733304174
+        },
+        {
+          "note": 6,
+          "expected_hz": 233.08188075904496,
+          "measured_hz": 233.08227022975686,
+          "error_cents": 0.002892822007605977
+        },
+        {
+          "note": 7,
+          "expected_hz": 233.08188075904496,
+          "measured_hz": 233.08227022975686,
+          "error_cents": 0.002892822007605977
+        },
+        {
+          "note": 8,
+          "expected_hz": 220.0,
+          "measured_hz": 220.00036423901338,
+          "error_cents": 0.002866283908764573
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "enharmonic",
+      "root": 440,
+      "direction": "up",
+      "file": "audio/firefox-1440-pyknon-enharmonic-440-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "4dcef89fce0514eedb946dc1a40eaa68467760397e093e82fad8c1ba1b3bc947",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 440.0,
+          "measured_hz": 439.999851709603,
+          "error_cents": 0.0005834668811548375
+        },
+        {
+          "note": 2,
+          "expected_hz": 456.2962962962963,
+          "measured_hz": 456.2966496342392,
+          "error_cents": 0.0013405991802403294
+        },
+        {
+          "note": 3,
+          "expected_hz": 469.3333333333333,
+          "measured_hz": 469.3338978481273,
+          "error_cents": 0.0020823294987622003
+        },
+        {
+          "note": 4,
+          "expected_hz": 586.6666666666666,
+          "measured_hz": 586.6668334978202,
+          "error_cents": 0.0004923131803383418
+        },
+        {
+          "note": 5,
+          "expected_hz": 440.0,
+          "measured_hz": 439.99985170960315,
+          "error_cents": 0.0005834668805782205
+        },
+        {
+          "note": 6,
+          "expected_hz": 466.1637615180899,
+          "measured_hz": 466.16400499648546,
+          "error_cents": 0.0009042272550616321
+        },
+        {
+          "note": 7,
+          "expected_hz": 466.1637615180899,
+          "measured_hz": 466.16400499648546,
+          "error_cents": 0.0009042272550616321
+        },
+        {
+          "note": 8,
+          "expected_hz": 587.3295358348151,
+          "measured_hz": 587.3297809354644,
+          "error_cents": 0.0007224674993856927
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "enharmonic",
+      "root": 440,
+      "direction": "down",
+      "file": "audio/firefox-1440-pyknon-enharmonic-440-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "6688bc80cee8e2542d55be99db285810900bac8cba0af2a353c6f9be0deb751d",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 586.6666666666666,
+          "measured_hz": 586.6668334978203,
+          "error_cents": 0.0004923131807227529
+        },
+        {
+          "note": 2,
+          "expected_hz": 469.3333333333333,
+          "measured_hz": 469.3338978481273,
+          "error_cents": 0.0020823294987622003
+        },
+        {
+          "note": 3,
+          "expected_hz": 456.2962962962963,
+          "measured_hz": 456.2966496342397,
+          "error_cents": 0.001340599182162384
+        },
+        {
+          "note": 4,
+          "expected_hz": 440.0,
+          "measured_hz": 439.99985170960315,
+          "error_cents": 0.0005834668805782205
+        },
+        {
+          "note": 5,
+          "expected_hz": 587.3295358348151,
+          "measured_hz": 587.3297809354644,
+          "error_cents": 0.0007224674993856927
+        },
+        {
+          "note": 6,
+          "expected_hz": 466.1637615180899,
+          "measured_hz": 466.16400499648546,
+          "error_cents": 0.0009042272550616321
+        },
+        {
+          "note": 7,
+          "expected_hz": 466.1637615180899,
+          "measured_hz": 466.16400499648546,
+          "error_cents": 0.0009042272550616321
+        },
+        {
+          "note": 8,
+          "expected_hz": 440.0,
+          "measured_hz": 439.99985170960315,
+          "error_cents": 0.0005834668805782205
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "chromatic",
+      "root": 110,
+      "direction": "up",
+      "file": "audio/firefox-1440-pyknon-chromatic-110-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "e23b0895a2bd45cb8abf7430e958e11fca466335dde052560f60e443400ef46c",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 110.0,
+          "measured_hz": 110.00037490990354,
+          "error_cents": 0.005900506220460646
+        },
+        {
+          "note": 2,
+          "expected_hz": 114.07407407407408,
+          "measured_hz": 114.0735373662346,
+          "error_cents": 0.008145313292751904
+        },
+        {
+          "note": 3,
+          "expected_hz": 123.75,
+          "measured_hz": 123.74957270492335,
+          "error_cents": 0.00597777020475666
+        },
+        {
+          "note": 4,
+          "expected_hz": 146.66666666666666,
+          "measured_hz": 146.66619762901456,
+          "error_cents": 0.0055364676272441835
+        },
+        {
+          "note": 5,
+          "expected_hz": 110.0,
+          "measured_hz": 110.00037490990357,
+          "error_cents": 0.005900506221229466
+        },
+        {
+          "note": 6,
+          "expected_hz": 116.54094037952248,
+          "measured_hz": 116.5405245216222,
+          "error_cents": 0.006177645715760862
+        },
+        {
+          "note": 7,
+          "expected_hz": 123.47082531403103,
+          "measured_hz": 123.47131948203896,
+          "error_cents": 0.006928914316986865
+        },
+        {
+          "note": 8,
+          "expected_hz": 146.8323839587038,
+          "measured_hz": 146.83255379370058,
+          "error_cents": 0.0020024462668981045
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "chromatic",
+      "root": 110,
+      "direction": "down",
+      "file": "audio/firefox-1440-pyknon-chromatic-110-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "548f060af24f484a0e955559b061872235cc8e6d0eb6b4a690c4dd6a1d23c50e",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 146.66666666666666,
+          "measured_hz": 146.66619762901465,
+          "error_cents": 0.005536467626283153
+        },
+        {
+          "note": 2,
+          "expected_hz": 123.75,
+          "measured_hz": 123.74957270492335,
+          "error_cents": 0.00597777020475666
+        },
+        {
+          "note": 3,
+          "expected_hz": 114.07407407407408,
+          "measured_hz": 114.07353736623455,
+          "error_cents": 0.008145313293712937
+        },
+        {
+          "note": 4,
+          "expected_hz": 110.0,
+          "measured_hz": 110.00037490990346,
+          "error_cents": 0.005900506219307417
+        },
+        {
+          "note": 5,
+          "expected_hz": 146.8323839587038,
+          "measured_hz": 146.8325537937003,
+          "error_cents": 0.0020024462638228184
+        },
+        {
+          "note": 6,
+          "expected_hz": 123.47082531403103,
+          "measured_hz": 123.47131948203896,
+          "error_cents": 0.006928914316986865
+        },
+        {
+          "note": 7,
+          "expected_hz": 116.54094037952248,
+          "measured_hz": 116.5405245216222,
+          "error_cents": 0.006177645715760862
+        },
+        {
+          "note": 8,
+          "expected_hz": 110.0,
+          "measured_hz": 110.00037490990357,
+          "error_cents": 0.005900506221229466
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "chromatic",
+      "root": 220,
+      "direction": "up",
+      "file": "audio/firefox-1440-pyknon-chromatic-220-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "cfc714ff5472079c958b0d472fb24dadb63cb8f7e99a3b532b123911e0344f25",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 220.0,
+          "measured_hz": 220.00036423901366,
+          "error_cents": 0.0028662839110710366
+        },
+        {
+          "note": 2,
+          "expected_hz": 228.14814814814815,
+          "measured_hz": 228.1476509517748,
+          "error_cents": 0.0037728302225013477
+        },
+        {
+          "note": 3,
+          "expected_hz": 247.5,
+          "measured_hz": 247.50033452903293,
+          "error_cents": 0.0023399905485615782
+        },
+        {
+          "note": 4,
+          "expected_hz": 293.3333333333333,
+          "measured_hz": 293.3336501828059,
+          "error_cents": 0.0018700237469314875
+        },
+        {
+          "note": 5,
+          "expected_hz": 220.0,
+          "measured_hz": 220.00036423901338,
+          "error_cents": 0.002866283908764573
+        },
+        {
+          "note": 6,
+          "expected_hz": 233.08188075904496,
+          "measured_hz": 233.08227022975686,
+          "error_cents": 0.002892822007605977
+        },
+        {
+          "note": 7,
+          "expected_hz": 246.94165062806206,
+          "measured_hz": 246.94209244540517,
+          "error_cents": 0.0030974464681094785
+        },
+        {
+          "note": 8,
+          "expected_hz": 293.6647679174076,
+          "measured_hz": 293.6651324084867,
+          "error_cents": 0.0021487731733304174
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "chromatic",
+      "root": 220,
+      "direction": "down",
+      "file": "audio/firefox-1440-pyknon-chromatic-220-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "eb64fc78aa05372e42781ea1f411bbadf0c2efdc5ebae8bc43c1f96888ee9748",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 293.3333333333333,
+          "measured_hz": 293.33365018280585,
+          "error_cents": 0.001870023746547077
+        },
+        {
+          "note": 2,
+          "expected_hz": 247.5,
+          "measured_hz": 247.5003345290328,
+          "error_cents": 0.0023399905477927566
+        },
+        {
+          "note": 3,
+          "expected_hz": 228.14814814814815,
+          "measured_hz": 228.1476509517747,
+          "error_cents": 0.003772830223270172
+        },
+        {
+          "note": 4,
+          "expected_hz": 220.0,
+          "measured_hz": 220.0003642390136,
+          "error_cents": 0.0028662839106866262
+        },
+        {
+          "note": 5,
+          "expected_hz": 293.6647679174076,
+          "measured_hz": 293.6651324084867,
+          "error_cents": 0.0021487731733304174
+        },
+        {
+          "note": 6,
+          "expected_hz": 246.94165062806206,
+          "measured_hz": 246.94209244540517,
+          "error_cents": 0.0030974464681094785
+        },
+        {
+          "note": 7,
+          "expected_hz": 233.08188075904496,
+          "measured_hz": 233.08227022975686,
+          "error_cents": 0.002892822007605977
+        },
+        {
+          "note": 8,
+          "expected_hz": 220.0,
+          "measured_hz": 220.00036423901338,
+          "error_cents": 0.002866283908764573
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "chromatic",
+      "root": 440,
+      "direction": "up",
+      "file": "audio/firefox-1440-pyknon-chromatic-440-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "21685221bdc42d53302519c5534f71ba4f7ed2733c4fdef15ebc1df2e8c1f579",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 440.0,
+          "measured_hz": 439.999851709603,
+          "error_cents": 0.0005834668811548375
+        },
+        {
+          "note": 2,
+          "expected_hz": 456.2962962962963,
+          "measured_hz": 456.2966496342392,
+          "error_cents": 0.0013405991802403294
+        },
+        {
+          "note": 3,
+          "expected_hz": 495.0,
+          "measured_hz": 495.00018833482875,
+          "error_cents": 0.00065869011343716
+        },
+        {
+          "note": 4,
+          "expected_hz": 586.6666666666666,
+          "measured_hz": 586.6668334978202,
+          "error_cents": 0.0004923131803383418
+        },
+        {
+          "note": 5,
+          "expected_hz": 440.0,
+          "measured_hz": 439.99985170960315,
+          "error_cents": 0.0005834668805782205
+        },
+        {
+          "note": 6,
+          "expected_hz": 466.1637615180899,
+          "measured_hz": 466.16400499648546,
+          "error_cents": 0.0009042272550616321
+        },
+        {
+          "note": 7,
+          "expected_hz": 493.8833012561241,
+          "measured_hz": 493.8829951974104,
+          "error_cents": 0.0010728433801791542
+        },
+        {
+          "note": 8,
+          "expected_hz": 587.3295358348151,
+          "measured_hz": 587.3297809354644,
+          "error_cents": 0.0007224674993856927
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "chromatic",
+      "root": 440,
+      "direction": "down",
+      "file": "audio/firefox-1440-pyknon-chromatic-440-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "7efeda0d8d1ade14606ef20ddf2108475ca0206761e88020e8bceeb36cbe458c",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 586.6666666666666,
+          "measured_hz": 586.6668334978203,
+          "error_cents": 0.0004923131807227529
+        },
+        {
+          "note": 2,
+          "expected_hz": 495.0,
+          "measured_hz": 495.00018833482875,
+          "error_cents": 0.00065869011343716
+        },
+        {
+          "note": 3,
+          "expected_hz": 456.2962962962963,
+          "measured_hz": 456.2966496342397,
+          "error_cents": 0.001340599182162384
+        },
+        {
+          "note": 4,
+          "expected_hz": 440.0,
+          "measured_hz": 439.99985170960315,
+          "error_cents": 0.0005834668805782205
+        },
+        {
+          "note": 5,
+          "expected_hz": 587.3295358348151,
+          "measured_hz": 587.3297809354644,
+          "error_cents": 0.0007224674993856927
+        },
+        {
+          "note": 6,
+          "expected_hz": 493.8833012561241,
+          "measured_hz": 493.8829951974104,
+          "error_cents": 0.0010728433801791542
+        },
+        {
+          "note": 7,
+          "expected_hz": 466.1637615180899,
+          "measured_hz": 466.16400499648546,
+          "error_cents": 0.0009042272550616321
+        },
+        {
+          "note": 8,
+          "expected_hz": 440.0,
+          "measured_hz": 439.99985170960315,
+          "error_cents": 0.0005834668805782205
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "diatonic",
+      "root": 110,
+      "direction": "up",
+      "file": "audio/firefox-1440-pyknon-diatonic-110-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "e88af33a17b9fd754915b7e3da961d2dd6bcfd11f095bfcbbfb45ca7133b5529",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 110.0,
+          "measured_hz": 110.00037490990354,
+          "error_cents": 0.005900506220460646
+        },
+        {
+          "note": 2,
+          "expected_hz": 114.07407407407408,
+          "measured_hz": 114.0735373662346,
+          "error_cents": 0.008145313292751904
+        },
+        {
+          "note": 3,
+          "expected_hz": 130.37037037037038,
+          "measured_hz": 130.37077964996422,
+          "error_cents": 0.005434959294893082
+        },
+        {
+          "note": 4,
+          "expected_hz": 146.66666666666666,
+          "measured_hz": 146.66619762901456,
+          "error_cents": 0.0055364676272441835
+        },
+        {
+          "note": 5,
+          "expected_hz": 110.0,
+          "measured_hz": 110.00037490990357,
+          "error_cents": 0.005900506221229466
+        },
+        {
+          "note": 6,
+          "expected_hz": 116.54094037952248,
+          "measured_hz": 116.5405245216222,
+          "error_cents": 0.006177645715760862
+        },
+        {
+          "note": 7,
+          "expected_hz": 130.8127826502993,
+          "measured_hz": 130.8127026019105,
+          "error_cents": 0.0010593959999301923
+        },
+        {
+          "note": 8,
+          "expected_hz": 146.8323839587038,
+          "measured_hz": 146.83255379370058,
+          "error_cents": 0.0020024462668981045
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "diatonic",
+      "root": 110,
+      "direction": "down",
+      "file": "audio/firefox-1440-pyknon-diatonic-110-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "26821cbdf84daca4edfc8fb933b0f04828a3aa28452358fd56a109d3f53a3b77",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 146.66666666666666,
+          "measured_hz": 146.66619762901465,
+          "error_cents": 0.005536467626283153
+        },
+        {
+          "note": 2,
+          "expected_hz": 130.37037037037038,
+          "measured_hz": 130.37077964996422,
+          "error_cents": 0.005434959294893082
+        },
+        {
+          "note": 3,
+          "expected_hz": 114.07407407407408,
+          "measured_hz": 114.07353736623455,
+          "error_cents": 0.008145313293712937
+        },
+        {
+          "note": 4,
+          "expected_hz": 110.0,
+          "measured_hz": 110.00037490990346,
+          "error_cents": 0.005900506219307417
+        },
+        {
+          "note": 5,
+          "expected_hz": 146.8323839587038,
+          "measured_hz": 146.8325537937003,
+          "error_cents": 0.0020024462638228184
+        },
+        {
+          "note": 6,
+          "expected_hz": 130.8127826502993,
+          "measured_hz": 130.8127026019105,
+          "error_cents": 0.0010593959999301923
+        },
+        {
+          "note": 7,
+          "expected_hz": 116.54094037952248,
+          "measured_hz": 116.5405245216222,
+          "error_cents": 0.006177645715760862
+        },
+        {
+          "note": 8,
+          "expected_hz": 110.0,
+          "measured_hz": 110.00037490990357,
+          "error_cents": 0.005900506221229466
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "diatonic",
+      "root": 220,
+      "direction": "up",
+      "file": "audio/firefox-1440-pyknon-diatonic-220-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "54c60bb1f9bcc8ac193d24e6595b642735e284bb949db8634ff87bfe46a2d7d2",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 220.0,
+          "measured_hz": 220.00036423901366,
+          "error_cents": 0.0028662839110710366
+        },
+        {
+          "note": 2,
+          "expected_hz": 228.14814814814815,
+          "measured_hz": 228.1476509517748,
+          "error_cents": 0.0037728302225013477
+        },
+        {
+          "note": 3,
+          "expected_hz": 260.74074074074076,
+          "measured_hz": 260.7410727416611,
+          "error_cents": 0.0022043771527605984
+        },
+        {
+          "note": 4,
+          "expected_hz": 293.3333333333333,
+          "measured_hz": 293.3336501828059,
+          "error_cents": 0.0018700237469314875
+        },
+        {
+          "note": 5,
+          "expected_hz": 220.0,
+          "measured_hz": 220.00036423901338,
+          "error_cents": 0.002866283908764573
+        },
+        {
+          "note": 6,
+          "expected_hz": 233.08188075904496,
+          "measured_hz": 233.08227022975686,
+          "error_cents": 0.002892822007605977
+        },
+        {
+          "note": 7,
+          "expected_hz": 261.6255653005986,
+          "measured_hz": 261.62606116350406,
+          "error_cents": 0.0032812310640780995
+        },
+        {
+          "note": 8,
+          "expected_hz": 293.6647679174076,
+          "measured_hz": 293.6651324084867,
+          "error_cents": 0.0021487731733304174
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "diatonic",
+      "root": 220,
+      "direction": "down",
+      "file": "audio/firefox-1440-pyknon-diatonic-220-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "805e6bf3be3ed98fcf2c2086becf0fa17c4783902a17f0dc522fda906e4612a1",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 293.3333333333333,
+          "measured_hz": 293.33365018280585,
+          "error_cents": 0.001870023746547077
+        },
+        {
+          "note": 2,
+          "expected_hz": 260.74074074074076,
+          "measured_hz": 260.74107274166096,
+          "error_cents": 0.0022043771519917772
+        },
+        {
+          "note": 3,
+          "expected_hz": 228.14814814814815,
+          "measured_hz": 228.1476509517747,
+          "error_cents": 0.003772830223270172
+        },
+        {
+          "note": 4,
+          "expected_hz": 220.0,
+          "measured_hz": 220.0003642390136,
+          "error_cents": 0.0028662839106866262
+        },
+        {
+          "note": 5,
+          "expected_hz": 293.6647679174076,
+          "measured_hz": 293.6651324084867,
+          "error_cents": 0.0021487731733304174
+        },
+        {
+          "note": 6,
+          "expected_hz": 261.6255653005986,
+          "measured_hz": 261.62606116350406,
+          "error_cents": 0.0032812310640780995
+        },
+        {
+          "note": 7,
+          "expected_hz": 233.08188075904496,
+          "measured_hz": 233.08227022975686,
+          "error_cents": 0.002892822007605977
+        },
+        {
+          "note": 8,
+          "expected_hz": 220.0,
+          "measured_hz": 220.00036423901338,
+          "error_cents": 0.002866283908764573
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "diatonic",
+      "root": 440,
+      "direction": "up",
+      "file": "audio/firefox-1440-pyknon-diatonic-440-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "98713c52897edb1d72093acafc86a46eeb6b2f46f77e96a509e3e3ec74c5a436",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 440.0,
+          "measured_hz": 439.999851709603,
+          "error_cents": 0.0005834668811548375
+        },
+        {
+          "note": 2,
+          "expected_hz": 456.2962962962963,
+          "measured_hz": 456.2966496342392,
+          "error_cents": 0.0013405991802403294
+        },
+        {
+          "note": 3,
+          "expected_hz": 521.4814814814815,
+          "measured_hz": 521.4812324812273,
+          "error_cents": 0.0008266407085646303
+        },
+        {
+          "note": 4,
+          "expected_hz": 586.6666666666666,
+          "measured_hz": 586.6668334978202,
+          "error_cents": 0.0004923131803383418
+        },
+        {
+          "note": 5,
+          "expected_hz": 440.0,
+          "measured_hz": 439.99985170960315,
+          "error_cents": 0.0005834668805782205
+        },
+        {
+          "note": 6,
+          "expected_hz": 466.1637615180899,
+          "measured_hz": 466.16400499648546,
+          "error_cents": 0.0009042272550616321
+        },
+        {
+          "note": 7,
+          "expected_hz": 523.2511306011972,
+          "measured_hz": 523.250782533003,
+          "error_cents": 0.001151622375095793
+        },
+        {
+          "note": 8,
+          "expected_hz": 587.3295358348151,
+          "measured_hz": 587.3297809354644,
+          "error_cents": 0.0007224674993856927
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "diatonic",
+      "root": 440,
+      "direction": "down",
+      "file": "audio/firefox-1440-pyknon-diatonic-440-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "77069237546d63fe7a1bbbb6dd8733e3ef963edc1f6760d49c7e4a7eafa6489e",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 586.6666666666666,
+          "measured_hz": 586.6668334978203,
+          "error_cents": 0.0004923131807227529
+        },
+        {
+          "note": 2,
+          "expected_hz": 521.4814814814815,
+          "measured_hz": 521.4812324812273,
+          "error_cents": 0.0008266407085646303
+        },
+        {
+          "note": 3,
+          "expected_hz": 456.2962962962963,
+          "measured_hz": 456.2966496342397,
+          "error_cents": 0.001340599182162384
+        },
+        {
+          "note": 4,
+          "expected_hz": 440.0,
+          "measured_hz": 439.99985170960315,
+          "error_cents": 0.0005834668805782205
+        },
+        {
+          "note": 5,
+          "expected_hz": 587.3295358348151,
+          "measured_hz": 587.3297809354644,
+          "error_cents": 0.0007224674993856927
+        },
+        {
+          "note": 6,
+          "expected_hz": 523.2511306011972,
+          "measured_hz": 523.250782533003,
+          "error_cents": 0.001151622375095793
+        },
+        {
+          "note": 7,
+          "expected_hz": 466.1637615180899,
+          "measured_hz": 466.16400499648546,
+          "error_cents": 0.0009042272550616321
+        },
+        {
+          "note": 8,
+          "expected_hz": 440.0,
+          "measured_hz": 439.99985170960315,
+          "error_cents": 0.0005834668805782205
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "genus": "enharmonic",
+      "root": 220,
+      "direction": "up",
+      "file": "audio/firefox-375-pyknon-enharmonic-220-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "9434ab2beeb4e048cb32b6a9f3a36e4e6f19456b8c3643da4d5079d56cd93e36",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "note": 1,
+          "expected_hz": 220.0,
+          "measured_hz": 220.00036423901366,
+          "error_cents": 0.0028662839110710366
+        },
+        {
+          "note": 2,
+          "expected_hz": 228.14814814814815,
+          "measured_hz": 228.1476509517748,
+          "error_cents": 0.0037728302225013477
+        },
+        {
+          "note": 3,
+          "expected_hz": 234.66666666666666,
+          "measured_hz": 234.66699982301077,
+          "error_cents": 0.002457831806011686
+        },
+        {
+          "note": 4,
+          "expected_hz": 293.3333333333333,
+          "measured_hz": 293.3336501828059,
+          "error_cents": 0.0018700237469314875
+        },
+        {
+          "note": 5,
+          "expected_hz": 220.0,
+          "measured_hz": 220.00036423901338,
+          "error_cents": 0.002866283908764573
+        },
+        {
+          "note": 6,
+          "expected_hz": 233.08188075904496,
+          "measured_hz": 233.08227022975686,
+          "error_cents": 0.002892822007605977
+        },
+        {
+          "note": 7,
+          "expected_hz": 233.08188075904496,
+          "measured_hz": 233.08227022975686,
+          "error_cents": 0.002892822007605977
+        },
+        {
+          "note": 8,
+          "expected_hz": 293.6647679174076,
+          "measured_hz": 293.6651324084867,
+          "error_cents": 0.0021487731733304174
+        }
+      ]
+    }
+  ]
+}

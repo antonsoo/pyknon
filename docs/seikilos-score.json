@@ -1,0 +1,11 @@
+{
+  "source": "Chinasaur's public-domain LilyPond score, independently parsed; pitches and durations cross-checked visually with D'Angour's transcription",
+  "reference_sha256": "7dfdd71bf817ae7ea6d4c226ce4090455cd19bf6509bb9c362efc6e39f98d187",
+  "notes": 37,
+  "syllables": 29,
+  "short_units": 48,
+  "plans": {
+    "settings": 8,
+    "comparisons": 1480
+  }
+}
