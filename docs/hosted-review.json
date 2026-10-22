@@ -1,0 +1,58 @@
+{
+  "checkedAt": "2026-10-22T00:59:59.317Z",
+  "base": "https://antonsoo.github.io/pyknon/",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "sharedLanding": 77.140625,
+      "nativeKeyboard": true,
+      "playAndStop": true,
+      "htmlMatchesReviewedStudy": true,
+      "wavMatchesMeasuredLocalExport": true,
+      "wavSha256": "8ca73b5ff20f5b5715de5ced49d9a36b0ce13dc80e23cc508a37afb50545a429",
+      "sourceToListening": true,
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "sharedLanding": 52.234375,
+      "nativeKeyboard": true,
+      "playAndStop": true,
+      "htmlMatchesReviewedStudy": true,
+      "wavMatchesMeasuredLocalExport": true,
+      "wavSha256": "8ca73b5ff20f5b5715de5ced49d9a36b0ce13dc80e23cc508a37afb50545a429",
+      "sourceToListening": true,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "sharedLanding": 77.05000305175781,
+      "nativeKeyboard": true,
+      "playAndStop": true,
+      "htmlMatchesReviewedStudy": true,
+      "wavMatchesMeasuredLocalExport": true,
+      "wavSha256": "9434ab2beeb4e048cb32b6a9f3a36e4e6f19456b8c3643da4d5079d56cd93e36",
+      "sourceToListening": true,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "sharedLanding": 51.95000076293945,
+      "nativeKeyboard": true,
+      "playAndStop": true,
+      "htmlMatchesReviewedStudy": true,
+      "wavMatchesMeasuredLocalExport": true,
+      "wavSha256": "9434ab2beeb4e048cb32b6a9f3a36e4e6f19456b8c3643da4d5079d56cd93e36",
+      "sourceToListening": true,
+      "pageErrors": []
+    }
+  ]
+}

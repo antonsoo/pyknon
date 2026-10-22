@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "node": "v26.7.0",
+  "requestTimeoutMs": 10000,
+  "retryWindowMs": 45000,
+  "pollIntervalMs": 5000,
+  "concurrency": 6,
+  "baseURL": "https://antonsoo.github.io/pyknon/",
+  "state": "verified",
+  "attempts": 1,
+  "startedAtUtc": "2026-10-22T00:59:37.267Z",
+  "checkedAtUtc": "2026-10-22T00:59:38.836Z",
+  "buildManifestSha256": "205bfc3d93072f52a4dbb63cc2592646c159e9cf8dd33d16a5bc7eafbdf1d4dd",
+  "expectedFileCount": 12,
+  "checkedFileCount": 12,
+  "verifiedFileCount": 12,
+  "rootBefore": {
+    "path": "index.html",
+    "bytes": 881,
+    "sha256": "31dfc72dc64c2f7119037326432e613e2938d47022cff784502a7ee5864a85a0",
+    "url": "https://antonsoo.github.io/pyknon/",
+    "httpStatus": 200,
+    "observedBytes": 881,
+    "observedSha256": "31dfc72dc64c2f7119037326432e613e2938d47022cff784502a7ee5864a85a0",
+    "state": "verified"
+  },
+  "rootAfter": {
+    "path": "index.html",
+    "bytes": 881,
+    "sha256": "31dfc72dc64c2f7119037326432e613e2938d47022cff784502a7ee5864a85a0",
+    "url": "https://antonsoo.github.io/pyknon/",
+    "httpStatus": 200,
+    "observedBytes": 881,
+    "observedSha256": "31dfc72dc64c2f7119037326432e613e2938d47022cff784502a7ee5864a85a0",
+    "state": "verified"
+  },
+  "files": [
+    {
+      "path": "assets/index-BeXHMmpl.js",
+      "bytes": 28931,
+      "sha256": "5fc9750d0d7e538c4e0ad777aaf690064eb5a8ef34f0f347f83732f23cf07e46",
+      "url": "https://antonsoo.github.io/pyknon/assets/index-BeXHMmpl.js",
+      "httpStatus": 200,
+      "observedBytes": 28931,
+      "observedSha256": "5fc9750d0d7e538c4e0ad777aaf690064eb5a8ef34f0f347f83732f23cf07e46",
+      "state": "verified"
+    },
+    {
+      "path": "assets/index-DCEa5ftA.css",
+      "bytes": 11261,
+      "sha256": "f0529e25834856f27d3011709ddd6d2684cc42efb04cefb1f5a87deedd4cb092",
+      "url": "https://antonsoo.github.io/pyknon/assets/index-DCEa5ftA.css",
+      "httpStatus": 200,
+      "observedBytes": 11261,
+      "observedSha256": "f0529e25834856f27d3011709ddd6d2684cc42efb04cefb1f5a87deedd4cb092",
+      "state": "verified"
+    },
+    {
+      "path": "fonts/IBMPlex-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "url": "https://antonsoo.github.io/pyknon/fonts/IBMPlex-OFL.txt",
+      "httpStatus": 200,
+      "observedBytes": 4456,
+      "observedSha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "state": "verified"
+    },
+    {
+      "path": "fonts/IBMPlexSans-Regular.woff2",
+      "bytes": 63020,
+      "sha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a",
+      "url": "https://antonsoo.github.io/pyknon/fonts/IBMPlexSans-Regular.woff2",
+      "httpStatus": 200,
+      "observedBytes": 63020,
+      "observedSha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a",
+      "state": "verified"
+    },
+    {
+      "path": "fonts/IBMPlexSans-SemiBold.woff2",
+      "bytes": 67060,
+      "sha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205",
+      "url": "https://antonsoo.github.io/pyknon/fonts/IBMPlexSans-SemiBold.woff2",
+      "httpStatus": 200,
+      "observedBytes": 67060,
+      "observedSha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205",
+      "state": "verified"
+    },
+    {
+      "path": "fonts/NotoSerif-OFL.txt",
+      "bytes": 4396,
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "url": "https://antonsoo.github.io/pyknon/fonts/NotoSerif-OFL.txt",
+      "httpStatus": 200,
+      "observedBytes": 4396,
+      "observedSha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "state": "verified"
+    },
+    {
+      "path": "fonts/NotoSerif-Regular.ttf",
+      "bytes": 444064,
+      "sha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6",
+      "url": "https://antonsoo.github.io/pyknon/fonts/NotoSerif-Regular.ttf",
+      "httpStatus": 200,
+      "observedBytes": 444064,
+      "observedSha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6",
+      "state": "verified"
+    },
+    {
+      "path": "index.html",
+      "bytes": 881,
+      "sha256": "31dfc72dc64c2f7119037326432e613e2938d47022cff784502a7ee5864a85a0",
+      "url": "https://antonsoo.github.io/pyknon/index.html",
+      "httpStatus": 200,
+      "observedBytes": 881,
+      "observedSha256": "31dfc72dc64c2f7119037326432e613e2938d47022cff784502a7ee5864a85a0",
+      "state": "verified"
+    },
+    {
+      "path": "sources/macran-182.jpg",
+      "bytes": 373644,
+      "sha256": "870edc78b7ed3e08e38bfbe458722a774623562228152b2d9c07ed74c8165697",
+      "url": "https://antonsoo.github.io/pyknon/sources/macran-182.jpg",
+      "httpStatus": 200,
+      "observedBytes": 373644,
+      "observedSha256": "870edc78b7ed3e08e38bfbe458722a774623562228152b2d9c07ed74c8165697",
+      "state": "verified"
+    },
+    {
+      "path": "sources/wallis-62.jpg",
+      "bytes": 608756,
+      "sha256": "bb4e8eb52d20cc23cbb91b4e1ff6a8319e8bd0a8092ab8b899d2970087d427c2",
+      "url": "https://antonsoo.github.io/pyknon/sources/wallis-62.jpg",
+      "httpStatus": 200,
+      "observedBytes": 608756,
+      "observedSha256": "bb4e8eb52d20cc23cbb91b4e1ff6a8319e8bd0a8092ab8b899d2970087d427c2",
+      "state": "verified"
+    },
+    {
+      "path": "sources/wallis-63.jpg",
+      "bytes": 547639,
+      "sha256": "e9d74ef39d02b2dd124792b8ebff2260805ceeead6bde6a3be0adb1a904dbafd",
+      "url": "https://antonsoo.github.io/pyknon/sources/wallis-63.jpg",
+      "httpStatus": 200,
+      "observedBytes": 547639,
+      "observedSha256": "e9d74ef39d02b2dd124792b8ebff2260805ceeead6bde6a3be0adb1a904dbafd",
+      "state": "verified"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 3435,
+      "sha256": "1e1e3707b0953cff207821e47067741a98845554a60e980cab89ae1245dd5291",
+      "url": "https://antonsoo.github.io/pyknon/sw.js",
+      "httpStatus": 200,
+      "observedBytes": 3435,
+      "observedSha256": "1e1e3707b0953cff207821e47067741a98845554a60e980cab89ae1245dd5291",
+      "state": "verified"
+    }
+  ],
+  "scope": "Compares canonical responses with this captured build inventory during the recorded pass. Extra hosted files, browser behavior, public source, registry releases and deployment provenance are not established."
+}

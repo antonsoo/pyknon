@@ -69,6 +69,14 @@ browser download, not a separately recreated document.
 
 ## Public hosting
 
-A successful local review is separate from publication. The public byte receipt
-and HTTPS workflow report will record the actual published artifact and its
-exports after deployment.
+The [canonical byte receipt](publication.json) verifies all 12 hosted files
+against the reviewed artifact, including the root before and after the pass.
+The initial Pages revision is `7b36d4f03a4dfaed7e822a997f82ef3ab8a05a48`.
+
+The [HTTPS workflow report](hosted-review.json) exercises shared-state landing,
+native genus selection, actual playback and Stop, source navigation and
+downloads in Chromium and Firefox at desktop and phone widths. Each public
+HTML study matches the retained example byte for byte. Each downloaded WAV
+matches the independently measured local export from the same browser.
+The application does not have a registry release; this publication is the
+GitHub source repository and static site.
