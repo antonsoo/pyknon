@@ -32,7 +32,9 @@
     "test": "node --import tsx --test tests/*.test.ts",
     "check": "npm run lint && npm run typecheck && npm test && npm run build",
     "verify:ratios": "node --import tsx scripts/ratio-cases.ts | python3 scripts/ratio-oracle.py",
-    "test:browser": "node scripts/browser-check.mjs"
+    "test:browser": "node scripts/browser-check.mjs",
+    "verify:song": "node --import tsx scripts/song-cases.ts | python3 scripts/song-oracle.py",
+    "test:song": "node scripts/song-browser.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",
