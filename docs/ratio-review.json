@@ -1,0 +1,8 @@
+{
+  "source": "Wallis 1682 p. 63 source integers; Python Fraction and log",
+  "cases": 18,
+  "numeric_comparisons": 288,
+  "maximum_absolute_error": 5.684341886080802e-14,
+  "tolerance": 1e-10,
+  "exact_ratios_and_order": true
+}
