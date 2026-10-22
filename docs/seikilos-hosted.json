@@ -1,0 +1,58 @@
+{
+  "checkedAt": "2026-10-22T02:24:16.133Z",
+  "base": "https://antonsoo.github.io/pyknon/",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "sharedLanding": 49.390625,
+      "keyboardPlaybackAndStop": true,
+      "wavMatchesMeasuredLocalExport": "9a4a26cefba4702627d93dd167e56c37567dbd2bc2db1600146e39eb079ddd67",
+      "studyMatchesReviewedExport": true,
+      "offlineSourceHash": "da774306bb3f05873e7126596612e5b623bd9255b0564b36d11bfb1be4826729",
+      "offlineBothPagesAndPlayback": true,
+      "pageErrors": [],
+      "externalRequests": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "sharedLanding": 40.34375,
+      "keyboardPlaybackAndStop": true,
+      "wavMatchesMeasuredLocalExport": "9a4a26cefba4702627d93dd167e56c37567dbd2bc2db1600146e39eb079ddd67",
+      "studyMatchesReviewedExport": true,
+      "offlineSourceHash": "da774306bb3f05873e7126596612e5b623bd9255b0564b36d11bfb1be4826729",
+      "offlineBothPagesAndPlayback": true,
+      "pageErrors": [],
+      "externalRequests": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "sharedLanding": 49,
+      "keyboardPlaybackAndStop": true,
+      "wavMatchesMeasuredLocalExport": "4899702b8ca883f128948d5b4f46f284bf9a334a78d9773376cb265b5d656493",
+      "studyMatchesReviewedExport": true,
+      "offlineSourceHash": "da774306bb3f05873e7126596612e5b623bd9255b0564b36d11bfb1be4826729",
+      "offlineBothPagesAndPlayback": true,
+      "pageErrors": [],
+      "externalRequests": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "sharedLanding": 40,
+      "keyboardPlaybackAndStop": true,
+      "wavMatchesMeasuredLocalExport": "4899702b8ca883f128948d5b4f46f284bf9a334a78d9773376cb265b5d656493",
+      "studyMatchesReviewedExport": true,
+      "offlineSourceHash": "da774306bb3f05873e7126596612e5b623bd9255b0564b36d11bfb1be4826729",
+      "offlineBothPagesAndPlayback": true,
+      "pageErrors": [],
+      "externalRequests": []
+    }
+  ]
+}

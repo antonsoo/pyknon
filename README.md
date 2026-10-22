@@ -35,9 +35,9 @@ service is used.
 
 ## Read a surviving song
 
-The source checkout also includes a **Seikilos song reader**, at
-`http://127.0.0.1:4329/pyknon/song.html` after starting the app. Its publication
-status is recorded separately in [the reading review](docs/seikilos-review.md).
+Open the **[Seikilos song reader](https://antonsoo.github.io/pyknon/song.html?s=3&a=220&pace=150#reader)**.
+Its source, build and hosted verification are recorded separately in
+[the reading review](docs/seikilos-review.md).
 
 Select a Greek syllable to locate it in the museum's photograph and hear its
 notes. The first syllable of **φαίνου** carries three rising notes; the last

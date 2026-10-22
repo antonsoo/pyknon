@@ -131,12 +131,23 @@ specialist review; the app supplies the original evidence so they can be checked
 Mobile tests use desktop browser engines at a phone width; they do not certify
 physical iOS devices or physical speaker output.
 
-**Local source and build are complete. These changes have not been pushed or
-deployed.** Earlier publication receipts in this repository apply to the earlier
-tetrachord app. The workspace's `HOUSE_STANDARDS.md` reserves publication for
-review. The static build command is `npm run build`, output directory `dist/`;
-it includes both `index.html` and `song.html` and the integrity-checked offline
-worker. A publication should verify those exact bytes separately.
+**Published:** source `764377c`, Pages `e236d25`. All twenty canonical public
+files and the directory entry matched the reviewed build byte for byte;
+see [the publication receipt](seikilos-publication.json). The earlier hashed
+assets remain available for existing tabs. Earlier publication receipts in
+this repository still describe the earlier tetrachord edition.
+
+The [hosted browser receipt](seikilos-hosted.json) covers Chromium and Firefox
+at 1440 and 375 pixels. It verifies the final-sign shared link, keyboard playback
+and stop, a fourth-verse WAV byte-identical to the locally measured export,
+and an HTML reading byte-identical to the reviewed example. After disconnecting
+the browser, both app pages, the source photograph and playback still work.
+No page exceptions or external requests occurred.
+
+Reproduce with `node scripts/song-hosted.mjs`. The static build command is
+`npm run build`, output directory `dist/`; it includes both `index.html` and
+`song.html` and the integrity-checked offline worker. The public reader is at
+<https://antonsoo.github.io/pyknon/song.html?s=3&a=220&pace=150#reader>.
 
 Suggested repository description: **Hear ancient Greek tuning and read the
 Seikilos song against its surviving inscription.**

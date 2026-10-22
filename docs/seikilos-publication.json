@@ -1,0 +1,131 @@
+{
+  "checkedAt": "2026-10-22T02:23:53.210488+00:00",
+  "base": "https://antonsoo.github.io/pyknon/",
+  "source": "764377c",
+  "runtimeSource": "6e386d31e83401e62ee86aaf7fe1e5fafad8ba54",
+  "pages": "e236d25",
+  "canonicalFiles": [
+    {
+      "path": "assets/main-GNOxR6ro.js",
+      "bytes": 23850,
+      "sha256": "5c03e5a4851ce7e7b7aa41c091b5507c8960f68581265b7ec960e8924829d674",
+      "matched": true
+    },
+    {
+      "path": "assets/offline-C1ECznnP.js",
+      "bytes": 5461,
+      "sha256": "01c6981a091e9918feca14edcc81a473217e36eccd02eb4797f39bd5ae92d393",
+      "matched": true
+    },
+    {
+      "path": "assets/offline-CyYOenOT.css",
+      "bytes": 11360,
+      "sha256": "8b3c0fb99574f30e9d24a504d2154f368e716b6b6deabf1d95980390cca2d2f1",
+      "matched": true
+    },
+    {
+      "path": "assets/song-B07dX343.js",
+      "bytes": 28528,
+      "sha256": "bd33ac978a44d2836c7b518c7fa6bfec32829087777351c256199fb2afe59475",
+      "matched": true
+    },
+    {
+      "path": "assets/song-DU6C71Tm.css",
+      "bytes": 6660,
+      "sha256": "e87da18d9b995f447720ef476ca21d54d7562a1d7053e48d3b70705f7ef89b60",
+      "matched": true
+    },
+    {
+      "path": "fonts/IBMPlex-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "matched": true
+    },
+    {
+      "path": "fonts/IBMPlexSans-Regular.woff2",
+      "bytes": 63020,
+      "sha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a",
+      "matched": true
+    },
+    {
+      "path": "fonts/IBMPlexSans-SemiBold.woff2",
+      "bytes": 67060,
+      "sha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205",
+      "matched": true
+    },
+    {
+      "path": "fonts/NotoSerif-OFL.txt",
+      "bytes": 4396,
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "matched": true
+    },
+    {
+      "path": "fonts/NotoSerif-Regular.ttf",
+      "bytes": 444064,
+      "sha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6",
+      "matched": true
+    },
+    {
+      "path": "index.html",
+      "bytes": 965,
+      "sha256": "f37a6a57993bc7ee1c0f4e15cfd52cada1be0dfe7f0f61e7d37a9f5b4a1f55e4",
+      "matched": true
+    },
+    {
+      "path": "song.html",
+      "bytes": 1036,
+      "sha256": "a4b1abea193c7e15f3b39c1506406efc79921638380a8b12d9ae9d93a5447536",
+      "matched": true
+    },
+    {
+      "path": "sources/macran-182.jpg",
+      "bytes": 373644,
+      "sha256": "870edc78b7ed3e08e38bfbe458722a774623562228152b2d9c07ed74c8165697",
+      "matched": true
+    },
+    {
+      "path": "sources/seikilos/inscription.jpg",
+      "bytes": 210980,
+      "sha256": "da774306bb3f05873e7126596612e5b623bd9255b0564b36d11bfb1be4826729",
+      "matched": true
+    },
+    {
+      "path": "sources/seikilos/monro-correction.jpg",
+      "bytes": 32797,
+      "sha256": "6df42768a72811fa199c7d89bd4c4ebbc9fb46d0d1d63e413a6b4c845a60c34d",
+      "matched": true
+    },
+    {
+      "path": "sources/seikilos/monro-ending.jpg",
+      "bytes": 18620,
+      "sha256": "c2a8ad3dbf2feaebde1b51f25aee415690ec3254c5f65d74daf27405a0d10ac3",
+      "matched": true
+    },
+    {
+      "path": "sources/seikilos/stele.jpg",
+      "bytes": 64634,
+      "sha256": "9ddb805f113cdb555dde628b40c8c1efc3e9fb6c0b13d42905ab7dfb726b8050",
+      "matched": true
+    },
+    {
+      "path": "sources/wallis-62.jpg",
+      "bytes": 608756,
+      "sha256": "bb4e8eb52d20cc23cbb91b4e1ff6a8319e8bd0a8092ab8b899d2970087d427c2",
+      "matched": true
+    },
+    {
+      "path": "sources/wallis-63.jpg",
+      "bytes": 547639,
+      "sha256": "e9d74ef39d02b2dd124792b8ebff2260805ceeead6bde6a3be0adb1a904dbafd",
+      "matched": true
+    },
+    {
+      "path": "sw.js",
+      "bytes": 4593,
+      "sha256": "a7eab1c545565b0584e619fd6468c6bb6de4c72133629f3676a53ef88e4236af",
+      "matched": true
+    }
+  ],
+  "directoryEntryMatched": true,
+  "scope": "Canonical public URLs byte-matched the independently verified build. Earlier hashed assets retained for open tabs. Browser workflows recorded separately."
+}
