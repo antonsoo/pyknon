@@ -85,7 +85,7 @@ export const SYLLABLES: readonly Syllable[] = [
     word: 3,
     verse: 1,
     stoneLine: 1,
-    box: [76, 631, 117, 113],
+    box: [76, 617, 117, 127],
     notes: [["K", 2]],
   },
   {
@@ -94,7 +94,7 @@ export const SYLLABLES: readonly Syllable[] = [
     word: 3,
     verse: 1,
     stoneLine: 1,
-    box: [193, 631, 142, 113],
+    box: [193, 617, 142, 127],
     notes: [["I", 1]],
   },
   {
@@ -103,7 +103,7 @@ export const SYLLABLES: readonly Syllable[] = [
     word: 4,
     verse: 1,
     stoneLine: 1,
-    box: [335, 628, 56, 116],
+    box: [335, 614, 56, 130],
     notes: [["Z", 1]],
   },
   {
@@ -112,7 +112,7 @@ export const SYLLABLES: readonly Syllable[] = [
     word: 4,
     verse: 1,
     stoneLine: 1,
-    box: [391, 631, 212, 113],
+    box: [391, 617, 212, 127],
     notes: [
       ["I", 1],
       ["K", 1],
@@ -124,7 +124,7 @@ export const SYLLABLES: readonly Syllable[] = [
     word: 5,
     verse: 1,
     stoneLine: 1,
-    box: [603, 631, 135, 113],
+    box: [603, 617, 135, 127],
     notes: [["O", 1]],
   },
   {
@@ -181,7 +181,7 @@ export const SYLLABLES: readonly Syllable[] = [
     word: 8,
     verse: 2,
     stoneLine: 3,
-    box: [69, 835, 185, 115],
+    box: [69, 821, 185, 129],
     notes: [["I", 1]],
   },
   {
@@ -190,7 +190,7 @@ export const SYLLABLES: readonly Syllable[] = [
     word: 9,
     verse: 2,
     stoneLine: 3,
-    box: [251, 827, 99, 123],
+    box: [251, 813, 99, 137],
     notes: [
       ["K", 1],
       ["I", 1],
@@ -202,7 +202,7 @@ export const SYLLABLES: readonly Syllable[] = [
     word: 9,
     verse: 2,
     stoneLine: 3,
-    box: [350, 827, 105, 123],
+    box: [350, 813, 105, 137],
     notes: [["K", 1]],
   },
   {
@@ -211,7 +211,7 @@ export const SYLLABLES: readonly Syllable[] = [
     word: 10,
     verse: 2,
     stoneLine: 3,
-    box: [455, 827, 142, 123],
+    box: [455, 813, 142, 137],
     notes: [["C", 2]],
   },
   {
@@ -220,7 +220,7 @@ export const SYLLABLES: readonly Syllable[] = [
     word: 11,
     verse: 2,
     stoneLine: 3,
-    box: [597, 827, 135, 123],
+    box: [597, 813, 135, 137],
     notes: [
       ["O", 1],
       ["F", 2],
@@ -232,7 +232,7 @@ export const SYLLABLES: readonly Syllable[] = [
     word: 12,
     verse: 3,
     stoneLine: 4,
-    box: [76, 924, 126, 119],
+    box: [76, 910, 126, 133],
     notes: [["C", 1]],
   },
   {
@@ -241,7 +241,7 @@ export const SYLLABLES: readonly Syllable[] = [
     word: 13,
     verse: 3,
     stoneLine: 4,
-    box: [202, 924, 100, 119],
+    box: [202, 910, 100, 133],
     notes: [["K", 1]],
   },
   {
@@ -250,7 +250,7 @@ export const SYLLABLES: readonly Syllable[] = [
     word: 13,
     verse: 3,
     stoneLine: 4,
-    box: [302, 924, 150, 119],
+    box: [302, 910, 150, 133],
     notes: [["O", 1]],
   },
   {
@@ -259,7 +259,7 @@ export const SYLLABLES: readonly Syllable[] = [
     word: 14,
     verse: 3,
     stoneLine: 4,
-    box: [452, 924, 55, 119],
+    box: [452, 910, 55, 133],
     notes: [["I", 1]],
   },
   {
@@ -268,7 +268,7 @@ export const SYLLABLES: readonly Syllable[] = [
     word: 15,
     verse: 3,
     stoneLine: 4,
-    box: [507, 924, 155, 119],
+    box: [507, 910, 155, 133],
     notes: [["Z", 1]],
   },
   {
@@ -277,7 +277,7 @@ export const SYLLABLES: readonly Syllable[] = [
     word: 15,
     verse: 3,
     stoneLine: 5,
-    box: [80, 1025, 209, 121],
+    box: [80, 1011, 209, 135],
     notes: [["K", 1]],
   },
   {
@@ -286,7 +286,7 @@ export const SYLLABLES: readonly Syllable[] = [
     word: 16,
     verse: 3,
     stoneLine: 5,
-    box: [289, 1025, 55, 121],
+    box: [289, 1011, 55, 135],
     notes: [["C", 1]],
   },
   {
@@ -295,7 +295,7 @@ export const SYLLABLES: readonly Syllable[] = [
     word: 16,
     verse: 3,
     stoneLine: 5,
-    box: [344, 1025, 140, 121],
+    box: [344, 1011, 140, 135],
     notes: [["C", 2]],
   },
   {
@@ -304,7 +304,7 @@ export const SYLLABLES: readonly Syllable[] = [
     word: 16,
     verse: 3,
     stoneLine: 5,
-    box: [482, 1025, 152, 121],
+    box: [482, 1013, 180, 133],
     notes: [
       ["C", 1],
       ["X", 1],
