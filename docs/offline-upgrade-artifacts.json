@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "wavCount": 170,
+  "wavHashesEqualIndependentEarlierCorpus": true,
+  "originalCorpus": "canon-browser.json",
+  "nativeIllustratedReadingByteIdenticalToOriginalReviewedPacket": true,
+  "readingSha256": "049167ea0d02c47e32e6125ca474983c9edd499a00aa5b7b1c9a64ae42333feb",
+  "currentReadingFile": "chromium-1440-reading.html"
+}

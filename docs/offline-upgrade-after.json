@@ -1,0 +1,133 @@
+{
+  "phase": "after",
+  "oldFileCount": 22,
+  "newFileCount": 29,
+  "records": [
+    {
+      "engine": "chromium",
+      "mode": "hold",
+      "oldEdition": "e40699b2305d63292ce60d2cc27bd1da6204706d3c771b8487834c6b94f52c9d",
+      "newEdition": "101ccba774eabe89c391931f8aa835fd6bcf9c4dbbd971e0fd22794b59dfabda",
+      "before": "This page’s offline edition is not ready. It will be checked when the worker changes; reload online if needed.",
+      "workerAfter": {
+        "type": "PYKNON_EDITION",
+        "edition": "101ccba774eabe89c391931f8aa835fd6bcf9c4dbbd971e0fd22794b59dfabda",
+        "complete": true
+      },
+      "after": "Ready offline · all three rooms, audio, diagrams & source scans saved.",
+      "automaticallyAcknowledged": true,
+      "staleReplyIgnored": false,
+      "wrongHttp200Responses": [],
+      "expectedIntegrityConsoleErrors": [],
+      "offlineThreeRooms": true,
+      "offlineIllustratedReadingSaved": true
+    },
+    {
+      "engine": "chromium",
+      "mode": "wrong",
+      "oldEdition": "e40699b2305d63292ce60d2cc27bd1da6204706d3c771b8487834c6b94f52c9d",
+      "newEdition": "101ccba774eabe89c391931f8aa835fd6bcf9c4dbbd971e0fd22794b59dfabda",
+      "before": "This page’s offline edition is not ready. It will be checked when the worker changes; reload online if needed.",
+      "workerAfter": {
+        "type": "PYKNON_EDITION",
+        "edition": "101ccba774eabe89c391931f8aa835fd6bcf9c4dbbd971e0fd22794b59dfabda",
+        "complete": true
+      },
+      "after": "Ready offline · all three rooms, audio, diagrams & source scans saved.",
+      "automaticallyAcknowledged": true,
+      "staleReplyIgnored": false,
+      "wrongHttp200Responses": [
+        {
+          "url": "/pyknon/canon.html",
+          "status": 200,
+          "oldEntryInsteadOfNewCanon": true
+        }
+      ],
+      "expectedIntegrityConsoleErrors": [],
+      "offlineThreeRooms": true,
+      "offlineIllustratedReadingSaved": true
+    },
+    {
+      "engine": "chromium",
+      "mode": "late",
+      "oldEdition": "e40699b2305d63292ce60d2cc27bd1da6204706d3c771b8487834c6b94f52c9d",
+      "newEdition": "101ccba774eabe89c391931f8aa835fd6bcf9c4dbbd971e0fd22794b59dfabda",
+      "before": "This page’s offline edition is not ready. It will be checked when the worker changes; reload online if needed.",
+      "workerAfter": {
+        "type": "PYKNON_EDITION",
+        "edition": "101ccba774eabe89c391931f8aa835fd6bcf9c4dbbd971e0fd22794b59dfabda",
+        "complete": true
+      },
+      "after": "Ready offline · all three rooms, audio, diagrams & source scans saved.",
+      "automaticallyAcknowledged": true,
+      "staleReplyIgnored": true,
+      "wrongHttp200Responses": [],
+      "expectedIntegrityConsoleErrors": [],
+      "offlineThreeRooms": true,
+      "offlineIllustratedReadingSaved": true
+    },
+    {
+      "engine": "firefox",
+      "mode": "hold",
+      "oldEdition": "e40699b2305d63292ce60d2cc27bd1da6204706d3c771b8487834c6b94f52c9d",
+      "newEdition": "101ccba774eabe89c391931f8aa835fd6bcf9c4dbbd971e0fd22794b59dfabda",
+      "before": "This page’s offline edition is not ready. It will be checked when the worker changes; reload online if needed.",
+      "workerAfter": {
+        "type": "PYKNON_EDITION",
+        "edition": "101ccba774eabe89c391931f8aa835fd6bcf9c4dbbd971e0fd22794b59dfabda",
+        "complete": true
+      },
+      "after": "Ready offline · all three rooms, audio, diagrams & source scans saved.",
+      "automaticallyAcknowledged": true,
+      "staleReplyIgnored": false,
+      "wrongHttp200Responses": [],
+      "expectedIntegrityConsoleErrors": [],
+      "offlineThreeRooms": true,
+      "offlineIllustratedReadingSaved": true
+    },
+    {
+      "engine": "firefox",
+      "mode": "wrong",
+      "oldEdition": "e40699b2305d63292ce60d2cc27bd1da6204706d3c771b8487834c6b94f52c9d",
+      "newEdition": "101ccba774eabe89c391931f8aa835fd6bcf9c4dbbd971e0fd22794b59dfabda",
+      "before": "This page’s offline edition is not ready. It will be checked when the worker changes; reload online if needed.",
+      "workerAfter": {
+        "type": "PYKNON_EDITION",
+        "edition": "101ccba774eabe89c391931f8aa835fd6bcf9c4dbbd971e0fd22794b59dfabda",
+        "complete": true
+      },
+      "after": "Ready offline · all three rooms, audio, diagrams & source scans saved.",
+      "automaticallyAcknowledged": true,
+      "staleReplyIgnored": false,
+      "wrongHttp200Responses": [
+        {
+          "url": "/pyknon/canon.html",
+          "status": 200,
+          "oldEntryInsteadOfNewCanon": true
+        }
+      ],
+      "expectedIntegrityConsoleErrors": [],
+      "offlineThreeRooms": true,
+      "offlineIllustratedReadingSaved": true
+    },
+    {
+      "engine": "firefox",
+      "mode": "late",
+      "oldEdition": "e40699b2305d63292ce60d2cc27bd1da6204706d3c771b8487834c6b94f52c9d",
+      "newEdition": "101ccba774eabe89c391931f8aa835fd6bcf9c4dbbd971e0fd22794b59dfabda",
+      "before": "Checking offline availability…",
+      "workerAfter": {
+        "type": "PYKNON_EDITION",
+        "edition": "101ccba774eabe89c391931f8aa835fd6bcf9c4dbbd971e0fd22794b59dfabda",
+        "complete": true
+      },
+      "after": "Ready offline · all three rooms, audio, diagrams & source scans saved.",
+      "automaticallyAcknowledged": true,
+      "staleReplyIgnored": true,
+      "wrongHttp200Responses": [],
+      "expectedIntegrityConsoleErrors": [],
+      "offlineThreeRooms": true,
+      "offlineIllustratedReadingSaved": true
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "phase": "before",
+  "oldFileCount": 22,
+  "newFileCount": 29,
+  "records": [
+    {
+      "engine": "chromium",
+      "mode": "hold",
+      "oldEdition": "e40699b2305d63292ce60d2cc27bd1da6204706d3c771b8487834c6b94f52c9d",
+      "newEdition": "395585645832293bbcff4922dbb7050d97df7733ff36b3cb0617c1a7db95723f",
+      "before": "Offline edition is updating. Reload online to finish.",
+      "workerAfter": {
+        "type": "PYKNON_EDITION",
+        "edition": "395585645832293bbcff4922dbb7050d97df7733ff36b3cb0617c1a7db95723f",
+        "complete": true
+      },
+      "after": "Offline edition is updating. Reload online to finish.",
+      "automaticallyAcknowledged": false,
+      "staleReplyIgnored": false,
+      "wrongHttp200Responses": [],
+      "expectedIntegrityConsoleErrors": [],
+      "offlineThreeRooms": true,
+      "offlineIllustratedReadingSaved": true
+    },
+    {
+      "engine": "chromium",
+      "mode": "wrong",
+      "oldEdition": "e40699b2305d63292ce60d2cc27bd1da6204706d3c771b8487834c6b94f52c9d",
+      "newEdition": "395585645832293bbcff4922dbb7050d97df7733ff36b3cb0617c1a7db95723f",
+      "before": "Offline edition is updating. Reload online to finish.",
+      "workerAfter": {
+        "type": "PYKNON_EDITION",
+        "edition": "395585645832293bbcff4922dbb7050d97df7733ff36b3cb0617c1a7db95723f",
+        "complete": true
+      },
+      "after": "Offline edition is updating. Reload online to finish.",
+      "automaticallyAcknowledged": false,
+      "staleReplyIgnored": false,
+      "wrongHttp200Responses": [
+        {
+          "url": "/pyknon/canon.html",
+          "status": 200,
+          "oldEntryInsteadOfNewCanon": true
+        }
+      ],
+      "expectedIntegrityConsoleErrors": [],
+      "offlineThreeRooms": true,
+      "offlineIllustratedReadingSaved": true
+    },
+    {
+      "engine": "firefox",
+      "mode": "hold",
+      "oldEdition": "e40699b2305d63292ce60d2cc27bd1da6204706d3c771b8487834c6b94f52c9d",
+      "newEdition": "395585645832293bbcff4922dbb7050d97df7733ff36b3cb0617c1a7db95723f",
+      "before": "Offline edition is updating. Reload online to finish.",
+      "workerAfter": {
+        "type": "PYKNON_EDITION",
+        "edition": "395585645832293bbcff4922dbb7050d97df7733ff36b3cb0617c1a7db95723f",
+        "complete": true
+      },
+      "after": "Offline edition is updating. Reload online to finish.",
+      "automaticallyAcknowledged": false,
+      "staleReplyIgnored": false,
+      "wrongHttp200Responses": [],
+      "expectedIntegrityConsoleErrors": [],
+      "offlineThreeRooms": true,
+      "offlineIllustratedReadingSaved": true
+    },
+    {
+      "engine": "firefox",
+      "mode": "wrong",
+      "oldEdition": "e40699b2305d63292ce60d2cc27bd1da6204706d3c771b8487834c6b94f52c9d",
+      "newEdition": "395585645832293bbcff4922dbb7050d97df7733ff36b3cb0617c1a7db95723f",
+      "before": "Offline edition is updating. Reload online to finish.",
+      "workerAfter": {
+        "type": "PYKNON_EDITION",
+        "edition": "395585645832293bbcff4922dbb7050d97df7733ff36b3cb0617c1a7db95723f",
+        "complete": true
+      },
+      "after": "Offline edition is updating. Reload online to finish.",
+      "automaticallyAcknowledged": false,
+      "staleReplyIgnored": false,
+      "wrongHttp200Responses": [
+        {
+          "url": "/pyknon/canon.html",
+          "status": 200,
+          "oldEntryInsteadOfNewCanon": true
+        }
+      ],
+      "expectedIntegrityConsoleErrors": [],
+      "offlineThreeRooms": true,
+      "offlineIllustratedReadingSaved": true
+    }
+  ]
+}

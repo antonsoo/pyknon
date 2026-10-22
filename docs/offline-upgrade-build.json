@@ -1,0 +1,161 @@
+{
+  "source": "2ce661dd89bab70e78210c3e6beb898b1cdefa2f",
+  "runtimeSource": "2ce661dd89bab70e78210c3e6beb898b1cdefa2f",
+  "freshArchive": true,
+  "freshNpmCi": true,
+  "node": "24.21.0",
+  "npm": "11.19.0",
+  "lint": true,
+  "strictTypecheck": true,
+  "unitCases": 11,
+  "build": true,
+  "allThreeMathematicalOraclesPassed": true,
+  "byteIdenticalToNode26Build": true,
+  "files": [
+    {
+      "path": "assets/canon-B-zmiHX3.js",
+      "bytes": 38197,
+      "sha256": "5a4f488c6a6c5ddba0cecdcb3d7e81c7b0a6df2fd41f5a86af39b5354799be0d"
+    },
+    {
+      "path": "assets/canon-B4HmA513.css",
+      "bytes": 6229,
+      "sha256": "841d997518e3e251b492b47fa52177dd85cd65d587b0935dcef1e5715e53f3eb"
+    },
+    {
+      "path": "assets/main-CKprQ6Aj.js",
+      "bytes": 23967,
+      "sha256": "b20dfd502232dbf81dea4de698143e9b166d5089a40fa1260c41cf4c77539832"
+    },
+    {
+      "path": "assets/offline-BWAQefMv.js",
+      "bytes": 5981,
+      "sha256": "b21340b20438c351457efa2b2f79f14f840695f188bc1613f20afbb0fa0bdc6a"
+    },
+    {
+      "path": "assets/offline-CyYOenOT.css",
+      "bytes": 11360,
+      "sha256": "8b3c0fb99574f30e9d24a504d2154f368e716b6b6deabf1d95980390cca2d2f1"
+    },
+    {
+      "path": "assets/song-D7fQCJgB.js",
+      "bytes": 28564,
+      "sha256": "ee73014bb7667f8cd8b22e4294d9d105a69a018c59ff04567b6a67f570db5ad3"
+    },
+    {
+      "path": "assets/song-DU6C71Tm.css",
+      "bytes": 6660,
+      "sha256": "e87da18d9b995f447720ef476ca21d54d7562a1d7053e48d3b70705f7ef89b60"
+    },
+    {
+      "path": "canon.html",
+      "bytes": 1035,
+      "sha256": "57eae5da6924f8e294cb0751ba074a3c3f9175351b252cf22d63290c1f6e577b"
+    },
+    {
+      "path": "fonts/IBMPlex-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "path": "fonts/IBMPlexSans-Regular.woff2",
+      "bytes": 63020,
+      "sha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a"
+    },
+    {
+      "path": "fonts/IBMPlexSans-SemiBold.woff2",
+      "bytes": 67060,
+      "sha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205"
+    },
+    {
+      "path": "fonts/NotoSerif-OFL.txt",
+      "bytes": 4396,
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a"
+    },
+    {
+      "path": "fonts/NotoSerif-Regular.ttf",
+      "bytes": 444064,
+      "sha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6"
+    },
+    {
+      "path": "index.html",
+      "bytes": 965,
+      "sha256": "a116a98fbc92156f003ee12ee475333f5124860d1784fb25131e3afc1b9dfb40"
+    },
+    {
+      "path": "song.html",
+      "bytes": 1036,
+      "sha256": "899aa1f471ec862059c550556303f1985a8d5ce3b2459fc57e3ac6eaac0ad9af"
+    },
+    {
+      "path": "sources/canon/menge-170.jpg",
+      "bytes": 328144,
+      "sha256": "dcc5aa0766a580e2a3d6e10a4bbccc5bb03042a845ea8263ca2ba47fccc27817"
+    },
+    {
+      "path": "sources/canon/menge-171.jpg",
+      "bytes": 293460,
+      "sha256": "72d4dc1d525c9b2cbb3e1af95e1656dc46f3eca4edd18f56bbf39f75e98bd57d"
+    },
+    {
+      "path": "sources/canon/menge-172.jpg",
+      "bytes": 341043,
+      "sha256": "0262cfa2cb42c56e93a16a32a8f445bd31206a7fcf1216bfd53aaf98a577e522"
+    },
+    {
+      "path": "sources/canon/menge-173.jpg",
+      "bytes": 319301,
+      "sha256": "ce0f45cb57a71a92ed2dacde8677d7979383bfc57c4eb85b4e6ad669c8c5844e"
+    },
+    {
+      "path": "sources/canon/menge-174.jpg",
+      "bytes": 315662,
+      "sha256": "df0a0f90048b46f60fadf024e8248789f87d2ece67cc344f94df2a739e8da130"
+    },
+    {
+      "path": "sources/canon/menge-175.jpg",
+      "bytes": 296605,
+      "sha256": "2edd6567bbf8f54e95fac83d6a2fc84077129dd9d2ec11fef07918129c44d1fc"
+    },
+    {
+      "path": "sources/macran-182.jpg",
+      "bytes": 373644,
+      "sha256": "870edc78b7ed3e08e38bfbe458722a774623562228152b2d9c07ed74c8165697"
+    },
+    {
+      "path": "sources/seikilos/inscription.jpg",
+      "bytes": 210980,
+      "sha256": "da774306bb3f05873e7126596612e5b623bd9255b0564b36d11bfb1be4826729"
+    },
+    {
+      "path": "sources/seikilos/monro-correction.jpg",
+      "bytes": 32797,
+      "sha256": "6df42768a72811fa199c7d89bd4c4ebbc9fb46d0d1d63e413a6b4c845a60c34d"
+    },
+    {
+      "path": "sources/seikilos/monro-ending.jpg",
+      "bytes": 18620,
+      "sha256": "c2a8ad3dbf2feaebde1b51f25aee415690ec3254c5f65d74daf27405a0d10ac3"
+    },
+    {
+      "path": "sources/seikilos/stele.jpg",
+      "bytes": 64634,
+      "sha256": "9ddb805f113cdb555dde628b40c8c1efc3e9fb6c0b13d42905ab7dfb726b8050"
+    },
+    {
+      "path": "sources/wallis-62.jpg",
+      "bytes": 608756,
+      "sha256": "bb4e8eb52d20cc23cbb91b4e1ff6a8319e8bd0a8092ab8b899d2970087d427c2"
+    },
+    {
+      "path": "sources/wallis-63.jpg",
+      "bytes": 547639,
+      "sha256": "e9d74ef39d02b2dd124792b8ebff2260805ceeead6bde6a3be0adb1a904dbafd"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 5719,
+      "sha256": "361ca43d855dd03043d22b1237522ff7fc63de5648c27b4423b7230171ae0478"
+    }
+  ]
+}
