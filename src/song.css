@@ -409,6 +409,9 @@
   }
 }
 @media (max-width: 620px) {
+  .song-diagram {
+    font-size: 24px;
+  }
   .song-page nav a:last-child {
     display: inline;
   }
