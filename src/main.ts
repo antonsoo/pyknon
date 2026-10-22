@@ -1,8 +1,7 @@
-import { at } from "./core/tetrachord";
-import "./style.css";
 import { Player, renderWav } from "./audio";
 import { ARCHIVE, SOURCE_NUMBERS, WORDS } from "./content";
 import {
+  at,
   cents,
   GENERA,
   type GenusId,
