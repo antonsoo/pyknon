@@ -1,3 +1,4 @@
+// biome-ignore-all lint/performance/useDomNodeTextContent: Review visible learner-facing output.
 import assert from "node:assert/strict";
 import { writeFile } from "node:fs/promises";
 import { chromium, firefox } from "playwright";
@@ -12,7 +13,7 @@ for (const [name, engine] of [
   const browser = await engine.launch();
   try {
     for (const width of [1440, 375])
-      for (const file of ["", "song.html"]) {
+      for (const file of ["", "song.html", "canon.html"]) {
         const page = await browser.newPage({ viewport: { width, height: 1000 } });
         const errors = [];
         page.on("pageerror", (e) => errors.push(e.message));
@@ -35,7 +36,12 @@ for (const [name, engine] of [
         assert.equal(style.overflow, false);
         assert.deepEqual(style.violations, []);
         assert.deepEqual(errors, []);
-        if (file) {
+        if (file === "canon.html") {
+          await page.locator('.step-buttons [data-step="3"]').click();
+          assert((await page.locator("#integer-title").innerText()).includes("373248"));
+          await page.locator('[data-passage="2"]').click();
+          assert((await page.locator(".greek-line").innerText()).includes("[ἐστι]"));
+        } else if (file) {
           await page.locator('[data-verse="3"]').click();
           await page.locator('[data-syllable="28"]').click();
           assert.equal(await page.locator("#syllable-table tr").count(), 3);
@@ -62,7 +68,7 @@ for (const [name, engine] of [
 }
 await writeFile(
   output,
-  `${JSON.stringify({ checkedAt: new Date().toISOString(), scope: "Documented Vite development server; both pages with their actual Content Security Policy", configurations }, null, 2)}\n`,
+  `${JSON.stringify({ checkedAt: new Date().toISOString(), scope: "Documented Vite development server; all three pages with their actual Content Security Policy", configurations }, null, 2)}\n`,
 );
 console.log(
   `Verified ${configurations.length} styled development workflows with no CSP violations.`,

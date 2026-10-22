@@ -13,12 +13,19 @@ jobs:
         with:
           node-version: 24
           cache: npm
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
       - run: npm ci
       - run: npm run check
       - run: npm run verify:ratios
       - run: npm run verify:song
+      - run: npm run verify:canon
       - run: npx playwright install --with-deps chromium firefox
       - run: npm run test:browser -- /tmp/pyknon-review/browser.json
       - run: python3 scripts/audio-oracle.py /tmp/pyknon-review/browser.json
       - run: npm run test:song -- /tmp/pyknon-song-review/browser.json
       - run: python3 scripts/song-oracle.py /tmp/pyknon-song-review/browser.json
+      - run: python3 -m pip install -r scripts/requirements-audio.txt
+      - run: npm run test:canon -- /tmp/pyknon-canon-review/browser.json
+      - run: python3 scripts/canon-audio-oracle.py /tmp/pyknon-canon-review/browser.json

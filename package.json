@@ -34,7 +34,9 @@
     "verify:ratios": "node --import tsx scripts/ratio-cases.ts | python3 scripts/ratio-oracle.py",
     "test:browser": "node scripts/browser-check.mjs",
     "verify:song": "node --import tsx scripts/song-cases.ts | python3 scripts/song-oracle.py",
-    "test:song": "node scripts/song-browser.mjs"
+    "test:song": "node scripts/song-browser.mjs",
+    "verify:canon": "node --import tsx scripts/canon-cases.ts | python3 scripts/canon-oracle.py",
+    "test:canon": "node scripts/canon-browser.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",

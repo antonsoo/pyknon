@@ -23,6 +23,7 @@ export default defineConfig(async ({ command }) => {
     ...(await filesIn("public")),
     "index.html",
     "song.html",
+    "canon.html",
     "vite.config.ts",
     "tsconfig.json",
     "package.json",
@@ -36,7 +37,9 @@ export default defineConfig(async ({ command }) => {
   const edition = command === "build" ? inputHash.digest("hex") : "development";
   return {
     base,
-    build: { rollupOptions: { input: { main: "index.html", song: "song.html" } } },
+    build: {
+      rollupOptions: { input: { main: "index.html", song: "song.html", canon: "canon.html" } },
+    },
     define: { __PYKNON_EDITION__: JSON.stringify(edition) },
     plugins: [
       {

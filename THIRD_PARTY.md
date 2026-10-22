@@ -152,3 +152,55 @@ page content. Both the ancient text and this 1902 translation are public domain.
 We use this passage for the **definition** of the close-packed group. It does
 not supply Archytas's ratios. Aristoxenus's discussion of the fourth's apparent
 size should not be silently substituted for the 4/3 ratio in our model.
+
+## Sectio canonis, edited and translated by Menge (1916)
+
+The octave room uses _Sectio canonis_ IX, XII–XIV, in Heinrich Menge's
+Greek text and Latin translation, _Euclidis opera omnia_, volume VIII,
+_Phaenomena et scripta musica_ (Leipzig: B. G. Teubner, 1916), printed
+pp. 170–175. The edition's title pages print MCMXVI; the archive's broad
+series metadata date is not used as this volume's date.
+
+[Complete California scan](https://archive.org/details/euclidisoperaomn08eucl/page/174/mode/2up).
+The original file is `euclidisoperaomn08eucl.pdf`, SHA-256
+`eecde1f0c7164eae8497c17566746e9c4d38e3e09878a0a9d11caf0753fcddb8`.
+PDF pp. 228–233 correspond to printed pp. 170–175. Six complete JPEG pages
+were rendered with Poppler `pdftoppm -f 228 -l 233 -scale-to 1800 -jpeg
+-jpegopt quality=85`. No page content was cropped, redrawn or reconstructed.
+Every page was visually inspected on 2026-10-22.
+
+The ancient Greek text and Menge's 1916 Latin translation are public domain.
+The Greek reading normalizes Unicode and the edition's theta letterform,
+joins line breaks and retains the bracketed `[ἐστι]`. Menge's Latin
+proposition references in brackets remain identified as editorial additions.
+The English translations, word notes, SVGs and explanations are new. Latin
+is a modern scholarly translation of the Greek, not an ancient Latin original.
+Romanization is an unaccented reading aid, not a reconstructed pronunciation.
+
+The seven source integers on p. 171 were read from the photograph:
+262144, 294912, 331776, 373248, 419904, 472392, 531441. OCR in another
+copy corrupts several of these; the source images, exact arithmetic and
+independent Python control are retained together. The integers form a ratio
+proof. Treating their ratios as frequencies is an explicitly modern
+realization, not a claim that the printed numbers measure string lengths.
+
+| File under `public/sources/canon/` | Printed page / PDF page | SHA-256                                                            |
+| ---------------------------------- | ----------------------- | ------------------------------------------------------------------ |
+| `menge-170.jpg`                    | 170 / 228               | `dcc5aa0766a580e2a3d6e10a4bbccc5bb03042a845ea8263ca2ba47fccc27817` |
+| `menge-171.jpg`                    | 171 / 229               | `72d4dc1d525c9b2cbb3e1af95e1656dc46f3eca4edd18f56bbf39f75e98bd57d` |
+| `menge-172.jpg`                    | 172 / 230               | `0262cfa2cb42c56e93a16a32a8f445bd31206a7fcf1216bfd53aaf98a577e522` |
+| `menge-173.jpg`                    | 173 / 231               | `ce0f45cb57a71a92ed2dacde8677d7979383bfc57c4eb85b4e6ad669c8c5844e` |
+| `menge-174.jpg`                    | 174 / 232               | `df0a0f90048b46f60fadf024e8248789f87d2ece67cc344f94df2a739e8da130` |
+| `menge-175.jpg`                    | 175 / 233               | `2edd6567bbf8f54e95fac83d6a2fc84077129dd9d2ec11fef07918129c44d1fc` |
+
+Authorship is deliberately described as transmission under Euclid's name.
+For the manuscript attribution and its difficulties, see Andrew Barker,
+[“The Euclidean Sectio Canonis,” _Greek Musical Writings_, volume II, chapter 8](https://www.cambridge.org/core/books/abs/greek-musical-writings/euclidean-sectio-canonis/BB386D8812D97E70453550F83CE7C110).
+No modern translation from this chapter is redistributed.
+
+The label “Pythagorean comma,” modern cents, selectable A references,
+equal 200-cent steps, twelve-fifths algebra and sine-tone beating are added
+explanations and comparisons. They are not attributed to the wording of IX
+or XIV. The work's 9:8 tone must not be silently replaced with a modern
+200-cent tone, nor this argument substituted for Archytas's different
+tetrachord divisions or the Seikilos song's modern realization.

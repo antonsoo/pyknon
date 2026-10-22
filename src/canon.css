@@ -1,0 +1,455 @@
+.canon-intro {
+  gap: 45px;
+}
+.canon-intro h1 {
+  font-size: clamp(43px, 5.2vw, 67px);
+}
+.canon-workbench {
+  padding-bottom: 28px;
+}
+.canon-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 25px;
+  margin-bottom: 24px;
+}
+.step-label {
+  font-size: 13px;
+  margin-bottom: 8px;
+  color: var(--muted);
+}
+.step-buttons {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.step-buttons button {
+  min-width: 43px;
+  padding: 8px 12px;
+}
+.step-buttons button[aria-pressed="true"],
+.passage-tabs button[aria-pressed="true"] {
+  background: var(--ink);
+  color: white;
+  border-color: var(--ink);
+}
+.canon-controls label,
+.sound-choice {
+  display: grid;
+  gap: 6px;
+  font-size: 13px;
+}
+.canon-controls select,
+.sound-choice select {
+  max-width: 100%;
+  border: 1px solid #afa3bc;
+  padding: 9px;
+  background: var(--paper);
+  color: var(--ink);
+  border-radius: 3px;
+  font: inherit;
+}
+.canon-route {
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  margin: 0;
+  padding: 14px 0;
+}
+.canon-route svg,
+.canon-detail svg {
+  width: 100%;
+  display: block;
+}
+.route-label {
+  fill: var(--ink);
+  font:
+    16px Plex,
+    sans-serif;
+}
+.route-axis {
+  fill: var(--muted);
+  font:
+    12px Plex,
+    sans-serif;
+}
+.route-grid {
+  stroke: var(--line);
+  stroke-width: 1;
+}
+.route-line {
+  stroke: #afa3bc;
+  stroke-width: 2;
+}
+.route-ratios circle {
+  fill: var(--ink);
+  stroke: var(--ink);
+  stroke-width: 2;
+}
+.route-keyboard circle {
+  fill: var(--paper);
+  stroke: var(--ink);
+  stroke-width: 2;
+}
+.route-note text {
+  font:
+    14px Plex,
+    sans-serif;
+  fill: white;
+}
+.route-keyboard .route-note text {
+  fill: var(--ink);
+}
+.route-note .selection-ring {
+  fill: none;
+  stroke: transparent;
+  stroke-width: 2;
+}
+.route-note.selected .selection-ring {
+  stroke: var(--ink);
+}
+.route-note.sounding .selection-ring {
+  stroke: #a94116;
+  stroke-width: 4;
+}
+.detail-link {
+  stroke: var(--ink);
+  stroke-width: 2;
+}
+.route-phone {
+  display: none;
+}
+.canon-route figcaption {
+  color: var(--muted);
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0 10px;
+}
+.canon-readout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px;
+  padding: 22px 0;
+  align-items: center;
+}
+.canon-detail {
+  border-right: 1px solid var(--line);
+  padding-right: 30px;
+}
+.canon-detail p {
+  font-size: 12px;
+  color: var(--muted);
+}
+.pair-values {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin: 0 0 12px;
+}
+.pair-values dt {
+  font-size: 12px;
+  color: var(--muted);
+}
+.pair-values dd {
+  margin: 4px 0 0;
+  font-size: 24px;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+.beat-reading {
+  font-size: 14px;
+  color: var(--muted);
+}
+.canon-transport {
+  display: flex;
+  align-items: end;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.sound-choice {
+  flex: 1 1 285px;
+  max-width: 430px;
+}
+.canon-status {
+  min-height: 27px;
+  font-size: 13px;
+  color: var(--muted);
+  padding: 12px 0 0;
+}
+.canon-boundary {
+  margin-top: 16px;
+  max-width: 850px;
+  color: var(--muted);
+  font-size: 13px;
+}
+.canon-section {
+  border-top: 1px solid var(--line);
+  padding: 42px 0;
+  scroll-margin-top: 24px;
+}
+.proof-layout {
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  gap: 35px;
+  align-items: start;
+}
+.integer-table {
+  font-variant-numeric: tabular-nums;
+}
+.integer-table button {
+  padding: 5px 12px;
+  min-width: 44px;
+}
+.integer-table th,
+.integer-table td {
+  padding: 9px 12px;
+  font-size: 14px;
+}
+.integer-table tr.selected {
+  background: #eee9f5;
+}
+.integer-table tr.selected button {
+  color: white;
+  background: var(--ink);
+}
+.integer-working {
+  padding: 22px;
+  background: #f1edf6;
+}
+.integer-working h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+.integer-equation {
+  font-size: clamp(20px, 2.3vw, 29px);
+  line-height: 1.4;
+  font-variant-numeric: tabular-nums;
+  margin: 14px 0;
+  overflow-wrap: anywhere;
+}
+.integer-proof {
+  border-top: 1px solid #c9bfd7;
+  margin-top: 24px;
+  padding-top: 18px;
+}
+.integer-proof strong {
+  color: var(--ink);
+}
+.canon-notes {
+  margin-top: 24px;
+  max-width: 850px;
+}
+.canon-notes summary {
+  padding: 10px 0;
+}
+.canon-notes p {
+  margin: 14px 0;
+}
+.canon-reading {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px;
+  align-items: start;
+}
+.passage-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 18px;
+}
+.passage-tabs button {
+  padding: 8px 11px;
+}
+.canon-passage h3 {
+  font-size: 17px;
+  margin-bottom: 14px;
+}
+.canon-passage .greek-line {
+  font-size: 26px;
+  line-height: 1.65;
+}
+.canon-passage .latin-line {
+  font-family: Noto, Georgia, serif;
+  font-size: 21px;
+  margin-top: 17px;
+}
+.canon-passage .english-line {
+  font-size: 18px;
+  margin-top: 17px;
+}
+.canon-passage .reading-note {
+  border-top: 1px solid var(--line);
+  padding-top: 16px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+.canon-source-view {
+  margin: 0;
+}
+.canon-source-view a {
+  display: block;
+}
+.canon-source-view img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+.canon-source-view figcaption {
+  font-size: 12px;
+  color: var(--muted);
+  padding-top: 10px;
+}
+.canon-source-view label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.canon-source-view select {
+  font: inherit;
+  padding: 6px;
+  max-width: 65%;
+}
+.canon-vocabulary {
+  margin-top: 34px;
+}
+.canon-vocabulary .word-layout {
+  margin-top: 18px;
+}
+.canon-downloads {
+  margin: 26px 0 0;
+}
+.canon-downloads .save-row {
+  flex-wrap: wrap;
+}
+.canon-downloads p {
+  font-size: 13px;
+  color: var(--muted);
+}
+.canon-packet {
+  margin-top: 24px;
+}
+.canon-packet summary {
+  padding: 15px 0;
+}
+.canon-packet .scan-grid {
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 20px;
+}
+.canon-packet figure {
+  margin: 0;
+}
+.canon-packet figcaption {
+  font-size: 12px;
+  margin-top: 8px;
+}
+.canon-connections {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  font-size: 14px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
+@media (max-width: 760px) {
+  .canon-intro {
+    gap: 24px;
+  }
+  .canon-controls {
+    align-items: start;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .canon-readout,
+  .proof-layout,
+  .canon-reading {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+  .canon-detail {
+    border-right: 0;
+    padding-right: 0;
+  }
+  .canon-readout {
+    padding-top: 16px;
+  }
+  .canon-detail svg {
+    max-width: 400px;
+    margin: auto;
+  }
+  .canon-source-view {
+    max-width: 520px;
+  }
+  .canon-packet .scan-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 620px) {
+  .route-wide {
+    display: none;
+  }
+  .route-phone {
+    display: block;
+    max-width: 340px;
+    margin: auto;
+  }
+  .canon-route figcaption {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .step-buttons {
+    gap: 4px;
+  }
+  .step-buttons button {
+    min-width: 36px;
+    padding: 8px 10px;
+  }
+  .pair-values dd {
+    font-size: 22px;
+  }
+  .canon-transport {
+    align-items: stretch;
+  }
+  .sound-choice {
+    max-width: none;
+  }
+  .integer-table th,
+  .integer-table td {
+    font-size: 13px;
+    padding: 8px;
+  }
+  .canon-packet .scan-grid {
+    grid-template-columns: 1fr;
+  }
+  .canon-passage .greek-line {
+    font-size: 23px;
+  }
+  .canon-section {
+    padding: 30px 0;
+  }
+}
+@media print {
+  .canon-controls,
+  .canon-transport,
+  .canon-status,
+  .canon-downloads,
+  .passage-tabs {
+    display: none;
+  }
+  .canon-readout,
+  .proof-layout,
+  .canon-reading {
+    grid-template-columns: 1fr 1fr;
+  }
+  .canon-route,
+  .integer-working,
+  .canon-passage,
+  .canon-source-view {
+    break-inside: avoid;
+  }
+}
