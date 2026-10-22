@@ -142,9 +142,16 @@ are modern explanations added here. No physical speaker or human hearing
 measurement is claimed. The service worker cannot guarantee that a browser
 will never evict its cache; saved HTML and WAV files provide separate copies.
 
-The work is committed locally. **It has not been pushed or deployed.**
-The byte comparison above concerns the local production preview, not the
-public Pages site. The deployable static site is built with `npm run build` into `dist/`,
+The work is published. Source `3fcb764` was pushed to `main`; Pages commit
+`7698558` deploys the reviewed runtime. [All 29 canonical public files](canon-publication.json)
+match the build byte-for-byte, including the directory entry, and seven
+earlier hashed assets remain available for existing tabs.
+
+[Public browser journeys](canon-hosted.json) passed in Chromium and Firefox
+at 1440 and 375 px: keyboard playback and Stop, native WAV and illustrated
+HTML downloads matching reviewed local bytes, all six source hashes, and
+offline navigation among all three rooms. Local and public receipts remain
+separate. The public lesson is [here](https://antonsoo.github.io/pyknon/canon.html?n=6&a=220&sound=beat#canon). The deployable static site is built with `npm run build` into `dist/`,
 with the existing `/pyknon/` base path. No new runtime dependency or
 package release is needed.
 

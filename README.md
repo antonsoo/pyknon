@@ -65,7 +65,7 @@ The new **Six tones** room follows a numerical proof in the _Sectio canonis_,
 transmitted under Euclid's name. Six 9:8 tones reach 1223.460 cents. Six modern
 200-cent steps reach exactly 1200. The small difference is audible.
 
-Run the app locally and open `canon.html?n=6&a=220&sound=beat#canon`.
+[Open the listening lesson](https://antonsoo.github.io/pyknon/canon.html?n=6&a=220&sound=beat#canon).
 Select a step from zero to six. Both pitch routes, the enlarged detail,
 frequencies and original integer progression stay connected. Hear each pair
 successively, sound it together, climb both routes, or compare the beating
