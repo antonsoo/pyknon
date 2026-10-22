@@ -1,0 +1,56 @@
+{
+  "sourceCommit": "4fd04e5238a5903269485f81c7a9a9ecbc696d85",
+  "standaloneHtmlMatchesNativeDownload": true,
+  "files": [
+    {
+      "file": "docs/assets/canon-1440.png",
+      "bytes": 85990,
+      "sha256": "caab13f4875f5a4cc588eb4ff7a157fbfc52f3ca4b430d0263b29e5cbd352825"
+    },
+    {
+      "file": "docs/assets/canon-375.png",
+      "bytes": 77745,
+      "sha256": "a7c679e16a752dbcc45ebaef29323d12591e5957b4510b919340ef545e7aa2dc"
+    },
+    {
+      "file": "docs/assets/canon-reading-1440.png",
+      "bytes": 566330,
+      "sha256": "ef3967ce82235b4a6979deee9b439e2de8cbaefd7eb83c361f82e4a0d09ec6aa"
+    },
+    {
+      "file": "docs/assets/canon-reading-375.png",
+      "bytes": 115787,
+      "sha256": "2b496b3c5b1f840ceab585f403294ac40d0493ad26887b7b4abbe765f624c031"
+    },
+    {
+      "file": "examples/canon-220-beating.wav",
+      "bytes": 414764,
+      "sha256": "b858d0bc2f978d1d1bd900a2a5326e373422c46348ad7ba9340d622c32e2e72b"
+    },
+    {
+      "file": "examples/canon-220-control.wav",
+      "bytes": 414764,
+      "sha256": "4e82e398dbaf70a19d0541d56c8ab20534de5c74a16fa4b48ad1af63c2117087"
+    },
+    {
+      "file": "examples/canon-220-numbers.csv",
+      "bytes": 878,
+      "sha256": "c1dfc425b4fb87e94406ab267e1b675300b047bb2e3243e225438b1411aeea5a"
+    },
+    {
+      "file": "examples/canon-220-successive.wav",
+      "bytes": 376366,
+      "sha256": "56d771888755198e14b29262e19367f0d9ea819bcde7967f0da91e5dc2210b82"
+    },
+    {
+      "file": "examples/canon-six-tones-reading.html",
+      "bytes": 3148309,
+      "sha256": "049167ea0d02c47e32e6125ca474983c9edd499a00aa5b7b1c9a64ae42333feb"
+    },
+    {
+      "file": "examples/canon-six-tones-reading.pdf",
+      "bytes": 2040145,
+      "sha256": "2d1162f55e7dad1833c19dcaa05c092be9a3925e8e03cd84049d6f1d19dc8fe1"
+    }
+  ]
+}

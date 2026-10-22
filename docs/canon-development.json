@@ -1,0 +1,138 @@
+{
+  "checkedAt": "2026-10-22T10:00:22.820Z",
+  "scope": "Documented Vite development server; all three pages with their actual Content Security Policy",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "file": "index.html",
+      "font": "Plex, system-ui, sans-serif",
+      "color": "rgb(44, 37, 56)",
+      "overflow": false,
+      "violations": [],
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "file": "song.html",
+      "font": "Plex, system-ui, sans-serif",
+      "color": "rgb(44, 37, 56)",
+      "overflow": false,
+      "violations": [],
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "file": "canon.html",
+      "font": "Plex, system-ui, sans-serif",
+      "color": "rgb(44, 37, 56)",
+      "overflow": false,
+      "violations": [],
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "file": "index.html",
+      "font": "Plex, system-ui, sans-serif",
+      "color": "rgb(44, 37, 56)",
+      "overflow": false,
+      "violations": [],
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "file": "song.html",
+      "font": "Plex, system-ui, sans-serif",
+      "color": "rgb(44, 37, 56)",
+      "overflow": false,
+      "violations": [],
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "file": "canon.html",
+      "font": "Plex, system-ui, sans-serif",
+      "color": "rgb(44, 37, 56)",
+      "overflow": false,
+      "violations": [],
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "file": "index.html",
+      "font": "Plex, system-ui, sans-serif",
+      "color": "rgb(44, 37, 56)",
+      "overflow": false,
+      "violations": [],
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "file": "song.html",
+      "font": "Plex, system-ui, sans-serif",
+      "color": "rgb(44, 37, 56)",
+      "overflow": false,
+      "violations": [],
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "file": "canon.html",
+      "font": "Plex, system-ui, sans-serif",
+      "color": "rgb(44, 37, 56)",
+      "overflow": false,
+      "violations": [],
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "file": "index.html",
+      "font": "Plex, system-ui, sans-serif",
+      "color": "rgb(44, 37, 56)",
+      "overflow": false,
+      "violations": [],
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "file": "song.html",
+      "font": "Plex, system-ui, sans-serif",
+      "color": "rgb(44, 37, 56)",
+      "overflow": false,
+      "violations": [],
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "file": "canon.html",
+      "font": "Plex, system-ui, sans-serif",
+      "color": "rgb(44, 37, 56)",
+      "overflow": false,
+      "violations": [],
+      "pageErrors": []
+    }
+  ]
+}

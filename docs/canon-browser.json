@@ -1,0 +1,2004 @@
+{
+  "checkedAt": "2026-10-22T09:55:41.471Z",
+  "scope": "Local production build. Actual browser selections, SVG coordinates, generated WAVs and standalone HTML. Origin disabled for offline navigation. Physical listening and hosted deployment not claimed.",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "sharedLandingY": 20.109375,
+      "accessibility": [
+        {
+          "label": "shared landing",
+          "violations": 0
+        },
+        {
+          "label": "source reader and vocabulary",
+          "violations": 0
+        },
+        {
+          "label": "complete source packet",
+          "violations": 0
+        }
+      ],
+      "renderedPitchChecks": [
+        {
+          "step": 0,
+          "pitchPoints": 14
+        },
+        {
+          "step": 1,
+          "pitchPoints": 14
+        },
+        {
+          "step": 2,
+          "pitchPoints": 14
+        },
+        {
+          "step": 3,
+          "pitchPoints": 14
+        },
+        {
+          "step": 4,
+          "pitchPoints": 14
+        },
+        {
+          "step": 5,
+          "pitchPoints": 14
+        },
+        {
+          "step": 6,
+          "pitchPoints": 14
+        }
+      ],
+      "allFourSoundsCancelled": true,
+      "pendingResumeCancelled": true,
+      "playbackFinishes": true,
+      "sourcePageHashes": [
+        "dcc5aa0766a580e2a3d6e10a4bbccc5bb03042a845ea8263ca2ba47fccc27817",
+        "72d4dc1d525c9b2cbb3e1af95e1656dc46f3eca4edd18f56bbf39f75e98bd57d",
+        "0262cfa2cb42c56e93a16a32a8f445bd31206a7fcf1216bfd53aaf98a577e522",
+        "ce0f45cb57a71a92ed2dacde8677d7979383bfc57c4eb85b4e6ad669c8c5844e",
+        "df0a0f90048b46f60fadf024e8248789f87d2ece67cc344f94df2a739e8da130",
+        "2edd6567bbf8f54e95fac83d6a2fc84077129dd9d2ec11fef07918129c44d1fc"
+      ],
+      "standaloneSourceHashes": [
+        "dcc5aa0766a580e2a3d6e10a4bbccc5bb03042a845ea8263ca2ba47fccc27817",
+        "72d4dc1d525c9b2cbb3e1af95e1656dc46f3eca4edd18f56bbf39f75e98bd57d",
+        "0262cfa2cb42c56e93a16a32a8f445bd31206a7fcf1216bfd53aaf98a577e522",
+        "ce0f45cb57a71a92ed2dacde8677d7979383bfc57c4eb85b4e6ad669c8c5844e",
+        "df0a0f90048b46f60fadf024e8248789f87d2ece67cc344f94df2a739e8da130",
+        "2edd6567bbf8f54e95fac83d6a2fc84077129dd9d2ec11fef07918129c44d1fc"
+      ],
+      "standaloneSha256": "049167ea0d02c47e32e6125ca474983c9edd499a00aa5b7b1c9a64ae42333feb",
+      "offlineThreeRoomNavigation": true,
+      "offlineIllustratedExport": true,
+      "pageErrors": [],
+      "externalRequests": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "sharedLandingY": 10.359375,
+      "accessibility": [
+        {
+          "label": "shared landing",
+          "violations": 0
+        },
+        {
+          "label": "source reader and vocabulary",
+          "violations": 0
+        },
+        {
+          "label": "complete source packet",
+          "violations": 0
+        }
+      ],
+      "renderedPitchChecks": [
+        {
+          "step": 0,
+          "pitchPoints": 14
+        },
+        {
+          "step": 1,
+          "pitchPoints": 14
+        },
+        {
+          "step": 2,
+          "pitchPoints": 14
+        },
+        {
+          "step": 3,
+          "pitchPoints": 14
+        },
+        {
+          "step": 4,
+          "pitchPoints": 14
+        },
+        {
+          "step": 5,
+          "pitchPoints": 14
+        },
+        {
+          "step": 6,
+          "pitchPoints": 14
+        }
+      ],
+      "allFourSoundsCancelled": true,
+      "pendingResumeCancelled": true,
+      "playbackFinishes": true,
+      "sourcePageHashes": [
+        "dcc5aa0766a580e2a3d6e10a4bbccc5bb03042a845ea8263ca2ba47fccc27817",
+        "72d4dc1d525c9b2cbb3e1af95e1656dc46f3eca4edd18f56bbf39f75e98bd57d",
+        "0262cfa2cb42c56e93a16a32a8f445bd31206a7fcf1216bfd53aaf98a577e522",
+        "ce0f45cb57a71a92ed2dacde8677d7979383bfc57c4eb85b4e6ad669c8c5844e",
+        "df0a0f90048b46f60fadf024e8248789f87d2ece67cc344f94df2a739e8da130",
+        "2edd6567bbf8f54e95fac83d6a2fc84077129dd9d2ec11fef07918129c44d1fc"
+      ],
+      "standaloneSourceHashes": [
+        "dcc5aa0766a580e2a3d6e10a4bbccc5bb03042a845ea8263ca2ba47fccc27817",
+        "72d4dc1d525c9b2cbb3e1af95e1656dc46f3eca4edd18f56bbf39f75e98bd57d",
+        "0262cfa2cb42c56e93a16a32a8f445bd31206a7fcf1216bfd53aaf98a577e522",
+        "ce0f45cb57a71a92ed2dacde8677d7979383bfc57c4eb85b4e6ad669c8c5844e",
+        "df0a0f90048b46f60fadf024e8248789f87d2ece67cc344f94df2a739e8da130",
+        "2edd6567bbf8f54e95fac83d6a2fc84077129dd9d2ec11fef07918129c44d1fc"
+      ],
+      "standaloneSha256": "049167ea0d02c47e32e6125ca474983c9edd499a00aa5b7b1c9a64ae42333feb",
+      "offlineThreeRoomNavigation": true,
+      "offlineIllustratedExport": true,
+      "pageErrors": [],
+      "externalRequests": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "sharedLandingY": 20.116666793823242,
+      "accessibility": [
+        {
+          "label": "shared landing",
+          "violations": 0
+        },
+        {
+          "label": "source reader and vocabulary",
+          "violations": 0
+        },
+        {
+          "label": "complete source packet",
+          "violations": 0
+        }
+      ],
+      "renderedPitchChecks": [
+        {
+          "step": 0,
+          "pitchPoints": 14
+        },
+        {
+          "step": 1,
+          "pitchPoints": 14
+        },
+        {
+          "step": 2,
+          "pitchPoints": 14
+        },
+        {
+          "step": 3,
+          "pitchPoints": 14
+        },
+        {
+          "step": 4,
+          "pitchPoints": 14
+        },
+        {
+          "step": 5,
+          "pitchPoints": 14
+        },
+        {
+          "step": 6,
+          "pitchPoints": 14
+        }
+      ],
+      "allFourSoundsCancelled": true,
+      "pendingResumeCancelled": true,
+      "playbackFinishes": true,
+      "sourcePageHashes": [
+        "dcc5aa0766a580e2a3d6e10a4bbccc5bb03042a845ea8263ca2ba47fccc27817",
+        "72d4dc1d525c9b2cbb3e1af95e1656dc46f3eca4edd18f56bbf39f75e98bd57d",
+        "0262cfa2cb42c56e93a16a32a8f445bd31206a7fcf1216bfd53aaf98a577e522",
+        "ce0f45cb57a71a92ed2dacde8677d7979383bfc57c4eb85b4e6ad669c8c5844e",
+        "df0a0f90048b46f60fadf024e8248789f87d2ece67cc344f94df2a739e8da130",
+        "2edd6567bbf8f54e95fac83d6a2fc84077129dd9d2ec11fef07918129c44d1fc"
+      ],
+      "standaloneSourceHashes": [
+        "dcc5aa0766a580e2a3d6e10a4bbccc5bb03042a845ea8263ca2ba47fccc27817",
+        "72d4dc1d525c9b2cbb3e1af95e1656dc46f3eca4edd18f56bbf39f75e98bd57d",
+        "0262cfa2cb42c56e93a16a32a8f445bd31206a7fcf1216bfd53aaf98a577e522",
+        "ce0f45cb57a71a92ed2dacde8677d7979383bfc57c4eb85b4e6ad669c8c5844e",
+        "df0a0f90048b46f60fadf024e8248789f87d2ece67cc344f94df2a739e8da130",
+        "2edd6567bbf8f54e95fac83d6a2fc84077129dd9d2ec11fef07918129c44d1fc"
+      ],
+      "standaloneSha256": "049167ea0d02c47e32e6125ca474983c9edd499a00aa5b7b1c9a64ae42333feb",
+      "offlineThreeRoomNavigation": true,
+      "offlineIllustratedExport": true,
+      "pageErrors": [],
+      "externalRequests": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "sharedLandingY": 10,
+      "accessibility": [
+        {
+          "label": "shared landing",
+          "violations": 0
+        },
+        {
+          "label": "source reader and vocabulary",
+          "violations": 0
+        },
+        {
+          "label": "complete source packet",
+          "violations": 0
+        }
+      ],
+      "renderedPitchChecks": [
+        {
+          "step": 0,
+          "pitchPoints": 14
+        },
+        {
+          "step": 1,
+          "pitchPoints": 14
+        },
+        {
+          "step": 2,
+          "pitchPoints": 14
+        },
+        {
+          "step": 3,
+          "pitchPoints": 14
+        },
+        {
+          "step": 4,
+          "pitchPoints": 14
+        },
+        {
+          "step": 5,
+          "pitchPoints": 14
+        },
+        {
+          "step": 6,
+          "pitchPoints": 14
+        }
+      ],
+      "allFourSoundsCancelled": true,
+      "pendingResumeCancelled": true,
+      "playbackFinishes": true,
+      "sourcePageHashes": [
+        "dcc5aa0766a580e2a3d6e10a4bbccc5bb03042a845ea8263ca2ba47fccc27817",
+        "72d4dc1d525c9b2cbb3e1af95e1656dc46f3eca4edd18f56bbf39f75e98bd57d",
+        "0262cfa2cb42c56e93a16a32a8f445bd31206a7fcf1216bfd53aaf98a577e522",
+        "ce0f45cb57a71a92ed2dacde8677d7979383bfc57c4eb85b4e6ad669c8c5844e",
+        "df0a0f90048b46f60fadf024e8248789f87d2ece67cc344f94df2a739e8da130",
+        "2edd6567bbf8f54e95fac83d6a2fc84077129dd9d2ec11fef07918129c44d1fc"
+      ],
+      "standaloneSourceHashes": [
+        "dcc5aa0766a580e2a3d6e10a4bbccc5bb03042a845ea8263ca2ba47fccc27817",
+        "72d4dc1d525c9b2cbb3e1af95e1656dc46f3eca4edd18f56bbf39f75e98bd57d",
+        "0262cfa2cb42c56e93a16a32a8f445bd31206a7fcf1216bfd53aaf98a577e522",
+        "ce0f45cb57a71a92ed2dacde8677d7979383bfc57c4eb85b4e6ad669c8c5844e",
+        "df0a0f90048b46f60fadf024e8248789f87d2ece67cc344f94df2a739e8da130",
+        "2edd6567bbf8f54e95fac83d6a2fc84077129dd9d2ec11fef07918129c44d1fc"
+      ],
+      "standaloneSha256": "049167ea0d02c47e32e6125ca474983c9edd499a00aa5b7b1c9a64ae42333feb",
+      "offlineThreeRoomNavigation": true,
+      "offlineIllustratedExport": true,
+      "pageErrors": [],
+      "externalRequests": []
+    }
+  ],
+  "audio": [
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 0,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-0-compare.wav",
+      "bytes": 376366,
+      "sha256": "e4ee40abe359be3c05085ec028795f02bbcaf28419922a2002fc71f9e44348d5"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 0,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-0-beat.wav",
+      "bytes": 414764,
+      "sha256": "cc04e702f1f01dac97a9f64a552bb06b10a683029a45d1df5fb646dcdc9623a8"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 0,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-0-walk.wav",
+      "bytes": 196846,
+      "sha256": "ba6a07136f9f7f3af19bb275a5c4007d0f50f7fa4375bd7751fb744718688de0"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 0,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-0-control.wav",
+      "bytes": 414764,
+      "sha256": "cc04e702f1f01dac97a9f64a552bb06b10a683029a45d1df5fb646dcdc9623a8"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 1,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-1-compare.wav",
+      "bytes": 376366,
+      "sha256": "fdc513a3c3dfb0f69440afa33e53c0d123475617ecf44f72f7bced0826fa1052"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 1,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-1-beat.wav",
+      "bytes": 414764,
+      "sha256": "35683c5464a80e9ab45312b0a60108bc36021ffaa885be0332ac53d9596ebc3b"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 1,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-1-walk.wav",
+      "bytes": 321644,
+      "sha256": "2202da445090d1d2d384cfcc24bb9e55113c8f649a859dc59c422d8dd68e9fe9"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 1,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-1-control.wav",
+      "bytes": 414764,
+      "sha256": "8530c54c127626037feb6b87447ff7d5d8420cc10e792b4896dbdcf7a2d9fdec"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 2,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-2-compare.wav",
+      "bytes": 376366,
+      "sha256": "007f73225ae65a600d6dea3c773dfd50f1e58c59ab7a6cce74de794c208cf4a4"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 2,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-2-beat.wav",
+      "bytes": 414764,
+      "sha256": "c52fe33222dbc65ffc44924c975dc2f563eaa9910a8cab5d761ed938aa84a158"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 2,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-2-walk.wav",
+      "bytes": 446446,
+      "sha256": "1ae84d6f687687f27347031077cf29d2373b3d99b4e2c608cc12a155494abe12"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 2,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-2-control.wav",
+      "bytes": 414764,
+      "sha256": "34c154647a5473d5576ba759786ad6f2bd75dabc51f2786207d119b83834090a"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 3,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-3-compare.wav",
+      "bytes": 376366,
+      "sha256": "345170633e14c00cee1ce956fcb7ad39e9199ce15f05c6469acb32b7ffa958a7"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 3,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-3-beat.wav",
+      "bytes": 414764,
+      "sha256": "a52c14ba01d5685608946ab42e8dd57869b10285ebff3e3f3a2ebb98fbfb7fdc"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 3,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-3-walk.wav",
+      "bytes": 571244,
+      "sha256": "d4f97ef53e54ce080d892f33e9fced0d747dca770e1e366f716204be0a5b83b8"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 3,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-3-control.wav",
+      "bytes": 414764,
+      "sha256": "f70ca9452cb3c28decf87e3638b036a8e356fe667b040bce6ef7044daae0584d"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 4,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-4-compare.wav",
+      "bytes": 376366,
+      "sha256": "e60df1e9baa1b6d53e06500e7b56bb2f7891040dd96a9ba16b07c6bd6a5fd52b"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 4,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-4-beat.wav",
+      "bytes": 414764,
+      "sha256": "dbfae33c3f042e1f93d58b984e1b2c0b38f8482e6d1424590c7618f52ebc3b0a"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 4,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-4-walk.wav",
+      "bytes": 696046,
+      "sha256": "c64af404cea5ff9a9463587f037016eaba3b10e1118bd544cfb212453dc81634"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 4,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-4-control.wav",
+      "bytes": 414764,
+      "sha256": "f24c4da27d3c44ead44c50239af52be77c4685aba4180a6620c9691e7de1b316"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 5,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-5-compare.wav",
+      "bytes": 376366,
+      "sha256": "8f8045f6f22dad0cd5b3c79735fa7f7063c00e75118acb98e59e8b9acc742cf5"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 5,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-5-beat.wav",
+      "bytes": 414764,
+      "sha256": "a43da5a1eae65a5073db472b716367c1acd9e0278c061af97dee241174d35b73"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 5,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-5-walk.wav",
+      "bytes": 820844,
+      "sha256": "a2750fa3cebeeffe0bf8be6d16a27eb54c6528e975338c9e44922c4ccf52bb0d"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 5,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-5-control.wav",
+      "bytes": 414764,
+      "sha256": "238bef291604fdb23824eb03cf3b93f6a11433c7ce517b5cc3725166adb51945"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 6,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-6-compare.wav",
+      "bytes": 376366,
+      "sha256": "e1f671b7b2a70abfcf89cd3974bfa2b40ca65fc495b011cb9baf891a690a9005"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 6,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-6-beat.wav",
+      "bytes": 414764,
+      "sha256": "9593637aa65484d5a7500e900459dcb86e56cb21a9d90616d36dcdbcf1b26ded"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 6,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-6-walk.wav",
+      "bytes": 945644,
+      "sha256": "4e32bf0098f5c20211be141436b11ad4cb831f06d2770cb19bae345cef66a46b"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 6,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-6-control.wav",
+      "bytes": 414764,
+      "sha256": "cd111438f2561f46e24205c2640b12c84d8bb9a233329acdbd17a94887d93f30"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 0,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-0-compare.wav",
+      "bytes": 376366,
+      "sha256": "b1209d9c6c6491e7202bbf2d782e991ffa0ca2c5ffb93cd370527dc494cc9f58"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 0,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-0-beat.wav",
+      "bytes": 414764,
+      "sha256": "cd111438f2561f46e24205c2640b12c84d8bb9a233329acdbd17a94887d93f30"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 0,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-0-walk.wav",
+      "bytes": 196846,
+      "sha256": "6118c3e5856b802a81eb5bb6bc1ade4e1e64295d678d423341979f07a2af060f"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 0,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-0-control.wav",
+      "bytes": 414764,
+      "sha256": "cd111438f2561f46e24205c2640b12c84d8bb9a233329acdbd17a94887d93f30"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 1,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-1-compare.wav",
+      "bytes": 376366,
+      "sha256": "290bcd1552de52d379d7111377ba6df4545eef69139f0441b36048f2dc561c3e"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 1,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-1-beat.wav",
+      "bytes": 414764,
+      "sha256": "b8cbe3504a0bdb15f812e15e82eba42cc3d26bd77aa667aacf110c9801a9500e"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 1,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-1-walk.wav",
+      "bytes": 321644,
+      "sha256": "3a926767ba85e83cc72d42c5c0481723a1f5bbb355d49818b877966ad843119a"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 1,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-1-control.wav",
+      "bytes": 414764,
+      "sha256": "76e0ae220a75296cb00b7926eb1799953917e015f9df2ca062cd812e0ca3886f"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 2,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-2-compare.wav",
+      "bytes": 376366,
+      "sha256": "d7d3077ef345b0d8b95819425efac9354f8913ced0b0fdd56cd9b1af20ce022a"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 2,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-2-beat.wav",
+      "bytes": 414764,
+      "sha256": "0e2963d148ab358eb42aff6b21d2311dac95e221242f7220a85a0a65ed50a3ef"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 2,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-2-walk.wav",
+      "bytes": 446446,
+      "sha256": "b8c3625a65d4debc7fdcfda86ba6337966146f9441b4ed53336871bd5a2d9121"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 2,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-2-control.wav",
+      "bytes": 414764,
+      "sha256": "3c248e48dc43ac9e59c21dcb8e4b055e23b90cbc7f93ee62b1293e4350e5ca3f"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 3,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-3-compare.wav",
+      "bytes": 376366,
+      "sha256": "dd239f431fd08d7c6af799b59b5884c71d9ca7e83a553a37c3b22e71e987d0ce"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 3,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-3-beat.wav",
+      "bytes": 414764,
+      "sha256": "0b08bdd45ac80b7a98fb8cecf1ddfd09778608080a782b8a2e0c8eea96c65587"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 3,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-3-walk.wav",
+      "bytes": 571244,
+      "sha256": "4bdb3e3082ba6ed528299e18283466cd5a84d2484ecbc7c9bc9be9e08697790f"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 3,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-3-control.wav",
+      "bytes": 414764,
+      "sha256": "5f352eb33ace5f5b310669f50f2264dd4819f5f24b2c86c14ce9a552e8f11a81"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 4,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-4-compare.wav",
+      "bytes": 376366,
+      "sha256": "cc2b23399e65135cccc6af811081b69df368b1bd506913228d1233bc89550072"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 4,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-4-beat.wav",
+      "bytes": 414764,
+      "sha256": "0643d1a6de78170a652211d1b5c1a975976462385ab02f4c36d5dda3af218b44"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 4,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-4-walk.wav",
+      "bytes": 696046,
+      "sha256": "761740fc159dc824a1c31fdc14ab3479c1909a57c678c5b8ec5ca6bb19d0bbd4"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 4,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-4-control.wav",
+      "bytes": 414764,
+      "sha256": "bdd1de7c50dcaa912f304bbc9275bcefdb276af82dd4fdbb9b9fd441bffc29e7"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 5,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-5-compare.wav",
+      "bytes": 376366,
+      "sha256": "8968001457c0529cf876bc34c51f44ac169ea633592d789a74e27f2d4a32130f"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 5,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-5-beat.wav",
+      "bytes": 414764,
+      "sha256": "c58d2242a46c2d67dc246a23e68609ab1e61729e635c8563692e1d3b21cbe6db"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 5,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-5-walk.wav",
+      "bytes": 820844,
+      "sha256": "d09fde31dec35dbe23cd894195ec577bf53b369111b3a76e516c1e4442659f89"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 5,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-5-control.wav",
+      "bytes": 414764,
+      "sha256": "d57d4115a5386cbcb882ac64b4744d4417fc118d39cb78046b89db12a3de8d9b"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 6,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-6-compare.wav",
+      "bytes": 376366,
+      "sha256": "56d771888755198e14b29262e19367f0d9ea819bcde7967f0da91e5dc2210b82"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 6,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-6-beat.wav",
+      "bytes": 414764,
+      "sha256": "b858d0bc2f978d1d1bd900a2a5326e373422c46348ad7ba9340d622c32e2e72b"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 6,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-6-walk.wav",
+      "bytes": 945644,
+      "sha256": "b59f4ece15ae801eb98ee82ae2cdf521affc1ff3f408327f3f4d82792f01555b"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 6,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-6-control.wav",
+      "bytes": 414764,
+      "sha256": "4e82e398dbaf70a19d0541d56c8ab20534de5c74a16fa4b48ad1af63c2117087"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 0,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-0-compare.wav",
+      "bytes": 376366,
+      "sha256": "19c016966222a14f174ec9785b5a9faca6fba473336f07f33c0d392b2d23e98f"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 0,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-0-beat.wav",
+      "bytes": 414764,
+      "sha256": "4e82e398dbaf70a19d0541d56c8ab20534de5c74a16fa4b48ad1af63c2117087"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 0,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-0-walk.wav",
+      "bytes": 196846,
+      "sha256": "43a3ab338a8a0b9d8887ccceb93b880c6b4d038cb7e151b678e38bdc1b5a049d"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 0,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-0-control.wav",
+      "bytes": 414764,
+      "sha256": "4e82e398dbaf70a19d0541d56c8ab20534de5c74a16fa4b48ad1af63c2117087"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 1,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-1-compare.wav",
+      "bytes": 376366,
+      "sha256": "0f8e75519cdcab16657060831aaa61765583442c16c5d72af07bd7538ae6fb58"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 1,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-1-beat.wav",
+      "bytes": 414764,
+      "sha256": "b4443c4a74632ed183c163feef62ff715a8a722de24ad97379359fb18b5aceec"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 1,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-1-walk.wav",
+      "bytes": 321644,
+      "sha256": "6e72537d9698580d5254ef87d5e34ceaaf52a4aa89e09349b0f1590b59cd4ca4"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 1,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-1-control.wav",
+      "bytes": 414764,
+      "sha256": "3badec21b6646b172a6c0b6637662e8cfc7b4cb2c2ab48e4b67e87d8f68cae5c"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 2,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-2-compare.wav",
+      "bytes": 376366,
+      "sha256": "5373f0af9fea994798f9ca5048978c5a1a9c5e09ca98b833ebccdf12157f3f3e"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 2,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-2-beat.wav",
+      "bytes": 414764,
+      "sha256": "cb5c16ca918d389983e69bb5ef2600261f33076c8ae7628f3785b9ccec365a68"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 2,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-2-walk.wav",
+      "bytes": 446446,
+      "sha256": "863398471e53c222714f909df730ebca8ab5769c14aaf60b3e2bb656b447cd9f"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 2,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-2-control.wav",
+      "bytes": 414764,
+      "sha256": "97e852a8fddbcaaed11ea17e04b9dcb71fb33bc93fc2dbcfca6426e32a4182c8"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 3,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-3-compare.wav",
+      "bytes": 376366,
+      "sha256": "3e7e11a7992f7187bdca952c92aa83a5db1dd47886abc68df37aa8e1280f215a"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 3,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-3-beat.wav",
+      "bytes": 414764,
+      "sha256": "834c2964f0ea441016af7c4dfe43d5e8aacdda081146bcb86f0b18a8d4495adf"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 3,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-3-walk.wav",
+      "bytes": 571244,
+      "sha256": "b8bd86d2b1d26ec0585038fa518c6d10eceaf2141a25361da7f951d6a2d81f23"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 3,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-3-control.wav",
+      "bytes": 414764,
+      "sha256": "68ea1546a3622c9289d18614cca5aa404060637e2ab1071353c1dd61377d4334"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 4,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-4-compare.wav",
+      "bytes": 376366,
+      "sha256": "81b3fabafd08c2eb25d6750a28f29b1c41071877ab47a29f14c7375c2e166217"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 4,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-4-beat.wav",
+      "bytes": 414764,
+      "sha256": "ee0434a20d77f31c9fbacd665ce12798ed3088a76086e73526bd752ca7f7f700"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 4,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-4-walk.wav",
+      "bytes": 696046,
+      "sha256": "2fc6a7915ec7ccc31225887837adb09abdfe10436bd776770e2b95a3aa90dbd6"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 4,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-4-control.wav",
+      "bytes": 414764,
+      "sha256": "0d5d835297a63278bc11f8bc23dfe72cbdcbae62e62f3a6f034a5fffa22d54ca"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 5,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-5-compare.wav",
+      "bytes": 376366,
+      "sha256": "5ad2133760f0641336d27816d90445c537dcbb3b337af6aa1450f4b2acf3e52d"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 5,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-5-beat.wav",
+      "bytes": 414764,
+      "sha256": "f685a40abd4057b8642b2d3e17425a249768496c2c0f3b9d20fd237fc166ac66"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 5,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-5-walk.wav",
+      "bytes": 820844,
+      "sha256": "837c5faeb1471a8c15a3180a30bbf789d429562b864fc016de427c0d8f19c6ba"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 5,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-5-control.wav",
+      "bytes": 414764,
+      "sha256": "a08c1529a417d9ffc52f19d50a461da37050706e887990bade7179ba04341455"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 6,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-6-compare.wav",
+      "bytes": 376366,
+      "sha256": "644a9d5d77b7805c88d9cf806ce43122cae7e6f95c39e80239753eb6116e2b96"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 6,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-6-beat.wav",
+      "bytes": 414764,
+      "sha256": "bd4c0b97d70c35f9d80e593ad7c95f4a37275d2d37d57992a661529fbb3c00f2"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 6,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-6-walk.wav",
+      "bytes": 945644,
+      "sha256": "af586d73ee580a30bcfde204a0cd58209ed08baa2eba4f0e92812401dd8ec7b3"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 6,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-6-control.wav",
+      "bytes": 414764,
+      "sha256": "4e96f8d7b001a60306a917145854fe846643f00e8d1c4d459163fc8f67f4f4cd"
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "root": 220,
+      "step": 6,
+      "sound": "beat",
+      "file": "audio/chromium-375-pyknon-canon-220-step-6-beat.wav",
+      "bytes": 414764,
+      "sha256": "b858d0bc2f978d1d1bd900a2a5326e373422c46348ad7ba9340d622c32e2e72b"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 0,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-0-compare.wav",
+      "bytes": 376366,
+      "sha256": "486c561d5b4bbaca33e6222c03a793dff0d92c62acccbb41319c5de8b383398d"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 0,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-0-beat.wav",
+      "bytes": 414764,
+      "sha256": "9de40ac1ab6b8c6b40aa141d1dba87ad26e61a62038d569359d638d9cac5c1aa"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 0,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-0-walk.wav",
+      "bytes": 196846,
+      "sha256": "56a389df40bb456a00f0fcb722df1fed295f80c8247527e83094c73b61f1f140"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 0,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-0-control.wav",
+      "bytes": 414764,
+      "sha256": "9de40ac1ab6b8c6b40aa141d1dba87ad26e61a62038d569359d638d9cac5c1aa"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 1,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-1-compare.wav",
+      "bytes": 376366,
+      "sha256": "c672cea042e5a5b76da6e6d008e203754e5059ea95a6eea34fa1563b1b1f3a9c"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 1,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-1-beat.wav",
+      "bytes": 414764,
+      "sha256": "2ed27d4d17ea774b42c2a9132149879461711581c7b50831e702b740c1746813"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 1,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-1-walk.wav",
+      "bytes": 321644,
+      "sha256": "d9173a8e2c9d7c7097a7be259cf387a76e380aeaac17f58cf89e956b80a3c4c3"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 1,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-1-control.wav",
+      "bytes": 414764,
+      "sha256": "a0985803e8d5e236d2276b879b53e20b67f32b3235120ace106e3727e100de34"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 2,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-2-compare.wav",
+      "bytes": 376366,
+      "sha256": "d0438435a00aa281dac1f0a449683c96c6f93ddd3ee1ddeee5612e6a2091be90"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 2,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-2-beat.wav",
+      "bytes": 414764,
+      "sha256": "f810d6b0d1852bcee6ddeceeaee7d986e5be964311298890ba3a68e665206158"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 2,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-2-walk.wav",
+      "bytes": 446446,
+      "sha256": "93677704ea354acfe293f869508e1246c5072da70765764b89278ae6bc0dc3ae"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 2,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-2-control.wav",
+      "bytes": 414764,
+      "sha256": "3dc121ed877eb5cd8060a1cc262a9f774779a7a400cb15b5124c777fef1253d5"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 3,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-3-compare.wav",
+      "bytes": 376366,
+      "sha256": "919875649281ada8482b91103122c8a5ce5428668091514d674afbe02362223f"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 3,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-3-beat.wav",
+      "bytes": 414764,
+      "sha256": "7b9ad08b0246a8da7631e27cbfe37f21ec25b1557ff7c42635fa93efd305beda"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 3,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-3-walk.wav",
+      "bytes": 571244,
+      "sha256": "5aa9ff038c4109b435b80c20d15784776145dd0e6cd18548b0733d093a743be8"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 3,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-3-control.wav",
+      "bytes": 414764,
+      "sha256": "c140c47bfd1a030f66558bf354ae893c2b836d335e4999c198e98bd9de30b26d"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 4,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-4-compare.wav",
+      "bytes": 376366,
+      "sha256": "49050ca1fc19b726d9cf36a6b596b20e63f202605c33b8feb3921cc1388254aa"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 4,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-4-beat.wav",
+      "bytes": 414764,
+      "sha256": "24ee81f0c8894373064aa8c1592f288cdeba188e0772239fb700b6ecb6fd2166"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 4,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-4-walk.wav",
+      "bytes": 696046,
+      "sha256": "39219359fca34f04c59fd45666b21c137a61099479b3b22aa24700c56d5132f9"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 4,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-4-control.wav",
+      "bytes": 414764,
+      "sha256": "1b9f204815d1996f279a478c03232398d70f3a7235aaa184ae9db64baa24c28b"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 5,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-5-compare.wav",
+      "bytes": 376366,
+      "sha256": "a997fea8f1a9b1111bfc8c1fe1a3fbac525a0433b2379ee8444e310b4321cae8"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 5,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-5-beat.wav",
+      "bytes": 414764,
+      "sha256": "f8c6acb0d97559da94f3af7212eae0feec43d13930022bff667bb69b4934a9d9"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 5,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-5-walk.wav",
+      "bytes": 820844,
+      "sha256": "40c4e556a0df5841f294cd3d3c6f1a8f46b19875cd40b5af355211df088a0dda"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 5,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-5-control.wav",
+      "bytes": 414764,
+      "sha256": "c91a0b03c4a776258253000db049afbb906506dcde90cb4f7baa8c3b31489249"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 6,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-6-compare.wav",
+      "bytes": 376366,
+      "sha256": "654f2309d1b5b0c96cc6783568bfe538eb61bb08955625293f45260b194b235e"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 6,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-6-beat.wav",
+      "bytes": 414764,
+      "sha256": "1dad5972ab8e774200118b984a95f94bf3ace35e2c97c93a2ae336d8e70384e7"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 6,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-6-walk.wav",
+      "bytes": 945644,
+      "sha256": "7cc915e6d54821ceab7c19efe93a7689fc89396ba6605bd72cdb4c7a914021c6"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 6,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-6-control.wav",
+      "bytes": 414764,
+      "sha256": "fb05b27c03c1504091d5ebf48e3afa62cd4722ae2dd703151f3f10ad62548ca4"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 0,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-0-compare.wav",
+      "bytes": 376366,
+      "sha256": "bc81bd44a8b70e6d2912886ac6102d73bc79c6d24603ec4144d682b70c45ba25"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 0,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-0-beat.wav",
+      "bytes": 414764,
+      "sha256": "fb05b27c03c1504091d5ebf48e3afa62cd4722ae2dd703151f3f10ad62548ca4"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 0,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-0-walk.wav",
+      "bytes": 196846,
+      "sha256": "41f7cc83b0ac03b646dd19d5dbc3ad85dbe057b2abb39afd94bb018261ab0367"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 0,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-0-control.wav",
+      "bytes": 414764,
+      "sha256": "fb05b27c03c1504091d5ebf48e3afa62cd4722ae2dd703151f3f10ad62548ca4"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 1,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-1-compare.wav",
+      "bytes": 376366,
+      "sha256": "eb53e63f32c2e035ffd1af31cc770319345c110b2e4b60cb667f32600c6733f5"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 1,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-1-beat.wav",
+      "bytes": 414764,
+      "sha256": "f2b179968e93e8b497ae48d2b86236cd272e61e0d759dc7937f50c186db55bae"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 1,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-1-walk.wav",
+      "bytes": 321644,
+      "sha256": "1c76cb08f2b2acc1932b2ccef32e40adb03d2fc4b3fc4b3be7aebf9b9366310f"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 1,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-1-control.wav",
+      "bytes": 414764,
+      "sha256": "fc86dc5bfddb393c84b48f4407cb6ea22743a509a0860c755167e51532f6a28c"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 2,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-2-compare.wav",
+      "bytes": 376366,
+      "sha256": "730856788c64401063259eb524e772792b24f1a7add3e0f2cdfe74ec61a31bcc"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 2,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-2-beat.wav",
+      "bytes": 414764,
+      "sha256": "34f6936410a23fb8f61e45c48dddf5e658bb39d6d3d8ea61b2cf99c787a6e2bd"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 2,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-2-walk.wav",
+      "bytes": 446446,
+      "sha256": "6af4a9cffefa6a6cea7deba13a38b071123cebe470ba8656d275bf346ba24bfb"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 2,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-2-control.wav",
+      "bytes": 414764,
+      "sha256": "565d4ae0c2df9a516c2a1050e346faa08101c930e73d50632bf912dbc6d114ed"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 3,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-3-compare.wav",
+      "bytes": 376366,
+      "sha256": "4f5cc98b78726ab0f7b0a0d1e95bca3a0dd3d76825d0956971d1a5955a7b7c80"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 3,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-3-beat.wav",
+      "bytes": 414764,
+      "sha256": "19fbc58a4d13f9c6e999f46c665644ad6f7556081fe25a20636e74b3ebb9e6be"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 3,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-3-walk.wav",
+      "bytes": 571244,
+      "sha256": "bdc58df3d8ba48ab234be9ca6251b60cdc7a38ae65b3ffaf3f14c1135ede031e"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 3,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-3-control.wav",
+      "bytes": 414764,
+      "sha256": "dd4a4096f9bd62e78fdb668efef79371c2ade3cf9ef5e5b7dd19be3e3f1d60f8"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 4,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-4-compare.wav",
+      "bytes": 376366,
+      "sha256": "20ecbab0dba3ad014836c9a57795f2742057259da0ed39b5a5046729d1b3a038"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 4,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-4-beat.wav",
+      "bytes": 414764,
+      "sha256": "22bf72744534beadcdf70bf82f3915d7f34dbf564b3f72ebdb5f0f4a1a0dd764"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 4,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-4-walk.wav",
+      "bytes": 696046,
+      "sha256": "d83c2793a6f7471a8448b1f7701506f749a6ab9eee47f379e27ef90eb5e0f636"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 4,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-4-control.wav",
+      "bytes": 414764,
+      "sha256": "c2c0e2f16829d2d91ea883c3c3f970a0be79ba161da6d6ac161620d2cc119542"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 5,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-5-compare.wav",
+      "bytes": 376366,
+      "sha256": "0a9f772f644a8b586ad4668994ebc96cbc71794eeaf148235e8c2ed7cccbb726"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 5,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-5-beat.wav",
+      "bytes": 414764,
+      "sha256": "13a39973048727665e10dd2b94976bdf997f1cd275ee39f5aace680f8079923a"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 5,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-5-walk.wav",
+      "bytes": 820844,
+      "sha256": "a542fe6025e8e04bd5fdcbef3f7d1b2fcd944ff8ebc087826b91259c728da8fa"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 5,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-5-control.wav",
+      "bytes": 414764,
+      "sha256": "fff556d49480ec32659b6562782befc8abc911ec7f7eebb59c80ac0ab1136b8c"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 6,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-6-compare.wav",
+      "bytes": 376366,
+      "sha256": "7a9404d719a03e3c0dd47a110d3891a03c4e5eb71fa91b52f02bfc960320bb45"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 6,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-6-beat.wav",
+      "bytes": 414764,
+      "sha256": "8662de4e8280cb82337fcf05e1b1e7ae4010eb244d3b641366d2cebb6a7aeb83"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 6,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-6-walk.wav",
+      "bytes": 945644,
+      "sha256": "f233a3245884ca7c7e782c241314b83e23a552ea512f11d0b9b811428689ccc8"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 6,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-6-control.wav",
+      "bytes": 414764,
+      "sha256": "a07b8506ef60c3618a1006856e2b27dd1241fbb0393037f3c80b549ad56af25e"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 0,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-0-compare.wav",
+      "bytes": 376366,
+      "sha256": "c58ccb1425cd1ef3156d92edf394a31f15715710186cde9499b69477194be187"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 0,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-0-beat.wav",
+      "bytes": 414764,
+      "sha256": "a07b8506ef60c3618a1006856e2b27dd1241fbb0393037f3c80b549ad56af25e"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 0,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-0-walk.wav",
+      "bytes": 196846,
+      "sha256": "e8631054b640ab5ea6f473053e458164aefada6f15599b4cb30f657078cd4e1f"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 0,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-0-control.wav",
+      "bytes": 414764,
+      "sha256": "a07b8506ef60c3618a1006856e2b27dd1241fbb0393037f3c80b549ad56af25e"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 1,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-1-compare.wav",
+      "bytes": 376366,
+      "sha256": "27a0d490f57edb75865cf712fcb08a618fe274d40e0c8fbb2a25a8f1c6d2abbe"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 1,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-1-beat.wav",
+      "bytes": 414764,
+      "sha256": "35f9255ec5e41e2cfa7ffcca42ecd645bc7f349551887d92a948e4e28b91ce94"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 1,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-1-walk.wav",
+      "bytes": 321644,
+      "sha256": "fd6fa38d31b9676e877b938dc2fda3513774840d203ba5862ee2e5f697b870c3"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 1,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-1-control.wav",
+      "bytes": 414764,
+      "sha256": "bc6e9ec378f5dd208c1109e970b175df1caff85fb845fe300f278d7ab16b3baf"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 2,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-2-compare.wav",
+      "bytes": 376366,
+      "sha256": "4d0fb11c474c0bdfcb1c28fbfecdddcfd1c709765ca4fff0869aa2c589240b04"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 2,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-2-beat.wav",
+      "bytes": 414764,
+      "sha256": "189b7b3d7adaf9987b5df54ccc2edcac13446db5d373a9568f1cdd4ec8371f6e"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 2,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-2-walk.wav",
+      "bytes": 446446,
+      "sha256": "8bfe7fafabcb1817416060b8d53ac9c9e76b4be64f0609a2a327e7a42320dbe5"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 2,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-2-control.wav",
+      "bytes": 414764,
+      "sha256": "0314863ff3e5dcc4c96f7c80309910bc778540fd9f67b46e8b3940992842f7a7"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 3,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-3-compare.wav",
+      "bytes": 376366,
+      "sha256": "eb47940e5b3d27edc379e65d619caa389dd54a5f0443e6696def464d314eaedf"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 3,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-3-beat.wav",
+      "bytes": 414764,
+      "sha256": "0c62bc1a7fbbdd3ecc04f1ccfb777dcb095284d0475483617b6b2c25abc2d932"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 3,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-3-walk.wav",
+      "bytes": 571244,
+      "sha256": "3e784f59d15cbaf27e559e6f6c28ea62784fcf45715f9581d81028165bc99a77"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 3,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-3-control.wav",
+      "bytes": 414764,
+      "sha256": "1d69dbaabdab081e8830700f5c2e3bdb12fa87a2e9e17265e5f8f37c00d1123e"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 4,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-4-compare.wav",
+      "bytes": 376366,
+      "sha256": "55f8fb306603222620861988925b7eb8dc9a3da6baa00461a543f696c03fee36"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 4,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-4-beat.wav",
+      "bytes": 414764,
+      "sha256": "0f22410243ce0a4d9eed05af19c7f9edb0f207db9f162e93fde69f28ed39bdd0"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 4,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-4-walk.wav",
+      "bytes": 696046,
+      "sha256": "7e2371d3fe391f14b28545f22aca15b56f9825db8beb6c3a4ae964497d1bb2ce"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 4,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-4-control.wav",
+      "bytes": 414764,
+      "sha256": "2aedd6ebd61efafef22037b591538e8c5e611bb17cc04f1f0eeb1460fe1dabbb"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 5,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-5-compare.wav",
+      "bytes": 376366,
+      "sha256": "d3a54e7109c122b7dff5533ad0b3e35e52bdc91324ab842370f54c45a85cae0c"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 5,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-5-beat.wav",
+      "bytes": 414764,
+      "sha256": "932fcf0b072a0924cdbf9cfc1efa38314c1a6a6808e0ac6dc8013a3bb86d8472"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 5,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-5-walk.wav",
+      "bytes": 820844,
+      "sha256": "5a227d8df38ed7d2cbd6632df9c30b9448dfe7885b42dc465106e9ffa5e198c4"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 5,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-5-control.wav",
+      "bytes": 414764,
+      "sha256": "63cca013782c215e50c906508f8610f9b4a6b02602c6c2ad85d2bc132c16aca5"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 6,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-6-compare.wav",
+      "bytes": 376366,
+      "sha256": "4a700b0d4037e4d3f5b7cb9e7fceddc5e454b2919341baa541558276ad00c36c"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 6,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-6-beat.wav",
+      "bytes": 414764,
+      "sha256": "7f3c7c03e118697db0672f493997ff95f24f99122be3180c67bafd99f78c0494"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 6,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-6-walk.wav",
+      "bytes": 945644,
+      "sha256": "7346e4755579ff604af6ddabfd7ae7bbdefaa88e6594657bd3ce7227e777144f"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 6,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-6-control.wav",
+      "bytes": 414764,
+      "sha256": "25c6d810d64925561f6a1dc59344a10532ad80f4e797e65ff6a469134b218de0"
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "root": 220,
+      "step": 6,
+      "sound": "beat",
+      "file": "audio/firefox-375-pyknon-canon-220-step-6-beat.wav",
+      "bytes": 414764,
+      "sha256": "8662de4e8280cb82337fcf05e1b1e7ae4010eb244d3b641366d2cebb6a7aeb83"
+    }
+  ]
+}

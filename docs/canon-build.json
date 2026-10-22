@@ -1,0 +1,223 @@
+{
+  "checkedAt": "2026-10-22T10:00:17.400493+00:00",
+  "sourceCommit": "4fd04e5238a5903269485f81c7a9a9ecbc696d85",
+  "scope": "Fresh git archive, npm ci, full check and three mathematical oracles; complete clean/workspace/local-preview byte comparison. No hosted deployment claim.",
+  "node": "v26.7.0",
+  "npm": "12.0.1",
+  "commands": [
+    "npm ci",
+    "npm run check",
+    "npm run verify:ratios",
+    "npm run verify:song",
+    "npm run verify:canon"
+  ],
+  "tests": 11,
+  "files": [
+    {
+      "file": "assets/canon-B4HmA513.css",
+      "bytes": 6229,
+      "sha256": "841d997518e3e251b492b47fa52177dd85cd65d587b0935dcef1e5715e53f3eb",
+      "workspaceMatches": true,
+      "servedMatches": true
+    },
+    {
+      "file": "assets/canon-BArHHE6D.js",
+      "bytes": 38197,
+      "sha256": "e3f22678878ccebf82179dee264a489a289a850dbe8e0b4bf6e36a12ac7564fc",
+      "workspaceMatches": true,
+      "servedMatches": true
+    },
+    {
+      "file": "assets/main-BnQolRlI.js",
+      "bytes": 23967,
+      "sha256": "853990d4673d1257d3712378a9215dbe17c272a068337a6c7424be04251bab2e",
+      "workspaceMatches": true,
+      "servedMatches": true
+    },
+    {
+      "file": "assets/offline-CyYOenOT.css",
+      "bytes": 11360,
+      "sha256": "8b3c0fb99574f30e9d24a504d2154f368e716b6b6deabf1d95980390cca2d2f1",
+      "workspaceMatches": true,
+      "servedMatches": true
+    },
+    {
+      "file": "assets/offline-GVwuScnY.js",
+      "bytes": 5468,
+      "sha256": "355a35893fd1b9bb7fb28f6a422319d90e7c1c863842c2d4a2ad362214a1ce1f",
+      "workspaceMatches": true,
+      "servedMatches": true
+    },
+    {
+      "file": "assets/song-B0VVMWxf.js",
+      "bytes": 28564,
+      "sha256": "e481c7d3ba9144758f26ed06efe09b6effb48e2b824171efdfc2ec6c7ab0068b",
+      "workspaceMatches": true,
+      "servedMatches": true
+    },
+    {
+      "file": "assets/song-DU6C71Tm.css",
+      "bytes": 6660,
+      "sha256": "e87da18d9b995f447720ef476ca21d54d7562a1d7053e48d3b70705f7ef89b60",
+      "workspaceMatches": true,
+      "servedMatches": true
+    },
+    {
+      "file": "canon.html",
+      "bytes": 1035,
+      "sha256": "e08dbe24465be11fba2ef3c0e00916e83b8e49d7c3009a92c9cd85dfce1a6d6b",
+      "workspaceMatches": true,
+      "servedMatches": true
+    },
+    {
+      "file": "fonts/IBMPlex-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "workspaceMatches": true,
+      "servedMatches": true
+    },
+    {
+      "file": "fonts/IBMPlexSans-Regular.woff2",
+      "bytes": 63020,
+      "sha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a",
+      "workspaceMatches": true,
+      "servedMatches": true
+    },
+    {
+      "file": "fonts/IBMPlexSans-SemiBold.woff2",
+      "bytes": 67060,
+      "sha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205",
+      "workspaceMatches": true,
+      "servedMatches": true
+    },
+    {
+      "file": "fonts/NotoSerif-OFL.txt",
+      "bytes": 4396,
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "workspaceMatches": true,
+      "servedMatches": true
+    },
+    {
+      "file": "fonts/NotoSerif-Regular.ttf",
+      "bytes": 444064,
+      "sha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6",
+      "workspaceMatches": true,
+      "servedMatches": true
+    },
+    {
+      "file": "index.html",
+      "bytes": 965,
+      "sha256": "d46b23bc7549b4bf43eb9f4ac7300afd6ac31a1dd49cad507c322714f94ac658",
+      "workspaceMatches": true,
+      "servedMatches": true
+    },
+    {
+      "file": "song.html",
+      "bytes": 1036,
+      "sha256": "09326cf6fb02806c3257e0827d0503698fb2bfa9ff46388b5ab51ba0d386e0db",
+      "workspaceMatches": true,
+      "servedMatches": true
+    },
+    {
+      "file": "sources/canon/menge-170.jpg",
+      "bytes": 328144,
+      "sha256": "dcc5aa0766a580e2a3d6e10a4bbccc5bb03042a845ea8263ca2ba47fccc27817",
+      "workspaceMatches": true,
+      "servedMatches": true
+    },
+    {
+      "file": "sources/canon/menge-171.jpg",
+      "bytes": 293460,
+      "sha256": "72d4dc1d525c9b2cbb3e1af95e1656dc46f3eca4edd18f56bbf39f75e98bd57d",
+      "workspaceMatches": true,
+      "servedMatches": true
+    },
+    {
+      "file": "sources/canon/menge-172.jpg",
+      "bytes": 341043,
+      "sha256": "0262cfa2cb42c56e93a16a32a8f445bd31206a7fcf1216bfd53aaf98a577e522",
+      "workspaceMatches": true,
+      "servedMatches": true
+    },
+    {
+      "file": "sources/canon/menge-173.jpg",
+      "bytes": 319301,
+      "sha256": "ce0f45cb57a71a92ed2dacde8677d7979383bfc57c4eb85b4e6ad669c8c5844e",
+      "workspaceMatches": true,
+      "servedMatches": true
+    },
+    {
+      "file": "sources/canon/menge-174.jpg",
+      "bytes": 315662,
+      "sha256": "df0a0f90048b46f60fadf024e8248789f87d2ece67cc344f94df2a739e8da130",
+      "workspaceMatches": true,
+      "servedMatches": true
+    },
+    {
+      "file": "sources/canon/menge-175.jpg",
+      "bytes": 296605,
+      "sha256": "2edd6567bbf8f54e95fac83d6a2fc84077129dd9d2ec11fef07918129c44d1fc",
+      "workspaceMatches": true,
+      "servedMatches": true
+    },
+    {
+      "file": "sources/macran-182.jpg",
+      "bytes": 373644,
+      "sha256": "870edc78b7ed3e08e38bfbe458722a774623562228152b2d9c07ed74c8165697",
+      "workspaceMatches": true,
+      "servedMatches": true
+    },
+    {
+      "file": "sources/seikilos/inscription.jpg",
+      "bytes": 210980,
+      "sha256": "da774306bb3f05873e7126596612e5b623bd9255b0564b36d11bfb1be4826729",
+      "workspaceMatches": true,
+      "servedMatches": true
+    },
+    {
+      "file": "sources/seikilos/monro-correction.jpg",
+      "bytes": 32797,
+      "sha256": "6df42768a72811fa199c7d89bd4c4ebbc9fb46d0d1d63e413a6b4c845a60c34d",
+      "workspaceMatches": true,
+      "servedMatches": true
+    },
+    {
+      "file": "sources/seikilos/monro-ending.jpg",
+      "bytes": 18620,
+      "sha256": "c2a8ad3dbf2feaebde1b51f25aee415690ec3254c5f65d74daf27405a0d10ac3",
+      "workspaceMatches": true,
+      "servedMatches": true
+    },
+    {
+      "file": "sources/seikilos/stele.jpg",
+      "bytes": 64634,
+      "sha256": "9ddb805f113cdb555dde628b40c8c1efc3e9fb6c0b13d42905ab7dfb726b8050",
+      "workspaceMatches": true,
+      "servedMatches": true
+    },
+    {
+      "file": "sources/wallis-62.jpg",
+      "bytes": 608756,
+      "sha256": "bb4e8eb52d20cc23cbb91b4e1ff6a8319e8bd0a8092ab8b899d2970087d427c2",
+      "workspaceMatches": true,
+      "servedMatches": true
+    },
+    {
+      "file": "sources/wallis-63.jpg",
+      "bytes": 547639,
+      "sha256": "e9d74ef39d02b2dd124792b8ebff2260805ceeead6bde6a3be0adb1a904dbafd",
+      "workspaceMatches": true,
+      "servedMatches": true
+    },
+    {
+      "file": "sw.js",
+      "bytes": 5719,
+      "sha256": "83820dc4bc8c515867dd0225ea82a90ec894e9463566c8c2f2e074475918ed04",
+      "workspaceMatches": true,
+      "servedMatches": true
+    }
+  ],
+  "rootEntryMatches": true,
+  "buildCommand": "npm run build",
+  "output": "dist/"
+}

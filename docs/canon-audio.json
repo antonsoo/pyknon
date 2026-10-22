@@ -1,0 +1,5055 @@
+{
+  "method": "Independent printed integers; interpolated PCM zero crossings; source-frequency sinusoidal fitting; analytic-envelope maxima for final-step beats",
+  "wav_files": 170,
+  "measured_pure_tones": 462,
+  "maximum_pure_tone_error_cents": 0.0070619723722852,
+  "maximum_simultaneous_signal_residual_rms": 1.936510304543388e-5,
+  "maximum_final_beat_error_hz": 0.0012710772785684554,
+  "silence_and_finite_duration_checked": true,
+  "results": [
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 0,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-0-compare.wav",
+      "bytes": 376366,
+      "sha256": "e4ee40abe359be3c05085ec028795f02bbcaf28419922a2002fc71f9e44348d5",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 110.0,
+          "measured_hz": 109.9999999221845,
+          "error_cents": 1.2246986555431014e-6
+        },
+        {
+          "expected_hz": 110.0,
+          "measured_hz": 109.9999999221845,
+          "error_cents": 1.2246986555431014e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 0,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-0-beat.wav",
+      "bytes": 414764,
+      "sha256": "cc04e702f1f01dac97a9f64a552bb06b10a683029a45d1df5fb646dcdc9623a8",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [110.0],
+          "pcm_reference_hz": [109.9999999221845],
+          "fitted_amplitudes": [0.3200001530866449],
+          "signal_residual_rms": 1.0610062817657007e-5
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 0,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-0-walk.wav",
+      "bytes": 196846,
+      "sha256": "ba6a07136f9f7f3af19bb275a5c4007d0f50f7fa4375bd7751fb744718688de0",
+      "duration_seconds": 2.0500208333333334,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 110.0,
+          "measured_hz": 110.00003769189888,
+          "error_cents": 0.0005932135229759004
+        },
+        {
+          "expected_hz": 110.0,
+          "measured_hz": 110.00000037691886,
+          "error_cents": 5.932134148576726e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 0,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-0-control.wav",
+      "bytes": 414764,
+      "sha256": "cc04e702f1f01dac97a9f64a552bb06b10a683029a45d1df5fb646dcdc9623a8",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [110.0],
+          "pcm_reference_hz": [109.99999565347976],
+          "fitted_amplitudes": [0.3200001583771742],
+          "signal_residual_rms": 8.752109537457413e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 1,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-1-compare.wav",
+      "bytes": 376366,
+      "sha256": "fdc513a3c3dfb0f69440afa33e53c0d123475617ecf44f72f7bced0826fa1052",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 123.47082531403103,
+          "measured_hz": 123.47082847791582,
+          "error_cents": 4.436209909897214e-5
+        },
+        {
+          "expected_hz": 123.75,
+          "measured_hz": 123.74999935005255,
+          "error_cents": 9.09261548665397e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 1,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-1-beat.wav",
+      "bytes": 414764,
+      "sha256": "35683c5464a80e9ab45312b0a60108bc36021ffaa885be0332ac53d9596ebc3b",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [123.47082531403103, 123.75],
+          "pcm_reference_hz": [123.47082847791582, 123.74999935005255],
+          "fitted_amplitudes": [0.15999690040473874, 0.16000423272710984],
+          "signal_residual_rms": 1.2085748608168453e-5
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 1,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-1-walk.wav",
+      "bytes": 321644,
+      "sha256": "2202da445090d1d2d384cfcc24bb9e55113c8f649a859dc59c422d8dd68e9fe9",
+      "duration_seconds": 3.35,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 110.0,
+          "measured_hz": 110.00003769189888,
+          "error_cents": 0.0005932135229759004
+        },
+        {
+          "expected_hz": 123.75,
+          "measured_hz": 123.75000947840145,
+          "error_cents": 0.00013260065190318505
+        },
+        {
+          "expected_hz": 110.0,
+          "measured_hz": 110.00000037691886,
+          "error_cents": 5.932134148576726e-6
+        },
+        {
+          "expected_hz": 123.47082531403103,
+          "measured_hz": 123.47085364937246,
+          "error_cents": 0.0003973011609835035
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 1,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-1-control.wav",
+      "bytes": 414764,
+      "sha256": "8530c54c127626037feb6b87447ff7d5d8420cc10e792b4896dbdcf7a2d9fdec",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [123.47082531403103],
+          "pcm_reference_hz": [123.47082015094473],
+          "fitted_amplitudes": [0.31999981197591054],
+          "signal_residual_rms": 8.83430416555061e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 2,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-2-compare.wav",
+      "bytes": 376366,
+      "sha256": "007f73225ae65a600d6dea3c773dfd50f1e58c59ab7a6cce74de794c208cf4a4",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 138.59131548843604,
+          "measured_hz": 138.59130325544612,
+          "error_cents": 0.00015281022141791
+        },
+        {
+          "expected_hz": 139.21875,
+          "measured_hz": 139.21875043353256,
+          "error_cents": 5.391129615828071e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 2,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-2-beat.wav",
+      "bytes": 414764,
+      "sha256": "c52fe33222dbc65ffc44924c975dc2f563eaa9910a8cab5d761ed938aa84a158",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [138.59131548843604, 139.21875],
+          "pcm_reference_hz": [138.59130325544612, 139.21875043353256],
+          "fitted_amplitudes": [0.1599999688608637, 0.15999999041670132],
+          "signal_residual_rms": 8.852277134812333e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 2,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-2-walk.wav",
+      "bytes": 446446,
+      "sha256": "1ae84d6f687687f27347031077cf29d2373b3d99b4e2c608cc12a155494abe12",
+      "duration_seconds": 4.6500208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 110.0,
+          "measured_hz": 110.00003769189888,
+          "error_cents": 0.0005932135229759004
+        },
+        {
+          "expected_hz": 123.75,
+          "measured_hz": 123.75000947840145,
+          "error_cents": 0.00013260065190318505
+        },
+        {
+          "expected_hz": 139.21875,
+          "measured_hz": 139.2187971438713,
+          "error_cents": 0.0005862504972746934
+        },
+        {
+          "expected_hz": 110.0,
+          "measured_hz": 110.00000037691886,
+          "error_cents": 5.932134148576726e-6
+        },
+        {
+          "expected_hz": 123.47082531403103,
+          "measured_hz": 123.47085859187567,
+          "error_cents": 0.00046660196674355167
+        },
+        {
+          "expected_hz": 138.59131548843604,
+          "measured_hz": 138.59129245498062,
+          "error_cents": 0.00028772586120992956
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 2,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-2-control.wav",
+      "bytes": 414764,
+      "sha256": "34c154647a5473d5576ba759786ad6f2bd75dabc51f2786207d119b83834090a",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [138.59131548843604],
+          "pcm_reference_hz": [138.59130442140557],
+          "fitted_amplitudes": [0.3199998037395554],
+          "signal_residual_rms": 8.807498701822026e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 3,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-3-compare.wav",
+      "bytes": 376366,
+      "sha256": "345170633e14c00cee1ce956fcb7ad39e9199ce15f05c6469acb32b7ffa958a7",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 155.56349186104046,
+          "measured_hz": 155.56348878438627,
+          "error_cents": 3.423945094101194e-5
+        },
+        {
+          "expected_hz": 156.62109375,
+          "measured_hz": 156.62108877565544,
+          "error_cents": 5.498464232523869e-5
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 3,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-3-beat.wav",
+      "bytes": 414764,
+      "sha256": "a52c14ba01d5685608946ab42e8dd57869b10285ebff3e3f3a2ebb98fbfb7fdc",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [155.56349186104046, 156.62109375],
+          "pcm_reference_hz": [155.56348878438627, 156.62108877565544],
+          "fitted_amplitudes": [0.1600002146496421, 0.16000039145951875],
+          "signal_residual_rms": 9.477796549148272e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 3,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-3-walk.wav",
+      "bytes": 571244,
+      "sha256": "d4f97ef53e54ce080d892f33e9fced0d747dca770e1e366f716204be0a5b83b8",
+      "duration_seconds": 5.95,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 110.0,
+          "measured_hz": 110.00003769189888,
+          "error_cents": 0.0005932135229759004
+        },
+        {
+          "expected_hz": 123.75,
+          "measured_hz": 123.75000947840145,
+          "error_cents": 0.00013260065190318505
+        },
+        {
+          "expected_hz": 139.21875,
+          "measured_hz": 139.2187971438713,
+          "error_cents": 0.0005862504972746934
+        },
+        {
+          "expected_hz": 156.62109375,
+          "measured_hz": 156.62109017639526,
+          "error_cents": 3.950136047457588e-5
+        },
+        {
+          "expected_hz": 110.0,
+          "measured_hz": 110.00003769189888,
+          "error_cents": 0.0005932135229759004
+        },
+        {
+          "expected_hz": 123.47082531403103,
+          "measured_hz": 123.47085364937246,
+          "error_cents": 0.0003973011609835035
+        },
+        {
+          "expected_hz": 138.59131548843604,
+          "measured_hz": 138.59124108693604,
+          "error_cents": 0.0009293976625851173
+        },
+        {
+          "expected_hz": 155.56349186104046,
+          "measured_hz": 155.56350088989942,
+          "error_cents": 0.0001004803079597597
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 3,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-3-control.wav",
+      "bytes": 414764,
+      "sha256": "f70ca9452cb3c28decf87e3638b036a8e356fe667b040bce6ef7044daae0584d",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [155.56349186104046],
+          "pcm_reference_hz": [155.56348672571116],
+          "fitted_amplitudes": [0.31999981755907897],
+          "signal_residual_rms": 9.24765575205945e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 4,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-4-compare.wav",
+      "bytes": 376366,
+      "sha256": "e60df1e9baa1b6d53e06500e7b56bb2f7891040dd96a9ba16b07c6bd6a5fd52b",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 174.61411571650194,
+          "measured_hz": 174.61411338895985,
+          "error_cents": 2.307671477575881e-5
+        },
+        {
+          "expected_hz": 176.19873046875,
+          "measured_hz": 176.19873553376254,
+          "error_cents": 4.976609097438335e-5
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 4,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-4-beat.wav",
+      "bytes": 414764,
+      "sha256": "dbfae33c3f042e1f93d58b984e1b2c0b38f8482e6d1424590c7618f52ebc3b0a",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [174.61411571650194, 176.19873046875],
+          "pcm_reference_hz": [174.61411338895985, 176.19873553376254],
+          "fitted_amplitudes": [0.159999552580213, 0.1599996517311957],
+          "signal_residual_rms": 1.3167668851965696e-5
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 4,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-4-walk.wav",
+      "bytes": 696046,
+      "sha256": "c64af404cea5ff9a9463587f037016eaba3b10e1118bd544cfb212453dc81634",
+      "duration_seconds": 7.250020833333333,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 110.0,
+          "measured_hz": 110.00003769189888,
+          "error_cents": 0.0005932135229759004
+        },
+        {
+          "expected_hz": 123.75,
+          "measured_hz": 123.75000947840145,
+          "error_cents": 0.00013260065190318505
+        },
+        {
+          "expected_hz": 139.21875,
+          "measured_hz": 139.2187971438713,
+          "error_cents": 0.0005862504972746934
+        },
+        {
+          "expected_hz": 156.62109375,
+          "measured_hz": 156.62109017639526,
+          "error_cents": 3.950136047457588e-5
+        },
+        {
+          "expected_hz": 176.19873046875,
+          "measured_hz": 176.19873919584995,
+          "error_cents": 8.574779254632995e-5
+        },
+        {
+          "expected_hz": 110.0,
+          "measured_hz": 110.00000037691886,
+          "error_cents": 5.932134148576726e-6
+        },
+        {
+          "expected_hz": 123.47082531403103,
+          "measured_hz": 123.47085735624984,
+          "error_cents": 0.00044927676546750793
+        },
+        {
+          "expected_hz": 138.59131548843604,
+          "measured_hz": 138.59129245498065,
+          "error_cents": 0.00028772586082551825
+        },
+        {
+          "expected_hz": 155.56349186104046,
+          "measured_hz": 155.56350088989942,
+          "error_cents": 0.0001004803079597597
+        },
+        {
+          "expected_hz": 174.61411571650194,
+          "measured_hz": 174.61413818150692,
+          "error_cents": 0.00022273215940312875
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 4,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-4-control.wav",
+      "bytes": 414764,
+      "sha256": "f24c4da27d3c44ead44c50239af52be77c4685aba4180a6620c9691e7de1b316",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [174.61411571650194],
+          "pcm_reference_hz": [174.6141207076709],
+          "fitted_amplitudes": [0.3199998082429104],
+          "signal_residual_rms": 8.846551711323704e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 5,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-5-compare.wav",
+      "bytes": 376366,
+      "sha256": "8f8045f6f22dad0cd5b3c79735fa7f7063c00e75118acb98e59e8b9acc742cf5",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 195.99771799087463,
+          "measured_hz": 195.99771392780963,
+          "error_cents": 3.5888767528582234e-5
+        },
+        {
+          "expected_hz": 198.22357177734375,
+          "measured_hz": 198.2235642912995,
+          "error_cents": 6.538119970969136e-5
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 5,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-5-beat.wav",
+      "bytes": 414764,
+      "sha256": "a43da5a1eae65a5073db472b716367c1acd9e0278c061af97dee241174d35b73",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [195.99771799087463, 198.22357177734375],
+          "pcm_reference_hz": [195.99771392780963, 198.2235642912995],
+          "fitted_amplitudes": [0.16000011302123174, 0.1599994637056635],
+          "signal_residual_rms": 1.0241506714205352e-5
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 5,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-5-walk.wav",
+      "bytes": 820844,
+      "sha256": "a2750fa3cebeeffe0bf8be6d16a27eb54c6528e975338c9e44922c4ccf52bb0d",
+      "duration_seconds": 8.55,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 110.0,
+          "measured_hz": 110.00003769189888,
+          "error_cents": 0.0005932135229759004
+        },
+        {
+          "expected_hz": 123.75,
+          "measured_hz": 123.75000947840145,
+          "error_cents": 0.00013260065190318505
+        },
+        {
+          "expected_hz": 139.21875,
+          "measured_hz": 139.2187971438713,
+          "error_cents": 0.0005862504972746934
+        },
+        {
+          "expected_hz": 156.62109375,
+          "measured_hz": 156.62109017639526,
+          "error_cents": 3.950136047457588e-5
+        },
+        {
+          "expected_hz": 176.19873046875,
+          "measured_hz": 176.19873919584995,
+          "error_cents": 8.574779254632995e-5
+        },
+        {
+          "expected_hz": 198.22357177734375,
+          "measured_hz": 198.2235839647002,
+          "error_cents": 0.00010644125530229705
+        },
+        {
+          "expected_hz": 110.0,
+          "measured_hz": 110.00000037691886,
+          "error_cents": 5.932134148576726e-6
+        },
+        {
+          "expected_hz": 123.47082531403103,
+          "measured_hz": 123.47080793123651,
+          "error_cents": 0.00024373116307933163
+        },
+        {
+          "expected_hz": 138.59131548843604,
+          "measured_hz": 138.59129245498065,
+          "error_cents": 0.00028772586082551825
+        },
+        {
+          "expected_hz": 155.56349186104046,
+          "measured_hz": 155.56339845869394,
+          "error_cents": 0.0010394557820672403
+        },
+        {
+          "expected_hz": 174.61411571650194,
+          "measured_hz": 174.61403438902622,
+          "error_cents": 0.0008063318782545811
+        },
+        {
+          "expected_hz": 195.99771799087463,
+          "measured_hz": 195.99770993221108,
+          "error_cents": 7.118160945564198e-5
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 5,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-5-control.wav",
+      "bytes": 414764,
+      "sha256": "238bef291604fdb23824eb03cf3b93f6a11433c7ce517b5cc3725166adb51945",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [195.99771799087463],
+          "pcm_reference_hz": [195.9977056226147],
+          "fitted_amplitudes": [0.3199998454905005],
+          "signal_residual_rms": 9.27359890226556e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 6,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-6-compare.wav",
+      "bytes": 376366,
+      "sha256": "e1f671b7b2a70abfcf89cd3974bfa2b40ca65fc495b011cb9baf891a690a9005",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 219.99998633618048,
+          "error_cents": 0.00010752395600327746
+        },
+        {
+          "expected_hz": 223.00151824951172,
+          "measured_hz": 223.0015084550549,
+          "error_cents": 7.603758779644915e-5
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 6,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-6-beat.wav",
+      "bytes": 414764,
+      "sha256": "9593637aa65484d5a7500e900459dcb86e56cb21a9d90616d36dcdbcf1b26ded",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [220.0, 223.00151824951172],
+          "pcm_reference_hz": [219.99998633618048, 223.0015084550549],
+          "fitted_amplitudes": [0.15999955961868906, 0.16000020229276793],
+          "signal_residual_rms": 1.1692087814342126e-5
+        },
+        {
+          "measured_beats_per_second": 3.0012004801920766,
+          "source_frequency_difference_hz": 3.0015182495117188,
+          "error_hz": 0.00031776931964211386,
+          "envelope_maxima": 11
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 6,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-6-walk.wav",
+      "bytes": 945644,
+      "sha256": "4e32bf0098f5c20211be141436b11ad4cb831f06d2770cb19bae345cef66a46b",
+      "duration_seconds": 9.85,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 110.0,
+          "measured_hz": 110.00003769189888,
+          "error_cents": 0.0005932135229759004
+        },
+        {
+          "expected_hz": 123.75,
+          "measured_hz": 123.75000947840145,
+          "error_cents": 0.00013260065190318505
+        },
+        {
+          "expected_hz": 139.21875,
+          "measured_hz": 139.2187971438713,
+          "error_cents": 0.0005862504972746934
+        },
+        {
+          "expected_hz": 156.62109375,
+          "measured_hz": 156.62109017639526,
+          "error_cents": 3.950136047457588e-5
+        },
+        {
+          "expected_hz": 176.19873046875,
+          "measured_hz": 176.19873919584995,
+          "error_cents": 8.574779254632995e-5
+        },
+        {
+          "expected_hz": 198.22357177734375,
+          "measured_hz": 198.2235839647002,
+          "error_cents": 0.00010644125530229705
+        },
+        {
+          "expected_hz": 223.00151824951172,
+          "measured_hz": 223.001491571837,
+          "error_cents": 0.00020710756573355182
+        },
+        {
+          "expected_hz": 110.0,
+          "measured_hz": 110.00000037691886,
+          "error_cents": 5.932134148576726e-6
+        },
+        {
+          "expected_hz": 123.47082531403103,
+          "measured_hz": 123.47085859187567,
+          "error_cents": 0.00046660196674355167
+        },
+        {
+          "expected_hz": 138.59131548843604,
+          "measured_hz": 138.59139775959102,
+          "error_cents": 0.0010277020747201406
+        },
+        {
+          "expected_hz": 155.56349186104046,
+          "measured_hz": 155.5635008898994,
+          "error_cents": 0.0001004803079597597
+        },
+        {
+          "expected_hz": 174.61411571650194,
+          "measured_hz": 174.61413818150692,
+          "error_cents": 0.00022273215940312875
+        },
+        {
+          "expected_hz": 195.99771799087463,
+          "measured_hz": 195.99775341017005,
+          "error_cents": 0.00031285611545171517
+        },
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 219.99995330277778,
+          "error_cents": 0.00036747195300587427
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 110,
+      "step": 6,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-110-step-6-control.wav",
+      "bytes": 414764,
+      "sha256": "cd111438f2561f46e24205c2640b12c84d8bb9a233329acdbd17a94887d93f30",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [220.0],
+          "pcm_reference_hz": [219.99999095554244],
+          "fitted_amplitudes": [0.31999993455924486],
+          "signal_residual_rms": 8.774224954465746e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 0,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-0-compare.wav",
+      "bytes": 376366,
+      "sha256": "b1209d9c6c6491e7202bbf2d782e991ffa0ca2c5ffb93cd370527dc494cc9f58",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 219.99998633618048,
+          "error_cents": 0.00010752395600327746
+        },
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 219.99998633618048,
+          "error_cents": 0.00010752395600327746
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 0,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-0-beat.wav",
+      "bytes": 414764,
+      "sha256": "cd111438f2561f46e24205c2640b12c84d8bb9a233329acdbd17a94887d93f30",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [220.0],
+          "pcm_reference_hz": [219.99998633618048],
+          "fitted_amplitudes": [0.319999933061548],
+          "signal_residual_rms": 1.167560195941652e-5
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 0,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-0-walk.wav",
+      "bytes": 196846,
+      "sha256": "6118c3e5856b802a81eb5bb6bc1ade4e1e64295d678d423341979f07a2af060f",
+      "duration_seconds": 2.0500208333333334,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 219.99995330277778,
+          "error_cents": 0.00036747195300587427
+        },
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 219.99995330277778,
+          "error_cents": 0.00036747195300587427
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 0,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-0-control.wav",
+      "bytes": 414764,
+      "sha256": "cd111438f2561f46e24205c2640b12c84d8bb9a233329acdbd17a94887d93f30",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [220.0],
+          "pcm_reference_hz": [219.99999095554244],
+          "fitted_amplitudes": [0.31999993455924486],
+          "signal_residual_rms": 8.774224954465746e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 1,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-1-compare.wav",
+      "bytes": 376366,
+      "sha256": "290bcd1552de52d379d7111377ba6df4545eef69139f0441b36048f2dc561c3e",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 246.94165062806206,
+          "measured_hz": 246.94163672625606,
+          "error_cents": 9.746140633981502e-5
+        },
+        {
+          "expected_hz": 247.5,
+          "measured_hz": 247.49999222285095,
+          "error_cents": 5.440026446656272e-5
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 1,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-1-beat.wav",
+      "bytes": 414764,
+      "sha256": "b8cbe3504a0bdb15f812e15e82eba42cc3d26bd77aa667aacf110c9801a9500e",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [246.94165062806206, 247.5],
+          "pcm_reference_hz": [246.94163672625606, 247.49999222285095],
+          "fitted_amplitudes": [0.15999888944008295, 0.15999910834059144],
+          "signal_residual_rms": 9.761040724536196e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 1,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-1-walk.wav",
+      "bytes": 321644,
+      "sha256": "3a926767ba85e83cc72d42c5c0481723a1f5bbb355d49818b877966ad843119a",
+      "duration_seconds": 3.35,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 219.99995330277778,
+          "error_cents": 0.00036747195300587427
+        },
+        {
+          "expected_hz": 247.5,
+          "measured_hz": 247.49995696294468,
+          "error_cents": 0.0003010392808308173
+        },
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 219.99995330277778,
+          "error_cents": 0.00036747195300587427
+        },
+        {
+          "expected_hz": 246.94165062806206,
+          "measured_hz": 246.94162662764327,
+          "error_cents": 0.00016825976547038971
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 1,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-1-control.wav",
+      "bytes": 414764,
+      "sha256": "76e0ae220a75296cb00b7926eb1799953917e015f9df2ca062cd812e0ca3886f",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [246.94165062806206],
+          "pcm_reference_hz": [246.9416411789685],
+          "fitted_amplitudes": [0.3199998233384088],
+          "signal_residual_rms": 8.825955962827503e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 2,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-2-compare.wav",
+      "bytes": 376366,
+      "sha256": "d7d3077ef345b0d8b95819425efac9354f8913ced0b0fdd56cd9b1af20ce022a",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 277.1826309768721,
+          "measured_hz": 277.1826074133353,
+          "error_cents": 0.00014717372011121744
+        },
+        {
+          "expected_hz": 278.4375,
+          "measured_hz": 278.43750289060114,
+          "error_cents": 1.797282020597518e-5
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 2,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-2-beat.wav",
+      "bytes": 414764,
+      "sha256": "0e2963d148ab358eb42aff6b21d2311dac95e221242f7220a85a0a65ed50a3ef",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [277.1826309768721, 278.4375],
+          "pcm_reference_hz": [277.1826074133353, 278.43750289060114],
+          "fitted_amplitudes": [0.15999993577695248, 0.15999994960709119],
+          "signal_residual_rms": 8.879760819977432e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 2,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-2-walk.wav",
+      "bytes": 446446,
+      "sha256": "b8c3625a65d4debc7fdcfda86ba6337966146f9441b4ed53336871bd5a2d9121",
+      "duration_seconds": 4.6500208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 219.99995330277778,
+          "error_cents": 0.00036747195300587427
+        },
+        {
+          "expected_hz": 247.5,
+          "measured_hz": 247.49995696294468,
+          "error_cents": 0.0003010392808308173
+        },
+        {
+          "expected_hz": 278.4375,
+          "measured_hz": 278.4374739288699,
+          "error_cents": 0.00016210183701478138
+        },
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 219.99995330277778,
+          "error_cents": 0.00036747195300587427
+        },
+        {
+          "expected_hz": 246.94165062806206,
+          "measured_hz": 246.9416266276433,
+          "error_cents": 0.00016825976527818411
+        },
+        {
+          "expected_hz": 277.1826309768721,
+          "measured_hz": 277.18266182760664,
+          "error_cents": 0.0001926882611759054
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 2,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-2-control.wav",
+      "bytes": 414764,
+      "sha256": "3c248e48dc43ac9e59c21dcb8e4b055e23b90cbc7f93ee62b1293e4350e5ca3f",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [277.1826309768721],
+          "pcm_reference_hz": [277.18260879756946],
+          "fitted_amplitudes": [0.31999979458460737],
+          "signal_residual_rms": 8.817951257596326e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 3,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-3-compare.wav",
+      "bytes": 376366,
+      "sha256": "dd239f431fd08d7c6af799b59b5884c71d9ca7e83a553a37c3b22e71e987d0ce",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 311.1269837220809,
+          "measured_hz": 311.12697604248916,
+          "error_cents": 4.2732297697529175e-5
+        },
+        {
+          "expected_hz": 313.2421875,
+          "measured_hz": 313.24218639998486,
+          "error_cents": 6.079588724276421e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 3,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-3-beat.wav",
+      "bytes": 414764,
+      "sha256": "0b08bdd45ac80b7a98fb8cecf1ddfd09778608080a782b8a2e0c8eea96c65587",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [311.1269837220809, 313.2421875],
+          "pcm_reference_hz": [311.12697604248916, 313.24218639998486],
+          "fitted_amplitudes": [0.15999994525567462, 0.15999985598242214],
+          "signal_residual_rms": 1.0480200737845806e-5
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 3,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-3-walk.wav",
+      "bytes": 571244,
+      "sha256": "4bdb3e3082ba6ed528299e18283466cd5a84d2484ecbc7c9bc9be9e08697790f",
+      "duration_seconds": 5.95,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 219.99995330277778,
+          "error_cents": 0.00036747195300587427
+        },
+        {
+          "expected_hz": 247.5,
+          "measured_hz": 247.49995696294468,
+          "error_cents": 0.0003010392808308173
+        },
+        {
+          "expected_hz": 278.4375,
+          "measured_hz": 278.4374739288699,
+          "error_cents": 0.00016210183701478138
+        },
+        {
+          "expected_hz": 313.2421875,
+          "measured_hz": 313.24217642477436,
+          "error_cents": 6.121081011397389e-5
+        },
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 219.99995330277778,
+          "error_cents": 0.00036747195300587427
+        },
+        {
+          "expected_hz": 246.94165062806206,
+          "measured_hz": 246.94162662764327,
+          "error_cents": 0.00016825976547038971
+        },
+        {
+          "expected_hz": 277.1826309768721,
+          "measured_hz": 277.18268764612657,
+          "error_cents": 0.00035394617804217486
+        },
+        {
+          "expected_hz": 311.1269837220809,
+          "measured_hz": 311.1269628839465,
+          "error_cents": 0.00011595165637557015
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 3,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-3-control.wav",
+      "bytes": 414764,
+      "sha256": "5f352eb33ace5f5b310669f50f2264dd4819f5f24b2c86c14ce9a552e8f11a81",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [311.1269837220809],
+          "pcm_reference_hz": [311.12696849947235],
+          "fitted_amplitudes": [0.31999983945376026],
+          "signal_residual_rms": 9.052550072390814e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 4,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-4-compare.wav",
+      "bytes": 376366,
+      "sha256": "cc2b23399e65135cccc6af811081b69df368b1bd506913228d1233bc89550072",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 349.2282314330039,
+          "measured_hz": 349.2282376780228,
+          "error_cents": 3.095852031317881e-5
+        },
+        {
+          "expected_hz": 352.3974609375,
+          "measured_hz": 352.3974663352307,
+          "error_cents": 2.6517600614378857e-5
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 4,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-4-beat.wav",
+      "bytes": 414764,
+      "sha256": "0643d1a6de78170a652211d1b5c1a975976462385ab02f4c36d5dda3af218b44",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [349.2282314330039, 352.3974609375],
+          "pcm_reference_hz": [349.2282376780228, 352.3974663352307],
+          "fitted_amplitudes": [0.16000019512994637, 0.15999993276776392],
+          "signal_residual_rms": 1.556885336571659e-5
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 4,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-4-walk.wav",
+      "bytes": 696046,
+      "sha256": "761740fc159dc824a1c31fdc14ab3479c1909a57c678c5b8ec5ca6bb19d0bbd4",
+      "duration_seconds": 7.250020833333333,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 219.99995330277778,
+          "error_cents": 0.00036747195300587427
+        },
+        {
+          "expected_hz": 247.5,
+          "measured_hz": 247.49995696294468,
+          "error_cents": 0.0003010392808308173
+        },
+        {
+          "expected_hz": 278.4375,
+          "measured_hz": 278.4374739288699,
+          "error_cents": 0.00016210183701478138
+        },
+        {
+          "expected_hz": 313.2421875,
+          "measured_hz": 313.24217642477436,
+          "error_cents": 6.121081011397389e-5
+        },
+        {
+          "expected_hz": 352.3974609375,
+          "measured_hz": 352.39747395736856,
+          "error_cents": 6.396311502009989e-5
+        },
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 219.99995330277778,
+          "error_cents": 0.00036747195300587427
+        },
+        {
+          "expected_hz": 246.94165062806206,
+          "measured_hz": 246.9416266276433,
+          "error_cents": 0.00016825976527818411
+        },
+        {
+          "expected_hz": 277.1826309768721,
+          "measured_hz": 277.1826311681205,
+          "error_cents": 1.1945043097064113e-6
+        },
+        {
+          "expected_hz": 311.1269837220809,
+          "measured_hz": 311.1270428060912,
+          "error_cents": 0.0003287668570498804
+        },
+        {
+          "expected_hz": 349.2282314330039,
+          "measured_hz": 349.22819559559787,
+          "error_cents": 0.00017765728855552202
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 4,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-4-control.wav",
+      "bytes": 414764,
+      "sha256": "bdd1de7c50dcaa912f304bbc9275bcefdb276af82dd4fdbb9b9fd441bffc29e7",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [349.2282314330039],
+          "pcm_reference_hz": [349.2282400306617],
+          "fitted_amplitudes": [0.31999976004410136],
+          "signal_residual_rms": 8.886926155719778e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 5,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-5-compare.wav",
+      "bytes": 376366,
+      "sha256": "8968001457c0529cf876bc34c51f44ac169ea633592d789a74e27f2d4a32130f",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 391.99543598174927,
+          "measured_hz": 391.99542000282906,
+          "error_cents": 7.057034029847901e-5
+        },
+        {
+          "expected_hz": 396.4471435546875,
+          "measured_hz": 396.4471071623718,
+          "error_cents": 0.00015892060259380908
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 5,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-5-beat.wav",
+      "bytes": 414764,
+      "sha256": "c58d2242a46c2d67dc246a23e68609ab1e61729e635c8563692e1d3b21cbe6db",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [391.99543598174927, 396.4471435546875],
+          "pcm_reference_hz": [391.99542000282906, 396.4471071623718],
+          "fitted_amplitudes": [0.16000026827713493, 0.1600000563717954],
+          "signal_residual_rms": 1.4598380500157554e-5
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 5,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-5-walk.wav",
+      "bytes": 820844,
+      "sha256": "d09fde31dec35dbe23cd894195ec577bf53b369111b3a76e516c1e4442659f89",
+      "duration_seconds": 8.55,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 219.99995330277778,
+          "error_cents": 0.00036747195300587427
+        },
+        {
+          "expected_hz": 247.5,
+          "measured_hz": 247.49995696294468,
+          "error_cents": 0.0003010392808308173
+        },
+        {
+          "expected_hz": 278.4375,
+          "measured_hz": 278.4374739288699,
+          "error_cents": 0.00016210183701478138
+        },
+        {
+          "expected_hz": 313.2421875,
+          "measured_hz": 313.24217642477436,
+          "error_cents": 6.121081011397389e-5
+        },
+        {
+          "expected_hz": 352.3974609375,
+          "measured_hz": 352.39747395736856,
+          "error_cents": 6.396311502009989e-5
+        },
+        {
+          "expected_hz": 396.4471435546875,
+          "measured_hz": 396.44707448745345,
+          "error_cents": 0.0003016078173774453
+        },
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 219.99995330277778,
+          "error_cents": 0.00036747195300587427
+        },
+        {
+          "expected_hz": 246.94165062806206,
+          "measured_hz": 246.9416266276433,
+          "error_cents": 0.00016825976527818411
+        },
+        {
+          "expected_hz": 277.1826309768721,
+          "measured_hz": 277.18259190247267,
+          "error_cents": 0.0002440518558453398
+        },
+        {
+          "expected_hz": 311.1269837220809,
+          "measured_hz": 311.126994281927,
+          "error_cents": 5.875917460464796e-5
+        },
+        {
+          "expected_hz": 349.2282314330039,
+          "measured_hz": 349.22823279182325,
+          "error_cents": 6.73609437932294e-6
+        },
+        {
+          "expected_hz": 391.99543598174927,
+          "measured_hz": 391.99537915116764,
+          "error_cents": 0.0002509902822105026
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 5,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-5-control.wav",
+      "bytes": 414764,
+      "sha256": "d57d4115a5386cbcb882ac64b4744d4417fc118d39cb78046b89db12a3de8d9b",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [391.99543598174927],
+          "pcm_reference_hz": [391.9954152226989],
+          "fitted_amplitudes": [0.3199998666317781],
+          "signal_residual_rms": 8.81485603968897e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 6,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-6-compare.wav",
+      "bytes": 376366,
+      "sha256": "56d771888755198e14b29262e19367f0d9ea819bcde7967f0da91e5dc2210b82",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9999824604304,
+          "error_cents": 6.90115926854423e-5
+        },
+        {
+          "expected_hz": 446.00303649902344,
+          "measured_hz": 446.0030169101098,
+          "error_cents": 7.603758779644915e-5
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 6,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-6-beat.wav",
+      "bytes": 414764,
+      "sha256": "b858d0bc2f978d1d1bd900a2a5326e373422c46348ad7ba9340d622c32e2e72b",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [440.0, 446.00303649902344],
+          "pcm_reference_hz": [439.9999824604304, 446.0030169101098],
+          "fitted_amplitudes": [0.1600004573656335, 0.1599999076613634],
+          "signal_residual_rms": 1.5997220839818705e-5
+        },
+        {
+          "measured_beats_per_second": 6.002400960384153,
+          "source_frequency_difference_hz": 6.0030364990234375,
+          "error_hz": 0.0006355386392842277,
+          "envelope_maxima": 21
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 6,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-6-walk.wav",
+      "bytes": 945644,
+      "sha256": "b59f4ece15ae801eb98ee82ae2cdf521affc1ff3f408327f3f4d82792f01555b",
+      "duration_seconds": 9.85,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 219.99995330277778,
+          "error_cents": 0.00036747195300587427
+        },
+        {
+          "expected_hz": 247.5,
+          "measured_hz": 247.49995696294468,
+          "error_cents": 0.0003010392808308173
+        },
+        {
+          "expected_hz": 278.4375,
+          "measured_hz": 278.4374739288699,
+          "error_cents": 0.00016210183701478138
+        },
+        {
+          "expected_hz": 313.2421875,
+          "measured_hz": 313.24217642477436,
+          "error_cents": 6.121081011397389e-5
+        },
+        {
+          "expected_hz": 352.3974609375,
+          "measured_hz": 352.39747395736856,
+          "error_cents": 6.396311502009989e-5
+        },
+        {
+          "expected_hz": 396.4471435546875,
+          "measured_hz": 396.44707448745345,
+          "error_cents": 0.0003016078173774453
+        },
+        {
+          "expected_hz": 446.00303649902344,
+          "measured_hz": 446.00303559980495,
+          "error_cents": 3.490464285588474e-6
+        },
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 219.99995330277778,
+          "error_cents": 0.00036747195300587427
+        },
+        {
+          "expected_hz": 246.94165062806206,
+          "measured_hz": 246.9416266276433,
+          "error_cents": 0.00016825976527818411
+        },
+        {
+          "expected_hz": 277.1826309768721,
+          "measured_hz": 277.18258490996124,
+          "error_cents": 0.00028772586120992956
+        },
+        {
+          "expected_hz": 311.1269837220809,
+          "measured_hz": 311.1269734068197,
+          "error_cents": 5.7398209516488626e-5
+        },
+        {
+          "expected_hz": 349.2282314330039,
+          "measured_hz": 349.22819559559787,
+          "error_cents": 0.00017765728855552202
+        },
+        {
+          "expected_hz": 391.99543598174927,
+          "measured_hz": 391.99537915116764,
+          "error_cents": 0.0002509902822105026
+        },
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9999536592402,
+          "error_cents": 0.000182333421558491
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 220,
+      "step": 6,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-220-step-6-control.wav",
+      "bytes": 414764,
+      "sha256": "4e82e398dbaf70a19d0541d56c8ab20534de5c74a16fa4b48ad1af63c2117087",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [440.0],
+          "pcm_reference_hz": [439.99998189007937],
+          "fitted_amplitudes": [0.31999973951331795],
+          "signal_residual_rms": 8.82634912336621e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 0,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-0-compare.wav",
+      "bytes": 376366,
+      "sha256": "19c016966222a14f174ec9785b5a9faca6fba473336f07f33c0d392b2d23e98f",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9999824604304,
+          "error_cents": 6.90115926854423e-5
+        },
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9999824604304,
+          "error_cents": 6.90115926854423e-5
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 0,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-0-beat.wav",
+      "bytes": 414764,
+      "sha256": "4e82e398dbaf70a19d0541d56c8ab20534de5c74a16fa4b48ad1af63c2117087",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [440.0],
+          "pcm_reference_hz": [439.9999824604304],
+          "fitted_amplitudes": [0.3199997393729399],
+          "signal_residual_rms": 8.742374332063004e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 0,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-0-walk.wav",
+      "bytes": 196846,
+      "sha256": "43a3ab338a8a0b9d8887ccceb93b880c6b4d038cb7e151b678e38bdc1b5a049d",
+      "duration_seconds": 2.0500208333333334,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9999536592402,
+          "error_cents": 0.000182333421558491
+        },
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9999536592402,
+          "error_cents": 0.000182333421558491
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 0,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-0-control.wav",
+      "bytes": 414764,
+      "sha256": "4e82e398dbaf70a19d0541d56c8ab20534de5c74a16fa4b48ad1af63c2117087",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [440.0],
+          "pcm_reference_hz": [439.99998189007937],
+          "fitted_amplitudes": [0.31999973951331795],
+          "signal_residual_rms": 8.82634912336621e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 1,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-1-compare.wav",
+      "bytes": 376366,
+      "sha256": "0f8e75519cdcab16657060831aaa61765583442c16c5d72af07bd7538ae6fb58",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 493.8833012561241,
+          "measured_hz": 493.8832817447942,
+          "error_cents": 6.83940503227438e-5
+        },
+        {
+          "expected_hz": 495.0,
+          "measured_hz": 494.9999733420442,
+          "error_cents": 9.323467063398022e-5
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 1,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-1-beat.wav",
+      "bytes": 414764,
+      "sha256": "b4443c4a74632ed183c163feef62ff715a8a722de24ad97379359fb18b5aceec",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [493.8833012561241, 495.0],
+          "pcm_reference_hz": [493.8832817447942, 494.9999733420442],
+          "fitted_amplitudes": [0.1599998748165175, 0.15999998425635176],
+          "signal_residual_rms": 8.912792115807908e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 1,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-1-walk.wav",
+      "bytes": 321644,
+      "sha256": "6e72537d9698580d5254ef87d5e34ceaaf52a4aa89e09349b0f1590b59cd4ca4",
+      "duration_seconds": 3.35,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9999536592402,
+          "error_cents": 0.000182333421558491
+        },
+        {
+          "expected_hz": 495.0,
+          "measured_hz": 495.00001537038,
+          "error_cents": 5.375702005296775e-5
+        },
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9999814329037,
+          "error_cents": 7.305452269505237e-5
+        },
+        {
+          "expected_hz": 493.8833012561241,
+          "measured_hz": 493.88330111989615,
+          "error_cents": 4.775269085603486e-7
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 1,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-1-control.wav",
+      "bytes": 414764,
+      "sha256": "3badec21b6646b172a6c0b6637662e8cfc7b4cb2c2ab48e4b67e87d8f68cae5c",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [493.8833012561241],
+          "pcm_reference_hz": [493.8832808904058],
+          "fitted_amplitudes": [0.3199997934816247],
+          "signal_residual_rms": 8.91577428184978e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 2,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-2-compare.wav",
+      "bytes": 376366,
+      "sha256": "5373f0af9fea994798f9ca5048978c5a1a9c5e09ca98b833ebccdf12157f3f3e",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 554.3652619537442,
+          "measured_hz": 554.3652266451176,
+          "error_cents": 0.00011026574489465274
+        },
+        {
+          "expected_hz": 556.875,
+          "measured_hz": 556.875010019409,
+          "error_cents": 3.11487173515782e-5
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 2,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-2-beat.wav",
+      "bytes": 414764,
+      "sha256": "cb5c16ca918d389983e69bb5ef2600261f33076c8ae7628f3785b9ccec365a68",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [554.3652619537442, 556.875],
+          "pcm_reference_hz": [554.3652266451176, 556.875010019409],
+          "fitted_amplitudes": [0.1600002305554456, 0.15999958772606157],
+          "signal_residual_rms": 1.1479605217134151e-5
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 2,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-2-walk.wav",
+      "bytes": 446446,
+      "sha256": "863398471e53c222714f909df730ebca8ab5769c14aaf60b3e2bb656b447cd9f",
+      "duration_seconds": 4.6500208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9999536592402,
+          "error_cents": 0.000182333421558491
+        },
+        {
+          "expected_hz": 495.0,
+          "measured_hz": 495.00001537038,
+          "error_cents": 5.375702005296775e-5
+        },
+        {
+          "expected_hz": 556.875,
+          "measured_hz": 556.875049740981,
+          "error_cents": 0.00015463663504605517
+        },
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9999536592402,
+          "error_cents": 0.000182333421558491
+        },
+        {
+          "expected_hz": 493.8833012561241,
+          "measured_hz": 493.88326702792375,
+          "error_cents": 0.00011998184153343299
+        },
+        {
+          "expected_hz": 554.3652619537442,
+          "measured_hz": 554.3651812105344,
+          "error_cents": 0.0002521539745959632
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 2,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-2-control.wav",
+      "bytes": 414764,
+      "sha256": "97e852a8fddbcaaed11ea17e04b9dcb71fb33bc93fc2dbcfca6426e32a4182c8",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [554.3652619537442],
+          "pcm_reference_hz": [554.3652161868451],
+          "fitted_amplitudes": [0.31999979286778457],
+          "signal_residual_rms": 9.080994089245948e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 3,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-3-compare.wav",
+      "bytes": 376366,
+      "sha256": "3e7e11a7992f7187bdca952c92aa83a5db1dd47886abc68df37aa8e1280f215a",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 622.2539674441618,
+          "measured_hz": 622.2539488938745,
+          "error_cents": 5.161058225767219e-5
+        },
+        {
+          "expected_hz": 626.484375,
+          "measured_hz": 626.4843662554412,
+          "error_cents": 2.416481350935572e-5
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 3,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-3-beat.wav",
+      "bytes": 414764,
+      "sha256": "834c2964f0ea441016af7c4dfe43d5e8aacdda081146bcb86f0b18a8d4495adf",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [622.2539674441618, 626.484375],
+          "pcm_reference_hz": [622.2539488938745, 626.4843662554412],
+          "fitted_amplitudes": [0.16000001135777886, 0.15999998598599097],
+          "signal_residual_rms": 1.1421653977301637e-5
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 3,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-3-walk.wav",
+      "bytes": 571244,
+      "sha256": "b8bd86d2b1d26ec0585038fa518c6d10eceaf2141a25361da7f951d6a2d81f23",
+      "duration_seconds": 5.95,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9999536592402,
+          "error_cents": 0.000182333421558491
+        },
+        {
+          "expected_hz": 495.0,
+          "measured_hz": 495.00001537038,
+          "error_cents": 5.375702005296775e-5
+        },
+        {
+          "expected_hz": 556.875,
+          "measured_hz": 556.875049740981,
+          "error_cents": 0.00015463663504605517
+        },
+        {
+          "expected_hz": 626.484375,
+          "measured_hz": 626.4843436821599,
+          "error_cents": 8.654407787677101e-5
+        },
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9999536592402,
+          "error_cents": 0.000182333421558491
+        },
+        {
+          "expected_hz": 493.8833012561241,
+          "measured_hz": 493.88330111989615,
+          "error_cents": 4.775269085603486e-7
+        },
+        {
+          "expected_hz": 554.3652619537442,
+          "measured_hz": 554.3651812105345,
+          "error_cents": 0.00025215397421155195
+        },
+        {
+          "expected_hz": 622.2539674441618,
+          "measured_hz": 622.2539095552979,
+          "error_cents": 0.00016105831740220603
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 3,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-3-control.wav",
+      "bytes": 414764,
+      "sha256": "68ea1546a3622c9289d18614cca5aa404060637e2ab1071353c1dd61377d4334",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [622.2539674441618],
+          "pcm_reference_hz": [622.2539406342036],
+          "fitted_amplitudes": [0.3199998627782643],
+          "signal_residual_rms": 8.98514522573245e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 4,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-4-compare.wav",
+      "bytes": 376366,
+      "sha256": "81b3fabafd08c2eb25d6750a28f29b1c41071877ab47a29f14c7375c2e166217",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 698.4564628660078,
+          "measured_hz": 698.4564880762343,
+          "error_cents": 6.24875050908161e-5
+        },
+        {
+          "expected_hz": 704.794921875,
+          "measured_hz": 704.7949035886537,
+          "error_cents": 4.491795381966049e-5
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 4,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-4-beat.wav",
+      "bytes": 414764,
+      "sha256": "ee0434a20d77f31c9fbacd665ce12798ed3088a76086e73526bd752ca7f7f700",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [698.4564628660078, 704.794921875],
+          "pcm_reference_hz": [698.4564880762343, 704.7949035886537],
+          "fitted_amplitudes": [0.15999995406551668, 0.1599999329153513],
+          "signal_residual_rms": 1.0911919189770547e-5
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 4,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-4-walk.wav",
+      "bytes": 696046,
+      "sha256": "2fc6a7915ec7ccc31225887837adb09abdfe10436bd776770e2b95a3aa90dbd6",
+      "duration_seconds": 7.250020833333333,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9999536592402,
+          "error_cents": 0.000182333421558491
+        },
+        {
+          "expected_hz": 495.0,
+          "measured_hz": 495.00001537038,
+          "error_cents": 5.375702005296775e-5
+        },
+        {
+          "expected_hz": 556.875,
+          "measured_hz": 556.875049740981,
+          "error_cents": 0.00015463663504605517
+        },
+        {
+          "expected_hz": 626.484375,
+          "measured_hz": 626.4843436821599,
+          "error_cents": 8.654407787677101e-5
+        },
+        {
+          "expected_hz": 704.794921875,
+          "measured_hz": 704.794899507548,
+          "error_cents": 5.494264194273962e-5
+        },
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9999536592402,
+          "error_cents": 0.000182333421558491
+        },
+        {
+          "expected_hz": 493.8833012561241,
+          "measured_hz": 493.8832688381169,
+          "error_cents": 0.00011363647972739945
+        },
+        {
+          "expected_hz": 554.3652619537442,
+          "measured_hz": 554.3651970233848,
+          "error_cents": 0.0002027718243830688
+        },
+        {
+          "expected_hz": 622.2539674441618,
+          "measured_hz": 622.2539095552979,
+          "error_cents": 0.00016105831740220603
+        },
+        {
+          "expected_hz": 698.4564628660078,
+          "measured_hz": 698.456494554683,
+          "error_cents": 7.854535699148465e-5
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 4,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-4-control.wav",
+      "bytes": 414764,
+      "sha256": "0d5d835297a63278bc11f8bc23dfe72cbdcbae62e62f3a6f034a5fffa22d54ca",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [698.4564628660078],
+          "pcm_reference_hz": [698.4564805157028],
+          "fitted_amplitudes": [0.3199997523086159],
+          "signal_residual_rms": 8.86351837922497e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 5,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-5-compare.wav",
+      "bytes": 376366,
+      "sha256": "5ad2133760f0641336d27816d90445c537dcbb3b337af6aa1450f4b2acf3e52d",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 783.9908719634985,
+          "measured_hz": 783.9908294921012,
+          "error_cents": 9.378671856270856e-5
+        },
+        {
+          "expected_hz": 792.894287109375,
+          "measured_hz": 792.894246731167,
+          "error_cents": 8.816324129964009e-5
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 5,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-5-beat.wav",
+      "bytes": 414764,
+      "sha256": "f685a40abd4057b8642b2d3e17425a249768496c2c0f3b9d20fd237fc166ac66",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [783.9908719634985, 792.894287109375],
+          "pcm_reference_hz": [783.9908294921012, 792.894246731167],
+          "fitted_amplitudes": [0.1600000000409002, 0.15999989860150118],
+          "signal_residual_rms": 9.026228576197503e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 5,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-5-walk.wav",
+      "bytes": 820844,
+      "sha256": "837c5faeb1471a8c15a3180a30bbf789d429562b864fc016de427c0d8f19c6ba",
+      "duration_seconds": 8.55,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9999536592402,
+          "error_cents": 0.000182333421558491
+        },
+        {
+          "expected_hz": 495.0,
+          "measured_hz": 495.00001537038,
+          "error_cents": 5.375702005296775e-5
+        },
+        {
+          "expected_hz": 556.875,
+          "measured_hz": 556.875049740981,
+          "error_cents": 0.00015463663504605517
+        },
+        {
+          "expected_hz": 626.484375,
+          "measured_hz": 626.4843436821599,
+          "error_cents": 8.654407787677101e-5
+        },
+        {
+          "expected_hz": 704.794921875,
+          "measured_hz": 704.794899507548,
+          "error_cents": 5.494264194273962e-5
+        },
+        {
+          "expected_hz": 792.894287109375,
+          "measured_hz": 792.8942587391206,
+          "error_cents": 6.194464012785054e-5
+        },
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9999814329037,
+          "error_cents": 7.305452269505237e-5
+        },
+        {
+          "expected_hz": 493.8833012561241,
+          "measured_hz": 493.88330111989615,
+          "error_cents": 4.775269085603486e-7
+        },
+        {
+          "expected_hz": 554.3652619537442,
+          "measured_hz": 554.365283056027,
+          "error_cents": 6.590057574336789e-5
+        },
+        {
+          "expected_hz": 622.2539674441618,
+          "measured_hz": 622.2539095552978,
+          "error_cents": 0.00016105831759441163
+        },
+        {
+          "expected_hz": 698.4564628660078,
+          "measured_hz": 698.456451196779,
+          "error_cents": 2.8924016778601386e-5
+        },
+        {
+          "expected_hz": 783.9908719634985,
+          "measured_hz": 783.9907990096582,
+          "error_cents": 0.0001610990419264528
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 5,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-5-control.wav",
+      "bytes": 414764,
+      "sha256": "a08c1529a417d9ffc52f19d50a461da37050706e887990bade7179ba04341455",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [783.9908719634985],
+          "pcm_reference_hz": [783.990829773476],
+          "fitted_amplitudes": [0.31999987031478655],
+          "signal_residual_rms": 8.830367683272208e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 6,
+      "sound": "compare",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-6-compare.wav",
+      "bytes": 376366,
+      "sha256": "644a9d5d77b7805c88d9cf806ce43122cae7e6f95c39e80239753eb6116e2b96",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 880.0,
+          "measured_hz": 879.9999532350092,
+          "error_cents": 9.200130286415119e-5
+        },
+        {
+          "expected_hz": 892.0060729980469,
+          "measured_hz": 892.0060726569577,
+          "error_cents": 6.619968004600116e-7
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 6,
+      "sound": "beat",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-6-beat.wav",
+      "bytes": 414764,
+      "sha256": "bd4c0b97d70c35f9d80e593ad7c95f4a37275d2d37d57992a661529fbb3c00f2",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [880.0, 892.0060729980469],
+          "pcm_reference_hz": [879.9999532350092, 892.0060726569577],
+          "fitted_amplitudes": [0.15999988040460925, 0.15999982109741478],
+          "signal_residual_rms": 1.2954907490286296e-5
+        },
+        {
+          "measured_beats_per_second": 12.004801920768307,
+          "source_frequency_difference_hz": 12.006072998046875,
+          "error_hz": 0.0012710772785684554,
+          "envelope_maxima": 41
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 6,
+      "sound": "walk",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-6-walk.wav",
+      "bytes": 945644,
+      "sha256": "af586d73ee580a30bcfde204a0cd58209ed08baa2eba4f0e92812401dd8ec7b3",
+      "duration_seconds": 9.85,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9999536592402,
+          "error_cents": 0.000182333421558491
+        },
+        {
+          "expected_hz": 495.0,
+          "measured_hz": 495.00001537038,
+          "error_cents": 5.375702005296775e-5
+        },
+        {
+          "expected_hz": 556.875,
+          "measured_hz": 556.875049740981,
+          "error_cents": 0.00015463663504605517
+        },
+        {
+          "expected_hz": 626.484375,
+          "measured_hz": 626.4843436821599,
+          "error_cents": 8.654407787677101e-5
+        },
+        {
+          "expected_hz": 704.794921875,
+          "measured_hz": 704.794899507548,
+          "error_cents": 5.494264194273962e-5
+        },
+        {
+          "expected_hz": 792.894287109375,
+          "measured_hz": 792.8942587391206,
+          "error_cents": 6.194464012785054e-5
+        },
+        {
+          "expected_hz": 892.0060729980469,
+          "measured_hz": 892.0061087876448,
+          "error_cents": 6.946160048045145e-5
+        },
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9999536592402,
+          "error_cents": 0.000182333421558491
+        },
+        {
+          "expected_hz": 493.8833012561241,
+          "measured_hz": 493.88326702792375,
+          "error_cents": 0.00011998184153343299
+        },
+        {
+          "expected_hz": 554.3652619537442,
+          "measured_hz": 554.3652208766692,
+          "error_cents": 0.00012828010379291378
+        },
+        {
+          "expected_hz": 622.2539674441618,
+          "measured_hz": 622.2539095552979,
+          "error_cents": 0.00016105831740220603
+        },
+        {
+          "expected_hz": 698.4564628660078,
+          "measured_hz": 698.456494554683,
+          "error_cents": 7.854535699148465e-5
+        },
+        {
+          "expected_hz": 783.9908719634985,
+          "measured_hz": 783.990822307377,
+          "error_cents": 0.00010965226016971094
+        },
+        {
+          "expected_hz": 880.0,
+          "measured_hz": 879.9999353083685,
+          "error_cents": 0.0001272685898935511
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "root": 440,
+      "step": 6,
+      "sound": "control",
+      "file": "audio/chromium-1440-pyknon-canon-440-step-6-control.wav",
+      "bytes": 414764,
+      "sha256": "4e96f8d7b001a60306a917145854fe846643f00e8d1c4d459163fc8f67f4f4cd",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [880.0],
+          "pcm_reference_hz": [879.9999653112277],
+          "fitted_amplitudes": [0.3199993804527086],
+          "signal_residual_rms": 8.861392868593405e-6
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "root": 220,
+      "step": 6,
+      "sound": "beat",
+      "file": "audio/chromium-375-pyknon-canon-220-step-6-beat.wav",
+      "bytes": 414764,
+      "sha256": "b858d0bc2f978d1d1bd900a2a5326e373422c46348ad7ba9340d622c32e2e72b",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [440.0, 446.00303649902344],
+          "pcm_reference_hz": [439.9999824604304, 446.0030169101098],
+          "fitted_amplitudes": [0.1600004573656335, 0.1599999076613634],
+          "signal_residual_rms": 1.5997220839818705e-5
+        },
+        {
+          "measured_beats_per_second": 6.002400960384153,
+          "source_frequency_difference_hz": 6.0030364990234375,
+          "error_hz": 0.0006355386392842277,
+          "envelope_maxima": 21
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 0,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-0-compare.wav",
+      "bytes": 376366,
+      "sha256": "486c561d5b4bbaca33e6222c03a793dff0d92c62acccbb41319c5de8b383398d",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 110.0,
+          "measured_hz": 110.00040422710325,
+          "error_cents": 0.006361913080638299
+        },
+        {
+          "expected_hz": 110.0,
+          "measured_hz": 110.00040422710325,
+          "error_cents": 0.006361913080638299
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 0,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-0-beat.wav",
+      "bytes": 414764,
+      "sha256": "9de40ac1ab6b8c6b40aa141d1dba87ad26e61a62038d569359d638d9cac5c1aa",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [110.0],
+          "pcm_reference_hz": [110.00040422710325],
+          "fitted_amplitudes": [0.32000006091783567],
+          "signal_residual_rms": 1.85604376600175e-5
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 0,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-0-walk.wav",
+      "bytes": 196846,
+      "sha256": "56a389df40bb456a00f0fcb722df1fed295f80c8247527e83094c73b61f1f140",
+      "duration_seconds": 2.0500208333333334,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 110.0,
+          "measured_hz": 110.00037490990353,
+          "error_cents": 0.005900506220460646
+        },
+        {
+          "expected_hz": 110.0,
+          "measured_hz": 110.00037490990353,
+          "error_cents": 0.005900506220460646
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 0,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-0-control.wav",
+      "bytes": 414764,
+      "sha256": "9de40ac1ab6b8c6b40aa141d1dba87ad26e61a62038d569359d638d9cac5c1aa",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [110.0],
+          "pcm_reference_hz": [110.00041400762751],
+          "fitted_amplitudes": [0.320000049961758],
+          "signal_residual_rms": 8.993331047491481e-6
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 1,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-1-compare.wav",
+      "bytes": 376366,
+      "sha256": "c672cea042e5a5b76da6e6d008e203754e5059ea95a6eea34fa1563b1b1f3a9c",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 123.47082531403103,
+          "measured_hz": 123.4713289717173,
+          "error_cents": 0.0070619723722852
+        },
+        {
+          "expected_hz": 123.75,
+          "measured_hz": 123.7495489380937,
+          "error_cents": 0.0063102638673938685
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 1,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-1-beat.wav",
+      "bytes": 414764,
+      "sha256": "2ed27d4d17ea774b42c2a9132149879461711581c7b50831e702b740c1746813",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [123.47082531403103, 123.75],
+          "pcm_reference_hz": [123.4713289717173, 123.7495489380937],
+          "fitted_amplitudes": [0.1600016546440373, 0.16000255059673651],
+          "signal_residual_rms": 9.007069572853812e-6
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 1,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-1-walk.wav",
+      "bytes": 321644,
+      "sha256": "d9173a8e2c9d7c7097a7be259cf387a76e380aeaac17f58cf89e956b80a3c4c3",
+      "duration_seconds": 3.35,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 110.0,
+          "measured_hz": 110.00037490990353,
+          "error_cents": 0.005900506220460646
+        },
+        {
+          "expected_hz": 123.75,
+          "measured_hz": 123.74957270492332,
+          "error_cents": 0.005977770205141074
+        },
+        {
+          "expected_hz": 110.0,
+          "measured_hz": 110.00037490990353,
+          "error_cents": 0.005900506220460646
+        },
+        {
+          "expected_hz": 123.47082531403103,
+          "measured_hz": 123.47131948203915,
+          "error_cents": 0.006928914319677733
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 1,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-1-control.wav",
+      "bytes": 414764,
+      "sha256": "a0985803e8d5e236d2276b879b53e20b67f32b3235120ace106e3727e100de34",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [123.47082531403103],
+          "pcm_reference_hz": [123.47132297141721],
+          "fitted_amplitudes": [0.31999986475801784],
+          "signal_residual_rms": 8.968718364740185e-6
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 2,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-2-compare.wav",
+      "bytes": 376366,
+      "sha256": "d0438435a00aa281dac1f0a449683c96c6f93ddd3ee1ddeee5612e6a2091be90",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 138.59131548843604,
+          "measured_hz": 138.59164887123086,
+          "error_cents": 0.004164495802109374
+        },
+        {
+          "expected_hz": 139.21875,
+          "measured_hz": 139.21906555537453,
+          "error_cents": 0.003924037456388279
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 2,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-2-beat.wav",
+      "bytes": 414764,
+      "sha256": "f810d6b0d1852bcee6ddeceeaee7d986e5be964311298890ba3a68e665206158",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [138.59131548843604, 139.21875],
+          "pcm_reference_hz": [138.59164887123086, 139.21906555537453],
+          "fitted_amplitudes": [0.15999992322366272, 0.16000005454716076],
+          "signal_residual_rms": 8.960536605199095e-6
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 2,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-2-walk.wav",
+      "bytes": 446446,
+      "sha256": "93677704ea354acfe293f869508e1246c5072da70765764b89278ae6bc0dc3ae",
+      "duration_seconds": 4.6500208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 110.0,
+          "measured_hz": 110.00037490990353,
+          "error_cents": 0.005900506220460646
+        },
+        {
+          "expected_hz": 123.75,
+          "measured_hz": 123.74957270492332,
+          "error_cents": 0.005977770205141074
+        },
+        {
+          "expected_hz": 139.21875,
+          "measured_hz": 139.21906724958185,
+          "error_cents": 0.003945105471496659
+        },
+        {
+          "expected_hz": 110.0,
+          "measured_hz": 110.00037490990353,
+          "error_cents": 0.005900506220460646
+        },
+        {
+          "expected_hz": 123.47082531403103,
+          "measured_hz": 123.47131948203915,
+          "error_cents": 0.006928914319677733
+        },
+        {
+          "expected_hz": 138.59131548843604,
+          "measured_hz": 138.59160836929195,
+          "error_cents": 0.003658560946069858
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 2,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-2-control.wav",
+      "bytes": 414764,
+      "sha256": "3dc121ed877eb5cd8060a1cc262a9f774779a7a400cb15b5124c777fef1253d5",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [138.59131548843604],
+          "pcm_reference_hz": [138.59164745979928],
+          "fitted_amplitudes": [0.31999973858163766],
+          "signal_residual_rms": 8.911756499876e-6
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 3,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-3-compare.wav",
+      "bytes": 376366,
+      "sha256": "919875649281ada8482b91103122c8a5ce5428668091514d674afbe02362223f",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 155.56349186104046,
+          "measured_hz": 155.56408847514783,
+          "error_cents": 0.006639582744207677
+        },
+        {
+          "expected_hz": 156.62109375,
+          "measured_hz": 156.6208348419493,
+          "error_cents": 0.0028618801767069752
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 3,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-3-beat.wav",
+      "bytes": 414764,
+      "sha256": "7b9ad08b0246a8da7631e27cbfe37f21ec25b1557ff7c42635fa93efd305beda",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [155.56349186104046, 156.62109375],
+          "pcm_reference_hz": [155.56408847514783, 156.6208348419493],
+          "fitted_amplitudes": [0.1600012425121274, 0.15999953299533254],
+          "signal_residual_rms": 1.2459549034497711e-5
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 3,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-3-walk.wav",
+      "bytes": 571244,
+      "sha256": "5aa9ff038c4109b435b80c20d15784776145dd0e6cd18548b0733d093a743be8",
+      "duration_seconds": 5.95,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 110.0,
+          "measured_hz": 110.00037490990353,
+          "error_cents": 0.005900506220460646
+        },
+        {
+          "expected_hz": 123.75,
+          "measured_hz": 123.74957270492332,
+          "error_cents": 0.005977770205141074
+        },
+        {
+          "expected_hz": 139.21875,
+          "measured_hz": 139.21906724958185,
+          "error_cents": 0.003945105471496659
+        },
+        {
+          "expected_hz": 156.62109375,
+          "measured_hz": 156.62076330878068,
+          "error_cents": 0.003652583952008793
+        },
+        {
+          "expected_hz": 110.0,
+          "measured_hz": 110.00037490990353,
+          "error_cents": 0.005900506220460646
+        },
+        {
+          "expected_hz": 123.47082531403103,
+          "measured_hz": 123.47131948203915,
+          "error_cents": 0.006928914319677733
+        },
+        {
+          "expected_hz": 138.59131548843604,
+          "measured_hz": 138.59160836929195,
+          "error_cents": 0.003658560946069858
+        },
+        {
+          "expected_hz": 155.56349186104046,
+          "measured_hz": 155.56404203812923,
+          "error_cents": 0.006122796636936036
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 3,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-3-control.wav",
+      "bytes": 414764,
+      "sha256": "c140c47bfd1a030f66558bf354ae893c2b836d335e4999c198e98bd9de30b26d",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [155.56349186104046],
+          "pcm_reference_hz": [155.56409133350834],
+          "fitted_amplitudes": [0.31999992521763043],
+          "signal_residual_rms": 9.112555234275901e-6
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 4,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-4-compare.wav",
+      "bytes": 376366,
+      "sha256": "49050ca1fc19b726d9cf36a6b596b20e63f202605c33b8feb3921cc1388254aa",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 174.61411571650194,
+          "measured_hz": 174.61355618882644,
+          "error_cents": 0.005547517800911536
+        },
+        {
+          "expected_hz": 176.19873046875,
+          "measured_hz": 176.19815591564034,
+          "error_cents": 0.005645259336055999
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 4,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-4-beat.wav",
+      "bytes": 414764,
+      "sha256": "24ee81f0c8894373064aa8c1592f288cdeba188e0772239fb700b6ecb6fd2166",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [174.61411571650194, 176.19873046875],
+          "pcm_reference_hz": [174.61355618882644, 176.19815591564034],
+          "fitted_amplitudes": [0.16000051366187806, 0.16000015265587006],
+          "signal_residual_rms": 1.3298358534728579e-5
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 4,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-4-walk.wav",
+      "bytes": 696046,
+      "sha256": "39219359fca34f04c59fd45666b21c137a61099479b3b22aa24700c56d5132f9",
+      "duration_seconds": 7.250020833333333,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 110.0,
+          "measured_hz": 110.00037490990353,
+          "error_cents": 0.005900506220460646
+        },
+        {
+          "expected_hz": 123.75,
+          "measured_hz": 123.74957270492332,
+          "error_cents": 0.005977770205141074
+        },
+        {
+          "expected_hz": 139.21875,
+          "measured_hz": 139.21906724958185,
+          "error_cents": 0.003945105471496659
+        },
+        {
+          "expected_hz": 156.62109375,
+          "measured_hz": 156.62076330878068,
+          "error_cents": 0.003652583952008793
+        },
+        {
+          "expected_hz": 176.19873046875,
+          "measured_hz": 176.19818369681406,
+          "error_cents": 0.0053722955821488595
+        },
+        {
+          "expected_hz": 110.0,
+          "measured_hz": 110.00037490990353,
+          "error_cents": 0.005900506220460646
+        },
+        {
+          "expected_hz": 123.47082531403103,
+          "measured_hz": 123.47131948203915,
+          "error_cents": 0.006928914319677733
+        },
+        {
+          "expected_hz": 138.59131548843604,
+          "measured_hz": 138.59160836929195,
+          "error_cents": 0.003658560946069858
+        },
+        {
+          "expected_hz": 155.56349186104046,
+          "measured_hz": 155.56404203812923,
+          "error_cents": 0.006122796636936036
+        },
+        {
+          "expected_hz": 174.61411571650194,
+          "measured_hz": 174.6135370992921,
+          "error_cents": 0.005736784054705554
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 4,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-4-control.wav",
+      "bytes": 414764,
+      "sha256": "1b9f204815d1996f279a478c03232398d70f3a7235aaa184ae9db64baa24c28b",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [174.61411571650194],
+          "pcm_reference_hz": [174.6135561799404],
+          "fitted_amplitudes": [0.32000001950740337],
+          "signal_residual_rms": 9.113630661287926e-6
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 5,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-5-compare.wav",
+      "bytes": 376366,
+      "sha256": "a997fea8f1a9b1111bfc8c1fe1a3fbac525a0433b2379ee8444e310b4321cae8",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 195.99771799087463,
+          "measured_hz": 195.99801722478216,
+          "error_cents": 0.002643110028048675
+        },
+        {
+          "expected_hz": 198.22357177734375,
+          "measured_hz": 198.22388559524555,
+          "error_cents": 0.0027408032347901617
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 5,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-5-beat.wav",
+      "bytes": 414764,
+      "sha256": "f8c6acb0d97559da94f3af7212eae0feec43d13930022bff667bb69b4934a9d9",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [195.99771799087463, 198.22357177734375],
+          "pcm_reference_hz": [195.99801722478216, 198.22388559524555],
+          "fitted_amplitudes": [0.15999902240367422, 0.15999993614887498],
+          "signal_residual_rms": 1.399142219918274e-5
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 5,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-5-walk.wav",
+      "bytes": 820844,
+      "sha256": "40c4e556a0df5841f294cd3d3c6f1a8f46b19875cd40b5af355211df088a0dda",
+      "duration_seconds": 8.55,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 110.0,
+          "measured_hz": 110.00037490990353,
+          "error_cents": 0.005900506220460646
+        },
+        {
+          "expected_hz": 123.75,
+          "measured_hz": 123.74957270492332,
+          "error_cents": 0.005977770205141074
+        },
+        {
+          "expected_hz": 139.21875,
+          "measured_hz": 139.21906724958185,
+          "error_cents": 0.003945105471496659
+        },
+        {
+          "expected_hz": 156.62109375,
+          "measured_hz": 156.62076330878068,
+          "error_cents": 0.003652583952008793
+        },
+        {
+          "expected_hz": 176.19873046875,
+          "measured_hz": 176.19818369681406,
+          "error_cents": 0.0053722955821488595
+        },
+        {
+          "expected_hz": 198.22357177734375,
+          "measured_hz": 198.22389430858743,
+          "error_cents": 0.0028169032153645074
+        },
+        {
+          "expected_hz": 110.0,
+          "measured_hz": 110.00037490990353,
+          "error_cents": 0.005900506220460646
+        },
+        {
+          "expected_hz": 123.47082531403103,
+          "measured_hz": 123.47131948203915,
+          "error_cents": 0.006928914319677733
+        },
+        {
+          "expected_hz": 138.59131548843604,
+          "measured_hz": 138.59160836929195,
+          "error_cents": 0.003658560946069858
+        },
+        {
+          "expected_hz": 155.56349186104046,
+          "measured_hz": 155.56404203812923,
+          "error_cents": 0.006122796636936036
+        },
+        {
+          "expected_hz": 174.61411571650194,
+          "measured_hz": 174.6135370992921,
+          "error_cents": 0.005736784054705554
+        },
+        {
+          "expected_hz": 195.99771799087463,
+          "measured_hz": 195.9979952089955,
+          "error_cents": 0.0024486464195838504
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 5,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-5-control.wav",
+      "bytes": 414764,
+      "sha256": "c91a0b03c4a776258253000db049afbb906506dcde90cb4f7baa8c3b31489249",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [195.99771799087463],
+          "pcm_reference_hz": [195.99801586572792],
+          "fitted_amplitudes": [0.31999979895465985],
+          "signal_residual_rms": 9.510835252770145e-6
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 6,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-6-compare.wav",
+      "bytes": 376366,
+      "sha256": "654f2309d1b5b0c96cc6783568bfe538eb61bb08955625293f45260b194b235e",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 220.00035135594115,
+          "error_cents": 0.0027649040134190236
+        },
+        {
+          "expected_hz": 223.00151824951172,
+          "measured_hz": 223.0018513148025,
+          "error_cents": 0.0025856933437437704
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 6,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-6-beat.wav",
+      "bytes": 414764,
+      "sha256": "1dad5972ab8e774200118b984a95f94bf3ace35e2c97c93a2ae336d8e70384e7",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [220.0, 223.00151824951172],
+          "pcm_reference_hz": [220.00035135594115, 223.0018513148025],
+          "fitted_amplitudes": [0.15999964236749012, 0.1600005876387298],
+          "signal_residual_rms": 1.2649795455579993e-5
+        },
+        {
+          "measured_beats_per_second": 3.0021014710297207,
+          "source_frequency_difference_hz": 3.0015182495117188,
+          "error_hz": 0.0005832215180019418,
+          "envelope_maxima": 11
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 6,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-6-walk.wav",
+      "bytes": 945644,
+      "sha256": "7cc915e6d54821ceab7c19efe93a7689fc89396ba6605bd72cdb4c7a914021c6",
+      "duration_seconds": 9.85,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 110.0,
+          "measured_hz": 110.00037490990353,
+          "error_cents": 0.005900506220460646
+        },
+        {
+          "expected_hz": 123.75,
+          "measured_hz": 123.74957270492332,
+          "error_cents": 0.005977770205141074
+        },
+        {
+          "expected_hz": 139.21875,
+          "measured_hz": 139.21906724958185,
+          "error_cents": 0.003945105471496659
+        },
+        {
+          "expected_hz": 156.62109375,
+          "measured_hz": 156.62076330878068,
+          "error_cents": 0.003652583952008793
+        },
+        {
+          "expected_hz": 176.19873046875,
+          "measured_hz": 176.19818369681406,
+          "error_cents": 0.0053722955821488595
+        },
+        {
+          "expected_hz": 198.22357177734375,
+          "measured_hz": 198.22389430858743,
+          "error_cents": 0.0028169032153645074
+        },
+        {
+          "expected_hz": 223.00151824951172,
+          "measured_hz": 223.00179936628814,
+          "error_cents": 0.002182400515275513
+        },
+        {
+          "expected_hz": 110.0,
+          "measured_hz": 110.00037490990353,
+          "error_cents": 0.005900506220460646
+        },
+        {
+          "expected_hz": 123.47082531403103,
+          "measured_hz": 123.47131948203915,
+          "error_cents": 0.006928914319677733
+        },
+        {
+          "expected_hz": 138.59131548843604,
+          "measured_hz": 138.59160836929195,
+          "error_cents": 0.003658560946069858
+        },
+        {
+          "expected_hz": 155.56349186104046,
+          "measured_hz": 155.56404203812923,
+          "error_cents": 0.006122796636936036
+        },
+        {
+          "expected_hz": 174.61411571650194,
+          "measured_hz": 174.6135370992921,
+          "error_cents": 0.005736784054705554
+        },
+        {
+          "expected_hz": 195.99771799087463,
+          "measured_hz": 195.9979952089955,
+          "error_cents": 0.0024486464195838504
+        },
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 220.00036423901363,
+          "error_cents": 0.0028662839110710366
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 110,
+      "step": 6,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-110-step-6-control.wav",
+      "bytes": 414764,
+      "sha256": "fb05b27c03c1504091d5ebf48e3afa62cd4722ae2dd703151f3f10ad62548ca4",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [220.0],
+          "pcm_reference_hz": [220.00036105535395],
+          "fitted_amplitudes": [0.3199997294679637],
+          "signal_residual_rms": 9.195331983465128e-6
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 0,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-0-compare.wav",
+      "bytes": 376366,
+      "sha256": "bc81bd44a8b70e6d2912886ac6102d73bc79c6d24603ec4144d682b70c45ba25",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 220.00035135594115,
+          "error_cents": 0.0027649040134190236
+        },
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 220.00035135594115,
+          "error_cents": 0.0027649040134190236
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 0,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-0-beat.wav",
+      "bytes": 414764,
+      "sha256": "fb05b27c03c1504091d5ebf48e3afa62cd4722ae2dd703151f3f10ad62548ca4",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [220.0],
+          "pcm_reference_hz": [220.00035135594115],
+          "fitted_amplitudes": [0.31999972588412634],
+          "signal_residual_rms": 1.9213716755311835e-5
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 0,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-0-walk.wav",
+      "bytes": 196846,
+      "sha256": "41f7cc83b0ac03b646dd19d5dbc3ad85dbe057b2abb39afd94bb018261ab0367",
+      "duration_seconds": 2.0500208333333334,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 220.00036423901363,
+          "error_cents": 0.0028662839110710366
+        },
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 220.00036423901363,
+          "error_cents": 0.0028662839110710366
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 0,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-0-control.wav",
+      "bytes": 414764,
+      "sha256": "fb05b27c03c1504091d5ebf48e3afa62cd4722ae2dd703151f3f10ad62548ca4",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [220.0],
+          "pcm_reference_hz": [220.00036105535395],
+          "fitted_amplitudes": [0.3199997294679637],
+          "signal_residual_rms": 9.195331983465128e-6
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 1,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-1-compare.wav",
+      "bytes": 376366,
+      "sha256": "eb53e63f32c2e035ffd1af31cc770319345c110b2e4b60cb667f32600c6733f5",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 246.94165062806206,
+          "measured_hz": 246.94209976627823,
+          "error_cents": 0.0031487708270825604
+        },
+        {
+          "expected_hz": 247.5,
+          "measured_hz": 247.50031303065612,
+          "error_cents": 0.0021896120710628835
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 1,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-1-beat.wav",
+      "bytes": 414764,
+      "sha256": "f2b179968e93e8b497ae48d2b86236cd272e61e0d759dc7937f50c186db55bae",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [246.94165062806206, 247.5],
+          "pcm_reference_hz": [246.94209976627823, 247.50031303065612],
+          "fitted_amplitudes": [0.16000209367870974, 0.15999881740533298],
+          "signal_residual_rms": 1.2714771939369242e-5
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 1,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-1-walk.wav",
+      "bytes": 321644,
+      "sha256": "1c76cb08f2b2acc1932b2ccef32e40adb03d2fc4b3fc4b3be7aebf9b9366310f",
+      "duration_seconds": 3.35,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 220.00036423901363,
+          "error_cents": 0.0028662839110710366
+        },
+        {
+          "expected_hz": 247.5,
+          "measured_hz": 247.50033452903284,
+          "error_cents": 0.0023399905481771674
+        },
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 220.00036423901363,
+          "error_cents": 0.0028662839110710366
+        },
+        {
+          "expected_hz": 246.94165062806206,
+          "measured_hz": 246.94209244540545,
+          "error_cents": 0.0030974464700315304
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 1,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-1-control.wav",
+      "bytes": 414764,
+      "sha256": "fc86dc5bfddb393c84b48f4407cb6ea22743a509a0860c755167e51532f6a28c",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [246.94165062806206],
+          "pcm_reference_hz": [246.9421061465901],
+          "fitted_amplitudes": [0.31999983504169277],
+          "signal_residual_rms": 9.055988446702198e-6
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 2,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-2-compare.wav",
+      "bytes": 376366,
+      "sha256": "730856788c64401063259eb524e772792b24f1a7add3e0f2cdfe74ec61a31bcc",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 277.1826309768721,
+          "measured_hz": 277.1821121149169,
+          "error_cents": 0.0032407237105287526
+        },
+        {
+          "expected_hz": 278.4375,
+          "measured_hz": 278.4376745924173,
+          "error_cents": 0.0010855586721447848
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 2,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-2-beat.wav",
+      "bytes": 414764,
+      "sha256": "34f6936410a23fb8f61e45c48dddf5e658bb39d6d3d8ea61b2cf99c787a6e2bd",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [277.1826309768721, 278.4375],
+          "pcm_reference_hz": [277.1821121149169, 278.4376745924173],
+          "fitted_amplitudes": [0.16000058802474323, 0.15999983481598132],
+          "signal_residual_rms": 1.3490830439996828e-5
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 2,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-2-walk.wav",
+      "bytes": 446446,
+      "sha256": "6af4a9cffefa6a6cea7deba13a38b071123cebe470ba8656d275bf346ba24bfb",
+      "duration_seconds": 4.6500208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 220.00036423901363,
+          "error_cents": 0.0028662839110710366
+        },
+        {
+          "expected_hz": 247.5,
+          "measured_hz": 247.50033452903284,
+          "error_cents": 0.0023399905481771674
+        },
+        {
+          "expected_hz": 278.4375,
+          "measured_hz": 278.43761805643004,
+          "error_cents": 0.0007340364285681573
+        },
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 220.00036423901363,
+          "error_cents": 0.0028662839110710366
+        },
+        {
+          "expected_hz": 246.94165062806206,
+          "measured_hz": 246.94209244540545,
+          "error_cents": 0.0030974464700315304
+        },
+        {
+          "expected_hz": 277.1826309768721,
+          "measured_hz": 277.1821728902939,
+          "error_cents": 0.0028611307068647815
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 2,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-2-control.wav",
+      "bytes": 414764,
+      "sha256": "565d4ae0c2df9a516c2a1050e346faa08101c930e73d50632bf912dbc6d114ed",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [277.1826309768721],
+          "pcm_reference_hz": [277.18211512117006],
+          "fitted_amplitudes": [0.3199998684672229],
+          "signal_residual_rms": 9.374268299912335e-6
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 3,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-3-compare.wav",
+      "bytes": 376366,
+      "sha256": "4f5cc98b78726ab0f7b0a0d1e95bca3a0dd3d76825d0956971d1a5955a7b7c80",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 311.1269837220809,
+          "measured_hz": 311.1276201198875,
+          "error_cents": 0.00354116641255921
+        },
+        {
+          "expected_hz": 313.2421875,
+          "measured_hz": 313.24182154063044,
+          "error_cents": 0.00202259375183596
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 3,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-3-beat.wav",
+      "bytes": 414764,
+      "sha256": "19fbc58a4d13f9c6e999f46c665644ad6f7556081fe25a20636e74b3ebb9e6be",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [311.1269837220809, 313.2421875],
+          "pcm_reference_hz": [311.1276201198875, 313.24182154063044],
+          "fitted_amplitudes": [0.1599998768639782, 0.15999988384150726],
+          "signal_residual_rms": 1.173088011003443e-5
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 3,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-3-walk.wav",
+      "bytes": 571244,
+      "sha256": "bdc58df3d8ba48ab234be9ca6251b60cdc7a38ae65b3ffaf3f14c1135ede031e",
+      "duration_seconds": 5.95,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 220.00036423901363,
+          "error_cents": 0.0028662839110710366
+        },
+        {
+          "expected_hz": 247.5,
+          "measured_hz": 247.50033452903284,
+          "error_cents": 0.0023399905481771674
+        },
+        {
+          "expected_hz": 278.4375,
+          "measured_hz": 278.43761805643004,
+          "error_cents": 0.0007340364285681573
+        },
+        {
+          "expected_hz": 313.2421875,
+          "measured_hz": 313.2418916969488,
+          "error_cents": 0.0016348518055454462
+        },
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 220.00036423901363,
+          "error_cents": 0.0028662839110710366
+        },
+        {
+          "expected_hz": 246.94165062806206,
+          "measured_hz": 246.94209244540545,
+          "error_cents": 0.0030974464700315304
+        },
+        {
+          "expected_hz": 277.1826309768721,
+          "measured_hz": 277.1821728902939,
+          "error_cents": 0.0028611307068647815
+        },
+        {
+          "expected_hz": 311.1269837220809,
+          "measured_hz": 311.12764983514967,
+          "error_cents": 0.003706513581343412
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 3,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-3-control.wav",
+      "bytes": 414764,
+      "sha256": "dd4a4096f9bd62e78fdb668efef79371c2ade3cf9ef5e5b7dd19be3e3f1d60f8",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [311.1269837220809],
+          "pcm_reference_hz": [311.1276204798421],
+          "fitted_amplitudes": [0.319999814606595],
+          "signal_residual_rms": 9.120427920413389e-6
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 4,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-4-compare.wav",
+      "bytes": 376366,
+      "sha256": "20ecbab0dba3ad014836c9a57795f2742057259da0ed39b5a5046729d1b3a038",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 349.2282314330039,
+          "measured_hz": 349.22841978549496,
+          "error_cents": 0.0009337222151412154
+        },
+        {
+          "expected_hz": 352.3974609375,
+          "measured_hz": 352.3976591548196,
+          "error_cents": 0.0009737881637408735
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 4,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-4-beat.wav",
+      "bytes": 414764,
+      "sha256": "22bf72744534beadcdf70bf82f3915d7f34dbf564b3f72ebdb5f0f4a1a0dd764",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [349.2282314330039, 352.3974609375],
+          "pcm_reference_hz": [349.22841978549496, 352.3976591548196],
+          "fitted_amplitudes": [0.1599999453216503, 0.15999992937490295],
+          "signal_residual_rms": 9.556863462414519e-6
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 4,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-4-walk.wav",
+      "bytes": 696046,
+      "sha256": "d83c2793a6f7471a8448b1f7701506f749a6ab9eee47f379e27ef90eb5e0f636",
+      "duration_seconds": 7.250020833333333,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 220.00036423901363,
+          "error_cents": 0.0028662839110710366
+        },
+        {
+          "expected_hz": 247.5,
+          "measured_hz": 247.50033452903284,
+          "error_cents": 0.0023399905481771674
+        },
+        {
+          "expected_hz": 278.4375,
+          "measured_hz": 278.43761805643004,
+          "error_cents": 0.0007340364285681573
+        },
+        {
+          "expected_hz": 313.2421875,
+          "measured_hz": 313.2418916969488,
+          "error_cents": 0.0016348518055454462
+        },
+        {
+          "expected_hz": 352.3974609375,
+          "measured_hz": 352.39767954921155,
+          "error_cents": 0.0010739802726569263
+        },
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 220.00036423901363,
+          "error_cents": 0.0028662839110710366
+        },
+        {
+          "expected_hz": 246.94165062806206,
+          "measured_hz": 246.94209244540545,
+          "error_cents": 0.0030974464700315304
+        },
+        {
+          "expected_hz": 277.1826309768721,
+          "measured_hz": 277.1821728902939,
+          "error_cents": 0.0028611307068647815
+        },
+        {
+          "expected_hz": 311.1269837220809,
+          "measured_hz": 311.12764983514967,
+          "error_cents": 0.003706513581343412
+        },
+        {
+          "expected_hz": 349.2282314330039,
+          "measured_hz": 349.22839705905034,
+          "error_cents": 0.0008210601471144109
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 4,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-4-control.wav",
+      "bytes": 414764,
+      "sha256": "c2c0e2f16829d2d91ea883c3c3f970a0be79ba161da6d6ac161620d2cc119542",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [349.2282314330039],
+          "pcm_reference_hz": [349.22841910136816],
+          "fitted_amplitudes": [0.3199999614230983],
+          "signal_residual_rms": 8.985953678508632e-6
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 5,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-5-compare.wav",
+      "bytes": 376366,
+      "sha256": "0a9f772f644a8b586ad4668994ebc96cbc71794eeaf148235e8c2ed7cccbb726",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 391.99543598174927,
+          "measured_hz": 391.99486249853675,
+          "error_cents": 0.0025327702804978955
+        },
+        {
+          "expected_hz": 396.4471435546875,
+          "measured_hz": 396.4468929602272,
+          "error_cents": 0.0010943143525839693
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 5,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-5-beat.wav",
+      "bytes": 414764,
+      "sha256": "13a39973048727665e10dd2b94976bdf997f1cd275ee39f5aace680f8079923a",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [391.99543598174927, 396.4471435546875],
+          "pcm_reference_hz": [391.99486249853675, 396.4468929602272],
+          "fitted_amplitudes": [0.16000032878310513, 0.15999996062606875],
+          "signal_residual_rms": 1.1556204304100624e-5
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 5,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-5-walk.wav",
+      "bytes": 820844,
+      "sha256": "a542fe6025e8e04bd5fdcbef3f7d1b2fcd944ff8ebc087826b91259c728da8fa",
+      "duration_seconds": 8.55,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 220.00036423901363,
+          "error_cents": 0.0028662839110710366
+        },
+        {
+          "expected_hz": 247.5,
+          "measured_hz": 247.50033452903284,
+          "error_cents": 0.0023399905481771674
+        },
+        {
+          "expected_hz": 278.4375,
+          "measured_hz": 278.43761805643004,
+          "error_cents": 0.0007340364285681573
+        },
+        {
+          "expected_hz": 313.2421875,
+          "measured_hz": 313.2418916969488,
+          "error_cents": 0.0016348518055454462
+        },
+        {
+          "expected_hz": 352.3974609375,
+          "measured_hz": 352.39767954921155,
+          "error_cents": 0.0010739802726569263
+        },
+        {
+          "expected_hz": 396.4471435546875,
+          "measured_hz": 396.4468704508627,
+          "error_cents": 0.001192609937817816
+        },
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 220.00036423901363,
+          "error_cents": 0.0028662839110710366
+        },
+        {
+          "expected_hz": 246.94165062806206,
+          "measured_hz": 246.94209244540545,
+          "error_cents": 0.0030974464700315304
+        },
+        {
+          "expected_hz": 277.1826309768721,
+          "measured_hz": 277.1821728902939,
+          "error_cents": 0.0028611307068647815
+        },
+        {
+          "expected_hz": 311.1269837220809,
+          "measured_hz": 311.12764983514967,
+          "error_cents": 0.003706513581343412
+        },
+        {
+          "expected_hz": 349.2282314330039,
+          "measured_hz": 349.22839705905034,
+          "error_cents": 0.0008210601471144109
+        },
+        {
+          "expected_hz": 391.99543598174927,
+          "measured_hz": 391.9948661955096,
+          "error_cents": 0.002516442706246304
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 5,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-5-control.wav",
+      "bytes": 414764,
+      "sha256": "fff556d49480ec32659b6562782befc8abc911ec7f7eebb59c80ac0ab1136b8c",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [391.99543598174927],
+          "pcm_reference_hz": [391.99485837774654],
+          "fitted_amplitudes": [0.31999986669128083],
+          "signal_residual_rms": 9.132700972505643e-6
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 6,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-6-compare.wav",
+      "bytes": 376366,
+      "sha256": "7a9404d719a03e3c0dd47a110d3891a03c4e5eb71fa91b52f02bfc960320bb45",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9998323997251,
+          "error_cents": 0.0006594439949621053
+        },
+        {
+          "expected_hz": 446.00303649902344,
+          "measured_hz": 446.0025240505249,
+          "error_cents": 0.001989154167377114
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 6,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-6-beat.wav",
+      "bytes": 414764,
+      "sha256": "8662de4e8280cb82337fcf05e1b1e7ae4010eb244d3b641366d2cebb6a7aeb83",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [440.0, 446.00303649902344],
+          "pcm_reference_hz": [439.9998323997251, 446.0025240505249],
+          "fitted_amplitudes": [0.159999670008122, 0.1600001564129662],
+          "signal_residual_rms": 1.4839228856867142e-5
+        },
+        {
+          "measured_beats_per_second": 6.002400960384153,
+          "source_frequency_difference_hz": 6.0030364990234375,
+          "error_hz": 0.0006355386392842277,
+          "envelope_maxima": 21
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 6,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-6-walk.wav",
+      "bytes": 945644,
+      "sha256": "f233a3245884ca7c7e782c241314b83e23a552ea512f11d0b9b811428689ccc8",
+      "duration_seconds": 9.85,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 220.00036423901363,
+          "error_cents": 0.0028662839110710366
+        },
+        {
+          "expected_hz": 247.5,
+          "measured_hz": 247.50033452903284,
+          "error_cents": 0.0023399905481771674
+        },
+        {
+          "expected_hz": 278.4375,
+          "measured_hz": 278.43761805643004,
+          "error_cents": 0.0007340364285681573
+        },
+        {
+          "expected_hz": 313.2421875,
+          "measured_hz": 313.2418916969488,
+          "error_cents": 0.0016348518055454462
+        },
+        {
+          "expected_hz": 352.3974609375,
+          "measured_hz": 352.39767954921155,
+          "error_cents": 0.0010739802726569263
+        },
+        {
+          "expected_hz": 396.4471435546875,
+          "measured_hz": 396.4468704508627,
+          "error_cents": 0.001192609937817816
+        },
+        {
+          "expected_hz": 446.00303649902344,
+          "measured_hz": 446.0025264672905,
+          "error_cents": 0.001979773083816403
+        },
+        {
+          "expected_hz": 220.0,
+          "measured_hz": 220.00036423901363,
+          "error_cents": 0.0028662839110710366
+        },
+        {
+          "expected_hz": 246.94165062806206,
+          "measured_hz": 246.94209244540545,
+          "error_cents": 0.0030974464700315304
+        },
+        {
+          "expected_hz": 277.1826309768721,
+          "measured_hz": 277.1821728902939,
+          "error_cents": 0.0028611307068647815
+        },
+        {
+          "expected_hz": 311.1269837220809,
+          "measured_hz": 311.12764983514967,
+          "error_cents": 0.003706513581343412
+        },
+        {
+          "expected_hz": 349.2282314330039,
+          "measured_hz": 349.22839705905034,
+          "error_cents": 0.0008210601471144109
+        },
+        {
+          "expected_hz": 391.99543598174927,
+          "measured_hz": 391.9948661955096,
+          "error_cents": 0.002516442706246304
+        },
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9998517096029,
+          "error_cents": 0.0005834668813470431
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 220,
+      "step": 6,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-220-step-6-control.wav",
+      "bytes": 414764,
+      "sha256": "a07b8506ef60c3618a1006856e2b27dd1241fbb0393037f3c80b549ad56af25e",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [440.0],
+          "pcm_reference_hz": [439.99982247271447],
+          "fitted_amplitudes": [0.3199999457304012],
+          "signal_residual_rms": 9.164257049559603e-6
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 0,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-0-compare.wav",
+      "bytes": 376366,
+      "sha256": "c58ccb1425cd1ef3156d92edf394a31f15715710186cde9499b69477194be187",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9998323997251,
+          "error_cents": 0.0006594439949621053
+        },
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9998323997251,
+          "error_cents": 0.0006594439949621053
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 0,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-0-beat.wav",
+      "bytes": 414764,
+      "sha256": "a07b8506ef60c3618a1006856e2b27dd1241fbb0393037f3c80b549ad56af25e",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [440.0],
+          "pcm_reference_hz": [439.9998323997251],
+          "fitted_amplitudes": [0.31999994230807566],
+          "signal_residual_rms": 1.936510304543388e-5
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 0,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-0-walk.wav",
+      "bytes": 196846,
+      "sha256": "e8631054b640ab5ea6f473053e458164aefada6f15599b4cb30f657078cd4e1f",
+      "duration_seconds": 2.0500208333333334,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9998517096029,
+          "error_cents": 0.0005834668813470431
+        },
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9998517096029,
+          "error_cents": 0.0005834668813470431
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 0,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-0-control.wav",
+      "bytes": 414764,
+      "sha256": "a07b8506ef60c3618a1006856e2b27dd1241fbb0393037f3c80b549ad56af25e",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [440.0],
+          "pcm_reference_hz": [439.99982247271447],
+          "fitted_amplitudes": [0.3199999457304012],
+          "signal_residual_rms": 9.164257049559603e-6
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 1,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-1-compare.wav",
+      "bytes": 376366,
+      "sha256": "27a0d490f57edb75865cf712fcb08a618fe274d40e0c8fbb2a25a8f1c6d2abbe",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 493.8833012561241,
+          "measured_hz": 493.88300335533796,
+          "error_cents": 0.001044246967889554
+        },
+        {
+          "expected_hz": 495.0,
+          "measured_hz": 495.0001983173872,
+          "error_cents": 0.0006936035241111597
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 1,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-1-beat.wav",
+      "bytes": 414764,
+      "sha256": "35f9255ec5e41e2cfa7ffcca42ecd645bc7f349551887d92a948e4e28b91ce94",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [493.8833012561241, 495.0],
+          "pcm_reference_hz": [493.88300335533796, 495.0001983173872],
+          "fitted_amplitudes": [0.160000114780688, 0.16000005617086357],
+          "signal_residual_rms": 1.300797695899167e-5
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 1,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-1-walk.wav",
+      "bytes": 321644,
+      "sha256": "fd6fa38d31b9676e877b938dc2fda3513774840d203ba5862ee2e5f697b870c3",
+      "duration_seconds": 3.35,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9998517096029,
+          "error_cents": 0.0005834668813470431
+        },
+        {
+          "expected_hz": 495.0,
+          "measured_hz": 495.0001883348288,
+          "error_cents": 0.00065869011343716
+        },
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9998517096029,
+          "error_cents": 0.0005834668813470431
+        },
+        {
+          "expected_hz": 493.8833012561241,
+          "measured_hz": 493.88299519740997,
+          "error_cents": 0.0010728433819090055
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 1,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-1-control.wav",
+      "bytes": 414764,
+      "sha256": "bc6e9ec378f5dd208c1109e970b175df1caff85fb845fe300f278d7ab16b3baf",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [493.8833012561241],
+          "pcm_reference_hz": [493.88299225065055],
+          "fitted_amplitudes": [0.3199998522309484],
+          "signal_residual_rms": 9.10049013745489e-6
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 2,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-2-compare.wav",
+      "bytes": 376366,
+      "sha256": "4d0fb11c474c0bdfcb1c28fbfecdddcfd1c709765ca4fff0869aa2c589240b04",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 554.3652619537442,
+          "measured_hz": 554.3647764323571,
+          "error_cents": 0.0015162413351421352
+        },
+        {
+          "expected_hz": 556.875,
+          "measured_hz": 556.8746032605219,
+          "error_cents": 0.0012333991250181886
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 2,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-2-beat.wav",
+      "bytes": 414764,
+      "sha256": "189b7b3d7adaf9987b5df54ccc2edcac13446db5d373a9568f1cdd4ec8371f6e",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [554.3652619537442, 556.875],
+          "pcm_reference_hz": [554.3647764323571, 556.8746032605219],
+          "fitted_amplitudes": [0.16000036613791238, 0.1599999125382653],
+          "signal_residual_rms": 1.0161065416073076e-5
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 2,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-2-walk.wav",
+      "bytes": 446446,
+      "sha256": "8bfe7fafabcb1817416060b8d53ac9c9e76b4be64f0609a2a327e7a42320dbe5",
+      "duration_seconds": 4.6500208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9998517096029,
+          "error_cents": 0.0005834668813470431
+        },
+        {
+          "expected_hz": 495.0,
+          "measured_hz": 495.0001883348288,
+          "error_cents": 0.00065869011343716
+        },
+        {
+          "expected_hz": 556.875,
+          "measured_hz": 556.8745403251479,
+          "error_cents": 0.0014290551449788287
+        },
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9998517096029,
+          "error_cents": 0.0005834668813470431
+        },
+        {
+          "expected_hz": 493.8833012561241,
+          "measured_hz": 493.88299519740997,
+          "error_cents": 0.0010728433819090055
+        },
+        {
+          "expected_hz": 554.3652619537442,
+          "measured_hz": 554.3647765090786,
+          "error_cents": 0.0015160017402849888
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 2,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-2-control.wav",
+      "bytes": 414764,
+      "sha256": "0314863ff3e5dcc4c96f7c80309910bc778540fd9f67b46e8b3940992842f7a7",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [554.3652619537442],
+          "pcm_reference_hz": [554.3647718815009],
+          "fitted_amplitudes": [0.3199999668518969],
+          "signal_residual_rms": 8.965033638977872e-6
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 3,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-3-compare.wav",
+      "bytes": 376366,
+      "sha256": "eb47940e5b3d27edc379e65d619caa389dd54a5f0443e6696def464d314eaedf",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 622.2539674441618,
+          "measured_hz": 622.2539142405445,
+          "error_cents": 0.00014802303017309498
+        },
+        {
+          "expected_hz": 626.484375,
+          "measured_hz": 626.4840410523093,
+          "error_cents": 0.0009228350936550981
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 3,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-3-beat.wav",
+      "bytes": 414764,
+      "sha256": "0c62bc1a7fbbdd3ecc04f1ccfb777dcb095284d0475483617b6b2c25abc2d932",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [622.2539674441618, 626.484375],
+          "pcm_reference_hz": [622.2539142405445, 626.4840410523093],
+          "fitted_amplitudes": [0.1600001136585786, 0.15999995008447013],
+          "signal_residual_rms": 1.5507733248936787e-5
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 3,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-3-walk.wav",
+      "bytes": 571244,
+      "sha256": "3e784f59d15cbaf27e559e6f6c28ea62784fcf45715f9581d81028165bc99a77",
+      "duration_seconds": 5.95,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9998517096029,
+          "error_cents": 0.0005834668813470431
+        },
+        {
+          "expected_hz": 495.0,
+          "measured_hz": 495.0001883348288,
+          "error_cents": 0.00065869011343716
+        },
+        {
+          "expected_hz": 556.875,
+          "measured_hz": 556.8745403251479,
+          "error_cents": 0.0014290551449788287
+        },
+        {
+          "expected_hz": 626.484375,
+          "measured_hz": 626.4840563962852,
+          "error_cents": 0.0008804333539861336
+        },
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9998517096029,
+          "error_cents": 0.0005834668813470431
+        },
+        {
+          "expected_hz": 493.8833012561241,
+          "measured_hz": 493.88299519740997,
+          "error_cents": 0.0010728433819090055
+        },
+        {
+          "expected_hz": 554.3652619537442,
+          "measured_hz": 554.3647765090786,
+          "error_cents": 0.0015160017402849888
+        },
+        {
+          "expected_hz": 622.2539674441618,
+          "measured_hz": 622.2539095552979,
+          "error_cents": 0.00016105831740220603
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 3,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-3-control.wav",
+      "bytes": 414764,
+      "sha256": "1d69dbaabdab081e8830700f5c2e3bdb12fa87a2e9e17265e5f8f37c00d1123e",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [622.2539674441618],
+          "pcm_reference_hz": [622.2539169071497],
+          "fitted_amplitudes": [0.3199999461750602],
+          "signal_residual_rms": 9.528352912545439e-6
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 4,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-4-compare.wav",
+      "bytes": 376366,
+      "sha256": "55f8fb306603222620861988925b7eb8dc9a3da6baa00461a543f696c03fee36",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 698.4564628660078,
+          "measured_hz": 698.4567253395147,
+          "error_cents": 0.0006505816911106489
+        },
+        {
+          "expected_hz": 704.794921875,
+          "measured_hz": 704.7952678275218,
+          "error_cents": 0.0008497856888684522
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 4,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-4-beat.wav",
+      "bytes": 414764,
+      "sha256": "0f22410243ce0a4d9eed05af19c7f9edb0f207db9f162e93fde69f28ed39bdd0",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [698.4564628660078, 704.794921875],
+          "pcm_reference_hz": [698.4567253395147, 704.7952678275218],
+          "fitted_amplitudes": [0.15999983767852125, 0.1599998746811273],
+          "signal_residual_rms": 1.478427165525048e-5
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 4,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-4-walk.wav",
+      "bytes": 696046,
+      "sha256": "7e2371d3fe391f14b28545f22aca15b56f9825db8beb6c3a4ae964497d1bb2ce",
+      "duration_seconds": 7.250020833333333,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9998517096029,
+          "error_cents": 0.0005834668813470431
+        },
+        {
+          "expected_hz": 495.0,
+          "measured_hz": 495.0001883348288,
+          "error_cents": 0.00065869011343716
+        },
+        {
+          "expected_hz": 556.875,
+          "measured_hz": 556.8745403251479,
+          "error_cents": 0.0014290551449788287
+        },
+        {
+          "expected_hz": 626.484375,
+          "measured_hz": 626.4840563962852,
+          "error_cents": 0.0008804333539861336
+        },
+        {
+          "expected_hz": 704.794921875,
+          "measured_hz": 704.7953076183453,
+          "error_cents": 0.0009475264508035493
+        },
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9998517096029,
+          "error_cents": 0.0005834668813470431
+        },
+        {
+          "expected_hz": 493.8833012561241,
+          "measured_hz": 493.88299519740997,
+          "error_cents": 0.0010728433819090055
+        },
+        {
+          "expected_hz": 554.3652619537442,
+          "measured_hz": 554.3647765090786,
+          "error_cents": 0.0015160017402849888
+        },
+        {
+          "expected_hz": 622.2539674441618,
+          "measured_hz": 622.2539095552979,
+          "error_cents": 0.00016105831740220603
+        },
+        {
+          "expected_hz": 698.4564628660078,
+          "measured_hz": 698.456755759731,
+          "error_cents": 0.0007259829454641786
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 4,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-4-control.wav",
+      "bytes": 414764,
+      "sha256": "2aedd6ebd61efafef22037b591538e8c5e611bb17cc04f1f0eeb1460fe1dabbb",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [698.4564628660078],
+          "pcm_reference_hz": [698.456733053585],
+          "fitted_amplitudes": [0.31999995025021644],
+          "signal_residual_rms": 9.047371932245336e-6
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 5,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-5-compare.wav",
+      "bytes": 376366,
+      "sha256": "d3a54e7109c122b7dff5533ad0b3e35e52bdc91324ab842370f54c45a85cae0c",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 783.9908719634985,
+          "measured_hz": 783.9902689644446,
+          "error_cents": 0.0013315625634418389
+        },
+        {
+          "expected_hz": 792.894287109375,
+          "measured_hz": 792.8946105515228,
+          "error_cents": 0.0007062151334070592
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 5,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-5-beat.wav",
+      "bytes": 414764,
+      "sha256": "932fcf0b072a0924cdbf9cfc1efa38314c1a6a6808e0ac6dc8013a3bb86d8472",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [783.9908719634985, 792.894287109375],
+          "pcm_reference_hz": [783.9902689644446, 792.8946105515228],
+          "fitted_amplitudes": [0.16000001807498085, 0.1599999832237658],
+          "signal_residual_rms": 1.3812152011348161e-5
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 5,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-5-walk.wav",
+      "bytes": 820844,
+      "sha256": "5a227d8df38ed7d2cbd6632df9c30b9448dfe7885b42dc465106e9ffa5e198c4",
+      "duration_seconds": 8.55,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9998517096029,
+          "error_cents": 0.0005834668813470431
+        },
+        {
+          "expected_hz": 495.0,
+          "measured_hz": 495.0001883348288,
+          "error_cents": 0.00065869011343716
+        },
+        {
+          "expected_hz": 556.875,
+          "measured_hz": 556.8745403251479,
+          "error_cents": 0.0014290551449788287
+        },
+        {
+          "expected_hz": 626.484375,
+          "measured_hz": 626.4840563962852,
+          "error_cents": 0.0008804333539861336
+        },
+        {
+          "expected_hz": 704.794921875,
+          "measured_hz": 704.7953076183453,
+          "error_cents": 0.0009475264508035493
+        },
+        {
+          "expected_hz": 792.894287109375,
+          "measured_hz": 792.8946239319547,
+          "error_cents": 0.0007354304401516719
+        },
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9998517096029,
+          "error_cents": 0.0005834668813470431
+        },
+        {
+          "expected_hz": 493.8833012561241,
+          "measured_hz": 493.88299519740997,
+          "error_cents": 0.0010728433819090055
+        },
+        {
+          "expected_hz": 554.3652619537442,
+          "measured_hz": 554.3647765090786,
+          "error_cents": 0.0015160017402849888
+        },
+        {
+          "expected_hz": 622.2539674441618,
+          "measured_hz": 622.2539095552979,
+          "error_cents": 0.00016105831740220603
+        },
+        {
+          "expected_hz": 698.4564628660078,
+          "measured_hz": 698.456755759731,
+          "error_cents": 0.0007259829454641786
+        },
+        {
+          "expected_hz": 783.9908719634985,
+          "measured_hz": 783.9902932790296,
+          "error_cents": 0.0012778702684544544
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 5,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-5-control.wav",
+      "bytes": 414764,
+      "sha256": "63cca013782c215e50c906508f8610f9b4a6b02602c6c2ad85d2bc132c16aca5",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [783.9908719634985],
+          "pcm_reference_hz": [783.9902550603613],
+          "fitted_amplitudes": [0.3199999820882548],
+          "signal_residual_rms": 8.830399151929484e-6
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 6,
+      "sound": "compare",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-6-compare.wav",
+      "bytes": 376366,
+      "sha256": "4a700b0d4037e4d3f5b7cb9e7fceddc5e454b2919341baa541558276ad00c36c",
+      "duration_seconds": 3.9200208333333335,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 880.0,
+          "measured_hz": 880.0004249153315,
+          "error_cents": 0.0008359405818497978
+        },
+        {
+          "expected_hz": 892.0060729980469,
+          "measured_hz": 892.0055737386176,
+          "error_cents": 0.0009689790141371051
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 6,
+      "sound": "beat",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-6-beat.wav",
+      "bytes": 414764,
+      "sha256": "7f3c7c03e118697db0672f493997ff95f24f99122be3180c67bafd99f78c0494",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [880.0, 892.0060729980469],
+          "pcm_reference_hz": [880.0004249153315, 892.0055737386176],
+          "fitted_amplitudes": [0.1599999281414436, 0.1600000527121681],
+          "signal_residual_rms": 1.1199708821571336e-5
+        },
+        {
+          "measured_beats_per_second": 12.004801920768307,
+          "source_frequency_difference_hz": 12.006072998046875,
+          "error_hz": 0.0012710772785684554,
+          "envelope_maxima": 41
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 6,
+      "sound": "walk",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-6-walk.wav",
+      "bytes": 945644,
+      "sha256": "7346e4755579ff604af6ddabfd7ae7bbdefaa88e6594657bd3ce7227e777144f",
+      "duration_seconds": 9.85,
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9998517096029,
+          "error_cents": 0.0005834668813470431
+        },
+        {
+          "expected_hz": 495.0,
+          "measured_hz": 495.0001883348288,
+          "error_cents": 0.00065869011343716
+        },
+        {
+          "expected_hz": 556.875,
+          "measured_hz": 556.8745403251479,
+          "error_cents": 0.0014290551449788287
+        },
+        {
+          "expected_hz": 626.484375,
+          "measured_hz": 626.4840563962852,
+          "error_cents": 0.0008804333539861336
+        },
+        {
+          "expected_hz": 704.794921875,
+          "measured_hz": 704.7953076183453,
+          "error_cents": 0.0009475264508035493
+        },
+        {
+          "expected_hz": 792.894287109375,
+          "measured_hz": 792.8946239319547,
+          "error_cents": 0.0007354304401516719
+        },
+        {
+          "expected_hz": 892.0060729980469,
+          "measured_hz": 892.0055389016927,
+          "error_cents": 0.0010365916764141538
+        },
+        {
+          "expected_hz": 440.0,
+          "measured_hz": 439.9998517096029,
+          "error_cents": 0.0005834668813470431
+        },
+        {
+          "expected_hz": 493.8833012561241,
+          "measured_hz": 493.88299519740997,
+          "error_cents": 0.0010728433819090055
+        },
+        {
+          "expected_hz": 554.3652619537442,
+          "measured_hz": 554.3647765090786,
+          "error_cents": 0.0015160017402849888
+        },
+        {
+          "expected_hz": 622.2539674441618,
+          "measured_hz": 622.2539095552979,
+          "error_cents": 0.00016105831740220603
+        },
+        {
+          "expected_hz": 698.4564628660078,
+          "measured_hz": 698.456755759731,
+          "error_cents": 0.0007259829454641786
+        },
+        {
+          "expected_hz": 783.9908719634985,
+          "measured_hz": 783.9902932790296,
+          "error_cents": 0.0012778702684544544
+        },
+        {
+          "expected_hz": 880.0,
+          "measured_hz": 880.0004441293603,
+          "error_cents": 0.0008737405418123825
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "root": 440,
+      "step": 6,
+      "sound": "control",
+      "file": "audio/firefox-1440-pyknon-canon-440-step-6-control.wav",
+      "bytes": 414764,
+      "sha256": "25c6d810d64925561f6a1dc59344a10532ad80f4e797e65ff6a469134b218de0",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [880.0],
+          "pcm_reference_hz": [880.0004289135584],
+          "fitted_amplitudes": [0.3199998593217003],
+          "signal_residual_rms": 9.385193134884602e-6
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "root": 220,
+      "step": 6,
+      "sound": "beat",
+      "file": "audio/firefox-375-pyknon-canon-220-step-6-beat.wav",
+      "bytes": 414764,
+      "sha256": "8662de4e8280cb82337fcf05e1b1e7ae4010eb244d3b641366d2cebb6a7aeb83",
+      "duration_seconds": 4.32,
+      "peak": 0.31998657185583057,
+      "measurements": [
+        {
+          "source_hz": [440.0, 446.00303649902344],
+          "pcm_reference_hz": [439.9998323997251, 446.0025240505249],
+          "fitted_amplitudes": [0.159999670008122, 0.1600001564129662],
+          "signal_residual_rms": 1.4839228856867142e-5
+        },
+        {
+          "measured_beats_per_second": 6.002400960384153,
+          "source_frequency_difference_hz": 6.0030364990234375,
+          "error_hz": 0.0006355386392842277,
+          "envelope_maxima": 21
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1480 @@
+{
+  "checkedAt": "2026-10-22T09:46:28.114Z",
+  "scope": "Actual Chromium/Firefox controls and audio scheduling; standalone studies; origin-disabled multipage reloads. Native WAVs measured separately against an independently authored score. No physical speaker or historical-performance claim.",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "landingY": 49.390625,
+      "reviewedSyllables": 29,
+      "accessibility": [
+        "shared syllable reading",
+        "final sign and three pitches",
+        "complete source photograph"
+      ],
+      "nativeLiveTones": [
+        {
+          "hz": 220,
+          "start": 1.1700680272108843,
+          "stops": [1.4784013605442177]
+        },
+        {
+          "hz": 329.6275569128699,
+          "start": 1.5034013605442178,
+          "stops": [2.1450680272108844]
+        },
+        {
+          "hz": 329.6275569128699,
+          "start": 2.1700680272108848,
+          "stops": [3.145068027210885]
+        },
+        {
+          "hz": 277.1826309768721,
+          "start": 3.1700680272108848,
+          "stops": [3.478401360544218]
+        },
+        {
+          "hz": 293.6647679174076,
+          "start": 3.503401360544218,
+          "stops": [3.811734693877551]
+        },
+        {
+          "hz": 329.6275569128699,
+          "start": 3.836734693877551,
+          "stops": [4.145068027210884]
+        },
+        {
+          "hz": 293.6647679174076,
+          "start": 4.170068027210885,
+          "stops": [5.145068027210884]
+        },
+        {
+          "hz": 277.1826309768721,
+          "start": 5.170068027210885,
+          "stops": [5.811734693877551]
+        },
+        {
+          "hz": 293.6647679174076,
+          "start": 5.836734693877551,
+          "stops": [6.145068027210884]
+        },
+        {
+          "hz": 329.6275569128699,
+          "start": 6.170068027210885,
+          "stops": [6.478401360544218]
+        },
+        {
+          "hz": 293.6647679174076,
+          "start": 6.503401360544218,
+          "stops": [6.811734693877551]
+        },
+        {
+          "hz": 277.1826309768721,
+          "start": 6.836734693877551,
+          "stops": [7.145068027210884]
+        },
+        {
+          "hz": 246.94165062806206,
+          "start": 7.170068027210885,
+          "stops": [7.478401360544218]
+        },
+        {
+          "hz": 220,
+          "start": 7.503401360544218,
+          "stops": [8.145068027210884]
+        },
+        {
+          "hz": 246.94165062806206,
+          "start": 8.170068027210885,
+          "stops": [8.478401360544218]
+        },
+        {
+          "hz": 195.99771799087463,
+          "start": 8.503401360544217,
+          "stops": [9.145068027210883]
+        },
+        {
+          "hz": 220,
+          "start": 9.170068027210883,
+          "stops": [9.478401360544217]
+        },
+        {
+          "hz": 277.1826309768721,
+          "start": 9.503401360544215,
+          "stops": [9.811734693877549]
+        },
+        {
+          "hz": 329.6275569128699,
+          "start": 9.836734693877549,
+          "stops": [10.145068027210883]
+        },
+        {
+          "hz": 293.6647679174076,
+          "start": 10.170068027210883,
+          "stops": [10.478401360544217]
+        },
+        {
+          "hz": 277.1826309768721,
+          "start": 10.503401360544215,
+          "stops": [10.811734693877549]
+        },
+        {
+          "hz": 293.6647679174076,
+          "start": 10.836734693877549,
+          "stops": [11.145068027210883]
+        },
+        {
+          "hz": 277.1826309768721,
+          "start": 11.170068027210883,
+          "stops": [11.478401360544217]
+        },
+        {
+          "hz": 220,
+          "start": 11.503401360544215,
+          "stops": [12.145068027210883]
+        },
+        {
+          "hz": 246.94165062806206,
+          "start": 12.170068027210883,
+          "stops": [12.478401360544217]
+        },
+        {
+          "hz": 195.99771799087463,
+          "start": 12.503401360544215,
+          "stops": [13.145068027210883]
+        },
+        {
+          "hz": 220,
+          "start": 13.170068027210883,
+          "stops": [13.478401360544217]
+        },
+        {
+          "hz": 277.1826309768721,
+          "start": 13.503401360544215,
+          "stops": [13.811734693877549]
+        },
+        {
+          "hz": 246.94165062806206,
+          "start": 13.836734693877549,
+          "stops": [14.145068027210883]
+        },
+        {
+          "hz": 293.6647679174076,
+          "start": 14.170068027210883,
+          "stops": [14.478401360544217]
+        },
+        {
+          "hz": 329.6275569128699,
+          "start": 14.503401360544215,
+          "stops": [14.811734693877549]
+        },
+        {
+          "hz": 277.1826309768721,
+          "start": 14.836734693877549,
+          "stops": [15.145068027210883]
+        },
+        {
+          "hz": 220,
+          "start": 15.170068027210883,
+          "stops": [15.478401360544217]
+        },
+        {
+          "hz": 220,
+          "start": 15.503401360544215,
+          "stops": [16.145068027210883]
+        },
+        {
+          "hz": 220,
+          "start": 16.170068027210885,
+          "stops": [16.47840136054422]
+        },
+        {
+          "hz": 184.9972113558172,
+          "start": 16.503401360544217,
+          "stops": [16.81173469387755]
+        },
+        {
+          "hz": 164.81377845643496,
+          "start": 16.83673469387755,
+          "stops": [17.145068027210883]
+        }
+      ],
+      "stopAndResumeCancellation": true,
+      "audioDenialRecovery": true,
+      "offlineBothPages": true,
+      "offlinePhotoHash": "da774306bb3f05873e7126596612e5b623bd9255b0564b36d11bfb1be4826729",
+      "standaloneStudyHash": "d0fe6794f17f1b9b85bfe858788496d914ebc37cc1a27043b1abbb719f7ee781",
+      "pageErrors": [],
+      "externalRequests": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "landingY": 40.34375,
+      "reviewedSyllables": 29,
+      "accessibility": [
+        "shared syllable reading",
+        "final sign and three pitches",
+        "complete source photograph"
+      ],
+      "nativeLiveTones": [
+        {
+          "hz": 220,
+          "start": 1.0191383219954648,
+          "stops": [1.3274716553287982]
+        },
+        {
+          "hz": 329.6275569128699,
+          "start": 1.352471655328798,
+          "stops": [1.9941383219954647]
+        },
+        {
+          "hz": 329.6275569128699,
+          "start": 2.019138321995465,
+          "stops": [2.994138321995465]
+        },
+        {
+          "hz": 277.1826309768721,
+          "start": 3.019138321995465,
+          "stops": [3.327471655328798]
+        },
+        {
+          "hz": 293.6647679174076,
+          "start": 3.352471655328798,
+          "stops": [3.660804988662131]
+        },
+        {
+          "hz": 329.6275569128699,
+          "start": 3.6858049886621314,
+          "stops": [3.9941383219954645]
+        },
+        {
+          "hz": 293.6647679174076,
+          "start": 4.019138321995465,
+          "stops": [4.9941383219954645]
+        },
+        {
+          "hz": 277.1826309768721,
+          "start": 5.019138321995465,
+          "stops": [5.660804988662131]
+        },
+        {
+          "hz": 293.6647679174076,
+          "start": 5.685804988662131,
+          "stops": [5.9941383219954645]
+        },
+        {
+          "hz": 329.6275569128699,
+          "start": 6.019138321995465,
+          "stops": [6.327471655328798]
+        },
+        {
+          "hz": 293.6647679174076,
+          "start": 6.352471655328798,
+          "stops": [6.660804988662131]
+        },
+        {
+          "hz": 277.1826309768721,
+          "start": 6.685804988662131,
+          "stops": [6.9941383219954645]
+        },
+        {
+          "hz": 246.94165062806206,
+          "start": 7.019138321995465,
+          "stops": [7.327471655328798]
+        },
+        {
+          "hz": 220,
+          "start": 7.352471655328798,
+          "stops": [7.9941383219954645]
+        },
+        {
+          "hz": 246.94165062806206,
+          "start": 8.019138321995465,
+          "stops": [8.327471655328798]
+        },
+        {
+          "hz": 195.99771799087463,
+          "start": 8.352471655328799,
+          "stops": [8.994138321995464]
+        },
+        {
+          "hz": 220,
+          "start": 9.019138321995465,
+          "stops": [9.327471655328798]
+        },
+        {
+          "hz": 277.1826309768721,
+          "start": 9.352471655328797,
+          "stops": [9.66080498866213]
+        },
+        {
+          "hz": 329.6275569128699,
+          "start": 9.685804988662131,
+          "stops": [9.994138321995464]
+        },
+        {
+          "hz": 293.6647679174076,
+          "start": 10.019138321995465,
+          "stops": [10.327471655328798]
+        },
+        {
+          "hz": 277.1826309768721,
+          "start": 10.352471655328797,
+          "stops": [10.66080498866213]
+        },
+        {
+          "hz": 293.6647679174076,
+          "start": 10.685804988662131,
+          "stops": [10.994138321995464]
+        },
+        {
+          "hz": 277.1826309768721,
+          "start": 11.019138321995465,
+          "stops": [11.327471655328798]
+        },
+        {
+          "hz": 220,
+          "start": 11.352471655328797,
+          "stops": [11.994138321995464]
+        },
+        {
+          "hz": 246.94165062806206,
+          "start": 12.019138321995465,
+          "stops": [12.327471655328798]
+        },
+        {
+          "hz": 195.99771799087463,
+          "start": 12.352471655328797,
+          "stops": [12.994138321995464]
+        },
+        {
+          "hz": 220,
+          "start": 13.019138321995465,
+          "stops": [13.327471655328798]
+        },
+        {
+          "hz": 277.1826309768721,
+          "start": 13.352471655328797,
+          "stops": [13.66080498866213]
+        },
+        {
+          "hz": 246.94165062806206,
+          "start": 13.685804988662131,
+          "stops": [13.994138321995464]
+        },
+        {
+          "hz": 293.6647679174076,
+          "start": 14.019138321995465,
+          "stops": [14.327471655328798]
+        },
+        {
+          "hz": 329.6275569128699,
+          "start": 14.352471655328797,
+          "stops": [14.66080498866213]
+        },
+        {
+          "hz": 277.1826309768721,
+          "start": 14.685804988662131,
+          "stops": [14.994138321995464]
+        },
+        {
+          "hz": 220,
+          "start": 15.019138321995465,
+          "stops": [15.327471655328798]
+        },
+        {
+          "hz": 220,
+          "start": 15.352471655328797,
+          "stops": [15.994138321995464]
+        },
+        {
+          "hz": 220,
+          "start": 16.019138321995463,
+          "stops": [16.327471655328797]
+        },
+        {
+          "hz": 184.9972113558172,
+          "start": 16.352471655328795,
+          "stops": [16.66080498866213]
+        },
+        {
+          "hz": 164.81377845643496,
+          "start": 16.68580498866213,
+          "stops": [16.994138321995464]
+        }
+      ],
+      "stopAndResumeCancellation": true,
+      "audioDenialRecovery": true,
+      "offlineBothPages": true,
+      "offlinePhotoHash": "da774306bb3f05873e7126596612e5b623bd9255b0564b36d11bfb1be4826729",
+      "standaloneStudyHash": "377dbb59e6a5a04c8bface02750fbb38e7070dcdd082d3d677ef533e6f8ba7ad",
+      "pageErrors": [],
+      "externalRequests": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "landingY": 49,
+      "reviewedSyllables": 29,
+      "accessibility": [
+        "shared syllable reading",
+        "final sign and three pitches",
+        "complete source photograph"
+      ],
+      "nativeLiveTones": [
+        {
+          "hz": 220,
+          "start": 1.161360544217687,
+          "stops": [1.4696938775510204]
+        },
+        {
+          "hz": 329.6275569128699,
+          "start": 1.4946938775510206,
+          "stops": [2.136360544217687]
+        },
+        {
+          "hz": 329.6275569128699,
+          "start": 2.161360544217687,
+          "stops": [3.136360544217687]
+        },
+        {
+          "hz": 277.1826309768721,
+          "start": 3.161360544217687,
+          "stops": [3.46969387755102]
+        },
+        {
+          "hz": 293.6647679174076,
+          "start": 3.49469387755102,
+          "stops": [3.8030272108843532]
+        },
+        {
+          "hz": 329.6275569128699,
+          "start": 3.828027210884354,
+          "stops": [4.136360544217688]
+        },
+        {
+          "hz": 293.6647679174076,
+          "start": 4.161360544217687,
+          "stops": [5.136360544217687]
+        },
+        {
+          "hz": 277.1826309768721,
+          "start": 5.161360544217687,
+          "stops": [5.803027210884354]
+        },
+        {
+          "hz": 293.6647679174076,
+          "start": 5.828027210884353,
+          "stops": [6.136360544217687]
+        },
+        {
+          "hz": 329.6275569128699,
+          "start": 6.161360544217687,
+          "stops": [6.469693877551021]
+        },
+        {
+          "hz": 293.6647679174076,
+          "start": 6.49469387755102,
+          "stops": [6.803027210884354]
+        },
+        {
+          "hz": 277.1826309768721,
+          "start": 6.828027210884353,
+          "stops": [7.136360544217687]
+        },
+        {
+          "hz": 246.94165062806206,
+          "start": 7.161360544217687,
+          "stops": [7.469693877551021]
+        },
+        {
+          "hz": 220,
+          "start": 7.49469387755102,
+          "stops": [8.136360544217688]
+        },
+        {
+          "hz": 246.94165062806206,
+          "start": 8.161360544217688,
+          "stops": [8.469693877551022]
+        },
+        {
+          "hz": 195.99771799087463,
+          "start": 8.49469387755102,
+          "stops": [9.136360544217688]
+        },
+        {
+          "hz": 220,
+          "start": 9.161360544217686,
+          "stops": [9.46969387755102]
+        },
+        {
+          "hz": 277.1826309768721,
+          "start": 9.494693877551018,
+          "stops": [9.803027210884352]
+        },
+        {
+          "hz": 329.6275569128699,
+          "start": 9.828027210884352,
+          "stops": [10.136360544217686]
+        },
+        {
+          "hz": 293.6647679174076,
+          "start": 10.161360544217686,
+          "stops": [10.46969387755102]
+        },
+        {
+          "hz": 277.1826309768721,
+          "start": 10.494693877551018,
+          "stops": [10.803027210884352]
+        },
+        {
+          "hz": 293.6647679174076,
+          "start": 10.828027210884352,
+          "stops": [11.136360544217686]
+        },
+        {
+          "hz": 277.1826309768721,
+          "start": 11.161360544217686,
+          "stops": [11.46969387755102]
+        },
+        {
+          "hz": 220,
+          "start": 11.494693877551018,
+          "stops": [12.136360544217684]
+        },
+        {
+          "hz": 246.94165062806206,
+          "start": 12.161360544217686,
+          "stops": [12.46969387755102]
+        },
+        {
+          "hz": 195.99771799087463,
+          "start": 12.494693877551018,
+          "stops": [13.136360544217684]
+        },
+        {
+          "hz": 220,
+          "start": 13.161360544217686,
+          "stops": [13.46969387755102]
+        },
+        {
+          "hz": 277.1826309768721,
+          "start": 13.494693877551018,
+          "stops": [13.803027210884352]
+        },
+        {
+          "hz": 246.94165062806206,
+          "start": 13.828027210884352,
+          "stops": [14.136360544217686]
+        },
+        {
+          "hz": 293.6647679174076,
+          "start": 14.161360544217686,
+          "stops": [14.46969387755102]
+        },
+        {
+          "hz": 329.6275569128699,
+          "start": 14.494693877551018,
+          "stops": [14.803027210884352]
+        },
+        {
+          "hz": 277.1826309768721,
+          "start": 14.828027210884352,
+          "stops": [15.136360544217686]
+        },
+        {
+          "hz": 220,
+          "start": 15.161360544217686,
+          "stops": [15.46969387755102]
+        },
+        {
+          "hz": 220,
+          "start": 15.494693877551018,
+          "stops": [16.136360544217684]
+        },
+        {
+          "hz": 220,
+          "start": 16.161360544217686,
+          "stops": [16.46969387755102]
+        },
+        {
+          "hz": 184.9972113558172,
+          "start": 16.49469387755102,
+          "stops": [16.803027210884352]
+        },
+        {
+          "hz": 164.81377845643496,
+          "start": 16.828027210884354,
+          "stops": [17.136360544217688]
+        }
+      ],
+      "stopAndResumeCancellation": true,
+      "audioDenialRecovery": true,
+      "offlineBothPages": true,
+      "offlinePhotoHash": "da774306bb3f05873e7126596612e5b623bd9255b0564b36d11bfb1be4826729",
+      "standaloneStudyHash": "d0fe6794f17f1b9b85bfe858788496d914ebc37cc1a27043b1abbb719f7ee781",
+      "pageErrors": [],
+      "externalRequests": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "landingY": 40,
+      "reviewedSyllables": 29,
+      "accessibility": [
+        "shared syllable reading",
+        "final sign and three pitches",
+        "complete source photograph"
+      ],
+      "nativeLiveTones": [
+        {
+          "hz": 220,
+          "start": 1.1468480725623582,
+          "stops": [1.4551814058956916]
+        },
+        {
+          "hz": 329.6275569128699,
+          "start": 1.4801814058956917,
+          "stops": [2.1218480725623583]
+        },
+        {
+          "hz": 329.6275569128699,
+          "start": 2.146848072562358,
+          "stops": [3.1218480725623583]
+        },
+        {
+          "hz": 277.1826309768721,
+          "start": 3.146848072562358,
+          "stops": [3.4551814058956913]
+        },
+        {
+          "hz": 293.6647679174076,
+          "start": 3.4801814058956912,
+          "stops": [3.7885147392290244]
+        },
+        {
+          "hz": 329.6275569128699,
+          "start": 3.813514739229025,
+          "stops": [4.121848072562359]
+        },
+        {
+          "hz": 293.6647679174076,
+          "start": 4.146848072562358,
+          "stops": [5.121848072562358]
+        },
+        {
+          "hz": 277.1826309768721,
+          "start": 5.146848072562358,
+          "stops": [5.788514739229025]
+        },
+        {
+          "hz": 293.6647679174076,
+          "start": 5.813514739229024,
+          "stops": [6.121848072562358]
+        },
+        {
+          "hz": 329.6275569128699,
+          "start": 6.146848072562358,
+          "stops": [6.455181405895692]
+        },
+        {
+          "hz": 293.6647679174076,
+          "start": 6.480181405895691,
+          "stops": [6.788514739229025]
+        },
+        {
+          "hz": 277.1826309768721,
+          "start": 6.813514739229024,
+          "stops": [7.121848072562358]
+        },
+        {
+          "hz": 246.94165062806206,
+          "start": 7.146848072562358,
+          "stops": [7.455181405895692]
+        },
+        {
+          "hz": 220,
+          "start": 7.480181405895691,
+          "stops": [8.121848072562358]
+        },
+        {
+          "hz": 246.94165062806206,
+          "start": 8.146848072562358,
+          "stops": [8.455181405895692]
+        },
+        {
+          "hz": 195.99771799087463,
+          "start": 8.480181405895692,
+          "stops": [9.121848072562358]
+        },
+        {
+          "hz": 220,
+          "start": 9.146848072562358,
+          "stops": [9.455181405895692]
+        },
+        {
+          "hz": 277.1826309768721,
+          "start": 9.48018140589569,
+          "stops": [9.788514739229024]
+        },
+        {
+          "hz": 329.6275569128699,
+          "start": 9.813514739229024,
+          "stops": [10.121848072562358]
+        },
+        {
+          "hz": 293.6647679174076,
+          "start": 10.146848072562358,
+          "stops": [10.455181405895692]
+        },
+        {
+          "hz": 277.1826309768721,
+          "start": 10.48018140589569,
+          "stops": [10.788514739229024]
+        },
+        {
+          "hz": 293.6647679174076,
+          "start": 10.813514739229024,
+          "stops": [11.121848072562358]
+        },
+        {
+          "hz": 277.1826309768721,
+          "start": 11.146848072562358,
+          "stops": [11.455181405895692]
+        },
+        {
+          "hz": 220,
+          "start": 11.48018140589569,
+          "stops": [12.121848072562358]
+        },
+        {
+          "hz": 246.94165062806206,
+          "start": 12.146848072562358,
+          "stops": [12.455181405895692]
+        },
+        {
+          "hz": 195.99771799087463,
+          "start": 12.48018140589569,
+          "stops": [13.121848072562358]
+        },
+        {
+          "hz": 220,
+          "start": 13.146848072562358,
+          "stops": [13.455181405895692]
+        },
+        {
+          "hz": 277.1826309768721,
+          "start": 13.48018140589569,
+          "stops": [13.788514739229024]
+        },
+        {
+          "hz": 246.94165062806206,
+          "start": 13.813514739229024,
+          "stops": [14.121848072562358]
+        },
+        {
+          "hz": 293.6647679174076,
+          "start": 14.146848072562358,
+          "stops": [14.455181405895692]
+        },
+        {
+          "hz": 329.6275569128699,
+          "start": 14.48018140589569,
+          "stops": [14.788514739229024]
+        },
+        {
+          "hz": 277.1826309768721,
+          "start": 14.813514739229024,
+          "stops": [15.121848072562358]
+        },
+        {
+          "hz": 220,
+          "start": 15.146848072562358,
+          "stops": [15.455181405895692]
+        },
+        {
+          "hz": 220,
+          "start": 15.48018140589569,
+          "stops": [16.121848072562358]
+        },
+        {
+          "hz": 220,
+          "start": 16.146848072562356,
+          "stops": [16.45518140589569]
+        },
+        {
+          "hz": 184.9972113558172,
+          "start": 16.48018140589569,
+          "stops": [16.788514739229022]
+        },
+        {
+          "hz": 164.81377845643496,
+          "start": 16.813514739229024,
+          "stops": [17.121848072562358]
+        }
+      ],
+      "stopAndResumeCancellation": true,
+      "audioDenialRecovery": true,
+      "offlineBothPages": true,
+      "offlinePhotoHash": "da774306bb3f05873e7126596612e5b623bd9255b0564b36d11bfb1be4826729",
+      "standaloneStudyHash": "377dbb59e6a5a04c8bface02750fbb38e7070dcdd082d3d677ef533e6f8ba7ad",
+      "pageErrors": [],
+      "externalRequests": []
+    }
+  ],
+  "audio": [
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "verse": 0,
+      "root": 220,
+      "pace": 90,
+      "file": "audio/chromium-1440-seikilos-verse-1-A220-90upm.wav",
+      "sha256": "5c8d74421646741bce3d473430d249929669eb71253cd0f5a0a118ae4a7d90eb"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "verse": 0,
+      "root": 220,
+      "pace": 120,
+      "file": "audio/chromium-1440-seikilos-verse-1-A220-120upm.wav",
+      "sha256": "1cdff5b10c96cdfa1732a66b280615bca87772f4a0a0901c8532674f2c5c49b0"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "verse": 0,
+      "root": 220,
+      "pace": 150,
+      "file": "audio/chromium-1440-seikilos-verse-1-A220-150upm.wav",
+      "sha256": "802ed177b3fad8bb9d9847200da28a31ae74a15d785bb13ec2ac828d5bdf2a14"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "verse": 0,
+      "root": 220,
+      "pace": 180,
+      "file": "audio/chromium-1440-seikilos-verse-1-A220-180upm.wav",
+      "sha256": "88e82b5ae549f126069d52b4661905e346d40db22d669eb3bf94c3a42135471f"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "verse": 0,
+      "root": 440,
+      "pace": 90,
+      "file": "audio/chromium-1440-seikilos-verse-1-A440-90upm.wav",
+      "sha256": "e2d810ff01d95f3a44134a92f27a1efc0e6a55991db41f57d5c6a4d331fdc9d8"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "verse": 0,
+      "root": 440,
+      "pace": 120,
+      "file": "audio/chromium-1440-seikilos-verse-1-A440-120upm.wav",
+      "sha256": "cb3aac72bed6bb56e87e883cce765daf04a4c27572a0ffbd3928b54eb4df9960"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "verse": 0,
+      "root": 440,
+      "pace": 150,
+      "file": "audio/chromium-1440-seikilos-verse-1-A440-150upm.wav",
+      "sha256": "923c01a82c3bc8f465ce239bdd121bce57171802941f840c9a0a7d286711b1be"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "verse": 0,
+      "root": 440,
+      "pace": 180,
+      "file": "audio/chromium-1440-seikilos-verse-1-A440-180upm.wav",
+      "sha256": "5decb46e2f47d08b3a655c39247d995315e476d7430b0cb3788275f9673f974b"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "verse": 1,
+      "root": 220,
+      "pace": 90,
+      "file": "audio/chromium-1440-seikilos-verse-2-A220-90upm.wav",
+      "sha256": "a4a26af54b7ea7feab1c300ff9cc53983f58b1785d5808260768be7b5c6ab694"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "verse": 1,
+      "root": 220,
+      "pace": 120,
+      "file": "audio/chromium-1440-seikilos-verse-2-A220-120upm.wav",
+      "sha256": "cd765ebbbb64d0e87cfc446e451295b10e6b45f2f486ef091e5bccaaca527d8a"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "verse": 1,
+      "root": 220,
+      "pace": 150,
+      "file": "audio/chromium-1440-seikilos-verse-2-A220-150upm.wav",
+      "sha256": "427a0afdb4c4fb1f327b47aeda9c64e06cbf6af2ee731324ef9d7890b3967b0c"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "verse": 1,
+      "root": 220,
+      "pace": 180,
+      "file": "audio/chromium-1440-seikilos-verse-2-A220-180upm.wav",
+      "sha256": "a05b63de2b043e57bae016588f40bbe52dfb5bb9736c1dd4ed9c417f262a673d"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "verse": 1,
+      "root": 440,
+      "pace": 90,
+      "file": "audio/chromium-1440-seikilos-verse-2-A440-90upm.wav",
+      "sha256": "1f6060b6e6789e3a0b0d2c99aeaab0904947c9ddc496320679c1214a0c5ee23a"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "verse": 1,
+      "root": 440,
+      "pace": 120,
+      "file": "audio/chromium-1440-seikilos-verse-2-A440-120upm.wav",
+      "sha256": "a3474cb6df427009ab9dcdd471045779b5ec55d2c8696677c29b55e0abf81fdb"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "verse": 1,
+      "root": 440,
+      "pace": 150,
+      "file": "audio/chromium-1440-seikilos-verse-2-A440-150upm.wav",
+      "sha256": "31aab1fb55492f334c53cd611a73c00e06695c8331dba8b023334359f0bf4cc2"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "verse": 1,
+      "root": 440,
+      "pace": 180,
+      "file": "audio/chromium-1440-seikilos-verse-2-A440-180upm.wav",
+      "sha256": "bf184f872d32cf9c721bd45dfec977f5af1d9ba0e3dd81052e5178d093178211"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "verse": 2,
+      "root": 220,
+      "pace": 90,
+      "file": "audio/chromium-1440-seikilos-verse-3-A220-90upm.wav",
+      "sha256": "7770844536f1bc2f52c85f3c6fcb70ad35e4ebb4d3e2c7156a7b9ef53c78dd47"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "verse": 2,
+      "root": 220,
+      "pace": 120,
+      "file": "audio/chromium-1440-seikilos-verse-3-A220-120upm.wav",
+      "sha256": "452f45c533b180c6a70231d5d9e95aaf1f14b378fd8e1d9345679ca20ad827b8"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "verse": 2,
+      "root": 220,
+      "pace": 150,
+      "file": "audio/chromium-1440-seikilos-verse-3-A220-150upm.wav",
+      "sha256": "83f94741d4d7fb9e46b7829edc0f6ec07b6cb307e88cae491c03c0d429e889fc"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "verse": 2,
+      "root": 220,
+      "pace": 180,
+      "file": "audio/chromium-1440-seikilos-verse-3-A220-180upm.wav",
+      "sha256": "9f78ba5f345c55418dca225b5d79b69092359d6a4422155056b4f28d789f0515"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "verse": 2,
+      "root": 440,
+      "pace": 90,
+      "file": "audio/chromium-1440-seikilos-verse-3-A440-90upm.wav",
+      "sha256": "9866eb6ff4a93ae979c726511191fb2f563ae163aadf626385e8c141ddc7c69f"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "verse": 2,
+      "root": 440,
+      "pace": 120,
+      "file": "audio/chromium-1440-seikilos-verse-3-A440-120upm.wav",
+      "sha256": "e7b98ad26f0a4cc218925e9370394d5ba3ae5090b28ae2200a0175bd1862c4d7"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "verse": 2,
+      "root": 440,
+      "pace": 150,
+      "file": "audio/chromium-1440-seikilos-verse-3-A440-150upm.wav",
+      "sha256": "f4e0affcbe5c5a44a848e49b992e4ed5b76e316755cc824c80d2dd84ceab95ee"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "verse": 2,
+      "root": 440,
+      "pace": 180,
+      "file": "audio/chromium-1440-seikilos-verse-3-A440-180upm.wav",
+      "sha256": "86a2cfa12cedc70834e268d16bcb87954c37c8712f52c0eeb7484e3de9dbf0ac"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "verse": 3,
+      "root": 220,
+      "pace": 90,
+      "file": "audio/chromium-1440-seikilos-verse-4-A220-90upm.wav",
+      "sha256": "b488cfcaac02ea712064a4c4d9a54e5da69922e2f3d43c9923aedf02592e6e27"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "verse": 3,
+      "root": 220,
+      "pace": 120,
+      "file": "audio/chromium-1440-seikilos-verse-4-A220-120upm.wav",
+      "sha256": "3cd0b7343ff1289781a063892f0681d6dde7743df3c0490d33a8ea4ade822820"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "verse": 3,
+      "root": 220,
+      "pace": 150,
+      "file": "audio/chromium-1440-seikilos-verse-4-A220-150upm.wav",
+      "sha256": "9a4a26cefba4702627d93dd167e56c37567dbd2bc2db1600146e39eb079ddd67"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "verse": 3,
+      "root": 220,
+      "pace": 180,
+      "file": "audio/chromium-1440-seikilos-verse-4-A220-180upm.wav",
+      "sha256": "89505658c5f546c0d2dd2c23f9e1a7afde1635f40f8570cfd8cc28bd125fd03e"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "verse": 3,
+      "root": 440,
+      "pace": 90,
+      "file": "audio/chromium-1440-seikilos-verse-4-A440-90upm.wav",
+      "sha256": "3bc64bb9213190c4452fa340d01bc1f5562d64faf79b5b7eaf4a1a209513e976"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "verse": 3,
+      "root": 440,
+      "pace": 120,
+      "file": "audio/chromium-1440-seikilos-verse-4-A440-120upm.wav",
+      "sha256": "304bf3627d2753a8ff8a2e60a1056f3a4950e13dbd96ff7035143c1b6a3b6e53"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "verse": 3,
+      "root": 440,
+      "pace": 150,
+      "file": "audio/chromium-1440-seikilos-verse-4-A440-150upm.wav",
+      "sha256": "cfe86184e2beb6a6328a3716f1e017b4882103dfb6c169a0e5e9e61c26b58e1b"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "verse": 3,
+      "root": 440,
+      "pace": 180,
+      "file": "audio/chromium-1440-seikilos-verse-4-A440-180upm.wav",
+      "sha256": "ca912ade7243a05b884c6de56d26b7e8ffb8872bba6a451a6fd96270575e21de"
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "verse": 0,
+      "root": 220,
+      "pace": 150,
+      "file": "audio/chromium-375-seikilos-verse-1-A220-150upm.wav",
+      "sha256": "802ed177b3fad8bb9d9847200da28a31ae74a15d785bb13ec2ac828d5bdf2a14"
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "verse": 1,
+      "root": 220,
+      "pace": 150,
+      "file": "audio/chromium-375-seikilos-verse-2-A220-150upm.wav",
+      "sha256": "427a0afdb4c4fb1f327b47aeda9c64e06cbf6af2ee731324ef9d7890b3967b0c"
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "verse": 2,
+      "root": 220,
+      "pace": 150,
+      "file": "audio/chromium-375-seikilos-verse-3-A220-150upm.wav",
+      "sha256": "83f94741d4d7fb9e46b7829edc0f6ec07b6cb307e88cae491c03c0d429e889fc"
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "verse": 3,
+      "root": 220,
+      "pace": 150,
+      "file": "audio/chromium-375-seikilos-verse-4-A220-150upm.wav",
+      "sha256": "9a4a26cefba4702627d93dd167e56c37567dbd2bc2db1600146e39eb079ddd67"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "verse": 0,
+      "root": 220,
+      "pace": 90,
+      "file": "audio/firefox-1440-seikilos-verse-1-A220-90upm.wav",
+      "sha256": "5e7c6833c1144183370c5dee5e6c77bc4cfea7f364ce83a76af08fae671987dc"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "verse": 0,
+      "root": 220,
+      "pace": 120,
+      "file": "audio/firefox-1440-seikilos-verse-1-A220-120upm.wav",
+      "sha256": "bac620c5a5815261f6b94bcab811ec03d650c56f887f6c88bd4cb1152778e8d9"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "verse": 0,
+      "root": 220,
+      "pace": 150,
+      "file": "audio/firefox-1440-seikilos-verse-1-A220-150upm.wav",
+      "sha256": "f1b48cc2219f96a61d0bfcc6b9f603d19fef86e91f4b04626aca0f0e4e7cbc7d"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "verse": 0,
+      "root": 220,
+      "pace": 180,
+      "file": "audio/firefox-1440-seikilos-verse-1-A220-180upm.wav",
+      "sha256": "c730df8fa2d5b81ecc5a14d369d0b8a964090db5c82c3812501c165d98a6893c"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "verse": 0,
+      "root": 440,
+      "pace": 90,
+      "file": "audio/firefox-1440-seikilos-verse-1-A440-90upm.wav",
+      "sha256": "cf31bd7643c1d70c2ce0748e6cac951d5ee4caad932f93f3a4eaa8f1153099b2"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "verse": 0,
+      "root": 440,
+      "pace": 120,
+      "file": "audio/firefox-1440-seikilos-verse-1-A440-120upm.wav",
+      "sha256": "3033b4290474c1a294b4475493f9427f670ec529bea008b58183743bd8667aa0"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "verse": 0,
+      "root": 440,
+      "pace": 150,
+      "file": "audio/firefox-1440-seikilos-verse-1-A440-150upm.wav",
+      "sha256": "4af91cf6cda132bf52bac8832d1a89b326e6d1fc2bcf8d4d93113795c60ea135"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "verse": 0,
+      "root": 440,
+      "pace": 180,
+      "file": "audio/firefox-1440-seikilos-verse-1-A440-180upm.wav",
+      "sha256": "01967b57f84d06a9f03c19f7c67ed8b7370dd4cbc241dbe76797d7e44d1543eb"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "verse": 1,
+      "root": 220,
+      "pace": 90,
+      "file": "audio/firefox-1440-seikilos-verse-2-A220-90upm.wav",
+      "sha256": "94d12c9b632b95ba22b9d18a3ed61f24e6b272030661ca95e1b3ec68ffd47861"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "verse": 1,
+      "root": 220,
+      "pace": 120,
+      "file": "audio/firefox-1440-seikilos-verse-2-A220-120upm.wav",
+      "sha256": "f02f844ec796e87f423b227f64023e941d3a332df3bd1f0437d5c895801bf69c"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "verse": 1,
+      "root": 220,
+      "pace": 150,
+      "file": "audio/firefox-1440-seikilos-verse-2-A220-150upm.wav",
+      "sha256": "ac1bc33d581c0110d8a9ab6f801e84528d24163b875e64dcce09edad374a4642"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "verse": 1,
+      "root": 220,
+      "pace": 180,
+      "file": "audio/firefox-1440-seikilos-verse-2-A220-180upm.wav",
+      "sha256": "bddbb4a974e5c787dc24d1c79621b117d97d4b91ca2e03de10ed7b13007ed1f8"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "verse": 1,
+      "root": 440,
+      "pace": 90,
+      "file": "audio/firefox-1440-seikilos-verse-2-A440-90upm.wav",
+      "sha256": "c47a7a76727c873ea63160820ae358d8c4a076f1d048b73a31643a587c3d10bf"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "verse": 1,
+      "root": 440,
+      "pace": 120,
+      "file": "audio/firefox-1440-seikilos-verse-2-A440-120upm.wav",
+      "sha256": "784880f0d6dc1317d5a0decfef8d00dd658bcd6634063af95fd24a4270a65f2d"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "verse": 1,
+      "root": 440,
+      "pace": 150,
+      "file": "audio/firefox-1440-seikilos-verse-2-A440-150upm.wav",
+      "sha256": "592bbd0d31cfed59b3d1c202fc61381226dc917b41f0a02ecbeea2eb87b8894e"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "verse": 1,
+      "root": 440,
+      "pace": 180,
+      "file": "audio/firefox-1440-seikilos-verse-2-A440-180upm.wav",
+      "sha256": "0e7f2e011e542317c81744c74970209126956c3fb900f09c8cafc081f573f5fb"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "verse": 2,
+      "root": 220,
+      "pace": 90,
+      "file": "audio/firefox-1440-seikilos-verse-3-A220-90upm.wav",
+      "sha256": "77712455167903fca1aaa75677556cd51d3f05beb34cc0b349cb4071a0aab1d7"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "verse": 2,
+      "root": 220,
+      "pace": 120,
+      "file": "audio/firefox-1440-seikilos-verse-3-A220-120upm.wav",
+      "sha256": "bdf71893cdd85a2ca1a02569fb333013004790ba2328a45677858c319e75ae8f"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "verse": 2,
+      "root": 220,
+      "pace": 150,
+      "file": "audio/firefox-1440-seikilos-verse-3-A220-150upm.wav",
+      "sha256": "745f05110979989ed2b137580428090bd3a60fd09b0a43ebac7dc511419ac33a"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "verse": 2,
+      "root": 220,
+      "pace": 180,
+      "file": "audio/firefox-1440-seikilos-verse-3-A220-180upm.wav",
+      "sha256": "784f27e9d35a1231e61f901d1a41e36f164721cc6abd60f3e56b17489b875101"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "verse": 2,
+      "root": 440,
+      "pace": 90,
+      "file": "audio/firefox-1440-seikilos-verse-3-A440-90upm.wav",
+      "sha256": "63e034478a1d76e53e3f171ecea15c5d08ba89caa5676aaffe3fbd63a64bb87d"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "verse": 2,
+      "root": 440,
+      "pace": 120,
+      "file": "audio/firefox-1440-seikilos-verse-3-A440-120upm.wav",
+      "sha256": "da8526abdff3e7b1d8b3d4872db974de4579b5358864f4d18452f9f2b2713273"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "verse": 2,
+      "root": 440,
+      "pace": 150,
+      "file": "audio/firefox-1440-seikilos-verse-3-A440-150upm.wav",
+      "sha256": "94a242b2ce68e070b35c65e2b9a15b043e777605280b0492b0f8fbd55fe09fac"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "verse": 2,
+      "root": 440,
+      "pace": 180,
+      "file": "audio/firefox-1440-seikilos-verse-3-A440-180upm.wav",
+      "sha256": "08abc67eb3f1823bd9e08e4d84e65f032a4a635ea25558a633238ca5020338f4"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "verse": 3,
+      "root": 220,
+      "pace": 90,
+      "file": "audio/firefox-1440-seikilos-verse-4-A220-90upm.wav",
+      "sha256": "93f79750e07a0c8635f6c87386b8782f32cb8402b5a0741b43c2551bb339827e"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "verse": 3,
+      "root": 220,
+      "pace": 120,
+      "file": "audio/firefox-1440-seikilos-verse-4-A220-120upm.wav",
+      "sha256": "bdf160e8b145477808fcefcf15dc5ce298831fedd3b3313be64c45ed9fab2b4e"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "verse": 3,
+      "root": 220,
+      "pace": 150,
+      "file": "audio/firefox-1440-seikilos-verse-4-A220-150upm.wav",
+      "sha256": "4899702b8ca883f128948d5b4f46f284bf9a334a78d9773376cb265b5d656493"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "verse": 3,
+      "root": 220,
+      "pace": 180,
+      "file": "audio/firefox-1440-seikilos-verse-4-A220-180upm.wav",
+      "sha256": "9cfc4d8ae0ced941afa46f03804ade3e775bd342ca75f570400a05e55ebdd0b9"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "verse": 3,
+      "root": 440,
+      "pace": 90,
+      "file": "audio/firefox-1440-seikilos-verse-4-A440-90upm.wav",
+      "sha256": "b75b125ca5b4b62c3d606dfa48397cb619918eefe31162161b23a43b509ac719"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "verse": 3,
+      "root": 440,
+      "pace": 120,
+      "file": "audio/firefox-1440-seikilos-verse-4-A440-120upm.wav",
+      "sha256": "5dae1212da2b14c9650909ac4df5f4ee6fd7192a9eb58de07c21507963c55ab7"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "verse": 3,
+      "root": 440,
+      "pace": 150,
+      "file": "audio/firefox-1440-seikilos-verse-4-A440-150upm.wav",
+      "sha256": "ed396aa11e69cb04270cc2085cdade8e2c3d1c1f038d7bffcf093e0a365a4902"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "verse": 3,
+      "root": 440,
+      "pace": 180,
+      "file": "audio/firefox-1440-seikilos-verse-4-A440-180upm.wav",
+      "sha256": "25ad34f96b8f2c634dd5de7b6777a08a775cbda23d13157ab164229ff50f6aae"
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "verse": 0,
+      "root": 220,
+      "pace": 150,
+      "file": "audio/firefox-375-seikilos-verse-1-A220-150upm.wav",
+      "sha256": "f1b48cc2219f96a61d0bfcc6b9f603d19fef86e91f4b04626aca0f0e4e7cbc7d"
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "verse": 1,
+      "root": 220,
+      "pace": 150,
+      "file": "audio/firefox-375-seikilos-verse-2-A220-150upm.wav",
+      "sha256": "ac1bc33d581c0110d8a9ab6f801e84528d24163b875e64dcce09edad374a4642"
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "verse": 2,
+      "root": 220,
+      "pace": 150,
+      "file": "audio/firefox-375-seikilos-verse-3-A220-150upm.wav",
+      "sha256": "745f05110979989ed2b137580428090bd3a60fd09b0a43ebac7dc511419ac33a"
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "verse": 3,
+      "root": 220,
+      "pace": 150,
+      "file": "audio/firefox-375-seikilos-verse-4-A220-150upm.wav",
+      "sha256": "4899702b8ca883f128948d5b4f46f284bf9a334a78d9773376cb265b5d656493"
+    }
+  ]
+}

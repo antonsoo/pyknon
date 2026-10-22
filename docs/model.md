@@ -104,6 +104,41 @@ only; its filename records genus, reference pitch, direction and group order.
 
 The build hashes every production input into an edition ID. The service worker
 saves the full edition with SHA-256 integrity on each asset, including fonts and
-all three source scans. The interface declares offline readiness only after asking
+all bundled source scans. The interface declares offline readiness only after asking
 the active worker to verify this edition's complete cache. Cache eviction is
 still controlled by the browser; a saved HTML/WAV is a separate durable file.
+
+## Six tones and an octave
+
+`src/core/canon.ts` holds the separate _Sectio canonis_ comparison. It uses
+9:8 whole tones, without changing Archytas's tetrachords or applying this
+progression to the Seikilos song. Seven exact ratios start at 1 and multiply
+by 9/8 six times. The printed progression starts at 8^6 = 262144; its
+nth integer is `9^n × 8^(6-n)`. All integers and reduced fractions here
+are exactly representable within JavaScript's safe integer range.
+
+The modern comparison uses `root × 2^(n/6)`, at `200n` cents. Its sixth
+step reaches `2 × root`. The other reaches `531441/262144 × root`,
+leaving relative ratio `531441/524288`. This is 23.460010384649 cents,
+independent of modern root. Frequency difference, and hence the generated
+pair's amplitude beat rate, scales with root instead.
+
+Source numbers are realized as proportional frequencies. Unlike the
+Ptolemy room's inverse source numbers, they are an increasing numerical
+progression of ratios. Α–Η identify the proof's numbers. The exact final
+inequality is `531441 > 2 × 262144`; floating-point cents are unnecessary
+to establish it.
+
+Successive-pair audio uses two 1.6-second tones; together/control uses
+two four-second tones beginning at the same instant. The control changes
+only the second frequency to match the first; both use the same sine phase,
+amplitude and gain envelope. Walking plays steps zero through the selection
+in each route, first 9:8 then equal. All modes use the existing live/PCM
+scheduler and cancellation logic, and every sound is finite.
+
+Query parameters `n`, `a`, `sound`, `p` and `page` retain the selected
+interval count, modern reference, audio mode, proof sentence and source
+page. Settings and export operations snapshot these values. All three
+rooms and all their fonts and source pages join one integrity-checked
+offline edition. The saved octave HTML embeds six unchanged JPEG scans
+and the Greek font; the separate PCM export captures the chosen sound.

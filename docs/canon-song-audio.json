@@ -1,0 +1,519 @@
+{
+  "source": "Chinasaur's public-domain LilyPond score, independently parsed; pitches and durations cross-checked visually with D'Angour's transcription",
+  "reference_sha256": "7dfdd71bf817ae7ea6d4c226ce4090455cd19bf6509bb9c362efc6e39f98d187",
+  "notes": 37,
+  "syllables": 29,
+  "short_units": 48,
+  "audio": {
+    "files": 72,
+    "measured_tones": 666,
+    "maximum_error_cents": 0.004897747156601584,
+    "tolerance_cents": 0.02,
+    "results": [
+      {
+        "file": "audio/chromium-1440-seikilos-verse-1-A220-90upm.wav",
+        "tones": 7,
+        "duration_seconds": 8.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.0002517934030067931
+      },
+      {
+        "file": "audio/chromium-1440-seikilos-verse-1-A220-120upm.wav",
+        "tones": 7,
+        "duration_seconds": 6.295020833333333,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.00023382717303166333
+      },
+      {
+        "file": "audio/chromium-1440-seikilos-verse-1-A220-150upm.wav",
+        "tones": 7,
+        "duration_seconds": 5.095020833333334,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.00028772586120992956
+      },
+      {
+        "file": "audio/chromium-1440-seikilos-verse-1-A220-180upm.wav",
+        "tones": 7,
+        "duration_seconds": 4.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.000928887286698515
+      },
+      {
+        "file": "audio/chromium-1440-seikilos-verse-1-A440-90upm.wav",
+        "tones": 7,
+        "duration_seconds": 8.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.00023885677846609144
+      },
+      {
+        "file": "audio/chromium-1440-seikilos-verse-1-A440-120upm.wav",
+        "tones": 7,
+        "duration_seconds": 6.295020833333333,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.00022904074692558263
+      },
+      {
+        "file": "audio/chromium-1440-seikilos-verse-1-A440-150upm.wav",
+        "tones": 7,
+        "duration_seconds": 5.095020833333334,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.0003278426281884186
+      },
+      {
+        "file": "audio/chromium-1440-seikilos-verse-1-A440-180upm.wav",
+        "tones": 7,
+        "duration_seconds": 4.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.000588961860166885
+      },
+      {
+        "file": "audio/chromium-1440-seikilos-verse-2-A220-90upm.wav",
+        "tones": 9,
+        "duration_seconds": 8.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.0002517934030067931
+      },
+      {
+        "file": "audio/chromium-1440-seikilos-verse-2-A220-120upm.wav",
+        "tones": 9,
+        "duration_seconds": 6.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.0003114573430815853
+      },
+      {
+        "file": "audio/chromium-1440-seikilos-verse-2-A220-150upm.wav",
+        "tones": 9,
+        "duration_seconds": 5.095020833333334,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.00042246501004041106
+      },
+      {
+        "file": "audio/chromium-1440-seikilos-verse-2-A220-180upm.wav",
+        "tones": 9,
+        "duration_seconds": 4.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.00045164849073348046
+      },
+      {
+        "file": "audio/chromium-1440-seikilos-verse-2-A440-90upm.wav",
+        "tones": 9,
+        "duration_seconds": 8.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.00017430222527470868
+      },
+      {
+        "file": "audio/chromium-1440-seikilos-verse-2-A440-120upm.wav",
+        "tones": 9,
+        "duration_seconds": 6.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.0002877258615943408
+      },
+      {
+        "file": "audio/chromium-1440-seikilos-verse-2-A440-150upm.wav",
+        "tones": 9,
+        "duration_seconds": 5.095020833333334,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.00014903305564436506
+      },
+      {
+        "file": "audio/chromium-1440-seikilos-verse-2-A440-180upm.wav",
+        "tones": 9,
+        "duration_seconds": 4.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.0002959489247429938
+      },
+      {
+        "file": "audio/chromium-1440-seikilos-verse-3-A220-90upm.wav",
+        "tones": 10,
+        "duration_seconds": 8.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.0002517934030067931
+      },
+      {
+        "file": "audio/chromium-1440-seikilos-verse-3-A220-120upm.wav",
+        "tones": 10,
+        "duration_seconds": 6.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.00028419920562218265
+      },
+      {
+        "file": "audio/chromium-1440-seikilos-verse-3-A220-150upm.wav",
+        "tones": 10,
+        "duration_seconds": 5.095020833333334,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.00042246501004041106
+      },
+      {
+        "file": "audio/chromium-1440-seikilos-verse-3-A220-180upm.wav",
+        "tones": 10,
+        "duration_seconds": 4.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.000928887286698515
+      },
+      {
+        "file": "audio/chromium-1440-seikilos-verse-3-A440-90upm.wav",
+        "tones": 10,
+        "duration_seconds": 8.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.00023885677846609144
+      },
+      {
+        "file": "audio/chromium-1440-seikilos-verse-3-A440-120upm.wav",
+        "tones": 10,
+        "duration_seconds": 6.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.0002877258615943408
+      },
+      {
+        "file": "audio/chromium-1440-seikilos-verse-3-A440-150upm.wav",
+        "tones": 10,
+        "duration_seconds": 5.095020833333334,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.0003278426281884186
+      },
+      {
+        "file": "audio/chromium-1440-seikilos-verse-3-A440-180upm.wav",
+        "tones": 10,
+        "duration_seconds": 4.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.000588961860166885
+      },
+      {
+        "file": "audio/chromium-1440-seikilos-verse-4-A220-90upm.wav",
+        "tones": 11,
+        "duration_seconds": 8.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.0002517934030067931
+      },
+      {
+        "file": "audio/chromium-1440-seikilos-verse-4-A220-120upm.wav",
+        "tones": 11,
+        "duration_seconds": 6.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.000588961860166885
+      },
+      {
+        "file": "audio/chromium-1440-seikilos-verse-4-A220-150upm.wav",
+        "tones": 11,
+        "duration_seconds": 5.095020833333334,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.0004772320455566933
+      },
+      {
+        "file": "audio/chromium-1440-seikilos-verse-4-A220-180upm.wav",
+        "tones": 11,
+        "duration_seconds": 4.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.0009775965848739768
+      },
+      {
+        "file": "audio/chromium-1440-seikilos-verse-4-A440-90upm.wav",
+        "tones": 11,
+        "duration_seconds": 8.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.00023885677846609144
+      },
+      {
+        "file": "audio/chromium-1440-seikilos-verse-4-A440-120upm.wav",
+        "tones": 11,
+        "duration_seconds": 6.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.0002877258615943408
+      },
+      {
+        "file": "audio/chromium-1440-seikilos-verse-4-A440-150upm.wav",
+        "tones": 11,
+        "duration_seconds": 5.095020833333334,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.0003278426281884186
+      },
+      {
+        "file": "audio/chromium-1440-seikilos-verse-4-A440-180upm.wav",
+        "tones": 11,
+        "duration_seconds": 4.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.000588961860166885
+      },
+      {
+        "file": "audio/chromium-375-seikilos-verse-1-A220-150upm.wav",
+        "tones": 7,
+        "duration_seconds": 5.095020833333334,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.00028772586120992956
+      },
+      {
+        "file": "audio/chromium-375-seikilos-verse-2-A220-150upm.wav",
+        "tones": 9,
+        "duration_seconds": 5.095020833333334,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.00042246501004041106
+      },
+      {
+        "file": "audio/chromium-375-seikilos-verse-3-A220-150upm.wav",
+        "tones": 10,
+        "duration_seconds": 5.095020833333334,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.00042246501004041106
+      },
+      {
+        "file": "audio/chromium-375-seikilos-verse-4-A220-150upm.wav",
+        "tones": 11,
+        "duration_seconds": 5.095020833333334,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.0004772320455566933
+      },
+      {
+        "file": "audio/firefox-1440-seikilos-verse-1-A220-90upm.wav",
+        "tones": 7,
+        "duration_seconds": 8.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.003304053542524443
+      },
+      {
+        "file": "audio/firefox-1440-seikilos-verse-1-A220-120upm.wav",
+        "tones": 7,
+        "duration_seconds": 6.295020833333333,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.003668368079899289
+      },
+      {
+        "file": "audio/firefox-1440-seikilos-verse-1-A220-150upm.wav",
+        "tones": 7,
+        "duration_seconds": 5.095020833333334,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.003503116509089804
+      },
+      {
+        "file": "audio/firefox-1440-seikilos-verse-1-A220-180upm.wav",
+        "tones": 7,
+        "duration_seconds": 4.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.0036174638571668896
+      },
+      {
+        "file": "audio/firefox-1440-seikilos-verse-1-A440-90upm.wav",
+        "tones": 7,
+        "duration_seconds": 8.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.0015224226535124747
+      },
+      {
+        "file": "audio/firefox-1440-seikilos-verse-1-A440-120upm.wav",
+        "tones": 7,
+        "duration_seconds": 6.295020833333333,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.0014315754282552932
+      },
+      {
+        "file": "audio/firefox-1440-seikilos-verse-1-A440-150upm.wav",
+        "tones": 7,
+        "duration_seconds": 5.095020833333334,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.0015311842598503475
+      },
+      {
+        "file": "audio/firefox-1440-seikilos-verse-1-A440-180upm.wav",
+        "tones": 7,
+        "duration_seconds": 4.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.0014315754282552932
+      },
+      {
+        "file": "audio/firefox-1440-seikilos-verse-2-A220-90upm.wav",
+        "tones": 9,
+        "duration_seconds": 8.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.003304053542524443
+      },
+      {
+        "file": "audio/firefox-1440-seikilos-verse-2-A220-120upm.wav",
+        "tones": 9,
+        "duration_seconds": 6.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.0036683680783616405
+      },
+      {
+        "file": "audio/firefox-1440-seikilos-verse-2-A220-150upm.wav",
+        "tones": 9,
+        "duration_seconds": 5.095020833333334,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.003503116509089804
+      },
+      {
+        "file": "audio/firefox-1440-seikilos-verse-2-A220-180upm.wav",
+        "tones": 9,
+        "duration_seconds": 4.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.0036174638571668896
+      },
+      {
+        "file": "audio/firefox-1440-seikilos-verse-2-A440-90upm.wav",
+        "tones": 9,
+        "duration_seconds": 8.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.002567997825827343
+      },
+      {
+        "file": "audio/firefox-1440-seikilos-verse-2-A440-120upm.wav",
+        "tones": 9,
+        "duration_seconds": 6.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.0026053929254344775
+      },
+      {
+        "file": "audio/firefox-1440-seikilos-verse-2-A440-150upm.wav",
+        "tones": 9,
+        "duration_seconds": 5.095020833333334,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.0024506715493656144
+      },
+      {
+        "file": "audio/firefox-1440-seikilos-verse-2-A440-180upm.wav",
+        "tones": 9,
+        "duration_seconds": 4.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.002636650303461274
+      },
+      {
+        "file": "audio/firefox-1440-seikilos-verse-3-A220-90upm.wav",
+        "tones": 10,
+        "duration_seconds": 8.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.003304053542524443
+      },
+      {
+        "file": "audio/firefox-1440-seikilos-verse-3-A220-120upm.wav",
+        "tones": 10,
+        "duration_seconds": 6.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.003668368079899289
+      },
+      {
+        "file": "audio/firefox-1440-seikilos-verse-3-A220-150upm.wav",
+        "tones": 10,
+        "duration_seconds": 5.095020833333334,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.0035031165108196575
+      },
+      {
+        "file": "audio/firefox-1440-seikilos-verse-3-A220-180upm.wav",
+        "tones": 10,
+        "duration_seconds": 4.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.0036174638588967437
+      },
+      {
+        "file": "audio/firefox-1440-seikilos-verse-3-A440-90upm.wav",
+        "tones": 10,
+        "duration_seconds": 8.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.002567997825827343
+      },
+      {
+        "file": "audio/firefox-1440-seikilos-verse-3-A440-120upm.wav",
+        "tones": 10,
+        "duration_seconds": 6.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.0026053929254344775
+      },
+      {
+        "file": "audio/firefox-1440-seikilos-verse-3-A440-150upm.wav",
+        "tones": 10,
+        "duration_seconds": 5.095020833333334,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.0024506715493656144
+      },
+      {
+        "file": "audio/firefox-1440-seikilos-verse-3-A440-180upm.wav",
+        "tones": 10,
+        "duration_seconds": 4.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.002636650303461274
+      },
+      {
+        "file": "audio/firefox-1440-seikilos-verse-4-A220-90upm.wav",
+        "tones": 11,
+        "duration_seconds": 8.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.004141524409173971
+      },
+      {
+        "file": "audio/firefox-1440-seikilos-verse-4-A220-120upm.wav",
+        "tones": 11,
+        "duration_seconds": 6.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.00407527166848162
+      },
+      {
+        "file": "audio/firefox-1440-seikilos-verse-4-A220-150upm.wav",
+        "tones": 11,
+        "duration_seconds": 5.095020833333334,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.004526421338685092
+      },
+      {
+        "file": "audio/firefox-1440-seikilos-verse-4-A220-180upm.wav",
+        "tones": 11,
+        "duration_seconds": 4.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.004897747156601584
+      },
+      {
+        "file": "audio/firefox-1440-seikilos-verse-4-A440-90upm.wav",
+        "tones": 11,
+        "duration_seconds": 8.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.002823626591002114
+      },
+      {
+        "file": "audio/firefox-1440-seikilos-verse-4-A440-120upm.wav",
+        "tones": 11,
+        "duration_seconds": 6.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.0027253121809686534
+      },
+      {
+        "file": "audio/firefox-1440-seikilos-verse-4-A440-150upm.wav",
+        "tones": 11,
+        "duration_seconds": 5.095020833333334,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.0029696936979963346
+      },
+      {
+        "file": "audio/firefox-1440-seikilos-verse-4-A440-180upm.wav",
+        "tones": 11,
+        "duration_seconds": 4.295,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.002430368930357264
+      },
+      {
+        "file": "audio/firefox-375-seikilos-verse-1-A220-150upm.wav",
+        "tones": 7,
+        "duration_seconds": 5.095020833333334,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.003503116509089804
+      },
+      {
+        "file": "audio/firefox-375-seikilos-verse-2-A220-150upm.wav",
+        "tones": 9,
+        "duration_seconds": 5.095020833333334,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.003503116509089804
+      },
+      {
+        "file": "audio/firefox-375-seikilos-verse-3-A220-150upm.wav",
+        "tones": 10,
+        "duration_seconds": 5.095020833333334,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.0035031165108196575
+      },
+      {
+        "file": "audio/firefox-375-seikilos-verse-4-A220-150upm.wav",
+        "tones": 11,
+        "duration_seconds": 5.095020833333334,
+        "peak": 0.16000854518265328,
+        "maximum_error_cents": 0.004526421338685092
+      }
+    ]
+  }
+}

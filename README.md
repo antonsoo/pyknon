@@ -59,6 +59,38 @@ The duration reading follows Armand D'Angour's modern transcription. Monro's
 1894 correction supplies evidence for the final pitch sign, with its different
 rhythm explicitly identified. [Sources and image licenses](THIRD_PARTY.md).
 
+## Can six whole tones fill an octave?
+
+The new **Six tones** room follows a numerical proof in the _Sectio canonis_,
+transmitted under Euclid's name. Six 9:8 tones reach 1223.460 cents. Six modern
+200-cent steps reach exactly 1200. The small difference is audible.
+
+Run the app locally and open `canon.html?n=6&a=220&sound=beat#canon`.
+Select a step from zero to six. Both pitch routes, the enlarged detail,
+frequencies and original integer progression stay connected. Hear each pair
+successively, sound it together, climb both routes, or compare the beating
+with two identical tones. At the 220 Hz reference, the final pair is
+440 Hz and 446.003 Hz.
+
+Read the complete short proof in Greek, Menge's Latin and a new English
+translation. Four word notes explain its musical ratios and comparisons.
+Six complete 1916 edition pages cover the integer proof and its musical
+premises; the source numbers were checked visually against the print.
+Save the selected sound as WAV, the numbers as CSV, or an illustrated HTML
+reading with all source pages and the Greek font embedded.
+
+[Saved illustrated reading](examples/canon-six-tones-reading.html) ·
+[Ten-page printable PDF](examples/canon-six-tones-reading.pdf) ·
+[Beating pair](examples/canon-220-beating.wav) ·
+[Identical-tone control](examples/canon-220-control.wav).
+
+![Six ancient tones compared with six equal octave divisions](docs/assets/canon-1440.png)
+
+This is a modern listening realization of a ratio proof. Equal octave
+divisions, cents and acoustic beating are explanatory comparisons, without
+a claim about ancient performance. The [source and design decisions](docs/canon-design.md)
+and [review record](docs/canon-review.md) describe the boundaries and evidence.
+
 ## Run locally
 
 Requires Node.js 24 or later. Python 3 is used only for independent verification.
@@ -147,9 +179,14 @@ python3 scripts/audio-oracle.py /tmp/pyknon-review/browser.json
 npm run verify:song
 npm run test:song -- /tmp/pyknon-song-review/browser.json
 python3 scripts/song-oracle.py /tmp/pyknon-song-review/browser.json
+npm run verify:canon
+npm run test:canon -- /tmp/pyknon-canon-review/browser.json
+python3 -m pip install -r scripts/requirements-audio.txt
+python3 scripts/canon-audio-oracle.py /tmp/pyknon-canon-review/browser.json
 ```
 
-The browser script serves the existing build itself. Do not rebuild `dist`
+The browser scripts serve the existing build themselves. NumPy is used only
+by the new simultaneous-tone signal checker; the site has no runtime dependency. Do not rebuild `dist`
 during the run. Its screenshots should be inspected, not treated as proof
 merely because a file was produced.
 
