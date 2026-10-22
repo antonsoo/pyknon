@@ -15,6 +15,7 @@ import {
   type Tone,
 } from "./core/tetrachord";
 import { phoneRuler, ruler } from "./drawing";
+import { offline } from "./offline";
 import { study } from "./study";
 
 let state = readState(location.search);
@@ -22,9 +23,9 @@ const player = new Player();
 const app = get<HTMLDivElement>("#app");
 app.innerHTML = `
 <a href="#listen" class="skip">Skip to listening workbench</a>
-<header class="site-header"><a href="#" class="brand" aria-label="Pyknon home">PYKNON<span lang="grc">πυκνόν</span></a><nav aria-label="Main"><a href="#listen">Listen</a><a href="#source">Read the source</a><a href="https://github.com/antonsoo/pyknon">Code ↗</a></nav></header>
+<header class="site-header"><a href="#" class="brand" aria-label="Pyknon home">PYKNON<span lang="grc">πυκνόν</span></a><nav aria-label="Main"><a href="#listen">Tetrachords</a><a href="./song.html">Read a song</a><a href="#source">Read the source</a><a href="https://github.com/antonsoo/pyknon">Code ↗</a></nav></header>
 <main>
-<section class="intro" aria-labelledby="intro-title"><div><p class="eyebrow">ANCIENT GREEK MUSIC / A LISTENING EXPERIMENT</p><h1 id="intro-title">Two ancient notes.<br>One piano key.</h1></div><div class="intro-copy"><p>A tiny interval can carry a big idea. Hear the four-note divisions attributed to <strong>Archytas</strong>—then hear what happens when their pitches are rounded to modern keys.</p><p class="quiet">Four notes span a fourth. Three intervals separate them. Change one inner note and a different musical genus emerges.</p><a class="text-link" href="#listen">Open the listening workbench ↓</a></div></section>
+<section class="intro" aria-labelledby="intro-title"><div><p class="eyebrow">ANCIENT GREEK MUSIC / A LISTENING EXPERIMENT</p><h1 id="intro-title">Two ancient notes.<br>One piano key.</h1></div><div class="intro-copy"><p>A tiny interval can carry a big idea. Hear the four-note divisions attributed to <strong>Archytas</strong>—then hear what happens when their pitches are rounded to modern keys.</p><p class="quiet">Four notes span a fourth. Three intervals separate them. Change one inner note and a different musical genus emerges.</p><a class="text-link" href="#listen">Open the listening workbench ↓</a></div><p class="song-invitation"><a href="./song.html">Read the Seikilos song</a> — follow Greek syllables and pitch signs on a surviving inscription.</p></section>
 <section id="listen" class="workbench" aria-labelledby="listen-title"><div class="section-heading"><div><p class="eyebrow">01 / LISTEN CLOSELY</p><h2 id="listen-title" tabindex="-1">A fourth, closely heard.</h2></div><p class="section-aside">Archytas’s three divisions<br>reported by Ptolemy, <i>Harmonics</i> I.13</p></div>
 <div class="genus-switch" role="group" aria-label="Tetrachord genus">${GENERA.map((g, i) => `<button type="button" data-genus="${g.id}" aria-pressed="false"><span class="genus-number">0${i + 1}</span><span><strong>${g.name}</strong><span lang="grc">${g.greek}</span></span><span class="chosen" aria-hidden="true">●</span></button>`).join("")}</div>
 <div class="settings"><p id="genus-description"></p><div class="selects"><label>Starting pitch<select id="root"><option value="110">A2 · 110 Hz</option><option value="220">A3 · 220 Hz</option><option value="440">A4 · 440 Hz</option></select></label><label>Direction<select id="direction"><option value="up">Low → high</option><option value="down">High → low</option></select></label></div></div>
@@ -231,32 +232,4 @@ get("#share").addEventListener("click", async () => {
 window.matchMedia("(max-width: 620px)").addEventListener("change", () => update(false));
 update(false);
 word(0);
-async function offline() {
-  if (!import.meta.env.PROD || !("serviceWorker" in navigator)) {
-    get("#offline-status").textContent = "Offline saving is available in the published build.";
-    return;
-  }
-  try {
-    await navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`);
-    const registration = await navigator.serviceWorker.ready;
-    const channel = new MessageChannel();
-    const response = new Promise<{ edition: string; complete: boolean }>((resolve, reject) => {
-      const timer = setTimeout(() => reject(new Error("timeout")), 8000);
-      channel.port1.onmessage = (event) => {
-        clearTimeout(timer);
-        channel.port1.close();
-        resolve(event.data);
-      };
-    });
-    registration.active?.postMessage({ type: "PYKNON_INSPECT" }, [channel.port2]);
-    const saved = await response;
-    get("#offline-status").textContent =
-      saved.edition === __PYKNON_EDITION__ && saved.complete
-        ? "Ready offline · audio, diagrams & source scans saved."
-        : "Offline edition is updating. Reload online to finish.";
-  } catch {
-    get("#offline-status").textContent =
-      "Offline saving was unavailable. Keep this tab open or save a study.";
-  }
-}
-void offline();
+void offline(get("#offline-status"));

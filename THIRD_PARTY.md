@@ -3,6 +3,79 @@
 Pyknon's code, original diagrams and new English explanations are MIT licensed.
 The following material retains its own provenance and terms.
 
+## Seikilos song and photographs
+
+The song reader uses the ancient, public-domain inscription on National Museum
+of Denmark object **14897**, from Tralles (near modern Aydın, Turkey). Greek text
+is normalized with accents, word divisions and four verse lines; the photograph
+has six physical song lines. Our English translations, glosses, typeset pitch
+signs and diagrams are new. The romanization is an unaccented reading aid, not
+a phonetic transcription. The selected syllable boxes were located by visual
+inspection of the photograph; they are teaching annotations, not a new epigraphic
+edition or inferred OCR output.
+
+The following files are the **unchanged JPEG downloads** provided by the museum,
+retrieved 2026-10-21. Credit and license links accompany the images in the app
+and in saved readings. The app adds a viewport and a yellow selection rectangle;
+those annotated presentations retain CC BY-SA 4.0. The underlying photograph is
+embedded byte-for-byte in saved HTML. The stele image is cropped by CSS for its
+introductory display; opening it shows the complete downloaded image.
+
+| Bundled file, under `public/sources/seikilos/` | Photographer                    | Museum record                                          | License                                                         |
+| ---------------------------------------------- | ------------------------------- | ------------------------------------------------------ | --------------------------------------------------------------- |
+| `inscription.jpg`                              | Lennart Larsen / Nationalmuseet | [AS-10006](https://samlinger.natmus.dk/as/asset/10006) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| `stele.jpg`                                    | John Lee / Nationalmuseet       | [AS-28501](https://samlinger.natmus.dk/as/asset/28501) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+
+These two records explicitly offer CC BY-SA; other photographs of the same
+object in the museum use different licenses and are not bundled here.
+
+### Pitch, duration and language reading
+
+- Armand D'Angour, [“The Song of Seikilos: a Musically Notated Ancient Greek
+  Poem”](https://antigonejournal.com/2021/12/song-of-seikilos/) (7 December 2021),
+  especially its Greek notation and modern stave transcription. The app's
+  factual pitch/duration sequence follows this transcription, visually checked
+  against the museum image. We do not redistribute D'Angour's figures, English
+  verse translation or recordings. We do not adopt his conjectures about the
+  dedication or Seikilos's identity as established facts.
+- D. B. Monro, _The Modes of Ancient Greek Music_ (Oxford: Clarendon Press,
+  1894), [addendum, p. 145](https://www.gutenberg.org/files/40288/40288-h/40288-h.htm#Page_145).
+  The public-domain illustrations `monro-ending.jpg` and
+  `monro-correction.jpg` reproduce the corrected final sign and stave line.
+  Retrieved from the digitization's `images/p_145a.jpg` and `images/p_145b.jpg`,
+  without alteration. Digitization credited to Linda Cantoni, Paul Marshall,
+  Bryan Ness and the Online Distributed Proofreading Team. Only the 1894 images
+  are redistributed; no branded ebook wrapper is included. Monro's rhythmic
+  reading differs from the modern one used in playback; his correction is
+  evidence for the final **pitch sign**, not our duration oracle.
+- Chinasaur, [public-domain LilyPond transcription](https://commons.wikimedia.org/wiki/File:Seikilos_score.png)
+  (2005). `tests/fixtures/seikilos-reference.ly` retains the posted score code,
+  with attribution comments added. This is a separately authored control for
+  pitch, duration and multi-note syllable grouping. The checker interprets its
+  native relative-note and duration notation; it does not use the app's sign
+  mapping. Agreement is also checked against D'Angour's scholarly transcription;
+  this contributor's score is not used to establish historical context.
+- [PHI, Tralles 150 / ITralles 219](https://epigraphy.packhum.org/text/263000)
+  supplies an additional check of the text, physical line breaks and reference
+  bibliography. Its compressed text-only musical transcription omits the final
+  reversed gamma; that rendering is not used as the pitch oracle.
+
+The realization uses modern equal temperament and starting A = 220 or 440 Hz.
+Durations are counted in short units, with a selectable pace. There are no
+invented rests, stress accents, instrument reconstructions or sung vocals; a
+25 ms articulation gap separates generated tones. The course does not apply
+Archytas's theoretical tetrachord ratios to this Roman-period song. The museum
+record and modern scholarship differ in precision about date and dedication;
+the app keeps the date broad and the damaged dedication unresolved.
+
+| File                                   | SHA-256                                                            |
+| -------------------------------------- | ------------------------------------------------------------------ |
+| `inscription.jpg`                      | `da774306bb3f05873e7126596612e5b623bd9255b0564b36d11bfb1be4826729` |
+| `stele.jpg`                            | `9ddb805f113cdb555dde628b40c8c1efc3e9fb6c0b13d42905ab7dfb726b8050` |
+| `monro-ending.jpg`                     | `c2a8ad3dbf2feaebde1b51f25aee415690ec3254c5f65d74daf27405a0d10ac3` |
+| `monro-correction.jpg`                 | `6df42768a72811fa199c7d89bd4c4ebbc9fb46d0d1d63e413a6b4c845a60c34d` |
+| `tests/fixtures/seikilos-reference.ly` | `7dfdd71bf817ae7ea6d4c226ce4090455cd19bf6509bb9c362efc6e39f98d187` |
+
 ## Ptolemy, edited and translated by Wallis (1682)
 
 The ratios, Greek genus names and short Latin quotation were checked visually in
