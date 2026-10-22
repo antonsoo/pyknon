@@ -247,6 +247,9 @@ try {
         const studyFile = path.resolve(directory, `${engineName}-${width}-study.html`);
         await saved.saveAs(studyFile);
         await page.locator("#share").click();
+        await page.waitForFunction(() =>
+          /copied|Copy this study link/.test(document.querySelector("#save-status").textContent),
+        );
         assert(
           (await page.locator("#save-status").innerText()).match(/copied|Copy this study link/),
         );
