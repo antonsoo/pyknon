@@ -7,7 +7,7 @@ import path from "node:path";
 import AxeBuilder from "@axe-core/playwright";
 import { chromium, firefox } from "playwright";
 
-const output = process.argv[2] ?? "/tmp/claude-1000/pyknon-canon/browser.json";
+const output = process.argv[2] ?? "/tmp/pyknon-canon-review/browser.json";
 const directory = path.dirname(output);
 await mkdir(path.join(directory, "audio"), { recursive: true });
 await mkdir(path.join(directory, "assets"), { recursive: true });
