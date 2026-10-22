@@ -3,7 +3,7 @@ import { writeFile } from "node:fs/promises";
 import { chromium, firefox } from "playwright";
 
 const base = process.argv[2] ?? "http://127.0.0.1:4329/pyknon/";
-const output = process.argv[3] ?? "/tmp/claude-1000/pyknon-dev-review.json";
+const output = process.argv[3] ?? "/tmp/pyknon-dev-review.json";
 const configurations = [];
 for (const [name, engine] of [
   ["chromium", chromium],
