@@ -1,0 +1,165 @@
+{
+  "sourceCommit": "7f72aa4cf619e7c78c239d7e761948b8bf61d502",
+  "checkedAt": "2026-10-22T00:57:35.532401+00:00",
+  "node": "24.22.0",
+  "install": "npm ci",
+  "inputSha256": "c21b6a69464ad1598e85a755411ded6db7fc961a1fd8263f2da907d3322dc70d",
+  "inputs": [
+    {
+      "path": "index.html",
+      "sha256": "62fb66c033b4d40087f945fb99aed83d5043608705d4571f8a110c1c314f1ed8"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "1e539d02a03e2b184abce920bb37de6a8d84006a41432b78276b1f28169f76c5"
+    },
+    {
+      "path": "package.json",
+      "sha256": "720d063b444f9d8df4c645069cf5cdafd73ebf0191823102118865a944dcc222"
+    },
+    {
+      "path": "public/fonts/IBMPlex-OFL.txt",
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "path": "public/fonts/IBMPlexSans-Regular.woff2",
+      "sha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a"
+    },
+    {
+      "path": "public/fonts/IBMPlexSans-SemiBold.woff2",
+      "sha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205"
+    },
+    {
+      "path": "public/fonts/NotoSerif-OFL.txt",
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a"
+    },
+    {
+      "path": "public/fonts/NotoSerif-Regular.ttf",
+      "sha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6"
+    },
+    {
+      "path": "public/sources/macran-182.jpg",
+      "sha256": "870edc78b7ed3e08e38bfbe458722a774623562228152b2d9c07ed74c8165697"
+    },
+    {
+      "path": "public/sources/wallis-62.jpg",
+      "sha256": "bb4e8eb52d20cc23cbb91b4e1ff6a8319e8bd0a8092ab8b899d2970087d427c2"
+    },
+    {
+      "path": "public/sources/wallis-63.jpg",
+      "sha256": "e9d74ef39d02b2dd124792b8ebff2260805ceeead6bde6a3be0adb1a904dbafd"
+    },
+    {
+      "path": "src/audio.ts",
+      "sha256": "e176e3668c0d7b8a52db591097aae3d10c899aa625e8f0ca80f6c76ec4565710"
+    },
+    {
+      "path": "src/content.ts",
+      "sha256": "18e5bb190760c3dd996c5a1b8e0bbbf841a3cc1681241745996346747f3c6337"
+    },
+    {
+      "path": "src/core/tetrachord.ts",
+      "sha256": "54dfd748bd786051d1b812c4448eccf8aab824d2a7bd8a424ba2f4ba00d86c94"
+    },
+    {
+      "path": "src/drawing.ts",
+      "sha256": "2bd956e3d1a8a98c368ec28a925c00fb19f7508ca7a1ba9b55be8e78e4996b28"
+    },
+    {
+      "path": "src/env.d.ts",
+      "sha256": "c1f4ead972c9ca8fc454549b3c531b3aa7e97e31ad9e8308cf52b025ee474842"
+    },
+    {
+      "path": "src/main.ts",
+      "sha256": "4fd58a528320ad14717959b65d2146961f8f82aee17903695e7d46c6cd44ba1b"
+    },
+    {
+      "path": "src/study.ts",
+      "sha256": "ee0b4850768474a2f4ec9a74d577c4422b1dbcdb472fe805a1716db82eb28153"
+    },
+    {
+      "path": "src/style.css",
+      "sha256": "74a36e06d772a72ff1aeff1e0bf8f27322b1a30a896051b630f208f785063c6c"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "2aa30b26a07497765914007b09fb25220bd00a562b8a847b3a6ff78380bc5625"
+    },
+    {
+      "path": "vite.config.ts",
+      "sha256": "76ae512d6374f3498ac8703364fd75fc0bc0212e7a49bef97e3345de2b3da543"
+    }
+  ],
+  "artifactBytes": 2157543,
+  "files": [
+    {
+      "path": "assets/index-BeXHMmpl.js",
+      "bytes": 28931,
+      "sha256": "5fc9750d0d7e538c4e0ad777aaf690064eb5a8ef34f0f347f83732f23cf07e46"
+    },
+    {
+      "path": "assets/index-DCEa5ftA.css",
+      "bytes": 11261,
+      "sha256": "f0529e25834856f27d3011709ddd6d2684cc42efb04cefb1f5a87deedd4cb092"
+    },
+    {
+      "path": "fonts/IBMPlex-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "path": "fonts/IBMPlexSans-Regular.woff2",
+      "bytes": 63020,
+      "sha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a"
+    },
+    {
+      "path": "fonts/IBMPlexSans-SemiBold.woff2",
+      "bytes": 67060,
+      "sha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205"
+    },
+    {
+      "path": "fonts/NotoSerif-OFL.txt",
+      "bytes": 4396,
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a"
+    },
+    {
+      "path": "fonts/NotoSerif-Regular.ttf",
+      "bytes": 444064,
+      "sha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6"
+    },
+    {
+      "path": "index.html",
+      "bytes": 881,
+      "sha256": "31dfc72dc64c2f7119037326432e613e2938d47022cff784502a7ee5864a85a0"
+    },
+    {
+      "path": "sources/macran-182.jpg",
+      "bytes": 373644,
+      "sha256": "870edc78b7ed3e08e38bfbe458722a774623562228152b2d9c07ed74c8165697"
+    },
+    {
+      "path": "sources/wallis-62.jpg",
+      "bytes": 608756,
+      "sha256": "bb4e8eb52d20cc23cbb91b4e1ff6a8319e8bd0a8092ab8b899d2970087d427c2"
+    },
+    {
+      "path": "sources/wallis-63.jpg",
+      "bytes": 547639,
+      "sha256": "e9d74ef39d02b2dd124792b8ebff2260805ceeead6bde6a3be0adb1a904dbafd"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 3435,
+      "sha256": "1e1e3707b0953cff207821e47067741a98845554a60e980cab89ae1245dd5291"
+    }
+  ],
+  "checks": [
+    "npm ci",
+    "npm run check",
+    "npm run verify:ratios",
+    "npm run test:browser",
+    "python3 scripts/audio-oracle.py",
+    "documented npm run dev, native browser selection/play/stop"
+  ],
+  "browserHarnessCommit": "036e79a"
+}

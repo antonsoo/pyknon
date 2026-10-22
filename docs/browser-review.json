@@ -1,0 +1,492 @@
+{
+  "checkedAt": "2026-10-22T00:55:41.443Z",
+  "scope": "Native browser controls, live scheduling and cancellation, exported PCM audio, saved study and actual origin failure. No claim about physical speaker output or ancient performance.",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "sharedLanding": 77.140625,
+      "sourceToListeningLanding": 77.140625,
+      "accessibility": [
+        "enharmonic listening view",
+        "diatonic",
+        "chromatic",
+        "enharmonic",
+        "open measurements",
+        "source and scans"
+      ],
+      "liveStopCancelsEightTones": true,
+      "pendingResumeCancelled": true,
+      "closeNoteSequenceFinishes": true,
+      "offlineSourceHashes": [
+        "bb4e8eb52d20cc23cbb91b4e1ff6a8319e8bd0a8092ab8b899d2970087d427c2",
+        "e9d74ef39d02b2dd124792b8ebff2260805ceeead6bde6a3be0adb1a904dbafd",
+        "870edc78b7ed3e08e38bfbe458722a774623562228152b2d9c07ed74c8165697"
+      ],
+      "savedStudySha256": "2c464537491785fc8fde524329b174286b1dd83abe6fccffb7aa2f002097a95e",
+      "pageErrors": [],
+      "externalRequests": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "sharedLanding": 52.234375,
+      "sourceToListeningLanding": 52.234375,
+      "accessibility": [
+        "enharmonic listening view",
+        "diatonic",
+        "chromatic",
+        "enharmonic",
+        "open measurements",
+        "source and scans"
+      ],
+      "liveStopCancelsEightTones": true,
+      "pendingResumeCancelled": true,
+      "closeNoteSequenceFinishes": true,
+      "offlineSourceHashes": [
+        "bb4e8eb52d20cc23cbb91b4e1ff6a8319e8bd0a8092ab8b899d2970087d427c2",
+        "e9d74ef39d02b2dd124792b8ebff2260805ceeead6bde6a3be0adb1a904dbafd",
+        "870edc78b7ed3e08e38bfbe458722a774623562228152b2d9c07ed74c8165697"
+      ],
+      "savedStudySha256": "2c464537491785fc8fde524329b174286b1dd83abe6fccffb7aa2f002097a95e",
+      "pageErrors": [],
+      "externalRequests": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "sharedLanding": 77.05000305175781,
+      "sourceToListeningLanding": 77.05000305175781,
+      "accessibility": [
+        "enharmonic listening view",
+        "diatonic",
+        "chromatic",
+        "enharmonic",
+        "open measurements",
+        "source and scans"
+      ],
+      "liveStopCancelsEightTones": true,
+      "pendingResumeCancelled": true,
+      "closeNoteSequenceFinishes": true,
+      "offlineSourceHashes": [
+        "bb4e8eb52d20cc23cbb91b4e1ff6a8319e8bd0a8092ab8b899d2970087d427c2",
+        "e9d74ef39d02b2dd124792b8ebff2260805ceeead6bde6a3be0adb1a904dbafd",
+        "870edc78b7ed3e08e38bfbe458722a774623562228152b2d9c07ed74c8165697"
+      ],
+      "savedStudySha256": "2c464537491785fc8fde524329b174286b1dd83abe6fccffb7aa2f002097a95e",
+      "pageErrors": [],
+      "externalRequests": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "sharedLanding": 51.95000076293945,
+      "sourceToListeningLanding": 51.95000076293945,
+      "accessibility": [
+        "enharmonic listening view",
+        "diatonic",
+        "chromatic",
+        "enharmonic",
+        "open measurements",
+        "source and scans"
+      ],
+      "liveStopCancelsEightTones": true,
+      "pendingResumeCancelled": true,
+      "closeNoteSequenceFinishes": true,
+      "offlineSourceHashes": [
+        "bb4e8eb52d20cc23cbb91b4e1ff6a8319e8bd0a8092ab8b899d2970087d427c2",
+        "e9d74ef39d02b2dd124792b8ebff2260805ceeead6bde6a3be0adb1a904dbafd",
+        "870edc78b7ed3e08e38bfbe458722a774623562228152b2d9c07ed74c8165697"
+      ],
+      "savedStudySha256": "2c464537491785fc8fde524329b174286b1dd83abe6fccffb7aa2f002097a95e",
+      "pageErrors": [],
+      "externalRequests": []
+    }
+  ],
+  "audio": [
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "enharmonic",
+      "root": 110,
+      "direction": "up",
+      "file": "audio/chromium-1440-pyknon-enharmonic-110-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "792ec65bbf8078342e75ca42463940f1606e671682379466783466b1369a1ad2"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "enharmonic",
+      "root": 110,
+      "direction": "down",
+      "file": "audio/chromium-1440-pyknon-enharmonic-110-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "c36661eaee80dc3f9eecd86b5a3739b424f7dfbe02cf80f91e423f3e5e0ff9b0"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "enharmonic",
+      "root": 220,
+      "direction": "up",
+      "file": "audio/chromium-1440-pyknon-enharmonic-220-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "8ca73b5ff20f5b5715de5ced49d9a36b0ce13dc80e23cc508a37afb50545a429"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "enharmonic",
+      "root": 220,
+      "direction": "down",
+      "file": "audio/chromium-1440-pyknon-enharmonic-220-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "92f2982a15be45ddde12c2e8ec110f3c6cbbede8604f6759195d717ab7e9b508"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "enharmonic",
+      "root": 440,
+      "direction": "up",
+      "file": "audio/chromium-1440-pyknon-enharmonic-440-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "7472e2089df669e50b7b3f9294d6848cde3ca0256f49b155973871bc7d9a850c"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "enharmonic",
+      "root": 440,
+      "direction": "down",
+      "file": "audio/chromium-1440-pyknon-enharmonic-440-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "3f7596d353295b66e8239624cc996de94844bb06bc5d419fad447048370ea677"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "chromatic",
+      "root": 110,
+      "direction": "up",
+      "file": "audio/chromium-1440-pyknon-chromatic-110-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "791d202101018812027ea54d1c2650684615c59745acbd12b75eba004dea7768"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "chromatic",
+      "root": 110,
+      "direction": "down",
+      "file": "audio/chromium-1440-pyknon-chromatic-110-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "9fefc67b7c5cb8b4a56cb203633f24ab27aa998b8ae36219c0f41394ef95c7cb"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "chromatic",
+      "root": 220,
+      "direction": "up",
+      "file": "audio/chromium-1440-pyknon-chromatic-220-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "5a24b2d0a2402d1f71b199a88c589c943bd3dfcec5472e3db1b9c81052caf1da"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "chromatic",
+      "root": 220,
+      "direction": "down",
+      "file": "audio/chromium-1440-pyknon-chromatic-220-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "37edaea8fe8378c7a9c7568392fb39e877f4787f54ab73e38c5fcf121ef2cfec"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "chromatic",
+      "root": 440,
+      "direction": "up",
+      "file": "audio/chromium-1440-pyknon-chromatic-440-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "2c24a1f44f0575a9deefbffab2fb8336010f41ad8ec1d2655bed32cee377c34d"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "chromatic",
+      "root": 440,
+      "direction": "down",
+      "file": "audio/chromium-1440-pyknon-chromatic-440-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "98e6065a5b993bf4f23325d5a1991f963f5e5864e7f24f612b63bc2deb65d551"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "diatonic",
+      "root": 110,
+      "direction": "up",
+      "file": "audio/chromium-1440-pyknon-diatonic-110-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "00b88e89c46cf0c212376558d0f168aa5273486a3b4b82a00c032ecb822a2c21"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "diatonic",
+      "root": 110,
+      "direction": "down",
+      "file": "audio/chromium-1440-pyknon-diatonic-110-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "b7a82582d8fe501e3d09849c4c6ba5a91a1ce3cb1e305afd89c3a03e0741fb39"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "diatonic",
+      "root": 220,
+      "direction": "up",
+      "file": "audio/chromium-1440-pyknon-diatonic-220-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "a341eeb054f5f01f45082063485a2671ac6c8ac91121b79069370c4729cdaaaa"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "diatonic",
+      "root": 220,
+      "direction": "down",
+      "file": "audio/chromium-1440-pyknon-diatonic-220-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "992ea5252218d4b164eeb144539c07076c7347d09a4bd5c251ea3f125325f027"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "diatonic",
+      "root": 440,
+      "direction": "up",
+      "file": "audio/chromium-1440-pyknon-diatonic-440-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "a8a528572bbef90648908cba00c940944547a182ccc44d17c9a3e46ef411e618"
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "genus": "diatonic",
+      "root": 440,
+      "direction": "down",
+      "file": "audio/chromium-1440-pyknon-diatonic-440-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "b9510fe1c2853cca2230defdbacb1e8e52f4f623d0494b58ae146db55e863462"
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "genus": "enharmonic",
+      "root": 220,
+      "direction": "up",
+      "file": "audio/chromium-375-pyknon-enharmonic-220-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "8ca73b5ff20f5b5715de5ced49d9a36b0ce13dc80e23cc508a37afb50545a429"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "enharmonic",
+      "root": 110,
+      "direction": "up",
+      "file": "audio/firefox-1440-pyknon-enharmonic-110-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "6714b55f088c5cb1b95bc9675ed79e558877bf365ac63d6f37b4a37bf809c557"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "enharmonic",
+      "root": 110,
+      "direction": "down",
+      "file": "audio/firefox-1440-pyknon-enharmonic-110-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "f0651f563da92d7da90f300f167db00e99d04e83f8dc5569890e3c16d057828b"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "enharmonic",
+      "root": 220,
+      "direction": "up",
+      "file": "audio/firefox-1440-pyknon-enharmonic-220-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "9434ab2beeb4e048cb32b6a9f3a36e4e6f19456b8c3643da4d5079d56cd93e36"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "enharmonic",
+      "root": 220,
+      "direction": "down",
+      "file": "audio/firefox-1440-pyknon-enharmonic-220-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "c7652f70a54063c49a0495d90db1af4b4a98c836f05f94c884e6725209542b52"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "enharmonic",
+      "root": 440,
+      "direction": "up",
+      "file": "audio/firefox-1440-pyknon-enharmonic-440-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "4dcef89fce0514eedb946dc1a40eaa68467760397e093e82fad8c1ba1b3bc947"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "enharmonic",
+      "root": 440,
+      "direction": "down",
+      "file": "audio/firefox-1440-pyknon-enharmonic-440-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "6688bc80cee8e2542d55be99db285810900bac8cba0af2a353c6f9be0deb751d"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "chromatic",
+      "root": 110,
+      "direction": "up",
+      "file": "audio/firefox-1440-pyknon-chromatic-110-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "e23b0895a2bd45cb8abf7430e958e11fca466335dde052560f60e443400ef46c"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "chromatic",
+      "root": 110,
+      "direction": "down",
+      "file": "audio/firefox-1440-pyknon-chromatic-110-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "548f060af24f484a0e955559b061872235cc8e6d0eb6b4a690c4dd6a1d23c50e"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "chromatic",
+      "root": 220,
+      "direction": "up",
+      "file": "audio/firefox-1440-pyknon-chromatic-220-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "cfc714ff5472079c958b0d472fb24dadb63cb8f7e99a3b532b123911e0344f25"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "chromatic",
+      "root": 220,
+      "direction": "down",
+      "file": "audio/firefox-1440-pyknon-chromatic-220-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "eb64fc78aa05372e42781ea1f411bbadf0c2efdc5ebae8bc43c1f96888ee9748"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "chromatic",
+      "root": 440,
+      "direction": "up",
+      "file": "audio/firefox-1440-pyknon-chromatic-440-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "21685221bdc42d53302519c5534f71ba4f7ed2733c4fdef15ebc1df2e8c1f579"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "chromatic",
+      "root": 440,
+      "direction": "down",
+      "file": "audio/firefox-1440-pyknon-chromatic-440-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "7efeda0d8d1ade14606ef20ddf2108475ca0206761e88020e8bceeb36cbe458c"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "diatonic",
+      "root": 110,
+      "direction": "up",
+      "file": "audio/firefox-1440-pyknon-diatonic-110-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "e88af33a17b9fd754915b7e3da961d2dd6bcfd11f095bfcbbfb45ca7133b5529"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "diatonic",
+      "root": 110,
+      "direction": "down",
+      "file": "audio/firefox-1440-pyknon-diatonic-110-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "26821cbdf84daca4edfc8fb933b0f04828a3aa28452358fd56a109d3f53a3b77"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "diatonic",
+      "root": 220,
+      "direction": "up",
+      "file": "audio/firefox-1440-pyknon-diatonic-220-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "54c60bb1f9bcc8ac193d24e6595b642735e284bb949db8634ff87bfe46a2d7d2"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "diatonic",
+      "root": 220,
+      "direction": "down",
+      "file": "audio/firefox-1440-pyknon-diatonic-220-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "805e6bf3be3ed98fcf2c2086becf0fa17c4783902a17f0dc522fda906e4612a1"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "diatonic",
+      "root": 440,
+      "direction": "up",
+      "file": "audio/firefox-1440-pyknon-diatonic-440-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "98713c52897edb1d72093acafc86a46eeb6b2f46f77e96a509e3e3ec74c5a436"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "genus": "diatonic",
+      "root": 440,
+      "direction": "down",
+      "file": "audio/firefox-1440-pyknon-diatonic-440-down-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "77069237546d63fe7a1bbbb6dd8733e3ef963edc1f6760d49c7e4a7eafa6489e"
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "genus": "enharmonic",
+      "root": 220,
+      "direction": "up",
+      "file": "audio/firefox-375-pyknon-enharmonic-220-up-ratios-then-keys.wav",
+      "bytes": 571244,
+      "sha256": "9434ab2beeb4e048cb32b6a9f3a36e4e6f19456b8c3643da4d5079d56cd93e36"
+    }
+  ]
+}
