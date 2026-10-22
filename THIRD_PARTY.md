@@ -71,10 +71,10 @@ page 192 of [this Internet Archive scan](https://archive.org/details/aristoxenou
 then rendered with Poppler at 1800 pixels, JPEG quality 85, without changing
 page content. Both the ancient text and this 1902 translation are public domain.
 
-| File | SHA-256 |
-| --- | --- |
+| File                 | SHA-256                                                            |
+| -------------------- | ------------------------------------------------------------------ |
 | Original Archive PDF | `8da7d88a8e5e2ccfcc82e7a768425f0f068df139d4e3cdecb18a7cd8b2a87a22` |
-| Bundled page | `870edc78b7ed3e08e38bfbe458722a774623562228152b2d9c07ed74c8165697` |
+| Bundled page         | `870edc78b7ed3e08e38bfbe458722a774623562228152b2d9c07ed74c8165697` |
 
 We use this passage for the **definition** of the close-packed group. It does
 not supply Archytas's ratios. Aristoxenus's discussion of the fourth's apparent

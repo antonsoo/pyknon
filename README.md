@@ -18,7 +18,7 @@ with Greek and Latin pages from a 1682 edition.
 1. Press **Compare both**: four ratio-based tones, a pause, four rounded tones.
 2. Press **Hear just notes 2 & 3**. The small step becomes a repeated key.
 3. Switch to **Chromatic** and **Diatonic**. In this particular scheme, only the
-   third pitch moves. Watch when the close-packed group—the *pyknon*—disappears.
+   third pitch moves. Watch when the close-packed group—the _pyknon_—disappears.
 
 Three modern A references and either playback direction are available. Open
 **Follow the numbers** for frequencies, cumulative ratios, cents and rounding
@@ -53,11 +53,11 @@ Four pitches span a pure fourth, with frequency ratio 4/3. The core multiplies
 three exact rational intervals. The independent checker derives each frequency
 from the source's proportional numbers instead.
 
-| Division | Adjacent ascending ratios | Distinct pitches after modern rounding |
-| --- | --- | ---: |
-| Enharmonic | 28/27, 36/35, 5/4 | 3 |
-| Chromatic | 28/27, 243/224, 32/27 | 4 |
-| Diatonic | 28/27, 8/7, 9/8 | 4 |
+| Division   | Adjacent ascending ratios | Distinct pitches after modern rounding |
+| ---------- | ------------------------- | -------------------------------------: |
+| Enharmonic | 28/27, 36/35, 5/4         |                                      3 |
+| Chromatic  | 28/27, 243/224, 32/27     |                                      4 |
+| Diatonic   | 28/27, 8/7, 9/8           |                                      4 |
 
 At A3 = 220 Hz, the enharmonic inner notes are **228.148 Hz** and
 **234.667 Hz**, at **62.96** and **111.73 cents** above the base. Rounding to
@@ -81,7 +81,7 @@ musical prevalence follows from them.
 
 Ptolemy reports **and criticizes** Archytas. Wallis's Latin is a 1682 translation
 of a Greek text. The table's layout has a transmission history of its own.
-Aristoxenus supplies the definition of *pyknon* used here, not these numerical
+Aristoxenus supplies the definition of _pyknon_ used here, not these numerical
 ratios. Sources, editions, scan hashes and font notices are in
 [THIRD_PARTY.md](THIRD_PARTY.md).
 
@@ -94,7 +94,6 @@ full sequence's direction.
 ## Verification
 
 The checks exercise the model, actual controls and actual audio files:
-
 - A Python `Fraction` oracle derives frequencies from the printed source
   numbers, checking all 18 supported genus/reference/direction settings and
   288 numeric comparisons, plus exact rational results and playback order.

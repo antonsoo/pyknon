@@ -7,7 +7,7 @@ import path from "node:path";
 import AxeBuilder from "@axe-core/playwright";
 import { chromium, firefox } from "playwright";
 
-const output = process.argv[2] ?? "/tmp/claude-1000/pyknon-review/browser.json";
+const output = process.argv[2] ?? "/tmp/pyknon-review/browser.json";
 const directory = path.dirname(output);
 await mkdir(path.join(directory, "audio"), { recursive: true });
 await mkdir(path.join(directory, "assets"), { recursive: true });
@@ -289,6 +289,10 @@ try {
         assert((await savedPage.locator("h1").innerText()).includes("Enharmonic"));
         assert((await savedPage.locator("body").innerText()).includes("234.667"));
         assert.deepEqual(savedRequests, []);
+        assert(
+          await savedPage.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1),
+          "Saved study fits the viewport",
+        );
         if (engineName === "chromium" && width === 1440) {
           await savedPage.pdf({
             path: path.join(directory, "saved-study.pdf"),
