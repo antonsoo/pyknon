@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "canonicalUrlCount": 12,
+  "records": [
+    {
+      "path": "assets/offline-C1ECznnP.js",
+      "bytes": 5461,
+      "sha256": "01c6981a091e9918feca14edcc81a473217e36eccd02eb4797f39bd5ae92d393",
+      "url": "https://antonsoo.github.io/pyknon/assets/offline-C1ECznnP.js",
+      "status": 200,
+      "matchesPriorBytes": true
+    },
+    {
+      "path": "assets/canon-BArHHE6D.js",
+      "bytes": 38197,
+      "sha256": "e3f22678878ccebf82179dee264a489a289a850dbe8e0b4bf6e36a12ac7564fc",
+      "url": "https://antonsoo.github.io/pyknon/assets/canon-BArHHE6D.js",
+      "status": 200,
+      "matchesPriorBytes": true
+    },
+    {
+      "path": "assets/main-BnQolRlI.js",
+      "bytes": 23967,
+      "sha256": "853990d4673d1257d3712378a9215dbe17c272a068337a6c7424be04251bab2e",
+      "url": "https://antonsoo.github.io/pyknon/assets/main-BnQolRlI.js",
+      "status": 200,
+      "matchesPriorBytes": true
+    },
+    {
+      "path": "assets/offline-GVwuScnY.js",
+      "bytes": 5468,
+      "sha256": "355a35893fd1b9bb7fb28f6a422319d90e7c1c863842c2d4a2ad362214a1ce1f",
+      "url": "https://antonsoo.github.io/pyknon/assets/offline-GVwuScnY.js",
+      "status": 200,
+      "matchesPriorBytes": true
+    },
+    {
+      "path": "assets/song-DU6C71Tm.css",
+      "bytes": 6660,
+      "sha256": "e87da18d9b995f447720ef476ca21d54d7562a1d7053e48d3b70705f7ef89b60",
+      "url": "https://antonsoo.github.io/pyknon/assets/song-DU6C71Tm.css",
+      "status": 200,
+      "matchesPriorBytes": true
+    },
+    {
+      "path": "assets/index-BeXHMmpl.js",
+      "bytes": 28931,
+      "sha256": "5fc9750d0d7e538c4e0ad777aaf690064eb5a8ef34f0f347f83732f23cf07e46",
+      "url": "https://antonsoo.github.io/pyknon/assets/index-BeXHMmpl.js",
+      "status": 200,
+      "matchesPriorBytes": true
+    },
+    {
+      "path": "assets/main-GNOxR6ro.js",
+      "bytes": 23850,
+      "sha256": "5c03e5a4851ce7e7b7aa41c091b5507c8960f68581265b7ec960e8924829d674",
+      "url": "https://antonsoo.github.io/pyknon/assets/main-GNOxR6ro.js",
+      "status": 200,
+      "matchesPriorBytes": true
+    },
+    {
+      "path": "assets/offline-CyYOenOT.css",
+      "bytes": 11360,
+      "sha256": "8b3c0fb99574f30e9d24a504d2154f368e716b6b6deabf1d95980390cca2d2f1",
+      "url": "https://antonsoo.github.io/pyknon/assets/offline-CyYOenOT.css",
+      "status": 200,
+      "matchesPriorBytes": true
+    },
+    {
+      "path": "assets/song-B07dX343.js",
+      "bytes": 28528,
+      "sha256": "bd33ac978a44d2836c7b518c7fa6bfec32829087777351c256199fb2afe59475",
+      "url": "https://antonsoo.github.io/pyknon/assets/song-B07dX343.js",
+      "status": 200,
+      "matchesPriorBytes": true
+    },
+    {
+      "path": "assets/index-DCEa5ftA.css",
+      "bytes": 11261,
+      "sha256": "f0529e25834856f27d3011709ddd6d2684cc42efb04cefb1f5a87deedd4cb092",
+      "url": "https://antonsoo.github.io/pyknon/assets/index-DCEa5ftA.css",
+      "status": 200,
+      "matchesPriorBytes": true
+    },
+    {
+      "path": "assets/canon-B4HmA513.css",
+      "bytes": 6229,
+      "sha256": "841d997518e3e251b492b47fa52177dd85cd65d587b0935dcef1e5715e53f3eb",
+      "url": "https://antonsoo.github.io/pyknon/assets/canon-B4HmA513.css",
+      "status": 200,
+      "matchesPriorBytes": true
+    },
+    {
+      "path": "assets/song-B0VVMWxf.js",
+      "bytes": 28564,
+      "sha256": "e481c7d3ba9144758f26ed06efe09b6effb48e2b824171efdfc2ec6c7ab0068b",
+      "url": "https://antonsoo.github.io/pyknon/assets/song-B0VVMWxf.js",
+      "status": 200,
+      "matchesPriorBytes": true
+    }
+  ]
+}

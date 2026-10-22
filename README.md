@@ -190,6 +190,8 @@ by the new simultaneous-tone signal checker; the site has no runtime dependency.
 during the run. Its screenshots should be inspected, not treated as proof
 merely because a file was produced.
 
+The shared offline status also follows complete edition upgrades across all three rooms; [reproduction and review](docs/offline-upgrade.md).
+
 ## Contributing and license
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Changes to historical claims need a
@@ -197,5 +199,3 @@ source; changes to audio need signal-level evidence. Code and original diagrams
 are MIT © 2026 Anton Soloviev. Museum photographs and their annotated
 presentations are CC BY-SA 4.0; public-domain scans and OFL fonts retain their
 notices. See [THIRD_PARTY.md](THIRD_PARTY.md).
-
-The shared offline status also follows complete edition upgrades across all three rooms; [reproduction and review](docs/offline-upgrade.md).

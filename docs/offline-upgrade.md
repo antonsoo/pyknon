@@ -32,3 +32,9 @@ node scripts/offline-upgrade.mjs /tmp/pyknon-pre-octave /tmp/pyknon-upgrade/afte
 Install the matching Playwright Chromium and Firefox browsers first. The script owns a temporary HTTP origin, loads both builds into immutable inventories before starting, and closes its browsers and server. Each saved reading remains a real browser download.
 
 The complete octave workflow was repeated in both engines at 1440 px and 375 px; [browser receipt](offline-upgrade-canon-browser.json). All 170 newly downloaded WAVs match the previously independently measured corpus by SHA-256. The new native illustrated reading is also byte-identical to the earlier reviewed source packet; [artifact comparison](offline-upgrade-artifacts.json). The change therefore preserves the existing numerical, source-image, font and audio artifacts.
+
+## Published update
+
+Source `5f31c9f3bf01cc007b9f5f3eb8fe0c5bff9df4d3` and Pages `dab0411fcfc4e7074a2560f3d278055f2da9f05c` publish this update. [All twenty-nine canonical public files](offline-upgrade-public-bytes.json) match the reviewed build; the root entry is checked before and after the inventory, with no query-string cache busting. [Twelve earlier public hashed assets](offline-upgrade-public-assets.json) remain byte-identical.
+
+[Four hosted workflows](offline-upgrade-public-browser.json) repeat keyboard playback, actual WAV and HTML downloads, source-scan SHA-256 checks and the offline three-room journey in Chromium and Firefox at 1440 px and 375 px. Native reading bytes match the reviewed local packet, and selected WAVs match the independently measured corpus. [Publication receipt](offline-upgrade-publication.json). Later documentation-only commits do not alter this runtime edition.

@@ -1,0 +1,87 @@
+{
+  "checkedAt": "2026-10-22T12:40:05.961Z",
+  "base": "https://antonsoo.github.io/pyknon/",
+  "scope": "Canonical public site: keyboard listening, native downloads compared byte-for-byte with reviewed local outputs, all three rooms offline, and source scan integrity.",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "playControlY": 269.015625,
+      "keyboardPlaybackPreservesFocus": true,
+      "wavMatchesMeasuredLocalOutput": "b858d0bc2f978d1d1bd900a2a5326e373422c46348ad7ba9340d622c32e2e72b",
+      "illustratedReadingMatchesNativeDownload": true,
+      "offlineSourceHashes": [
+        "dcc5aa0766a580e2a3d6e10a4bbccc5bb03042a845ea8263ca2ba47fccc27817",
+        "72d4dc1d525c9b2cbb3e1af95e1656dc46f3eca4edd18f56bbf39f75e98bd57d",
+        "0262cfa2cb42c56e93a16a32a8f445bd31206a7fcf1216bfd53aaf98a577e522",
+        "ce0f45cb57a71a92ed2dacde8677d7979383bfc57c4eb85b4e6ad669c8c5844e",
+        "df0a0f90048b46f60fadf024e8248789f87d2ece67cc344f94df2a739e8da130",
+        "2edd6567bbf8f54e95fac83d6a2fc84077129dd9d2ec11fef07918129c44d1fc"
+      ],
+      "offlineThreeRoomJourney": true,
+      "pageErrors": [],
+      "externalRequests": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "playControlY": 441.203125,
+      "keyboardPlaybackPreservesFocus": true,
+      "wavMatchesMeasuredLocalOutput": "b858d0bc2f978d1d1bd900a2a5326e373422c46348ad7ba9340d622c32e2e72b",
+      "illustratedReadingMatchesNativeDownload": true,
+      "offlineSourceHashes": [
+        "dcc5aa0766a580e2a3d6e10a4bbccc5bb03042a845ea8263ca2ba47fccc27817",
+        "72d4dc1d525c9b2cbb3e1af95e1656dc46f3eca4edd18f56bbf39f75e98bd57d",
+        "0262cfa2cb42c56e93a16a32a8f445bd31206a7fcf1216bfd53aaf98a577e522",
+        "ce0f45cb57a71a92ed2dacde8677d7979383bfc57c4eb85b4e6ad669c8c5844e",
+        "df0a0f90048b46f60fadf024e8248789f87d2ece67cc344f94df2a739e8da130",
+        "2edd6567bbf8f54e95fac83d6a2fc84077129dd9d2ec11fef07918129c44d1fc"
+      ],
+      "offlineThreeRoomJourney": true,
+      "pageErrors": [],
+      "externalRequests": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "playControlY": 268.04998779296875,
+      "keyboardPlaybackPreservesFocus": true,
+      "wavMatchesMeasuredLocalOutput": "8662de4e8280cb82337fcf05e1b1e7ae4010eb244d3b641366d2cebb6a7aeb83",
+      "illustratedReadingMatchesNativeDownload": true,
+      "offlineSourceHashes": [
+        "dcc5aa0766a580e2a3d6e10a4bbccc5bb03042a845ea8263ca2ba47fccc27817",
+        "72d4dc1d525c9b2cbb3e1af95e1656dc46f3eca4edd18f56bbf39f75e98bd57d",
+        "0262cfa2cb42c56e93a16a32a8f445bd31206a7fcf1216bfd53aaf98a577e522",
+        "ce0f45cb57a71a92ed2dacde8677d7979383bfc57c4eb85b4e6ad669c8c5844e",
+        "df0a0f90048b46f60fadf024e8248789f87d2ece67cc344f94df2a739e8da130",
+        "2edd6567bbf8f54e95fac83d6a2fc84077129dd9d2ec11fef07918129c44d1fc"
+      ],
+      "offlineThreeRoomJourney": true,
+      "pageErrors": [],
+      "externalRequests": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "playControlY": 438.8999938964844,
+      "keyboardPlaybackPreservesFocus": true,
+      "wavMatchesMeasuredLocalOutput": "8662de4e8280cb82337fcf05e1b1e7ae4010eb244d3b641366d2cebb6a7aeb83",
+      "illustratedReadingMatchesNativeDownload": true,
+      "offlineSourceHashes": [
+        "dcc5aa0766a580e2a3d6e10a4bbccc5bb03042a845ea8263ca2ba47fccc27817",
+        "72d4dc1d525c9b2cbb3e1af95e1656dc46f3eca4edd18f56bbf39f75e98bd57d",
+        "0262cfa2cb42c56e93a16a32a8f445bd31206a7fcf1216bfd53aaf98a577e522",
+        "ce0f45cb57a71a92ed2dacde8677d7979383bfc57c4eb85b4e6ad669c8c5844e",
+        "df0a0f90048b46f60fadf024e8248789f87d2ece67cc344f94df2a739e8da130",
+        "2edd6567bbf8f54e95fac83d6a2fc84077129dd9d2ec11fef07918129c44d1fc"
+      ],
+      "offlineThreeRoomJourney": true,
+      "pageErrors": [],
+      "externalRequests": []
+    }
+  ]
+}
