@@ -132,6 +132,37 @@ The shared URL preserves the experiment and reading.
 The ideal model holds tension fixed while adding exact supports. It does not
 model bridge-induced stretching, real gut manufacture or ancient performance.
 
+## Six times, two rhythmic genera
+
+The new [rhythm room](rhythm.html) lets a foot stay at six primary times while
+you change its division from 3+3 to 2+4. The total stays fixed; its genus
+changes from equal/dactylic to double/iambic. Reverse the up/down assignments,
+or join the smaller attacks while preserving the defining division. Explore
+five and seven too, with the scope of Aristoxenus's three admitted genera explicit.
+
+![The same outer duration with equal and double internal divisions](docs/assets/rhythm-desktop.png)
+
+A second experiment keeps the down portion at two times and varies the up
+portion between one and two. Our illustrative 1½ gives up:down = 3:4, an
+ordinary rational fraction. Read why the source's _alogos_ involves a
+rhythmically admissible common measure, rather than arithmetic alone. The
+source does not prescribe our exact midpoint.
+
+Ten Greek excerpts, new English, thirty-seven contextual word notes, one
+separately attributed Latin parallel and eight complete 1861 source pages
+accompany the two experiments. The fragment's final 'because …' remains a
+break; the later parallels printed on the same pages remain distinct.
+
+Save native JSON, SVG, scheduled-onset CSV or synthetic WAV. A single
+script-free HTML reading keeps both experiments, all readings and source
+images, font, editable JSON and the selected sound. The whole five-room edition
+works offline after complete installation. Sine clicks mark positions; their
+short decays do not represent sung note lengths or reconstruct ancient accents.
+
+This is a local source addition until its separate publication record is added.
+[Source and model](docs/rhythm-model.md) · [Direct review](docs/rhythm-review.md) ·
+[Saved reading](examples/rhythm-reading.html) · [Printable reading](examples/rhythm-reading.pdf).
+
 ## Run locally
 
 Requires Node.js 24 or later. Python 3 is used only for independent verification.

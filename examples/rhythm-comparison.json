@@ -1,0 +1,11 @@
+{
+  "format": "pyknon-rhythm-v1",
+  "state": {
+    "total": 6,
+    "up": 2,
+    "unitMs": 300,
+    "texture": "joined",
+    "between": "middle",
+    "sound": "compare"
+  }
+}

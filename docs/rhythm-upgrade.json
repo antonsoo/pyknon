@@ -1,0 +1,130 @@
+{
+  "scope": "Controlled four-to-five-room upgrade at 375 px; Chromium authentic late reply before inspector timeout, plus held/substituted precache in both engines; browser offline while local origin remains available",
+  "currentWorkerSha256": "174bfd96c29a7c52f37e51f74a66873cfc5edbd6e364f4d51c2949752393d181",
+  "oldFileCount": 39,
+  "newFileCount": 53,
+  "records": [
+    {
+      "engine": "chromium",
+      "mode": "hold",
+      "oldEdition": "7489fe841e2c27555b49fc3ae0148167363b88a3d27446ec08254638c056d387",
+      "newEdition": "00ee8374d52da3668f11957b861024c58d18ec815b7204f5d73943da073eb9a4",
+      "before": "This edition is not saved offline. Keep this tab open to continue reading.",
+      "workerAfter": {
+        "type": "PYKNON_EDITION",
+        "edition": "00ee8374d52da3668f11957b861024c58d18ec815b7204f5d73943da073eb9a4",
+        "complete": true
+      },
+      "after": "Ready offline · all five rooms, audio, diagrams & source scans saved.",
+      "automaticallyAcknowledged": true,
+      "staleReplyIgnored": false,
+      "wrongHttp200Responses": [],
+      "expectedIntegrityConsoleErrors": [],
+      "offlineFiveRooms": ["index.html", "song.html", "canon.html", "trial.html", "rhythm.html"],
+      "oldOpenTabAcknowledgedThenReloaded": true,
+      "inspectionAfterDeletionDidNotCreateCache": true,
+      "offlineIllustratedReadingSaved": true
+    },
+    {
+      "engine": "chromium",
+      "mode": "wrong",
+      "oldEdition": "7489fe841e2c27555b49fc3ae0148167363b88a3d27446ec08254638c056d387",
+      "newEdition": "00ee8374d52da3668f11957b861024c58d18ec815b7204f5d73943da073eb9a4",
+      "before": "This edition is not saved offline. Keep this tab open to continue reading.",
+      "workerAfter": {
+        "type": "PYKNON_EDITION",
+        "edition": "00ee8374d52da3668f11957b861024c58d18ec815b7204f5d73943da073eb9a4",
+        "complete": true
+      },
+      "after": "Ready offline · all five rooms, audio, diagrams & source scans saved.",
+      "automaticallyAcknowledged": true,
+      "staleReplyIgnored": false,
+      "wrongHttp200Responses": [
+        {
+          "url": "/pyknon/rhythm.html",
+          "status": 200,
+          "oldEntryInsteadOfNewRhythm": true
+        }
+      ],
+      "expectedIntegrityConsoleErrors": [],
+      "offlineFiveRooms": ["index.html", "song.html", "canon.html", "trial.html", "rhythm.html"],
+      "oldOpenTabAcknowledgedThenReloaded": true,
+      "inspectionAfterDeletionDidNotCreateCache": true,
+      "offlineIllustratedReadingSaved": true
+    },
+    {
+      "engine": "chromium",
+      "mode": "late",
+      "oldEdition": "7489fe841e2c27555b49fc3ae0148167363b88a3d27446ec08254638c056d387",
+      "newEdition": "00ee8374d52da3668f11957b861024c58d18ec815b7204f5d73943da073eb9a4",
+      "before": "This edition is not saved offline. Keep this tab open to continue reading.",
+      "workerAfter": {
+        "type": "PYKNON_EDITION",
+        "edition": "00ee8374d52da3668f11957b861024c58d18ec815b7204f5d73943da073eb9a4",
+        "complete": true
+      },
+      "after": "Ready offline · all five rooms, audio, diagrams & source scans saved.",
+      "automaticallyAcknowledged": true,
+      "staleReplyIgnored": true,
+      "wrongHttp200Responses": [],
+      "expectedIntegrityConsoleErrors": [],
+      "offlineFiveRooms": ["index.html", "song.html", "canon.html", "trial.html", "rhythm.html"],
+      "oldOpenTabAcknowledgedThenReloaded": true,
+      "inspectionAfterDeletionDidNotCreateCache": true,
+      "offlineIllustratedReadingSaved": true
+    },
+    {
+      "engine": "firefox",
+      "mode": "hold",
+      "oldEdition": "7489fe841e2c27555b49fc3ae0148167363b88a3d27446ec08254638c056d387",
+      "newEdition": "00ee8374d52da3668f11957b861024c58d18ec815b7204f5d73943da073eb9a4",
+      "before": "This edition is not saved offline. Keep this tab open to continue reading.",
+      "workerAfter": {
+        "type": "PYKNON_EDITION",
+        "edition": "00ee8374d52da3668f11957b861024c58d18ec815b7204f5d73943da073eb9a4",
+        "complete": true
+      },
+      "after": "Ready offline · all five rooms, audio, diagrams & source scans saved.",
+      "automaticallyAcknowledged": true,
+      "staleReplyIgnored": false,
+      "wrongHttp200Responses": [],
+      "expectedIntegrityConsoleErrors": [],
+      "offlineFiveRooms": ["index.html", "song.html", "canon.html", "trial.html", "rhythm.html"],
+      "oldOpenTabAcknowledgedThenReloaded": true,
+      "inspectionAfterDeletionDidNotCreateCache": true,
+      "offlineIllustratedReadingSaved": true
+    },
+    {
+      "engine": "firefox",
+      "mode": "wrong",
+      "oldEdition": "7489fe841e2c27555b49fc3ae0148167363b88a3d27446ec08254638c056d387",
+      "newEdition": "00ee8374d52da3668f11957b861024c58d18ec815b7204f5d73943da073eb9a4",
+      "before": "This edition is not saved offline. Keep this tab open to continue reading.",
+      "workerAfter": {
+        "type": "PYKNON_EDITION",
+        "edition": "00ee8374d52da3668f11957b861024c58d18ec815b7204f5d73943da073eb9a4",
+        "complete": true
+      },
+      "after": "Ready offline · all five rooms, audio, diagrams & source scans saved.",
+      "automaticallyAcknowledged": true,
+      "staleReplyIgnored": false,
+      "wrongHttp200Responses": [
+        {
+          "url": "/pyknon/rhythm.html",
+          "status": 200,
+          "oldEntryInsteadOfNewRhythm": true
+        },
+        {
+          "url": "/pyknon/rhythm.html",
+          "status": 200,
+          "oldEntryInsteadOfNewRhythm": true
+        }
+      ],
+      "expectedIntegrityConsoleErrors": [],
+      "offlineFiveRooms": ["index.html", "song.html", "canon.html", "trial.html", "rhythm.html"],
+      "oldOpenTabAcknowledgedThenReloaded": true,
+      "inspectionAfterDeletionDidNotCreateCache": true,
+      "offlineIllustratedReadingSaved": true
+    }
+  ]
+}

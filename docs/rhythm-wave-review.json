@@ -1,0 +1,521 @@
+{
+  "checkedAt": "2026-10-24T21:28:28.428339+00:00",
+  "configurations": [
+    {
+      "configuration": "chromium-1440",
+      "method": "Independent literal default joined-portion schedules; 16-bit PCM onset threshold >8 and interpolated positive zero crossings within the flat envelope",
+      "scope": "Synthetic browser WAV samples, not device latency, ancient performance or listener perception",
+      "results": [
+        {
+          "file": "comparison.wav",
+          "sampleRate": 48000,
+          "frames": 378720,
+          "markers": [
+            {
+              "marker": 1,
+              "expectedStartSeconds": 0.12,
+              "thresholdOnsetSeconds": 0.12010416666666666,
+              "onsetDifferenceSeconds": 0.00010416666666666907,
+              "expectedHz": 720,
+              "measuredHz": 720.0000000000006,
+              "frequencyErrorHz": 5.684341886080801e-13
+            },
+            {
+              "marker": 2,
+              "expectedStartSeconds": 1.02,
+              "thresholdOnsetSeconds": 1.020125,
+              "onsetDifferenceSeconds": 0.00012499999999993072,
+              "expectedHz": 480,
+              "measuredHz": 480.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 3,
+              "expectedStartSeconds": 1.92,
+              "thresholdOnsetSeconds": 1.9201041666666667,
+              "onsetDifferenceSeconds": 0.00010416666666679397,
+              "expectedHz": 720,
+              "measuredHz": 720.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 4,
+              "expectedStartSeconds": 2.82,
+              "thresholdOnsetSeconds": 2.820125,
+              "onsetDifferenceSeconds": 0.00012500000000015277,
+              "expectedHz": 480,
+              "measuredHz": 480.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 5,
+              "expectedStartSeconds": 4.17,
+              "thresholdOnsetSeconds": 4.170125,
+              "onsetDifferenceSeconds": 0.00012499999999970868,
+              "expectedHz": 720,
+              "measuredHz": 720.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 6,
+              "expectedStartSeconds": 4.77,
+              "thresholdOnsetSeconds": 4.770125,
+              "onsetDifferenceSeconds": 0.00012500000000059686,
+              "expectedHz": 480,
+              "measuredHz": 480.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 7,
+              "expectedStartSeconds": 5.97,
+              "thresholdOnsetSeconds": 5.970125,
+              "onsetDifferenceSeconds": 0.00012500000000059686,
+              "expectedHz": 720,
+              "measuredHz": 720.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 8,
+              "expectedStartSeconds": 6.57,
+              "thresholdOnsetSeconds": 6.570125,
+              "onsetDifferenceSeconds": 0.00012499999999970868,
+              "expectedHz": 480,
+              "measuredHz": 480.0,
+              "frequencyErrorHz": 0.0
+            }
+          ]
+        },
+        {
+          "file": "between.wav",
+          "sampleRate": 48000,
+          "frames": 112321,
+          "markers": [
+            {
+              "marker": 1,
+              "expectedStartSeconds": 0.12,
+              "thresholdOnsetSeconds": 0.120125,
+              "onsetDifferenceSeconds": 0.0001250000000000001,
+              "expectedHz": 480,
+              "measuredHz": 480.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 2,
+              "expectedStartSeconds": 0.72,
+              "thresholdOnsetSeconds": 0.7201041666666667,
+              "onsetDifferenceSeconds": 0.00010416666666668295,
+              "expectedHz": 720,
+              "measuredHz": 720.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 3,
+              "expectedStartSeconds": 1.17,
+              "thresholdOnsetSeconds": 1.170125,
+              "onsetDifferenceSeconds": 0.00012500000000015277,
+              "expectedHz": 480,
+              "measuredHz": 480.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 4,
+              "expectedStartSeconds": 1.77,
+              "thresholdOnsetSeconds": 1.770125,
+              "onsetDifferenceSeconds": 0.00012499999999993072,
+              "expectedHz": 720,
+              "measuredHz": 720.0,
+              "frequencyErrorHz": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "chromium-375",
+      "method": "Independent literal default joined-portion schedules; 16-bit PCM onset threshold >8 and interpolated positive zero crossings within the flat envelope",
+      "scope": "Synthetic browser WAV samples, not device latency, ancient performance or listener perception",
+      "results": [
+        {
+          "file": "comparison.wav",
+          "sampleRate": 48000,
+          "frames": 378720,
+          "markers": [
+            {
+              "marker": 1,
+              "expectedStartSeconds": 0.12,
+              "thresholdOnsetSeconds": 0.12010416666666666,
+              "onsetDifferenceSeconds": 0.00010416666666666907,
+              "expectedHz": 720,
+              "measuredHz": 720.0000000000006,
+              "frequencyErrorHz": 5.684341886080801e-13
+            },
+            {
+              "marker": 2,
+              "expectedStartSeconds": 1.02,
+              "thresholdOnsetSeconds": 1.020125,
+              "onsetDifferenceSeconds": 0.00012499999999993072,
+              "expectedHz": 480,
+              "measuredHz": 480.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 3,
+              "expectedStartSeconds": 1.92,
+              "thresholdOnsetSeconds": 1.9201041666666667,
+              "onsetDifferenceSeconds": 0.00010416666666679397,
+              "expectedHz": 720,
+              "measuredHz": 720.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 4,
+              "expectedStartSeconds": 2.82,
+              "thresholdOnsetSeconds": 2.820125,
+              "onsetDifferenceSeconds": 0.00012500000000015277,
+              "expectedHz": 480,
+              "measuredHz": 480.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 5,
+              "expectedStartSeconds": 4.17,
+              "thresholdOnsetSeconds": 4.170125,
+              "onsetDifferenceSeconds": 0.00012499999999970868,
+              "expectedHz": 720,
+              "measuredHz": 720.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 6,
+              "expectedStartSeconds": 4.77,
+              "thresholdOnsetSeconds": 4.770125,
+              "onsetDifferenceSeconds": 0.00012500000000059686,
+              "expectedHz": 480,
+              "measuredHz": 480.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 7,
+              "expectedStartSeconds": 5.97,
+              "thresholdOnsetSeconds": 5.970125,
+              "onsetDifferenceSeconds": 0.00012500000000059686,
+              "expectedHz": 720,
+              "measuredHz": 720.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 8,
+              "expectedStartSeconds": 6.57,
+              "thresholdOnsetSeconds": 6.570125,
+              "onsetDifferenceSeconds": 0.00012499999999970868,
+              "expectedHz": 480,
+              "measuredHz": 480.0,
+              "frequencyErrorHz": 0.0
+            }
+          ]
+        },
+        {
+          "file": "between.wav",
+          "sampleRate": 48000,
+          "frames": 112321,
+          "markers": [
+            {
+              "marker": 1,
+              "expectedStartSeconds": 0.12,
+              "thresholdOnsetSeconds": 0.120125,
+              "onsetDifferenceSeconds": 0.0001250000000000001,
+              "expectedHz": 480,
+              "measuredHz": 480.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 2,
+              "expectedStartSeconds": 0.72,
+              "thresholdOnsetSeconds": 0.7201041666666667,
+              "onsetDifferenceSeconds": 0.00010416666666668295,
+              "expectedHz": 720,
+              "measuredHz": 720.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 3,
+              "expectedStartSeconds": 1.17,
+              "thresholdOnsetSeconds": 1.170125,
+              "onsetDifferenceSeconds": 0.00012500000000015277,
+              "expectedHz": 480,
+              "measuredHz": 480.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 4,
+              "expectedStartSeconds": 1.77,
+              "thresholdOnsetSeconds": 1.770125,
+              "onsetDifferenceSeconds": 0.00012499999999993072,
+              "expectedHz": 720,
+              "measuredHz": 720.0,
+              "frequencyErrorHz": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "firefox-1440",
+      "method": "Independent literal default joined-portion schedules; 16-bit PCM onset threshold >8 and interpolated positive zero crossings within the flat envelope",
+      "scope": "Synthetic browser WAV samples, not device latency, ancient performance or listener perception",
+      "results": [
+        {
+          "file": "comparison.wav",
+          "sampleRate": 48000,
+          "frames": 378720,
+          "markers": [
+            {
+              "marker": 1,
+              "expectedStartSeconds": 0.12,
+              "thresholdOnsetSeconds": 0.12010416666666666,
+              "onsetDifferenceSeconds": 0.00010416666666666907,
+              "expectedHz": 720,
+              "measuredHz": 720.0000000000006,
+              "frequencyErrorHz": 5.684341886080801e-13
+            },
+            {
+              "marker": 2,
+              "expectedStartSeconds": 1.02,
+              "thresholdOnsetSeconds": 1.020125,
+              "onsetDifferenceSeconds": 0.00012499999999993072,
+              "expectedHz": 480,
+              "measuredHz": 480.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 3,
+              "expectedStartSeconds": 1.92,
+              "thresholdOnsetSeconds": 1.9201041666666667,
+              "onsetDifferenceSeconds": 0.00010416666666679397,
+              "expectedHz": 720,
+              "measuredHz": 720.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 4,
+              "expectedStartSeconds": 2.82,
+              "thresholdOnsetSeconds": 2.820125,
+              "onsetDifferenceSeconds": 0.00012500000000015277,
+              "expectedHz": 480,
+              "measuredHz": 480.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 5,
+              "expectedStartSeconds": 4.17,
+              "thresholdOnsetSeconds": 4.1701041666666665,
+              "onsetDifferenceSeconds": 0.00010416666666657193,
+              "expectedHz": 720,
+              "measuredHz": 720.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 6,
+              "expectedStartSeconds": 4.77,
+              "thresholdOnsetSeconds": 4.770125,
+              "onsetDifferenceSeconds": 0.00012500000000059686,
+              "expectedHz": 480,
+              "measuredHz": 480.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 7,
+              "expectedStartSeconds": 5.97,
+              "thresholdOnsetSeconds": 5.970104166666666,
+              "onsetDifferenceSeconds": 0.00010416666666657193,
+              "expectedHz": 720,
+              "measuredHz": 720.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 8,
+              "expectedStartSeconds": 6.57,
+              "thresholdOnsetSeconds": 6.570125,
+              "onsetDifferenceSeconds": 0.00012499999999970868,
+              "expectedHz": 480,
+              "measuredHz": 480.0,
+              "frequencyErrorHz": 0.0
+            }
+          ]
+        },
+        {
+          "file": "between.wav",
+          "sampleRate": 48000,
+          "frames": 112321,
+          "markers": [
+            {
+              "marker": 1,
+              "expectedStartSeconds": 0.12,
+              "thresholdOnsetSeconds": 0.120125,
+              "onsetDifferenceSeconds": 0.0001250000000000001,
+              "expectedHz": 480,
+              "measuredHz": 480.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 2,
+              "expectedStartSeconds": 0.72,
+              "thresholdOnsetSeconds": 0.7201041666666667,
+              "onsetDifferenceSeconds": 0.00010416666666668295,
+              "expectedHz": 720,
+              "measuredHz": 720.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 3,
+              "expectedStartSeconds": 1.17,
+              "thresholdOnsetSeconds": 1.170125,
+              "onsetDifferenceSeconds": 0.00012500000000015277,
+              "expectedHz": 480,
+              "measuredHz": 480.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 4,
+              "expectedStartSeconds": 1.77,
+              "thresholdOnsetSeconds": 1.7701041666666666,
+              "onsetDifferenceSeconds": 0.00010416666666657193,
+              "expectedHz": 720,
+              "measuredHz": 720.0,
+              "frequencyErrorHz": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "configuration": "firefox-375",
+      "method": "Independent literal default joined-portion schedules; 16-bit PCM onset threshold >8 and interpolated positive zero crossings within the flat envelope",
+      "scope": "Synthetic browser WAV samples, not device latency, ancient performance or listener perception",
+      "results": [
+        {
+          "file": "comparison.wav",
+          "sampleRate": 48000,
+          "frames": 378720,
+          "markers": [
+            {
+              "marker": 1,
+              "expectedStartSeconds": 0.12,
+              "thresholdOnsetSeconds": 0.12010416666666666,
+              "onsetDifferenceSeconds": 0.00010416666666666907,
+              "expectedHz": 720,
+              "measuredHz": 720.0000000000006,
+              "frequencyErrorHz": 5.684341886080801e-13
+            },
+            {
+              "marker": 2,
+              "expectedStartSeconds": 1.02,
+              "thresholdOnsetSeconds": 1.020125,
+              "onsetDifferenceSeconds": 0.00012499999999993072,
+              "expectedHz": 480,
+              "measuredHz": 480.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 3,
+              "expectedStartSeconds": 1.92,
+              "thresholdOnsetSeconds": 1.9201041666666667,
+              "onsetDifferenceSeconds": 0.00010416666666679397,
+              "expectedHz": 720,
+              "measuredHz": 720.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 4,
+              "expectedStartSeconds": 2.82,
+              "thresholdOnsetSeconds": 2.820125,
+              "onsetDifferenceSeconds": 0.00012500000000015277,
+              "expectedHz": 480,
+              "measuredHz": 480.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 5,
+              "expectedStartSeconds": 4.17,
+              "thresholdOnsetSeconds": 4.1701041666666665,
+              "onsetDifferenceSeconds": 0.00010416666666657193,
+              "expectedHz": 720,
+              "measuredHz": 720.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 6,
+              "expectedStartSeconds": 4.77,
+              "thresholdOnsetSeconds": 4.770125,
+              "onsetDifferenceSeconds": 0.00012500000000059686,
+              "expectedHz": 480,
+              "measuredHz": 480.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 7,
+              "expectedStartSeconds": 5.97,
+              "thresholdOnsetSeconds": 5.970104166666666,
+              "onsetDifferenceSeconds": 0.00010416666666657193,
+              "expectedHz": 720,
+              "measuredHz": 720.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 8,
+              "expectedStartSeconds": 6.57,
+              "thresholdOnsetSeconds": 6.570125,
+              "onsetDifferenceSeconds": 0.00012499999999970868,
+              "expectedHz": 480,
+              "measuredHz": 480.0,
+              "frequencyErrorHz": 0.0
+            }
+          ]
+        },
+        {
+          "file": "between.wav",
+          "sampleRate": 48000,
+          "frames": 112321,
+          "markers": [
+            {
+              "marker": 1,
+              "expectedStartSeconds": 0.12,
+              "thresholdOnsetSeconds": 0.120125,
+              "onsetDifferenceSeconds": 0.0001250000000000001,
+              "expectedHz": 480,
+              "measuredHz": 480.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 2,
+              "expectedStartSeconds": 0.72,
+              "thresholdOnsetSeconds": 0.7201041666666667,
+              "onsetDifferenceSeconds": 0.00010416666666668295,
+              "expectedHz": 720,
+              "measuredHz": 720.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 3,
+              "expectedStartSeconds": 1.17,
+              "thresholdOnsetSeconds": 1.170125,
+              "onsetDifferenceSeconds": 0.00012500000000015277,
+              "expectedHz": 480,
+              "measuredHz": 480.0,
+              "frequencyErrorHz": 0.0
+            },
+            {
+              "marker": 4,
+              "expectedStartSeconds": 1.77,
+              "thresholdOnsetSeconds": 1.7701041666666666,
+              "onsetDifferenceSeconds": 0.00010416666666657193,
+              "expectedHz": 720,
+              "measuredHz": 720.0,
+              "frequencyErrorHz": 0.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

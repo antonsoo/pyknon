@@ -1,0 +1,10 @@
+# Modern marker onsets; listening=compare
+index,row,unit,start_seconds,duration_seconds,marker_role,hz
+0,0,0,0.120000000,0.12,up,720
+1,0,3,1.020000000,0.12,down,480
+2,0,0,1.920000000,0.12,up,720
+3,0,3,2.820000000,0.12,down,480
+4,1,0,4.170000000,0.12,up,720
+5,1,2,4.770000000,0.12,down,480
+6,1,0,5.970000000,0.12,up,720
+7,1,2,6.570000000,0.12,down,480

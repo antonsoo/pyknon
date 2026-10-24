@@ -1,0 +1,40 @@
+{
+  "scope": "Actual native Chromium files from the local production browser review; HTML captures six/2+4/300ms/joined/middle/compare at the Save click. PDF is Chromium rendering, without a physical print claim.",
+  "files": [
+    {
+      "file": "examples/rhythm-comparison.json",
+      "bytes": 174,
+      "sha256": "549ea293d1291fb9164e7333a00b45e3b88aaeb6a30f3882db3eed7d3c92ac97"
+    },
+    {
+      "file": "examples/rhythm-comparison.wav",
+      "bytes": 757484,
+      "sha256": "6f2e6cd5022f45a3aca126b1f58640dbe1df8908c22a88fe9773c38c29d0ebca"
+    },
+    {
+      "file": "examples/rhythm-intermediate.wav",
+      "bytes": 224686,
+      "sha256": "e16901333ba74fefb56d296131ba1d53abbde3139b9673af90b130c5600762a4"
+    },
+    {
+      "file": "examples/rhythm-onsets.csv",
+      "bytes": 351,
+      "sha256": "40f4b33e7fc05e2c83fc6b53513b17f42d5e7733e86088b4b14c8e4709ee88ae"
+    },
+    {
+      "file": "examples/rhythm-reading.html",
+      "bytes": 7245411,
+      "sha256": "77dbb2433276efba5bc1c1ababe8b744de70fc05085b59015f5b75ab3d4731d7"
+    },
+    {
+      "file": "examples/rhythm-reading.pdf",
+      "bytes": 3562533,
+      "sha256": "a484c3dc0521cac6d0ecff8bc42b7b6001d07af1a550b7566d99aa51928b908f"
+    },
+    {
+      "file": "examples/rhythm-score.svg",
+      "bytes": 3682,
+      "sha256": "6fc73e45cd4e95ebc4192ac51d783efe6b90e6fc51185bfa1b8fa2c547fa8918"
+    }
+  ]
+}
