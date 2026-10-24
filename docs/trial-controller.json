@@ -1,0 +1,38 @@
+{
+  "scope": "Controlled missed initial activation claim; actual worker messages, complete cache and offline saved-reading attempts",
+  "intervention": "Suppress only the activation event's clients.claim call in served sw.js; leave the new matching-edition CLAIM message intact. sw.js is not precached.",
+  "cases": [
+    {
+      "browser": "chromium",
+      "phase": "before",
+      "activatedWorker": true,
+      "controlled": false,
+      "status": "Ready offline · all three rooms, audio, diagrams & source scans saved.",
+      "offlineReadingDownloaded": false
+    },
+    {
+      "browser": "chromium",
+      "phase": "after",
+      "activatedWorker": true,
+      "controlled": true,
+      "status": "Ready offline · all four rooms, audio, diagrams & source scans saved.",
+      "offlineReadingDownloaded": true
+    },
+    {
+      "browser": "firefox",
+      "phase": "before",
+      "activatedWorker": true,
+      "controlled": false,
+      "status": "Ready offline · all three rooms, audio, diagrams & source scans saved.",
+      "offlineReadingDownloaded": false
+    },
+    {
+      "browser": "firefox",
+      "phase": "after",
+      "activatedWorker": true,
+      "controlled": true,
+      "status": "Ready offline · all four rooms, audio, diagrams & source scans saved.",
+      "offlineReadingDownloaded": true
+    }
+  ]
+}

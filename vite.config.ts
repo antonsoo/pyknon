@@ -24,6 +24,7 @@ export default defineConfig(async ({ command }) => {
     "index.html",
     "song.html",
     "canon.html",
+    "trial.html",
     "vite.config.ts",
     "tsconfig.json",
     "package.json",
@@ -38,7 +39,9 @@ export default defineConfig(async ({ command }) => {
   return {
     base,
     build: {
-      rollupOptions: { input: { main: "index.html", song: "song.html", canon: "canon.html" } },
+      rollupOptions: {
+        input: { main: "index.html", song: "song.html", canon: "canon.html", trial: "trial.html" },
+      },
     },
     define: { __PYKNON_EDITION__: JSON.stringify(edition) },
     plugins: [
@@ -78,6 +81,10 @@ self.addEventListener("activate", event => {
   event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key.startsWith("pyknon-") && key !== CACHE).map(key => caches.delete(key)))).then(() => self.clients.claim()));
 });
 self.addEventListener("message", event => {
+  if (event.data?.type === "PYKNON_CLAIM" && event.data.edition === EDITION) {
+    event.waitUntil(self.clients.claim());
+    return;
+  }
   if (event.data?.type !== "PYKNON_INSPECT" || !event.ports[0]) return;
   event.waitUntil(caches.open(CACHE).then(cache => cache.keys()).then(keys => {
     const saved = new Set(keys.map(request => new URL(request.url).pathname));

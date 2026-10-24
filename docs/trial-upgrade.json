@@ -1,0 +1,119 @@
+{
+  "scope": "Controlled three-to-four-room upgrade; Chromium late reply plus held/malformed precache in both engines",
+  "oldFileCount": 29,
+  "newFileCount": 39,
+  "records": [
+    {
+      "engine": "chromium",
+      "mode": "hold",
+      "oldEdition": "101ccba774eabe89c391931f8aa835fd6bcf9c4dbbd971e0fd22794b59dfabda",
+      "newEdition": "923eda9f59222d87a0249d471f0357903de8c3789d8211a31f88b2c3f38c2000",
+      "before": "This edition is not saved offline. Keep this tab open to continue reading.",
+      "workerAfter": {
+        "type": "PYKNON_EDITION",
+        "edition": "923eda9f59222d87a0249d471f0357903de8c3789d8211a31f88b2c3f38c2000",
+        "complete": true
+      },
+      "after": "Ready offline · all four rooms, audio, diagrams & source scans saved.",
+      "automaticallyAcknowledged": true,
+      "staleReplyIgnored": false,
+      "wrongHttp200Responses": [],
+      "expectedIntegrityConsoleErrors": [],
+      "offlineFourRooms": true,
+      "unchangedCanonReadingSha256": "049167ea0d02c47e32e6125ca474983c9edd499a00aa5b7b1c9a64ae42333feb",
+      "offlineIllustratedReadingSaved": true
+    },
+    {
+      "engine": "chromium",
+      "mode": "wrong",
+      "oldEdition": "101ccba774eabe89c391931f8aa835fd6bcf9c4dbbd971e0fd22794b59dfabda",
+      "newEdition": "923eda9f59222d87a0249d471f0357903de8c3789d8211a31f88b2c3f38c2000",
+      "before": "This edition is not saved offline. Keep this tab open to continue reading.",
+      "workerAfter": {
+        "type": "PYKNON_EDITION",
+        "edition": "923eda9f59222d87a0249d471f0357903de8c3789d8211a31f88b2c3f38c2000",
+        "complete": true
+      },
+      "after": "Ready offline · all four rooms, audio, diagrams & source scans saved.",
+      "automaticallyAcknowledged": true,
+      "staleReplyIgnored": false,
+      "wrongHttp200Responses": [
+        {
+          "url": "/pyknon/trial.html",
+          "status": 200,
+          "oldEntryInsteadOfNewCanon": true
+        }
+      ],
+      "expectedIntegrityConsoleErrors": [],
+      "offlineFourRooms": true,
+      "unchangedCanonReadingSha256": "049167ea0d02c47e32e6125ca474983c9edd499a00aa5b7b1c9a64ae42333feb",
+      "offlineIllustratedReadingSaved": true
+    },
+    {
+      "engine": "chromium",
+      "mode": "late",
+      "oldEdition": "101ccba774eabe89c391931f8aa835fd6bcf9c4dbbd971e0fd22794b59dfabda",
+      "newEdition": "923eda9f59222d87a0249d471f0357903de8c3789d8211a31f88b2c3f38c2000",
+      "before": "This edition is not saved offline. Keep this tab open to continue reading.",
+      "workerAfter": {
+        "type": "PYKNON_EDITION",
+        "edition": "923eda9f59222d87a0249d471f0357903de8c3789d8211a31f88b2c3f38c2000",
+        "complete": true
+      },
+      "after": "Ready offline · all four rooms, audio, diagrams & source scans saved.",
+      "automaticallyAcknowledged": true,
+      "staleReplyIgnored": true,
+      "wrongHttp200Responses": [],
+      "expectedIntegrityConsoleErrors": [],
+      "offlineFourRooms": true,
+      "unchangedCanonReadingSha256": "049167ea0d02c47e32e6125ca474983c9edd499a00aa5b7b1c9a64ae42333feb",
+      "offlineIllustratedReadingSaved": true
+    },
+    {
+      "engine": "firefox",
+      "mode": "hold",
+      "oldEdition": "101ccba774eabe89c391931f8aa835fd6bcf9c4dbbd971e0fd22794b59dfabda",
+      "newEdition": "923eda9f59222d87a0249d471f0357903de8c3789d8211a31f88b2c3f38c2000",
+      "before": "This edition is not saved offline. Keep this tab open to continue reading.",
+      "workerAfter": {
+        "type": "PYKNON_EDITION",
+        "edition": "923eda9f59222d87a0249d471f0357903de8c3789d8211a31f88b2c3f38c2000",
+        "complete": true
+      },
+      "after": "Ready offline · all four rooms, audio, diagrams & source scans saved.",
+      "automaticallyAcknowledged": true,
+      "staleReplyIgnored": false,
+      "wrongHttp200Responses": [],
+      "expectedIntegrityConsoleErrors": [],
+      "offlineFourRooms": true,
+      "unchangedCanonReadingSha256": "049167ea0d02c47e32e6125ca474983c9edd499a00aa5b7b1c9a64ae42333feb",
+      "offlineIllustratedReadingSaved": true
+    },
+    {
+      "engine": "firefox",
+      "mode": "wrong",
+      "oldEdition": "101ccba774eabe89c391931f8aa835fd6bcf9c4dbbd971e0fd22794b59dfabda",
+      "newEdition": "923eda9f59222d87a0249d471f0357903de8c3789d8211a31f88b2c3f38c2000",
+      "before": "This edition is not saved offline. Keep this tab open to continue reading.",
+      "workerAfter": {
+        "type": "PYKNON_EDITION",
+        "edition": "923eda9f59222d87a0249d471f0357903de8c3789d8211a31f88b2c3f38c2000",
+        "complete": true
+      },
+      "after": "Ready offline · all four rooms, audio, diagrams & source scans saved.",
+      "automaticallyAcknowledged": true,
+      "staleReplyIgnored": false,
+      "wrongHttp200Responses": [
+        {
+          "url": "/pyknon/trial.html",
+          "status": 200,
+          "oldEntryInsteadOfNewCanon": true
+        }
+      ],
+      "expectedIntegrityConsoleErrors": [],
+      "offlineFourRooms": true,
+      "unchangedCanonReadingSha256": "049167ea0d02c47e32e6125ca474983c9edd499a00aa5b7b1c9a64ae42333feb",
+      "offlineIllustratedReadingSaved": true
+    }
+  ]
+}
