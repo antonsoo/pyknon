@@ -1,0 +1,63 @@
+// Full printed witnesses and Greek-font identities for the portable reading.
+export const RHYTHM_ASSETS = [
+  {
+    file: "sources/rhythm/westphal-title.jpg",
+    printedPage: "title",
+    pdfPage: 11,
+    sha256: "255cc1aaf6044cdf06ae32b5c09aa8e59fac08177a7276c43035dd40fa39988f",
+    bytes: 75951,
+  },
+  {
+    file: "sources/rhythm/westphal-28.jpg",
+    printedPage: 28,
+    pdfPage: 52,
+    sha256: "c455c4d03ceac6dfde47ec08628b5704ef23d31c14e2fa2ca76f7148f1484d54",
+    bytes: 334264,
+  },
+  {
+    file: "sources/rhythm/westphal-31.jpg",
+    printedPage: 31,
+    pdfPage: 55,
+    sha256: "323add28a636b727597fe6b409f579965ad65c9a36c12f27b8f9bf4b30695056",
+    bytes: 527474,
+  },
+  {
+    file: "sources/rhythm/westphal-33.jpg",
+    printedPage: 33,
+    pdfPage: 57,
+    sha256: "e99aff7fb72ea74f5cb31f077c990a0f5108493bf20c71bd383f57ce4a07d48e",
+    bytes: 535721,
+  },
+  {
+    file: "sources/rhythm/westphal-34.jpg",
+    printedPage: 34,
+    pdfPage: 58,
+    sha256: "ae30fe891d856634660a9a3b995b812b04bb5096dcf1c351a8a79637925b1f39",
+    bytes: 533950,
+  },
+  {
+    file: "sources/rhythm/westphal-35.jpg",
+    printedPage: 35,
+    pdfPage: 59,
+    sha256: "c97c8aa74cff5f0c82ffd76961c8109bd6aa5d95db4f930d78212e94dafdbab7",
+    bytes: 463225,
+  },
+  {
+    file: "sources/rhythm/westphal-36.jpg",
+    printedPage: 36,
+    pdfPage: 60,
+    sha256: "591624336ea6d720443425ea71d69cc7c49b700fe3697942386b8af1e1208600",
+    bytes: 464115,
+  },
+  {
+    file: "sources/rhythm/westphal-37.jpg",
+    printedPage: 37,
+    pdfPage: 61,
+    sha256: "9c6d99267e239d061a674e464404e1818067c6a33746b6d9a6df4b900a506f1e",
+    bytes: 503768,
+  },
+  {
+    file: "fonts/NotoSerif-Regular.ttf",
+    sha256: "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6",
+  },
+] as const;
