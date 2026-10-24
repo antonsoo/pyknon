@@ -5,7 +5,7 @@ Greek musical thought, with no prior Greek or physics required. The object is
 a string under examination, not a catalogue of instruments. Keep Pyknon’s
 violet ink, warm paper, readable Greek and immediate play/stop controls.
 
-Ptolemy, *Harmonics* I.8, describes testing a string before using its divisions
+Ptolemy, _Harmonics_ I.8, describes testing a string before using its divisions
 to investigate musical ratios. Compare the whole string’s halves, then the
 right half’s halves. If the required agreement fails, move the trial to another
 part or another string. The selected Greek, Wallis’s Latin and new English
@@ -40,12 +40,12 @@ actual distribution; its mean density is not substituted into the uniform
 string formula. The selected tones are sine waves at the computed fundamental
 frequencies, not simulated plucks, historical tuning or instrument timbre.
 
-| Profile | Eight relative-density cells (h is the selected heavy density) |
-| --- | --- |
-| Uniform | 1, 1, 1, 1, 1, 1, 1, 1 |
-| Heavy outer quarters | h, h, 1, 1, 1, 1, h, h |
-| Repeating hidden variation | 1, h, h, 1, 1, h, h, 1 |
-| Heavy left half | h, h, h, h, 1, 1, 1, 1 |
+| Profile                    | Eight relative-density cells (h is the selected heavy density) |
+| -------------------------- | -------------------------------------------------------------- |
+| Uniform                    | 1, 1, 1, 1, 1, 1, 1, 1                                         |
+| Heavy outer quarters       | h, h, 1, 1, 1, 1, h, h                                         |
+| Repeating hidden variation | 1, h, h, 1, 1, h, h, 1                                         |
+| Heavy left half            | h, h, h, h, 1, 1, 1, 1                                         |
 
 ## Eigenvalue calculation
 

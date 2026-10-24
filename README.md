@@ -91,6 +91,43 @@ divisions, cents and acoustic beating are explanatory comparisons, without
 a claim about ancient performance. The [source and design decisions](docs/canon-design.md)
 and [review record](docs/canon-review.md) describe the boundaries and evidence.
 
+## Can you trust the string behind the ruler?
+
+The **[String trial](https://antonsoo.github.io/pyknon/trial.html)** reads Ptolemy’s
+_Harmonics_ I.8. Before using a monochord’s divisions, he compares equal halves
+of its string, then two equal quarters. If the required agreement fails, move
+the examination to another part or another string.
+
+The first guided example passes the halves test and fails the quarters. A
+repeating mass pattern passes both, then fails an extra eighths test. You can
+hear each pair, change the mass contrast, inspect the calculated first modes,
+and compare all three measurements. The extra test and stepwise mass patterns
+are explicit modern experiments. Agreement at these divisions does not prove
+arbitrary material uniformity.
+
+| Chosen mass profile  | Halves agree | Right quarters agree | Extra eighths agree |
+| -------------------- | ------------ | -------------------- | ------------------- |
+| Uniform              | Yes          | Yes                  | Yes                 |
+| Heavy outer quarters | Yes          | No                   | Yes                 |
+| Repeating variation  | Yes          | Yes                  | No                  |
+| Heavy left half      | No           | Yes                  | Yes                 |
+
+This table uses the selected heavy density 2.25 times the reference. The
+nonuniform model follows the mass distribution through every cell; it does
+not substitute an average into the uniform-string formula. An independent
+grid eigenvalue calculation checks the application’s exact cell solutions.
+
+Read six short Greek / Wallis Latin / new English excerpts, with grammar notes
+and three reading questions. Inspect six full 1682 pages, zoom and pan by
+keyboard, including Wallis’s discussion of his changed bridge diagram. Save
+a single HTML packet with the Greek font, all scans, playable selected WAV,
+measurements and diagram. Its embedded CSV, WAV and SVG downloads work from disk.
+The shared URL preserves the experiment and reading.
+
+[Source and derivation](docs/trial-model.md) · [Review](docs/trial-review.md).
+The ideal model holds tension fixed while adding exact supports. It does not
+model bridge-induced stretching, real gut manufacture or ancient performance.
+
 ## Run locally
 
 Requires Node.js 24 or later. Python 3 is used only for independent verification.
@@ -190,7 +227,7 @@ by the new simultaneous-tone signal checker; the site has no runtime dependency.
 during the run. Its screenshots should be inspected, not treated as proof
 merely because a file was produced.
 
-The shared offline status also follows complete edition upgrades across all three rooms; [reproduction and review](docs/offline-upgrade.md).
+The shared offline status also follows complete edition upgrades across all four rooms; [reproduction and review](docs/offline-upgrade.md).
 
 ## Contributing and license
 

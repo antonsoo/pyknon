@@ -2,7 +2,7 @@
   "name": "@antonsoloviev/pyknon",
   "version": "0.1.0",
   "private": true,
-  "description": "Hear Archytas\u2019s tetrachords and discover what twelve-note rounding loses.",
+  "description": "Hear ancient Greek musical arguments, read their sources, and test a monochord before trusting its ruler.",
   "type": "module",
   "author": "Anton Soloviev <anton@praviel.com>",
   "license": "MIT",
@@ -17,7 +17,9 @@
     "microtonal",
     "tetrachord",
     "web-audio",
-    "education"
+    "education",
+    "ptolemy",
+    "monochord"
   ],
   "engines": {
     "node": ">=24"
@@ -36,7 +38,9 @@
     "verify:song": "node --import tsx scripts/song-cases.ts | python3 scripts/song-oracle.py",
     "test:song": "node scripts/song-browser.mjs",
     "verify:canon": "node --import tsx scripts/canon-cases.ts | python3 scripts/canon-oracle.py",
-    "test:canon": "node scripts/canon-browser.mjs"
+    "test:canon": "node scripts/canon-browser.mjs",
+    "verify:trial": "node --import tsx scripts/trial-cases.ts | uv run --python 3.12 scripts/trial-oracle.py",
+    "test:trial": "node scripts/trial-browser.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",

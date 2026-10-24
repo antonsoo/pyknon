@@ -204,3 +204,35 @@ explanations and comparisons. They are not attributed to the wording of IX
 or XIV. The work's 9:8 tone must not be silently replaced with a modern
 200-cent tone, nor this argument substituted for Archytas's different
 tetrachord divisions or the Seikilos song's modern realization.
+
+## Ptolemy’s instrument examination, Wallis 1682
+
+The string trial uses _Harmonics_ I.8 in the same identified 1682 PDF as the
+Archytas room (SHA-256 `862839d2cd52dfc62004d0f68da4d8381417e8be69e3901db0d5f73568931884`).
+Printed pp. **33–38** are PDF pp. **55–60**. Six full JPEGs in
+`public/sources/trial/` were rendered with Poppler at 1800 pixels, JPEG quality
+82. The [manifest](public/sources/trial/manifest.json) records every identity
+and the [complete scan](https://archive.org/details/bim_early-english-books-1641-1700_-harmonicor_ptolomaeus-claudius_1682/page/n58/mode/2up).
+Ancient text, Wallis’s Latin and these complete edition pages are public domain.
+
+All six pages and selected phrases were visually inspected. Greek ligatures
+and Unicode are normalized, line breaks joined, and barred lowercase segment
+letters printed as capitals. Latin long-s is normalized; the ampersand is
+retained where quoted. These are six selected phrases, not a continuous chapter
+translation. English translations and grammar notes are new, without adopting
+a modern copyrighted English translation. Greek Η is Latin G in Wallis’s
+diagram, and Greek Λ is Latin L. The selected condition continues with an
+inference about the string’s unvarying constitution, identified explicitly
+in the notes rather than silently treated as a sufficient modern proof.
+
+The two examination comparisons are the whole string’s halves, then the
+right-hand half’s halves. The eighths test, stepwise mass profiles and
+repeating counterexample are our additions. The modern flexible-string wave
+equation, frequency values, arbitrary-amplitude mode shapes and synthesized
+sines are not attributed to Ptolemy. No string material or ancient instrument
+precision is inferred. Wallis’s long bridge-surface note on p. 36 remains
+included; the printed diagram is editorial evidence, not an ancient blueprint.
+
+Before embedding scans and font in a saved reading, the exporter verifies
+their SHA-256 identities. The complete Noto Serif OFL notice is embedded too.
+The selected generated audio, exact CSV and native SVG accompany that packet.

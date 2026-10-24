@@ -76,7 +76,7 @@ def browser_cases(report):
     cases = []
     for config in report["configurations"]:
         for item in config["measurements"]:
-            for row in csv.DictReader(io.StringIO(Path(item["csv"]).read_text())):
+            for row in csv.DictReader(io.StringIO((Path(sys.argv[1]).parent / item["csv"]).read_text())):
                 cases.append({"string": row["string"], "contrast": float(row["relative_heavy_density"]),
                               "root": int(row["uniform_full_string_hz"]), "test": int(row["test"]),
                               "aHz": float(row["a_hz"]), "bHz": float(row["b_hz"])})
