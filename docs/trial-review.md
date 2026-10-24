@@ -1,9 +1,8 @@
 # Ptolemy’s string examination
 
 Reviewed 2026-10-24. **Equal lengths. Unequal notes.** is a fourth Pyknon
-room, reading the instrument examination in _Harmonics_ I.8. This record
-describes local production behavior. Publication is recorded separately
-after public files and workflows have actually been checked.
+room, reading the instrument examination in _Harmonics_ I.8. The room is now [publicly hosted](https://antonsoo.github.io/pyknon/trial.html).
+Local, source and public-host observations are recorded separately below.
 
 ## What the learner can do
 
@@ -168,3 +167,28 @@ No service worker is installed in development. The clean clone’s documented
 checked separately under Node 24 in all four configurations: styled SVG,
 responsive mode, no worker registration, and actual saved HTML matching the
 production packet; [clean quickstart receipt](trial-clean-development.json).
+
+## Public publication
+
+Source `872e046` and Pages `1e9d4ea` publish the reviewed four-room edition.
+[All 39 canonical public files](trial-hosted-files.json) match the reviewed
+build, including the worker. The directory entry is checked before and after
+the inventory, without query-string cache busting. All seven earlier hashed
+assets from the previous three-room build remain byte-identical.
+
+[Four hosted browser workflows](trial-hosted-browser.json) repeat the learning
+controls, readings, six source scans, playback, questions, history, shared
+state, malformed fields, source zoom and keyboard pan. Actual HTML, CSV, SVG
+and WAV exports match the local files. All **148 hosted WAVs** are byte-identical
+to the independently measured local corpus. Native saved packets decode their
+images and font and play embedded audio without networking. All four app rooms
+remain usable with browser networking disabled. No page errors, external
+subresource requests, CSP violations or automated accessibility violations
+were observed. The controlled wrong-source and missed-controller cases remain
+local experiments, rather than claims that the public origin served bad bytes.
+
+```sh
+node scripts/trial-hosted.mjs /tmp/pyknon-trial-hosted /path/to/previous-three-room/dist
+```
+
+No registry package release is made; this is a source and GitHub Pages update.
