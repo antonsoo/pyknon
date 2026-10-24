@@ -29,3 +29,5 @@ jobs:
       - run: python3 -m pip install -r scripts/requirements-audio.txt
       - run: npm run test:canon -- /tmp/pyknon-canon-review/browser.json
       - run: python3 scripts/canon-audio-oracle.py /tmp/pyknon-canon-review/browser.json
+      - run: npm run test:rhythm -- /tmp/pyknon-rhythm-review
+      - run: python3 scripts/rhythm-wave-oracle.py /tmp/pyknon-rhythm-review/chromium-1440
