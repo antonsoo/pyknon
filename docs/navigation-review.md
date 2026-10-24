@@ -59,5 +59,8 @@ node scripts/trial-browser.mjs /tmp/music-navigation-workflows '' production --q
 
 ## Publication
 
-Local review is complete. The public edition and clean-build verification are
-recorded here after publication.
+A fresh local Git clone of `3340ee9`, installed with `npm ci` under
+**Node.js 24.21.0**, passes lint, strict typecheck, 15 existing checks and the
+production build. All **39 output files** match the browser-reviewed bytes,
+and the fresh tree remains clean; [clean-build receipt](navigation-clean-build.json).
+Public publication is recorded below after the hosted files are verified.

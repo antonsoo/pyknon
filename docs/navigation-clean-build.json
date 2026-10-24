@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-10-24T17:43:06.067205+00:00",
+  "source": "3340ee9759c44e5376528ad27540ba0ebf14e160",
+  "node": "24.21.0",
+  "install": "npm ci in fresh local Git clone",
+  "checks": ["lint", "strict typecheck", "15 existing unit checks", "production build"],
+  "filesCompared": 39,
+  "expectedInventory": "docs/navigation-review.json",
+  "expectedInventorySha256": "229c6773f105e8a8c24df76553442eadc5b4004ea72cf417c63bdd3e2222235f",
+  "allFilesByteIdentical": true,
+  "freshTreeClean": true
+}
