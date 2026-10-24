@@ -134,7 +134,7 @@ model bridge-induced stretching, real gut manufacture or ancient performance.
 
 ## Six times, two rhythmic genera
 
-The new [rhythm room](rhythm.html) lets a foot stay at six primary times while
+The new [rhythm room](https://antonsoo.github.io/pyknon/rhythm.html) lets a foot stay at six primary times while
 you change its division from 3+3 to 2+4. The total stays fixed; its genus
 changes from equal/dactylic to double/iambic. Reverse the up/down assignments,
 or join the smaller attacks while preserving the defining division. Explore
@@ -159,7 +159,7 @@ images, font, editable JSON and the selected sound. The whole five-room edition
 works offline after complete installation. Sine clicks mark positions; their
 short decays do not represent sung note lengths or reconstruct ancient accents.
 
-This is a local source addition until its separate publication record is added.
+The reviewed five-room edition is public. [Publication evidence](docs/rhythm-publication.md) identifies the source, Pages commit and canonical hosted files.
 [Source and model](docs/rhythm-model.md) · [Direct review](docs/rhythm-review.md) ·
 [Saved reading](examples/rhythm-reading.html) · [Printable reading](examples/rhythm-reading.pdf).
 

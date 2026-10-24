@@ -1,0 +1,505 @@
+{
+  "checkedAt": "2026-10-24T21:44:35.131Z",
+  "scope": "Canonical HTTPS URLs without query cache-busting; every current build file plus directory index before and after. Extra historical hashed assets are outside this inventory.",
+  "base": "https://antonsoo.github.io/pyknon/",
+  "sourceRevision": "c91cdc576af85baf113fba182fe89e8d44c9340f",
+  "pagesRevision": "6a36cd6cb2f83f7b6b88175b02e231897186a34d",
+  "directoryBefore": {
+    "file": "",
+    "bytes": 1051,
+    "sha256": "d54b8209169ecd8243675c21be22359bbb66e07e6a9d722ee945f2fa9e251282",
+    "status": 200,
+    "actualBytes": 1051,
+    "actualSha256": "d54b8209169ecd8243675c21be22359bbb66e07e6a9d722ee945f2fa9e251282",
+    "matches": true
+  },
+  "directoryAfter": {
+    "file": "",
+    "bytes": 1051,
+    "sha256": "d54b8209169ecd8243675c21be22359bbb66e07e6a9d722ee945f2fa9e251282",
+    "status": 200,
+    "actualBytes": 1051,
+    "actualSha256": "d54b8209169ecd8243675c21be22359bbb66e07e6a9d722ee945f2fa9e251282",
+    "matches": true
+  },
+  "files": [
+    {
+      "file": "assets/NotoSerif-OFL-BfJp0Y5l.js",
+      "bytes": 4420,
+      "sha256": "d817862d25fb8983adc9ea1bce36bd055f4102c1dcf110fce69f915d2804b32c",
+      "status": 200,
+      "actualBytes": 4420,
+      "actualSha256": "d817862d25fb8983adc9ea1bce36bd055f4102c1dcf110fce69f915d2804b32c",
+      "matches": true
+    },
+    {
+      "file": "assets/canon-BJmuqEnr.js",
+      "bytes": 38351,
+      "sha256": "0d3fa2c3b937d3c286fe3cef7c26c6536ac5c052ef3620a6e19e4bb8933a6e13",
+      "status": 200,
+      "actualBytes": 38351,
+      "actualSha256": "0d3fa2c3b937d3c286fe3cef7c26c6536ac5c052ef3620a6e19e4bb8933a6e13",
+      "matches": true
+    },
+    {
+      "file": "assets/canon-CgpS1fgs.css",
+      "bytes": 6257,
+      "sha256": "446930f4f53d3e0211f317a517d3e9e0749b009e3aa4c599523847ba4111e28c",
+      "status": 200,
+      "actualBytes": 6257,
+      "actualSha256": "446930f4f53d3e0211f317a517d3e9e0749b009e3aa4c599523847ba4111e28c",
+      "matches": true
+    },
+    {
+      "file": "assets/main-DNxwav2n.js",
+      "bytes": 24199,
+      "sha256": "0767ecb258b37604863fa37912e4eca2cb606123ad2f6425445bd12844f57492",
+      "status": 200,
+      "actualBytes": 24199,
+      "actualSha256": "0767ecb258b37604863fa37912e4eca2cb606123ad2f6425445bd12844f57492",
+      "matches": true
+    },
+    {
+      "file": "assets/offline-DDU6gthp.js",
+      "bytes": 5164,
+      "sha256": "4f8ebcfd8f0e8594a900918502d719f147925dc19a8500d3602cd85c9713da23",
+      "status": 200,
+      "actualBytes": 5164,
+      "actualSha256": "4f8ebcfd8f0e8594a900918502d719f147925dc19a8500d3602cd85c9713da23",
+      "matches": true
+    },
+    {
+      "file": "assets/offline-DSKqIBUv.css",
+      "bytes": 11676,
+      "sha256": "c205d254b5abf16ea22e10b255297e43984ffc125fc5f5299a003809a504f746",
+      "status": 200,
+      "actualBytes": 11676,
+      "actualSha256": "c205d254b5abf16ea22e10b255297e43984ffc125fc5f5299a003809a504f746",
+      "matches": true
+    },
+    {
+      "file": "assets/rhythm-BxI1eojA.css",
+      "bytes": 6455,
+      "sha256": "2d5ea1c470ba22b06c0299665346adf011ef4b014ddf9b705e443548ab8f4849",
+      "status": 200,
+      "actualBytes": 6455,
+      "actualSha256": "2d5ea1c470ba22b06c0299665346adf011ef4b014ddf9b705e443548ab8f4849",
+      "matches": true
+    },
+    {
+      "file": "assets/rhythm-vU3ML1nm.js",
+      "bytes": 55591,
+      "sha256": "95bad120e487fea223585bd6d1ffb666a228ff7b86e7cda589bca7bf90486b3b",
+      "status": 200,
+      "actualBytes": 55591,
+      "actualSha256": "95bad120e487fea223585bd6d1ffb666a228ff7b86e7cda589bca7bf90486b3b",
+      "matches": true
+    },
+    {
+      "file": "assets/song-BkD-sMAx.js",
+      "bytes": 28675,
+      "sha256": "0b8d45a957243eda50eac79efb5678ef228f7c7d2f664c8649118ae382dfc02c",
+      "status": 200,
+      "actualBytes": 28675,
+      "actualSha256": "0b8d45a957243eda50eac79efb5678ef228f7c7d2f664c8649118ae382dfc02c",
+      "matches": true
+    },
+    {
+      "file": "assets/song-DU6C71Tm.css",
+      "bytes": 6660,
+      "sha256": "e87da18d9b995f447720ef476ca21d54d7562a1d7053e48d3b70705f7ef89b60",
+      "status": 200,
+      "actualBytes": 6660,
+      "actualSha256": "e87da18d9b995f447720ef476ca21d54d7562a1d7053e48d3b70705f7ef89b60",
+      "matches": true
+    },
+    {
+      "file": "assets/tetrachord-BqvDPsjm.js",
+      "bytes": 2038,
+      "sha256": "9676ab0401f96fff23375a6143e159cddb1a7465ee1b529d773a0f81c6c80139",
+      "status": 200,
+      "actualBytes": 2038,
+      "actualSha256": "9676ab0401f96fff23375a6143e159cddb1a7465ee1b529d773a0f81c6c80139",
+      "matches": true
+    },
+    {
+      "file": "assets/trial-BwMkpQZK.js",
+      "bytes": 39185,
+      "sha256": "681f0c8fe66ab5a3ad6fe827c12fbb043ef5f50b8435092b3ced454f971d5bf3",
+      "status": 200,
+      "actualBytes": 39185,
+      "actualSha256": "681f0c8fe66ab5a3ad6fe827c12fbb043ef5f50b8435092b3ced454f971d5bf3",
+      "matches": true
+    },
+    {
+      "file": "assets/trial-C9QZtLCn.css",
+      "bytes": 6224,
+      "sha256": "864cad158975b48cad28a82baef00ea176f66e13c312afb6d12c9a2d4b9d146e",
+      "status": 200,
+      "actualBytes": 6224,
+      "actualSha256": "864cad158975b48cad28a82baef00ea176f66e13c312afb6d12c9a2d4b9d146e",
+      "matches": true
+    },
+    {
+      "file": "canon.html",
+      "bytes": 1121,
+      "sha256": "0dd22b82508e0bedf5d0b4db012d3a724f099ca191bacb394634a73d17f15dc8",
+      "status": 200,
+      "actualBytes": 1121,
+      "actualSha256": "0dd22b82508e0bedf5d0b4db012d3a724f099ca191bacb394634a73d17f15dc8",
+      "matches": true
+    },
+    {
+      "file": "fonts/IBMPlex-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "status": 200,
+      "actualBytes": 4456,
+      "actualSha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "matches": true
+    },
+    {
+      "file": "fonts/IBMPlexSans-Regular.woff2",
+      "bytes": 63020,
+      "sha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a",
+      "status": 200,
+      "actualBytes": 63020,
+      "actualSha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a",
+      "matches": true
+    },
+    {
+      "file": "fonts/IBMPlexSans-SemiBold.woff2",
+      "bytes": 67060,
+      "sha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205",
+      "status": 200,
+      "actualBytes": 67060,
+      "actualSha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205",
+      "matches": true
+    },
+    {
+      "file": "fonts/NotoSerif-OFL.txt",
+      "bytes": 4396,
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "status": 200,
+      "actualBytes": 4396,
+      "actualSha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "matches": true
+    },
+    {
+      "file": "fonts/NotoSerif-Regular.ttf",
+      "bytes": 444064,
+      "sha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6",
+      "status": 200,
+      "actualBytes": 444064,
+      "actualSha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6",
+      "matches": true
+    },
+    {
+      "file": "index.html",
+      "bytes": 1051,
+      "sha256": "d54b8209169ecd8243675c21be22359bbb66e07e6a9d722ee945f2fa9e251282",
+      "status": 200,
+      "actualBytes": 1051,
+      "actualSha256": "d54b8209169ecd8243675c21be22359bbb66e07e6a9d722ee945f2fa9e251282",
+      "matches": true
+    },
+    {
+      "file": "rhythm.html",
+      "bytes": 1206,
+      "sha256": "335aa2730fce9bdc3013bf3ec7c41cb84d17849fcb56b5e41e48197b23851f6b",
+      "status": 200,
+      "actualBytes": 1206,
+      "actualSha256": "335aa2730fce9bdc3013bf3ec7c41cb84d17849fcb56b5e41e48197b23851f6b",
+      "matches": true
+    },
+    {
+      "file": "song.html",
+      "bytes": 1122,
+      "sha256": "337d118df9ab6019c7d22e4a12794825000f9864b234e6200c09755c4e1d28fa",
+      "status": 200,
+      "actualBytes": 1122,
+      "actualSha256": "337d118df9ab6019c7d22e4a12794825000f9864b234e6200c09755c4e1d28fa",
+      "matches": true
+    },
+    {
+      "file": "sources/canon/menge-170.jpg",
+      "bytes": 328144,
+      "sha256": "dcc5aa0766a580e2a3d6e10a4bbccc5bb03042a845ea8263ca2ba47fccc27817",
+      "status": 200,
+      "actualBytes": 328144,
+      "actualSha256": "dcc5aa0766a580e2a3d6e10a4bbccc5bb03042a845ea8263ca2ba47fccc27817",
+      "matches": true
+    },
+    {
+      "file": "sources/canon/menge-171.jpg",
+      "bytes": 293460,
+      "sha256": "72d4dc1d525c9b2cbb3e1af95e1656dc46f3eca4edd18f56bbf39f75e98bd57d",
+      "status": 200,
+      "actualBytes": 293460,
+      "actualSha256": "72d4dc1d525c9b2cbb3e1af95e1656dc46f3eca4edd18f56bbf39f75e98bd57d",
+      "matches": true
+    },
+    {
+      "file": "sources/canon/menge-172.jpg",
+      "bytes": 341043,
+      "sha256": "0262cfa2cb42c56e93a16a32a8f445bd31206a7fcf1216bfd53aaf98a577e522",
+      "status": 200,
+      "actualBytes": 341043,
+      "actualSha256": "0262cfa2cb42c56e93a16a32a8f445bd31206a7fcf1216bfd53aaf98a577e522",
+      "matches": true
+    },
+    {
+      "file": "sources/canon/menge-173.jpg",
+      "bytes": 319301,
+      "sha256": "ce0f45cb57a71a92ed2dacde8677d7979383bfc57c4eb85b4e6ad669c8c5844e",
+      "status": 200,
+      "actualBytes": 319301,
+      "actualSha256": "ce0f45cb57a71a92ed2dacde8677d7979383bfc57c4eb85b4e6ad669c8c5844e",
+      "matches": true
+    },
+    {
+      "file": "sources/canon/menge-174.jpg",
+      "bytes": 315662,
+      "sha256": "df0a0f90048b46f60fadf024e8248789f87d2ece67cc344f94df2a739e8da130",
+      "status": 200,
+      "actualBytes": 315662,
+      "actualSha256": "df0a0f90048b46f60fadf024e8248789f87d2ece67cc344f94df2a739e8da130",
+      "matches": true
+    },
+    {
+      "file": "sources/canon/menge-175.jpg",
+      "bytes": 296605,
+      "sha256": "2edd6567bbf8f54e95fac83d6a2fc84077129dd9d2ec11fef07918129c44d1fc",
+      "status": 200,
+      "actualBytes": 296605,
+      "actualSha256": "2edd6567bbf8f54e95fac83d6a2fc84077129dd9d2ec11fef07918129c44d1fc",
+      "matches": true
+    },
+    {
+      "file": "sources/macran-182.jpg",
+      "bytes": 373644,
+      "sha256": "870edc78b7ed3e08e38bfbe458722a774623562228152b2d9c07ed74c8165697",
+      "status": 200,
+      "actualBytes": 373644,
+      "actualSha256": "870edc78b7ed3e08e38bfbe458722a774623562228152b2d9c07ed74c8165697",
+      "matches": true
+    },
+    {
+      "file": "sources/rhythm/manifest.json",
+      "bytes": 2425,
+      "sha256": "ca7e4a14a6c65e9a0ee3e9bfc7b2d0fbe6db82d8689f504bfa3186c1242c83ac",
+      "status": 200,
+      "actualBytes": 2425,
+      "actualSha256": "ca7e4a14a6c65e9a0ee3e9bfc7b2d0fbe6db82d8689f504bfa3186c1242c83ac",
+      "matches": true
+    },
+    {
+      "file": "sources/rhythm/westphal-28.jpg",
+      "bytes": 334264,
+      "sha256": "c455c4d03ceac6dfde47ec08628b5704ef23d31c14e2fa2ca76f7148f1484d54",
+      "status": 200,
+      "actualBytes": 334264,
+      "actualSha256": "c455c4d03ceac6dfde47ec08628b5704ef23d31c14e2fa2ca76f7148f1484d54",
+      "matches": true
+    },
+    {
+      "file": "sources/rhythm/westphal-31.jpg",
+      "bytes": 527474,
+      "sha256": "323add28a636b727597fe6b409f579965ad65c9a36c12f27b8f9bf4b30695056",
+      "status": 200,
+      "actualBytes": 527474,
+      "actualSha256": "323add28a636b727597fe6b409f579965ad65c9a36c12f27b8f9bf4b30695056",
+      "matches": true
+    },
+    {
+      "file": "sources/rhythm/westphal-33.jpg",
+      "bytes": 535721,
+      "sha256": "e99aff7fb72ea74f5cb31f077c990a0f5108493bf20c71bd383f57ce4a07d48e",
+      "status": 200,
+      "actualBytes": 535721,
+      "actualSha256": "e99aff7fb72ea74f5cb31f077c990a0f5108493bf20c71bd383f57ce4a07d48e",
+      "matches": true
+    },
+    {
+      "file": "sources/rhythm/westphal-34.jpg",
+      "bytes": 533950,
+      "sha256": "ae30fe891d856634660a9a3b995b812b04bb5096dcf1c351a8a79637925b1f39",
+      "status": 200,
+      "actualBytes": 533950,
+      "actualSha256": "ae30fe891d856634660a9a3b995b812b04bb5096dcf1c351a8a79637925b1f39",
+      "matches": true
+    },
+    {
+      "file": "sources/rhythm/westphal-35.jpg",
+      "bytes": 463225,
+      "sha256": "c97c8aa74cff5f0c82ffd76961c8109bd6aa5d95db4f930d78212e94dafdbab7",
+      "status": 200,
+      "actualBytes": 463225,
+      "actualSha256": "c97c8aa74cff5f0c82ffd76961c8109bd6aa5d95db4f930d78212e94dafdbab7",
+      "matches": true
+    },
+    {
+      "file": "sources/rhythm/westphal-36.jpg",
+      "bytes": 464115,
+      "sha256": "591624336ea6d720443425ea71d69cc7c49b700fe3697942386b8af1e1208600",
+      "status": 200,
+      "actualBytes": 464115,
+      "actualSha256": "591624336ea6d720443425ea71d69cc7c49b700fe3697942386b8af1e1208600",
+      "matches": true
+    },
+    {
+      "file": "sources/rhythm/westphal-37.jpg",
+      "bytes": 503768,
+      "sha256": "9c6d99267e239d061a674e464404e1818067c6a33746b6d9a6df4b900a506f1e",
+      "status": 200,
+      "actualBytes": 503768,
+      "actualSha256": "9c6d99267e239d061a674e464404e1818067c6a33746b6d9a6df4b900a506f1e",
+      "matches": true
+    },
+    {
+      "file": "sources/rhythm/westphal-title.jpg",
+      "bytes": 75951,
+      "sha256": "255cc1aaf6044cdf06ae32b5c09aa8e59fac08177a7276c43035dd40fa39988f",
+      "status": 200,
+      "actualBytes": 75951,
+      "actualSha256": "255cc1aaf6044cdf06ae32b5c09aa8e59fac08177a7276c43035dd40fa39988f",
+      "matches": true
+    },
+    {
+      "file": "sources/seikilos/inscription.jpg",
+      "bytes": 210980,
+      "sha256": "da774306bb3f05873e7126596612e5b623bd9255b0564b36d11bfb1be4826729",
+      "status": 200,
+      "actualBytes": 210980,
+      "actualSha256": "da774306bb3f05873e7126596612e5b623bd9255b0564b36d11bfb1be4826729",
+      "matches": true
+    },
+    {
+      "file": "sources/seikilos/monro-correction.jpg",
+      "bytes": 32797,
+      "sha256": "6df42768a72811fa199c7d89bd4c4ebbc9fb46d0d1d63e413a6b4c845a60c34d",
+      "status": 200,
+      "actualBytes": 32797,
+      "actualSha256": "6df42768a72811fa199c7d89bd4c4ebbc9fb46d0d1d63e413a6b4c845a60c34d",
+      "matches": true
+    },
+    {
+      "file": "sources/seikilos/monro-ending.jpg",
+      "bytes": 18620,
+      "sha256": "c2a8ad3dbf2feaebde1b51f25aee415690ec3254c5f65d74daf27405a0d10ac3",
+      "status": 200,
+      "actualBytes": 18620,
+      "actualSha256": "c2a8ad3dbf2feaebde1b51f25aee415690ec3254c5f65d74daf27405a0d10ac3",
+      "matches": true
+    },
+    {
+      "file": "sources/seikilos/stele.jpg",
+      "bytes": 64634,
+      "sha256": "9ddb805f113cdb555dde628b40c8c1efc3e9fb6c0b13d42905ab7dfb726b8050",
+      "status": 200,
+      "actualBytes": 64634,
+      "actualSha256": "9ddb805f113cdb555dde628b40c8c1efc3e9fb6c0b13d42905ab7dfb726b8050",
+      "matches": true
+    },
+    {
+      "file": "sources/trial/manifest.json",
+      "bytes": 1589,
+      "sha256": "a25a6ea5291bd08223bddfe2566d7a104b70ce80aaf75d16e8e7de160c4c2d03",
+      "status": 200,
+      "actualBytes": 1589,
+      "actualSha256": "a25a6ea5291bd08223bddfe2566d7a104b70ce80aaf75d16e8e7de160c4c2d03",
+      "matches": true
+    },
+    {
+      "file": "sources/trial/wallis-33.jpg",
+      "bytes": 388580,
+      "sha256": "a8f150e64864e4b57e196a74ae7791f277dc14408c24553c4a0b4f157276b76e",
+      "status": 200,
+      "actualBytes": 388580,
+      "actualSha256": "a8f150e64864e4b57e196a74ae7791f277dc14408c24553c4a0b4f157276b76e",
+      "matches": true
+    },
+    {
+      "file": "sources/trial/wallis-34.jpg",
+      "bytes": 440943,
+      "sha256": "2f5e135b552fdf18d33b2acbd62de63014f4976d4d73119f7057cd80f2a85ad4",
+      "status": 200,
+      "actualBytes": 440943,
+      "actualSha256": "2f5e135b552fdf18d33b2acbd62de63014f4976d4d73119f7057cd80f2a85ad4",
+      "matches": true
+    },
+    {
+      "file": "sources/trial/wallis-35.jpg",
+      "bytes": 382400,
+      "sha256": "845b1b834be897fb29228cac2f0d9e5d63d2b9ee6e5197c1e5414f6054bec699",
+      "status": 200,
+      "actualBytes": 382400,
+      "actualSha256": "845b1b834be897fb29228cac2f0d9e5d63d2b9ee6e5197c1e5414f6054bec699",
+      "matches": true
+    },
+    {
+      "file": "sources/trial/wallis-36.jpg",
+      "bytes": 474075,
+      "sha256": "b19f0f0711bbb330e6be15adbdcc8673d5c18a07251041e19e87b179e8ecec3a",
+      "status": 200,
+      "actualBytes": 474075,
+      "actualSha256": "b19f0f0711bbb330e6be15adbdcc8673d5c18a07251041e19e87b179e8ecec3a",
+      "matches": true
+    },
+    {
+      "file": "sources/trial/wallis-37.jpg",
+      "bytes": 411937,
+      "sha256": "03a75e9a322834a5cef8409dca253df3bc4f9c2f7c80e66e8ae5652a7d5ac136",
+      "status": 200,
+      "actualBytes": 411937,
+      "actualSha256": "03a75e9a322834a5cef8409dca253df3bc4f9c2f7c80e66e8ae5652a7d5ac136",
+      "matches": true
+    },
+    {
+      "file": "sources/trial/wallis-38.jpg",
+      "bytes": 316899,
+      "sha256": "d750fde885dfaf57eae7c7ac3fa2c48c2e6bdd99ee1c7f5298935e1254322983",
+      "status": 200,
+      "actualBytes": 316899,
+      "actualSha256": "d750fde885dfaf57eae7c7ac3fa2c48c2e6bdd99ee1c7f5298935e1254322983",
+      "matches": true
+    },
+    {
+      "file": "sources/wallis-62.jpg",
+      "bytes": 608756,
+      "sha256": "bb4e8eb52d20cc23cbb91b4e1ff6a8319e8bd0a8092ab8b899d2970087d427c2",
+      "status": 200,
+      "actualBytes": 608756,
+      "actualSha256": "bb4e8eb52d20cc23cbb91b4e1ff6a8319e8bd0a8092ab8b899d2970087d427c2",
+      "matches": true
+    },
+    {
+      "file": "sources/wallis-63.jpg",
+      "bytes": 547639,
+      "sha256": "e9d74ef39d02b2dd124792b8ebff2260805ceeead6bde6a3be0adb1a904dbafd",
+      "status": 200,
+      "actualBytes": 547639,
+      "actualSha256": "e9d74ef39d02b2dd124792b8ebff2260805ceeead6bde6a3be0adb1a904dbafd",
+      "matches": true
+    },
+    {
+      "file": "sw.js",
+      "bytes": 8982,
+      "sha256": "174bfd96c29a7c52f37e51f74a66873cfc5edbd6e364f4d51c2949752393d181",
+      "status": 200,
+      "actualBytes": 8982,
+      "actualSha256": "174bfd96c29a7c52f37e51f74a66873cfc5edbd6e364f4d51c2949752393d181",
+      "matches": true
+    },
+    {
+      "file": "trial.html",
+      "bytes": 1249,
+      "sha256": "60352b216b738c5d090409ab2ff1d9293958568ee3601df694caf6398027b707",
+      "status": 200,
+      "actualBytes": 1249,
+      "actualSha256": "60352b216b738c5d090409ab2ff1d9293958568ee3601df694caf6398027b707",
+      "matches": true
+    }
+  ],
+  "mismatches": []
+}

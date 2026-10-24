@@ -1,0 +1,276 @@
+{
+  "checkedAt": "2026-10-24T21:44:31.159Z",
+  "scope": "Public site, real browser operations and native files. Offline checks disable browser networking; the public origin remains available.",
+  "base": "https://antonsoo.github.io/pyknon/",
+  "workerSha256": "174bfd96c29a7c52f37e51f74a66873cfc5edbd6e364f4d51c2949752393d181",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "sourcePartitionsOperated": ["3+3", "2+4", "4+2", "1+5", "2+3", "3+4", "4+4"],
+      "unitKeyboardChanged": true,
+      "liveScheduledOscillators": [
+        {
+          "hz": 720,
+          "start": 0.16,
+          "stops": [0.28]
+        },
+        {
+          "hz": 480,
+          "start": 1.06,
+          "stops": [1.1800000000000002]
+        },
+        {
+          "hz": 720,
+          "start": 1.96,
+          "stops": [2.08]
+        },
+        {
+          "hz": 480,
+          "start": 2.86,
+          "stops": [2.98]
+        },
+        {
+          "hz": 720,
+          "start": 4.21,
+          "stops": [4.33]
+        },
+        {
+          "hz": 480,
+          "start": 4.81,
+          "stops": [4.93]
+        },
+        {
+          "hz": 720,
+          "start": 6.01,
+          "stops": [6.13]
+        },
+        {
+          "hz": 480,
+          "start": 6.609999999999999,
+          "stops": [6.7299999999999995]
+        }
+      ],
+      "controlChangeStopsActualOscillators": true,
+      "reducedMotionRespected": true,
+      "passagesRead": 10,
+      "wordNotesByKeyboard": 43,
+      "sourceHashesVerified": 8,
+      "sourceZoomByKeyboard": true,
+      "strictNativeJsonReopen": true,
+      "clickTimeSnapshot": true,
+      "comparisonWavSha256": "6f2e6cd5022f45a3aca126b1f58640dbe1df8908c22a88fe9773c38c29d0ebca",
+      "betweenWavSha256": "e16901333ba74fefb56d296131ba1d53abbde3139b9673af90b130c5600762a4",
+      "readingSha256": "77dbb2433276efba5bc1c1ababe8b744de70fc05085b59015f5b75ab3d4731d7",
+      "offlineOriginDisabled": false,
+      "offlineRooms": ["index.html", "song.html", "canon.html", "trial.html", "rhythm.html"],
+      "offlineIllustratedReading": true,
+      "axeViolations": 0,
+      "portableRemoteRequests": [],
+      "pageErrors": [],
+      "externalRequests": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "sourcePartitionsOperated": ["3+3", "2+4", "4+2", "1+5", "2+3", "3+4", "4+4"],
+      "unitKeyboardChanged": true,
+      "liveScheduledOscillators": [
+        {
+          "hz": 720,
+          "start": 0.16,
+          "stops": [0.28]
+        },
+        {
+          "hz": 480,
+          "start": 1.06,
+          "stops": [1.1800000000000002]
+        },
+        {
+          "hz": 720,
+          "start": 1.96,
+          "stops": [2.08]
+        },
+        {
+          "hz": 480,
+          "start": 2.86,
+          "stops": [2.98]
+        },
+        {
+          "hz": 720,
+          "start": 4.21,
+          "stops": [4.33]
+        },
+        {
+          "hz": 480,
+          "start": 4.81,
+          "stops": [4.93]
+        },
+        {
+          "hz": 720,
+          "start": 6.01,
+          "stops": [6.13]
+        },
+        {
+          "hz": 480,
+          "start": 6.609999999999999,
+          "stops": [6.7299999999999995]
+        }
+      ],
+      "controlChangeStopsActualOscillators": true,
+      "reducedMotionRespected": true,
+      "passagesRead": 10,
+      "wordNotesByKeyboard": 43,
+      "sourceHashesVerified": 8,
+      "sourceZoomByKeyboard": true,
+      "strictNativeJsonReopen": true,
+      "clickTimeSnapshot": true,
+      "comparisonWavSha256": "6f2e6cd5022f45a3aca126b1f58640dbe1df8908c22a88fe9773c38c29d0ebca",
+      "betweenWavSha256": "e16901333ba74fefb56d296131ba1d53abbde3139b9673af90b130c5600762a4",
+      "readingSha256": "77dbb2433276efba5bc1c1ababe8b744de70fc05085b59015f5b75ab3d4731d7",
+      "offlineOriginDisabled": false,
+      "offlineRooms": ["index.html", "song.html", "canon.html", "trial.html", "rhythm.html"],
+      "offlineIllustratedReading": true,
+      "axeViolations": 0,
+      "portableRemoteRequests": [],
+      "pageErrors": [],
+      "externalRequests": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "sourcePartitionsOperated": ["3+3", "2+4", "4+2", "1+5", "2+3", "3+4", "4+4"],
+      "unitKeyboardChanged": true,
+      "liveScheduledOscillators": [
+        {
+          "hz": 720,
+          "start": 0.18612244897959185,
+          "stops": [0.30612244897959184]
+        },
+        {
+          "hz": 480,
+          "start": 1.0861224489795918,
+          "stops": [1.2061224489795919]
+        },
+        {
+          "hz": 720,
+          "start": 1.9861224489795917,
+          "stops": [2.1061224489795918]
+        },
+        {
+          "hz": 480,
+          "start": 2.8861224489795916,
+          "stops": [3.0061224489795917]
+        },
+        {
+          "hz": 720,
+          "start": 4.236122448979592,
+          "stops": [4.356122448979592]
+        },
+        {
+          "hz": 480,
+          "start": 4.836122448979592,
+          "stops": [4.956122448979592]
+        },
+        {
+          "hz": 720,
+          "start": 6.036122448979592,
+          "stops": [6.156122448979592]
+        },
+        {
+          "hz": 480,
+          "start": 6.636122448979592,
+          "stops": [6.756122448979592]
+        }
+      ],
+      "controlChangeStopsActualOscillators": true,
+      "reducedMotionRespected": true,
+      "passagesRead": 10,
+      "wordNotesByKeyboard": 43,
+      "sourceHashesVerified": 8,
+      "sourceZoomByKeyboard": true,
+      "strictNativeJsonReopen": true,
+      "clickTimeSnapshot": true,
+      "comparisonWavSha256": "ea19a85cf1910b796d87c826a0326f5b8f44732690438ea6f4b9e978bb7b5834",
+      "betweenWavSha256": "5c580de5397411074dbcbb082b4509a312f735725b5c23f4aaac4aacce7942eb",
+      "readingSha256": "4c345d8315b8b99b45cb0de1e0298e0e32208c73cd7463847ac9f9cfb7105fd8",
+      "offlineOriginDisabled": false,
+      "offlineRooms": ["index.html", "song.html", "canon.html", "trial.html", "rhythm.html"],
+      "offlineIllustratedReading": true,
+      "axeViolations": 0,
+      "portableRemoteRequests": [],
+      "pageErrors": [],
+      "externalRequests": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "sourcePartitionsOperated": ["3+3", "2+4", "4+2", "1+5", "2+3", "3+4", "4+4"],
+      "unitKeyboardChanged": true,
+      "liveScheduledOscillators": [
+        {
+          "hz": 720,
+          "start": 0.16870748299319727,
+          "stops": [0.28870748299319726]
+        },
+        {
+          "hz": 480,
+          "start": 1.0687074829931973,
+          "stops": [1.1887074829931974]
+        },
+        {
+          "hz": 720,
+          "start": 1.9687074829931972,
+          "stops": [2.0887074829931973]
+        },
+        {
+          "hz": 480,
+          "start": 2.868707482993197,
+          "stops": [2.988707482993197]
+        },
+        {
+          "hz": 720,
+          "start": 4.218707482993198,
+          "stops": [4.338707482993198]
+        },
+        {
+          "hz": 480,
+          "start": 4.818707482993197,
+          "stops": [4.938707482993197]
+        },
+        {
+          "hz": 720,
+          "start": 6.0187074829931975,
+          "stops": [6.138707482993198]
+        },
+        {
+          "hz": 480,
+          "start": 6.618707482993197,
+          "stops": [6.738707482993197]
+        }
+      ],
+      "controlChangeStopsActualOscillators": true,
+      "reducedMotionRespected": true,
+      "passagesRead": 10,
+      "wordNotesByKeyboard": 43,
+      "sourceHashesVerified": 8,
+      "sourceZoomByKeyboard": true,
+      "strictNativeJsonReopen": true,
+      "clickTimeSnapshot": true,
+      "comparisonWavSha256": "ea19a85cf1910b796d87c826a0326f5b8f44732690438ea6f4b9e978bb7b5834",
+      "betweenWavSha256": "5c580de5397411074dbcbb082b4509a312f735725b5c23f4aaac4aacce7942eb",
+      "readingSha256": "4c345d8315b8b99b45cb0de1e0298e0e32208c73cd7463847ac9f9cfb7105fd8",
+      "offlineOriginDisabled": false,
+      "offlineRooms": ["index.html", "song.html", "canon.html", "trial.html", "rhythm.html"],
+      "offlineIllustratedReading": true,
+      "axeViolations": 0,
+      "portableRemoteRequests": [],
+      "pageErrors": [],
+      "externalRequests": []
+    }
+  ]
+}
