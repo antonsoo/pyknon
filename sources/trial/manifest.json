@@ -1,0 +1,45 @@
+{
+  "edition": "Ptolemy, Harmonics I.8; John Wallis, Oxford 1682",
+  "url": "https://archive.org/details/bim_early-english-books-1641-1700_-harmonicor_ptolomaeus-claudius_1682/page/n54/mode/2up",
+  "originalPdfSha256": "862839d2cd52dfc62004d0f68da4d8381417e8be69e3901db0d5f73568931884",
+  "render": "pdftoppm -f 55 -l 60 -scale-to 1800 -jpeg -jpegopt quality=82",
+  "rights": "Ancient text, 1682 translation and full edition pages: public domain.",
+  "files": [
+    {
+      "file": "sources/trial/wallis-33.jpg",
+      "printedPage": 33,
+      "pdfPage": 55,
+      "sha256": "a8f150e64864e4b57e196a74ae7791f277dc14408c24553c4a0b4f157276b76e"
+    },
+    {
+      "file": "sources/trial/wallis-34.jpg",
+      "printedPage": 34,
+      "pdfPage": 56,
+      "sha256": "2f5e135b552fdf18d33b2acbd62de63014f4976d4d73119f7057cd80f2a85ad4"
+    },
+    {
+      "file": "sources/trial/wallis-35.jpg",
+      "printedPage": 35,
+      "pdfPage": 57,
+      "sha256": "845b1b834be897fb29228cac2f0d9e5d63d2b9ee6e5197c1e5414f6054bec699"
+    },
+    {
+      "file": "sources/trial/wallis-36.jpg",
+      "printedPage": 36,
+      "pdfPage": 58,
+      "sha256": "b19f0f0711bbb330e6be15adbdcc8673d5c18a07251041e19e87b179e8ecec3a"
+    },
+    {
+      "file": "sources/trial/wallis-37.jpg",
+      "printedPage": 37,
+      "pdfPage": 59,
+      "sha256": "03a75e9a322834a5cef8409dca253df3bc4f9c2f7c80e66e8ae5652a7d5ac136"
+    },
+    {
+      "file": "sources/trial/wallis-38.jpg",
+      "printedPage": 38,
+      "pdfPage": 60,
+      "sha256": "d750fde885dfaf57eae7c7ac3fa2c48c2e6bdd99ee1c7f5298935e1254322983"
+    }
+  ]
+}
