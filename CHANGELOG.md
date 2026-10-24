@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-10-24
+
+- Add Ptolemy’s string examination: compare equal halves and quarters, hear a
+  failing second test, and investigate a repeating mass pattern that passes
+  both until an extra diagnostic. Greek, Wallis Latin and English readings
+  accompany six full source pages.
+- Save one offline packet with playable audio, diagrams, exact measurements,
+  all readings, scans and font; provide an eleven-page printable example.
+- Require a matching complete worker to control a page before declaring offline
+  readiness, recover missed activation claims, and preserve older Pages assets.
+
 ## Unreleased
 
 - Follow the _Sectio canonis_ proof that six 9:8 tones exceed an octave, with

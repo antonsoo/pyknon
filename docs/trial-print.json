@@ -1,0 +1,40 @@
+{
+  "pdfSha256": "9f025353d38fbcae84f99062f63c81ed7812c5e41c13b1880b606a69098ff850",
+  "sheets": 11,
+  "unchangedSourceJpegs": [
+    {
+      "pdfSheet": 6,
+      "printedPage": 33,
+      "sha256": "a8f150e64864e4b57e196a74ae7791f277dc14408c24553c4a0b4f157276b76e"
+    },
+    {
+      "pdfSheet": 7,
+      "printedPage": 34,
+      "sha256": "2f5e135b552fdf18d33b2acbd62de63014f4976d4d73119f7057cd80f2a85ad4"
+    },
+    {
+      "pdfSheet": 8,
+      "printedPage": 35,
+      "sha256": "845b1b834be897fb29228cac2f0d9e5d63d2b9ee6e5197c1e5414f6054bec699"
+    },
+    {
+      "pdfSheet": 9,
+      "printedPage": 36,
+      "sha256": "b19f0f0711bbb330e6be15adbdcc8673d5c18a07251041e19e87b179e8ecec3a"
+    },
+    {
+      "pdfSheet": 10,
+      "printedPage": 37,
+      "sha256": "03a75e9a322834a5cef8409dca253df3bc4f9c2f7c80e66e8ae5652a7d5ac136"
+    },
+    {
+      "pdfSheet": 11,
+      "printedPage": 38,
+      "sha256": "d750fde885dfaf57eae7c7ac3fa2c48c2e6bdd99ee1c7f5298935e1254322983"
+    }
+  ],
+  "greekAndLatinExtractable": true,
+  "sourceCaptionsAndHashesOnTheirImageSheet": true,
+  "noEmptySheets": true,
+  "limit": "Browser print, not a separately typeset or tagged critical edition"
+}

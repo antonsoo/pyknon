@@ -1,0 +1,8 @@
+{
+  "cases": 108,
+  "frequencyComparisons": 216,
+  "modePointsCompared": 3680,
+  "maxAbsoluteHzError": 1.7492720871814527e-7,
+  "maxNormalizedModeError": 5.364912680771994e-8,
+  "method": "Independent 1024/2048-interval mass-lumped finite-difference eigenproblem; Richardson-extrapolated frequency. Application uses exact cell phase transfers."
+}

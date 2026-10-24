@@ -112,6 +112,8 @@ arbitrary material uniformity.
 | Repeating variation  | Yes          | Yes                  | No                  |
 | Heavy left half      | No           | Yes                  | Yes                 |
 
+![A nonuniform string passes the equal-halves trial](docs/assets/trial-desktop.png)
+
 This table uses the selected heavy density 2.25 times the reference. The
 nonuniform model follows the mass distribution through every cell; it does
 not substitute an average into the uniform-string formula. An independent
@@ -124,6 +126,8 @@ a single HTML packet with the Greek font, all scans, playable selected WAV,
 measurements and diagram. Its embedded CSV, WAV and SVG downloads work from disk.
 The shared URL preserves the experiment and reading.
 
+[Saved reading with audio](examples/string-trial-reading.html) ·
+[Eleven-page PDF](examples/string-trial-reading.pdf) ·
 [Source and derivation](docs/trial-model.md) · [Review](docs/trial-review.md).
 The ideal model holds tension fixed while adding exact supports. It does not
 model bridge-induced stretching, real gut manufacture or ancient performance.
@@ -216,6 +220,9 @@ python3 scripts/audio-oracle.py /tmp/pyknon-review/browser.json
 npm run verify:song
 npm run test:song -- /tmp/pyknon-song-review/browser.json
 python3 scripts/song-oracle.py /tmp/pyknon-song-review/browser.json
+npm run verify:trial
+npm run test:trial -- /tmp/pyknon-trial/browser
+uv run --python 3.12 scripts/trial-audio-oracle.py /tmp/pyknon-trial/browser/browser.json
 npm run verify:canon
 npm run test:canon -- /tmp/pyknon-canon-review/browser.json
 python3 -m pip install -r scripts/requirements-audio.txt

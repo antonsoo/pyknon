@@ -1,0 +1,4 @@
+string,relative_heavy_density,uniform_full_string_hz,test,a_segment,b_segment,a_hz,b_hz,b_minus_a_cents,absolute_difference_hz,equal_in_model,selected
+repeat,2.25,220,0,0:0.5,0.5:1,308.600376610892,308.600376610892,0,0,true,false
+repeat,2.25,220,1,0.5:0.75,0.75:1,678.4352813495258,678.4352813495258,0,0,true,false
+repeat,2.25,220,2,0.75:0.875,0.875:1,1173.3333333333333,1760,701.9550008653874,586.6666666666667,false,true
