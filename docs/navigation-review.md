@@ -63,4 +63,27 @@ A fresh local Git clone of `3340ee9`, installed with `npm ci` under
 **Node.js 24.21.0**, passes lint, strict typecheck, 15 existing checks and the
 production build. All **39 output files** match the browser-reviewed bytes,
 and the fresh tree remains clean; [clean-build receipt](navigation-clean-build.json).
-Public publication is recorded below after the hosted files are verified.
+
+Source `00f303c` and Pages `fa6212c` publish this edition.
+[All 39 canonical public files](navigation-hosted-files.json) match the clean,
+browser-reviewed build, including its service worker. All **nine hashed assets**
+from the preceding four-room edition remain byte-identical. The canonical
+directory entry also matches after all browser workflows; these checks use
+ordinary URLs without query-string cache busting.
+
+[Hosted navigation](navigation-hosted-navigation.json) repeats all **72 Tab/Enter
+routes** in the six browser/width configurations. All 24 header screenshots are
+pixel-identical to the local review. Both engines also save and open the octave
+reading offline at 320 pixels with its complete source packet; the saved files
+match their local versions. No document overflows horizontally.
+
+[Hosted study workflows](navigation-hosted-workflows.json) repeat the complete
+trial controls, readings, sources, native-file and offline journeys at both
+widths in both engines. All four native trial formats and the 16 selected WAVs
+match the independently measured edition. No page errors, external subresource
+requests, CSP violations or automated accessibility violations were observed.
+
+```sh
+node scripts/trial-hosted.mjs /tmp/music-navigation-hosted /path/to/preceding-four-room/dist docs/navigation-review.json --quick
+node scripts/navigation-review.mjs /path/to/preceding-four-room/dist /tmp/music-navigation-public https://antonsoo.github.io/pyknon/
+```

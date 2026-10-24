@@ -1,0 +1,207 @@
+{
+  "checkedAt": "2026-10-24T17:44:29.417Z",
+  "base": "https://antonsoo.github.io/pyknon/",
+  "method": "Canonical URLs without query strings; root checked before and after the file inventory",
+  "files": [
+    {
+      "file": "assets/canon-BchFuNDQ.js",
+      "sha256": "5a7d08706496ff60d3f51c1e6f90ca0fd2ffd29cca63185a4c78ec4be31b31dc"
+    },
+    {
+      "file": "assets/canon-CgpS1fgs.css",
+      "sha256": "446930f4f53d3e0211f317a517d3e9e0749b009e3aa4c599523847ba4111e28c"
+    },
+    {
+      "file": "assets/main-Nebm6CZ2.js",
+      "sha256": "e871b9369fd5c1de5d17a89dfd0b7d85c704376acd31ef9149c0c058c51edbf8"
+    },
+    {
+      "file": "assets/offline-B-UBb1ML.css",
+      "sha256": "f33d2822414a7c193159c04f740d3f141245ce4a5adba7b5fb76f09dd84d4ec9"
+    },
+    {
+      "file": "assets/offline-IAod7Np8.js",
+      "sha256": "ad0eec30d1c0e6c6e3d377b7badb2b6a5818ece60c82f79492ccebfa27207561"
+    },
+    {
+      "file": "assets/song-DTv9rDrE.js",
+      "sha256": "8f4ae0bd44624213302f7b0f5733fada41d374db90a7bb652ae00e4cb5ee6ff3"
+    },
+    {
+      "file": "assets/song-DU6C71Tm.css",
+      "sha256": "e87da18d9b995f447720ef476ca21d54d7562a1d7053e48d3b70705f7ef89b60"
+    },
+    {
+      "file": "assets/trial-C9QZtLCn.css",
+      "sha256": "864cad158975b48cad28a82baef00ea176f66e13c312afb6d12c9a2d4b9d146e"
+    },
+    {
+      "file": "assets/trial-DJ7P3xe7.js",
+      "sha256": "fc412a7dba4a64693d22f6179ed807198b1dd84d49b885685f466227c1371993"
+    },
+    {
+      "file": "canon.html",
+      "sha256": "f1b92b04c69f14ccfc0751e816baafc3d045abc5826763d49a1a1ce86469f37c"
+    },
+    {
+      "file": "fonts/IBMPlex-OFL.txt",
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "file": "fonts/IBMPlexSans-Regular.woff2",
+      "sha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a"
+    },
+    {
+      "file": "fonts/IBMPlexSans-SemiBold.woff2",
+      "sha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205"
+    },
+    {
+      "file": "fonts/NotoSerif-OFL.txt",
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a"
+    },
+    {
+      "file": "fonts/NotoSerif-Regular.ttf",
+      "sha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6"
+    },
+    {
+      "file": "index.html",
+      "sha256": "792fc7f2e109d916e848e39bfe21789cb63de7ac0a3c1719f90044624f2870da"
+    },
+    {
+      "file": "song.html",
+      "sha256": "2b26c429e7d6578df68860016db83cacce95fd850f37b1b8f091ce43cf362dcd"
+    },
+    {
+      "file": "sources/canon/menge-170.jpg",
+      "sha256": "dcc5aa0766a580e2a3d6e10a4bbccc5bb03042a845ea8263ca2ba47fccc27817"
+    },
+    {
+      "file": "sources/canon/menge-171.jpg",
+      "sha256": "72d4dc1d525c9b2cbb3e1af95e1656dc46f3eca4edd18f56bbf39f75e98bd57d"
+    },
+    {
+      "file": "sources/canon/menge-172.jpg",
+      "sha256": "0262cfa2cb42c56e93a16a32a8f445bd31206a7fcf1216bfd53aaf98a577e522"
+    },
+    {
+      "file": "sources/canon/menge-173.jpg",
+      "sha256": "ce0f45cb57a71a92ed2dacde8677d7979383bfc57c4eb85b4e6ad669c8c5844e"
+    },
+    {
+      "file": "sources/canon/menge-174.jpg",
+      "sha256": "df0a0f90048b46f60fadf024e8248789f87d2ece67cc344f94df2a739e8da130"
+    },
+    {
+      "file": "sources/canon/menge-175.jpg",
+      "sha256": "2edd6567bbf8f54e95fac83d6a2fc84077129dd9d2ec11fef07918129c44d1fc"
+    },
+    {
+      "file": "sources/macran-182.jpg",
+      "sha256": "870edc78b7ed3e08e38bfbe458722a774623562228152b2d9c07ed74c8165697"
+    },
+    {
+      "file": "sources/seikilos/inscription.jpg",
+      "sha256": "da774306bb3f05873e7126596612e5b623bd9255b0564b36d11bfb1be4826729"
+    },
+    {
+      "file": "sources/seikilos/monro-correction.jpg",
+      "sha256": "6df42768a72811fa199c7d89bd4c4ebbc9fb46d0d1d63e413a6b4c845a60c34d"
+    },
+    {
+      "file": "sources/seikilos/monro-ending.jpg",
+      "sha256": "c2a8ad3dbf2feaebde1b51f25aee415690ec3254c5f65d74daf27405a0d10ac3"
+    },
+    {
+      "file": "sources/seikilos/stele.jpg",
+      "sha256": "9ddb805f113cdb555dde628b40c8c1efc3e9fb6c0b13d42905ab7dfb726b8050"
+    },
+    {
+      "file": "sources/trial/manifest.json",
+      "sha256": "a25a6ea5291bd08223bddfe2566d7a104b70ce80aaf75d16e8e7de160c4c2d03"
+    },
+    {
+      "file": "sources/trial/wallis-33.jpg",
+      "sha256": "a8f150e64864e4b57e196a74ae7791f277dc14408c24553c4a0b4f157276b76e"
+    },
+    {
+      "file": "sources/trial/wallis-34.jpg",
+      "sha256": "2f5e135b552fdf18d33b2acbd62de63014f4976d4d73119f7057cd80f2a85ad4"
+    },
+    {
+      "file": "sources/trial/wallis-35.jpg",
+      "sha256": "845b1b834be897fb29228cac2f0d9e5d63d2b9ee6e5197c1e5414f6054bec699"
+    },
+    {
+      "file": "sources/trial/wallis-36.jpg",
+      "sha256": "b19f0f0711bbb330e6be15adbdcc8673d5c18a07251041e19e87b179e8ecec3a"
+    },
+    {
+      "file": "sources/trial/wallis-37.jpg",
+      "sha256": "03a75e9a322834a5cef8409dca253df3bc4f9c2f7c80e66e8ae5652a7d5ac136"
+    },
+    {
+      "file": "sources/trial/wallis-38.jpg",
+      "sha256": "d750fde885dfaf57eae7c7ac3fa2c48c2e6bdd99ee1c7f5298935e1254322983"
+    },
+    {
+      "file": "sources/wallis-62.jpg",
+      "sha256": "bb4e8eb52d20cc23cbb91b4e1ff6a8319e8bd0a8092ab8b899d2970087d427c2"
+    },
+    {
+      "file": "sources/wallis-63.jpg",
+      "sha256": "e9d74ef39d02b2dd124792b8ebff2260805ceeead6bde6a3be0adb1a904dbafd"
+    },
+    {
+      "file": "sw.js",
+      "sha256": "a0703f54af917ca1ffa66dc61f73d11066c9a33047d401c9b7ee6f8873276c82"
+    },
+    {
+      "file": "trial.html",
+      "sha256": "5d61b551bc6b16556899108cb5807dc0acd213ae2e7e30180f368ab1e4764098"
+    }
+  ],
+  "preservedEarlierAssets": [
+    {
+      "file": "assets/canon-B4HmA513.css",
+      "sha256": "841d997518e3e251b492b47fa52177dd85cd65d587b0935dcef1e5715e53f3eb"
+    },
+    {
+      "file": "assets/canon-BsNkvly5.js",
+      "sha256": "9ae18974c5d09f3baab225022caf4d5cbf3e63569f21af1f65a448d703ea7d0a"
+    },
+    {
+      "file": "assets/main-Ci1lhIoL.js",
+      "sha256": "9f74686c43d4e86db1784693513774c2a8cf99feb196956893fdb9b290688c49"
+    },
+    {
+      "file": "assets/offline-CyYOenOT.css",
+      "sha256": "8b3c0fb99574f30e9d24a504d2154f368e716b6b6deabf1d95980390cca2d2f1"
+    },
+    {
+      "file": "assets/offline-DTnqD6hm.js",
+      "sha256": "7ba6fe32f0d24bcd7cec50573d0eb05cb089fa44781fb55a52ab25c3ad7582c4"
+    },
+    {
+      "file": "assets/song-CCHpY4L1.js",
+      "sha256": "22e842c769daace153337bfcb4c09cbc47767bfddf0fdfa22f9d48c8aa187acb"
+    },
+    {
+      "file": "assets/song-DU6C71Tm.css",
+      "sha256": "e87da18d9b995f447720ef476ca21d54d7562a1d7053e48d3b70705f7ef89b60"
+    },
+    {
+      "file": "assets/trial-C9QZtLCn.css",
+      "sha256": "864cad158975b48cad28a82baef00ea176f66e13c312afb6d12c9a2d4b9d146e"
+    },
+    {
+      "file": "assets/trial-D9jx1rYi.js",
+      "sha256": "d484f114e63778a95dabb1105393afc7bbd12cf782ea841ee78060a4d7b9f4e4"
+    }
+  ],
+  "directoryEntryAfterWorkflows": {
+    "checkedAt": "2026-10-24T17:47:20.745Z",
+    "url": "https://antonsoo.github.io/pyknon/",
+    "status": 200,
+    "sha256": "792fc7f2e109d916e848e39bfe21789cb63de7ac0a3c1719f90044624f2870da"
+  }
+}
