@@ -152,3 +152,19 @@ next argument for the Vite development server. `--quick` omits most of the
 bulk WAV corpus while retaining the learning, source, native-file and offline
 workflows. Hosted offline checks disable browser networking, separately from
 the local origin-disconnection check.
+
+## Clean checkout and development
+
+A fresh local Git clone of `99a2f15`, installed with `npm ci` under
+**Node.js 24.21.0**, passes lint, strict typecheck, 15 tests and the production
+build. All **39 output files** match the browser-reviewed production bytes,
+and the fresh tree remains clean; [build receipt](trial-clean-build.json).
+
+The complete learning/source/native-file workflow also runs against Vite
+development in both browsers at both widths. All four native packet formats
+and the sixteen selected WAVs match production; [development receipt](trial-development.json).
+No service worker is installed in development. The clean clone’s documented
+`npm run dev` command and default `http://127.0.0.1:4329/pyknon/` URL were
+checked separately under Node 24 in all four configurations: styled SVG,
+responsive mode, no worker registration, and actual saved HTML matching the
+production packet; [clean quickstart receipt](trial-clean-development.json).

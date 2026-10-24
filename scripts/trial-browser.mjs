@@ -473,7 +473,7 @@ for (const [name, engine] of [
         report.configurations.push(item);
         await writeFile(path.join(out, "browser.json"), `${JSON.stringify(report, null, 2)}\n`);
         console.log(
-          `${name} ${width}: actual controls, ${item.waves.length} WAVs, source pages, saved audio and offline journey verified`,
+          `${name} ${width}: actual controls, ${item.waves.length} WAVs, source pages, saved audio and ${development ? "development resources" : "offline journey"} verified`,
         );
       } catch (e) {
         await page.screenshot({ path: path.join(folder, "failure.png"), fullPage: true });

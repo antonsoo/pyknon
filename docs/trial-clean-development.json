@@ -1,0 +1,45 @@
+{
+  "sourceCommit": "99a2f157d2f0d331e580edeb59915f8039d8e870",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "node": "24.21.0",
+      "documentedUrl": "http://127.0.0.1:4329/pyknon/",
+      "styledSvg": true,
+      "workerRegistrations": 0,
+      "savedHtmlSha256": "9e56fe5c1c4841d8b61355a654fa1711a0575f63e89473b012e9661745960ffe",
+      "matchesReviewedProduction": true
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "node": "24.21.0",
+      "documentedUrl": "http://127.0.0.1:4329/pyknon/",
+      "styledSvg": true,
+      "workerRegistrations": 0,
+      "savedHtmlSha256": "9e56fe5c1c4841d8b61355a654fa1711a0575f63e89473b012e9661745960ffe",
+      "matchesReviewedProduction": true
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "node": "24.21.0",
+      "documentedUrl": "http://127.0.0.1:4329/pyknon/",
+      "styledSvg": true,
+      "workerRegistrations": 0,
+      "savedHtmlSha256": "5a96fb9c7c3aed7fe0bcf32c06de1d54ff05604b076b4dd6940564166577357c",
+      "matchesReviewedProduction": true
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "node": "24.21.0",
+      "documentedUrl": "http://127.0.0.1:4329/pyknon/",
+      "styledSvg": true,
+      "workerRegistrations": 0,
+      "savedHtmlSha256": "5a96fb9c7c3aed7fe0bcf32c06de1d54ff05604b076b4dd6940564166577357c",
+      "matchesReviewedProduction": true
+    }
+  ]
+}

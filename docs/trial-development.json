@@ -1,0 +1,97 @@
+{
+  "mode": "Vite development; offline saving intentionally disabled",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "allControlsReadingsAndNativeFiles": true,
+      "pageErrors": [],
+      "cspViolations": [],
+      "native": {
+        "embeddedCsvMatches": true,
+        "embeddedWavMatches": true,
+        "embeddedSvgMatches": true,
+        "images": 6,
+        "audioTimeAdvanced": true,
+        "requests": []
+      },
+      "filesMatchProduction": {
+        "html": "9e56fe5c1c4841d8b61355a654fa1711a0575f63e89473b012e9661745960ffe",
+        "csv": "132b79dedc2de4f91a7471f5fd9eb63c34e3cec3ddaa4fee15b72d69168392aa",
+        "wav": "d7d2ad76ca20a4caec55c424ff104271acd39a6dab886995da77b2b9c80021c8",
+        "svg": "6d48747b0af0913a2cc8ec144d78897177b761367787f8ef3c6671972581440d"
+      },
+      "wavFilesMatchProduction": 4,
+      "serviceWorkerRegistrations": 0
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "allControlsReadingsAndNativeFiles": true,
+      "pageErrors": [],
+      "cspViolations": [],
+      "native": {
+        "embeddedCsvMatches": true,
+        "embeddedWavMatches": true,
+        "embeddedSvgMatches": true,
+        "images": 6,
+        "audioTimeAdvanced": true,
+        "requests": []
+      },
+      "filesMatchProduction": {
+        "html": "9e56fe5c1c4841d8b61355a654fa1711a0575f63e89473b012e9661745960ffe",
+        "csv": "132b79dedc2de4f91a7471f5fd9eb63c34e3cec3ddaa4fee15b72d69168392aa",
+        "wav": "d7d2ad76ca20a4caec55c424ff104271acd39a6dab886995da77b2b9c80021c8",
+        "svg": "6d48747b0af0913a2cc8ec144d78897177b761367787f8ef3c6671972581440d"
+      },
+      "wavFilesMatchProduction": 4,
+      "serviceWorkerRegistrations": 0
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "allControlsReadingsAndNativeFiles": true,
+      "pageErrors": [],
+      "cspViolations": [],
+      "native": {
+        "embeddedCsvMatches": true,
+        "embeddedWavMatches": true,
+        "embeddedSvgMatches": true,
+        "images": 6,
+        "audioTimeAdvanced": true,
+        "requests": []
+      },
+      "filesMatchProduction": {
+        "html": "5a96fb9c7c3aed7fe0bcf32c06de1d54ff05604b076b4dd6940564166577357c",
+        "csv": "132b79dedc2de4f91a7471f5fd9eb63c34e3cec3ddaa4fee15b72d69168392aa",
+        "wav": "7f74b0c326eae10e74cae0c765a3f51f2a6e6c27d1f942860c094eefef2575ec",
+        "svg": "ea9767ff7a0143ebf11860a9566b0b663b8d4946d619f22eae3b4086c9034408"
+      },
+      "wavFilesMatchProduction": 4,
+      "serviceWorkerRegistrations": 0
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "allControlsReadingsAndNativeFiles": true,
+      "pageErrors": [],
+      "cspViolations": [],
+      "native": {
+        "embeddedCsvMatches": true,
+        "embeddedWavMatches": true,
+        "embeddedSvgMatches": true,
+        "images": 6,
+        "audioTimeAdvanced": true,
+        "requests": []
+      },
+      "filesMatchProduction": {
+        "html": "5a96fb9c7c3aed7fe0bcf32c06de1d54ff05604b076b4dd6940564166577357c",
+        "csv": "132b79dedc2de4f91a7471f5fd9eb63c34e3cec3ddaa4fee15b72d69168392aa",
+        "wav": "7f74b0c326eae10e74cae0c765a3f51f2a6e6c27d1f942860c094eefef2575ec",
+        "svg": "ea9767ff7a0143ebf11860a9566b0b663b8d4946d619f22eae3b4086c9034408"
+      },
+      "wavFilesMatchProduction": 4,
+      "serviceWorkerRegistrations": 0
+    }
+  ]
+}
