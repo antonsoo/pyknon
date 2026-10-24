@@ -25,6 +25,7 @@ export default defineConfig(async ({ command }) => {
     "song.html",
     "canon.html",
     "trial.html",
+    "rhythm.html",
     "vite.config.ts",
     "tsconfig.json",
     "package.json",
@@ -40,7 +41,13 @@ export default defineConfig(async ({ command }) => {
     base,
     build: {
       rollupOptions: {
-        input: { main: "index.html", song: "song.html", canon: "canon.html", trial: "trial.html" },
+        input: {
+          main: "index.html",
+          song: "song.html",
+          canon: "canon.html",
+          trial: "trial.html",
+          rhythm: "rhythm.html",
+        },
       },
     },
     define: { __PYKNON_EDITION__: JSON.stringify(edition) },
@@ -86,9 +93,9 @@ self.addEventListener("message", event => {
     return;
   }
   if (event.data?.type !== "PYKNON_INSPECT" || !event.ports[0]) return;
-  event.waitUntil(caches.open(CACHE).then(cache => cache.keys()).then(keys => {
-    const saved = new Set(keys.map(request => new URL(request.url).pathname));
-    event.ports[0].postMessage({ type: "PYKNON_EDITION", edition: EDITION, complete: FILES.every(file => saved.has(file)) });
+  // Inspection must not recreate an obsolete cache after another worker retires it.
+  event.waitUntil(Promise.all(FILES.map(file => caches.match(file, { cacheName: CACHE }))).then(saved => {
+    event.ports[0].postMessage({ type: "PYKNON_EDITION", edition: EDITION, complete: saved.every(Boolean) });
   }).catch(() => event.ports[0].postMessage({ type: "PYKNON_EDITION", edition: EDITION, complete: false })));
 });
 self.addEventListener("fetch", event => {

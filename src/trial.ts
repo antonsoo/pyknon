@@ -36,7 +36,7 @@ const soundNames = {
 };
 
 get("#app").innerHTML = `<a class="skip" href="#trial">Skip to the string trial</a>
-<header class="site-header"><a href="./" class="brand">PYKNON<span lang="grc">πυκνόν</span></a><nav aria-label="Main"><a href="./#listen">Tetrachords</a><a href="./song.html">Read a song</a><a href="./canon.html">Six tones</a><a href="#trial" aria-current="page">String trial</a></nav></header>
+<header class="site-header"><a href="./" class="brand">PYKNON<span lang="grc">πυκνόν</span></a><nav aria-label="Main"><a href="./#listen">Tetrachords</a><a href="./song.html">Read a song</a><a href="./canon.html">Six tones</a><a href="#trial" aria-current="page">String trial</a><a href="./rhythm.html">Rhythm</a></nav></header>
 <main class="tr-main"><section class="tr-intro"><div><p class="eyebrow">PTOLEMY / HARMONICS I.8</p><h1>Equal lengths.<br>Unequal notes.</h1></div><div><p>Before trusting a musical ruler, test its string. Ptolemy compares two equal halves, then two equal quarters. What if the first test passes—and the next fails?</p><a class="text-link" href="#trial">Put the string on trial ↓</a><p class="source-caption">An ancient instrument check, explored with a modern string model. Greek, Latin and new English readings follow the experiment.</p></div></section>
 <p id="tr-notice" class="tr-notice" role="status" hidden></p>
 <section id="trial" class="tr-section" aria-labelledby="tr-title"><div class="section-heading"><div><p class="eyebrow">01 / LISTEN BEFORE YOU TRUST</p><h2 id="tr-title">One string. Two equal pieces.</h2></div><p class="section-aside">Length held equal.<br>Tension held fixed.</p></div>

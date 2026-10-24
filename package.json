@@ -19,7 +19,9 @@
     "web-audio",
     "education",
     "ptolemy",
-    "monochord"
+    "monochord",
+    "rhythm",
+    "aristoxenus"
   ],
   "engines": {
     "node": ">=24"
@@ -40,7 +42,10 @@
     "verify:canon": "node --import tsx scripts/canon-cases.ts | python3 scripts/canon-oracle.py",
     "test:canon": "node scripts/canon-browser.mjs",
     "verify:trial": "node --import tsx scripts/trial-cases.ts | uv run --python 3.12 scripts/trial-oracle.py",
-    "test:trial": "node scripts/trial-browser.mjs"
+    "test:trial": "node scripts/trial-browser.mjs",
+    "test:rhythm": "node scripts/rhythm-browser.mjs",
+    "test:rhythm-upgrade": "node scripts/rhythm-upgrade.mjs",
+    "verify:rhythm-audio": "python3 scripts/rhythm-wave-oracle.py"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",

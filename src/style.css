@@ -907,3 +907,14 @@ footer strong {
   border-top: 1px solid var(--line);
   padding-top: 18px;
 }
+
+@media (min-width: 621px) and (max-width: 1000px) {
+  .site-header {
+    gap: 20px;
+  }
+  .site-header nav {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 10px 20px;
+  }
+}
