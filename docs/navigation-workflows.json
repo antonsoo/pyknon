@@ -1,0 +1,201 @@
+{
+  "checkedAt": "2026-10-24T17:39:02.136Z",
+  "scope": "Current navigation edition; earlier independently checked string-trial files retained unchanged",
+  "previousBuildMatchesPublishedFourRoomFiles": 39,
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "native": {
+        "embeddedCsvMatches": true,
+        "embeddedWavMatches": true,
+        "embeddedSvgMatches": true,
+        "images": 6,
+        "audioTimeAdvanced": true,
+        "requests": []
+      },
+      "sourceMismatch": {
+        "httpStatus": 200,
+        "substitutedPage": "34 for 35",
+        "rejected": true,
+        "partialDownloads": 0,
+        "retryDownloaded": true
+      },
+      "offlineMethod": "Origin destroys sockets while navigator.onLine stays true",
+      "offlineRooms": ["index.html", "song.html", "canon.html", "trial.html"],
+      "pageErrors": [],
+      "cspViolations": [],
+      "externalRequests": [],
+      "axeViolations": 0,
+      "downloadSha256": {
+        "html": "9e56fe5c1c4841d8b61355a654fa1711a0575f63e89473b012e9661745960ffe",
+        "csv": "132b79dedc2de4f91a7471f5fd9eb63c34e3cec3ddaa4fee15b72d69168392aa",
+        "wav": "d7d2ad76ca20a4caec55c424ff104271acd39a6dab886995da77b2b9c80021c8",
+        "svg": "6d48747b0af0913a2cc8ec144d78897177b761367787f8ef3c6671972581440d"
+      },
+      "nativeFormatsMatchMeasuredEdition": true,
+      "wavFilesMatchMeasuredEdition": 4,
+      "waveSha256": [
+        {
+          "file": "chromium-1440/repeat-2-compare.wav",
+          "sha256": "d7d2ad76ca20a4caec55c424ff104271acd39a6dab886995da77b2b9c80021c8"
+        },
+        {
+          "file": "chromium-1440/repeat-2-together.wav",
+          "sha256": "f8fcce869774bc07a2275ed96e356a2658b953ccdef9b64ea001c5e53fdc90f0"
+        },
+        {
+          "file": "chromium-1440/repeat-2-control.wav",
+          "sha256": "32005f759da88a90474008c46ab4fe8bdca7cc46a48c415a0e95f6ccfe492aea"
+        },
+        {
+          "file": "chromium-1440/left-2-110-compare.wav",
+          "sha256": "7be8fbcc48b6c30a46ff9283eb23b38c5484128594bc2449cb71728ebcd04640"
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "native": {
+        "embeddedCsvMatches": true,
+        "embeddedWavMatches": true,
+        "embeddedSvgMatches": true,
+        "images": 6,
+        "audioTimeAdvanced": true,
+        "requests": []
+      },
+      "offlineMethod": "Origin destroys sockets while navigator.onLine stays true",
+      "offlineRooms": ["index.html", "song.html", "canon.html", "trial.html"],
+      "pageErrors": [],
+      "cspViolations": [],
+      "externalRequests": [],
+      "axeViolations": 0,
+      "downloadSha256": {
+        "html": "9e56fe5c1c4841d8b61355a654fa1711a0575f63e89473b012e9661745960ffe",
+        "csv": "132b79dedc2de4f91a7471f5fd9eb63c34e3cec3ddaa4fee15b72d69168392aa",
+        "wav": "d7d2ad76ca20a4caec55c424ff104271acd39a6dab886995da77b2b9c80021c8",
+        "svg": "6d48747b0af0913a2cc8ec144d78897177b761367787f8ef3c6671972581440d"
+      },
+      "nativeFormatsMatchMeasuredEdition": true,
+      "wavFilesMatchMeasuredEdition": 4,
+      "waveSha256": [
+        {
+          "file": "chromium-375/repeat-2-compare.wav",
+          "sha256": "d7d2ad76ca20a4caec55c424ff104271acd39a6dab886995da77b2b9c80021c8"
+        },
+        {
+          "file": "chromium-375/repeat-2-together.wav",
+          "sha256": "f8fcce869774bc07a2275ed96e356a2658b953ccdef9b64ea001c5e53fdc90f0"
+        },
+        {
+          "file": "chromium-375/repeat-2-control.wav",
+          "sha256": "32005f759da88a90474008c46ab4fe8bdca7cc46a48c415a0e95f6ccfe492aea"
+        },
+        {
+          "file": "chromium-375/left-2-110-compare.wav",
+          "sha256": "7be8fbcc48b6c30a46ff9283eb23b38c5484128594bc2449cb71728ebcd04640"
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "native": {
+        "embeddedCsvMatches": true,
+        "embeddedWavMatches": true,
+        "embeddedSvgMatches": true,
+        "images": 6,
+        "audioTimeAdvanced": true,
+        "requests": []
+      },
+      "sourceMismatch": {
+        "httpStatus": 200,
+        "substitutedPage": "34 for 35",
+        "rejected": true,
+        "partialDownloads": 0,
+        "retryDownloaded": true
+      },
+      "offlineMethod": "Origin destroys sockets while navigator.onLine stays true",
+      "offlineRooms": ["index.html", "song.html", "canon.html", "trial.html"],
+      "pageErrors": [],
+      "cspViolations": [],
+      "externalRequests": [],
+      "axeViolations": 0,
+      "downloadSha256": {
+        "html": "5a96fb9c7c3aed7fe0bcf32c06de1d54ff05604b076b4dd6940564166577357c",
+        "csv": "132b79dedc2de4f91a7471f5fd9eb63c34e3cec3ddaa4fee15b72d69168392aa",
+        "wav": "7f74b0c326eae10e74cae0c765a3f51f2a6e6c27d1f942860c094eefef2575ec",
+        "svg": "ea9767ff7a0143ebf11860a9566b0b663b8d4946d619f22eae3b4086c9034408"
+      },
+      "nativeFormatsMatchMeasuredEdition": true,
+      "wavFilesMatchMeasuredEdition": 4,
+      "waveSha256": [
+        {
+          "file": "firefox-1440/repeat-2-compare.wav",
+          "sha256": "7f74b0c326eae10e74cae0c765a3f51f2a6e6c27d1f942860c094eefef2575ec"
+        },
+        {
+          "file": "firefox-1440/repeat-2-together.wav",
+          "sha256": "589d413e97f9dd0210a9caf5a0b10cc9fc1d08f52c11c27b2d5eb94c22a4c551"
+        },
+        {
+          "file": "firefox-1440/repeat-2-control.wav",
+          "sha256": "4945b6286cc615fde94d64b2e70bb03382fcafae19593db8ae4cc00be27a423d"
+        },
+        {
+          "file": "firefox-1440/left-2-110-compare.wav",
+          "sha256": "bff2d58613ffceb067d9f042b18f5ea3df964dd366198f1859018ce159b16246"
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "native": {
+        "embeddedCsvMatches": true,
+        "embeddedWavMatches": true,
+        "embeddedSvgMatches": true,
+        "images": 6,
+        "audioTimeAdvanced": true,
+        "requests": []
+      },
+      "offlineMethod": "Origin destroys sockets while navigator.onLine stays true",
+      "offlineRooms": ["index.html", "song.html", "canon.html", "trial.html"],
+      "pageErrors": [],
+      "cspViolations": [],
+      "externalRequests": [],
+      "axeViolations": 0,
+      "downloadSha256": {
+        "html": "5a96fb9c7c3aed7fe0bcf32c06de1d54ff05604b076b4dd6940564166577357c",
+        "csv": "132b79dedc2de4f91a7471f5fd9eb63c34e3cec3ddaa4fee15b72d69168392aa",
+        "wav": "7f74b0c326eae10e74cae0c765a3f51f2a6e6c27d1f942860c094eefef2575ec",
+        "svg": "ea9767ff7a0143ebf11860a9566b0b663b8d4946d619f22eae3b4086c9034408"
+      },
+      "nativeFormatsMatchMeasuredEdition": true,
+      "wavFilesMatchMeasuredEdition": 4,
+      "waveSha256": [
+        {
+          "file": "firefox-375/repeat-2-compare.wav",
+          "sha256": "7f74b0c326eae10e74cae0c765a3f51f2a6e6c27d1f942860c094eefef2575ec"
+        },
+        {
+          "file": "firefox-375/repeat-2-together.wav",
+          "sha256": "589d413e97f9dd0210a9caf5a0b10cc9fc1d08f52c11c27b2d5eb94c22a4c551"
+        },
+        {
+          "file": "firefox-375/repeat-2-control.wav",
+          "sha256": "4945b6286cc615fde94d64b2e70bb03382fcafae19593db8ae4cc00be27a423d"
+        },
+        {
+          "file": "firefox-375/left-2-110-compare.wav",
+          "sha256": "bff2d58613ffceb067d9f042b18f5ea3df964dd366198f1859018ce159b16246"
+        }
+      ]
+    }
+  ]
+}

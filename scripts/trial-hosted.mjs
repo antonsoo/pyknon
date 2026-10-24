@@ -4,12 +4,17 @@ import { createHash } from "node:crypto";
 import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
-const [outName, previousDist] = process.argv.slice(2);
-assert(outName && previousDist, "Supply evidence directory and previous three-room dist");
+const [outName, previousDist, inventoryName = "docs/trial-browser.json", ...flags] =
+  process.argv.slice(2);
+assert(
+  flags.every((flag) => flag === "--quick"),
+  "Only --quick is supported after the inventory",
+);
+assert(outName && previousDist, "Supply evidence directory and previous dist");
 const out = path.resolve(outName),
   base = "https://antonsoo.github.io/pyknon/";
 await mkdir(out, { recursive: true });
-const expected = JSON.parse(await readFile("docs/trial-browser.json", "utf8"));
+const expected = JSON.parse(await readFile(inventoryName, "utf8"));
 const digest = (b) => createHash("sha256").update(b).digest("hex");
 async function verify(file, sha256) {
   const response = await fetch(base + file, { cache: "no-store" });
@@ -43,7 +48,7 @@ console.log(
 );
 const result = spawnSync(
   process.execPath,
-  ["scripts/trial-browser.mjs", path.join(out, "browser"), base],
+  ["scripts/trial-browser.mjs", path.join(out, "browser"), base, ...flags],
   { stdio: "inherit" },
 );
 assert.equal(result.status, 0, "Public browser review failed");

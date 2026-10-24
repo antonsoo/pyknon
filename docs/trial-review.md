@@ -3,6 +3,8 @@
 Reviewed 2026-10-24. **Equal lengths. Unequal notes.** is a fourth Pyknon
 room, reading the instrument examination in _Harmonics_ I.8. The room is now [publicly hosted](https://antonsoo.github.io/pyknon/trial.html).
 Local, source and public-host observations are recorded separately below.
+The subsequent [phone navigation review](navigation-review.md) records the
+header and narrow arithmetic-table correction, with its separate build inventory.
 
 ## What the learner can do
 

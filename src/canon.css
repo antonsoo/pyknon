@@ -195,6 +195,9 @@
   gap: 35px;
   align-items: start;
 }
+.proof-layout > * {
+  min-width: 0;
+}
 .integer-table {
   font-variant-numeric: tabular-nums;
 }
