@@ -1,0 +1,14 @@
+{
+  "format": "pyknon-weighted-strings",
+  "version": 1,
+  "weights": [
+    "32/3",
+    "9",
+    "12"
+  ],
+  "selected": 1,
+  "root": 110,
+  "sound": "together",
+  "passage": 0,
+  "page": "meibom-11"
+}

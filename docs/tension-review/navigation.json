@@ -1,0 +1,3139 @@
+{
+  "checkedAt": "2026-10-25T20:58:09.582Z",
+  "scope": "Header and document bounds at six widths, plus actual keyboard route from all six rooms. Service workers blocked in this layout-only review; lifecycle/offline verification is separate.",
+  "base": "http://127.0.0.1:4430/pyknon/",
+  "cases": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "room": "index.html",
+      "scrollWidth": 375,
+      "navRight": 357,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 18,
+          "right": 82
+        },
+        {
+          "text": "Read a song",
+          "left": 98,
+          "right": 164
+        },
+        {
+          "text": "Six tones",
+          "left": 180,
+          "right": 230
+        },
+        {
+          "text": "String trial",
+          "left": 246,
+          "right": 300
+        },
+        {
+          "text": "Rhythm",
+          "left": 18,
+          "right": 60
+        },
+        {
+          "text": "Weighted strings",
+          "left": 76,
+          "right": 167
+        },
+        {
+          "text": "Code ↗",
+          "left": 183,
+          "right": 224
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "room": "song.html",
+      "scrollWidth": 375,
+      "navRight": 357,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 18,
+          "right": 82
+        },
+        {
+          "text": "Read a song",
+          "left": 98,
+          "right": 164
+        },
+        {
+          "text": "Six tones",
+          "left": 180,
+          "right": 230
+        },
+        {
+          "text": "String trial",
+          "left": 246,
+          "right": 300
+        },
+        {
+          "text": "Rhythm",
+          "left": 18,
+          "right": 60
+        },
+        {
+          "text": "Weighted strings",
+          "left": 76,
+          "right": 167
+        },
+        {
+          "text": "Sources",
+          "left": 183,
+          "right": 227
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "room": "canon.html",
+      "scrollWidth": 375,
+      "navRight": 357,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 18,
+          "right": 82
+        },
+        {
+          "text": "Read a song",
+          "left": 98,
+          "right": 164
+        },
+        {
+          "text": "Six tones",
+          "left": 180,
+          "right": 230
+        },
+        {
+          "text": "String trial",
+          "left": 246,
+          "right": 300
+        },
+        {
+          "text": "Rhythm",
+          "left": 18,
+          "right": 60
+        },
+        {
+          "text": "Weighted strings",
+          "left": 76,
+          "right": 167
+        },
+        {
+          "text": "Code ↗",
+          "left": 183,
+          "right": 224
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "room": "trial.html",
+      "scrollWidth": 375,
+      "navRight": 357,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 18,
+          "right": 82
+        },
+        {
+          "text": "Read a song",
+          "left": 98,
+          "right": 164
+        },
+        {
+          "text": "Six tones",
+          "left": 180,
+          "right": 230
+        },
+        {
+          "text": "String trial",
+          "left": 246,
+          "right": 300
+        },
+        {
+          "text": "Rhythm",
+          "left": 18,
+          "right": 60
+        },
+        {
+          "text": "Weighted strings",
+          "left": 76,
+          "right": 167
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "room": "rhythm.html",
+      "scrollWidth": 375,
+      "navRight": 357,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 18,
+          "right": 82
+        },
+        {
+          "text": "Read a song",
+          "left": 98,
+          "right": 164
+        },
+        {
+          "text": "Six tones",
+          "left": 180,
+          "right": 230
+        },
+        {
+          "text": "String trial",
+          "left": 246,
+          "right": 300
+        },
+        {
+          "text": "Rhythm",
+          "left": 18,
+          "right": 60
+        },
+        {
+          "text": "Weighted strings",
+          "left": 76,
+          "right": 167
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "room": "tension.html",
+      "scrollWidth": 375,
+      "navRight": 357,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 18,
+          "right": 82
+        },
+        {
+          "text": "Read a song",
+          "left": 98,
+          "right": 164
+        },
+        {
+          "text": "Six tones",
+          "left": 180,
+          "right": 230
+        },
+        {
+          "text": "String trial",
+          "left": 246,
+          "right": 300
+        },
+        {
+          "text": "Rhythm",
+          "left": 18,
+          "right": 60
+        },
+        {
+          "text": "Weighted strings",
+          "left": 76,
+          "right": 167
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 621,
+      "room": "index.html",
+      "scrollWidth": 621,
+      "navRight": 596,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 263,
+          "right": 338
+        },
+        {
+          "text": "Read a song",
+          "left": 358,
+          "right": 433
+        },
+        {
+          "text": "Six tones",
+          "left": 453,
+          "right": 511
+        },
+        {
+          "text": "String trial",
+          "left": 531,
+          "right": 596
+        },
+        {
+          "text": "Rhythm",
+          "left": 354,
+          "right": 403
+        },
+        {
+          "text": "Weighted strings",
+          "left": 423,
+          "right": 529
+        },
+        {
+          "text": "Code ↗",
+          "left": 549,
+          "right": 596
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 621,
+      "room": "song.html",
+      "scrollWidth": 621,
+      "navRight": 596,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 263,
+          "right": 338
+        },
+        {
+          "text": "Read a song",
+          "left": 358,
+          "right": 433
+        },
+        {
+          "text": "Six tones",
+          "left": 453,
+          "right": 511
+        },
+        {
+          "text": "String trial",
+          "left": 531,
+          "right": 596
+        },
+        {
+          "text": "Rhythm",
+          "left": 350,
+          "right": 399
+        },
+        {
+          "text": "Weighted strings",
+          "left": 419,
+          "right": 525
+        },
+        {
+          "text": "Sources",
+          "left": 545,
+          "right": 596
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 621,
+      "room": "canon.html",
+      "scrollWidth": 621,
+      "navRight": 596,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 263,
+          "right": 338
+        },
+        {
+          "text": "Read a song",
+          "left": 358,
+          "right": 433
+        },
+        {
+          "text": "Six tones",
+          "left": 453,
+          "right": 511
+        },
+        {
+          "text": "String trial",
+          "left": 531,
+          "right": 596
+        },
+        {
+          "text": "Rhythm",
+          "left": 354,
+          "right": 403
+        },
+        {
+          "text": "Weighted strings",
+          "left": 423,
+          "right": 529
+        },
+        {
+          "text": "Code ↗",
+          "left": 549,
+          "right": 596
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 621,
+      "room": "trial.html",
+      "scrollWidth": 621,
+      "navRight": 596,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 263,
+          "right": 338
+        },
+        {
+          "text": "Read a song",
+          "left": 358,
+          "right": 433
+        },
+        {
+          "text": "Six tones",
+          "left": 453,
+          "right": 511
+        },
+        {
+          "text": "String trial",
+          "left": 531,
+          "right": 596
+        },
+        {
+          "text": "Rhythm",
+          "left": 421,
+          "right": 470
+        },
+        {
+          "text": "Weighted strings",
+          "left": 490,
+          "right": 596
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 621,
+      "room": "rhythm.html",
+      "scrollWidth": 621,
+      "navRight": 596,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 263,
+          "right": 338
+        },
+        {
+          "text": "Read a song",
+          "left": 358,
+          "right": 433
+        },
+        {
+          "text": "Six tones",
+          "left": 453,
+          "right": 511
+        },
+        {
+          "text": "String trial",
+          "left": 531,
+          "right": 596
+        },
+        {
+          "text": "Rhythm",
+          "left": 421,
+          "right": 470
+        },
+        {
+          "text": "Weighted strings",
+          "left": 490,
+          "right": 596
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 621,
+      "room": "tension.html",
+      "scrollWidth": 621,
+      "navRight": 596,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 263,
+          "right": 338
+        },
+        {
+          "text": "Read a song",
+          "left": 358,
+          "right": 433
+        },
+        {
+          "text": "Six tones",
+          "left": 453,
+          "right": 511
+        },
+        {
+          "text": "String trial",
+          "left": 531,
+          "right": 596
+        },
+        {
+          "text": "Rhythm",
+          "left": 421,
+          "right": 470
+        },
+        {
+          "text": "Weighted strings",
+          "left": 490,
+          "right": 596
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 768,
+      "room": "index.html",
+      "scrollWidth": 768,
+      "navRight": 743,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 341,
+          "right": 416
+        },
+        {
+          "text": "Read a song",
+          "left": 436,
+          "right": 511
+        },
+        {
+          "text": "Six tones",
+          "left": 531,
+          "right": 589
+        },
+        {
+          "text": "String trial",
+          "left": 609,
+          "right": 674
+        },
+        {
+          "text": "Rhythm",
+          "left": 694,
+          "right": 743
+        },
+        {
+          "text": "Weighted strings",
+          "left": 570,
+          "right": 676
+        },
+        {
+          "text": "Code ↗",
+          "left": 696,
+          "right": 743
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 768,
+      "room": "song.html",
+      "scrollWidth": 768,
+      "navRight": 743,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 341,
+          "right": 416
+        },
+        {
+          "text": "Read a song",
+          "left": 436,
+          "right": 511
+        },
+        {
+          "text": "Six tones",
+          "left": 531,
+          "right": 589
+        },
+        {
+          "text": "String trial",
+          "left": 609,
+          "right": 674
+        },
+        {
+          "text": "Rhythm",
+          "left": 694,
+          "right": 743
+        },
+        {
+          "text": "Weighted strings",
+          "left": 566,
+          "right": 672
+        },
+        {
+          "text": "Sources",
+          "left": 692,
+          "right": 743
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 768,
+      "room": "canon.html",
+      "scrollWidth": 768,
+      "navRight": 743,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 341,
+          "right": 416
+        },
+        {
+          "text": "Read a song",
+          "left": 436,
+          "right": 511
+        },
+        {
+          "text": "Six tones",
+          "left": 531,
+          "right": 589
+        },
+        {
+          "text": "String trial",
+          "left": 609,
+          "right": 674
+        },
+        {
+          "text": "Rhythm",
+          "left": 694,
+          "right": 743
+        },
+        {
+          "text": "Weighted strings",
+          "left": 570,
+          "right": 676
+        },
+        {
+          "text": "Code ↗",
+          "left": 696,
+          "right": 743
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 768,
+      "room": "trial.html",
+      "scrollWidth": 768,
+      "navRight": 743,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 341,
+          "right": 416
+        },
+        {
+          "text": "Read a song",
+          "left": 436,
+          "right": 511
+        },
+        {
+          "text": "Six tones",
+          "left": 531,
+          "right": 589
+        },
+        {
+          "text": "String trial",
+          "left": 609,
+          "right": 674
+        },
+        {
+          "text": "Rhythm",
+          "left": 694,
+          "right": 743
+        },
+        {
+          "text": "Weighted strings",
+          "left": 637,
+          "right": 743
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 768,
+      "room": "rhythm.html",
+      "scrollWidth": 768,
+      "navRight": 743,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 341,
+          "right": 416
+        },
+        {
+          "text": "Read a song",
+          "left": 436,
+          "right": 511
+        },
+        {
+          "text": "Six tones",
+          "left": 531,
+          "right": 589
+        },
+        {
+          "text": "String trial",
+          "left": 609,
+          "right": 674
+        },
+        {
+          "text": "Rhythm",
+          "left": 694,
+          "right": 743
+        },
+        {
+          "text": "Weighted strings",
+          "left": 637,
+          "right": 743
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 768,
+      "room": "tension.html",
+      "scrollWidth": 768,
+      "navRight": 743,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 341,
+          "right": 416
+        },
+        {
+          "text": "Read a song",
+          "left": 436,
+          "right": 511
+        },
+        {
+          "text": "Six tones",
+          "left": 531,
+          "right": 589
+        },
+        {
+          "text": "String trial",
+          "left": 609,
+          "right": 674
+        },
+        {
+          "text": "Rhythm",
+          "left": 694,
+          "right": 743
+        },
+        {
+          "text": "Weighted strings",
+          "left": 637,
+          "right": 743
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 820,
+      "room": "index.html",
+      "scrollWidth": 820,
+      "navRight": 795,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 267,
+          "right": 342
+        },
+        {
+          "text": "Read a song",
+          "left": 362,
+          "right": 437
+        },
+        {
+          "text": "Six tones",
+          "left": 457,
+          "right": 515
+        },
+        {
+          "text": "String trial",
+          "left": 535,
+          "right": 600
+        },
+        {
+          "text": "Rhythm",
+          "left": 620,
+          "right": 669
+        },
+        {
+          "text": "Weighted strings",
+          "left": 689,
+          "right": 795
+        },
+        {
+          "text": "Code ↗",
+          "left": 748,
+          "right": 795
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 820,
+      "room": "song.html",
+      "scrollWidth": 820,
+      "navRight": 795,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 267,
+          "right": 342
+        },
+        {
+          "text": "Read a song",
+          "left": 362,
+          "right": 437
+        },
+        {
+          "text": "Six tones",
+          "left": 457,
+          "right": 515
+        },
+        {
+          "text": "String trial",
+          "left": 535,
+          "right": 600
+        },
+        {
+          "text": "Rhythm",
+          "left": 620,
+          "right": 669
+        },
+        {
+          "text": "Weighted strings",
+          "left": 689,
+          "right": 795
+        },
+        {
+          "text": "Sources",
+          "left": 744,
+          "right": 795
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 820,
+      "room": "canon.html",
+      "scrollWidth": 820,
+      "navRight": 795,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 267,
+          "right": 342
+        },
+        {
+          "text": "Read a song",
+          "left": 362,
+          "right": 437
+        },
+        {
+          "text": "Six tones",
+          "left": 457,
+          "right": 515
+        },
+        {
+          "text": "String trial",
+          "left": 535,
+          "right": 600
+        },
+        {
+          "text": "Rhythm",
+          "left": 620,
+          "right": 669
+        },
+        {
+          "text": "Weighted strings",
+          "left": 689,
+          "right": 795
+        },
+        {
+          "text": "Code ↗",
+          "left": 748,
+          "right": 795
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 820,
+      "room": "trial.html",
+      "scrollWidth": 820,
+      "navRight": 795,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 267,
+          "right": 342
+        },
+        {
+          "text": "Read a song",
+          "left": 362,
+          "right": 437
+        },
+        {
+          "text": "Six tones",
+          "left": 457,
+          "right": 515
+        },
+        {
+          "text": "String trial",
+          "left": 535,
+          "right": 600
+        },
+        {
+          "text": "Rhythm",
+          "left": 620,
+          "right": 669
+        },
+        {
+          "text": "Weighted strings",
+          "left": 689,
+          "right": 795
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 820,
+      "room": "rhythm.html",
+      "scrollWidth": 820,
+      "navRight": 795,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 267,
+          "right": 342
+        },
+        {
+          "text": "Read a song",
+          "left": 362,
+          "right": 437
+        },
+        {
+          "text": "Six tones",
+          "left": 457,
+          "right": 515
+        },
+        {
+          "text": "String trial",
+          "left": 535,
+          "right": 600
+        },
+        {
+          "text": "Rhythm",
+          "left": 620,
+          "right": 669
+        },
+        {
+          "text": "Weighted strings",
+          "left": 689,
+          "right": 795
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 820,
+      "room": "tension.html",
+      "scrollWidth": 820,
+      "navRight": 795,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 267,
+          "right": 342
+        },
+        {
+          "text": "Read a song",
+          "left": 362,
+          "right": 437
+        },
+        {
+          "text": "Six tones",
+          "left": 457,
+          "right": 515
+        },
+        {
+          "text": "String trial",
+          "left": 535,
+          "right": 600
+        },
+        {
+          "text": "Rhythm",
+          "left": 620,
+          "right": 669
+        },
+        {
+          "text": "Weighted strings",
+          "left": 689,
+          "right": 795
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1024,
+      "room": "index.html",
+      "scrollWidth": 1024,
+      "navRight": 976,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 333,
+          "right": 408
+        },
+        {
+          "text": "Read a song",
+          "left": 436,
+          "right": 511
+        },
+        {
+          "text": "Six tones",
+          "left": 539,
+          "right": 597
+        },
+        {
+          "text": "String trial",
+          "left": 625,
+          "right": 690
+        },
+        {
+          "text": "Rhythm",
+          "left": 718,
+          "right": 767
+        },
+        {
+          "text": "Weighted strings",
+          "left": 795,
+          "right": 901
+        },
+        {
+          "text": "Code ↗",
+          "left": 929,
+          "right": 976
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1024,
+      "room": "song.html",
+      "scrollWidth": 1024,
+      "navRight": 976,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 329,
+          "right": 404
+        },
+        {
+          "text": "Read a song",
+          "left": 432,
+          "right": 507
+        },
+        {
+          "text": "Six tones",
+          "left": 535,
+          "right": 593
+        },
+        {
+          "text": "String trial",
+          "left": 621,
+          "right": 686
+        },
+        {
+          "text": "Rhythm",
+          "left": 714,
+          "right": 763
+        },
+        {
+          "text": "Weighted strings",
+          "left": 791,
+          "right": 897
+        },
+        {
+          "text": "Sources",
+          "left": 925,
+          "right": 976
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1024,
+      "room": "canon.html",
+      "scrollWidth": 1024,
+      "navRight": 976,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 333,
+          "right": 408
+        },
+        {
+          "text": "Read a song",
+          "left": 436,
+          "right": 511
+        },
+        {
+          "text": "Six tones",
+          "left": 539,
+          "right": 597
+        },
+        {
+          "text": "String trial",
+          "left": 625,
+          "right": 690
+        },
+        {
+          "text": "Rhythm",
+          "left": 718,
+          "right": 767
+        },
+        {
+          "text": "Weighted strings",
+          "left": 795,
+          "right": 901
+        },
+        {
+          "text": "Code ↗",
+          "left": 929,
+          "right": 976
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1024,
+      "room": "trial.html",
+      "scrollWidth": 1024,
+      "navRight": 976,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 408,
+          "right": 483
+        },
+        {
+          "text": "Read a song",
+          "left": 511,
+          "right": 586
+        },
+        {
+          "text": "Six tones",
+          "left": 614,
+          "right": 672
+        },
+        {
+          "text": "String trial",
+          "left": 700,
+          "right": 765
+        },
+        {
+          "text": "Rhythm",
+          "left": 793,
+          "right": 842
+        },
+        {
+          "text": "Weighted strings",
+          "left": 870,
+          "right": 976
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1024,
+      "room": "rhythm.html",
+      "scrollWidth": 1024,
+      "navRight": 976,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 408,
+          "right": 483
+        },
+        {
+          "text": "Read a song",
+          "left": 511,
+          "right": 586
+        },
+        {
+          "text": "Six tones",
+          "left": 614,
+          "right": 672
+        },
+        {
+          "text": "String trial",
+          "left": 700,
+          "right": 765
+        },
+        {
+          "text": "Rhythm",
+          "left": 793,
+          "right": 842
+        },
+        {
+          "text": "Weighted strings",
+          "left": 870,
+          "right": 976
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1024,
+      "room": "tension.html",
+      "scrollWidth": 1024,
+      "navRight": 976,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 408,
+          "right": 483
+        },
+        {
+          "text": "Read a song",
+          "left": 511,
+          "right": 586
+        },
+        {
+          "text": "Six tones",
+          "left": 614,
+          "right": 672
+        },
+        {
+          "text": "String trial",
+          "left": 700,
+          "right": 765
+        },
+        {
+          "text": "Rhythm",
+          "left": 793,
+          "right": 842
+        },
+        {
+          "text": "Weighted strings",
+          "left": 870,
+          "right": 976
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "room": "index.html",
+      "scrollWidth": 1440,
+      "navRight": 1297,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 654,
+          "right": 729
+        },
+        {
+          "text": "Read a song",
+          "left": 757,
+          "right": 832
+        },
+        {
+          "text": "Six tones",
+          "left": 860,
+          "right": 918
+        },
+        {
+          "text": "String trial",
+          "left": 946,
+          "right": 1011
+        },
+        {
+          "text": "Rhythm",
+          "left": 1039,
+          "right": 1088
+        },
+        {
+          "text": "Weighted strings",
+          "left": 1116,
+          "right": 1222
+        },
+        {
+          "text": "Code ↗",
+          "left": 1250,
+          "right": 1297
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "room": "song.html",
+      "scrollWidth": 1440,
+      "navRight": 1297,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 650,
+          "right": 725
+        },
+        {
+          "text": "Read a song",
+          "left": 753,
+          "right": 828
+        },
+        {
+          "text": "Six tones",
+          "left": 856,
+          "right": 914
+        },
+        {
+          "text": "String trial",
+          "left": 942,
+          "right": 1007
+        },
+        {
+          "text": "Rhythm",
+          "left": 1035,
+          "right": 1084
+        },
+        {
+          "text": "Weighted strings",
+          "left": 1112,
+          "right": 1218
+        },
+        {
+          "text": "Sources",
+          "left": 1246,
+          "right": 1297
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "room": "canon.html",
+      "scrollWidth": 1440,
+      "navRight": 1297,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 654,
+          "right": 729
+        },
+        {
+          "text": "Read a song",
+          "left": 757,
+          "right": 832
+        },
+        {
+          "text": "Six tones",
+          "left": 860,
+          "right": 918
+        },
+        {
+          "text": "String trial",
+          "left": 946,
+          "right": 1011
+        },
+        {
+          "text": "Rhythm",
+          "left": 1039,
+          "right": 1088
+        },
+        {
+          "text": "Weighted strings",
+          "left": 1116,
+          "right": 1222
+        },
+        {
+          "text": "Code ↗",
+          "left": 1250,
+          "right": 1297
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "room": "trial.html",
+      "scrollWidth": 1440,
+      "navRight": 1297,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 729,
+          "right": 804
+        },
+        {
+          "text": "Read a song",
+          "left": 832,
+          "right": 907
+        },
+        {
+          "text": "Six tones",
+          "left": 935,
+          "right": 993
+        },
+        {
+          "text": "String trial",
+          "left": 1021,
+          "right": 1086
+        },
+        {
+          "text": "Rhythm",
+          "left": 1114,
+          "right": 1163
+        },
+        {
+          "text": "Weighted strings",
+          "left": 1191,
+          "right": 1297
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "room": "rhythm.html",
+      "scrollWidth": 1440,
+      "navRight": 1297,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 729,
+          "right": 804
+        },
+        {
+          "text": "Read a song",
+          "left": 832,
+          "right": 907
+        },
+        {
+          "text": "Six tones",
+          "left": 935,
+          "right": 993
+        },
+        {
+          "text": "String trial",
+          "left": 1021,
+          "right": 1086
+        },
+        {
+          "text": "Rhythm",
+          "left": 1114,
+          "right": 1163
+        },
+        {
+          "text": "Weighted strings",
+          "left": 1191,
+          "right": 1297
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "room": "tension.html",
+      "scrollWidth": 1440,
+      "navRight": 1297,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 729,
+          "right": 804
+        },
+        {
+          "text": "Read a song",
+          "left": 832,
+          "right": 907
+        },
+        {
+          "text": "Six tones",
+          "left": 935,
+          "right": 993
+        },
+        {
+          "text": "String trial",
+          "left": 1021,
+          "right": 1086
+        },
+        {
+          "text": "Rhythm",
+          "left": 1114,
+          "right": 1163
+        },
+        {
+          "text": "Weighted strings",
+          "left": 1191,
+          "right": 1297
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "room": "index.html",
+      "scrollWidth": 375,
+      "navRight": 357,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 18,
+          "right": 82.35000610351562
+        },
+        {
+          "text": "Read a song",
+          "left": 98.35000610351562,
+          "right": 163.5833282470703
+        },
+        {
+          "text": "Six tones",
+          "left": 179.5833282470703,
+          "right": 228.60000610351562
+        },
+        {
+          "text": "String trial",
+          "left": 244.60000610351562,
+          "right": 300.4499969482422
+        },
+        {
+          "text": "Rhythm",
+          "left": 18,
+          "right": 59.899993896484375
+        },
+        {
+          "text": "Weighted strings",
+          "left": 75.89999389648438,
+          "right": 166.0833282470703
+        },
+        {
+          "text": "Code ↗",
+          "left": 182.0833282470703,
+          "right": 222.46665954589844
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "room": "song.html",
+      "scrollWidth": 375,
+      "navRight": 357,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 18,
+          "right": 82.35000610351562
+        },
+        {
+          "text": "Read a song",
+          "left": 98.35000610351562,
+          "right": 163.5833282470703
+        },
+        {
+          "text": "Six tones",
+          "left": 179.5833282470703,
+          "right": 228.60000610351562
+        },
+        {
+          "text": "String trial",
+          "left": 244.60000610351562,
+          "right": 300.4499969482422
+        },
+        {
+          "text": "Rhythm",
+          "left": 18,
+          "right": 59.899993896484375
+        },
+        {
+          "text": "Weighted strings",
+          "left": 75.89999389648438,
+          "right": 166.0833282470703
+        },
+        {
+          "text": "Sources",
+          "left": 182.0833282470703,
+          "right": 225.3333282470703
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "room": "canon.html",
+      "scrollWidth": 375,
+      "navRight": 357,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 18,
+          "right": 82.35000610351562
+        },
+        {
+          "text": "Read a song",
+          "left": 98.35000610351562,
+          "right": 163.5833282470703
+        },
+        {
+          "text": "Six tones",
+          "left": 179.5833282470703,
+          "right": 228.60000610351562
+        },
+        {
+          "text": "String trial",
+          "left": 244.60000610351562,
+          "right": 300.4499969482422
+        },
+        {
+          "text": "Rhythm",
+          "left": 18,
+          "right": 59.899993896484375
+        },
+        {
+          "text": "Weighted strings",
+          "left": 75.89999389648438,
+          "right": 166.0833282470703
+        },
+        {
+          "text": "Code ↗",
+          "left": 182.0833282470703,
+          "right": 222.46665954589844
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "room": "trial.html",
+      "scrollWidth": 375,
+      "navRight": 357,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 18,
+          "right": 82.35000610351562
+        },
+        {
+          "text": "Read a song",
+          "left": 98.35000610351562,
+          "right": 163.5833282470703
+        },
+        {
+          "text": "Six tones",
+          "left": 179.5833282470703,
+          "right": 228.60000610351562
+        },
+        {
+          "text": "String trial",
+          "left": 244.60000610351562,
+          "right": 300.4499969482422
+        },
+        {
+          "text": "Rhythm",
+          "left": 18,
+          "right": 59.899993896484375
+        },
+        {
+          "text": "Weighted strings",
+          "left": 75.89999389648438,
+          "right": 166.0833282470703
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "room": "rhythm.html",
+      "scrollWidth": 375,
+      "navRight": 357,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 18,
+          "right": 82.35000610351562
+        },
+        {
+          "text": "Read a song",
+          "left": 98.35000610351562,
+          "right": 163.5833282470703
+        },
+        {
+          "text": "Six tones",
+          "left": 179.5833282470703,
+          "right": 228.60000610351562
+        },
+        {
+          "text": "String trial",
+          "left": 244.60000610351562,
+          "right": 300.4499969482422
+        },
+        {
+          "text": "Rhythm",
+          "left": 18,
+          "right": 59.899993896484375
+        },
+        {
+          "text": "Weighted strings",
+          "left": 75.89999389648438,
+          "right": 166.0833282470703
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "room": "tension.html",
+      "scrollWidth": 375,
+      "navRight": 357,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 18,
+          "right": 82.35000610351562
+        },
+        {
+          "text": "Read a song",
+          "left": 98.35000610351562,
+          "right": 163.5833282470703
+        },
+        {
+          "text": "Six tones",
+          "left": 179.5833282470703,
+          "right": 228.60000610351562
+        },
+        {
+          "text": "String trial",
+          "left": 244.60000610351562,
+          "right": 300.4499969482422
+        },
+        {
+          "text": "Rhythm",
+          "left": 18,
+          "right": 59.899993896484375
+        },
+        {
+          "text": "Weighted strings",
+          "left": 75.89999389648438,
+          "right": 166.0833282470703
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 621,
+      "room": "index.html",
+      "scrollWidth": 621,
+      "navRight": 595.9999847412109,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 262.4666748046875,
+          "right": 337.5500183105469
+        },
+        {
+          "text": "Read a song",
+          "left": 357.54998779296875,
+          "right": 433.6666564941406
+        },
+        {
+          "text": "Six tones",
+          "left": 453.66668701171875,
+          "right": 510.8333435058594
+        },
+        {
+          "text": "String trial",
+          "left": 530.8333129882812,
+          "right": 595.9999847412109
+        },
+        {
+          "text": "Rhythm",
+          "left": 354.83331298828125,
+          "right": 403.6999816894531
+        },
+        {
+          "text": "Weighted strings",
+          "left": 423.70001220703125,
+          "right": 528.8833465576172
+        },
+        {
+          "text": "Code ↗",
+          "left": 548.88330078125,
+          "right": 595.9999694824219
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 621,
+      "room": "song.html",
+      "scrollWidth": 621,
+      "navRight": 595.9999847412109,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 262.4666748046875,
+          "right": 337.5500183105469
+        },
+        {
+          "text": "Read a song",
+          "left": 357.54998779296875,
+          "right": 433.6666564941406
+        },
+        {
+          "text": "Six tones",
+          "left": 453.66668701171875,
+          "right": 510.8333435058594
+        },
+        {
+          "text": "String trial",
+          "left": 530.8333129882812,
+          "right": 595.9999847412109
+        },
+        {
+          "text": "Rhythm",
+          "left": 351.51666259765625,
+          "right": 400.3833312988281
+        },
+        {
+          "text": "Weighted strings",
+          "left": 420.3833312988281,
+          "right": 525.5666656494141
+        },
+        {
+          "text": "Sources",
+          "left": 545.566650390625,
+          "right": 595.9999847412109
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 621,
+      "room": "canon.html",
+      "scrollWidth": 621,
+      "navRight": 595.9999847412109,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 262.4666748046875,
+          "right": 337.5500183105469
+        },
+        {
+          "text": "Read a song",
+          "left": 357.54998779296875,
+          "right": 433.6666564941406
+        },
+        {
+          "text": "Six tones",
+          "left": 453.66668701171875,
+          "right": 510.8333435058594
+        },
+        {
+          "text": "String trial",
+          "left": 530.8333129882812,
+          "right": 595.9999847412109
+        },
+        {
+          "text": "Rhythm",
+          "left": 354.83331298828125,
+          "right": 403.6999816894531
+        },
+        {
+          "text": "Weighted strings",
+          "left": 423.70001220703125,
+          "right": 528.8833465576172
+        },
+        {
+          "text": "Code ↗",
+          "left": 548.88330078125,
+          "right": 595.9999694824219
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 621,
+      "room": "trial.html",
+      "scrollWidth": 621,
+      "navRight": 595.9999847412109,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 262.4666748046875,
+          "right": 337.5500183105469
+        },
+        {
+          "text": "Read a song",
+          "left": 357.54998779296875,
+          "right": 433.6666564941406
+        },
+        {
+          "text": "Six tones",
+          "left": 453.66668701171875,
+          "right": 510.8333435058594
+        },
+        {
+          "text": "String trial",
+          "left": 530.8333129882812,
+          "right": 595.9999847412109
+        },
+        {
+          "text": "Rhythm",
+          "left": 421.95001220703125,
+          "right": 470.8166809082031
+        },
+        {
+          "text": "Weighted strings",
+          "left": 490.816650390625,
+          "right": 595.9999847412109
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 621,
+      "room": "rhythm.html",
+      "scrollWidth": 621,
+      "navRight": 595.9999847412109,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 262.4666748046875,
+          "right": 337.5500183105469
+        },
+        {
+          "text": "Read a song",
+          "left": 357.54998779296875,
+          "right": 433.6666564941406
+        },
+        {
+          "text": "Six tones",
+          "left": 453.66668701171875,
+          "right": 510.8333435058594
+        },
+        {
+          "text": "String trial",
+          "left": 530.8333129882812,
+          "right": 595.9999847412109
+        },
+        {
+          "text": "Rhythm",
+          "left": 421.95001220703125,
+          "right": 470.8166809082031
+        },
+        {
+          "text": "Weighted strings",
+          "left": 490.816650390625,
+          "right": 595.9999847412109
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 621,
+      "room": "tension.html",
+      "scrollWidth": 621,
+      "navRight": 595.9999847412109,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 262.4666748046875,
+          "right": 337.5500183105469
+        },
+        {
+          "text": "Read a song",
+          "left": 357.54998779296875,
+          "right": 433.6666564941406
+        },
+        {
+          "text": "Six tones",
+          "left": 453.66668701171875,
+          "right": 510.8333435058594
+        },
+        {
+          "text": "String trial",
+          "left": 530.8333129882812,
+          "right": 595.9999847412109
+        },
+        {
+          "text": "Rhythm",
+          "left": 421.95001220703125,
+          "right": 470.8166809082031
+        },
+        {
+          "text": "Weighted strings",
+          "left": 490.816650390625,
+          "right": 595.9999847412109
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 768,
+      "room": "index.html",
+      "scrollWidth": 768,
+      "navRight": 742.9999847412109,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 340.6000061035156,
+          "right": 415.68333435058594
+        },
+        {
+          "text": "Read a song",
+          "left": 435.683349609375,
+          "right": 511.8000183105469
+        },
+        {
+          "text": "Six tones",
+          "left": 531.7999877929688,
+          "right": 588.9666442871094
+        },
+        {
+          "text": "String trial",
+          "left": 608.9666748046875,
+          "right": 674.1333465576172
+        },
+        {
+          "text": "Rhythm",
+          "left": 694.13330078125,
+          "right": 742.9999694824219
+        },
+        {
+          "text": "Weighted strings",
+          "left": 570.7000122070312,
+          "right": 675.8833465576172
+        },
+        {
+          "text": "Code ↗",
+          "left": 695.88330078125,
+          "right": 742.9999694824219
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 768,
+      "room": "song.html",
+      "scrollWidth": 768,
+      "navRight": 742.9999847412109,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 340.6000061035156,
+          "right": 415.68333435058594
+        },
+        {
+          "text": "Read a song",
+          "left": 435.683349609375,
+          "right": 511.8000183105469
+        },
+        {
+          "text": "Six tones",
+          "left": 531.7999877929688,
+          "right": 588.9666442871094
+        },
+        {
+          "text": "String trial",
+          "left": 608.9666748046875,
+          "right": 674.1333465576172
+        },
+        {
+          "text": "Rhythm",
+          "left": 694.13330078125,
+          "right": 742.9999694824219
+        },
+        {
+          "text": "Weighted strings",
+          "left": 567.38330078125,
+          "right": 672.5666351318359
+        },
+        {
+          "text": "Sources",
+          "left": 692.566650390625,
+          "right": 742.9999847412109
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 768,
+      "room": "canon.html",
+      "scrollWidth": 768,
+      "navRight": 742.9999847412109,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 340.6000061035156,
+          "right": 415.68333435058594
+        },
+        {
+          "text": "Read a song",
+          "left": 435.683349609375,
+          "right": 511.8000183105469
+        },
+        {
+          "text": "Six tones",
+          "left": 531.7999877929688,
+          "right": 588.9666442871094
+        },
+        {
+          "text": "String trial",
+          "left": 608.9666748046875,
+          "right": 674.1333465576172
+        },
+        {
+          "text": "Rhythm",
+          "left": 694.13330078125,
+          "right": 742.9999694824219
+        },
+        {
+          "text": "Weighted strings",
+          "left": 570.7000122070312,
+          "right": 675.8833465576172
+        },
+        {
+          "text": "Code ↗",
+          "left": 695.88330078125,
+          "right": 742.9999694824219
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 768,
+      "room": "trial.html",
+      "scrollWidth": 768,
+      "navRight": 742.9999847412109,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 340.6000061035156,
+          "right": 415.68333435058594
+        },
+        {
+          "text": "Read a song",
+          "left": 435.683349609375,
+          "right": 511.8000183105469
+        },
+        {
+          "text": "Six tones",
+          "left": 531.7999877929688,
+          "right": 588.9666442871094
+        },
+        {
+          "text": "String trial",
+          "left": 608.9666748046875,
+          "right": 674.1333465576172
+        },
+        {
+          "text": "Rhythm",
+          "left": 694.13330078125,
+          "right": 742.9999694824219
+        },
+        {
+          "text": "Weighted strings",
+          "left": 637.816650390625,
+          "right": 742.9999847412109
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 768,
+      "room": "rhythm.html",
+      "scrollWidth": 768,
+      "navRight": 742.9999847412109,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 340.6000061035156,
+          "right": 415.68333435058594
+        },
+        {
+          "text": "Read a song",
+          "left": 435.683349609375,
+          "right": 511.8000183105469
+        },
+        {
+          "text": "Six tones",
+          "left": 531.7999877929688,
+          "right": 588.9666442871094
+        },
+        {
+          "text": "String trial",
+          "left": 608.9666748046875,
+          "right": 674.1333465576172
+        },
+        {
+          "text": "Rhythm",
+          "left": 694.13330078125,
+          "right": 742.9999694824219
+        },
+        {
+          "text": "Weighted strings",
+          "left": 637.816650390625,
+          "right": 742.9999847412109
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 768,
+      "room": "tension.html",
+      "scrollWidth": 768,
+      "navRight": 742.9999847412109,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 340.6000061035156,
+          "right": 415.68333435058594
+        },
+        {
+          "text": "Read a song",
+          "left": 435.683349609375,
+          "right": 511.8000183105469
+        },
+        {
+          "text": "Six tones",
+          "left": 531.7999877929688,
+          "right": 588.9666442871094
+        },
+        {
+          "text": "String trial",
+          "left": 608.9666748046875,
+          "right": 674.1333465576172
+        },
+        {
+          "text": "Rhythm",
+          "left": 694.13330078125,
+          "right": 742.9999694824219
+        },
+        {
+          "text": "Weighted strings",
+          "left": 637.816650390625,
+          "right": 742.9999847412109
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 820,
+      "room": "index.html",
+      "scrollWidth": 820,
+      "navRight": 794.9999847412109,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 267.41668701171875,
+          "right": 342.50001525878906
+        },
+        {
+          "text": "Read a song",
+          "left": 362.5,
+          "right": 438.6166687011719
+        },
+        {
+          "text": "Six tones",
+          "left": 458.6166687011719,
+          "right": 515.7833404541016
+        },
+        {
+          "text": "String trial",
+          "left": 535.7833251953125,
+          "right": 600.9499816894531
+        },
+        {
+          "text": "Rhythm",
+          "left": 620.9500122070312,
+          "right": 669.8166809082031
+        },
+        {
+          "text": "Weighted strings",
+          "left": 689.816650390625,
+          "right": 794.9999847412109
+        },
+        {
+          "text": "Code ↗",
+          "left": 747.88330078125,
+          "right": 794.9999694824219
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 820,
+      "room": "song.html",
+      "scrollWidth": 820,
+      "navRight": 794.9999847412109,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 267.41668701171875,
+          "right": 342.50001525878906
+        },
+        {
+          "text": "Read a song",
+          "left": 362.5,
+          "right": 438.6166687011719
+        },
+        {
+          "text": "Six tones",
+          "left": 458.6166687011719,
+          "right": 515.7833404541016
+        },
+        {
+          "text": "String trial",
+          "left": 535.7833251953125,
+          "right": 600.9499816894531
+        },
+        {
+          "text": "Rhythm",
+          "left": 620.9500122070312,
+          "right": 669.8166809082031
+        },
+        {
+          "text": "Weighted strings",
+          "left": 689.816650390625,
+          "right": 794.9999847412109
+        },
+        {
+          "text": "Sources",
+          "left": 744.566650390625,
+          "right": 794.9999847412109
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 820,
+      "room": "canon.html",
+      "scrollWidth": 820,
+      "navRight": 794.9999847412109,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 267.41668701171875,
+          "right": 342.50001525878906
+        },
+        {
+          "text": "Read a song",
+          "left": 362.5,
+          "right": 438.6166687011719
+        },
+        {
+          "text": "Six tones",
+          "left": 458.6166687011719,
+          "right": 515.7833404541016
+        },
+        {
+          "text": "String trial",
+          "left": 535.7833251953125,
+          "right": 600.9499816894531
+        },
+        {
+          "text": "Rhythm",
+          "left": 620.9500122070312,
+          "right": 669.8166809082031
+        },
+        {
+          "text": "Weighted strings",
+          "left": 689.816650390625,
+          "right": 794.9999847412109
+        },
+        {
+          "text": "Code ↗",
+          "left": 747.88330078125,
+          "right": 794.9999694824219
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 820,
+      "room": "trial.html",
+      "scrollWidth": 820,
+      "navRight": 795,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 267.41668701171875,
+          "right": 342.50001525878906
+        },
+        {
+          "text": "Read a song",
+          "left": 362.5,
+          "right": 438.6166687011719
+        },
+        {
+          "text": "Six tones",
+          "left": 458.6166687011719,
+          "right": 515.7833404541016
+        },
+        {
+          "text": "String trial",
+          "left": 535.7833251953125,
+          "right": 600.9499816894531
+        },
+        {
+          "text": "Rhythm",
+          "left": 620.9500122070312,
+          "right": 669.8166809082031
+        },
+        {
+          "text": "Weighted strings",
+          "left": 689.816650390625,
+          "right": 794.9999847412109
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 820,
+      "room": "rhythm.html",
+      "scrollWidth": 820,
+      "navRight": 795,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 267.41668701171875,
+          "right": 342.50001525878906
+        },
+        {
+          "text": "Read a song",
+          "left": 362.5,
+          "right": 438.6166687011719
+        },
+        {
+          "text": "Six tones",
+          "left": 458.6166687011719,
+          "right": 515.7833404541016
+        },
+        {
+          "text": "String trial",
+          "left": 535.7833251953125,
+          "right": 600.9499816894531
+        },
+        {
+          "text": "Rhythm",
+          "left": 620.9500122070312,
+          "right": 669.8166809082031
+        },
+        {
+          "text": "Weighted strings",
+          "left": 689.816650390625,
+          "right": 794.9999847412109
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 820,
+      "room": "tension.html",
+      "scrollWidth": 820,
+      "navRight": 795,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 267.41668701171875,
+          "right": 342.50001525878906
+        },
+        {
+          "text": "Read a song",
+          "left": 362.5,
+          "right": 438.6166687011719
+        },
+        {
+          "text": "Six tones",
+          "left": 458.6166687011719,
+          "right": 515.7833404541016
+        },
+        {
+          "text": "String trial",
+          "left": 535.7833251953125,
+          "right": 600.9499816894531
+        },
+        {
+          "text": "Rhythm",
+          "left": 620.9500122070312,
+          "right": 669.8166809082031
+        },
+        {
+          "text": "Weighted strings",
+          "left": 689.816650390625,
+          "right": 794.9999847412109
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1024,
+      "room": "index.html",
+      "scrollWidth": 1024,
+      "navRight": 976,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 333.29998779296875,
+          "right": 408.38331604003906
+        },
+        {
+          "text": "Read a song",
+          "left": 436.3833312988281,
+          "right": 512.5
+        },
+        {
+          "text": "Six tones",
+          "left": 540.5,
+          "right": 597.6666717529297
+        },
+        {
+          "text": "String trial",
+          "left": 625.6666870117188,
+          "right": 690.8333435058594
+        },
+        {
+          "text": "Rhythm",
+          "left": 718.8333129882812,
+          "right": 767.6999816894531
+        },
+        {
+          "text": "Weighted strings",
+          "left": 795.7000122070312,
+          "right": 900.8833465576172
+        },
+        {
+          "text": "Code ↗",
+          "left": 928.88330078125,
+          "right": 975.9999694824219
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1024,
+      "room": "song.html",
+      "scrollWidth": 1024,
+      "navRight": 976,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 329.98333740234375,
+          "right": 405.06666564941406
+        },
+        {
+          "text": "Read a song",
+          "left": 433.066650390625,
+          "right": 509.1833190917969
+        },
+        {
+          "text": "Six tones",
+          "left": 537.183349609375,
+          "right": 594.3500213623047
+        },
+        {
+          "text": "String trial",
+          "left": 622.3499755859375,
+          "right": 687.5166320800781
+        },
+        {
+          "text": "Rhythm",
+          "left": 715.5166625976562,
+          "right": 764.3833312988281
+        },
+        {
+          "text": "Weighted strings",
+          "left": 792.38330078125,
+          "right": 897.5666351318359
+        },
+        {
+          "text": "Sources",
+          "left": 925.566650390625,
+          "right": 975.9999847412109
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1024,
+      "room": "canon.html",
+      "scrollWidth": 1024,
+      "navRight": 976,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 333.29998779296875,
+          "right": 408.38331604003906
+        },
+        {
+          "text": "Read a song",
+          "left": 436.3833312988281,
+          "right": 512.5
+        },
+        {
+          "text": "Six tones",
+          "left": 540.5,
+          "right": 597.6666717529297
+        },
+        {
+          "text": "String trial",
+          "left": 625.6666870117188,
+          "right": 690.8333435058594
+        },
+        {
+          "text": "Rhythm",
+          "left": 718.8333129882812,
+          "right": 767.6999816894531
+        },
+        {
+          "text": "Weighted strings",
+          "left": 795.7000122070312,
+          "right": 900.8833465576172
+        },
+        {
+          "text": "Code ↗",
+          "left": 928.88330078125,
+          "right": 975.9999694824219
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1024,
+      "room": "trial.html",
+      "scrollWidth": 1024,
+      "navRight": 976,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 408.41668701171875,
+          "right": 483.50001525878906
+        },
+        {
+          "text": "Read a song",
+          "left": 511.5,
+          "right": 587.6166687011719
+        },
+        {
+          "text": "Six tones",
+          "left": 615.61669921875,
+          "right": 672.7833709716797
+        },
+        {
+          "text": "String trial",
+          "left": 700.7833251953125,
+          "right": 765.9499816894531
+        },
+        {
+          "text": "Rhythm",
+          "left": 793.9500122070312,
+          "right": 842.8166809082031
+        },
+        {
+          "text": "Weighted strings",
+          "left": 870.816650390625,
+          "right": 975.9999847412109
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1024,
+      "room": "rhythm.html",
+      "scrollWidth": 1024,
+      "navRight": 976,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 408.41668701171875,
+          "right": 483.50001525878906
+        },
+        {
+          "text": "Read a song",
+          "left": 511.5,
+          "right": 587.6166687011719
+        },
+        {
+          "text": "Six tones",
+          "left": 615.61669921875,
+          "right": 672.7833709716797
+        },
+        {
+          "text": "String trial",
+          "left": 700.7833251953125,
+          "right": 765.9499816894531
+        },
+        {
+          "text": "Rhythm",
+          "left": 793.9500122070312,
+          "right": 842.8166809082031
+        },
+        {
+          "text": "Weighted strings",
+          "left": 870.816650390625,
+          "right": 975.9999847412109
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1024,
+      "room": "tension.html",
+      "scrollWidth": 1024,
+      "navRight": 976,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 408.41668701171875,
+          "right": 483.50001525878906
+        },
+        {
+          "text": "Read a song",
+          "left": 511.5,
+          "right": 587.6166687011719
+        },
+        {
+          "text": "Six tones",
+          "left": 615.61669921875,
+          "right": 672.7833709716797
+        },
+        {
+          "text": "String trial",
+          "left": 700.7833251953125,
+          "right": 765.9499816894531
+        },
+        {
+          "text": "Rhythm",
+          "left": 793.9500122070312,
+          "right": 842.8166809082031
+        },
+        {
+          "text": "Weighted strings",
+          "left": 870.816650390625,
+          "right": 975.9999847412109
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "room": "index.html",
+      "scrollWidth": 1440,
+      "navRight": 1297,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 654.2999877929688,
+          "right": 729.3833160400391
+        },
+        {
+          "text": "Read a song",
+          "left": 757.38330078125,
+          "right": 833.4999694824219
+        },
+        {
+          "text": "Six tones",
+          "left": 861.5,
+          "right": 918.6666717529297
+        },
+        {
+          "text": "String trial",
+          "left": 946.6666870117188,
+          "right": 1011.8333435058594
+        },
+        {
+          "text": "Rhythm",
+          "left": 1039.8333740234375,
+          "right": 1088.7000427246094
+        },
+        {
+          "text": "Weighted strings",
+          "left": 1116.699951171875,
+          "right": 1221.883285522461
+        },
+        {
+          "text": "Code ↗",
+          "left": 1249.88330078125,
+          "right": 1296.9999694824219
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "room": "song.html",
+      "scrollWidth": 1440,
+      "navRight": 1297,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 650.9833374023438,
+          "right": 726.0666656494141
+        },
+        {
+          "text": "Read a song",
+          "left": 754.066650390625,
+          "right": 830.1833190917969
+        },
+        {
+          "text": "Six tones",
+          "left": 858.183349609375,
+          "right": 915.3500213623047
+        },
+        {
+          "text": "String trial",
+          "left": 943.3499755859375,
+          "right": 1008.5166320800781
+        },
+        {
+          "text": "Rhythm",
+          "left": 1036.5166015625,
+          "right": 1085.3832702636719
+        },
+        {
+          "text": "Weighted strings",
+          "left": 1113.38330078125,
+          "right": 1218.566635131836
+        },
+        {
+          "text": "Sources",
+          "left": 1246.566650390625,
+          "right": 1296.999984741211
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "room": "canon.html",
+      "scrollWidth": 1440,
+      "navRight": 1297,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 654.2999877929688,
+          "right": 729.3833160400391
+        },
+        {
+          "text": "Read a song",
+          "left": 757.38330078125,
+          "right": 833.4999694824219
+        },
+        {
+          "text": "Six tones",
+          "left": 861.5,
+          "right": 918.6666717529297
+        },
+        {
+          "text": "String trial",
+          "left": 946.6666870117188,
+          "right": 1011.8333435058594
+        },
+        {
+          "text": "Rhythm",
+          "left": 1039.8333740234375,
+          "right": 1088.7000427246094
+        },
+        {
+          "text": "Weighted strings",
+          "left": 1116.699951171875,
+          "right": 1221.883285522461
+        },
+        {
+          "text": "Code ↗",
+          "left": 1249.88330078125,
+          "right": 1296.9999694824219
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "room": "trial.html",
+      "scrollWidth": 1440,
+      "navRight": 1297,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 729.4166870117188,
+          "right": 804.5000152587891
+        },
+        {
+          "text": "Read a song",
+          "left": 832.5,
+          "right": 908.6166687011719
+        },
+        {
+          "text": "Six tones",
+          "left": 936.61669921875,
+          "right": 993.7833709716797
+        },
+        {
+          "text": "String trial",
+          "left": 1021.7833251953125,
+          "right": 1086.9499816894531
+        },
+        {
+          "text": "Rhythm",
+          "left": 1114.949951171875,
+          "right": 1163.8166198730469
+        },
+        {
+          "text": "Weighted strings",
+          "left": 1191.816650390625,
+          "right": 1296.999984741211
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "room": "rhythm.html",
+      "scrollWidth": 1440,
+      "navRight": 1297,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 729.4166870117188,
+          "right": 804.5000152587891
+        },
+        {
+          "text": "Read a song",
+          "left": 832.5,
+          "right": 908.6166687011719
+        },
+        {
+          "text": "Six tones",
+          "left": 936.61669921875,
+          "right": 993.7833709716797
+        },
+        {
+          "text": "String trial",
+          "left": 1021.7833251953125,
+          "right": 1086.9499816894531
+        },
+        {
+          "text": "Rhythm",
+          "left": 1114.949951171875,
+          "right": 1163.8166198730469
+        },
+        {
+          "text": "Weighted strings",
+          "left": 1191.816650390625,
+          "right": 1296.999984741211
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "room": "tension.html",
+      "scrollWidth": 1440,
+      "navRight": 1297,
+      "links": [
+        {
+          "text": "Tetrachords",
+          "left": 729.4166870117188,
+          "right": 804.5000152587891
+        },
+        {
+          "text": "Read a song",
+          "left": 832.5,
+          "right": 908.6166687011719
+        },
+        {
+          "text": "Six tones",
+          "left": 936.61669921875,
+          "right": 993.7833709716797
+        },
+        {
+          "text": "String trial",
+          "left": 1021.7833251953125,
+          "right": 1086.9499816894531
+        },
+        {
+          "text": "Rhythm",
+          "left": 1114.949951171875,
+          "right": 1163.8166198730469
+        },
+        {
+          "text": "Weighted strings",
+          "left": 1191.816650390625,
+          "right": 1296.999984741211
+        }
+      ],
+      "keyboardWeightedStringsNavigation": true
+    }
+  ]
+}

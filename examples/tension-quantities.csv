@@ -1,0 +1,7 @@
+# Pyknon: Nicomachus chapter 6; modern ideal fixed-length uniform-string model
+# Baseline weight 6; reference 110 Hz; no ancient unit in kilograms or absolute pitch inferred
+name,source_weight,claimed_frequency_ratio,original_squared_frequency_ratio,chosen_weight,chosen_squared_frequency_ratio,repair_weight,claimed_hz,original_ideal_hz,chosen_ideal_hz,chosen_minus_claim_cents,exact_repair
+Hypatē,6,1,1,6,1,6,110.000000000,110.000000000,110.000000000,0.000000000,true
+Mesē,8,4/3,4/3,32/3,16/9,32/3,146.666666667,127.017059222,146.666666667,0.000000000,true
+Paramesē,9,3/2,3/2,9,3/2,27/2,165.000000000,134.721935853,134.721935853,-350.977500433,false
+Nētē,12,2,2,12,2,24,220.000000000,155.563491861,155.563491861,-600.000000000,false

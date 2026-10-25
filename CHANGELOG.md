@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-10-25
+
+- Add Nicomachus’s weighted-string account: keep the source numbers fixed,
+  hear modern ideal predictions, and find exact squared replacement loads.
+- Compare Jan’s Greek and Meibom’s own Latin against eight complete printed
+  pages; retain their translation difference, ten word notes and model limits.
+- Export playable, script-free illustrated readings, native WAV/CSV/JSON and
+  font-embedded SVG; extend the integrity-checked offline edition to six rooms.
+
 ## 2026-10-24
 
 - Add Ptolemy’s string examination: compare equal halves and quarters, hear a

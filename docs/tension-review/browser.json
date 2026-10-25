@@ -1,0 +1,1138 @@
+{
+  "checkedAt": "2026-10-25T20:55:17.930Z",
+  "scope": "Local production, disabled browser networking and stopped local origin",
+  "base": null,
+  "edition": "5849b27213ca5876f801c249e12d6b0317b35eaea176f464d2e67b39ebe0c926",
+  "workerSha256": "54efd96f81ca81ca816d98dc45de24454d1711ac93ad1e54e573abe4e29c9e74",
+  "cachedFiles": 64,
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "sounds": [
+        {
+          "mode": "claim",
+          "root": 220,
+          "weights": [6, 8, 9, 12],
+          "selected": 3,
+          "nodes": [
+            {
+              "hz": 220,
+              "start": 0.16,
+              "stops": [0.91]
+            },
+            {
+              "hz": 293.3333333333333,
+              "start": 1.06,
+              "stops": [1.81]
+            },
+            {
+              "hz": 330,
+              "start": 1.96,
+              "stops": [2.71]
+            },
+            {
+              "hz": 440,
+              "start": 2.8600000000000003,
+              "stops": [3.6100000000000003]
+            }
+          ],
+          "file": "claim.wav",
+          "bytes": 360046,
+          "sha256": "9c4e740f11a655d7bd8f2d1386df61ba93e3624e799de6ab507ed5185358bb8d"
+        },
+        {
+          "mode": "original",
+          "root": 220,
+          "weights": [6, 8, 9, 12],
+          "selected": 3,
+          "nodes": [
+            {
+              "hz": 220,
+              "start": 0.3109297052154195,
+              "stops": [1.0609297052154196]
+            },
+            {
+              "hz": 254.03411844343532,
+              "start": 1.2109297052154195,
+              "stops": [1.9609297052154195]
+            },
+            {
+              "hz": 269.4438717061496,
+              "start": 2.1109297052154194,
+              "stops": [2.8609297052154194]
+            },
+            {
+              "hz": 311.1269837220809,
+              "start": 3.01092970521542,
+              "stops": [3.76092970521542]
+            }
+          ],
+          "file": "original.wav",
+          "bytes": 360046,
+          "sha256": "829a1da8f28747dc12129cfd8a7e9d6f6099b073ab37c56b9e28f4b234c31c1a"
+        },
+        {
+          "mode": "yours",
+          "root": 220,
+          "weights": [6, 8, 9, 12],
+          "selected": 3,
+          "nodes": [
+            {
+              "hz": 220,
+              "start": 0.42702947845804984,
+              "stops": [1.1770294784580497]
+            },
+            {
+              "hz": 254.03411844343532,
+              "start": 1.3270294784580499,
+              "stops": [2.0770294784580496]
+            },
+            {
+              "hz": 269.4438717061496,
+              "start": 2.22702947845805,
+              "stops": [2.97702947845805]
+            },
+            {
+              "hz": 311.1269837220809,
+              "start": 3.1270294784580503,
+              "stops": [3.8770294784580503]
+            }
+          ],
+          "file": "yours.wav",
+          "bytes": 360046,
+          "sha256": "829a1da8f28747dc12129cfd8a7e9d6f6099b073ab37c56b9e28f4b234c31c1a"
+        },
+        {
+          "mode": "compare",
+          "root": 220,
+          "weights": [6, 8, 9, 12],
+          "selected": 3,
+          "nodes": [
+            {
+              "hz": 220,
+              "start": 0.5663492063492064,
+              "stops": [1.3163492063492064]
+            },
+            {
+              "hz": 440,
+              "start": 1.4663492063492063,
+              "stops": [2.2163492063492063]
+            },
+            {
+              "hz": 220,
+              "start": 2.6663492063492065,
+              "stops": [3.4163492063492065]
+            },
+            {
+              "hz": 311.1269837220809,
+              "start": 3.5663492063492064,
+              "stops": [4.316349206349207]
+            },
+            {
+              "hz": 220,
+              "start": 4.766349206349207,
+              "stops": [5.516349206349207]
+            },
+            {
+              "hz": 311.1269837220809,
+              "start": 5.666349206349207,
+              "stops": [6.416349206349207]
+            }
+          ],
+          "file": "compare.wav",
+          "bytes": 590444,
+          "sha256": "48431e7a969e57daf9f62caa44a9cfcb6eaf172cde21507dfad99472e038644b"
+        },
+        {
+          "mode": "together",
+          "root": 220,
+          "weights": [6, 8, 9, 12],
+          "selected": 3,
+          "nodes": [
+            {
+              "hz": 440,
+              "start": 0.7056689342403628,
+              "stops": [3.2056689342403626]
+            },
+            {
+              "hz": 311.1269837220809,
+              "start": 0.7056689342403628,
+              "stops": [3.2056689342403626]
+            }
+          ],
+          "file": "together.wav",
+          "bytes": 268844,
+          "sha256": "e872abf0a25bed37fe2984ca414b9d1838cb5975a6979371ba18372e0b46a04e"
+        },
+        {
+          "mode": "together",
+          "root": 110,
+          "weights": [6, 10.666666666666666, 9, 12],
+          "selected": 1,
+          "file": "repaired.wav",
+          "bytes": 268844,
+          "sha256": "92ebbef2244b31163efc85a57fa8584149d9a0c730a64b0e13f77d31c64a7ecf"
+        }
+      ],
+      "downloads": [
+        {
+          "kind": "json",
+          "file": "settings.json",
+          "bytes": 202,
+          "sha256": "0529e28b9af62c189a5f9aa2da70413f67a20d0a9c7f8d2a7dccff295ea10504"
+        },
+        {
+          "kind": "csv",
+          "file": "quantities.csv",
+          "bytes": 740,
+          "sha256": "6c16996d0bb11dea33f2fedb6531e3338c5718cb8cd4fcc3267a2fecabae0220"
+        },
+        {
+          "kind": "svg",
+          "file": "diagram.svg",
+          "bytes": 89882,
+          "sha256": "b686fbf825df98303f52d692d2db4610d1bdf70f2bb4beff74118553cfdd0e50"
+        },
+        {
+          "kind": "html",
+          "file": "reading.html",
+          "bytes": 8589998,
+          "sha256": "7ca57f80df1e36a37ed53ebcf419945fff1e0aa5c09b99c85db91db88b57bcd1"
+        }
+      ],
+      "sourceImagesVerified": 8,
+      "passagesInspected": 8,
+      "wordNotes": 10,
+      "axeViolations": 0,
+      "pageErrors": [],
+      "inventory": [
+        {
+          "name": "pyknon-5849b27213ca5876f801c249e12d6b0317b35eaea176f464d2e67b39ebe0c926",
+          "files": [
+            "/pyknon/assets/NotoSerif-OFL-BfJp0Y5l.js",
+            "/pyknon/assets/canon-BKPMYpM7.js",
+            "/pyknon/assets/canon-CgpS1fgs.css",
+            "/pyknon/assets/main-DlmwoSK4.js",
+            "/pyknon/assets/offline-DQU_9qEb.js",
+            "/pyknon/assets/offline-DSKqIBUv.css",
+            "/pyknon/assets/rhythm-BxI1eojA.css",
+            "/pyknon/assets/rhythm-Dha6RYVz.js",
+            "/pyknon/assets/song-DU6C71Tm.css",
+            "/pyknon/assets/song-YRQLnXbz.js",
+            "/pyknon/assets/tension-DGUgSrTF.js",
+            "/pyknon/assets/tension-Ik-kkgcL.css",
+            "/pyknon/assets/tetrachord-BqvDPsjm.js",
+            "/pyknon/assets/trial-C9QZtLCn.css",
+            "/pyknon/assets/trial-D4KE8B82.js",
+            "/pyknon/canon.html",
+            "/pyknon/fonts/IBMPlex-OFL.txt",
+            "/pyknon/fonts/IBMPlexSans-Regular.woff2",
+            "/pyknon/fonts/IBMPlexSans-SemiBold.woff2",
+            "/pyknon/fonts/NotoSerif-OFL.txt",
+            "/pyknon/fonts/NotoSerif-Regular.ttf",
+            "/pyknon/index.html",
+            "/pyknon/rhythm.html",
+            "/pyknon/song.html",
+            "/pyknon/sources/canon/menge-170.jpg",
+            "/pyknon/sources/canon/menge-171.jpg",
+            "/pyknon/sources/canon/menge-172.jpg",
+            "/pyknon/sources/canon/menge-173.jpg",
+            "/pyknon/sources/canon/menge-174.jpg",
+            "/pyknon/sources/canon/menge-175.jpg",
+            "/pyknon/sources/macran-182.jpg",
+            "/pyknon/sources/rhythm/manifest.json",
+            "/pyknon/sources/rhythm/westphal-28.jpg",
+            "/pyknon/sources/rhythm/westphal-31.jpg",
+            "/pyknon/sources/rhythm/westphal-33.jpg",
+            "/pyknon/sources/rhythm/westphal-34.jpg",
+            "/pyknon/sources/rhythm/westphal-35.jpg",
+            "/pyknon/sources/rhythm/westphal-36.jpg",
+            "/pyknon/sources/rhythm/westphal-37.jpg",
+            "/pyknon/sources/rhythm/westphal-title.jpg",
+            "/pyknon/sources/seikilos/inscription.jpg",
+            "/pyknon/sources/seikilos/monro-correction.jpg",
+            "/pyknon/sources/seikilos/monro-ending.jpg",
+            "/pyknon/sources/seikilos/stele.jpg",
+            "/pyknon/sources/tension/NOTICES.txt",
+            "/pyknon/sources/tension/jan-245.jpg",
+            "/pyknon/sources/tension/jan-246.jpg",
+            "/pyknon/sources/tension/jan-247.jpg",
+            "/pyknon/sources/tension/jan-248.jpg",
+            "/pyknon/sources/tension/meibom-10.jpg",
+            "/pyknon/sources/tension/meibom-11.jpg",
+            "/pyknon/sources/tension/meibom-12.jpg",
+            "/pyknon/sources/tension/meibom-13.jpg",
+            "/pyknon/sources/trial/manifest.json",
+            "/pyknon/sources/trial/wallis-33.jpg",
+            "/pyknon/sources/trial/wallis-34.jpg",
+            "/pyknon/sources/trial/wallis-35.jpg",
+            "/pyknon/sources/trial/wallis-36.jpg",
+            "/pyknon/sources/trial/wallis-37.jpg",
+            "/pyknon/sources/trial/wallis-38.jpg",
+            "/pyknon/sources/wallis-62.jpg",
+            "/pyknon/sources/wallis-63.jpg",
+            "/pyknon/tension.html",
+            "/pyknon/trial.html"
+          ]
+        }
+      ],
+      "offlineRooms": [
+        "index.html",
+        "song.html",
+        "canon.html",
+        "trial.html",
+        "rhythm.html",
+        "tension.html"
+      ],
+      "offlineReloadAndNativeReading": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "sounds": [
+        {
+          "mode": "claim",
+          "root": 220,
+          "weights": [6, 8, 9, 12],
+          "selected": 3,
+          "nodes": [
+            {
+              "hz": 220,
+              "start": 0.16,
+              "stops": [0.91]
+            },
+            {
+              "hz": 293.3333333333333,
+              "start": 1.06,
+              "stops": [1.81]
+            },
+            {
+              "hz": 330,
+              "start": 1.96,
+              "stops": [2.71]
+            },
+            {
+              "hz": 440,
+              "start": 2.8600000000000003,
+              "stops": [3.6100000000000003]
+            }
+          ],
+          "file": "claim.wav",
+          "bytes": 360046,
+          "sha256": "9c4e740f11a655d7bd8f2d1386df61ba93e3624e799de6ab507ed5185358bb8d"
+        },
+        {
+          "mode": "original",
+          "root": 220,
+          "weights": [6, 8, 9, 12],
+          "selected": 3,
+          "nodes": [
+            {
+              "hz": 220,
+              "start": 0.3109297052154195,
+              "stops": [1.0609297052154196]
+            },
+            {
+              "hz": 254.03411844343532,
+              "start": 1.2109297052154195,
+              "stops": [1.9609297052154195]
+            },
+            {
+              "hz": 269.4438717061496,
+              "start": 2.1109297052154194,
+              "stops": [2.8609297052154194]
+            },
+            {
+              "hz": 311.1269837220809,
+              "start": 3.01092970521542,
+              "stops": [3.76092970521542]
+            }
+          ],
+          "file": "original.wav",
+          "bytes": 360046,
+          "sha256": "829a1da8f28747dc12129cfd8a7e9d6f6099b073ab37c56b9e28f4b234c31c1a"
+        },
+        {
+          "mode": "yours",
+          "root": 220,
+          "weights": [6, 8, 9, 12],
+          "selected": 3,
+          "nodes": [
+            {
+              "hz": 220,
+              "start": 0.45024943310657595,
+              "stops": [1.2002494331065758]
+            },
+            {
+              "hz": 254.03411844343532,
+              "start": 1.350249433106576,
+              "stops": [2.100249433106576]
+            },
+            {
+              "hz": 269.4438717061496,
+              "start": 2.2502494331065757,
+              "stops": [3.0002494331065757]
+            },
+            {
+              "hz": 311.1269837220809,
+              "start": 3.150249433106576,
+              "stops": [3.900249433106576]
+            }
+          ],
+          "file": "yours.wav",
+          "bytes": 360046,
+          "sha256": "829a1da8f28747dc12129cfd8a7e9d6f6099b073ab37c56b9e28f4b234c31c1a"
+        },
+        {
+          "mode": "compare",
+          "root": 220,
+          "weights": [6, 8, 9, 12],
+          "selected": 3,
+          "nodes": [
+            {
+              "hz": 220,
+              "start": 0.5663492063492064,
+              "stops": [1.3163492063492064]
+            },
+            {
+              "hz": 440,
+              "start": 1.4663492063492063,
+              "stops": [2.2163492063492063]
+            },
+            {
+              "hz": 220,
+              "start": 2.6663492063492065,
+              "stops": [3.4163492063492065]
+            },
+            {
+              "hz": 311.1269837220809,
+              "start": 3.5663492063492064,
+              "stops": [4.316349206349207]
+            },
+            {
+              "hz": 220,
+              "start": 4.766349206349207,
+              "stops": [5.516349206349207]
+            },
+            {
+              "hz": 311.1269837220809,
+              "start": 5.666349206349207,
+              "stops": [6.416349206349207]
+            }
+          ],
+          "file": "compare.wav",
+          "bytes": 590444,
+          "sha256": "48431e7a969e57daf9f62caa44a9cfcb6eaf172cde21507dfad99472e038644b"
+        },
+        {
+          "mode": "together",
+          "root": 220,
+          "weights": [6, 8, 9, 12],
+          "selected": 3,
+          "nodes": [
+            {
+              "hz": 440,
+              "start": 0.7056689342403628,
+              "stops": [3.2056689342403626]
+            },
+            {
+              "hz": 311.1269837220809,
+              "start": 0.7056689342403628,
+              "stops": [3.2056689342403626]
+            }
+          ],
+          "file": "together.wav",
+          "bytes": 268844,
+          "sha256": "e872abf0a25bed37fe2984ca414b9d1838cb5975a6979371ba18372e0b46a04e"
+        },
+        {
+          "mode": "together",
+          "root": 110,
+          "weights": [6, 10.666666666666666, 9, 12],
+          "selected": 1,
+          "file": "repaired.wav",
+          "bytes": 268844,
+          "sha256": "92ebbef2244b31163efc85a57fa8584149d9a0c730a64b0e13f77d31c64a7ecf"
+        }
+      ],
+      "downloads": [
+        {
+          "kind": "json",
+          "file": "settings.json",
+          "bytes": 202,
+          "sha256": "0529e28b9af62c189a5f9aa2da70413f67a20d0a9c7f8d2a7dccff295ea10504"
+        },
+        {
+          "kind": "csv",
+          "file": "quantities.csv",
+          "bytes": 740,
+          "sha256": "6c16996d0bb11dea33f2fedb6531e3338c5718cb8cd4fcc3267a2fecabae0220"
+        },
+        {
+          "kind": "svg",
+          "file": "diagram.svg",
+          "bytes": 89882,
+          "sha256": "b686fbf825df98303f52d692d2db4610d1bdf70f2bb4beff74118553cfdd0e50"
+        },
+        {
+          "kind": "html",
+          "file": "reading.html",
+          "bytes": 8589998,
+          "sha256": "7ca57f80df1e36a37ed53ebcf419945fff1e0aa5c09b99c85db91db88b57bcd1"
+        }
+      ],
+      "sourceImagesVerified": 8,
+      "passagesInspected": 8,
+      "wordNotes": 10,
+      "axeViolations": 0,
+      "pageErrors": [],
+      "inventory": [
+        {
+          "name": "pyknon-5849b27213ca5876f801c249e12d6b0317b35eaea176f464d2e67b39ebe0c926",
+          "files": [
+            "/pyknon/assets/NotoSerif-OFL-BfJp0Y5l.js",
+            "/pyknon/assets/canon-BKPMYpM7.js",
+            "/pyknon/assets/canon-CgpS1fgs.css",
+            "/pyknon/assets/main-DlmwoSK4.js",
+            "/pyknon/assets/offline-DQU_9qEb.js",
+            "/pyknon/assets/offline-DSKqIBUv.css",
+            "/pyknon/assets/rhythm-BxI1eojA.css",
+            "/pyknon/assets/rhythm-Dha6RYVz.js",
+            "/pyknon/assets/song-DU6C71Tm.css",
+            "/pyknon/assets/song-YRQLnXbz.js",
+            "/pyknon/assets/tension-DGUgSrTF.js",
+            "/pyknon/assets/tension-Ik-kkgcL.css",
+            "/pyknon/assets/tetrachord-BqvDPsjm.js",
+            "/pyknon/assets/trial-C9QZtLCn.css",
+            "/pyknon/assets/trial-D4KE8B82.js",
+            "/pyknon/canon.html",
+            "/pyknon/fonts/IBMPlex-OFL.txt",
+            "/pyknon/fonts/IBMPlexSans-Regular.woff2",
+            "/pyknon/fonts/IBMPlexSans-SemiBold.woff2",
+            "/pyknon/fonts/NotoSerif-OFL.txt",
+            "/pyknon/fonts/NotoSerif-Regular.ttf",
+            "/pyknon/index.html",
+            "/pyknon/rhythm.html",
+            "/pyknon/song.html",
+            "/pyknon/sources/canon/menge-170.jpg",
+            "/pyknon/sources/canon/menge-171.jpg",
+            "/pyknon/sources/canon/menge-172.jpg",
+            "/pyknon/sources/canon/menge-173.jpg",
+            "/pyknon/sources/canon/menge-174.jpg",
+            "/pyknon/sources/canon/menge-175.jpg",
+            "/pyknon/sources/macran-182.jpg",
+            "/pyknon/sources/rhythm/manifest.json",
+            "/pyknon/sources/rhythm/westphal-28.jpg",
+            "/pyknon/sources/rhythm/westphal-31.jpg",
+            "/pyknon/sources/rhythm/westphal-33.jpg",
+            "/pyknon/sources/rhythm/westphal-34.jpg",
+            "/pyknon/sources/rhythm/westphal-35.jpg",
+            "/pyknon/sources/rhythm/westphal-36.jpg",
+            "/pyknon/sources/rhythm/westphal-37.jpg",
+            "/pyknon/sources/rhythm/westphal-title.jpg",
+            "/pyknon/sources/seikilos/inscription.jpg",
+            "/pyknon/sources/seikilos/monro-correction.jpg",
+            "/pyknon/sources/seikilos/monro-ending.jpg",
+            "/pyknon/sources/seikilos/stele.jpg",
+            "/pyknon/sources/tension/NOTICES.txt",
+            "/pyknon/sources/tension/jan-245.jpg",
+            "/pyknon/sources/tension/jan-246.jpg",
+            "/pyknon/sources/tension/jan-247.jpg",
+            "/pyknon/sources/tension/jan-248.jpg",
+            "/pyknon/sources/tension/meibom-10.jpg",
+            "/pyknon/sources/tension/meibom-11.jpg",
+            "/pyknon/sources/tension/meibom-12.jpg",
+            "/pyknon/sources/tension/meibom-13.jpg",
+            "/pyknon/sources/trial/manifest.json",
+            "/pyknon/sources/trial/wallis-33.jpg",
+            "/pyknon/sources/trial/wallis-34.jpg",
+            "/pyknon/sources/trial/wallis-35.jpg",
+            "/pyknon/sources/trial/wallis-36.jpg",
+            "/pyknon/sources/trial/wallis-37.jpg",
+            "/pyknon/sources/trial/wallis-38.jpg",
+            "/pyknon/sources/wallis-62.jpg",
+            "/pyknon/sources/wallis-63.jpg",
+            "/pyknon/tension.html",
+            "/pyknon/trial.html"
+          ]
+        }
+      ],
+      "offlineRooms": [
+        "index.html",
+        "song.html",
+        "canon.html",
+        "trial.html",
+        "rhythm.html",
+        "tension.html"
+      ],
+      "offlineReloadAndNativeReading": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "sounds": [
+        {
+          "mode": "claim",
+          "root": 220,
+          "weights": [6, 8, 9, 12],
+          "selected": 3,
+          "nodes": [
+            {
+              "hz": 220,
+              "start": 0.18031746031746032,
+              "stops": [0.9303174603174603]
+            },
+            {
+              "hz": 293.3333333333333,
+              "start": 1.0803174603174603,
+              "stops": [1.8303174603174603]
+            },
+            {
+              "hz": 330,
+              "start": 1.9803174603174603,
+              "stops": [2.73031746031746]
+            },
+            {
+              "hz": 440,
+              "start": 2.8803174603174604,
+              "stops": [3.6303174603174604]
+            }
+          ],
+          "file": "claim.wav",
+          "bytes": 360046,
+          "sha256": "c38b20e54a331cf44e1582e566f8deb38248e0166e88f1d2736c27ddea5b9c73"
+        },
+        {
+          "mode": "original",
+          "root": 220,
+          "weights": [6, 8, 9, 12],
+          "selected": 3,
+          "nodes": [
+            {
+              "hz": 220,
+              "start": 0.3689795918367347,
+              "stops": [1.1189795918367347]
+            },
+            {
+              "hz": 254.03411844343532,
+              "start": 1.2689795918367348,
+              "stops": [2.018979591836735]
+            },
+            {
+              "hz": 269.4438717061496,
+              "start": 2.1689795918367345,
+              "stops": [2.9189795918367345]
+            },
+            {
+              "hz": 311.1269837220809,
+              "start": 3.068979591836735,
+              "stops": [3.818979591836735]
+            }
+          ],
+          "file": "original.wav",
+          "bytes": 360046,
+          "sha256": "d33f80a5de8fa0f7cf5cace47b667ce1e8f09452fd55ed536bf70dea1f6d4020"
+        },
+        {
+          "mode": "yours",
+          "root": 220,
+          "weights": [6, 8, 9, 12],
+          "selected": 3,
+          "nodes": [
+            {
+              "hz": 220,
+              "start": 0.5866666666666667,
+              "stops": [1.3366666666666667]
+            },
+            {
+              "hz": 254.03411844343532,
+              "start": 1.4866666666666668,
+              "stops": [2.236666666666667]
+            },
+            {
+              "hz": 269.4438717061496,
+              "start": 2.3866666666666667,
+              "stops": [3.1366666666666667]
+            },
+            {
+              "hz": 311.1269837220809,
+              "start": 3.286666666666667,
+              "stops": [4.036666666666667]
+            }
+          ],
+          "file": "yours.wav",
+          "bytes": 360046,
+          "sha256": "d33f80a5de8fa0f7cf5cace47b667ce1e8f09452fd55ed536bf70dea1f6d4020"
+        },
+        {
+          "mode": "compare",
+          "root": 220,
+          "weights": [6, 8, 9, 12],
+          "selected": 3,
+          "nodes": [
+            {
+              "hz": 220,
+              "start": 0.7724263038548753,
+              "stops": [1.5224263038548753]
+            },
+            {
+              "hz": 440,
+              "start": 1.6724263038548752,
+              "stops": [2.4224263038548752]
+            },
+            {
+              "hz": 220,
+              "start": 2.8724263038548754,
+              "stops": [3.6224263038548754]
+            },
+            {
+              "hz": 311.1269837220809,
+              "start": 3.7724263038548753,
+              "stops": [4.522426303854875]
+            },
+            {
+              "hz": 220,
+              "start": 4.972426303854876,
+              "stops": [5.722426303854876]
+            },
+            {
+              "hz": 311.1269837220809,
+              "start": 5.872426303854876,
+              "stops": [6.622426303854876]
+            }
+          ],
+          "file": "compare.wav",
+          "bytes": 590444,
+          "sha256": "3fba8c92e8acb8e738e0da47f7e5c163864fb357a04c2641989585296d9e116d"
+        },
+        {
+          "mode": "together",
+          "root": 220,
+          "weights": [6, 8, 9, 12],
+          "selected": 3,
+          "nodes": [
+            {
+              "hz": 440,
+              "start": 0.993015873015873,
+              "stops": [3.493015873015873]
+            },
+            {
+              "hz": 311.1269837220809,
+              "start": 0.993015873015873,
+              "stops": [3.493015873015873]
+            }
+          ],
+          "file": "together.wav",
+          "bytes": 268844,
+          "sha256": "7b9156edb6a03dc8a66df5b7d2492f32900e64448fb2d37de1e140531b4a8c57"
+        },
+        {
+          "mode": "together",
+          "root": 110,
+          "weights": [6, 10.666666666666666, 9, 12],
+          "selected": 1,
+          "file": "repaired.wav",
+          "bytes": 268844,
+          "sha256": "7a04f4fa456fd66a367d656af59ce2cda0b4d0872a4e2121e1df5619e9170b0d"
+        }
+      ],
+      "downloads": [
+        {
+          "kind": "json",
+          "file": "settings.json",
+          "bytes": 202,
+          "sha256": "0529e28b9af62c189a5f9aa2da70413f67a20d0a9c7f8d2a7dccff295ea10504"
+        },
+        {
+          "kind": "csv",
+          "file": "quantities.csv",
+          "bytes": 740,
+          "sha256": "6c16996d0bb11dea33f2fedb6531e3338c5718cb8cd4fcc3267a2fecabae0220"
+        },
+        {
+          "kind": "svg",
+          "file": "diagram.svg",
+          "bytes": 89882,
+          "sha256": "b686fbf825df98303f52d692d2db4610d1bdf70f2bb4beff74118553cfdd0e50"
+        },
+        {
+          "kind": "html",
+          "file": "reading.html",
+          "bytes": 8589998,
+          "sha256": "b85886d1f5ac091b38c14c69bcaf877d1237a3758389685b49be8e1904ffc338"
+        }
+      ],
+      "sourceImagesVerified": 8,
+      "passagesInspected": 8,
+      "wordNotes": 10,
+      "axeViolations": 0,
+      "pageErrors": [],
+      "inventory": [
+        {
+          "name": "pyknon-5849b27213ca5876f801c249e12d6b0317b35eaea176f464d2e67b39ebe0c926",
+          "files": [
+            "/pyknon/assets/NotoSerif-OFL-BfJp0Y5l.js",
+            "/pyknon/assets/canon-BKPMYpM7.js",
+            "/pyknon/assets/canon-CgpS1fgs.css",
+            "/pyknon/assets/main-DlmwoSK4.js",
+            "/pyknon/assets/offline-DQU_9qEb.js",
+            "/pyknon/assets/offline-DSKqIBUv.css",
+            "/pyknon/assets/rhythm-BxI1eojA.css",
+            "/pyknon/assets/rhythm-Dha6RYVz.js",
+            "/pyknon/assets/song-DU6C71Tm.css",
+            "/pyknon/assets/song-YRQLnXbz.js",
+            "/pyknon/assets/tension-DGUgSrTF.js",
+            "/pyknon/assets/tension-Ik-kkgcL.css",
+            "/pyknon/assets/tetrachord-BqvDPsjm.js",
+            "/pyknon/assets/trial-C9QZtLCn.css",
+            "/pyknon/assets/trial-D4KE8B82.js",
+            "/pyknon/canon.html",
+            "/pyknon/fonts/IBMPlex-OFL.txt",
+            "/pyknon/fonts/IBMPlexSans-Regular.woff2",
+            "/pyknon/fonts/IBMPlexSans-SemiBold.woff2",
+            "/pyknon/fonts/NotoSerif-OFL.txt",
+            "/pyknon/fonts/NotoSerif-Regular.ttf",
+            "/pyknon/index.html",
+            "/pyknon/rhythm.html",
+            "/pyknon/song.html",
+            "/pyknon/sources/canon/menge-170.jpg",
+            "/pyknon/sources/canon/menge-171.jpg",
+            "/pyknon/sources/canon/menge-172.jpg",
+            "/pyknon/sources/canon/menge-173.jpg",
+            "/pyknon/sources/canon/menge-174.jpg",
+            "/pyknon/sources/canon/menge-175.jpg",
+            "/pyknon/sources/macran-182.jpg",
+            "/pyknon/sources/rhythm/manifest.json",
+            "/pyknon/sources/rhythm/westphal-28.jpg",
+            "/pyknon/sources/rhythm/westphal-31.jpg",
+            "/pyknon/sources/rhythm/westphal-33.jpg",
+            "/pyknon/sources/rhythm/westphal-34.jpg",
+            "/pyknon/sources/rhythm/westphal-35.jpg",
+            "/pyknon/sources/rhythm/westphal-36.jpg",
+            "/pyknon/sources/rhythm/westphal-37.jpg",
+            "/pyknon/sources/rhythm/westphal-title.jpg",
+            "/pyknon/sources/seikilos/inscription.jpg",
+            "/pyknon/sources/seikilos/monro-correction.jpg",
+            "/pyknon/sources/seikilos/monro-ending.jpg",
+            "/pyknon/sources/seikilos/stele.jpg",
+            "/pyknon/sources/tension/NOTICES.txt",
+            "/pyknon/sources/tension/jan-245.jpg",
+            "/pyknon/sources/tension/jan-246.jpg",
+            "/pyknon/sources/tension/jan-247.jpg",
+            "/pyknon/sources/tension/jan-248.jpg",
+            "/pyknon/sources/tension/meibom-10.jpg",
+            "/pyknon/sources/tension/meibom-11.jpg",
+            "/pyknon/sources/tension/meibom-12.jpg",
+            "/pyknon/sources/tension/meibom-13.jpg",
+            "/pyknon/sources/trial/manifest.json",
+            "/pyknon/sources/trial/wallis-33.jpg",
+            "/pyknon/sources/trial/wallis-34.jpg",
+            "/pyknon/sources/trial/wallis-35.jpg",
+            "/pyknon/sources/trial/wallis-36.jpg",
+            "/pyknon/sources/trial/wallis-37.jpg",
+            "/pyknon/sources/trial/wallis-38.jpg",
+            "/pyknon/sources/wallis-62.jpg",
+            "/pyknon/sources/wallis-63.jpg",
+            "/pyknon/tension.html",
+            "/pyknon/trial.html"
+          ]
+        }
+      ],
+      "offlineRooms": [
+        "index.html",
+        "song.html",
+        "canon.html",
+        "trial.html",
+        "rhythm.html",
+        "tension.html"
+      ],
+      "offlineReloadAndNativeReading": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "sounds": [
+        {
+          "mode": "claim",
+          "root": 220,
+          "weights": [6, 8, 9, 12],
+          "selected": 3,
+          "nodes": [
+            {
+              "hz": 220,
+              "start": 0.16870748299319727,
+              "stops": [0.9187074829931973]
+            },
+            {
+              "hz": 293.3333333333333,
+              "start": 1.0687074829931973,
+              "stops": [1.8187074829931973]
+            },
+            {
+              "hz": 330,
+              "start": 1.9687074829931972,
+              "stops": [2.718707482993197]
+            },
+            {
+              "hz": 440,
+              "start": 2.8687074829931976,
+              "stops": [3.6187074829931976]
+            }
+          ],
+          "file": "claim.wav",
+          "bytes": 360046,
+          "sha256": "c38b20e54a331cf44e1582e566f8deb38248e0166e88f1d2736c27ddea5b9c73"
+        },
+        {
+          "mode": "original",
+          "root": 220,
+          "weights": [6, 8, 9, 12],
+          "selected": 3,
+          "nodes": [
+            {
+              "hz": 220,
+              "start": 0.389297052154195,
+              "stops": [1.139297052154195]
+            },
+            {
+              "hz": 254.03411844343532,
+              "start": 1.289297052154195,
+              "stops": [2.039297052154195]
+            },
+            {
+              "hz": 269.4438717061496,
+              "start": 2.189297052154195,
+              "stops": [2.939297052154195]
+            },
+            {
+              "hz": 311.1269837220809,
+              "start": 3.0892970521541954,
+              "stops": [3.8392970521541954]
+            }
+          ],
+          "file": "original.wav",
+          "bytes": 360046,
+          "sha256": "d33f80a5de8fa0f7cf5cace47b667ce1e8f09452fd55ed536bf70dea1f6d4020"
+        },
+        {
+          "mode": "yours",
+          "root": 220,
+          "weights": [6, 8, 9, 12],
+          "selected": 3,
+          "nodes": [
+            {
+              "hz": 220,
+              "start": 0.5895691609977324,
+              "stops": [1.3395691609977325]
+            },
+            {
+              "hz": 254.03411844343532,
+              "start": 1.4895691609977324,
+              "stops": [2.2395691609977324]
+            },
+            {
+              "hz": 269.4438717061496,
+              "start": 2.3895691609977323,
+              "stops": [3.1395691609977323]
+            },
+            {
+              "hz": 311.1269837220809,
+              "start": 3.2895691609977327,
+              "stops": [4.039569160997733]
+            }
+          ],
+          "file": "yours.wav",
+          "bytes": 360046,
+          "sha256": "d33f80a5de8fa0f7cf5cace47b667ce1e8f09452fd55ed536bf70dea1f6d4020"
+        },
+        {
+          "mode": "compare",
+          "root": 220,
+          "weights": [6, 8, 9, 12],
+          "selected": 3,
+          "nodes": [
+            {
+              "hz": 220,
+              "start": 0.7637188208616781,
+              "stops": [1.513718820861678]
+            },
+            {
+              "hz": 440,
+              "start": 1.663718820861678,
+              "stops": [2.413718820861678]
+            },
+            {
+              "hz": 220,
+              "start": 2.863718820861678,
+              "stops": [3.613718820861678]
+            },
+            {
+              "hz": 311.1269837220809,
+              "start": 3.763718820861678,
+              "stops": [4.513718820861678]
+            },
+            {
+              "hz": 220,
+              "start": 4.963718820861678,
+              "stops": [5.713718820861678]
+            },
+            {
+              "hz": 311.1269837220809,
+              "start": 5.863718820861679,
+              "stops": [6.613718820861679]
+            }
+          ],
+          "file": "compare.wav",
+          "bytes": 590444,
+          "sha256": "3fba8c92e8acb8e738e0da47f7e5c163864fb357a04c2641989585296d9e116d"
+        },
+        {
+          "mode": "together",
+          "root": 220,
+          "weights": [6, 8, 9, 12],
+          "selected": 3,
+          "nodes": [
+            {
+              "hz": 440,
+              "start": 0.9494784580498866,
+              "stops": [3.4494784580498865]
+            },
+            {
+              "hz": 311.1269837220809,
+              "start": 0.9494784580498866,
+              "stops": [3.4494784580498865]
+            }
+          ],
+          "file": "together.wav",
+          "bytes": 268844,
+          "sha256": "7b9156edb6a03dc8a66df5b7d2492f32900e64448fb2d37de1e140531b4a8c57"
+        },
+        {
+          "mode": "together",
+          "root": 110,
+          "weights": [6, 10.666666666666666, 9, 12],
+          "selected": 1,
+          "file": "repaired.wav",
+          "bytes": 268844,
+          "sha256": "7a04f4fa456fd66a367d656af59ce2cda0b4d0872a4e2121e1df5619e9170b0d"
+        }
+      ],
+      "downloads": [
+        {
+          "kind": "json",
+          "file": "settings.json",
+          "bytes": 202,
+          "sha256": "0529e28b9af62c189a5f9aa2da70413f67a20d0a9c7f8d2a7dccff295ea10504"
+        },
+        {
+          "kind": "csv",
+          "file": "quantities.csv",
+          "bytes": 740,
+          "sha256": "6c16996d0bb11dea33f2fedb6531e3338c5718cb8cd4fcc3267a2fecabae0220"
+        },
+        {
+          "kind": "svg",
+          "file": "diagram.svg",
+          "bytes": 89882,
+          "sha256": "b686fbf825df98303f52d692d2db4610d1bdf70f2bb4beff74118553cfdd0e50"
+        },
+        {
+          "kind": "html",
+          "file": "reading.html",
+          "bytes": 8589998,
+          "sha256": "b85886d1f5ac091b38c14c69bcaf877d1237a3758389685b49be8e1904ffc338"
+        }
+      ],
+      "sourceImagesVerified": 8,
+      "passagesInspected": 8,
+      "wordNotes": 10,
+      "axeViolations": 0,
+      "pageErrors": [],
+      "inventory": [
+        {
+          "name": "pyknon-5849b27213ca5876f801c249e12d6b0317b35eaea176f464d2e67b39ebe0c926",
+          "files": [
+            "/pyknon/assets/NotoSerif-OFL-BfJp0Y5l.js",
+            "/pyknon/assets/canon-BKPMYpM7.js",
+            "/pyknon/assets/canon-CgpS1fgs.css",
+            "/pyknon/assets/main-DlmwoSK4.js",
+            "/pyknon/assets/offline-DQU_9qEb.js",
+            "/pyknon/assets/offline-DSKqIBUv.css",
+            "/pyknon/assets/rhythm-BxI1eojA.css",
+            "/pyknon/assets/rhythm-Dha6RYVz.js",
+            "/pyknon/assets/song-DU6C71Tm.css",
+            "/pyknon/assets/song-YRQLnXbz.js",
+            "/pyknon/assets/tension-DGUgSrTF.js",
+            "/pyknon/assets/tension-Ik-kkgcL.css",
+            "/pyknon/assets/tetrachord-BqvDPsjm.js",
+            "/pyknon/assets/trial-C9QZtLCn.css",
+            "/pyknon/assets/trial-D4KE8B82.js",
+            "/pyknon/canon.html",
+            "/pyknon/fonts/IBMPlex-OFL.txt",
+            "/pyknon/fonts/IBMPlexSans-Regular.woff2",
+            "/pyknon/fonts/IBMPlexSans-SemiBold.woff2",
+            "/pyknon/fonts/NotoSerif-OFL.txt",
+            "/pyknon/fonts/NotoSerif-Regular.ttf",
+            "/pyknon/index.html",
+            "/pyknon/rhythm.html",
+            "/pyknon/song.html",
+            "/pyknon/sources/canon/menge-170.jpg",
+            "/pyknon/sources/canon/menge-171.jpg",
+            "/pyknon/sources/canon/menge-172.jpg",
+            "/pyknon/sources/canon/menge-173.jpg",
+            "/pyknon/sources/canon/menge-174.jpg",
+            "/pyknon/sources/canon/menge-175.jpg",
+            "/pyknon/sources/macran-182.jpg",
+            "/pyknon/sources/rhythm/manifest.json",
+            "/pyknon/sources/rhythm/westphal-28.jpg",
+            "/pyknon/sources/rhythm/westphal-31.jpg",
+            "/pyknon/sources/rhythm/westphal-33.jpg",
+            "/pyknon/sources/rhythm/westphal-34.jpg",
+            "/pyknon/sources/rhythm/westphal-35.jpg",
+            "/pyknon/sources/rhythm/westphal-36.jpg",
+            "/pyknon/sources/rhythm/westphal-37.jpg",
+            "/pyknon/sources/rhythm/westphal-title.jpg",
+            "/pyknon/sources/seikilos/inscription.jpg",
+            "/pyknon/sources/seikilos/monro-correction.jpg",
+            "/pyknon/sources/seikilos/monro-ending.jpg",
+            "/pyknon/sources/seikilos/stele.jpg",
+            "/pyknon/sources/tension/NOTICES.txt",
+            "/pyknon/sources/tension/jan-245.jpg",
+            "/pyknon/sources/tension/jan-246.jpg",
+            "/pyknon/sources/tension/jan-247.jpg",
+            "/pyknon/sources/tension/jan-248.jpg",
+            "/pyknon/sources/tension/meibom-10.jpg",
+            "/pyknon/sources/tension/meibom-11.jpg",
+            "/pyknon/sources/tension/meibom-12.jpg",
+            "/pyknon/sources/tension/meibom-13.jpg",
+            "/pyknon/sources/trial/manifest.json",
+            "/pyknon/sources/trial/wallis-33.jpg",
+            "/pyknon/sources/trial/wallis-34.jpg",
+            "/pyknon/sources/trial/wallis-35.jpg",
+            "/pyknon/sources/trial/wallis-36.jpg",
+            "/pyknon/sources/trial/wallis-37.jpg",
+            "/pyknon/sources/trial/wallis-38.jpg",
+            "/pyknon/sources/wallis-62.jpg",
+            "/pyknon/sources/wallis-63.jpg",
+            "/pyknon/tension.html",
+            "/pyknon/trial.html"
+          ]
+        }
+      ],
+      "offlineRooms": [
+        "index.html",
+        "song.html",
+        "canon.html",
+        "trial.html",
+        "rhythm.html",
+        "tension.html"
+      ],
+      "offlineReloadAndNativeReading": true
+    }
+  ]
+}

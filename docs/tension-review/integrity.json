@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-10-25T20:56:26.517Z",
+  "results": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "mode": "hold",
+      "heldMilliseconds": 8500,
+      "validWrongJpegResponses": 0,
+      "incompleteNeverReady": true,
+      "badReadingNotDownloaded": false,
+      "recovered": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "mode": "substitute",
+      "heldMilliseconds": 0,
+      "validWrongJpegResponses": 3,
+      "incompleteNeverReady": true,
+      "badReadingNotDownloaded": true,
+      "recovered": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "mode": "hold",
+      "heldMilliseconds": 8500,
+      "validWrongJpegResponses": 0,
+      "incompleteNeverReady": true,
+      "badReadingNotDownloaded": false,
+      "recovered": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "mode": "substitute",
+      "heldMilliseconds": 0,
+      "validWrongJpegResponses": 3,
+      "incompleteNeverReady": true,
+      "badReadingNotDownloaded": true,
+      "recovered": true
+    }
+  ]
+}

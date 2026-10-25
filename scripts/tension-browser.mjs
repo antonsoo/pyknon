@@ -184,6 +184,14 @@ for (const [name, launcher] of [
         assert.match(await page.locator("#ts-result").textContent(), /Exact ratio reached/);
         await page.locator("#ts-restore").click();
         assert.equal(await page.locator("#ts-exact").inputValue(), "12");
+        await page.locator(".ts-adjust summary").click();
+        await page.locator("#ts-repair").click();
+        assert.equal(await page.locator("#ts-exact").inputValue(), "24");
+        await page.locator("#ts-repair-all").click();
+        assert.match(await page.locator("#ts-table").textContent(), /32\/3/);
+        await page.locator("#ts-reset").click();
+        assert.equal(await page.locator("#ts-exact").inputValue(), "12");
+        await page.locator(".ts-adjust summary").click();
         const sounds = [];
         for (const mode of ["claim", "original", "yours", "compare", "together"]) {
           await page.locator("#ts-sound").selectOption(mode);

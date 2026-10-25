@@ -1,0 +1,165 @@
+{
+  "scope": "Controlled five-to-six-room upgrade at 375 px; Chromium authentic late reply before inspector timeout, plus held/substituted precache in both engines; browser offline while local origin remains available",
+  "currentWorkerSha256": "54efd96f81ca81ca816d98dc45de24454d1711ac93ad1e54e573abe4e29c9e74",
+  "oldFileCount": 53,
+  "newFileCount": 65,
+  "records": [
+    {
+      "engine": "chromium",
+      "mode": "hold",
+      "oldEdition": "00ee8374d52da3668f11957b861024c58d18ec815b7204f5d73943da073eb9a4",
+      "newEdition": "5849b27213ca5876f801c249e12d6b0317b35eaea176f464d2e67b39ebe0c926",
+      "before": "This edition is not saved offline. Keep this tab open to continue reading.",
+      "workerAfter": {
+        "type": "PYKNON_EDITION",
+        "edition": "5849b27213ca5876f801c249e12d6b0317b35eaea176f464d2e67b39ebe0c926",
+        "complete": true
+      },
+      "after": "Ready offline · all six rooms, audio, diagrams & source scans saved.",
+      "automaticallyAcknowledged": true,
+      "staleReplyIgnored": false,
+      "wrongHttp200Responses": [],
+      "expectedIntegrityConsoleErrors": [],
+      "offlineSixRooms": [
+        "index.html",
+        "song.html",
+        "canon.html",
+        "trial.html",
+        "rhythm.html",
+        "tension.html"
+      ],
+      "oldOpenTabAcknowledgedThenReloaded": true,
+      "inspectionAfterDeletionDidNotCreateCache": true,
+      "offlineIllustratedReadingSaved": true
+    },
+    {
+      "engine": "chromium",
+      "mode": "wrong",
+      "oldEdition": "00ee8374d52da3668f11957b861024c58d18ec815b7204f5d73943da073eb9a4",
+      "newEdition": "5849b27213ca5876f801c249e12d6b0317b35eaea176f464d2e67b39ebe0c926",
+      "before": "This edition is not saved offline. Keep this tab open to continue reading.",
+      "workerAfter": {
+        "type": "PYKNON_EDITION",
+        "edition": "5849b27213ca5876f801c249e12d6b0317b35eaea176f464d2e67b39ebe0c926",
+        "complete": true
+      },
+      "after": "Ready offline · all six rooms, audio, diagrams & source scans saved.",
+      "automaticallyAcknowledged": true,
+      "staleReplyIgnored": false,
+      "wrongHttp200Responses": [
+        {
+          "url": "/pyknon/tension.html",
+          "status": 200,
+          "oldEntryInsteadOfNewRhythm": true
+        }
+      ],
+      "expectedIntegrityConsoleErrors": [],
+      "offlineSixRooms": [
+        "index.html",
+        "song.html",
+        "canon.html",
+        "trial.html",
+        "rhythm.html",
+        "tension.html"
+      ],
+      "oldOpenTabAcknowledgedThenReloaded": true,
+      "inspectionAfterDeletionDidNotCreateCache": true,
+      "offlineIllustratedReadingSaved": true
+    },
+    {
+      "engine": "chromium",
+      "mode": "late",
+      "oldEdition": "00ee8374d52da3668f11957b861024c58d18ec815b7204f5d73943da073eb9a4",
+      "newEdition": "5849b27213ca5876f801c249e12d6b0317b35eaea176f464d2e67b39ebe0c926",
+      "before": "This edition is not saved offline. Keep this tab open to continue reading.",
+      "workerAfter": {
+        "type": "PYKNON_EDITION",
+        "edition": "5849b27213ca5876f801c249e12d6b0317b35eaea176f464d2e67b39ebe0c926",
+        "complete": true
+      },
+      "after": "Ready offline · all six rooms, audio, diagrams & source scans saved.",
+      "automaticallyAcknowledged": true,
+      "staleReplyIgnored": true,
+      "wrongHttp200Responses": [],
+      "expectedIntegrityConsoleErrors": [],
+      "offlineSixRooms": [
+        "index.html",
+        "song.html",
+        "canon.html",
+        "trial.html",
+        "rhythm.html",
+        "tension.html"
+      ],
+      "oldOpenTabAcknowledgedThenReloaded": true,
+      "inspectionAfterDeletionDidNotCreateCache": true,
+      "offlineIllustratedReadingSaved": true
+    },
+    {
+      "engine": "firefox",
+      "mode": "hold",
+      "oldEdition": "00ee8374d52da3668f11957b861024c58d18ec815b7204f5d73943da073eb9a4",
+      "newEdition": "5849b27213ca5876f801c249e12d6b0317b35eaea176f464d2e67b39ebe0c926",
+      "before": "This edition is not saved offline. Keep this tab open to continue reading.",
+      "workerAfter": {
+        "type": "PYKNON_EDITION",
+        "edition": "5849b27213ca5876f801c249e12d6b0317b35eaea176f464d2e67b39ebe0c926",
+        "complete": true
+      },
+      "after": "Ready offline · all six rooms, audio, diagrams & source scans saved.",
+      "automaticallyAcknowledged": true,
+      "staleReplyIgnored": false,
+      "wrongHttp200Responses": [],
+      "expectedIntegrityConsoleErrors": [],
+      "offlineSixRooms": [
+        "index.html",
+        "song.html",
+        "canon.html",
+        "trial.html",
+        "rhythm.html",
+        "tension.html"
+      ],
+      "oldOpenTabAcknowledgedThenReloaded": true,
+      "inspectionAfterDeletionDidNotCreateCache": true,
+      "offlineIllustratedReadingSaved": true
+    },
+    {
+      "engine": "firefox",
+      "mode": "wrong",
+      "oldEdition": "00ee8374d52da3668f11957b861024c58d18ec815b7204f5d73943da073eb9a4",
+      "newEdition": "5849b27213ca5876f801c249e12d6b0317b35eaea176f464d2e67b39ebe0c926",
+      "before": "This edition is not saved offline. Keep this tab open to continue reading.",
+      "workerAfter": {
+        "type": "PYKNON_EDITION",
+        "edition": "5849b27213ca5876f801c249e12d6b0317b35eaea176f464d2e67b39ebe0c926",
+        "complete": true
+      },
+      "after": "Ready offline · all six rooms, audio, diagrams & source scans saved.",
+      "automaticallyAcknowledged": true,
+      "staleReplyIgnored": false,
+      "wrongHttp200Responses": [
+        {
+          "url": "/pyknon/tension.html",
+          "status": 200,
+          "oldEntryInsteadOfNewRhythm": true
+        },
+        {
+          "url": "/pyknon/tension.html",
+          "status": 200,
+          "oldEntryInsteadOfNewRhythm": true
+        }
+      ],
+      "expectedIntegrityConsoleErrors": [],
+      "offlineSixRooms": [
+        "index.html",
+        "song.html",
+        "canon.html",
+        "trial.html",
+        "rhythm.html",
+        "tension.html"
+      ],
+      "oldOpenTabAcknowledgedThenReloaded": true,
+      "inspectionAfterDeletionDidNotCreateCache": true,
+      "offlineIllustratedReadingSaved": true
+    }
+  ]
+}

@@ -42,20 +42,40 @@ for config in report['configurations']:
             age = t-start
             envelope = np.minimum(np.minimum(age/.02,(duration-age)/.06),1).clip(0,1)
             columns.extend([envelope*np.sin(2*math.pi*hz*age), envelope*np.cos(2*math.pi*hz*age)])
-        # Oscillator phase at a scheduled start is browser-dependent. Fit only
-        # phase/amplitude; frequencies and the entire envelope remain fixed by
-        # this independent model. Wrong pitches cannot fit the PCM samples.
+        # Phase and finite phase-accumulator precision differ between browser
+        # engines. Fit phase in 100 ms windows, retaining the independently fixed
+        # frequencies and full attack/release envelope. Then measure phase drift:
+        # a wrong pitch cannot pass merely by restarting its fitted phase.
         basis = np.column_stack(columns)
-        coefficients = np.linalg.lstsq(basis, samples, rcond=None)[0]
-        expected = basis @ coefficients
-        error = float(np.sqrt(np.mean((samples-expected)**2)))
-        assert error < .00012, (config['browser'],mode,error)
-        amplitudes = np.sqrt(coefficients[::2]**2 + coefficients[1::2]**2)
-        assert np.max(np.abs(amplitudes - .16)) < .0001, amplitudes
+        predicted = np.zeros_like(samples)
+        phases = [[] for _ in tones]
+        max_amplitude_error = 0
+        for left in range(0, len(samples), 4800):
+            right = min(left+4800, len(samples))
+            block = basis[left:right]
+            coefficients = np.linalg.lstsq(block, samples[left:right], rcond=None)[0]
+            predicted[left:right] = block @ coefficients
+            middle = (left+right)/(2*rate)
+            for i,(start,hz,duration) in enumerate(tones):
+                if left/rate > start+.03 and right/rate < start+duration-.07:
+                    a,b = coefficients[2*i:2*i+2]
+                    amplitude = math.hypot(a,b)
+                    max_amplitude_error = max(max_amplitude_error,abs(amplitude-.16))
+                    phases[i].append((middle,math.atan2(b,a)))
+        error = float(np.sqrt(np.mean((samples-predicted)**2)))
+        assert error < .00006, (config['browser'],mode,error)
+        assert max_amplitude_error < .0001, max_amplitude_error
+        offsets = []
+        for observations in phases:
+            assert len(observations) >= 4
+            times,angles = np.array(observations).T
+            offset = float(np.polyfit(times,np.unwrap(angles),1)[0]/(2*math.pi))
+            assert abs(offset) < .005, (config['browser'],mode,offset)
+            offsets.append(offset)
         assert abs(samples[t<.1]).max() == 0
         assert abs(samples[t>max(a+c for a,b,c in tones)+.01]).max() == 0
         observed = sorted(record.get('nodes',[]),key=lambda x:(x['start'],x['hz']))
         for node,(_,hz,_) in zip(observed,sorted(tones)):
             assert abs(node['hz']-hz) < 1e-8
-        checks.append({'browser':config['browser'],'width':config['width'],'mode':mode,'file':record['file'],'sampleRate':rate,'samples':len(samples),'rmsResidual':error,'independentlyPredictedFrequencies':[b for a,b,c in sorted(tones)]})
+        checks.append({'browser':config['browser'],'width':config['width'],'mode':mode,'file':record['file'],'sampleRate':rate,'samples':len(samples),'rmsResidual':error,'frequencyOffsetsHz':offsets,'maximumAmplitudeError':max_amplitude_error,'independentlyPredictedFrequencies':[b for a,b,c in sorted(tones)]})
 print(json.dumps({'checkedFiles':len(checks),'checks':checks},indent=2))

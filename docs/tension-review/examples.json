@@ -1,0 +1,52 @@
+{
+  "savedSettings": {
+    "format": "pyknon-weighted-strings",
+    "version": 1,
+    "weights": ["32/3", "9", "12"],
+    "selected": 1,
+    "root": 110,
+    "sound": "together",
+    "passage": 0,
+    "page": "meibom-11"
+  },
+  "originalWeightsWav": {
+    "weights": [6, 8, 9, 12],
+    "root": 220,
+    "selected": 3,
+    "mode": "compare",
+    "order": "claim pair, original ideal pair, unchanged user ideal pair"
+  },
+  "files": [
+    {
+      "file": "examples/tension-settings.json",
+      "bytes": 202,
+      "sha256": "0529e28b9af62c189a5f9aa2da70413f67a20d0a9c7f8d2a7dccff295ea10504"
+    },
+    {
+      "file": "examples/tension-quantities.csv",
+      "bytes": 740,
+      "sha256": "6c16996d0bb11dea33f2fedb6531e3338c5718cb8cd4fcc3267a2fecabae0220"
+    },
+    {
+      "file": "examples/tension-diagram.svg",
+      "bytes": 89882,
+      "sha256": "b686fbf825df98303f52d692d2db4610d1bdf70f2bb4beff74118553cfdd0e50"
+    },
+    {
+      "file": "examples/tension-reading.pdf",
+      "bytes": 5387298,
+      "sha256": "b7d44322e2d323e4505d22cb0fd61a408b897e0299d520ecb7bf8b97dd25d98a"
+    },
+    {
+      "file": "examples/tension-original-weights.wav",
+      "bytes": 590444,
+      "sha256": "48431e7a969e57daf9f62caa44a9cfcb6eaf172cde21507dfad99472e038644b"
+    },
+    {
+      "file": "examples/tension-reading.html.gz",
+      "bytes": 5784484,
+      "sha256": "e925bb0f37e5e2418c8f856574a5cd66680014d987ae100e69a434d24f1cf4c9",
+      "uncompressedSha256": "7ca57f80df1e36a37ed53ebcf419945fff1e0aa5c09b99c85db91db88b57bcd1"
+    }
+  ]
+}

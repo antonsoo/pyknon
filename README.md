@@ -155,13 +155,47 @@ break; the later parallels printed on the same pages remain distinct.
 
 Save native JSON, SVG, scheduled-onset CSV or synthetic WAV. A single
 script-free HTML reading keeps both experiments, all readings and source
-images, font, editable JSON and the selected sound. The whole five-room edition
+images, font, editable JSON and the selected sound. The whole six-room edition
 works offline after complete installation. Sine clicks mark positions; their
 short decays do not represent sung note lengths or reconstruct ancient accents.
 
-The reviewed five-room edition is public. [Publication evidence](docs/rhythm-publication.md) identifies the source, Pages commit and canonical hosted files.
+The original reviewed five-room edition is public; the sixth room has its own review below. [Publication evidence](docs/rhythm-publication.md) identifies the source, Pages commit and canonical hosted files.
 [Source and model](docs/rhythm-model.md) · [Direct review](docs/rhythm-review.md) ·
 [Saved reading](examples/rhythm-reading.html) · [Printable reading](examples/rhythm-reading.pdf).
+
+## Test a story with four hanging weights
+
+The new **weighted strings** room (`tension.html`) reads Nicomachus's
+_Harmonic Manual_ 6 against a modern ideal string model. The account calls
+12 against 6 an octave, with string lengths held equal. The ideal model gives
+√2 as the frequency ratio: **600 cents, half of the claimed 1200-cent interval**.
+
+![Separate replacement loads, equal vibrating lengths and the retained source numbers](docs/assets/tension-desktop.png)
+- Hear the claim, original ideal prediction and your replacement weights.
+  Keep the original 6,8,9,12 visible while finding the exact repair loads
+  32/3, 27/2 and 24 against the unchanged 6.
+- Read eight Greek/Latin/English excerpts and ten word notes. Eight complete
+  pages retain Jan's 1895 apparatus and Meibom's 1652 Greek and Latin, including
+  the translation difference between “equally twisted” and “equally heavy”.
+- Save an independent HTML reading with generated WAV audio, exact ratios,
+  diagrams, all readings, complete source pages, fonts and licenses; reopen
+  editable JSON, or export CSV, WAV and a font-embedded SVG.
+- Use all six rooms offline after the matching complete edition is saved.
+
+The diagram is a comparison, not a reconstruction of the account's shared peg.
+The fixed-end uniform-string model holds loaded length and linear density fixed;
+it does not model stretching, free hanging endpoints, hammer timbre or an ancient
+performance. Frequencies and cents are rounded; replacement load fractions are
+exact. No physical instrument was measured.
+
+[Source and model](docs/tension-model.md) · [Direct review](docs/tension-review.md).
+Local review and public publication are recorded separately there.
+
+```sh
+npm run verify:tension
+npm run test:tension -- /tmp/pyknon-tension-review
+uv run --python 3.12 --with numpy==2.4.4 python3 scripts/tension-wave-oracle.py /tmp/pyknon-tension-review/review.json
+```
 
 ## Run locally
 
