@@ -362,12 +362,19 @@ for (const [name, type] of [
         await portableContext.close();
         if (!hosted) server.offline();
         await context.setOffline(true);
-        const rooms = ["index.html", "song.html", "canon.html", "trial.html", "rhythm.html"];
+        const rooms = [
+          "index.html",
+          "song.html",
+          "canon.html",
+          "trial.html",
+          "tension.html",
+          "rhythm.html",
+        ];
         for (const room of rooms) {
           await page.goto(base + room);
           await page
             .locator("#offline-status")
-            .filter({ hasText: /Ready offline.*five rooms/ })
+            .filter({ hasText: /Ready offline.*six rooms/ })
             .waitFor();
           await fits(page);
           if (room !== "rhythm.html")
@@ -419,7 +426,7 @@ for (const [name, type] of [
           externalRequests: external,
         });
         console.log(
-          `${name} ${width}: actual rhythmic operations, audio schedule, Greek reading, native files and ${hosted ? "browser-offline" : "origin-disabled offline"} five-room edition passed`,
+          `${name} ${width}: actual rhythmic operations, audio schedule, Greek reading, native files and ${hosted ? "browser-offline" : "origin-disabled offline"} six-room edition passed`,
         );
       } finally {
         await context.close();
