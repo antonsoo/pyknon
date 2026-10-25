@@ -2,7 +2,7 @@
   "name": "@antonsoloviev/pyknon",
   "version": "0.1.0",
   "private": true,
-  "description": "Hear ancient Greek musical arguments, read their sources, and test a monochord before trusting its ruler.",
+  "description": "Hear ancient Greek musical arguments, test ideal strings, and read their printed Greek and Latin evidence.",
   "type": "module",
   "author": "Anton Soloviev <anton@praviel.com>",
   "license": "MIT",
@@ -21,7 +21,9 @@
     "ptolemy",
     "monochord",
     "rhythm",
-    "aristoxenus"
+    "aristoxenus",
+    "nicomachus",
+    "acoustics"
   ],
   "engines": {
     "node": ">=24"
@@ -45,7 +47,11 @@
     "test:trial": "node scripts/trial-browser.mjs",
     "test:rhythm": "node scripts/rhythm-browser.mjs",
     "test:rhythm-upgrade": "node scripts/rhythm-upgrade.mjs",
-    "verify:rhythm-audio": "python3 scripts/rhythm-wave-oracle.py"
+    "verify:rhythm-audio": "python3 scripts/rhythm-wave-oracle.py",
+    "verify:tension": "node --import tsx scripts/tension-cases.ts | python3 scripts/tension-oracle.py",
+    "verify:tension-sources": "python3 scripts/tension-sources.py",
+    "test:tension": "node scripts/tension-browser.mjs",
+    "test:tension-upgrade": "node scripts/tension-upgrade.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",

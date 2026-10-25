@@ -21,6 +21,7 @@ jobs:
       - run: npm run verify:ratios
       - run: npm run verify:song
       - run: npm run verify:canon
+      - run: npm run verify:tension
       - run: npx playwright install --with-deps chromium firefox
       - run: npm run test:browser -- /tmp/pyknon-review/browser.json
       - run: python3 scripts/audio-oracle.py /tmp/pyknon-review/browser.json
@@ -31,3 +32,6 @@ jobs:
       - run: python3 scripts/canon-audio-oracle.py /tmp/pyknon-canon-review/browser.json
       - run: npm run test:rhythm -- /tmp/pyknon-rhythm-review
       - run: python3 scripts/rhythm-wave-oracle.py /tmp/pyknon-rhythm-review/chromium-1440
+      - run: npm run test:tension -- /tmp/pyknon-tension-review
+      - run: python3 scripts/tension-wave-oracle.py /tmp/pyknon-tension-review/review.json
+      - run: node scripts/tension-integrity.mjs /tmp/pyknon-tension-integrity.json
