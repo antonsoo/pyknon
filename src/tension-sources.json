@@ -1,0 +1,113 @@
+{
+  "editions": [
+    {
+      "id": "jan",
+      "title": "Musici scriptores Graeci",
+      "editor": "Carl von Jan",
+      "year": 1895,
+      "archive": "musiciscriptores01jank",
+      "pdf": "musiciscriptores01jank.pdf",
+      "bytes": 32291697,
+      "sha256": "2eb091bbe8a223305177488b0efa1576a7c8fdf0691be447fae3fad833d9b915"
+    },
+    {
+      "id": "meibom",
+      "title": "Antiquae musicae auctores septem, volume I",
+      "editor": "Marcus Meibom",
+      "year": 1652,
+      "archive": "bub_gb_JgtAAAAAcAAJ",
+      "pdf": "bub_gb_JgtAAAAAcAAJ.pdf",
+      "bytes": 74956409,
+      "sha256": "6e812c8c0647882881ff4f172eed9d92ba2248822d0481815f34b2e0f03754e8"
+    }
+  ],
+  "render": {
+    "program": "pdftoppm",
+    "poppler": "24.02.0",
+    "scaleTo": 2200,
+    "format": "jpeg",
+    "quality": 90
+  },
+  "pages": [
+    {
+      "id": "jan-245",
+      "edition": "jan",
+      "printedPage": 245,
+      "pdfPage": 343,
+      "file": "sources/tension/jan-245.jpg",
+      "bytes": 564124,
+      "sha256": "5e20d60217ddd698bdbee57f4bea74bd3a3c9fdaefaa58bfeb40b500b23583a6",
+      "archiveLeaf": 343
+    },
+    {
+      "id": "jan-246",
+      "edition": "jan",
+      "printedPage": 246,
+      "pdfPage": 344,
+      "file": "sources/tension/jan-246.jpg",
+      "bytes": 587391,
+      "sha256": "2a5b8357d25c3b41269f1a164665a134c2c17fc8ca569af343a7dd29176395f0",
+      "archiveLeaf": 344
+    },
+    {
+      "id": "jan-247",
+      "edition": "jan",
+      "printedPage": 247,
+      "pdfPage": 345,
+      "file": "sources/tension/jan-247.jpg",
+      "bytes": 579773,
+      "sha256": "848dc43cc51bb30285d8530b832f92b8bf93a41966abf4b3870798c0d734c34e",
+      "archiveLeaf": 345
+    },
+    {
+      "id": "jan-248",
+      "edition": "jan",
+      "printedPage": 248,
+      "pdfPage": 346,
+      "file": "sources/tension/jan-248.jpg",
+      "bytes": 582046,
+      "sha256": "5398d7676618daeff10f99bbea5f7e6def15155d26819bf4eab80243cd424543",
+      "archiveLeaf": 346
+    },
+    {
+      "id": "meibom-10",
+      "edition": "meibom",
+      "printedPage": 10,
+      "pdfPage": 288,
+      "file": "sources/tension/meibom-10.jpg",
+      "bytes": 743923,
+      "sha256": "1b866e57f0b80c910044bdf9744aab9371fa8dd9df4089da6900cfee566fb842",
+      "archiveLeaf": 287
+    },
+    {
+      "id": "meibom-11",
+      "edition": "meibom",
+      "printedPage": 11,
+      "pdfPage": 289,
+      "file": "sources/tension/meibom-11.jpg",
+      "bytes": 739545,
+      "sha256": "5ce85c67b28dc2ef688fb9309f5a614c8997d3173aa1a1acde74b3fb68a2b9ee",
+      "archiveLeaf": 288
+    },
+    {
+      "id": "meibom-12",
+      "edition": "meibom",
+      "printedPage": 12,
+      "pdfPage": 290,
+      "file": "sources/tension/meibom-12.jpg",
+      "bytes": 717201,
+      "sha256": "15e401128c904038a81a98564f30248862fb79aba5a4d1ba20d500892ca0a2ff",
+      "archiveLeaf": 289
+    },
+    {
+      "id": "meibom-13",
+      "edition": "meibom",
+      "printedPage": 13,
+      "pdfPage": 291,
+      "file": "sources/tension/meibom-13.jpg",
+      "bytes": 703681,
+      "sha256": "2c21c82d858bdae135a9bc2363505c209d34f0c63f0a292c5ef3f1f1cbfa24ca",
+      "archiveLeaf": 290
+    }
+  ]
+}

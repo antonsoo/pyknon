@@ -236,3 +236,16 @@ included; the printed diagram is editorial evidence, not an ancient blueprint.
 Before embedding scans and font in a saved reading, the exporter verifies
 their SHA-256 identities. The complete Noto Serif OFL notice is embedded too.
 The selected generated audio, exact CSV and native SVG accompany that packet.
+
+## Nicomachus weighted-string source pages
+
+Jan, _Musici scriptores Graeci_ (1895), pp.245–248, and Meibom,
+_Antiquae musicae auctores septem_, volume I (1652), Nicomachus pp.10–13.
+Both original editions and their mechanically rendered full pages are public
+domain. The exact original PDF and JPEG identities, correct PDF/Archive leaf
+mappings, and Poppler rendering parameters are in `src/tension-sources.json`.
+Full provenance, normalization and rights: `public/sources/tension/NOTICES.txt`.
+No contemporary translation is reproduced. The new English translations,
+notes and diagrams are MIT. Meibom's Latin is retained as his translation,
+including its difference from Greek “equally twisted”. The saved reading
+embeds IBM Plex Sans and Noto Serif with their complete SIL OFL notices.

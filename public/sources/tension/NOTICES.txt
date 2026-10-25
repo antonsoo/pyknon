@@ -1,0 +1,36 @@
+Nicomachus, Harmonic Manual, chapter 6.
+
+Greek critical edition: Carl von Jan, Musici scriptores Graeci (Leipzig:
+B. G. Teubner, 1895), complete printed pages 245-248. Original digitized
+volume: Internet Archive musiciscriptores01jank, Boston Public Library.
+Original PDF musiciscriptores01jank.pdf, 32291697 bytes,
+SHA-256 2eb091bbe8a223305177488b0efa1576a7c8fdf0691be447fae3fad833d9b915.
+These printed pages are PDF pages 343-346 and Archive leaves 343-346:
+the downloadable PDF excludes a front leaf; PDF page minus one is NOT
+the Archive leaf number for this particular file.
+
+Greek and Latin edition: Marcus Meibom, Antiquae musicae auctores septem,
+volume I (Amsterdam: Louis Elzevir, 1652), Nicomachus printed pages 10-13.
+Internet Archive bub_gb_JgtAAAAAcAAJ (Google digitization, source library
+record retained by the scan).
+Original PDF bub_gb_JgtAAAAAcAAJ.pdf, 74956409 bytes,
+SHA-256 6e812c8c0647882881ff4f172eed9d92ba2248822d0481815f34b2e0f03754e8.
+Printed pages 10-13 are PDF pages 288-291, Archive leaves 287-290.
+
+Both original editions and these mechanically rendered full page images
+are public domain. No cropping, retouching, recoloring or restoration.
+The Meibom digitization has blur and scan marks; Jan's apparatus remains
+visible. JPEGs were rendered by Poppler 24.02.0, pdftoppm -scale-to 2200
+-jpeg -jpegopt quality=90. Exact per-page identities: src/tension-sources.json.
+Reproduction: python3 scripts/tension-sources.py --jan /path/to/jan.pdf
+--meibom /path/to/meibom.pdf (from repository root).
+
+Greek excerpts were transcribed and checked against the printed Jan pages.
+Latin excerpts were transcribed from Meibom's own Latin, not translated
+from Jan. Greek ligatures, line-wrap hyphens, spacing and quotation
+punctuation are normalized; Latin long s and ae/oe ligatures are normalized,
+& is retained. Ellipses are explicitly shown when internal text is omitted.
+The printed Latin aeque graves is preserved beside equally twisted Greek.
+New English translations, word notes and physical-model diagrams are
+MIT, copyright (c) 2026 Anton Soloviev. The modern physical comparison is
+not a recovered ancient experiment, timbre, melody or proof.
