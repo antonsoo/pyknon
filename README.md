@@ -165,7 +165,7 @@ The original reviewed five-room edition is public; the sixth room has its own re
 
 ## Test a story with four hanging weights
 
-The new **weighted strings** room (`tension.html`) reads Nicomachus's
+The **[weighted strings room](https://antonsoo.github.io/pyknon/tension.html#weights)** reads Nicomachus's
 _Harmonic Manual_ 6 against a modern ideal string model. The account calls
 12 against 6 an octave, with string lengths held equal. The ideal model gives
 √2 as the frequency ratio: **600 cents, half of the claimed 1200-cent interval**.
@@ -189,7 +189,8 @@ performance. Frequencies and cents are rounded; replacement load fractions are
 exact. No physical instrument was measured.
 
 [Source and model](docs/tension-model.md) · [Direct review](docs/tension-review.md).
-Local review and public publication are recorded separately there.
+The [publication record](docs/tension-publication.md) separately verifies all
+65 hosted files and real public browser/offline journeys.
 
 ```sh
 npm run verify:tension

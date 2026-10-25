@@ -1,0 +1,355 @@
+{
+  "checkedFiles": 24,
+  "checks": [
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "mode": "claim",
+      "file": "claim.wav",
+      "sampleRate": 48000,
+      "samples": 180001,
+      "rmsResidual": 2.945846927153555e-5,
+      "frequencyOffsetsHz": [
+        -8.704502906576155e-6, -3.375636833740456e-6, -1.638555099933845e-6, -1.9002104782282066e-5
+      ],
+      "maximumAmplitudeError": 8.418933507559068e-7,
+      "independentlyPredictedFrequencies": [220.0, 293.3333333333333, 330.0, 440.0]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "mode": "original",
+      "file": "original.wav",
+      "sampleRate": 48000,
+      "samples": 180001,
+      "rmsResidual": 4.529335797201816e-5,
+      "frequencyOffsetsHz": [
+        -8.704502906576155e-6, -1.121816085348546e-6, 4.772220419538693e-6, -1.4259801228831216e-5
+      ],
+      "maximumAmplitudeError": 3.05983645559893e-7,
+      "independentlyPredictedFrequencies": [
+        220.0, 254.03411844343532, 269.4438717061496, 311.1269837220809
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "mode": "yours",
+      "file": "yours.wav",
+      "sampleRate": 48000,
+      "samples": 180001,
+      "rmsResidual": 4.529335797201816e-5,
+      "frequencyOffsetsHz": [
+        -8.704502906576155e-6, -1.121816085348546e-6, 4.772220419538693e-6, -1.4259801228831216e-5
+      ],
+      "maximumAmplitudeError": 3.05983645559893e-7,
+      "independentlyPredictedFrequencies": [
+        220.0, 254.03411844343532, 269.4438717061496, 311.1269837220809
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "mode": "compare",
+      "file": "compare.wav",
+      "sampleRate": 48000,
+      "samples": 295200,
+      "rmsResidual": 3.975834100135993e-5,
+      "frequencyOffsetsHz": [
+        -8.704502906576155e-6, -8.934259881656579e-6, -8.704502906726788e-6, -1.9523563120861955e-5,
+        -1.3629973949985033e-5, -1.3208274318465068e-5
+      ],
+      "maximumAmplitudeError": 3.9878943133841993e-7,
+      "independentlyPredictedFrequencies": [
+        220, 440.0, 220, 311.1269837220809, 220, 311.1269837220809
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "mode": "together",
+      "file": "together.wav",
+      "sampleRate": 48000,
+      "samples": 134400,
+      "rmsResidual": 8.32399453148587e-6,
+      "frequencyOffsetsHz": [-1.7361282850057163e-5, -1.4026051302191312e-5],
+      "maximumAmplitudeError": 4.252782060121252e-7,
+      "independentlyPredictedFrequencies": [311.1269837220809, 440.0]
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "mode": "together",
+      "file": "repaired.wav",
+      "sampleRate": 48000,
+      "samples": 134400,
+      "rmsResidual": 8.173763080729458e-6,
+      "frequencyOffsetsHz": [-2.0385777847337327e-6, -2.0385777847338902e-6],
+      "maximumAmplitudeError": 1.1894236259801794e-7,
+      "independentlyPredictedFrequencies": [146.66666666666666, 146.66666666666666]
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "mode": "claim",
+      "file": "claim.wav",
+      "sampleRate": 48000,
+      "samples": 180001,
+      "rmsResidual": 2.945846927153555e-5,
+      "frequencyOffsetsHz": [
+        -8.704502906576155e-6, -3.375636833740456e-6, -1.638555099933845e-6, -1.9002104782282066e-5
+      ],
+      "maximumAmplitudeError": 8.418933507559068e-7,
+      "independentlyPredictedFrequencies": [220.0, 293.3333333333333, 330.0, 440.0]
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "mode": "original",
+      "file": "original.wav",
+      "sampleRate": 48000,
+      "samples": 180001,
+      "rmsResidual": 4.529335797201816e-5,
+      "frequencyOffsetsHz": [
+        -8.704502906576155e-6, -1.121816085348546e-6, 4.772220419538693e-6, -1.4259801228831216e-5
+      ],
+      "maximumAmplitudeError": 3.05983645559893e-7,
+      "independentlyPredictedFrequencies": [
+        220.0, 254.03411844343532, 269.4438717061496, 311.1269837220809
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "mode": "yours",
+      "file": "yours.wav",
+      "sampleRate": 48000,
+      "samples": 180001,
+      "rmsResidual": 4.529335797201816e-5,
+      "frequencyOffsetsHz": [
+        -8.704502906576155e-6, -1.121816085348546e-6, 4.772220419538693e-6, -1.4259801228831216e-5
+      ],
+      "maximumAmplitudeError": 3.05983645559893e-7,
+      "independentlyPredictedFrequencies": [
+        220.0, 254.03411844343532, 269.4438717061496, 311.1269837220809
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "mode": "compare",
+      "file": "compare.wav",
+      "sampleRate": 48000,
+      "samples": 295200,
+      "rmsResidual": 3.975834100135993e-5,
+      "frequencyOffsetsHz": [
+        -8.704502906576155e-6, -8.934259881656579e-6, -8.704502906726788e-6, -1.9523563120861955e-5,
+        -1.3629973949985033e-5, -1.3208274318465068e-5
+      ],
+      "maximumAmplitudeError": 3.9878943133841993e-7,
+      "independentlyPredictedFrequencies": [
+        220, 440.0, 220, 311.1269837220809, 220, 311.1269837220809
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "mode": "together",
+      "file": "together.wav",
+      "sampleRate": 48000,
+      "samples": 134400,
+      "rmsResidual": 8.32399453148587e-6,
+      "frequencyOffsetsHz": [-1.7361282850057163e-5, -1.4026051302191312e-5],
+      "maximumAmplitudeError": 4.252782060121252e-7,
+      "independentlyPredictedFrequencies": [311.1269837220809, 440.0]
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "mode": "together",
+      "file": "repaired.wav",
+      "sampleRate": 48000,
+      "samples": 134400,
+      "rmsResidual": 8.173763080729458e-6,
+      "frequencyOffsetsHz": [-2.0385777847337327e-6, -2.0385777847338902e-6],
+      "maximumAmplitudeError": 1.1894236259801794e-7,
+      "independentlyPredictedFrequencies": [146.66666666666666, 146.66666666666666]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "mode": "claim",
+      "file": "claim.wav",
+      "sampleRate": 48000,
+      "samples": 180001,
+      "rmsResidual": 1.0142990765609e-5,
+      "frequencyOffsetsHz": [
+        0.00036296563342020803, 0.0002936698711215993, -0.0005662764637399843,
+        -0.00017979162668791836
+      ],
+      "maximumAmplitudeError": 5.747642445319556e-7,
+      "independentlyPredictedFrequencies": [220.0, 293.3333333333333, 330.0, 440.0]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "mode": "original",
+      "file": "original.wav",
+      "sampleRate": 48000,
+      "samples": 180001,
+      "rmsResidual": 1.134005841199077e-5,
+      "frequencyOffsetsHz": [
+        0.00036296563342020803, 0.0004566329497737259, 0.00043142831727137034, 0.0006340830271057172
+      ],
+      "maximumAmplitudeError": 3.0707645640171144e-7,
+      "independentlyPredictedFrequencies": [
+        220.0, 254.03411844343532, 269.4438717061496, 311.1269837220809
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "mode": "yours",
+      "file": "yours.wav",
+      "sampleRate": 48000,
+      "samples": 180001,
+      "rmsResidual": 1.134005841199077e-5,
+      "frequencyOffsetsHz": [
+        0.00036296563342020803, 0.0004566329497737259, 0.00043142831727137034, 0.0006340830271057172
+      ],
+      "maximumAmplitudeError": 3.0707645640171144e-7,
+      "independentlyPredictedFrequencies": [
+        220.0, 254.03411844343532, 269.4438717061496, 311.1269837220809
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "mode": "compare",
+      "file": "compare.wav",
+      "sampleRate": 48000,
+      "samples": 295200,
+      "rmsResidual": 1.049519072139565e-5,
+      "frequencyOffsetsHz": [
+        0.00036296563342020803, 0.0003625371185464273, 0.0003629656334200515,
+        -0.00017925524901765723, 0.0006340830271057032, 0.0006341349658602899
+      ],
+      "maximumAmplitudeError": 5.747642445042e-7,
+      "independentlyPredictedFrequencies": [
+        220, 440.0, 220, 311.1269837220809, 220, 311.1269837220809
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "mode": "together",
+      "file": "together.wav",
+      "sampleRate": 48000,
+      "samples": 134400,
+      "rmsResidual": 1.5016969176593698e-5,
+      "frequencyOffsetsHz": [-0.00017918087214191845, 0.0006351394042575006],
+      "maximumAmplitudeError": 9.091940721128733e-7,
+      "independentlyPredictedFrequencies": [311.1269837220809, 440.0]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "mode": "together",
+      "file": "repaired.wav",
+      "sampleRate": 48000,
+      "samples": 134400,
+      "rmsResidual": 1.9419180641483825e-5,
+      "frequencyOffsetsHz": [-0.0004613974194156125, -0.0004613974194156109],
+      "maximumAmplitudeError": 2.7326756377177297e-7,
+      "independentlyPredictedFrequencies": [146.66666666666666, 146.66666666666666]
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "mode": "claim",
+      "file": "claim.wav",
+      "sampleRate": 48000,
+      "samples": 180001,
+      "rmsResidual": 1.0142990765609e-5,
+      "frequencyOffsetsHz": [
+        0.00036296563342020803, 0.0002936698711215993, -0.0005662764637399843,
+        -0.00017979162668791836
+      ],
+      "maximumAmplitudeError": 5.747642445319556e-7,
+      "independentlyPredictedFrequencies": [220.0, 293.3333333333333, 330.0, 440.0]
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "mode": "original",
+      "file": "original.wav",
+      "sampleRate": 48000,
+      "samples": 180001,
+      "rmsResidual": 1.134005841199077e-5,
+      "frequencyOffsetsHz": [
+        0.00036296563342020803, 0.0004566329497737259, 0.00043142831727137034, 0.0006340830271057172
+      ],
+      "maximumAmplitudeError": 3.0707645640171144e-7,
+      "independentlyPredictedFrequencies": [
+        220.0, 254.03411844343532, 269.4438717061496, 311.1269837220809
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "mode": "yours",
+      "file": "yours.wav",
+      "sampleRate": 48000,
+      "samples": 180001,
+      "rmsResidual": 1.134005841199077e-5,
+      "frequencyOffsetsHz": [
+        0.00036296563342020803, 0.0004566329497737259, 0.00043142831727137034, 0.0006340830271057172
+      ],
+      "maximumAmplitudeError": 3.0707645640171144e-7,
+      "independentlyPredictedFrequencies": [
+        220.0, 254.03411844343532, 269.4438717061496, 311.1269837220809
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "mode": "compare",
+      "file": "compare.wav",
+      "sampleRate": 48000,
+      "samples": 295200,
+      "rmsResidual": 1.049519072139565e-5,
+      "frequencyOffsetsHz": [
+        0.00036296563342020803, 0.0003625371185464273, 0.0003629656334200515,
+        -0.00017925524901765723, 0.0006340830271057032, 0.0006341349658602899
+      ],
+      "maximumAmplitudeError": 5.747642445042e-7,
+      "independentlyPredictedFrequencies": [
+        220, 440.0, 220, 311.1269837220809, 220, 311.1269837220809
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "mode": "together",
+      "file": "together.wav",
+      "sampleRate": 48000,
+      "samples": 134400,
+      "rmsResidual": 1.5016969176593698e-5,
+      "frequencyOffsetsHz": [-0.00017918087214191845, 0.0006351394042575006],
+      "maximumAmplitudeError": 9.091940721128733e-7,
+      "independentlyPredictedFrequencies": [311.1269837220809, 440.0]
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "mode": "together",
+      "file": "repaired.wav",
+      "sampleRate": 48000,
+      "samples": 134400,
+      "rmsResidual": 1.9419180641483825e-5,
+      "frequencyOffsetsHz": [-0.0004613974194156125, -0.0004613974194156109],
+      "maximumAmplitudeError": 2.7326756377177297e-7,
+      "independentlyPredictedFrequencies": [146.66666666666666, 146.66666666666666]
+    }
+  ]
+}

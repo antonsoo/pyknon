@@ -1,7 +1,9 @@
 # Weighted strings: direct review
 
 Reviewed 2026-10-25. The local source, independently installed build, native files,
-and browser experiments are recorded here. Publication is a separate step.
+and browser experiments are recorded here. The subsequent
+[publication record](tension-publication.md) identifies hosted bytes and public
+browser behavior separately.
 
 ## What a learner can do
 
