@@ -210,11 +210,26 @@ async function review(engine, browser, width) {
   await shared.locator("#hk-title").waitFor();
   assert.match(await shared.locator("#hk-retuning-result").textContent(), /2 of 4/);
   await shared.close();
+  const restoredURL = page.url();
   await keyboard(page, "#hk-fit");
+  const fittedURL = page.url();
+  assert.notEqual(restoredURL, fittedURL);
   await page.goBack();
-  assert.match(await page.locator("#hk-retuning-result").textContent(), /2 of 4/);
+  // Same-document navigation can resolve before popstate updates the controls.
+  // Require the intended history entry and its actual rendered experiment.
+  await page.waitForFunction(
+    (expected) =>
+      location.href === expected &&
+      document.getElementById("hk-retuning-result").textContent.includes("2 of 4"),
+    restoredURL,
+  );
   await page.goForward();
-  assert.match(await page.locator("#hk-retuning-result").textContent(), /All four/);
+  await page.waitForFunction(
+    (expected) =>
+      location.href === expected &&
+      document.getElementById("hk-retuning-result").textContent.includes("All four"),
+    fittedURL,
+  );
   const axe = await new AxeBuilder({ page }).analyze();
   assert.deepEqual(
     axe.violations.map((v) => ({ id: v.id, nodes: v.nodes.map((n) => n.target) })),
@@ -340,6 +355,7 @@ async function review(engine, browser, width) {
     intervalPair: pair.map((t) => t.hz),
     waves,
     cache: cache[0],
+    historyRestoration: { restoredURL, fittedURL, matchingRenderedSettings: true },
     portableRemoteRequests: remote,
     axeViolations: axe.violations.length,
     errors,
