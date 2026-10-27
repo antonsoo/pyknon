@@ -60,3 +60,10 @@ jobs:
           curl --fail --retry 10 --retry-connrefused --retry-delay 1 http://127.0.0.1:4444/pyknon/notation.html > /dev/null
           npm run test:notation -- http://127.0.0.1:4444/pyknon/ /tmp/pyknon-notation-review
           npm run verify:notation-files -- /tmp/pyknon-notation-review /tmp/pyknon-notation-review/artifacts.json
+      - name: Retain old offline work during an interrupted notation upgrade
+        run: |
+          git fetch origin 20effb5d92b4e09971af933685e6e9856a8c4b54
+          mkdir -p "$RUNNER_TEMP/pyknon-before-notation"
+          git archive 20effb5d92b4e09971af933685e6e9856a8c4b54 | tar -x -C "$RUNNER_TEMP/pyknon-before-notation"
+          npm run test:notation-upgrade -- "$RUNNER_TEMP/pyknon-before-notation" dist /tmp/pyknon-notation-upgrade/review.json
+          npm run verify:notation-files -- --upgrade /tmp/pyknon-notation-upgrade /tmp/pyknon-notation-upgrade/artifacts.json
