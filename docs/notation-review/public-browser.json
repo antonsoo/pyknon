@@ -1,0 +1,852 @@
+{
+  "checkedAtUtc": "2026-10-27T13:34:22.421Z",
+  "base": "https://antonsoo.github.io/pyknon/",
+  "scope": "Actual browser operation and native downloads at the recorded URL. Script-disabled and network-disabled operation are observed; physical sound output and public-byte identity are separate claims.",
+  "records": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "base": "https://antonsoo.github.io/pyknon/",
+      "initialWrongChoicesRetained": true,
+      "keyboardReplacement": true,
+      "bothTranslationDirections": true,
+      "ambiguousFunctionsRetained": true,
+      "printedRowsInspected": 9,
+      "readingsInspected": 6,
+      "completePages": 5,
+      "sourceKeyboardPan": true,
+      "liveOscillators": [
+        {
+          "value": 330,
+          "time": 0.04
+        },
+        {
+          "value": 371.25,
+          "time": 0.79
+        },
+        {
+          "value": 440,
+          "time": 1.54
+        },
+        {
+          "value": 330,
+          "time": 2.29
+        },
+        {
+          "value": 330,
+          "time": 3.64
+        },
+        {
+          "value": 440,
+          "time": 4.39
+        },
+        {
+          "value": 391.1111111111111,
+          "time": 5.14
+        },
+        {
+          "value": 330,
+          "time": 5.89
+        }
+      ],
+      "liveStopCancelsAll": true,
+      "localStopControls": true,
+      "primaryDownloads": 5,
+      "actualEqualTuningAndBlankExports": true,
+      "sameToneControl": [
+        {
+          "value": 247.5,
+          "time": 0.0980498866213152
+        },
+        {
+          "value": 247.5,
+          "time": 0.9980498866213152
+        }
+      ],
+      "sharedTablePair": "iota",
+      "referenceConstraintAudio": [
+        {
+          "anchor": "sign",
+          "notes": [
+            {
+              "value": 330,
+              "time": 3.581043083900227
+            },
+            {
+              "value": 330,
+              "time": 4.481043083900227
+            }
+          ]
+        },
+        {
+          "anchor": "mese",
+          "notes": [
+            {
+              "value": 330,
+              "time": 4.579501133786848
+            },
+            {
+              "value": 440,
+              "time": 5.479501133786848
+            }
+          ]
+        }
+      ],
+      "sourceBandsFollowSelectedReading": true,
+      "scriptFreeReading": true,
+      "portableRequests": [],
+      "portableAudioPlayedWithScriptsDisabled": true,
+      "nativeDownloadReopened": true,
+      "explicitCopyWithoutNavigation": true,
+      "cache": {
+        "name": "pyknon-501590e24f3498786c7e3ba9534a2cff02246c8fd53cd195afe45727518af968",
+        "files": [
+          "/pyknon/assets/IBMPlex-OFL-DekkAUlv.js",
+          "/pyknon/assets/LICENSE_raw-logISlDD.js",
+          "/pyknon/assets/NotoSerif-OFL-BfJp0Y5l.js",
+          "/pyknon/assets/canon-CgpS1fgs.css",
+          "/pyknon/assets/canon-DRL9xiwa.js",
+          "/pyknon/assets/halves-B6bIHW2Q.css",
+          "/pyknon/assets/halves-DfeJOJOU.js",
+          "/pyknon/assets/main-DmTUuTJ7.js",
+          "/pyknon/assets/notation-BNm1TRgL.css",
+          "/pyknon/assets/notation-DfdW6CUm.js",
+          "/pyknon/assets/offline-B3uIcdz3.js",
+          "/pyknon/assets/offline-DSKqIBUv.css",
+          "/pyknon/assets/rhythm-B5_pePJN.js",
+          "/pyknon/assets/rhythm-BxI1eojA.css",
+          "/pyknon/assets/song-CTRBIwoA.js",
+          "/pyknon/assets/song-DU6C71Tm.css",
+          "/pyknon/assets/tension-Bws7SyPe.js",
+          "/pyknon/assets/tension-Ik-kkgcL.css",
+          "/pyknon/assets/tetrachord-BqvDPsjm.js",
+          "/pyknon/assets/trial-BndxvPzQ.js",
+          "/pyknon/assets/trial-C9QZtLCn.css",
+          "/pyknon/assets/vina-7cppSWUR.css",
+          "/pyknon/assets/vina-ju6EwZeP.js",
+          "/pyknon/canon.html",
+          "/pyknon/fonts/IBMPlex-OFL.txt",
+          "/pyknon/fonts/IBMPlexSans-Regular.woff2",
+          "/pyknon/fonts/IBMPlexSans-SemiBold.woff2",
+          "/pyknon/fonts/NotoSerif-OFL.txt",
+          "/pyknon/fonts/NotoSerif-Regular.ttf",
+          "/pyknon/halves-LICENSE.txt",
+          "/pyknon/halves.html",
+          "/pyknon/index.html",
+          "/pyknon/notation.html",
+          "/pyknon/rhythm.html",
+          "/pyknon/song.html",
+          "/pyknon/sources/canon/menge-170.jpg",
+          "/pyknon/sources/canon/menge-171.jpg",
+          "/pyknon/sources/canon/menge-172.jpg",
+          "/pyknon/sources/canon/menge-173.jpg",
+          "/pyknon/sources/canon/menge-174.jpg",
+          "/pyknon/sources/canon/menge-175.jpg",
+          "/pyknon/sources/halves/manifest.json",
+          "/pyknon/sources/halves/menge-162.jpg",
+          "/pyknon/sources/halves/menge-163.jpg",
+          "/pyknon/sources/halves/menge-172.jpg",
+          "/pyknon/sources/halves/menge-173.jpg",
+          "/pyknon/sources/halves/menge-174.jpg",
+          "/pyknon/sources/halves/menge-175.jpg",
+          "/pyknon/sources/halves/menge-176.jpg",
+          "/pyknon/sources/halves/menge-177.jpg",
+          "/pyknon/sources/halves/menge-title.jpg",
+          "/pyknon/sources/macran-182.jpg",
+          "/pyknon/sources/notation/jan-367.jpg",
+          "/pyknon/sources/notation/jan-368.jpg",
+          "/pyknon/sources/notation/jan-369.jpg",
+          "/pyknon/sources/notation/jan-370.jpg",
+          "/pyknon/sources/notation/jan-title.jpg",
+          "/pyknon/sources/notation/manifest.json",
+          "/pyknon/sources/rhythm/manifest.json",
+          "/pyknon/sources/rhythm/westphal-28.jpg",
+          "/pyknon/sources/rhythm/westphal-31.jpg",
+          "/pyknon/sources/rhythm/westphal-33.jpg",
+          "/pyknon/sources/rhythm/westphal-34.jpg",
+          "/pyknon/sources/rhythm/westphal-35.jpg",
+          "/pyknon/sources/rhythm/westphal-36.jpg",
+          "/pyknon/sources/rhythm/westphal-37.jpg",
+          "/pyknon/sources/rhythm/westphal-title.jpg",
+          "/pyknon/sources/seikilos/inscription.jpg",
+          "/pyknon/sources/seikilos/monro-correction.jpg",
+          "/pyknon/sources/seikilos/monro-ending.jpg",
+          "/pyknon/sources/seikilos/stele.jpg",
+          "/pyknon/sources/tension/NOTICES.txt",
+          "/pyknon/sources/tension/jan-245.jpg",
+          "/pyknon/sources/tension/jan-246.jpg",
+          "/pyknon/sources/tension/jan-247.jpg",
+          "/pyknon/sources/tension/jan-248.jpg",
+          "/pyknon/sources/tension/meibom-10.jpg",
+          "/pyknon/sources/tension/meibom-11.jpg",
+          "/pyknon/sources/tension/meibom-12.jpg",
+          "/pyknon/sources/tension/meibom-13.jpg",
+          "/pyknon/sources/trial/manifest.json",
+          "/pyknon/sources/trial/wallis-33.jpg",
+          "/pyknon/sources/trial/wallis-34.jpg",
+          "/pyknon/sources/trial/wallis-35.jpg",
+          "/pyknon/sources/trial/wallis-36.jpg",
+          "/pyknon/sources/trial/wallis-37.jpg",
+          "/pyknon/sources/trial/wallis-38.jpg",
+          "/pyknon/sources/vina/grosset-27.jpg",
+          "/pyknon/sources/vina/grosset-28.jpg",
+          "/pyknon/sources/vina/grosset-29.jpg",
+          "/pyknon/sources/vina/grosset-57.jpg",
+          "/pyknon/sources/vina/grosset-58.jpg",
+          "/pyknon/sources/vina/grosset-85.jpg",
+          "/pyknon/sources/vina/grosset-86.jpg",
+          "/pyknon/sources/vina/grosset-title.jpg",
+          "/pyknon/sources/vina/manifest.json",
+          "/pyknon/sources/wallis-62.jpg",
+          "/pyknon/sources/wallis-63.jpg",
+          "/pyknon/tension.html",
+          "/pyknon/trial.html",
+          "/pyknon/vina.html"
+        ],
+        "controller": true
+      },
+      "nineRoomsOffline": true,
+      "offlineExport": true,
+      "sourceNavigationOffline": "The actual native link selects the stone syllable σον and its vocal zeta, then returns through Musical signs",
+      "axeViolations": 0,
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "base": "https://antonsoo.github.io/pyknon/",
+      "initialWrongChoicesRetained": true,
+      "keyboardReplacement": true,
+      "bothTranslationDirections": true,
+      "ambiguousFunctionsRetained": true,
+      "printedRowsInspected": 9,
+      "readingsInspected": 6,
+      "completePages": 5,
+      "sourceKeyboardPan": true,
+      "liveOscillators": [
+        {
+          "value": 330,
+          "time": 0.04
+        },
+        {
+          "value": 371.25,
+          "time": 0.79
+        },
+        {
+          "value": 440,
+          "time": 1.54
+        },
+        {
+          "value": 330,
+          "time": 2.29
+        },
+        {
+          "value": 330,
+          "time": 3.64
+        },
+        {
+          "value": 440,
+          "time": 4.39
+        },
+        {
+          "value": 391.1111111111111,
+          "time": 5.14
+        },
+        {
+          "value": 330,
+          "time": 5.89
+        }
+      ],
+      "liveStopCancelsAll": true,
+      "localStopControls": true,
+      "primaryDownloads": 5,
+      "actualEqualTuningAndBlankExports": true,
+      "sameToneControl": [
+        {
+          "value": 247.5,
+          "time": 0.07482993197278912
+        },
+        {
+          "value": 247.5,
+          "time": 0.9748299319727891
+        }
+      ],
+      "sharedTablePair": "zeta",
+      "referenceConstraintAudio": [
+        {
+          "anchor": "sign",
+          "notes": [
+            {
+              "value": 371.25,
+              "time": 3.1398639455782313
+            },
+            {
+              "value": 371.25,
+              "time": 4.039863945578231
+            }
+          ]
+        },
+        {
+          "anchor": "mese",
+          "notes": [
+            {
+              "value": 371.25,
+              "time": 4.138321995464852
+            },
+            {
+              "value": 495,
+              "time": 5.038321995464853
+            }
+          ]
+        }
+      ],
+      "sourceBandsFollowSelectedReading": true,
+      "scriptFreeReading": true,
+      "portableRequests": [],
+      "portableAudioPlayedWithScriptsDisabled": true,
+      "nativeDownloadReopened": true,
+      "explicitCopyWithoutNavigation": true,
+      "cache": {
+        "name": "pyknon-501590e24f3498786c7e3ba9534a2cff02246c8fd53cd195afe45727518af968",
+        "files": [
+          "/pyknon/assets/IBMPlex-OFL-DekkAUlv.js",
+          "/pyknon/assets/LICENSE_raw-logISlDD.js",
+          "/pyknon/assets/NotoSerif-OFL-BfJp0Y5l.js",
+          "/pyknon/assets/canon-CgpS1fgs.css",
+          "/pyknon/assets/canon-DRL9xiwa.js",
+          "/pyknon/assets/halves-B6bIHW2Q.css",
+          "/pyknon/assets/halves-DfeJOJOU.js",
+          "/pyknon/assets/main-DmTUuTJ7.js",
+          "/pyknon/assets/notation-BNm1TRgL.css",
+          "/pyknon/assets/notation-DfdW6CUm.js",
+          "/pyknon/assets/offline-B3uIcdz3.js",
+          "/pyknon/assets/offline-DSKqIBUv.css",
+          "/pyknon/assets/rhythm-B5_pePJN.js",
+          "/pyknon/assets/rhythm-BxI1eojA.css",
+          "/pyknon/assets/song-CTRBIwoA.js",
+          "/pyknon/assets/song-DU6C71Tm.css",
+          "/pyknon/assets/tension-Bws7SyPe.js",
+          "/pyknon/assets/tension-Ik-kkgcL.css",
+          "/pyknon/assets/tetrachord-BqvDPsjm.js",
+          "/pyknon/assets/trial-BndxvPzQ.js",
+          "/pyknon/assets/trial-C9QZtLCn.css",
+          "/pyknon/assets/vina-7cppSWUR.css",
+          "/pyknon/assets/vina-ju6EwZeP.js",
+          "/pyknon/canon.html",
+          "/pyknon/fonts/IBMPlex-OFL.txt",
+          "/pyknon/fonts/IBMPlexSans-Regular.woff2",
+          "/pyknon/fonts/IBMPlexSans-SemiBold.woff2",
+          "/pyknon/fonts/NotoSerif-OFL.txt",
+          "/pyknon/fonts/NotoSerif-Regular.ttf",
+          "/pyknon/halves-LICENSE.txt",
+          "/pyknon/halves.html",
+          "/pyknon/index.html",
+          "/pyknon/notation.html",
+          "/pyknon/rhythm.html",
+          "/pyknon/song.html",
+          "/pyknon/sources/canon/menge-170.jpg",
+          "/pyknon/sources/canon/menge-171.jpg",
+          "/pyknon/sources/canon/menge-172.jpg",
+          "/pyknon/sources/canon/menge-173.jpg",
+          "/pyknon/sources/canon/menge-174.jpg",
+          "/pyknon/sources/canon/menge-175.jpg",
+          "/pyknon/sources/halves/manifest.json",
+          "/pyknon/sources/halves/menge-162.jpg",
+          "/pyknon/sources/halves/menge-163.jpg",
+          "/pyknon/sources/halves/menge-172.jpg",
+          "/pyknon/sources/halves/menge-173.jpg",
+          "/pyknon/sources/halves/menge-174.jpg",
+          "/pyknon/sources/halves/menge-175.jpg",
+          "/pyknon/sources/halves/menge-176.jpg",
+          "/pyknon/sources/halves/menge-177.jpg",
+          "/pyknon/sources/halves/menge-title.jpg",
+          "/pyknon/sources/macran-182.jpg",
+          "/pyknon/sources/notation/jan-367.jpg",
+          "/pyknon/sources/notation/jan-368.jpg",
+          "/pyknon/sources/notation/jan-369.jpg",
+          "/pyknon/sources/notation/jan-370.jpg",
+          "/pyknon/sources/notation/jan-title.jpg",
+          "/pyknon/sources/notation/manifest.json",
+          "/pyknon/sources/rhythm/manifest.json",
+          "/pyknon/sources/rhythm/westphal-28.jpg",
+          "/pyknon/sources/rhythm/westphal-31.jpg",
+          "/pyknon/sources/rhythm/westphal-33.jpg",
+          "/pyknon/sources/rhythm/westphal-34.jpg",
+          "/pyknon/sources/rhythm/westphal-35.jpg",
+          "/pyknon/sources/rhythm/westphal-36.jpg",
+          "/pyknon/sources/rhythm/westphal-37.jpg",
+          "/pyknon/sources/rhythm/westphal-title.jpg",
+          "/pyknon/sources/seikilos/inscription.jpg",
+          "/pyknon/sources/seikilos/monro-correction.jpg",
+          "/pyknon/sources/seikilos/monro-ending.jpg",
+          "/pyknon/sources/seikilos/stele.jpg",
+          "/pyknon/sources/tension/NOTICES.txt",
+          "/pyknon/sources/tension/jan-245.jpg",
+          "/pyknon/sources/tension/jan-246.jpg",
+          "/pyknon/sources/tension/jan-247.jpg",
+          "/pyknon/sources/tension/jan-248.jpg",
+          "/pyknon/sources/tension/meibom-10.jpg",
+          "/pyknon/sources/tension/meibom-11.jpg",
+          "/pyknon/sources/tension/meibom-12.jpg",
+          "/pyknon/sources/tension/meibom-13.jpg",
+          "/pyknon/sources/trial/manifest.json",
+          "/pyknon/sources/trial/wallis-33.jpg",
+          "/pyknon/sources/trial/wallis-34.jpg",
+          "/pyknon/sources/trial/wallis-35.jpg",
+          "/pyknon/sources/trial/wallis-36.jpg",
+          "/pyknon/sources/trial/wallis-37.jpg",
+          "/pyknon/sources/trial/wallis-38.jpg",
+          "/pyknon/sources/vina/grosset-27.jpg",
+          "/pyknon/sources/vina/grosset-28.jpg",
+          "/pyknon/sources/vina/grosset-29.jpg",
+          "/pyknon/sources/vina/grosset-57.jpg",
+          "/pyknon/sources/vina/grosset-58.jpg",
+          "/pyknon/sources/vina/grosset-85.jpg",
+          "/pyknon/sources/vina/grosset-86.jpg",
+          "/pyknon/sources/vina/grosset-title.jpg",
+          "/pyknon/sources/vina/manifest.json",
+          "/pyknon/sources/wallis-62.jpg",
+          "/pyknon/sources/wallis-63.jpg",
+          "/pyknon/tension.html",
+          "/pyknon/trial.html",
+          "/pyknon/vina.html"
+        ],
+        "controller": true
+      },
+      "nineRoomsOffline": true,
+      "offlineExport": true,
+      "sourceNavigationOffline": "The actual native link selects the stone syllable σον and its vocal zeta, then returns through Musical signs",
+      "axeViolations": 0,
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "base": "https://antonsoo.github.io/pyknon/",
+      "initialWrongChoicesRetained": true,
+      "keyboardReplacement": true,
+      "bothTranslationDirections": true,
+      "ambiguousFunctionsRetained": true,
+      "printedRowsInspected": 9,
+      "readingsInspected": 6,
+      "completePages": 5,
+      "sourceKeyboardPan": true,
+      "liveOscillators": [
+        {
+          "value": 330,
+          "time": 0.05160997732426304
+        },
+        {
+          "value": 371.25,
+          "time": 0.8016099773242631
+        },
+        {
+          "value": 440,
+          "time": 1.551609977324263
+        },
+        {
+          "value": 330,
+          "time": 2.301609977324263
+        },
+        {
+          "value": 330,
+          "time": 3.651609977324263
+        },
+        {
+          "value": 440,
+          "time": 4.401609977324263
+        },
+        {
+          "value": 391.1111111111111,
+          "time": 5.151609977324263
+        },
+        {
+          "value": 330,
+          "time": 5.901609977324263
+        }
+      ],
+      "liveStopCancelsAll": true,
+      "localStopControls": true,
+      "primaryDownloads": 5,
+      "actualEqualTuningAndBlankExports": true,
+      "sameToneControl": [
+        {
+          "value": 247.5,
+          "time": 0.11546485260770975
+        },
+        {
+          "value": 247.5,
+          "time": 1.0154648526077097
+        }
+      ],
+      "sharedTablePair": "square-u",
+      "referenceConstraintAudio": [
+        {
+          "anchor": "sign",
+          "notes": [
+            {
+              "value": 440,
+              "time": 2.393922902494331
+            },
+            {
+              "value": 440,
+              "time": 3.293922902494331
+            }
+          ]
+        },
+        {
+          "anchor": "mese",
+          "notes": [
+            {
+              "value": 440,
+              "time": 3.380770975056689
+            },
+            {
+              "value": 586.6666666666666,
+              "time": 4.280770975056689
+            }
+          ]
+        }
+      ],
+      "sourceBandsFollowSelectedReading": true,
+      "scriptFreeReading": true,
+      "portableRequests": [],
+      "portableAudioPlayedWithScriptsDisabled": true,
+      "nativeDownloadReopened": true,
+      "explicitCopyWithoutNavigation": true,
+      "cache": {
+        "name": "pyknon-501590e24f3498786c7e3ba9534a2cff02246c8fd53cd195afe45727518af968",
+        "files": [
+          "/pyknon/assets/IBMPlex-OFL-DekkAUlv.js",
+          "/pyknon/assets/LICENSE_raw-logISlDD.js",
+          "/pyknon/assets/NotoSerif-OFL-BfJp0Y5l.js",
+          "/pyknon/assets/canon-CgpS1fgs.css",
+          "/pyknon/assets/canon-DRL9xiwa.js",
+          "/pyknon/assets/halves-B6bIHW2Q.css",
+          "/pyknon/assets/halves-DfeJOJOU.js",
+          "/pyknon/assets/main-DmTUuTJ7.js",
+          "/pyknon/assets/notation-BNm1TRgL.css",
+          "/pyknon/assets/notation-DfdW6CUm.js",
+          "/pyknon/assets/offline-B3uIcdz3.js",
+          "/pyknon/assets/offline-DSKqIBUv.css",
+          "/pyknon/assets/rhythm-B5_pePJN.js",
+          "/pyknon/assets/rhythm-BxI1eojA.css",
+          "/pyknon/assets/song-CTRBIwoA.js",
+          "/pyknon/assets/song-DU6C71Tm.css",
+          "/pyknon/assets/tension-Bws7SyPe.js",
+          "/pyknon/assets/tension-Ik-kkgcL.css",
+          "/pyknon/assets/tetrachord-BqvDPsjm.js",
+          "/pyknon/assets/trial-BndxvPzQ.js",
+          "/pyknon/assets/trial-C9QZtLCn.css",
+          "/pyknon/assets/vina-7cppSWUR.css",
+          "/pyknon/assets/vina-ju6EwZeP.js",
+          "/pyknon/canon.html",
+          "/pyknon/fonts/IBMPlex-OFL.txt",
+          "/pyknon/fonts/IBMPlexSans-Regular.woff2",
+          "/pyknon/fonts/IBMPlexSans-SemiBold.woff2",
+          "/pyknon/fonts/NotoSerif-OFL.txt",
+          "/pyknon/fonts/NotoSerif-Regular.ttf",
+          "/pyknon/halves-LICENSE.txt",
+          "/pyknon/halves.html",
+          "/pyknon/index.html",
+          "/pyknon/notation.html",
+          "/pyknon/rhythm.html",
+          "/pyknon/song.html",
+          "/pyknon/sources/canon/menge-170.jpg",
+          "/pyknon/sources/canon/menge-171.jpg",
+          "/pyknon/sources/canon/menge-172.jpg",
+          "/pyknon/sources/canon/menge-173.jpg",
+          "/pyknon/sources/canon/menge-174.jpg",
+          "/pyknon/sources/canon/menge-175.jpg",
+          "/pyknon/sources/halves/manifest.json",
+          "/pyknon/sources/halves/menge-162.jpg",
+          "/pyknon/sources/halves/menge-163.jpg",
+          "/pyknon/sources/halves/menge-172.jpg",
+          "/pyknon/sources/halves/menge-173.jpg",
+          "/pyknon/sources/halves/menge-174.jpg",
+          "/pyknon/sources/halves/menge-175.jpg",
+          "/pyknon/sources/halves/menge-176.jpg",
+          "/pyknon/sources/halves/menge-177.jpg",
+          "/pyknon/sources/halves/menge-title.jpg",
+          "/pyknon/sources/macran-182.jpg",
+          "/pyknon/sources/notation/jan-367.jpg",
+          "/pyknon/sources/notation/jan-368.jpg",
+          "/pyknon/sources/notation/jan-369.jpg",
+          "/pyknon/sources/notation/jan-370.jpg",
+          "/pyknon/sources/notation/jan-title.jpg",
+          "/pyknon/sources/notation/manifest.json",
+          "/pyknon/sources/rhythm/manifest.json",
+          "/pyknon/sources/rhythm/westphal-28.jpg",
+          "/pyknon/sources/rhythm/westphal-31.jpg",
+          "/pyknon/sources/rhythm/westphal-33.jpg",
+          "/pyknon/sources/rhythm/westphal-34.jpg",
+          "/pyknon/sources/rhythm/westphal-35.jpg",
+          "/pyknon/sources/rhythm/westphal-36.jpg",
+          "/pyknon/sources/rhythm/westphal-37.jpg",
+          "/pyknon/sources/rhythm/westphal-title.jpg",
+          "/pyknon/sources/seikilos/inscription.jpg",
+          "/pyknon/sources/seikilos/monro-correction.jpg",
+          "/pyknon/sources/seikilos/monro-ending.jpg",
+          "/pyknon/sources/seikilos/stele.jpg",
+          "/pyknon/sources/tension/NOTICES.txt",
+          "/pyknon/sources/tension/jan-245.jpg",
+          "/pyknon/sources/tension/jan-246.jpg",
+          "/pyknon/sources/tension/jan-247.jpg",
+          "/pyknon/sources/tension/jan-248.jpg",
+          "/pyknon/sources/tension/meibom-10.jpg",
+          "/pyknon/sources/tension/meibom-11.jpg",
+          "/pyknon/sources/tension/meibom-12.jpg",
+          "/pyknon/sources/tension/meibom-13.jpg",
+          "/pyknon/sources/trial/manifest.json",
+          "/pyknon/sources/trial/wallis-33.jpg",
+          "/pyknon/sources/trial/wallis-34.jpg",
+          "/pyknon/sources/trial/wallis-35.jpg",
+          "/pyknon/sources/trial/wallis-36.jpg",
+          "/pyknon/sources/trial/wallis-37.jpg",
+          "/pyknon/sources/trial/wallis-38.jpg",
+          "/pyknon/sources/vina/grosset-27.jpg",
+          "/pyknon/sources/vina/grosset-28.jpg",
+          "/pyknon/sources/vina/grosset-29.jpg",
+          "/pyknon/sources/vina/grosset-57.jpg",
+          "/pyknon/sources/vina/grosset-58.jpg",
+          "/pyknon/sources/vina/grosset-85.jpg",
+          "/pyknon/sources/vina/grosset-86.jpg",
+          "/pyknon/sources/vina/grosset-title.jpg",
+          "/pyknon/sources/vina/manifest.json",
+          "/pyknon/sources/wallis-62.jpg",
+          "/pyknon/sources/wallis-63.jpg",
+          "/pyknon/tension.html",
+          "/pyknon/trial.html",
+          "/pyknon/vina.html"
+        ],
+        "controller": true
+      },
+      "nineRoomsOffline": true,
+      "offlineExport": true,
+      "sourceNavigationOffline": "The actual native link selects the stone syllable σον and its vocal zeta, then returns through Musical signs",
+      "axeViolations": 0,
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "base": "https://antonsoo.github.io/pyknon/",
+      "initialWrongChoicesRetained": true,
+      "keyboardReplacement": true,
+      "bothTranslationDirections": true,
+      "ambiguousFunctionsRetained": true,
+      "printedRowsInspected": 9,
+      "readingsInspected": 6,
+      "completePages": 5,
+      "sourceKeyboardPan": true,
+      "liveOscillators": [
+        {
+          "value": 330,
+          "time": 0.04290249433106576
+        },
+        {
+          "value": 371.25,
+          "time": 0.7929024943310657
+        },
+        {
+          "value": 440,
+          "time": 1.5429024943310659
+        },
+        {
+          "value": 330,
+          "time": 2.2929024943310656
+        },
+        {
+          "value": 330,
+          "time": 3.6429024943310657
+        },
+        {
+          "value": 440,
+          "time": 4.392902494331065
+        },
+        {
+          "value": 391.1111111111111,
+          "time": 5.142902494331065
+        },
+        {
+          "value": 330,
+          "time": 5.892902494331065
+        }
+      ],
+      "liveStopCancelsAll": true,
+      "localStopControls": true,
+      "primaryDownloads": 5,
+      "actualEqualTuningAndBlankExports": true,
+      "sameToneControl": [
+        {
+          "value": 247.5,
+          "time": 0.10675736961451246
+        },
+        {
+          "value": 247.5,
+          "time": 1.0067573696145125
+        }
+      ],
+      "sharedTablePair": "sigma",
+      "referenceConstraintAudio": [
+        {
+          "anchor": "sign",
+          "notes": [
+            {
+              "value": 247.5,
+              "time": 2.4490702947845806
+            },
+            {
+              "value": 247.5,
+              "time": 3.3490702947845805
+            }
+          ]
+        },
+        {
+          "anchor": "mese",
+          "notes": [
+            {
+              "value": 247.5,
+              "time": 3.4794557823129253
+            },
+            {
+              "value": 330,
+              "time": 4.379455782312926
+            }
+          ]
+        }
+      ],
+      "sourceBandsFollowSelectedReading": true,
+      "scriptFreeReading": true,
+      "portableRequests": [],
+      "portableAudioPlayedWithScriptsDisabled": true,
+      "nativeDownloadReopened": true,
+      "explicitCopyWithoutNavigation": true,
+      "cache": {
+        "name": "pyknon-501590e24f3498786c7e3ba9534a2cff02246c8fd53cd195afe45727518af968",
+        "files": [
+          "/pyknon/assets/IBMPlex-OFL-DekkAUlv.js",
+          "/pyknon/assets/LICENSE_raw-logISlDD.js",
+          "/pyknon/assets/NotoSerif-OFL-BfJp0Y5l.js",
+          "/pyknon/assets/canon-CgpS1fgs.css",
+          "/pyknon/assets/canon-DRL9xiwa.js",
+          "/pyknon/assets/halves-B6bIHW2Q.css",
+          "/pyknon/assets/halves-DfeJOJOU.js",
+          "/pyknon/assets/main-DmTUuTJ7.js",
+          "/pyknon/assets/notation-BNm1TRgL.css",
+          "/pyknon/assets/notation-DfdW6CUm.js",
+          "/pyknon/assets/offline-B3uIcdz3.js",
+          "/pyknon/assets/offline-DSKqIBUv.css",
+          "/pyknon/assets/rhythm-B5_pePJN.js",
+          "/pyknon/assets/rhythm-BxI1eojA.css",
+          "/pyknon/assets/song-CTRBIwoA.js",
+          "/pyknon/assets/song-DU6C71Tm.css",
+          "/pyknon/assets/tension-Bws7SyPe.js",
+          "/pyknon/assets/tension-Ik-kkgcL.css",
+          "/pyknon/assets/tetrachord-BqvDPsjm.js",
+          "/pyknon/assets/trial-BndxvPzQ.js",
+          "/pyknon/assets/trial-C9QZtLCn.css",
+          "/pyknon/assets/vina-7cppSWUR.css",
+          "/pyknon/assets/vina-ju6EwZeP.js",
+          "/pyknon/canon.html",
+          "/pyknon/fonts/IBMPlex-OFL.txt",
+          "/pyknon/fonts/IBMPlexSans-Regular.woff2",
+          "/pyknon/fonts/IBMPlexSans-SemiBold.woff2",
+          "/pyknon/fonts/NotoSerif-OFL.txt",
+          "/pyknon/fonts/NotoSerif-Regular.ttf",
+          "/pyknon/halves-LICENSE.txt",
+          "/pyknon/halves.html",
+          "/pyknon/index.html",
+          "/pyknon/notation.html",
+          "/pyknon/rhythm.html",
+          "/pyknon/song.html",
+          "/pyknon/sources/canon/menge-170.jpg",
+          "/pyknon/sources/canon/menge-171.jpg",
+          "/pyknon/sources/canon/menge-172.jpg",
+          "/pyknon/sources/canon/menge-173.jpg",
+          "/pyknon/sources/canon/menge-174.jpg",
+          "/pyknon/sources/canon/menge-175.jpg",
+          "/pyknon/sources/halves/manifest.json",
+          "/pyknon/sources/halves/menge-162.jpg",
+          "/pyknon/sources/halves/menge-163.jpg",
+          "/pyknon/sources/halves/menge-172.jpg",
+          "/pyknon/sources/halves/menge-173.jpg",
+          "/pyknon/sources/halves/menge-174.jpg",
+          "/pyknon/sources/halves/menge-175.jpg",
+          "/pyknon/sources/halves/menge-176.jpg",
+          "/pyknon/sources/halves/menge-177.jpg",
+          "/pyknon/sources/halves/menge-title.jpg",
+          "/pyknon/sources/macran-182.jpg",
+          "/pyknon/sources/notation/jan-367.jpg",
+          "/pyknon/sources/notation/jan-368.jpg",
+          "/pyknon/sources/notation/jan-369.jpg",
+          "/pyknon/sources/notation/jan-370.jpg",
+          "/pyknon/sources/notation/jan-title.jpg",
+          "/pyknon/sources/notation/manifest.json",
+          "/pyknon/sources/rhythm/manifest.json",
+          "/pyknon/sources/rhythm/westphal-28.jpg",
+          "/pyknon/sources/rhythm/westphal-31.jpg",
+          "/pyknon/sources/rhythm/westphal-33.jpg",
+          "/pyknon/sources/rhythm/westphal-34.jpg",
+          "/pyknon/sources/rhythm/westphal-35.jpg",
+          "/pyknon/sources/rhythm/westphal-36.jpg",
+          "/pyknon/sources/rhythm/westphal-37.jpg",
+          "/pyknon/sources/rhythm/westphal-title.jpg",
+          "/pyknon/sources/seikilos/inscription.jpg",
+          "/pyknon/sources/seikilos/monro-correction.jpg",
+          "/pyknon/sources/seikilos/monro-ending.jpg",
+          "/pyknon/sources/seikilos/stele.jpg",
+          "/pyknon/sources/tension/NOTICES.txt",
+          "/pyknon/sources/tension/jan-245.jpg",
+          "/pyknon/sources/tension/jan-246.jpg",
+          "/pyknon/sources/tension/jan-247.jpg",
+          "/pyknon/sources/tension/jan-248.jpg",
+          "/pyknon/sources/tension/meibom-10.jpg",
+          "/pyknon/sources/tension/meibom-11.jpg",
+          "/pyknon/sources/tension/meibom-12.jpg",
+          "/pyknon/sources/tension/meibom-13.jpg",
+          "/pyknon/sources/trial/manifest.json",
+          "/pyknon/sources/trial/wallis-33.jpg",
+          "/pyknon/sources/trial/wallis-34.jpg",
+          "/pyknon/sources/trial/wallis-35.jpg",
+          "/pyknon/sources/trial/wallis-36.jpg",
+          "/pyknon/sources/trial/wallis-37.jpg",
+          "/pyknon/sources/trial/wallis-38.jpg",
+          "/pyknon/sources/vina/grosset-27.jpg",
+          "/pyknon/sources/vina/grosset-28.jpg",
+          "/pyknon/sources/vina/grosset-29.jpg",
+          "/pyknon/sources/vina/grosset-57.jpg",
+          "/pyknon/sources/vina/grosset-58.jpg",
+          "/pyknon/sources/vina/grosset-85.jpg",
+          "/pyknon/sources/vina/grosset-86.jpg",
+          "/pyknon/sources/vina/grosset-title.jpg",
+          "/pyknon/sources/vina/manifest.json",
+          "/pyknon/sources/wallis-62.jpg",
+          "/pyknon/sources/wallis-63.jpg",
+          "/pyknon/tension.html",
+          "/pyknon/trial.html",
+          "/pyknon/vina.html"
+        ],
+        "controller": true
+      },
+      "nineRoomsOffline": true,
+      "offlineExport": true,
+      "sourceNavigationOffline": "The actual native link selects the stone syllable σον and its vocal zeta, then returns through Musical signs",
+      "axeViolations": 0,
+      "applicationErrors": []
+    },
+    {
+      "sourceRace": "late default page cannot replace the selected Hypolydian page",
+      "displayedSourceSha256": "2ca20ce4ac8f2251e10eeddf603ae97c3c219dfb766c44ff423a84210ead6e85",
+      "substitutedSource": "withheld; no stale image",
+      "substitutedFont": "withholds export",
+      "retry": "same source and export succeed after expected bytes return",
+      "delayedImport": "newer manual sign remains; stale file cannot replace it",
+      "changedDuringExport": "download withheld, retry keeps the actual newer line"
+    }
+  ]
+}

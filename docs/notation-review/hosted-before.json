@@ -1,0 +1,1060 @@
+{
+  "schemaVersion": 1,
+  "node": "v26.7.0",
+  "requestTimeoutMs": 10000,
+  "retryWindowMs": 120000,
+  "pollIntervalMs": 5000,
+  "concurrency": 6,
+  "baseURL": "https://antonsoo.github.io/pyknon/",
+  "state": "verified",
+  "attempts": 16,
+  "startedAtUtc": "2026-10-27T13:31:27.425Z",
+  "checkedAtUtc": "2026-10-27T13:32:59.369Z",
+  "buildManifestSha256": "9e45a3909bd3a137d41418afc23a5a1f49ee730586b6a4100f4c4602468c4d6e",
+  "expectedFileCount": 102,
+  "checkedFileCount": 102,
+  "verifiedFileCount": 102,
+  "rootBefore": {
+    "path": "index.html",
+    "bytes": 1051,
+    "sha256": "012725a68a6d6e8e955e7e494c915bef8d19d73c780637e66ee8336c41266e82",
+    "url": "https://antonsoo.github.io/pyknon/",
+    "httpStatus": 200,
+    "observedBytes": 1051,
+    "observedSha256": "012725a68a6d6e8e955e7e494c915bef8d19d73c780637e66ee8336c41266e82",
+    "state": "verified"
+  },
+  "rootAfter": {
+    "path": "index.html",
+    "bytes": 1051,
+    "sha256": "012725a68a6d6e8e955e7e494c915bef8d19d73c780637e66ee8336c41266e82",
+    "url": "https://antonsoo.github.io/pyknon/",
+    "httpStatus": 200,
+    "observedBytes": 1051,
+    "observedSha256": "012725a68a6d6e8e955e7e494c915bef8d19d73c780637e66ee8336c41266e82",
+    "state": "verified"
+  },
+  "files": [
+    {
+      "path": "assets/IBMPlex-OFL-DekkAUlv.js",
+      "bytes": 4573,
+      "sha256": "df562831a004c245b9f9fa0d952bd942aacad4c35d4838e10c3e1c3ee3f326d3",
+      "url": "https://antonsoo.github.io/pyknon/assets/IBMPlex-OFL-DekkAUlv.js",
+      "httpStatus": 200,
+      "observedBytes": 4573,
+      "observedSha256": "df562831a004c245b9f9fa0d952bd942aacad4c35d4838e10c3e1c3ee3f326d3",
+      "state": "verified"
+    },
+    {
+      "path": "assets/LICENSE_raw-logISlDD.js",
+      "bytes": 1095,
+      "sha256": "94365e01b061f099c209759b0858a2ec9b3b3448f053be02a7531539e0696edd",
+      "url": "https://antonsoo.github.io/pyknon/assets/LICENSE_raw-logISlDD.js",
+      "httpStatus": 200,
+      "observedBytes": 1095,
+      "observedSha256": "94365e01b061f099c209759b0858a2ec9b3b3448f053be02a7531539e0696edd",
+      "state": "verified"
+    },
+    {
+      "path": "assets/NotoSerif-OFL-BfJp0Y5l.js",
+      "bytes": 4420,
+      "sha256": "d817862d25fb8983adc9ea1bce36bd055f4102c1dcf110fce69f915d2804b32c",
+      "url": "https://antonsoo.github.io/pyknon/assets/NotoSerif-OFL-BfJp0Y5l.js",
+      "httpStatus": 200,
+      "observedBytes": 4420,
+      "observedSha256": "d817862d25fb8983adc9ea1bce36bd055f4102c1dcf110fce69f915d2804b32c",
+      "state": "verified"
+    },
+    {
+      "path": "assets/canon-CgpS1fgs.css",
+      "bytes": 6257,
+      "sha256": "446930f4f53d3e0211f317a517d3e9e0749b009e3aa4c599523847ba4111e28c",
+      "url": "https://antonsoo.github.io/pyknon/assets/canon-CgpS1fgs.css",
+      "httpStatus": 200,
+      "observedBytes": 6257,
+      "observedSha256": "446930f4f53d3e0211f317a517d3e9e0749b009e3aa4c599523847ba4111e28c",
+      "state": "verified"
+    },
+    {
+      "path": "assets/canon-DRL9xiwa.js",
+      "bytes": 38552,
+      "sha256": "440cf9754ed2dc96a1c388846c85922e627c2f6b3ef19e0e36f0bd2df912d927",
+      "url": "https://antonsoo.github.io/pyknon/assets/canon-DRL9xiwa.js",
+      "httpStatus": 200,
+      "observedBytes": 38552,
+      "observedSha256": "440cf9754ed2dc96a1c388846c85922e627c2f6b3ef19e0e36f0bd2df912d927",
+      "state": "verified"
+    },
+    {
+      "path": "assets/halves-B6bIHW2Q.css",
+      "bytes": 6451,
+      "sha256": "a41b6a2b69224569215dee00559bb3a10a6f58a17029f0e6f68f94053917b413",
+      "url": "https://antonsoo.github.io/pyknon/assets/halves-B6bIHW2Q.css",
+      "httpStatus": 200,
+      "observedBytes": 6451,
+      "observedSha256": "a41b6a2b69224569215dee00559bb3a10a6f58a17029f0e6f68f94053917b413",
+      "state": "verified"
+    },
+    {
+      "path": "assets/halves-DfeJOJOU.js",
+      "bytes": 59187,
+      "sha256": "12555416c5e3f9a6cccf71c784ed8aa8186bdec3ab968460641fedaad383c6ce",
+      "url": "https://antonsoo.github.io/pyknon/assets/halves-DfeJOJOU.js",
+      "httpStatus": 200,
+      "observedBytes": 59187,
+      "observedSha256": "12555416c5e3f9a6cccf71c784ed8aa8186bdec3ab968460641fedaad383c6ce",
+      "state": "verified"
+    },
+    {
+      "path": "assets/main-DmTUuTJ7.js",
+      "bytes": 24634,
+      "sha256": "aa12ff935784bc8bff4e73b2303010c908f11fb9daf0b390823f5d007565c4d5",
+      "url": "https://antonsoo.github.io/pyknon/assets/main-DmTUuTJ7.js",
+      "httpStatus": 200,
+      "observedBytes": 24634,
+      "observedSha256": "aa12ff935784bc8bff4e73b2303010c908f11fb9daf0b390823f5d007565c4d5",
+      "state": "verified"
+    },
+    {
+      "path": "assets/notation-BNm1TRgL.css",
+      "bytes": 13143,
+      "sha256": "19d096e5941eea96c0c9c39f728d52e097679fc6de4b628968d27959c8cd0a98",
+      "url": "https://antonsoo.github.io/pyknon/assets/notation-BNm1TRgL.css",
+      "httpStatus": 200,
+      "observedBytes": 13143,
+      "observedSha256": "19d096e5941eea96c0c9c39f728d52e097679fc6de4b628968d27959c8cd0a98",
+      "state": "verified"
+    },
+    {
+      "path": "assets/notation-DfdW6CUm.js",
+      "bytes": 77380,
+      "sha256": "6941eb09ee3e65e284943bd77e5edd4381505f1c0c7d2e1800cef5d97173d562",
+      "url": "https://antonsoo.github.io/pyknon/assets/notation-DfdW6CUm.js",
+      "httpStatus": 200,
+      "observedBytes": 77380,
+      "observedSha256": "6941eb09ee3e65e284943bd77e5edd4381505f1c0c7d2e1800cef5d97173d562",
+      "state": "verified"
+    },
+    {
+      "path": "assets/offline-B3uIcdz3.js",
+      "bytes": 5434,
+      "sha256": "695c8bc7038a63dbe8913de095dfd828d1ac561e587de473f63155400cf9a2ca",
+      "url": "https://antonsoo.github.io/pyknon/assets/offline-B3uIcdz3.js",
+      "httpStatus": 200,
+      "observedBytes": 5434,
+      "observedSha256": "695c8bc7038a63dbe8913de095dfd828d1ac561e587de473f63155400cf9a2ca",
+      "state": "verified"
+    },
+    {
+      "path": "assets/offline-DSKqIBUv.css",
+      "bytes": 11676,
+      "sha256": "c205d254b5abf16ea22e10b255297e43984ffc125fc5f5299a003809a504f746",
+      "url": "https://antonsoo.github.io/pyknon/assets/offline-DSKqIBUv.css",
+      "httpStatus": 200,
+      "observedBytes": 11676,
+      "observedSha256": "c205d254b5abf16ea22e10b255297e43984ffc125fc5f5299a003809a504f746",
+      "state": "verified"
+    },
+    {
+      "path": "assets/rhythm-B5_pePJN.js",
+      "bytes": 55671,
+      "sha256": "9bee276efad76b3e39d51ce386a2297b97a7ee44e8618f76587d81271333ad39",
+      "url": "https://antonsoo.github.io/pyknon/assets/rhythm-B5_pePJN.js",
+      "httpStatus": 200,
+      "observedBytes": 55671,
+      "observedSha256": "9bee276efad76b3e39d51ce386a2297b97a7ee44e8618f76587d81271333ad39",
+      "state": "verified"
+    },
+    {
+      "path": "assets/rhythm-BxI1eojA.css",
+      "bytes": 6455,
+      "sha256": "2d5ea1c470ba22b06c0299665346adf011ef4b014ddf9b705e443548ab8f4849",
+      "url": "https://antonsoo.github.io/pyknon/assets/rhythm-BxI1eojA.css",
+      "httpStatus": 200,
+      "observedBytes": 6455,
+      "observedSha256": "2d5ea1c470ba22b06c0299665346adf011ef4b014ddf9b705e443548ab8f4849",
+      "state": "verified"
+    },
+    {
+      "path": "assets/song-CTRBIwoA.js",
+      "bytes": 28798,
+      "sha256": "6432f67f328b1533a2266f990d007f357c6d66b1d40aefbc3fc9e9434b8690ee",
+      "url": "https://antonsoo.github.io/pyknon/assets/song-CTRBIwoA.js",
+      "httpStatus": 200,
+      "observedBytes": 28798,
+      "observedSha256": "6432f67f328b1533a2266f990d007f357c6d66b1d40aefbc3fc9e9434b8690ee",
+      "state": "verified"
+    },
+    {
+      "path": "assets/song-DU6C71Tm.css",
+      "bytes": 6660,
+      "sha256": "e87da18d9b995f447720ef476ca21d54d7562a1d7053e48d3b70705f7ef89b60",
+      "url": "https://antonsoo.github.io/pyknon/assets/song-DU6C71Tm.css",
+      "httpStatus": 200,
+      "observedBytes": 6660,
+      "observedSha256": "e87da18d9b995f447720ef476ca21d54d7562a1d7053e48d3b70705f7ef89b60",
+      "state": "verified"
+    },
+    {
+      "path": "assets/tension-Bws7SyPe.js",
+      "bytes": 50708,
+      "sha256": "b790309ebb11e8fa747adb12e92393f3d34ab285f1b70c1d3787add1a07cf12d",
+      "url": "https://antonsoo.github.io/pyknon/assets/tension-Bws7SyPe.js",
+      "httpStatus": 200,
+      "observedBytes": 50708,
+      "observedSha256": "b790309ebb11e8fa747adb12e92393f3d34ab285f1b70c1d3787add1a07cf12d",
+      "state": "verified"
+    },
+    {
+      "path": "assets/tension-Ik-kkgcL.css",
+      "bytes": 7077,
+      "sha256": "9e46c959e8cb7f75f9fefe6ffce55ab2578e0f03668c00385e1be86128207624",
+      "url": "https://antonsoo.github.io/pyknon/assets/tension-Ik-kkgcL.css",
+      "httpStatus": 200,
+      "observedBytes": 7077,
+      "observedSha256": "9e46c959e8cb7f75f9fefe6ffce55ab2578e0f03668c00385e1be86128207624",
+      "state": "verified"
+    },
+    {
+      "path": "assets/tetrachord-BqvDPsjm.js",
+      "bytes": 2038,
+      "sha256": "9676ab0401f96fff23375a6143e159cddb1a7465ee1b529d773a0f81c6c80139",
+      "url": "https://antonsoo.github.io/pyknon/assets/tetrachord-BqvDPsjm.js",
+      "httpStatus": 200,
+      "observedBytes": 2038,
+      "observedSha256": "9676ab0401f96fff23375a6143e159cddb1a7465ee1b529d773a0f81c6c80139",
+      "state": "verified"
+    },
+    {
+      "path": "assets/trial-BndxvPzQ.js",
+      "bytes": 39265,
+      "sha256": "b5c7ee63babb180186768e49a34fff2cd6b85020c7e9a11180f3074ce44b5156",
+      "url": "https://antonsoo.github.io/pyknon/assets/trial-BndxvPzQ.js",
+      "httpStatus": 200,
+      "observedBytes": 39265,
+      "observedSha256": "b5c7ee63babb180186768e49a34fff2cd6b85020c7e9a11180f3074ce44b5156",
+      "state": "verified"
+    },
+    {
+      "path": "assets/trial-C9QZtLCn.css",
+      "bytes": 6224,
+      "sha256": "864cad158975b48cad28a82baef00ea176f66e13c312afb6d12c9a2d4b9d146e",
+      "url": "https://antonsoo.github.io/pyknon/assets/trial-C9QZtLCn.css",
+      "httpStatus": 200,
+      "observedBytes": 6224,
+      "observedSha256": "864cad158975b48cad28a82baef00ea176f66e13c312afb6d12c9a2d4b9d146e",
+      "state": "verified"
+    },
+    {
+      "path": "assets/vina-7cppSWUR.css",
+      "bytes": 6051,
+      "sha256": "efd74657c530035ccc81c4309801c0f9dd4e9ec3549143463c647512efab37f1",
+      "url": "https://antonsoo.github.io/pyknon/assets/vina-7cppSWUR.css",
+      "httpStatus": 200,
+      "observedBytes": 6051,
+      "observedSha256": "efd74657c530035ccc81c4309801c0f9dd4e9ec3549143463c647512efab37f1",
+      "state": "verified"
+    },
+    {
+      "path": "assets/vina-ju6EwZeP.js",
+      "bytes": 53498,
+      "sha256": "ddea627c6ccc0cb493d488bfc896c04bc59aa32020ffce292a87135f944bbdfd",
+      "url": "https://antonsoo.github.io/pyknon/assets/vina-ju6EwZeP.js",
+      "httpStatus": 200,
+      "observedBytes": 53498,
+      "observedSha256": "ddea627c6ccc0cb493d488bfc896c04bc59aa32020ffce292a87135f944bbdfd",
+      "state": "verified"
+    },
+    {
+      "path": "canon.html",
+      "bytes": 1121,
+      "sha256": "90132a9e8a717657c9a67e250d9507c4c1f803295b9d42f30b13188a59cfdb52",
+      "url": "https://antonsoo.github.io/pyknon/canon.html",
+      "httpStatus": 200,
+      "observedBytes": 1121,
+      "observedSha256": "90132a9e8a717657c9a67e250d9507c4c1f803295b9d42f30b13188a59cfdb52",
+      "state": "verified"
+    },
+    {
+      "path": "fonts/IBMPlex-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "url": "https://antonsoo.github.io/pyknon/fonts/IBMPlex-OFL.txt",
+      "httpStatus": 200,
+      "observedBytes": 4456,
+      "observedSha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "state": "verified"
+    },
+    {
+      "path": "fonts/IBMPlexSans-Regular.woff2",
+      "bytes": 63020,
+      "sha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a",
+      "url": "https://antonsoo.github.io/pyknon/fonts/IBMPlexSans-Regular.woff2",
+      "httpStatus": 200,
+      "observedBytes": 63020,
+      "observedSha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a",
+      "state": "verified"
+    },
+    {
+      "path": "fonts/IBMPlexSans-SemiBold.woff2",
+      "bytes": 67060,
+      "sha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205",
+      "url": "https://antonsoo.github.io/pyknon/fonts/IBMPlexSans-SemiBold.woff2",
+      "httpStatus": 200,
+      "observedBytes": 67060,
+      "observedSha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205",
+      "state": "verified"
+    },
+    {
+      "path": "fonts/NotoSerif-OFL.txt",
+      "bytes": 4396,
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "url": "https://antonsoo.github.io/pyknon/fonts/NotoSerif-OFL.txt",
+      "httpStatus": 200,
+      "observedBytes": 4396,
+      "observedSha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "state": "verified"
+    },
+    {
+      "path": "fonts/NotoSerif-Regular.ttf",
+      "bytes": 444064,
+      "sha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6",
+      "url": "https://antonsoo.github.io/pyknon/fonts/NotoSerif-Regular.ttf",
+      "httpStatus": 200,
+      "observedBytes": 444064,
+      "observedSha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6",
+      "state": "verified"
+    },
+    {
+      "path": "halves-LICENSE.txt",
+      "bytes": 1071,
+      "sha256": "e26144be8673d69c175126ad8dcd9ed78431464f0b97120b799dc75ec7edb647",
+      "url": "https://antonsoo.github.io/pyknon/halves-LICENSE.txt",
+      "httpStatus": 200,
+      "observedBytes": 1071,
+      "observedSha256": "e26144be8673d69c175126ad8dcd9ed78431464f0b97120b799dc75ec7edb647",
+      "state": "verified"
+    },
+    {
+      "path": "halves.html",
+      "bytes": 1215,
+      "sha256": "f5bd0e612975bf5197e0743b16eb5e1488737e655fa4ca4ac2de481e7dfcfcf3",
+      "url": "https://antonsoo.github.io/pyknon/halves.html",
+      "httpStatus": 200,
+      "observedBytes": 1215,
+      "observedSha256": "f5bd0e612975bf5197e0743b16eb5e1488737e655fa4ca4ac2de481e7dfcfcf3",
+      "state": "verified"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1051,
+      "sha256": "012725a68a6d6e8e955e7e494c915bef8d19d73c780637e66ee8336c41266e82",
+      "url": "https://antonsoo.github.io/pyknon/index.html",
+      "httpStatus": 200,
+      "observedBytes": 1051,
+      "observedSha256": "012725a68a6d6e8e955e7e494c915bef8d19d73c780637e66ee8336c41266e82",
+      "state": "verified"
+    },
+    {
+      "path": "notation.html",
+      "bytes": 1354,
+      "sha256": "c6bc0c02b0478a4503ab41d2cb37da436179313e13b8c659c4c16d7dfa19d4d9",
+      "url": "https://antonsoo.github.io/pyknon/notation.html",
+      "httpStatus": 200,
+      "observedBytes": 1354,
+      "observedSha256": "c6bc0c02b0478a4503ab41d2cb37da436179313e13b8c659c4c16d7dfa19d4d9",
+      "state": "verified"
+    },
+    {
+      "path": "rhythm.html",
+      "bytes": 1206,
+      "sha256": "c7c7fa0eeda33f25a109213bf6b61d6427d6c8f9c623c55fcf507f7dd22517b6",
+      "url": "https://antonsoo.github.io/pyknon/rhythm.html",
+      "httpStatus": 200,
+      "observedBytes": 1206,
+      "observedSha256": "c7c7fa0eeda33f25a109213bf6b61d6427d6c8f9c623c55fcf507f7dd22517b6",
+      "state": "verified"
+    },
+    {
+      "path": "song.html",
+      "bytes": 1122,
+      "sha256": "31bd33c871bf83c185ccff24da43d314748d74a1fcbf7a11458660a7b4f73c4a",
+      "url": "https://antonsoo.github.io/pyknon/song.html",
+      "httpStatus": 200,
+      "observedBytes": 1122,
+      "observedSha256": "31bd33c871bf83c185ccff24da43d314748d74a1fcbf7a11458660a7b4f73c4a",
+      "state": "verified"
+    },
+    {
+      "path": "sources/canon/menge-170.jpg",
+      "bytes": 328144,
+      "sha256": "dcc5aa0766a580e2a3d6e10a4bbccc5bb03042a845ea8263ca2ba47fccc27817",
+      "url": "https://antonsoo.github.io/pyknon/sources/canon/menge-170.jpg",
+      "httpStatus": 200,
+      "observedBytes": 328144,
+      "observedSha256": "dcc5aa0766a580e2a3d6e10a4bbccc5bb03042a845ea8263ca2ba47fccc27817",
+      "state": "verified"
+    },
+    {
+      "path": "sources/canon/menge-171.jpg",
+      "bytes": 293460,
+      "sha256": "72d4dc1d525c9b2cbb3e1af95e1656dc46f3eca4edd18f56bbf39f75e98bd57d",
+      "url": "https://antonsoo.github.io/pyknon/sources/canon/menge-171.jpg",
+      "httpStatus": 200,
+      "observedBytes": 293460,
+      "observedSha256": "72d4dc1d525c9b2cbb3e1af95e1656dc46f3eca4edd18f56bbf39f75e98bd57d",
+      "state": "verified"
+    },
+    {
+      "path": "sources/canon/menge-172.jpg",
+      "bytes": 341043,
+      "sha256": "0262cfa2cb42c56e93a16a32a8f445bd31206a7fcf1216bfd53aaf98a577e522",
+      "url": "https://antonsoo.github.io/pyknon/sources/canon/menge-172.jpg",
+      "httpStatus": 200,
+      "observedBytes": 341043,
+      "observedSha256": "0262cfa2cb42c56e93a16a32a8f445bd31206a7fcf1216bfd53aaf98a577e522",
+      "state": "verified"
+    },
+    {
+      "path": "sources/canon/menge-173.jpg",
+      "bytes": 319301,
+      "sha256": "ce0f45cb57a71a92ed2dacde8677d7979383bfc57c4eb85b4e6ad669c8c5844e",
+      "url": "https://antonsoo.github.io/pyknon/sources/canon/menge-173.jpg",
+      "httpStatus": 200,
+      "observedBytes": 319301,
+      "observedSha256": "ce0f45cb57a71a92ed2dacde8677d7979383bfc57c4eb85b4e6ad669c8c5844e",
+      "state": "verified"
+    },
+    {
+      "path": "sources/canon/menge-174.jpg",
+      "bytes": 315662,
+      "sha256": "df0a0f90048b46f60fadf024e8248789f87d2ece67cc344f94df2a739e8da130",
+      "url": "https://antonsoo.github.io/pyknon/sources/canon/menge-174.jpg",
+      "httpStatus": 200,
+      "observedBytes": 315662,
+      "observedSha256": "df0a0f90048b46f60fadf024e8248789f87d2ece67cc344f94df2a739e8da130",
+      "state": "verified"
+    },
+    {
+      "path": "sources/canon/menge-175.jpg",
+      "bytes": 296605,
+      "sha256": "2edd6567bbf8f54e95fac83d6a2fc84077129dd9d2ec11fef07918129c44d1fc",
+      "url": "https://antonsoo.github.io/pyknon/sources/canon/menge-175.jpg",
+      "httpStatus": 200,
+      "observedBytes": 296605,
+      "observedSha256": "2edd6567bbf8f54e95fac83d6a2fc84077129dd9d2ec11fef07918129c44d1fc",
+      "state": "verified"
+    },
+    {
+      "path": "sources/halves/manifest.json",
+      "bytes": 4174,
+      "sha256": "6a13ed9e6efd363a0c81c3e8535663b395bfc65bad7db1db9881aa64d162688a",
+      "url": "https://antonsoo.github.io/pyknon/sources/halves/manifest.json",
+      "httpStatus": 200,
+      "observedBytes": 4174,
+      "observedSha256": "6a13ed9e6efd363a0c81c3e8535663b395bfc65bad7db1db9881aa64d162688a",
+      "state": "verified"
+    },
+    {
+      "path": "sources/halves/menge-162.jpg",
+      "bytes": 577067,
+      "sha256": "1c443dcbab8b7e91a0f612488f455d7ee5e57f0de9ab10474e839e218995cba0",
+      "url": "https://antonsoo.github.io/pyknon/sources/halves/menge-162.jpg",
+      "httpStatus": 200,
+      "observedBytes": 577067,
+      "observedSha256": "1c443dcbab8b7e91a0f612488f455d7ee5e57f0de9ab10474e839e218995cba0",
+      "state": "verified"
+    },
+    {
+      "path": "sources/halves/menge-163.jpg",
+      "bytes": 598544,
+      "sha256": "088f14683c17e143b4394eab1f25430552195a0dd897e6dc515beb24868af8d2",
+      "url": "https://antonsoo.github.io/pyknon/sources/halves/menge-163.jpg",
+      "httpStatus": 200,
+      "observedBytes": 598544,
+      "observedSha256": "088f14683c17e143b4394eab1f25430552195a0dd897e6dc515beb24868af8d2",
+      "state": "verified"
+    },
+    {
+      "path": "sources/halves/menge-172.jpg",
+      "bytes": 531244,
+      "sha256": "80661acab2e36424f8c3585efd4035cbfd0100f05ed74fe139c7e8993447c96c",
+      "url": "https://antonsoo.github.io/pyknon/sources/halves/menge-172.jpg",
+      "httpStatus": 200,
+      "observedBytes": 531244,
+      "observedSha256": "80661acab2e36424f8c3585efd4035cbfd0100f05ed74fe139c7e8993447c96c",
+      "state": "verified"
+    },
+    {
+      "path": "sources/halves/menge-173.jpg",
+      "bytes": 493963,
+      "sha256": "7ca7cd06a852a44ea78fe3d9bb945a52871ea56580c1609f8ee32e9387c58929",
+      "url": "https://antonsoo.github.io/pyknon/sources/halves/menge-173.jpg",
+      "httpStatus": 200,
+      "observedBytes": 493963,
+      "observedSha256": "7ca7cd06a852a44ea78fe3d9bb945a52871ea56580c1609f8ee32e9387c58929",
+      "state": "verified"
+    },
+    {
+      "path": "sources/halves/menge-174.jpg",
+      "bytes": 484520,
+      "sha256": "ce853cef6a6087ca72982dcde0453581039bfb9d3f9c318991361c964208d4db",
+      "url": "https://antonsoo.github.io/pyknon/sources/halves/menge-174.jpg",
+      "httpStatus": 200,
+      "observedBytes": 484520,
+      "observedSha256": "ce853cef6a6087ca72982dcde0453581039bfb9d3f9c318991361c964208d4db",
+      "state": "verified"
+    },
+    {
+      "path": "sources/halves/menge-175.jpg",
+      "bytes": 460696,
+      "sha256": "2c9499faabfb9e278b4ecd5a97b1b2519963c71192e234140b200ba36a08eff9",
+      "url": "https://antonsoo.github.io/pyknon/sources/halves/menge-175.jpg",
+      "httpStatus": 200,
+      "observedBytes": 460696,
+      "observedSha256": "2c9499faabfb9e278b4ecd5a97b1b2519963c71192e234140b200ba36a08eff9",
+      "state": "verified"
+    },
+    {
+      "path": "sources/halves/menge-176.jpg",
+      "bytes": 462870,
+      "sha256": "82d807ed3ead1db60020a87ac1fcf88d393a2b2b7226e4632f16185a33a085ca",
+      "url": "https://antonsoo.github.io/pyknon/sources/halves/menge-176.jpg",
+      "httpStatus": 200,
+      "observedBytes": 462870,
+      "observedSha256": "82d807ed3ead1db60020a87ac1fcf88d393a2b2b7226e4632f16185a33a085ca",
+      "state": "verified"
+    },
+    {
+      "path": "sources/halves/menge-177.jpg",
+      "bytes": 438106,
+      "sha256": "2b737ce053682cf32e202fe6671531ff509c3d962d659865b7a986e349709b7d",
+      "url": "https://antonsoo.github.io/pyknon/sources/halves/menge-177.jpg",
+      "httpStatus": 200,
+      "observedBytes": 438106,
+      "observedSha256": "2b737ce053682cf32e202fe6671531ff509c3d962d659865b7a986e349709b7d",
+      "state": "verified"
+    },
+    {
+      "path": "sources/halves/menge-title.jpg",
+      "bytes": 287091,
+      "sha256": "b5550b9206543d3b19969f8657d4a7abd08971c0994e6c0638265ad7a09ff067",
+      "url": "https://antonsoo.github.io/pyknon/sources/halves/menge-title.jpg",
+      "httpStatus": 200,
+      "observedBytes": 287091,
+      "observedSha256": "b5550b9206543d3b19969f8657d4a7abd08971c0994e6c0638265ad7a09ff067",
+      "state": "verified"
+    },
+    {
+      "path": "sources/macran-182.jpg",
+      "bytes": 373644,
+      "sha256": "870edc78b7ed3e08e38bfbe458722a774623562228152b2d9c07ed74c8165697",
+      "url": "https://antonsoo.github.io/pyknon/sources/macran-182.jpg",
+      "httpStatus": 200,
+      "observedBytes": 373644,
+      "observedSha256": "870edc78b7ed3e08e38bfbe458722a774623562228152b2d9c07ed74c8165697",
+      "state": "verified"
+    },
+    {
+      "path": "sources/notation/jan-367.jpg",
+      "bytes": 516652,
+      "sha256": "a442d35d13218aa3a8f9f963d6d0b6be3a0082f67796632077407c55370a3675",
+      "url": "https://antonsoo.github.io/pyknon/sources/notation/jan-367.jpg",
+      "httpStatus": 200,
+      "observedBytes": 516652,
+      "observedSha256": "a442d35d13218aa3a8f9f963d6d0b6be3a0082f67796632077407c55370a3675",
+      "state": "verified"
+    },
+    {
+      "path": "sources/notation/jan-368.jpg",
+      "bytes": 557387,
+      "sha256": "4632a15b8553c92048f99c9eb803b39b5167df320e4917f8a7c89402cef6a659",
+      "url": "https://antonsoo.github.io/pyknon/sources/notation/jan-368.jpg",
+      "httpStatus": 200,
+      "observedBytes": 557387,
+      "observedSha256": "4632a15b8553c92048f99c9eb803b39b5167df320e4917f8a7c89402cef6a659",
+      "state": "verified"
+    },
+    {
+      "path": "sources/notation/jan-369.jpg",
+      "bytes": 629414,
+      "sha256": "6861155b7a188c10e2f76d13a595f9b82b2d5ed3cdf789b2913435075abef733",
+      "url": "https://antonsoo.github.io/pyknon/sources/notation/jan-369.jpg",
+      "httpStatus": 200,
+      "observedBytes": 629414,
+      "observedSha256": "6861155b7a188c10e2f76d13a595f9b82b2d5ed3cdf789b2913435075abef733",
+      "state": "verified"
+    },
+    {
+      "path": "sources/notation/jan-370.jpg",
+      "bytes": 562080,
+      "sha256": "2ca20ce4ac8f2251e10eeddf603ae97c3c219dfb766c44ff423a84210ead6e85",
+      "url": "https://antonsoo.github.io/pyknon/sources/notation/jan-370.jpg",
+      "httpStatus": 200,
+      "observedBytes": 562080,
+      "observedSha256": "2ca20ce4ac8f2251e10eeddf603ae97c3c219dfb766c44ff423a84210ead6e85",
+      "state": "verified"
+    },
+    {
+      "path": "sources/notation/jan-title.jpg",
+      "bytes": 370720,
+      "sha256": "79e0712031b6eaa6a236bd4297c85ea2f9b20ca8ea41e28e402957f01d42d4b1",
+      "url": "https://antonsoo.github.io/pyknon/sources/notation/jan-title.jpg",
+      "httpStatus": 200,
+      "observedBytes": 370720,
+      "observedSha256": "79e0712031b6eaa6a236bd4297c85ea2f9b20ca8ea41e28e402957f01d42d4b1",
+      "state": "verified"
+    },
+    {
+      "path": "sources/notation/manifest.json",
+      "bytes": 3330,
+      "sha256": "e178fd0d3b0732a7a9eb501c8a31350c89e88502815106c00f16b81d57978a62",
+      "url": "https://antonsoo.github.io/pyknon/sources/notation/manifest.json",
+      "httpStatus": 200,
+      "observedBytes": 3330,
+      "observedSha256": "e178fd0d3b0732a7a9eb501c8a31350c89e88502815106c00f16b81d57978a62",
+      "state": "verified"
+    },
+    {
+      "path": "sources/rhythm/manifest.json",
+      "bytes": 2425,
+      "sha256": "ca7e4a14a6c65e9a0ee3e9bfc7b2d0fbe6db82d8689f504bfa3186c1242c83ac",
+      "url": "https://antonsoo.github.io/pyknon/sources/rhythm/manifest.json",
+      "httpStatus": 200,
+      "observedBytes": 2425,
+      "observedSha256": "ca7e4a14a6c65e9a0ee3e9bfc7b2d0fbe6db82d8689f504bfa3186c1242c83ac",
+      "state": "verified"
+    },
+    {
+      "path": "sources/rhythm/westphal-28.jpg",
+      "bytes": 334264,
+      "sha256": "c455c4d03ceac6dfde47ec08628b5704ef23d31c14e2fa2ca76f7148f1484d54",
+      "url": "https://antonsoo.github.io/pyknon/sources/rhythm/westphal-28.jpg",
+      "httpStatus": 200,
+      "observedBytes": 334264,
+      "observedSha256": "c455c4d03ceac6dfde47ec08628b5704ef23d31c14e2fa2ca76f7148f1484d54",
+      "state": "verified"
+    },
+    {
+      "path": "sources/rhythm/westphal-31.jpg",
+      "bytes": 527474,
+      "sha256": "323add28a636b727597fe6b409f579965ad65c9a36c12f27b8f9bf4b30695056",
+      "url": "https://antonsoo.github.io/pyknon/sources/rhythm/westphal-31.jpg",
+      "httpStatus": 200,
+      "observedBytes": 527474,
+      "observedSha256": "323add28a636b727597fe6b409f579965ad65c9a36c12f27b8f9bf4b30695056",
+      "state": "verified"
+    },
+    {
+      "path": "sources/rhythm/westphal-33.jpg",
+      "bytes": 535721,
+      "sha256": "e99aff7fb72ea74f5cb31f077c990a0f5108493bf20c71bd383f57ce4a07d48e",
+      "url": "https://antonsoo.github.io/pyknon/sources/rhythm/westphal-33.jpg",
+      "httpStatus": 200,
+      "observedBytes": 535721,
+      "observedSha256": "e99aff7fb72ea74f5cb31f077c990a0f5108493bf20c71bd383f57ce4a07d48e",
+      "state": "verified"
+    },
+    {
+      "path": "sources/rhythm/westphal-34.jpg",
+      "bytes": 533950,
+      "sha256": "ae30fe891d856634660a9a3b995b812b04bb5096dcf1c351a8a79637925b1f39",
+      "url": "https://antonsoo.github.io/pyknon/sources/rhythm/westphal-34.jpg",
+      "httpStatus": 200,
+      "observedBytes": 533950,
+      "observedSha256": "ae30fe891d856634660a9a3b995b812b04bb5096dcf1c351a8a79637925b1f39",
+      "state": "verified"
+    },
+    {
+      "path": "sources/rhythm/westphal-35.jpg",
+      "bytes": 463225,
+      "sha256": "c97c8aa74cff5f0c82ffd76961c8109bd6aa5d95db4f930d78212e94dafdbab7",
+      "url": "https://antonsoo.github.io/pyknon/sources/rhythm/westphal-35.jpg",
+      "httpStatus": 200,
+      "observedBytes": 463225,
+      "observedSha256": "c97c8aa74cff5f0c82ffd76961c8109bd6aa5d95db4f930d78212e94dafdbab7",
+      "state": "verified"
+    },
+    {
+      "path": "sources/rhythm/westphal-36.jpg",
+      "bytes": 464115,
+      "sha256": "591624336ea6d720443425ea71d69cc7c49b700fe3697942386b8af1e1208600",
+      "url": "https://antonsoo.github.io/pyknon/sources/rhythm/westphal-36.jpg",
+      "httpStatus": 200,
+      "observedBytes": 464115,
+      "observedSha256": "591624336ea6d720443425ea71d69cc7c49b700fe3697942386b8af1e1208600",
+      "state": "verified"
+    },
+    {
+      "path": "sources/rhythm/westphal-37.jpg",
+      "bytes": 503768,
+      "sha256": "9c6d99267e239d061a674e464404e1818067c6a33746b6d9a6df4b900a506f1e",
+      "url": "https://antonsoo.github.io/pyknon/sources/rhythm/westphal-37.jpg",
+      "httpStatus": 200,
+      "observedBytes": 503768,
+      "observedSha256": "9c6d99267e239d061a674e464404e1818067c6a33746b6d9a6df4b900a506f1e",
+      "state": "verified"
+    },
+    {
+      "path": "sources/rhythm/westphal-title.jpg",
+      "bytes": 75951,
+      "sha256": "255cc1aaf6044cdf06ae32b5c09aa8e59fac08177a7276c43035dd40fa39988f",
+      "url": "https://antonsoo.github.io/pyknon/sources/rhythm/westphal-title.jpg",
+      "httpStatus": 200,
+      "observedBytes": 75951,
+      "observedSha256": "255cc1aaf6044cdf06ae32b5c09aa8e59fac08177a7276c43035dd40fa39988f",
+      "state": "verified"
+    },
+    {
+      "path": "sources/seikilos/inscription.jpg",
+      "bytes": 210980,
+      "sha256": "da774306bb3f05873e7126596612e5b623bd9255b0564b36d11bfb1be4826729",
+      "url": "https://antonsoo.github.io/pyknon/sources/seikilos/inscription.jpg",
+      "httpStatus": 200,
+      "observedBytes": 210980,
+      "observedSha256": "da774306bb3f05873e7126596612e5b623bd9255b0564b36d11bfb1be4826729",
+      "state": "verified"
+    },
+    {
+      "path": "sources/seikilos/monro-correction.jpg",
+      "bytes": 32797,
+      "sha256": "6df42768a72811fa199c7d89bd4c4ebbc9fb46d0d1d63e413a6b4c845a60c34d",
+      "url": "https://antonsoo.github.io/pyknon/sources/seikilos/monro-correction.jpg",
+      "httpStatus": 200,
+      "observedBytes": 32797,
+      "observedSha256": "6df42768a72811fa199c7d89bd4c4ebbc9fb46d0d1d63e413a6b4c845a60c34d",
+      "state": "verified"
+    },
+    {
+      "path": "sources/seikilos/monro-ending.jpg",
+      "bytes": 18620,
+      "sha256": "c2a8ad3dbf2feaebde1b51f25aee415690ec3254c5f65d74daf27405a0d10ac3",
+      "url": "https://antonsoo.github.io/pyknon/sources/seikilos/monro-ending.jpg",
+      "httpStatus": 200,
+      "observedBytes": 18620,
+      "observedSha256": "c2a8ad3dbf2feaebde1b51f25aee415690ec3254c5f65d74daf27405a0d10ac3",
+      "state": "verified"
+    },
+    {
+      "path": "sources/seikilos/stele.jpg",
+      "bytes": 64634,
+      "sha256": "9ddb805f113cdb555dde628b40c8c1efc3e9fb6c0b13d42905ab7dfb726b8050",
+      "url": "https://antonsoo.github.io/pyknon/sources/seikilos/stele.jpg",
+      "httpStatus": 200,
+      "observedBytes": 64634,
+      "observedSha256": "9ddb805f113cdb555dde628b40c8c1efc3e9fb6c0b13d42905ab7dfb726b8050",
+      "state": "verified"
+    },
+    {
+      "path": "sources/tension/NOTICES.txt",
+      "bytes": 2171,
+      "sha256": "de4408c53564bfb09d4e80e832fd08f39f85212b1d2f0e044fd55b24a5d3ddfb",
+      "url": "https://antonsoo.github.io/pyknon/sources/tension/NOTICES.txt",
+      "httpStatus": 200,
+      "observedBytes": 2171,
+      "observedSha256": "de4408c53564bfb09d4e80e832fd08f39f85212b1d2f0e044fd55b24a5d3ddfb",
+      "state": "verified"
+    },
+    {
+      "path": "sources/tension/jan-245.jpg",
+      "bytes": 564124,
+      "sha256": "5e20d60217ddd698bdbee57f4bea74bd3a3c9fdaefaa58bfeb40b500b23583a6",
+      "url": "https://antonsoo.github.io/pyknon/sources/tension/jan-245.jpg",
+      "httpStatus": 200,
+      "observedBytes": 564124,
+      "observedSha256": "5e20d60217ddd698bdbee57f4bea74bd3a3c9fdaefaa58bfeb40b500b23583a6",
+      "state": "verified"
+    },
+    {
+      "path": "sources/tension/jan-246.jpg",
+      "bytes": 587391,
+      "sha256": "2a5b8357d25c3b41269f1a164665a134c2c17fc8ca569af343a7dd29176395f0",
+      "url": "https://antonsoo.github.io/pyknon/sources/tension/jan-246.jpg",
+      "httpStatus": 200,
+      "observedBytes": 587391,
+      "observedSha256": "2a5b8357d25c3b41269f1a164665a134c2c17fc8ca569af343a7dd29176395f0",
+      "state": "verified"
+    },
+    {
+      "path": "sources/tension/jan-247.jpg",
+      "bytes": 579773,
+      "sha256": "848dc43cc51bb30285d8530b832f92b8bf93a41966abf4b3870798c0d734c34e",
+      "url": "https://antonsoo.github.io/pyknon/sources/tension/jan-247.jpg",
+      "httpStatus": 200,
+      "observedBytes": 579773,
+      "observedSha256": "848dc43cc51bb30285d8530b832f92b8bf93a41966abf4b3870798c0d734c34e",
+      "state": "verified"
+    },
+    {
+      "path": "sources/tension/jan-248.jpg",
+      "bytes": 582046,
+      "sha256": "5398d7676618daeff10f99bbea5f7e6def15155d26819bf4eab80243cd424543",
+      "url": "https://antonsoo.github.io/pyknon/sources/tension/jan-248.jpg",
+      "httpStatus": 200,
+      "observedBytes": 582046,
+      "observedSha256": "5398d7676618daeff10f99bbea5f7e6def15155d26819bf4eab80243cd424543",
+      "state": "verified"
+    },
+    {
+      "path": "sources/tension/meibom-10.jpg",
+      "bytes": 743923,
+      "sha256": "1b866e57f0b80c910044bdf9744aab9371fa8dd9df4089da6900cfee566fb842",
+      "url": "https://antonsoo.github.io/pyknon/sources/tension/meibom-10.jpg",
+      "httpStatus": 200,
+      "observedBytes": 743923,
+      "observedSha256": "1b866e57f0b80c910044bdf9744aab9371fa8dd9df4089da6900cfee566fb842",
+      "state": "verified"
+    },
+    {
+      "path": "sources/tension/meibom-11.jpg",
+      "bytes": 739545,
+      "sha256": "5ce85c67b28dc2ef688fb9309f5a614c8997d3173aa1a1acde74b3fb68a2b9ee",
+      "url": "https://antonsoo.github.io/pyknon/sources/tension/meibom-11.jpg",
+      "httpStatus": 200,
+      "observedBytes": 739545,
+      "observedSha256": "5ce85c67b28dc2ef688fb9309f5a614c8997d3173aa1a1acde74b3fb68a2b9ee",
+      "state": "verified"
+    },
+    {
+      "path": "sources/tension/meibom-12.jpg",
+      "bytes": 717201,
+      "sha256": "15e401128c904038a81a98564f30248862fb79aba5a4d1ba20d500892ca0a2ff",
+      "url": "https://antonsoo.github.io/pyknon/sources/tension/meibom-12.jpg",
+      "httpStatus": 200,
+      "observedBytes": 717201,
+      "observedSha256": "15e401128c904038a81a98564f30248862fb79aba5a4d1ba20d500892ca0a2ff",
+      "state": "verified"
+    },
+    {
+      "path": "sources/tension/meibom-13.jpg",
+      "bytes": 703681,
+      "sha256": "2c21c82d858bdae135a9bc2363505c209d34f0c63f0a292c5ef3f1f1cbfa24ca",
+      "url": "https://antonsoo.github.io/pyknon/sources/tension/meibom-13.jpg",
+      "httpStatus": 200,
+      "observedBytes": 703681,
+      "observedSha256": "2c21c82d858bdae135a9bc2363505c209d34f0c63f0a292c5ef3f1f1cbfa24ca",
+      "state": "verified"
+    },
+    {
+      "path": "sources/trial/manifest.json",
+      "bytes": 1589,
+      "sha256": "a25a6ea5291bd08223bddfe2566d7a104b70ce80aaf75d16e8e7de160c4c2d03",
+      "url": "https://antonsoo.github.io/pyknon/sources/trial/manifest.json",
+      "httpStatus": 200,
+      "observedBytes": 1589,
+      "observedSha256": "a25a6ea5291bd08223bddfe2566d7a104b70ce80aaf75d16e8e7de160c4c2d03",
+      "state": "verified"
+    },
+    {
+      "path": "sources/trial/wallis-33.jpg",
+      "bytes": 388580,
+      "sha256": "a8f150e64864e4b57e196a74ae7791f277dc14408c24553c4a0b4f157276b76e",
+      "url": "https://antonsoo.github.io/pyknon/sources/trial/wallis-33.jpg",
+      "httpStatus": 200,
+      "observedBytes": 388580,
+      "observedSha256": "a8f150e64864e4b57e196a74ae7791f277dc14408c24553c4a0b4f157276b76e",
+      "state": "verified"
+    },
+    {
+      "path": "sources/trial/wallis-34.jpg",
+      "bytes": 440943,
+      "sha256": "2f5e135b552fdf18d33b2acbd62de63014f4976d4d73119f7057cd80f2a85ad4",
+      "url": "https://antonsoo.github.io/pyknon/sources/trial/wallis-34.jpg",
+      "httpStatus": 200,
+      "observedBytes": 440943,
+      "observedSha256": "2f5e135b552fdf18d33b2acbd62de63014f4976d4d73119f7057cd80f2a85ad4",
+      "state": "verified"
+    },
+    {
+      "path": "sources/trial/wallis-35.jpg",
+      "bytes": 382400,
+      "sha256": "845b1b834be897fb29228cac2f0d9e5d63d2b9ee6e5197c1e5414f6054bec699",
+      "url": "https://antonsoo.github.io/pyknon/sources/trial/wallis-35.jpg",
+      "httpStatus": 200,
+      "observedBytes": 382400,
+      "observedSha256": "845b1b834be897fb29228cac2f0d9e5d63d2b9ee6e5197c1e5414f6054bec699",
+      "state": "verified"
+    },
+    {
+      "path": "sources/trial/wallis-36.jpg",
+      "bytes": 474075,
+      "sha256": "b19f0f0711bbb330e6be15adbdcc8673d5c18a07251041e19e87b179e8ecec3a",
+      "url": "https://antonsoo.github.io/pyknon/sources/trial/wallis-36.jpg",
+      "httpStatus": 200,
+      "observedBytes": 474075,
+      "observedSha256": "b19f0f0711bbb330e6be15adbdcc8673d5c18a07251041e19e87b179e8ecec3a",
+      "state": "verified"
+    },
+    {
+      "path": "sources/trial/wallis-37.jpg",
+      "bytes": 411937,
+      "sha256": "03a75e9a322834a5cef8409dca253df3bc4f9c2f7c80e66e8ae5652a7d5ac136",
+      "url": "https://antonsoo.github.io/pyknon/sources/trial/wallis-37.jpg",
+      "httpStatus": 200,
+      "observedBytes": 411937,
+      "observedSha256": "03a75e9a322834a5cef8409dca253df3bc4f9c2f7c80e66e8ae5652a7d5ac136",
+      "state": "verified"
+    },
+    {
+      "path": "sources/trial/wallis-38.jpg",
+      "bytes": 316899,
+      "sha256": "d750fde885dfaf57eae7c7ac3fa2c48c2e6bdd99ee1c7f5298935e1254322983",
+      "url": "https://antonsoo.github.io/pyknon/sources/trial/wallis-38.jpg",
+      "httpStatus": 200,
+      "observedBytes": 316899,
+      "observedSha256": "d750fde885dfaf57eae7c7ac3fa2c48c2e6bdd99ee1c7f5298935e1254322983",
+      "state": "verified"
+    },
+    {
+      "path": "sources/vina/grosset-27.jpg",
+      "bytes": 429690,
+      "sha256": "d8b852b6e94df011a50652f56868508a42795710faed46328c41a157c101ac37",
+      "url": "https://antonsoo.github.io/pyknon/sources/vina/grosset-27.jpg",
+      "httpStatus": 200,
+      "observedBytes": 429690,
+      "observedSha256": "d8b852b6e94df011a50652f56868508a42795710faed46328c41a157c101ac37",
+      "state": "verified"
+    },
+    {
+      "path": "sources/vina/grosset-28.jpg",
+      "bytes": 431366,
+      "sha256": "a91b49178abfeea7daa478843f6d385ff4d0136d2733abdb95bd2bdca66bafe3",
+      "url": "https://antonsoo.github.io/pyknon/sources/vina/grosset-28.jpg",
+      "httpStatus": 200,
+      "observedBytes": 431366,
+      "observedSha256": "a91b49178abfeea7daa478843f6d385ff4d0136d2733abdb95bd2bdca66bafe3",
+      "state": "verified"
+    },
+    {
+      "path": "sources/vina/grosset-29.jpg",
+      "bytes": 432007,
+      "sha256": "a60790bddea16456a75196c9274597a67b5e43531a65a843748d5397dc513ebe",
+      "url": "https://antonsoo.github.io/pyknon/sources/vina/grosset-29.jpg",
+      "httpStatus": 200,
+      "observedBytes": 432007,
+      "observedSha256": "a60790bddea16456a75196c9274597a67b5e43531a65a843748d5397dc513ebe",
+      "state": "verified"
+    },
+    {
+      "path": "sources/vina/grosset-57.jpg",
+      "bytes": 366224,
+      "sha256": "df9ad6c7f6670b43d61dc3f52b60a04ea870168478d9518d6b769db707f3c685",
+      "url": "https://antonsoo.github.io/pyknon/sources/vina/grosset-57.jpg",
+      "httpStatus": 200,
+      "observedBytes": 366224,
+      "observedSha256": "df9ad6c7f6670b43d61dc3f52b60a04ea870168478d9518d6b769db707f3c685",
+      "state": "verified"
+    },
+    {
+      "path": "sources/vina/grosset-58.jpg",
+      "bytes": 308607,
+      "sha256": "8bcec2a956b7806d12b77dafe0ad7b7cdc94a9cc2987796a8a3bd42866049451",
+      "url": "https://antonsoo.github.io/pyknon/sources/vina/grosset-58.jpg",
+      "httpStatus": 200,
+      "observedBytes": 308607,
+      "observedSha256": "8bcec2a956b7806d12b77dafe0ad7b7cdc94a9cc2987796a8a3bd42866049451",
+      "state": "verified"
+    },
+    {
+      "path": "sources/vina/grosset-85.jpg",
+      "bytes": 550402,
+      "sha256": "33fc04ff5c2beea21b25d012c3585359099c0c3299c07c924685433e984ba29c",
+      "url": "https://antonsoo.github.io/pyknon/sources/vina/grosset-85.jpg",
+      "httpStatus": 200,
+      "observedBytes": 550402,
+      "observedSha256": "33fc04ff5c2beea21b25d012c3585359099c0c3299c07c924685433e984ba29c",
+      "state": "verified"
+    },
+    {
+      "path": "sources/vina/grosset-86.jpg",
+      "bytes": 559732,
+      "sha256": "b5642515a6952029d66983102499d292f221628721cd82a93c733065c38b39cb",
+      "url": "https://antonsoo.github.io/pyknon/sources/vina/grosset-86.jpg",
+      "httpStatus": 200,
+      "observedBytes": 559732,
+      "observedSha256": "b5642515a6952029d66983102499d292f221628721cd82a93c733065c38b39cb",
+      "state": "verified"
+    },
+    {
+      "path": "sources/vina/grosset-title.jpg",
+      "bytes": 131027,
+      "sha256": "4f4135b270449c5d6078abc6ab5e9ecd8a1951233c4e76d62e28a3af0b31ab61",
+      "url": "https://antonsoo.github.io/pyknon/sources/vina/grosset-title.jpg",
+      "httpStatus": 200,
+      "observedBytes": 131027,
+      "observedSha256": "4f4135b270449c5d6078abc6ab5e9ecd8a1951233c4e76d62e28a3af0b31ab61",
+      "state": "verified"
+    },
+    {
+      "path": "sources/vina/manifest.json",
+      "bytes": 3660,
+      "sha256": "ac59be7ee987dc76e345fb2c6ebff41bc4d86a15b890d13b0da84bbbbd027b97",
+      "url": "https://antonsoo.github.io/pyknon/sources/vina/manifest.json",
+      "httpStatus": 200,
+      "observedBytes": 3660,
+      "observedSha256": "ac59be7ee987dc76e345fb2c6ebff41bc4d86a15b890d13b0da84bbbbd027b97",
+      "state": "verified"
+    },
+    {
+      "path": "sources/wallis-62.jpg",
+      "bytes": 608756,
+      "sha256": "bb4e8eb52d20cc23cbb91b4e1ff6a8319e8bd0a8092ab8b899d2970087d427c2",
+      "url": "https://antonsoo.github.io/pyknon/sources/wallis-62.jpg",
+      "httpStatus": 200,
+      "observedBytes": 608756,
+      "observedSha256": "bb4e8eb52d20cc23cbb91b4e1ff6a8319e8bd0a8092ab8b899d2970087d427c2",
+      "state": "verified"
+    },
+    {
+      "path": "sources/wallis-63.jpg",
+      "bytes": 547639,
+      "sha256": "e9d74ef39d02b2dd124792b8ebff2260805ceeead6bde6a3be0adb1a904dbafd",
+      "url": "https://antonsoo.github.io/pyknon/sources/wallis-63.jpg",
+      "httpStatus": 200,
+      "observedBytes": 547639,
+      "observedSha256": "e9d74ef39d02b2dd124792b8ebff2260805ceeead6bde6a3be0adb1a904dbafd",
+      "state": "verified"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 15561,
+      "sha256": "31c0ca6b5af32535db667b5b58e8b103a4747bee62d382fd66d43b021d625f49",
+      "url": "https://antonsoo.github.io/pyknon/sw.js",
+      "httpStatus": 200,
+      "observedBytes": 15561,
+      "observedSha256": "31c0ca6b5af32535db667b5b58e8b103a4747bee62d382fd66d43b021d625f49",
+      "state": "verified"
+    },
+    {
+      "path": "tension.html",
+      "bytes": 1310,
+      "sha256": "e7c71c6b61d9822c1e7b2966449e7199bcad5284f75466306c47692c528aeaa2",
+      "url": "https://antonsoo.github.io/pyknon/tension.html",
+      "httpStatus": 200,
+      "observedBytes": 1310,
+      "observedSha256": "e7c71c6b61d9822c1e7b2966449e7199bcad5284f75466306c47692c528aeaa2",
+      "state": "verified"
+    },
+    {
+      "path": "trial.html",
+      "bytes": 1249,
+      "sha256": "07938b51439a835db046209b9b1cfcd086e7992347a147cca8fc43a2edf57c95",
+      "url": "https://antonsoo.github.io/pyknon/trial.html",
+      "httpStatus": 200,
+      "observedBytes": 1249,
+      "observedSha256": "07938b51439a835db046209b9b1cfcd086e7992347a147cca8fc43a2edf57c95",
+      "state": "verified"
+    },
+    {
+      "path": "vina.html",
+      "bytes": 1400,
+      "sha256": "5df6bb52fe4876b27963a4ae764ddd815a9c57544a776895053f5614ae17105c",
+      "url": "https://antonsoo.github.io/pyknon/vina.html",
+      "httpStatus": 200,
+      "observedBytes": 1400,
+      "observedSha256": "5df6bb52fe4876b27963a4ae764ddd815a9c57544a776895053f5614ae17105c",
+      "state": "verified"
+    }
+  ],
+  "scope": "Compares canonical responses with this captured build inventory during the recorded pass. Extra hosted files, browser behavior, public source, registry releases and deployment provenance are not established."
+}

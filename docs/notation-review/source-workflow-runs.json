@@ -1,0 +1,18 @@
+[
+  {
+    "conclusion": "failure",
+    "head_sha": "ff79c6270ecec1b9adc570f429a0edf2ec05f5ef",
+    "html_url": "https://github.com/antonsoo/pyknon/actions/runs/40512719766",
+    "id": 40512719766,
+    "name": "Pages",
+    "status": "completed"
+  },
+  {
+    "conclusion": "failure",
+    "head_sha": "ff79c6270ecec1b9adc570f429a0edf2ec05f5ef",
+    "html_url": "https://github.com/antonsoo/pyknon/actions/runs/40512719806",
+    "id": 40512719806,
+    "name": "CI",
+    "status": "completed"
+  }
+]

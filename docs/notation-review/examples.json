@@ -1,0 +1,45 @@
+{
+  "scope": "Actual native downloads from the canonical public lesson; HTML gzip-compressed without content edits, PDF printed from the actual HTML download",
+  "files": [
+    {
+      "path": "examples/musical-signs-modern-comparison.wav",
+      "bytes": 652844,
+      "sha256": "331bf420bc9a31374c23dc5795c49528bd155f89d0b077671cb7b90deac9f9ff"
+    },
+    {
+      "path": "examples/musical-signs-reading.html.gz",
+      "bytes": 3655324,
+      "sha256": "2baf176def4e1048ef6c5c0dfbece0b1bfe0833f6db702295837b1b134c4c339"
+    },
+    {
+      "path": "examples/musical-signs-reading.pdf",
+      "bytes": 3921771,
+      "sha256": "c0dd2cde638c9dcdaab0eea8fa32def37d4fe818a0dbbb51795127d4dfa30e89"
+    },
+    {
+      "path": "examples/musical-signs-tables.csv",
+      "bytes": 524,
+      "sha256": "eb52ddda65b7056aed6ad59b9b87a07a5ae52a7d1c888a659a25c3fdb0b55852"
+    },
+    {
+      "path": "examples/musical-signs-tables.svg",
+      "bytes": 95285,
+      "sha256": "649fe5eca9081c949711434f1dcc8fa88ee1691486cefd745d1c93362932bd7c"
+    },
+    {
+      "path": "examples/musical-signs-translation.csv",
+      "bytes": 940,
+      "sha256": "c43014ace30b429720737b6a090e907327d49d88b43834191a174bef0da59783"
+    },
+    {
+      "path": "examples/musical-signs.json",
+      "bytes": 868,
+      "sha256": "ce850d523d3c6e8e1b23a1e598ac2368ece9fbfa3923b9fd680ca35c1f394063"
+    },
+    {
+      "path": "examples/musical-signs.svg",
+      "bytes": 101509,
+      "sha256": "8a05ed5f01f2af714ea853f4d9714c133a3d647aa842ddf4757e8ae27e352f61"
+    }
+  ]
+}

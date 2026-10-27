@@ -35,7 +35,7 @@ service is used.
 
 ## One shape, two musical alphabets
 
-The new **Musical signs** desk at `/pyknon/notation.html` translates a short
+The **[Musical signs desk](https://antonsoo.github.io/pyknon/notation.html#translation)** translates a short
 working line between Alypius’s vocal and instrumental notation. Its starting
 example copies two shapes and changes two notes. Replace either mark with a
 keyboard-operable palette while the printed paired lookup remains visible.
@@ -63,9 +63,13 @@ Seikilos reader’s actual museum photograph.
 ![A copied shape can change the note when the alphabet changes](docs/assets/notation-desktop.png)
 
 [Source, model and limits](docs/notation-model.md) ·
-[Direct review and actual saved files](docs/notation-review.md#try-the-translation).
-The independently installed build and local browser review are complete;
-public publication is a separate claim.
+[Direct review](docs/notation-review.md#try-the-translation) ·
+[Public bytes and browser evidence](docs/notation-publication.md) ·
+[Illustrated reading, gzip](examples/musical-signs-reading.html.gz) ·
+[Sixteen-page PDF](examples/musical-signs-reading.pdf) ·
+[Editable JSON](examples/musical-signs.json) ·
+[Vector sign sheet](examples/musical-signs.svg).
+Decompress the HTML to open the complete independent reading. The app saves it directly as HTML.
 
 ## Divide a tone; keep the numerical premise
 

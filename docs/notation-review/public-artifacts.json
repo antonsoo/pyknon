@@ -1,0 +1,845 @@
+{
+  "scope": "Actual downloaded CSV, SVG, WAV, HTML and PDF; independent fractions, PCM zero-crossing measurements, native file and retained source/font/license identities. No physical sound output or printer claim.",
+  "records": [
+    {
+      "case": "chromium-1440",
+      "actualSavedMistakes": 2,
+      "svg": {
+        "slots": 4,
+        "printedRows": 9,
+        "fontByteIdentical": true,
+        "fullNotices": true
+      },
+      "reading": {
+        "wholeSourceImagesByteIdentical": 5,
+        "fontsVerified": 3,
+        "fullLicensesVerified": 3,
+        "nativeDownloads": 7,
+        "scripts": 0
+      },
+      "offlineNativeEquivalent": true,
+      "audio": {
+        "translation": {
+          "samples": 326400,
+          "channels": 1,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "startSeconds": 0.0,
+              "expectedHz": 330.0,
+              "observedHz": 329.9999831370293
+            },
+            {
+              "startSeconds": 0.75,
+              "expectedHz": 371.25,
+              "observedHz": 371.2500027969051
+            },
+            {
+              "startSeconds": 1.5,
+              "expectedHz": 440.0,
+              "observedHz": 439.99994941133764
+            },
+            {
+              "startSeconds": 2.25,
+              "expectedHz": 330.0,
+              "observedHz": 330.00000279188265
+            },
+            {
+              "startSeconds": 3.6,
+              "expectedHz": 330.0,
+              "observedHz": 329.9999831370289
+            },
+            {
+              "startSeconds": 4.35,
+              "expectedHz": 440.0,
+              "observedHz": 439.99994941133764
+            },
+            {
+              "startSeconds": 5.1,
+              "expectedHz": 391.1111111111111,
+              "observedHz": 391.1111362509888
+            },
+            {
+              "startSeconds": 5.85,
+              "expectedHz": 330.0,
+              "observedHz": 330.00000279188265
+            }
+          ],
+          "timedSilentSlots": 0,
+          "tailSilent": true
+        },
+        "equal": {
+          "samples": 326400,
+          "channels": 1,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "startSeconds": 0.0,
+              "expectedHz": 440.0,
+              "observedHz": 439.9999494113377
+            },
+            {
+              "startSeconds": 0.75,
+              "expectedHz": 493.8833012561241,
+              "observedHz": 493.8832841241924
+            },
+            {
+              "startSeconds": 1.5,
+              "expectedHz": 587.3295358348151,
+              "observedHz": 587.3294575442201
+            },
+            {
+              "startSeconds": 2.25,
+              "expectedHz": 440.0,
+              "observedHz": 439.99994941133764
+            },
+            {
+              "startSeconds": 3.6,
+              "expectedHz": 440.0,
+              "observedHz": 439.99994941133764
+            },
+            {
+              "startSeconds": 4.35,
+              "expectedHz": 493.8833012561241,
+              "observedHz": 493.88328412419264
+            },
+            {
+              "startSeconds": 5.1,
+              "expectedHz": 587.3295358348151,
+              "observedHz": 587.3294575442201
+            },
+            {
+              "startSeconds": 5.85,
+              "expectedHz": 440.0,
+              "observedHz": 439.99994941133684
+            }
+          ],
+          "timedSilentSlots": 0,
+          "tailSilent": true
+        },
+        "blank": {
+          "samples": 326400,
+          "channels": 1,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "startSeconds": 0.0,
+              "expectedHz": 440.0,
+              "observedHz": 439.9999494113377
+            },
+            {
+              "startSeconds": 0.75,
+              "expectedHz": 493.8833012561241,
+              "observedHz": 493.8832841241924
+            },
+            {
+              "startSeconds": 1.5,
+              "expectedHz": 587.3295358348151,
+              "observedHz": 587.3294575442201
+            },
+            {
+              "startSeconds": 2.25,
+              "expectedHz": 440.0,
+              "observedHz": 439.99994941133764
+            }
+          ],
+          "timedSilentSlots": 4,
+          "tailSilent": true
+        }
+      },
+      "twoTableComparisons": [
+        {
+          "anchor": "sign",
+          "pair": "iota",
+          "svg": {
+            "tableContexts": 2,
+            "sourceRowsPreserved": true,
+            "fontByteIdentical": true,
+            "referenceConstraintRetained": "sign"
+          },
+          "audio": {
+            "samples": 81600,
+            "channels": 1,
+            "sampleRate": 48000,
+            "tones": [
+              {
+                "startSeconds": 0.0,
+                "expectedHz": 330.0,
+                "observedHz": 329.9999831370293
+              },
+              {
+                "startSeconds": 0.9,
+                "expectedHz": 330.0,
+                "observedHz": 330.00004496793025
+              }
+            ],
+            "timedSilentSlots": 0,
+            "tailSilent": true
+          }
+        },
+        {
+          "anchor": "mese",
+          "pair": "iota",
+          "svg": {
+            "tableContexts": 2,
+            "sourceRowsPreserved": true,
+            "fontByteIdentical": true,
+            "referenceConstraintRetained": "mese"
+          },
+          "audio": {
+            "samples": 81600,
+            "channels": 1,
+            "sampleRate": 48000,
+            "tones": [
+              {
+                "startSeconds": 0.0,
+                "expectedHz": 330.0,
+                "observedHz": 329.9999831370293
+              },
+              {
+                "startSeconds": 0.9,
+                "expectedHz": 440.0,
+                "observedHz": 439.99994941133764
+              }
+            ],
+            "timedSilentSlots": 0,
+            "tailSilent": true
+          }
+        }
+      ]
+    },
+    {
+      "case": "chromium-375",
+      "actualSavedMistakes": 2,
+      "svg": {
+        "slots": 4,
+        "printedRows": 9,
+        "fontByteIdentical": true,
+        "fullNotices": true
+      },
+      "reading": {
+        "wholeSourceImagesByteIdentical": 5,
+        "fontsVerified": 3,
+        "fullLicensesVerified": 3,
+        "nativeDownloads": 7,
+        "scripts": 0
+      },
+      "offlineNativeEquivalent": true,
+      "audio": {
+        "translation": {
+          "samples": 326400,
+          "channels": 1,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "startSeconds": 0.0,
+              "expectedHz": 330.0,
+              "observedHz": 329.9999831370293
+            },
+            {
+              "startSeconds": 0.75,
+              "expectedHz": 371.25,
+              "observedHz": 371.2500027969051
+            },
+            {
+              "startSeconds": 1.5,
+              "expectedHz": 440.0,
+              "observedHz": 439.99994941133764
+            },
+            {
+              "startSeconds": 2.25,
+              "expectedHz": 330.0,
+              "observedHz": 330.00000279188265
+            },
+            {
+              "startSeconds": 3.6,
+              "expectedHz": 330.0,
+              "observedHz": 329.9999831370289
+            },
+            {
+              "startSeconds": 4.35,
+              "expectedHz": 440.0,
+              "observedHz": 439.99994941133764
+            },
+            {
+              "startSeconds": 5.1,
+              "expectedHz": 391.1111111111111,
+              "observedHz": 391.1111362509888
+            },
+            {
+              "startSeconds": 5.85,
+              "expectedHz": 330.0,
+              "observedHz": 330.00000279188265
+            }
+          ],
+          "timedSilentSlots": 0,
+          "tailSilent": true
+        },
+        "equal": {
+          "samples": 326400,
+          "channels": 1,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "startSeconds": 0.0,
+              "expectedHz": 440.0,
+              "observedHz": 439.9999494113377
+            },
+            {
+              "startSeconds": 0.75,
+              "expectedHz": 493.8833012561241,
+              "observedHz": 493.8832841241924
+            },
+            {
+              "startSeconds": 1.5,
+              "expectedHz": 587.3295358348151,
+              "observedHz": 587.3294575442201
+            },
+            {
+              "startSeconds": 2.25,
+              "expectedHz": 440.0,
+              "observedHz": 439.99994941133764
+            },
+            {
+              "startSeconds": 3.6,
+              "expectedHz": 440.0,
+              "observedHz": 439.99994941133764
+            },
+            {
+              "startSeconds": 4.35,
+              "expectedHz": 493.8833012561241,
+              "observedHz": 493.88328412419264
+            },
+            {
+              "startSeconds": 5.1,
+              "expectedHz": 587.3295358348151,
+              "observedHz": 587.3294575442201
+            },
+            {
+              "startSeconds": 5.85,
+              "expectedHz": 440.0,
+              "observedHz": 439.99994941133684
+            }
+          ],
+          "timedSilentSlots": 0,
+          "tailSilent": true
+        },
+        "blank": {
+          "samples": 326400,
+          "channels": 1,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "startSeconds": 0.0,
+              "expectedHz": 440.0,
+              "observedHz": 439.9999494113377
+            },
+            {
+              "startSeconds": 0.75,
+              "expectedHz": 493.8833012561241,
+              "observedHz": 493.8832841241924
+            },
+            {
+              "startSeconds": 1.5,
+              "expectedHz": 587.3295358348151,
+              "observedHz": 587.3294575442201
+            },
+            {
+              "startSeconds": 2.25,
+              "expectedHz": 440.0,
+              "observedHz": 439.99994941133764
+            }
+          ],
+          "timedSilentSlots": 4,
+          "tailSilent": true
+        }
+      },
+      "twoTableComparisons": [
+        {
+          "anchor": "sign",
+          "pair": "zeta",
+          "svg": {
+            "tableContexts": 2,
+            "sourceRowsPreserved": true,
+            "fontByteIdentical": true,
+            "referenceConstraintRetained": "sign"
+          },
+          "audio": {
+            "samples": 81600,
+            "channels": 1,
+            "sampleRate": 48000,
+            "tones": [
+              {
+                "startSeconds": 0.0,
+                "expectedHz": 371.25,
+                "observedHz": 371.25001951226835
+              },
+              {
+                "startSeconds": 0.9,
+                "expectedHz": 371.25,
+                "observedHz": 371.2500027969053
+              }
+            ],
+            "timedSilentSlots": 0,
+            "tailSilent": true
+          }
+        },
+        {
+          "anchor": "mese",
+          "pair": "zeta",
+          "svg": {
+            "tableContexts": 2,
+            "sourceRowsPreserved": true,
+            "fontByteIdentical": true,
+            "referenceConstraintRetained": "mese"
+          },
+          "audio": {
+            "samples": 81600,
+            "channels": 1,
+            "sampleRate": 48000,
+            "tones": [
+              {
+                "startSeconds": 0.0,
+                "expectedHz": 371.25,
+                "observedHz": 371.25001951226835
+              },
+              {
+                "startSeconds": 0.9,
+                "expectedHz": 495.0,
+                "observedHz": 494.99999157475503
+              }
+            ],
+            "timedSilentSlots": 0,
+            "tailSilent": true
+          }
+        }
+      ]
+    },
+    {
+      "case": "firefox-1440",
+      "actualSavedMistakes": 2,
+      "svg": {
+        "slots": 4,
+        "printedRows": 9,
+        "fontByteIdentical": true,
+        "fullNotices": true
+      },
+      "reading": {
+        "wholeSourceImagesByteIdentical": 5,
+        "fontsVerified": 3,
+        "fullLicensesVerified": 3,
+        "nativeDownloads": 7,
+        "scripts": 0
+      },
+      "offlineNativeEquivalent": true,
+      "audio": {
+        "translation": {
+          "samples": 326400,
+          "channels": 1,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "startSeconds": 0.0,
+              "expectedHz": 330.0,
+              "observedHz": 329.99940004410945
+            },
+            {
+              "startSeconds": 0.75,
+              "expectedHz": 371.25,
+              "observedHz": 371.2499104990572
+            },
+            {
+              "startSeconds": 1.5,
+              "expectedHz": 440.0,
+              "observedHz": 439.999856665487
+            },
+            {
+              "startSeconds": 2.25,
+              "expectedHz": 330.0,
+              "observedHz": 329.9994000441096
+            },
+            {
+              "startSeconds": 3.6,
+              "expectedHz": 330.0,
+              "observedHz": 329.999400044109
+            },
+            {
+              "startSeconds": 4.35,
+              "expectedHz": 440.0,
+              "observedHz": 439.999856665487
+            },
+            {
+              "startSeconds": 5.1,
+              "expectedHz": 391.1111111111111,
+              "observedHz": 391.11049459589884
+            },
+            {
+              "startSeconds": 5.85,
+              "expectedHz": 330.0,
+              "observedHz": 329.999400044109
+            }
+          ],
+          "timedSilentSlots": 0,
+          "tailSilent": true
+        },
+        "equal": {
+          "samples": 326400,
+          "channels": 1,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "startSeconds": 0.0,
+              "expectedHz": 440.0,
+              "observedHz": 439.9998566654869
+            },
+            {
+              "startSeconds": 0.75,
+              "expectedHz": 493.8833012561241,
+              "observedHz": 493.88294903754104
+            },
+            {
+              "startSeconds": 1.5,
+              "expectedHz": 587.3295358348151,
+              "observedHz": 587.3297703626113
+            },
+            {
+              "startSeconds": 2.25,
+              "expectedHz": 440.0,
+              "observedHz": 439.999856665487
+            },
+            {
+              "startSeconds": 3.6,
+              "expectedHz": 440.0,
+              "observedHz": 439.999856665487
+            },
+            {
+              "startSeconds": 4.35,
+              "expectedHz": 493.8833012561241,
+              "observedHz": 493.8829490375417
+            },
+            {
+              "startSeconds": 5.1,
+              "expectedHz": 587.3295358348151,
+              "observedHz": 587.3297703626101
+            },
+            {
+              "startSeconds": 5.85,
+              "expectedHz": 440.0,
+              "observedHz": 439.9998566654862
+            }
+          ],
+          "timedSilentSlots": 0,
+          "tailSilent": true
+        },
+        "blank": {
+          "samples": 326400,
+          "channels": 1,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "startSeconds": 0.0,
+              "expectedHz": 440.0,
+              "observedHz": 439.9998566654869
+            },
+            {
+              "startSeconds": 0.75,
+              "expectedHz": 493.8833012561241,
+              "observedHz": 493.88294903754104
+            },
+            {
+              "startSeconds": 1.5,
+              "expectedHz": 587.3295358348151,
+              "observedHz": 587.3297703626113
+            },
+            {
+              "startSeconds": 2.25,
+              "expectedHz": 440.0,
+              "observedHz": 439.999856665487
+            }
+          ],
+          "timedSilentSlots": 4,
+          "tailSilent": true
+        }
+      },
+      "twoTableComparisons": [
+        {
+          "anchor": "sign",
+          "pair": "square-u",
+          "svg": {
+            "tableContexts": 2,
+            "sourceRowsPreserved": true,
+            "fontByteIdentical": true,
+            "referenceConstraintRetained": "sign"
+          },
+          "audio": {
+            "samples": 81600,
+            "channels": 1,
+            "sampleRate": 48000,
+            "tones": [
+              {
+                "startSeconds": 0.0,
+                "expectedHz": 440.0,
+                "observedHz": 439.9998566654869
+              },
+              {
+                "startSeconds": 0.9,
+                "expectedHz": 440.0,
+                "observedHz": 439.999856665487
+              }
+            ],
+            "timedSilentSlots": 0,
+            "tailSilent": true
+          }
+        },
+        {
+          "anchor": "mese",
+          "pair": "square-u",
+          "svg": {
+            "tableContexts": 2,
+            "sourceRowsPreserved": true,
+            "fontByteIdentical": true,
+            "referenceConstraintRetained": "mese"
+          },
+          "audio": {
+            "samples": 81600,
+            "channels": 1,
+            "sampleRate": 48000,
+            "tones": [
+              {
+                "startSeconds": 0.0,
+                "expectedHz": 440.0,
+                "observedHz": 439.9998566654869
+              },
+              {
+                "startSeconds": 0.9,
+                "expectedHz": 586.6666666666666,
+                "observedHz": 586.6668102389641
+              }
+            ],
+            "timedSilentSlots": 0,
+            "tailSilent": true
+          }
+        }
+      ]
+    },
+    {
+      "case": "firefox-375",
+      "actualSavedMistakes": 2,
+      "svg": {
+        "slots": 4,
+        "printedRows": 9,
+        "fontByteIdentical": true,
+        "fullNotices": true
+      },
+      "reading": {
+        "wholeSourceImagesByteIdentical": 5,
+        "fontsVerified": 3,
+        "fullLicensesVerified": 3,
+        "nativeDownloads": 7,
+        "scripts": 0
+      },
+      "offlineNativeEquivalent": true,
+      "audio": {
+        "translation": {
+          "samples": 326400,
+          "channels": 1,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "startSeconds": 0.0,
+              "expectedHz": 330.0,
+              "observedHz": 329.99940004410945
+            },
+            {
+              "startSeconds": 0.75,
+              "expectedHz": 371.25,
+              "observedHz": 371.2499104990572
+            },
+            {
+              "startSeconds": 1.5,
+              "expectedHz": 440.0,
+              "observedHz": 439.999856665487
+            },
+            {
+              "startSeconds": 2.25,
+              "expectedHz": 330.0,
+              "observedHz": 329.9994000441096
+            },
+            {
+              "startSeconds": 3.6,
+              "expectedHz": 330.0,
+              "observedHz": 329.999400044109
+            },
+            {
+              "startSeconds": 4.35,
+              "expectedHz": 440.0,
+              "observedHz": 439.999856665487
+            },
+            {
+              "startSeconds": 5.1,
+              "expectedHz": 391.1111111111111,
+              "observedHz": 391.11049459589884
+            },
+            {
+              "startSeconds": 5.85,
+              "expectedHz": 330.0,
+              "observedHz": 329.999400044109
+            }
+          ],
+          "timedSilentSlots": 0,
+          "tailSilent": true
+        },
+        "equal": {
+          "samples": 326400,
+          "channels": 1,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "startSeconds": 0.0,
+              "expectedHz": 440.0,
+              "observedHz": 439.9998566654869
+            },
+            {
+              "startSeconds": 0.75,
+              "expectedHz": 493.8833012561241,
+              "observedHz": 493.88294903754104
+            },
+            {
+              "startSeconds": 1.5,
+              "expectedHz": 587.3295358348151,
+              "observedHz": 587.3297703626113
+            },
+            {
+              "startSeconds": 2.25,
+              "expectedHz": 440.0,
+              "observedHz": 439.999856665487
+            },
+            {
+              "startSeconds": 3.6,
+              "expectedHz": 440.0,
+              "observedHz": 439.999856665487
+            },
+            {
+              "startSeconds": 4.35,
+              "expectedHz": 493.8833012561241,
+              "observedHz": 493.8829490375417
+            },
+            {
+              "startSeconds": 5.1,
+              "expectedHz": 587.3295358348151,
+              "observedHz": 587.3297703626101
+            },
+            {
+              "startSeconds": 5.85,
+              "expectedHz": 440.0,
+              "observedHz": 439.9998566654862
+            }
+          ],
+          "timedSilentSlots": 0,
+          "tailSilent": true
+        },
+        "blank": {
+          "samples": 326400,
+          "channels": 1,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "startSeconds": 0.0,
+              "expectedHz": 440.0,
+              "observedHz": 439.9998566654869
+            },
+            {
+              "startSeconds": 0.75,
+              "expectedHz": 493.8833012561241,
+              "observedHz": 493.88294903754104
+            },
+            {
+              "startSeconds": 1.5,
+              "expectedHz": 587.3295358348151,
+              "observedHz": 587.3297703626113
+            },
+            {
+              "startSeconds": 2.25,
+              "expectedHz": 440.0,
+              "observedHz": 439.999856665487
+            }
+          ],
+          "timedSilentSlots": 4,
+          "tailSilent": true
+        }
+      },
+      "twoTableComparisons": [
+        {
+          "anchor": "sign",
+          "pair": "sigma",
+          "svg": {
+            "tableContexts": 2,
+            "sourceRowsPreserved": true,
+            "fontByteIdentical": true,
+            "referenceConstraintRetained": "sign"
+          },
+          "audio": {
+            "samples": 81600,
+            "channels": 1,
+            "sampleRate": 48000,
+            "tones": [
+              {
+                "startSeconds": 0.0,
+                "expectedHz": 247.5,
+                "observedHz": 247.50032015972783
+              },
+              {
+                "startSeconds": 0.9,
+                "expectedHz": 247.5,
+                "observedHz": 247.5003201597279
+              }
+            ],
+            "timedSilentSlots": 0,
+            "tailSilent": true
+          }
+        },
+        {
+          "anchor": "mese",
+          "pair": "sigma",
+          "svg": {
+            "tableContexts": 2,
+            "sourceRowsPreserved": true,
+            "fontByteIdentical": true,
+            "referenceConstraintRetained": "mese"
+          },
+          "audio": {
+            "samples": 81600,
+            "channels": 1,
+            "sampleRate": 48000,
+            "tones": [
+              {
+                "startSeconds": 0.0,
+                "expectedHz": 247.5,
+                "observedHz": 247.50032015972783
+              },
+              {
+                "startSeconds": 0.9,
+                "expectedHz": 330.0,
+                "observedHz": 329.9994000441093
+              }
+            ],
+            "timedSilentSlots": 0,
+            "tailSilent": true
+          }
+        }
+      ]
+    }
+  ],
+  "pdf": {
+    "pages": 16,
+    "sourceImageDimensionsRetained": [
+      [1273, 2200],
+      [1372, 2200],
+      [1372, 2200],
+      [1372, 2200],
+      [1372, 2200]
+    ],
+    "javascript": false,
+    "sha256": "c0dd2cde638c9dcdaab0eea8fa32def37d4fe818a0dbbb51795127d4dfa30e89"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "format": "pyknon-notation",
+  "version": 1,
+  "scope": "Selected diatonic Lydian sign pairs and four shared Lydian/Hypolydian pairs from Alypius, Jan 1895 pp368–370. Modern vector teaching signs, a newly composed practice line, chosen tuning and reference constraints, equal durations and synthetic sine tones. These are not a manuscript facsimile, a complete Greek notation decoder or a recovered ancient performance.",
+  "state": {
+    "exercise": "bridge",
+    "given": "vocal",
+    "answers": [
+      "side-lambda",
+      "zeta",
+      "square-u",
+      "side-lambda"
+    ],
+    "cursor": 1,
+    "row": "paramese",
+    "sign": "zeta",
+    "alphabet": "vocal",
+    "tuning": "pythagorean",
+    "reference": 330,
+    "sound": "line",
+    "frameSign": "iota",
+    "frameAnchor": "sign",
+    "sourceContext": "lookup",
+    "reading": 0,
+    "page": "369"
+  }
+}

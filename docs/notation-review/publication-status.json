@@ -1,0 +1,51 @@
+{
+  "scope": "Filtered workflow and legacy Pages observations; source-job status is separate from the locally reviewed build and canonical hosted bytes",
+  "sourceRuns": [
+    {
+      "conclusion": "failure",
+      "head_sha": "ff79c6270ecec1b9adc570f429a0edf2ec05f5ef",
+      "html_url": "https://github.com/antonsoo/pyknon/actions/runs/40512719766",
+      "id": 40512719766,
+      "name": "Pages",
+      "status": "completed"
+    },
+    {
+      "conclusion": "failure",
+      "head_sha": "ff79c6270ecec1b9adc570f429a0edf2ec05f5ef",
+      "html_url": "https://github.com/antonsoo/pyknon/actions/runs/40512719806",
+      "id": 40512719806,
+      "name": "CI",
+      "status": "completed"
+    }
+  ],
+  "jobs": [
+    {
+      "jobs": [
+        {
+          "conclusion": "failure",
+          "name": "check",
+          "status": "completed",
+          "stepCount": 0
+        }
+      ],
+      "workflow": "CI"
+    },
+    {
+      "jobs": [
+        {
+          "conclusion": "failure",
+          "name": "deploy",
+          "status": "completed",
+          "stepCount": 0
+        }
+      ],
+      "workflow": "Pages source workflow"
+    }
+  ],
+  "legacyPagesBuild": {
+    "commit": "e2a4d2d49aa2e6c7ff899420878f6d84a1736c8e",
+    "created_at": "2026-10-27T13:31:27Z",
+    "status": "built",
+    "updated_at": "2026-10-27T13:32:46Z"
+  }
+}

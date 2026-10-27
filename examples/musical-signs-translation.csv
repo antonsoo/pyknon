@@ -1,0 +1,5 @@
+"slot","given_alphabet","target_function","target_printed_row","given_sign","written_alphabet","written_sign","possible_written_functions","pitch_preserved_in_model","target_ratio_symbol","target_hz_approx","written_hz_approx","difference_cents_approx","tuning_model","reference_mese_hz","source"
+"1","vocal","mese","8","iota","instrumental","side-lambda","mese","true","1/1","330","330","0","pythagorean","330","Jan 1895 p369"
+"2","vocal","paramese","12","zeta","instrumental","zeta","nete-synemmenon | diatonos-diezeugmenon","false","9/8","371.25","440","294.13499740383764","pythagorean","330","Jan 1895 p369"
+"3","vocal","nete-synemmenon","11","square-u","instrumental","square-u","trite-diezeugmenon","false","4/3","440","391.1111111111111","-203.91000173077495","pythagorean","330","Jan 1895 p369"
+"4","vocal","mese","8","iota","instrumental","side-lambda","mese","true","1/1","330","330","0","pythagorean","330","Jan 1895 p369"
