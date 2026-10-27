@@ -26,6 +26,12 @@ import {
   validNotationState,
 } from "./core/notation";
 import {
+  FRAME_PAIRS,
+  type FrameSign,
+  notationFrame,
+  notationFrameCSV,
+} from "./core/notation-frame";
+import {
   NOTATION_SOURCES,
   notationAsset,
   notationBytes,
@@ -43,6 +49,12 @@ import {
   signSVG,
   translationDetail,
 } from "./notation-drawing";
+import {
+  currentSourceBands,
+  frameReading,
+  frameResult,
+  notationFrameSheet,
+} from "./notation-frame-drawing";
 import { notationStudy } from "./notation-study";
 import { offline } from "./offline";
 
@@ -63,7 +75,7 @@ get("app").innerHTML = `<a class="skip" href="#translation">Skip to the translat
 <header class="site-header"><a href="./" class="brand">PYKNON<span lang="grc">πυκνόν</span></a><nav aria-label="Main"><a href="./">Greek intervals</a><a href="./song.html">A song in stone</a><a href="./halves.html">Three middles</a><a href="./vina.html">Two vinas</a><a href="#translation" aria-current="page">Musical signs</a></nav></header>
 <main class="nt-main"><section class="nt-intro" aria-labelledby="nt-title"><div><p class="eyebrow">ALYPIUS / TWO MUSICAL ALPHABETS</p><h1 id="nt-title">Keep the notes.<br>Change the signs.</h1></div><div><p>You recognize the letter. Have you recognized the note?</p><p>Alypius’s tables pair vocal and instrumental signs. A <strong>matching shape can mean a different note</strong>; a matching note can keep two different names. Translate a short line, and check the Greek that describes its marks.</p><a class="text-link" href="#translation">Write the other alphabet ↓</a></div></section>
 <p id="nt-link-notice" role="status"></p>
-<section class="nt-sign-bench" id="nt-sign-bench" aria-labelledby="nt-sign-title"><div class="nt-specimen"><p class="eyebrow" id="nt-sign-title">ONE SHAPE / CHOOSE HOW TO READ IT</p><div id="nt-large-sign"></div><div class="nt-sign-choices" role="group" aria-label="Shape to investigate">${(["zeta", "square-u", "sigma"] as const).map((sign) => `<button type="button" data-nt-sign="${sign}" aria-pressed="false">${signSVG(sign)}<span>${sign === "square-u" ? "Square sign" : sign === "sigma" ? "Sigma control" : "Zeta"}</span></button>`).join("")}</div></div><div class="nt-interpretation"><div class="nt-alphabets" role="group" aria-label="Reading alphabet"><button type="button" data-nt-alphabet="vocal" aria-pressed="false">Read as vocal</button><button type="button" data-nt-alphabet="instrumental" aria-pressed="false">Read as instrumental</button></div><div id="nt-meaning" aria-live="polite"></div><p class="nt-note">The two readings use the same modern reference and tuning. The shape, alphabet and named function are separate pieces of information.</p><button type="button" id="nt-hear-sign">Hear this sign in both alphabets</button></div></section>
+<section class="nt-sign-bench" id="nt-sign-bench" aria-labelledby="nt-sign-title"><div class="nt-specimen"><p class="eyebrow" id="nt-sign-title">ONE SHAPE / CHOOSE HOW TO READ IT</p><div id="nt-large-sign"></div><div class="nt-sign-choices" role="group" aria-label="Shape to investigate">${(["zeta", "square-u", "sigma"] as const).map((sign) => `<button type="button" data-nt-sign="${sign}" aria-pressed="false">${signSVG(sign)}<span>${sign === "square-u" ? "Square sign" : sign === "sigma" ? "Sigma control" : "Zeta"}</span></button>`).join("")}</div></div><div class="nt-interpretation"><div class="nt-alphabets" role="group" aria-label="Reading alphabet"><button type="button" data-nt-alphabet="vocal" aria-pressed="false">Read as vocal</button><button type="button" data-nt-alphabet="instrumental" aria-pressed="false">Read as instrumental</button></div><div id="nt-meaning" aria-live="polite"></div><p class="nt-note">The two readings use the same modern reference and tuning. The shape, alphabet and named function are separate pieces of information.</p><div class="nt-local-transport"><button type="button" id="nt-hear-sign">Hear this sign in both alphabets</button><button type="button" id="nt-sign-stop" disabled>Stop</button></div></div></section>
 <section id="translation" class="nt-section" aria-labelledby="nt-translation-title"><div class="nt-heading"><div><p class="eyebrow">THE WORKING LINE</p><h2 id="nt-translation-title" tabindex="-1">Preserve the note.<br>Choose another mark.</h2></div><p>A newly composed practice line.<br>No lost ancient melody is being filled in.</p></div>
 <div class="nt-exercise-controls"><label>Practice line<select id="nt-exercise">${Object.entries(
   EXERCISES,
@@ -77,9 +89,19 @@ get("app").innerHTML = `<a class="skip" href="#translation">Skip to the translat
 <div class="nt-line" id="nt-written-line"><strong id="nt-written-label"></strong>${[0, 1, 2, 3].map((i) => `<button type="button" id="nt-written-${i}" data-nt-slot="${i}" aria-pressed="false"></button>`).join("")}</div>
 <p class="nt-write-instruction" id="nt-write-instruction"></p><div id="nt-palette" class="nt-palette" role="group" aria-label="Signs available to write"></div><div class="nt-line-actions"><button type="button" id="nt-erase">Erase selected slot</button><button type="button" id="nt-clear">Clear all four slots</button><button type="button" id="nt-use-table">Write the table’s pairs</button><button type="button" id="nt-starter">Restore the two copied shapes</button></div>
 <div class="nt-verdict"><p id="nt-result" role="status"></p><p id="nt-slot-detail"></p><button type="button" id="nt-find-slot">Inspect the selected note’s printed row</button></div>
-<div class="nt-audio"><label>Listening comparison<select id="nt-sound"><option value="sign">Same shape / vocal then instrumental</option><option value="line">Given line / actual written line</option></select></label><label>Instructional tuning<select id="nt-tuning"><option value="pythagorean">Rational / Pythagorean intervals</option><option value="equal">Twelve equal steps per octave</option></select></label><label>Lydian mesē reference<select id="nt-reference"><option value="220">220 Hz</option><option value="330">330 Hz</option><option value="440">440 Hz</option></select></label><button id="nt-play" type="button" class="primary">Play comparison</button><button id="nt-stop" type="button" disabled>Stop</button></div><p id="nt-audio-status" role="status">Ready. Finite sine tones; choose a comfortable volume.</p><p id="nt-audio-detail" class="nt-note"></p><details class="nt-details"><summary>What the sound does and does not establish</summary><p>The rational model uses a 9:8 tone, a 256:243 limma and a 4:3 fourth. The other model uses equal semitones. Neither is a measured ancient performance or a tuning recipe supplied by this table. A changed modern reference scales every frequency together.</p><p>Each written note lasts 0.6 s, with short silent gaps. A blank slot remains silent. In the line comparison the given phrase starts at 0 s and the written phrase at 3.6 s. No instrument timbre, ancient tempo, absolute pitch or hearing score is claimed.</p></details>
+<div class="nt-audio"><label>Listening comparison<select id="nt-sound"><option value="sign">Same shape / vocal then instrumental</option><option value="line">Given line / actual written line</option><option value="frame">Shared sign / two table contexts</option></select></label><label>Instructional tuning<select id="nt-tuning"><option value="pythagorean">Rational / Pythagorean intervals</option><option value="equal">Twelve equal steps per octave</option></select></label><label>Lydian mesē reference<select id="nt-reference"><option value="220">220 Hz</option><option value="330">330 Hz</option><option value="440">440 Hz</option></select></label><button id="nt-play" type="button" class="primary">Play comparison</button><button id="nt-stop" type="button" disabled>Stop</button></div><p id="nt-audio-status" role="status">Ready. Finite sine tones; choose a comfortable volume.</p><p id="nt-audio-detail" class="nt-note"></p><details class="nt-details"><summary>What the sound does and does not establish</summary><p>The rational model uses a 9:8 tone, a 256:243 limma and a 4:3 fourth. The other model uses equal semitones. Neither is a measured ancient performance or a tuning recipe supplied by this table. A changed modern reference scales every frequency together.</p><p>Each written note lasts 0.6 s, with short silent gaps. A blank slot remains silent. In the line comparison the given phrase starts at 0 s and the written phrase at 3.6 s. No instrument timbre, ancient tempo, absolute pitch or hearing score is claimed.</p></details>
 </section>
-<section class="nt-section" id="nt-evidence" aria-labelledby="nt-evidence-title"><div class="nt-heading"><div><p class="eyebrow">A PAIR IS A RELATION</p><h2 id="nt-evidence-title">Keep the table<br>within reach.</h2></div><p>Nine selected functions from the Lydian diatonic table.<br>The whole print includes its other rows and apparatus.</p></div><div class="nt-reference-layout"><div><div class="nt-table-scroll" tabindex="0" role="region" aria-label="Paired notation lookup; scroll horizontally on a narrow screen" id="nt-lookup">${notationTable(state, true)}</div><p class="nt-note">The printed row numbers are counted positions in the complete table. Two rows may share the same pair. Use a row button to inspect its description; choosing a sign in the palette writes it into the line.</p></div><div class="nt-inspector"><p class="eyebrow" id="nt-row-label"></p><div id="nt-row-pair" class="nt-row-pair"></div><p id="nt-row-greek" lang="grc"></p><p id="nt-row-english"></p><p id="nt-row-pitch" class="nt-note"></p><label>Complete source page<select id="nt-page">${NOTATION_SOURCES.pages.map((p) => `<option value="${p.id}">${p.id === "title" ? "Title / 1895" : `Printed p${p.printedPage}`} · PDF p${p.pdfPage}</option>`).join("")}</select></label><figure class="nt-source"><button type="button" id="nt-enlarge" disabled aria-label="Enlarge verified whole source page"><span class="nt-page-frame"><img id="nt-source-image" alt="" hidden><span id="nt-source-band" hidden aria-hidden="true"></span></span></button><figcaption id="nt-caption"></figcaption></figure><p id="nt-source-status" role="status"></p><div class="nt-source-actions"><button type="button" id="nt-retry">Verify page again</button><a id="nt-open-source" target="_blank" rel="noopener" hidden>Open complete verified image</a></div></div></div></section>
+<section class="nt-section" id="nt-evidence" aria-labelledby="nt-evidence-title"><div class="nt-heading"><div><p class="eyebrow">A PAIR IS A RELATION</p><h2 id="nt-evidence-title">Keep the table<br>within reach.</h2></div><p>Nine selected functions from the Lydian diatonic table.<br>The whole print includes its other rows and apparatus.</p></div><div class="nt-reference-layout"><div><div class="nt-table-scroll" tabindex="0" role="region" aria-label="Paired notation lookup; scroll horizontally on a narrow screen" id="nt-lookup">${notationTable(state, true)}</div><p class="nt-note">The printed row numbers are counted positions in the complete table. Two rows may share the same pair. Use a row button to inspect its description; choosing a sign in the palette writes it into the line.</p></div><div class="nt-inspector"><p class="eyebrow" id="nt-row-label"></p><div id="nt-row-pair" class="nt-row-pair"></div><p id="nt-row-greek" lang="grc"></p><p id="nt-row-english"></p><p id="nt-row-pitch" class="nt-note"></p><label>Complete source page<select id="nt-page">${NOTATION_SOURCES.pages.map((p) => `<option value="${p.id}">${p.id === "title" ? "Title / 1895" : `Printed p${p.printedPage}`} · PDF p${p.pdfPage}</option>`).join("")}</select></label><figure class="nt-source"><button type="button" id="nt-enlarge" disabled aria-label="Enlarge verified whole source page"><span class="nt-page-frame"><img id="nt-source-image" alt="" hidden><span id="nt-source-band" hidden aria-hidden="true"></span><span id="nt-source-band-secondary" hidden aria-hidden="true"></span></span></button><figcaption id="nt-caption"></figcaption><p id="nt-band-note" class="nt-note"></p></figure><p id="nt-source-status" role="status"></p><div class="nt-source-actions"><button type="button" id="nt-retry">Verify page again</button><a id="nt-open-source" target="_blank" rel="noopener" hidden>Open complete verified image</a></div></div></div></section>
+<section id="nt-context" class="nt-section" aria-labelledby="nt-context-title"><div class="nt-heading"><div><p class="eyebrow">CHANGE THE TABLE / CHOOSE WHAT TO HOLD</p><h2 id="nt-context-title">The sign stays.<br>Does the middle?</h2></div><p>Shared pairs on printed pp369–370.<br>Two explicit choices of reference.</p></div><p class="nt-prose">Iota is mesē (the named middle note) in the Lydian table, but has two other possible functions in the Hypolydian table. Keep its pitch fixed, then keep the two middle notes fixed instead. The text supplies the paired names; the tuning and reference constraints below are a modern comparison.</p><div class="nt-frame-pairs" role="group" aria-label="Shared pair to compare">${Object.entries(
+  FRAME_PAIRS,
+)
+  .map(
+    ([id, pair]) =>
+      `<button type="button" data-nt-frame-sign="${id}" aria-pressed="false">${signSVG(id as FrameSign)}<span>${pair.label}</span></button>`,
+  )
+  .join(
+    "",
+  )}</div><div class="nt-frame-anchors" role="group" aria-label="What stays at the same pitch"><button type="button" data-nt-frame-anchor="sign" aria-pressed="false">Keep the selected sign’s pitch</button><button type="button" data-nt-frame-anchor="mese" aria-pressed="false">Keep both mesai at the reference</button></div><div id="nt-frame-views"></div><p id="nt-frame-result" class="nt-frame-result" role="status"></p><p class="nt-note">Both plots use one current logarithmic pitch scale. A dot marks each context’s mesē; the vocal sign marks the selected note. The shared reference and tuning controls above also govern this comparison.</p><div class="nt-frame-actions"><button type="button" id="nt-frame-play">Hear the sign in both contexts</button><button type="button" id="nt-frame-stop" disabled>Stop</button><button type="button" data-nt-save="frames">Save two-table CSV</button><button type="button" data-nt-save="frame-svg">Save two-table SVG</button><button type="button" data-nt-frame-source="369">Inspect the Lydian entry</button><button type="button" data-nt-frame-source="370">Inspect the Hypolydian entry</button></div></section>
 <section class="nt-section" aria-labelledby="nt-reading-title"><div class="nt-heading"><div><p class="eyebrow">READ THE SHAPE DESCRIPTIONS</p><h2 id="nt-reading-title">Sideways.<br>Upright. Turned.</h2></div><p>Greek / new English / contextual words.<br>The print’s small differences stay visible.</p></div><label>Reading<select id="nt-reading">${NOTATION_READINGS.map((p, i) => `<option value="${i}">${i + 1} · ${ne(p.title)}</option>`).join("")}</select></label><article id="nt-reading-body" class="nt-reading"></article><div class="nt-reading-actions"><button type="button" id="nt-reading-previous">Previous reading</button><button type="button" id="nt-reading-next">Next reading</button><button type="button" id="nt-reading-source">Inspect this whole page</button></div><details class="nt-details"><summary>Edition, transcription and scope</summary><p>Karl von Jan, <cite>Musici scriptores graeci</cite>, Leipzig, 1895, Alypius, <cite>Eisagoge mousike</cite>, pp367–370. The complete title prints MDCCCXCV. Greek theta forms, line breaks and end-of-line hyphens are normalized; middle dots join selected entries where stated. Brackets and variant letter-name spellings remain. The new English and grammar are instructional and have not received independent philological review.</p><p>The regular vector signs follow the selected printed forms. They are teaching diagrams, not ancient handwriting or an extracted font. Jan’s staff transcriptions are his modern editorial work. <a href="${NOTATION_SOURCES.original.catalogue}">Inspect the complete scanned edition</a>.</p></details></section>
 <section class="nt-section" aria-labelledby="nt-keep-title"><div class="nt-heading"><div><p class="eyebrow">KEEP THE WORKING LINE</p><h2 id="nt-keep-title">Read it beyond<br>this tab.</h2></div><p>Keep blanks and mistakes.<br>Keep the printed evidence too.</p></div><div class="nt-save"><button type="button" id="nt-share">Copy translation link</button>${(
   [
@@ -93,13 +115,17 @@ get("app").innerHTML = `<a class="skip" href="#translation">Skip to the translat
   .map(([id, text]) => `<button type="button" data-nt-save="${id}">${text}</button>`)
   .join(
     "",
-  )}<label class="nt-import">Open a saved JSON<input type="file" accept="application/json,.json" id="nt-import"></label></div><label id="nt-share-label" hidden>Translation link · ready to copy<input type="url" readonly id="nt-share-link"></label><p id="nt-save-status" role="status"></p><p class="nt-prose">The illustrated HTML retains this line, native downloads, the complete paired lookup, all six readings, five whole source pages, sound, fonts and full licenses. It opens, plays and prints without scripts or a connection. The JSON is editable; it does not claim a uniquely resolved function where the sign is ambiguous.</p><p class="nt-prose">${ne(NOTATION_LIMITS)}</p><p><a href="./song.html">Continue: read the Seikilos inscription →</a><br><a href="./halves.html">Compare numerical and continuous pitch intervals →</a><br><a href="https://github.com/antonsoo/pyknon/blob/main/docs/notation-model.md">Read the source and model decisions →</a></p></section></main><footer><p><strong>PYKNON</strong> · One sign, two alphabets.</p><p id="offline-status">Checking offline availability…</p><p><a href="https://github.com/antonsoo/pyknon">Open source / MIT</a> · <a href="https://github.com/antonsoo/pyknon/blob/main/THIRD_PARTY.md">Sources & credits</a></p></footer>
+  )}<label class="nt-import">Open a saved JSON<input type="file" accept="application/json,.json" id="nt-import"></label></div><label id="nt-share-label" hidden>Translation link · ready to copy<input type="url" readonly id="nt-share-link"></label><p id="nt-save-status" role="status"></p><p class="nt-prose">The inscription reader locates Ζ over σον, the second syllable of ὅσον (“as long as”), in an unchanged museum photograph. It explains the song’s own modern pitch and duration reading.</p><p class="nt-prose">The illustrated HTML retains this line, native downloads, the complete paired lookup, all six readings, five whole source pages, sound, fonts and full licenses. It opens, plays and prints without scripts or a connection. The JSON is editable; it does not claim a uniquely resolved function where the sign is ambiguous.</p><p class="nt-prose">${ne(NOTATION_LIMITS)}</p><p><a href="./song.html?s=1&amp;a=220&amp;pace=150#reader">Find Ζ over σον in the Seikilos inscription →</a><br><a href="./halves.html">Compare numerical and continuous pitch intervals →</a><br><a href="https://github.com/antonsoo/pyknon/blob/main/docs/notation-model.md">Read the source and model decisions →</a></p></section></main><footer><p><strong>PYKNON</strong> · One sign, two alphabets.</p><p id="offline-status">Checking offline availability…</p><p><a href="https://github.com/antonsoo/pyknon">Open source / MIT</a> · <a href="https://github.com/antonsoo/pyknon/blob/main/THIRD_PARTY.md">Sources & credits</a></p></footer>
 <dialog id="nt-dialog" aria-labelledby="nt-dialog-title"><div class="nt-dialog-bar"><h2 id="nt-dialog-title">Complete source page</h2><button type="button" id="nt-zoom-out">− Zoom out</button><button type="button" id="nt-zoom-in">+ Zoom in</button><button type="button" id="nt-close">Close</button></div><p>Arrow keys pan the complete image. Escape closes it.</p><div id="nt-pan" tabindex="0" role="region" aria-label="Enlarged complete page; use arrow keys to pan"><img id="nt-zoom-image" alt=""></div></dialog>`;
 get("nt-link-notice").textContent = restored.notice;
 
+function playingControls(active: boolean) {
+  for (const id of ["nt-stop", "nt-sign-stop", "nt-frame-stop"])
+    get<HTMLButtonElement>(id).disabled = !active;
+}
 function stop() {
   player.stop();
-  get<HTMLButtonElement>("nt-stop").disabled = true;
+  playingControls(false);
   document.querySelectorAll(".nt-playing").forEach((el) => {
     el.classList.remove("nt-playing");
   });
@@ -116,18 +142,31 @@ function set(next: NotationState) {
   if (changedPage) void showSource();
 }
 function inspectRow(id: string) {
-  set({ ...state, row: id, page: "369" });
+  set({ ...state, row: id, page: "369", sourceContext: "lookup" });
 }
 function render() {
+  const selectedPage = notationPage(state.page);
+  const sourceFrame = get("nt-enlarge").querySelector<HTMLElement>(".nt-page-frame");
+  if (sourceFrame) sourceFrame.style.aspectRatio = `${selectedPage.width}/${selectedPage.height}`;
+  get<HTMLImageElement>("nt-source-image").width = selectedPage.width;
+  get<HTMLImageElement>("nt-source-image").height = selectedPage.height;
   get("nt-large-sign").innerHTML = signSVG(
     state.sign,
     `${SIGNS[state.sign]}; same shape, two reading alphabets`,
   );
   get("nt-large-sign").className = `nt-${state.alphabet}`;
+  get("nt-frame-views").innerHTML = frameReading(state);
+  get("nt-frame-result").textContent = frameResult(state);
+  document.querySelectorAll<HTMLButtonElement>("[data-nt-frame-sign]").forEach((button) => {
+    button.setAttribute("aria-pressed", String(button.dataset.ntFrameSign === state.frameSign));
+  });
+  document.querySelectorAll<HTMLButtonElement>("[data-nt-frame-anchor]").forEach((button) => {
+    button.setAttribute("aria-pressed", String(button.dataset.ntFrameAnchor === state.frameAnchor));
+  });
   const candidates = readSign(state.sign, state.alphabet);
   const first = signPitch(state.sign, state.alphabet, state);
   get("nt-meaning").innerHTML =
-    `<p class="nt-meaning-alphabet">${state.alphabet} notation</p><h3>${candidates.map((r) => ne(r.roman)).join('<span class="nt-or">or</span>')}</h3><p>${first ? `${nn(noteFrequency(first, state))} Hz in this model` : "No selected reading"}</p><p>${candidates.length > 1 ? "Two printed functions remain possible. Their modeled pitch agrees." : "One function in this desk’s selected span. Other tables and genera are outside this reading."}</p>`;
+    `<p class="nt-meaning-alphabet">${state.alphabet} notation</p><h3>${candidates.map((r) => ne(r.roman)).join('<span class="nt-or">or</span>')}</h3><p class="nt-function-gloss">${candidates.map((r) => ne(r.english)).join(" / ")}</p><p>${first ? `${nn(noteFrequency(first, state))} Hz in this model` : "No selected reading"}</p><p>${candidates.length > 1 ? "Two printed functions remain possible. Their modeled pitch agrees." : "One function in this desk’s selected span. Other tables and genera are outside this reading."}</p>`;
   document.querySelectorAll<HTMLButtonElement>("[data-nt-sign]").forEach((b) => {
     b.setAttribute("aria-pressed", String(b.dataset.ntSign === state.sign));
   });
@@ -180,7 +219,7 @@ function render() {
   get<HTMLSelectElement>("nt-reference").value = String(state.reference);
   const plan = notationPlan(state);
   get("nt-audio-detail").textContent =
-    `${state.sound === "sign" ? "Vocal reading first, instrumental second." : "Given line first, then the actual written line; blanks remain silent."} ${plan.tones.map((t) => `${nn(t.hz)} Hz at ${nn(t.start)} s`).join("; ")}. All durations are modern choices.`;
+    `${state.sound === "sign" ? "Vocal reading first, instrumental second." : state.sound === "frame" ? "Selected shared sign: Lydian context first, Hypolydian second." : "Given line first, then the actual written line; blanks remain silent."} ${plan.tones.map((t) => `${nn(t.hz)} Hz at ${nn(t.start)} s`).join("; ")}. All durations are modern choices.`;
   const row = noteRow(state.row);
   get("nt-row-label").textContent = `LYDIAN DIATONIC / PRINTED ROW ${row.number}`;
   get("nt-row-pair").innerHTML =
@@ -189,6 +228,30 @@ function render() {
   get("nt-row-english").textContent = row.translation;
   get("nt-row-pitch").textContent =
     `${nn(noteFrequency(row, state))} Hz in the ${state.tuning} model; ratio to mesē ${state.tuning === "pythagorean" ? row.ratio.join(":") : `2^(${row.semitones}/12)`}. The print gives the named pair, not this modern frequency.`;
+  if (state.sourceContext === "frame" && (state.page === "369" || state.page === "370")) {
+    const frame = notationFrame(state),
+      context = state.page === "369" ? frame.lydian : frame.hypolydian;
+    get("nt-row-label").textContent =
+      `${context.table.toUpperCase()} DIATONIC / PRINTED ROW${context.rows.length > 1 ? "S" : ""} ${context.rows.join(" / ")}`;
+    get("nt-row-pair").innerHTML =
+      `<span class="nt-vocal">${signSVG(state.frameSign, "Selected vocal sign")}<small>Vocal</small></span><span class="nt-instrumental">${signSVG(frame.pair.instrumental, "Paired instrumental sign")}<small>Instrumental</small></span>`;
+    get("nt-row-greek").textContent = context.greek.join(" / ");
+    get("nt-row-english").textContent =
+      `Selected table functions: ${context.names.join(" or ")}. The paired signs remain visible in the complete print.`;
+    get("nt-row-pitch").textContent =
+      `Selected sign ${nn(context.signHz)} Hz; this context’s mesē ${nn(context.meseHz)} Hz in the chosen model. ${frame.anchorDescription}`;
+  }
+  if (state.sourceContext === "reading") {
+    const selected = NOTATION_READINGS[state.reading];
+    if (selected) {
+      get("nt-row-label").textContent = `READING ${state.reading + 1} / PRINTED p${selected.page}`;
+      get("nt-row-pair").innerHTML = "";
+      get("nt-row-greek").textContent = selected.greek;
+      get("nt-row-english").textContent = selected.english;
+      get("nt-row-pitch").textContent =
+        "The selected excerpt and its new English are shown here. The complete page retains the printed forms, context and apparatus.";
+    }
+  }
   document.querySelectorAll<HTMLElement>("[data-note-row]").forEach((el) => {
     el.classList.toggle("nt-selected-row", el.dataset.noteRow === state.row);
   });
@@ -204,11 +267,20 @@ function render() {
   updateBand();
 }
 function updateBand() {
-  const band = get("nt-source-band"),
-    row = noteRow(state.row);
-  band.hidden = !sourceVerified || state.page !== "369";
-  band.style.top = `${row.band[0] * 100}%`;
-  band.style.height = `${(row.band[1] - row.band[0]) * 100}%`;
+  const bands = currentSourceBands(state);
+  for (const [i, id] of ["nt-source-band", "nt-source-band-secondary"].entries()) {
+    const band = get(id),
+      coordinates = bands[i];
+    band.hidden = !sourceVerified || !coordinates;
+    if (coordinates) {
+      band.style.top = `${coordinates[0] * 100}%`;
+      band.style.height = `${(coordinates[1] - coordinates[0]) * 100}%`;
+    }
+  }
+  get("nt-band-note").textContent =
+    sourceVerified && bands.length
+      ? `${bands.length === 2 ? "Both selected source entries are highlighted" : "The band locates the selected entry"} in this complete page.`
+      : "";
 }
 async function showSource() {
   const token = ++sourceRevision,
@@ -276,7 +348,7 @@ document.querySelectorAll<HTMLButtonElement>("[data-nt-slot]").forEach((button) 
   button.addEventListener("click", () => {
     const cursor = Number(button.dataset.ntSlot),
       row = translation(state)[cursor]?.target;
-    if (row) set({ ...state, cursor, row: row.id, page: "369" });
+    if (row) set({ ...state, cursor, row: row.id, page: "369", sourceContext: "lookup" });
   });
 });
 get("nt-palette").addEventListener("click", (event) => {
@@ -293,7 +365,15 @@ get("nt-lookup").addEventListener("click", (event) => {
 get("nt-exercise").addEventListener("change", () => {
   const exercise = get<HTMLSelectElement>("nt-exercise").value as Exercise;
   const row = EXERCISES[exercise].rows[0];
-  set({ ...state, exercise, answers: [null, null, null, null], cursor: 0, row, page: "369" });
+  set({
+    ...state,
+    exercise,
+    answers: [null, null, null, null],
+    cursor: 0,
+    row,
+    page: "369",
+    sourceContext: "lookup",
+  });
 });
 get("nt-reverse").addEventListener("click", () =>
   set({ ...state, given: otherAlphabet(state.given), answers: [null, null, null, null] }),
@@ -318,6 +398,7 @@ get("nt-starter").addEventListener("click", () =>
     cursor: 1,
     row: "paramese",
     page: "369",
+    sourceContext: "lookup",
   }),
 );
 get("nt-find-slot").addEventListener("click", () => {
@@ -333,7 +414,7 @@ for (const id of ["sound", "tuning", "reference"] as const)
   });
 async function play() {
   stop();
-  get<HTMLButtonElement>("nt-stop").disabled = false;
+  playingControls(true);
   const snapshot = structuredClone(state),
     current = revision;
   get("nt-audio-status").textContent = "Starting the comparison…";
@@ -346,22 +427,29 @@ async function play() {
         });
         if (!tone) return;
         const phase =
-          snapshot.sound === "sign"
+          snapshot.sound === "frame"
             ? tone.note === 0
-              ? "Vocal reading"
-              : "Instrumental reading"
-            : tone.note < 4
-              ? `Given slot ${tone.note + 1}`
-              : `Written slot ${tone.note - 3}`;
+              ? "Lydian context"
+              : "Hypolydian context"
+            : snapshot.sound === "sign"
+              ? tone.note === 0
+                ? "Vocal reading"
+                : "Instrumental reading"
+              : tone.note < 4
+                ? `Given slot ${tone.note + 1}`
+                : `Written slot ${tone.note - 3}`;
         get("nt-audio-status").textContent = `${phase} · ${nn(tone.hz)} Hz in this model.`;
         if (snapshot.sound === "line")
           get(`nt-${tone.note < 4 ? "given" : "written"}-${tone.note % 4}`).classList.add(
             "nt-playing",
           );
-        else get("nt-sign-bench").classList.add("nt-playing");
+        else
+          get(snapshot.sound === "frame" ? "nt-context" : "nt-sign-bench").classList.add(
+            "nt-playing",
+          );
       },
       () => {
-        get<HTMLButtonElement>("nt-stop").disabled = true;
+        playingControls(false);
         get("nt-audio-status").textContent =
           "Comparison finished. The written evidence remains available without listening.";
       },
@@ -375,15 +463,41 @@ async function play() {
         : "Sound could not start. You can still compare the written signs.";
   }
 }
+document.querySelectorAll<HTMLButtonElement>("[data-nt-frame-sign]").forEach((button) => {
+  button.addEventListener("click", () =>
+    set({ ...state, frameSign: button.dataset.ntFrameSign as FrameSign }),
+  );
+});
+document.querySelectorAll<HTMLButtonElement>("[data-nt-frame-anchor]").forEach((button) => {
+  button.addEventListener("click", () =>
+    set({ ...state, frameAnchor: button.dataset.ntFrameAnchor as NotationState["frameAnchor"] }),
+  );
+});
+document.querySelectorAll<HTMLButtonElement>("[data-nt-frame-source]").forEach((button) => {
+  button.addEventListener("click", () => {
+    set({
+      ...state,
+      sourceContext: "frame",
+      page: button.dataset.ntFrameSource as NotationState["page"],
+    });
+    get("nt-evidence").scrollIntoView({ block: "start" });
+    get<HTMLSelectElement>("nt-page").focus({ preventScroll: true });
+  });
+});
+get("nt-frame-play").addEventListener("click", () => {
+  set({ ...state, sound: "frame" });
+  void play();
+});
 get("nt-play").addEventListener("click", () => void play());
 get("nt-hear-sign").addEventListener("click", () => {
   set({ ...state, sound: "sign" });
   void play();
 });
-get("nt-stop").addEventListener("click", () => {
-  stop();
-  get("nt-audio-status").textContent = "Stopped.";
-});
+for (const id of ["nt-stop", "nt-sign-stop", "nt-frame-stop"])
+  get(id).addEventListener("click", () => {
+    stop();
+    get("nt-audio-status").textContent = "Stopped.";
+  });
 get("nt-page").addEventListener("change", () =>
   set({ ...state, page: get<HTMLSelectElement>("nt-page").value as NotationState["page"] }),
 );
@@ -398,7 +512,11 @@ get("nt-reading-next").addEventListener("click", () =>
   set({ ...state, reading: Math.min(5, state.reading + 1) }),
 );
 get("nt-reading-source").addEventListener("click", () => {
-  set({ ...state, page: NOTATION_READINGS[state.reading]?.page as NotationState["page"] });
+  set({
+    ...state,
+    page: NOTATION_READINGS[state.reading]?.page as NotationState["page"],
+    sourceContext: "reading",
+  });
   get("nt-evidence").scrollIntoView({ block: "start" });
   get<HTMLSelectElement>("nt-page").focus({ preventScroll: true });
 });
@@ -420,8 +538,7 @@ get("nt-enlarge").addEventListener("click", () => {
     `${p.id === "title" ? "Title" : `Printed p${p.printedPage}`} · complete 1895 page`;
   dialog.showModal();
   setZoom(1);
-  get("nt-pan").scrollTop =
-    state.page === "369" ? Math.max(0, noteRow(state.row).band[0] * p.height - 45) : 0;
+  get("nt-pan").scrollTop = Math.max(0, (currentSourceBands(state)[0]?.[0] ?? 0) * p.height - 45);
   get("nt-pan").scrollLeft = 0;
   get("nt-pan").focus();
 });
@@ -474,7 +591,20 @@ document.querySelectorAll<HTMLButtonElement>("[data-nt-save]").forEach((button) 
       "Preparing the actual translation and verifying retained assets…";
     try {
       let blob: Blob;
-      if (format === "json")
+      if (format === "frames")
+        blob = new Blob([notationFrameCSV(snapshot)], { type: "text/csv;charset=utf-8" });
+      else if (format === "frame-svg")
+        blob = new Blob(
+          [
+            notationFrameSheet(
+              snapshot,
+              await notationAsset("fonts/IBMPlexSans-Regular.woff2", "font/woff2"),
+              await notationText("fonts/IBMPlex-OFL.txt"),
+            ),
+          ],
+          { type: "image/svg+xml" },
+        );
+      else if (format === "json")
         blob = new Blob([notationJSON(snapshot)], { type: "application/json" });
       else if (format === "csv")
         blob = new Blob([notationCSV(snapshot)], { type: "text/csv;charset=utf-8" });
@@ -501,7 +631,14 @@ document.querySelectorAll<HTMLButtonElement>("[data-nt-save]").forEach((button) 
           "The translation or settings changed while preparing the file. Save again to keep the current line.";
         return;
       }
-      download(blob, `pyknon-notation.${format}`);
+      download(
+        blob,
+        format === "frames"
+          ? "pyknon-notation-tables.csv"
+          : format === "frame-svg"
+            ? "pyknon-notation-tables.svg"
+            : `pyknon-notation.${format}`,
+      );
       get("nt-save-status").textContent = `Saved the current ${format?.toUpperCase()} file.`;
     } catch (error) {
       get("nt-save-status").textContent =
@@ -537,7 +674,7 @@ get("nt-import").addEventListener("change", async () => {
     get("nt-save-status").textContent =
       error instanceof Error ? error.message : "The record could not be reopened.";
   } finally {
-    input.value = "";
+    if (token === importRevision) input.value = "";
   }
 });
 window.addEventListener("pagehide", (event) => {

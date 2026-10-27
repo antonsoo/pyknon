@@ -224,6 +224,7 @@ try {
             "rhythm.html",
             "tension.html",
             "vina.html",
+            "notation.html",
             "halves.html",
           ]) {
             await current.goto(base + room);
@@ -262,11 +263,11 @@ try {
             oldOriginRefusedRequests: true,
             oldTabReloaded: true,
             wrongHttp200Responses: badResponses,
-            offlineEightRooms: rooms,
+            offlineNineRooms: rooms,
             offlineHTMLSaved: true,
             readOnlyInspectorDidNotRecreateDeletedCache: true,
           });
-          console.log(`${engine}/${mode} actual seven-to-eight-room upgrade passed`);
+          console.log(`${engine}/${mode} actual seven-to-current-nine-room upgrade passed`);
         } finally {
           networkAvailable = true;
           await context.close();

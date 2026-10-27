@@ -52,3 +52,11 @@ jobs:
       - run: python3 scripts/halves-wave-oracle.py /tmp/pyknon-halves-review/review.json
       - run: sudo apt-get update && sudo apt-get install -y poppler-utils
       - run: python3 scripts/halves-artifacts.py /tmp/pyknon-halves-review
+      - name: Review musical signs, native sound and portable source files
+        run: |
+          npm exec vite preview -- --host 127.0.0.1 --port 4444 --strictPort > /tmp/pyknon-notation-preview.log 2>&1 &
+          NOTATION_PREVIEW_PID=$!
+          trap 'kill "$NOTATION_PREVIEW_PID"' EXIT
+          curl --fail --retry 10 --retry-connrefused --retry-delay 1 http://127.0.0.1:4444/pyknon/notation.html > /dev/null
+          npm run test:notation -- http://127.0.0.1:4444/pyknon/ /tmp/pyknon-notation-review
+          npm run verify:notation-files -- /tmp/pyknon-notation-review /tmp/pyknon-notation-review/artifacts.json

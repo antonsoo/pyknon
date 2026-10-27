@@ -65,6 +65,58 @@ relationships; this desk does not infer a cross-table absolute-pitch standard.
 The ethnic table names do not establish a modern piano mode or a timeless
 regional performance style.
 
+## Choose what stays fixed across the two tables
+
+Four shared pairs make the p369/p370 comparison operable. Their functional
+names and counted source positions are retained independently of the model.
+
+| Shared pair            | Lydian p369                                            | Hypolydian p370                                        |
+| ---------------------- | ------------------------------------------------------ | ------------------------------------------------------ |
+| sigma / sigma          | hypatē mesōn, row 5                                    | mesē, row 8                                            |
+| iota / sideways lambda | mesē, row 8                                            | nētē synēmmenōn or diezeugmenōn diatonos, rows 11 / 14 |
+| zeta / sideways pi     | paramesē, row 12                                       | nētē diezeugmenōn, row 15                              |
+| square omega / zeta    | nētē synēmmenōn or diezeugmenōn diatonos, rows 11 / 14 | hyperbolaiōn diatonos, row 17                          |
+
+Lydian mesē always stays at the chosen reference. **Keep the selected sign's
+pitch** sets the Hypolydian mesē to three quarters of that reference in the
+rational model. **Keep both mesai at the reference** instead moves the selected
+Hypolydian sign up by four thirds relative to its Lydian modeled pitch. The
+equal-step model substitutes a five-semitone relation. These are alternative
+modern constraints, not a recovered ancient concert-pitch convention.
+
+For iota at a Lydian mesē of 330 Hz:
+
+```text
+Keep sign pitch:     Lydian mesē 330   / iota 330
+                     Hypo   mesē 247.5 / iota 330
+
+Keep both mesai:     Lydian mesē 330   / iota 330
+                     Hypo   mesē 330   / iota 440
+```
+
+The two plots share one current logarithmic pitch scale. A dot identifies each
+context's mesē; the vocal sign identifies the selected note. Coincident pitches
+remain two explicitly identified marks. The pitch representative never removes
+a second possible function from a caption, source view or CSV.
+
+The comparison has its own two-row CSV and readable SVG sheet. Its selected
+pair, reference constraint and source focus are retained in the editable JSON,
+copied link and both SVG sheets' native metadata. The illustrated reading
+includes the comparison, both native vector downloads and the chosen sound.
+Keeping separate vector sheets avoids shrinking both activities into one tall
+page. The third listening mode compares the selected sign in the two contexts.
+
+Source inspection follows the actual selected activity. A lookup row, a shared
+pair or a Greek reading establishes which entry or two entries should be
+highlighted. The two Hypolydian iota entries remain separate bands. The retained
+image dimensions reserve its page geometry before bytes arrive, so lower
+workshops keep their positions while a page is being verified.
+
+The continuation link selects the Seikilos syllable σον within ὅσον, with vocal
+zeta visible in that reader's retained museum photograph. The song has its own
+modern transposition and duration reading. The desk does not transfer its
+Lydian functional labels onto the song's entire musical context.
+
 ## A modern realization, separately stated
 
 Every frequency is relative to a chosen Lydian mesē of 220, 330 or 440 Hz.

@@ -53,6 +53,13 @@ CSV, a font-embedded SVG, finite WAV or one script-free illustrated reading.
 The current line and comparison are retained with the complete sources, fonts
 and licenses. A blank slot remains a timed silence.
 
+Compare four shared pairs across the Lydian and Hypolydian pages. Hold iota’s
+pitch fixed: the two modeled middle notes become **330 and 247.5 Hz**. Hold both
+middles fixed instead: iota becomes **330 and 440 Hz**. The frame’s reference
+choice is explicit; the printed names and source rows stay separate. Keep a
+dedicated two-table CSV or SVG, then find vocal zeta above **σον** in the
+Seikilos reader’s actual museum photograph.
+
 This room is currently under local review; public publication is a separate
 claim. [Source, model and limits](docs/notation-model.md).
 

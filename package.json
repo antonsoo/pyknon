@@ -1,8 +1,8 @@
 {
   "name": "@antonsoloviev/pyknon",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
-  "description": "Hear ancient Greek and Sanskrit musical arguments, operate explicit models, and read the printed evidence.",
+  "description": "Decode Greek musical signs, compare source-grounded ancient musical arguments, and keep operable readings with their printed evidence.",
   "type": "module",
   "author": "Anton Soloviev <anton@praviel.com>",
   "license": "MIT",
@@ -27,7 +27,10 @@
     "sanskrit",
     "natyasastra",
     "bharata",
-    "indian-music"
+    "indian-music",
+    "alypius",
+    "greek-notation",
+    "ancient-languages"
   ],
   "engines": {
     "node": ">=24"
@@ -63,7 +66,10 @@
     "verify:vina-files": "python3 scripts/vina-artifacts.py",
     "verify:vina-audio": "python3 scripts/vina-wave-oracle.py",
     "verify:halves": "node --import tsx scripts/halves-cases.ts | python3 scripts/halves-oracle.py",
-    "test:halves": "node scripts/halves-browser.mjs"
+    "test:halves": "node scripts/halves-browser.mjs",
+    "test:notation": "node scripts/notation-browser.mjs",
+    "verify:notation-files": "python3 scripts/notation-artifacts.py",
+    "test:notation-upgrade": "node scripts/notation-upgrade.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",

@@ -6,7 +6,9 @@
   alphabets, retaining copied-shape mistakes and ambiguous table functions.
 - Read six Greek selections, twelve word notes and five complete 1895 pages;
   keep the chosen sound model separate from the written notation.
-- Retain editable JSON, translation CSV, font-embedded SVG, finite WAV and a
+- Compare shared Lydian/Hypolydian pairs under two explicit reference constraints;
+  retain both possible functions and inspect their actual source entries.
+- Retain editable JSON, translation and two-table CSV, separate vector sheets, finite WAV and a
   script-free illustrated reading with native files and full source provenance.
 - Extend the complete, identity-checked offline edition to nine rooms and link
   the notation desk from the main workshop and the Seikilos reader.

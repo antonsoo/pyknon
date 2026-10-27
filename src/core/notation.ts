@@ -1,3 +1,4 @@
+import { FRAME_PAIRS, type FrameAnchor, type FrameSign, notationFrame } from "./notation-frame";
 import type { Plan, Tone } from "./tetrachord";
 
 // A selected span of Jan 1895 p369, retaining row functions as well as shapes.
@@ -40,7 +41,7 @@ export const NOTE_ROWS: readonly NoteRow[] = [
     number: 5,
     greek: "ὑπάτη μέσων",
     roman: "hypatē mesōn",
-    english: "Hypatē of the middle tetrachord",
+    english: "Lower boundary of the middle tetrachord",
     vocal: "sigma",
     instrumental: "sigma",
     description: "ὑπάτη μέσων σίγμα καὶ σίγμα",
@@ -54,7 +55,7 @@ export const NOTE_ROWS: readonly NoteRow[] = [
     number: 6,
     greek: "παρυπάτη μέσων",
     roman: "parypatē mesōn",
-    english: "Parhypatē of the middle tetrachord",
+    english: "First inner note of the middle tetrachord",
     vocal: "rho",
     instrumental: "turned-sigma",
     description: "παρυπάτη μέσων ῥῶ καὶ σίγμα ἀνεστραμμένον",
@@ -68,7 +69,7 @@ export const NOTE_ROWS: readonly NoteRow[] = [
     number: 7,
     greek: "μέσων διάτονος",
     roman: "mesōn diatonos",
-    english: "Diatonic lichanos of the middle tetrachord",
+    english: "Diatonic second inner note of the middle tetrachord",
     vocal: "mu",
     instrumental: "pi",
     description: "μέσων διάτονος μῦ καὶ πῖ καθειλκυσμένον",
@@ -96,7 +97,7 @@ export const NOTE_ROWS: readonly NoteRow[] = [
     number: 11,
     greek: "νήτη συνημμένων",
     roman: "nētē synēmmenōn",
-    english: "Nētē of the conjunct tetrachord",
+    english: "Upper boundary of the conjunct tetrachord",
     vocal: "square-u",
     instrumental: "zeta",
     description: "νήτη συνημμένων ὦ τετράγωνον ὕπτιον καὶ ζῆτα",
@@ -124,7 +125,7 @@ export const NOTE_ROWS: readonly NoteRow[] = [
     number: 13,
     greek: "τρίτη διεζευγμένων",
     roman: "tritē diezeugmenōn",
-    english: "Tritē of the disjunct tetrachord",
+    english: "First inner note of the disjunct tetrachord",
     vocal: "epsilon",
     instrumental: "square-u",
     description: "τρίτη διεζευγμένων εἰ τετράγωνον καὶ πῖ ἀνεστραμμένον",
@@ -138,7 +139,7 @@ export const NOTE_ROWS: readonly NoteRow[] = [
     number: 14,
     greek: "διεζευγμένων διάτονος",
     roman: "diezeugmenōn diatonos",
-    english: "Diatonic paranētē of the disjunct tetrachord",
+    english: "Diatonic second inner note of the disjunct tetrachord",
     vocal: "square-u",
     instrumental: "zeta",
     description: "διεζευγμένων διάτονος ὦ τετράγωνον ὕπτιον καὶ ζῆτα",
@@ -153,7 +154,7 @@ export const NOTE_ROWS: readonly NoteRow[] = [
     number: 15,
     greek: "νήτη διεζευγμένων",
     roman: "nētē diezeugmenōn",
-    english: "Nētē of the disjunct tetrachord",
+    english: "Upper boundary of the disjunct tetrachord",
     vocal: "side-phi",
     instrumental: "slant-eta",
     description: "νήτη διεζευγμένων φῖ πλάγιον καὶ ἦτα ἀμελητικὸν καθειλκυσμένον",
@@ -188,7 +189,10 @@ export type NotationState = {
   alphabet: Alphabet;
   tuning: "equal" | "pythagorean";
   reference: 220 | 330 | 440;
-  sound: "sign" | "line";
+  sound: "sign" | "line" | "frame";
+  frameSign: FrameSign;
+  frameAnchor: FrameAnchor;
+  sourceContext: "lookup" | "frame" | "reading";
   reading: number;
   page: "title" | "367" | "368" | "369" | "370";
 };
@@ -203,11 +207,14 @@ export const NOTATION_DEFAULT: NotationState = {
   tuning: "pythagorean",
   reference: 330,
   sound: "sign",
+  frameSign: "iota",
+  frameAnchor: "sign",
+  sourceContext: "lookup",
   reading: 0,
   page: "369",
 };
 export const NOTATION_LIMITS =
-  "Selected diatonic Lydian sign pairs from Alypius, Jan 1895 pp368–369. Modern vector teaching signs, a newly composed practice line, chosen tuning and reference, equal durations and synthetic sine tones. These are not a manuscript facsimile, a complete Greek notation decoder or a recovered ancient performance.";
+  "Selected diatonic Lydian sign pairs and four shared Lydian/Hypolydian pairs from Alypius, Jan 1895 pp368–370. Modern vector teaching signs, a newly composed practice line, chosen tuning and reference constraints, equal durations and synthetic sine tones. These are not a manuscript facsimile, a complete Greek notation decoder or a recovered ancient performance.";
 
 export const otherAlphabet = (a: Alphabet): Alphabet => (a === "vocal" ? "instrumental" : "vocal");
 export function noteRow(id: string): NoteRow {
@@ -287,7 +294,13 @@ export function validNotationState(value: unknown): value is NotationState {
     (v.tuning === "equal" || v.tuning === "pythagorean") &&
     [220, 330, 440].includes(Number(v.reference)) &&
     typeof v.reference === "number" &&
-    (v.sound === "sign" || v.sound === "line") &&
+    (v.sound === "sign" || v.sound === "line" || v.sound === "frame") &&
+    typeof v.frameSign === "string" &&
+    Object.hasOwn(FRAME_PAIRS, v.frameSign) &&
+    (v.frameAnchor === "sign" || v.frameAnchor === "mese") &&
+    (v.sourceContext === "lookup" ||
+      v.sourceContext === "frame" ||
+      v.sourceContext === "reading") &&
     Number.isInteger(v.reading) &&
     Number(v.reading) >= 0 &&
     Number(v.reading) < 6 &&
@@ -410,6 +423,19 @@ export function notationPlan(s: NotationState): Plan {
     push(signPitch(s.sign, "vocal", s), 0, 0);
     push(signPitch(s.sign, "instrumental", s), 0.9, 1);
     return { tones, duration: 1.7 };
+  }
+  if (s.sound === "frame") {
+    const frame = notationFrame(s);
+    return {
+      tones: [frame.lydian.signHz, frame.hypolydian.signHz].map((hz, note) => ({
+        hz,
+        note,
+        start: note * 0.9,
+        duration: 0.6,
+        tuning: s.tuning === "pythagorean" ? "ratios" : "keyboard",
+      })),
+      duration: 1.7,
+    };
   }
   const line = translation(s);
   line.forEach((t, i) => {
