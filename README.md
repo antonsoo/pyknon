@@ -60,8 +60,12 @@ choice is explicit; the printed names and source rows stay separate. Keep a
 dedicated two-table CSV or SVG, then find vocal zeta above **σον** in the
 Seikilos reader’s actual museum photograph.
 
-This room is currently under local review; public publication is a separate
-claim. [Source, model and limits](docs/notation-model.md).
+![A copied shape can change the note when the alphabet changes](docs/assets/notation-desktop.png)
+
+[Source, model and limits](docs/notation-model.md) ·
+[Direct review and actual saved files](docs/notation-review.md#try-the-translation).
+The independently installed build and local browser review are complete;
+public publication is a separate claim.
 
 ## Divide a tone; keep the numerical premise
 

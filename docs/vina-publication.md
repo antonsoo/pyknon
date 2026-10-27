@@ -49,8 +49,7 @@ uv run --python 3.12 --with numpy==2.4.4 python3 scripts/vina-wave-oracle.py /tm
 
 GitHub's source [CI run](https://github.com/antonsoo/pyknon/actions/runs/40442131989)
 and source [Pages workflow](https://github.com/antonsoo/pyknon/actions/runs/40442131926)
-did not start any job steps: the check annotations report an account billing
-lock. The separate legacy [Pages build and deployment](https://github.com/antonsoo/pyknon/actions/runs/40442158853)
+did not start any job steps. The separate legacy [Pages build and deployment](https://github.com/antonsoo/pyknon/actions/runs/40442158853)
 for the static commit succeeded. The Pages API identified `gh-pages` as its
 actual source. [Workflow evidence](vina-review/workflows.json).
 No successful source CI, registry release, tagged-PDF accessibility or physical

@@ -1,0 +1,17 @@
+{
+  "staticRevision": "20effb5d92b4e09971af933685e6e9856a8c4b54",
+  "records": [
+    {
+      "path": "index.html",
+      "bytes": 1051,
+      "sha256": "ff02f0a2af40dfeb3e26a947c160ed2c887b4b1df129b36b06b35273cc0c566f",
+      "canonicalPublicByteMatch": true
+    },
+    {
+      "path": "sw.js",
+      "bytes": 14261,
+      "sha256": "25055c25242adf11b994f6146c415dba2225b483fb5e36590e13b8809a8beb12",
+      "canonicalPublicByteMatch": true
+    }
+  ]
+}

@@ -461,6 +461,14 @@ try {
   await verified(page, "370");
   await page.waitForTimeout(900);
   assert.match(await page.locator("#nt-caption").textContent(), /Printed p370/);
+  const retained = JSON.parse(await readFile("public/sources/notation/manifest.json", "utf8"));
+  const displayedSourceSha256 = await page.locator("#nt-source-image").evaluate(async (image) => {
+    const bytes = await (await fetch(image.src)).arrayBuffer();
+    return Array.from(new Uint8Array(await crypto.subtle.digest("SHA-256", bytes)), (value) =>
+      value.toString(16).padStart(2, "0"),
+    ).join("");
+  });
+  assert.equal(displayedSourceSha256, retained.pages.find((entry) => entry.id === "370").sha256);
   await context.route("**/sources/notation/jan-367.jpg", (route) =>
     route.fulfill({ status: 200, contentType: "image/jpeg", body: "wrong edition" }),
   );
@@ -543,6 +551,7 @@ try {
   assert.equal(JSON.parse(Buffer.from(encoded[1], "base64").toString()).state.answers[1], "zeta");
   records.push({
     sourceRace: "late default page cannot replace the selected Hypolydian page",
+    displayedSourceSha256,
     substitutedSource: "withheld; no stale image",
     substitutedFont: "withholds export",
     retry: "same source and export succeed after expected bytes return",

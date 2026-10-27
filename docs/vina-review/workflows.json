@@ -22,7 +22,6 @@
           "end_column": null,
           "annotation_level": "failure",
           "title": "",
-          "message": "The job was not started because your account is locked due to a billing issue.",
           "raw_details": ""
         },
         {
@@ -61,7 +60,6 @@
           "end_column": null,
           "annotation_level": "failure",
           "title": "",
-          "message": "The job was not started because your account is locked due to a billing issue.",
           "raw_details": ""
         },
         {

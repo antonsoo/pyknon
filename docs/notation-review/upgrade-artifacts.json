@@ -1,0 +1,125 @@
+{
+  "scope": "Actual illustrated HTML downloaded after the recorded held/substituted-source upgrades and origin outage; independent model, PCM and source/font/license checks",
+  "records": [
+    {
+      "file": "chromium-hold-offline.html",
+      "sha256": "dc3f0b819862eb604fc5cab37871c42a5535fdcbe1701056913b77e9f8022230",
+      "reading": {
+        "wholeSourceImagesByteIdentical": 5,
+        "fontsVerified": 3,
+        "fullLicensesVerified": 3,
+        "nativeDownloads": 7,
+        "scripts": 0
+      },
+      "audio": {
+        "samples": 81600,
+        "channels": 1,
+        "sampleRate": 48000,
+        "tones": [
+          {
+            "startSeconds": 0.0,
+            "expectedHz": 330.0,
+            "observedHz": 329.9999831370293
+          },
+          {
+            "startSeconds": 0.9,
+            "expectedHz": 330.0,
+            "observedHz": 330.00004496793025
+          }
+        ],
+        "timedSilentSlots": 0,
+        "tailSilent": true
+      }
+    },
+    {
+      "file": "chromium-wrong-offline.html",
+      "sha256": "dc3f0b819862eb604fc5cab37871c42a5535fdcbe1701056913b77e9f8022230",
+      "reading": {
+        "wholeSourceImagesByteIdentical": 5,
+        "fontsVerified": 3,
+        "fullLicensesVerified": 3,
+        "nativeDownloads": 7,
+        "scripts": 0
+      },
+      "audio": {
+        "samples": 81600,
+        "channels": 1,
+        "sampleRate": 48000,
+        "tones": [
+          {
+            "startSeconds": 0.0,
+            "expectedHz": 330.0,
+            "observedHz": 329.9999831370293
+          },
+          {
+            "startSeconds": 0.9,
+            "expectedHz": 330.0,
+            "observedHz": 330.00004496793025
+          }
+        ],
+        "timedSilentSlots": 0,
+        "tailSilent": true
+      }
+    },
+    {
+      "file": "firefox-hold-offline.html",
+      "sha256": "b0f4b9cb43fefc16712b5328b3b3902e6e7438705116ffc2005ed7233d78b317",
+      "reading": {
+        "wholeSourceImagesByteIdentical": 5,
+        "fontsVerified": 3,
+        "fullLicensesVerified": 3,
+        "nativeDownloads": 7,
+        "scripts": 0
+      },
+      "audio": {
+        "samples": 81600,
+        "channels": 1,
+        "sampleRate": 48000,
+        "tones": [
+          {
+            "startSeconds": 0.0,
+            "expectedHz": 330.0,
+            "observedHz": 329.99940004410945
+          },
+          {
+            "startSeconds": 0.9,
+            "expectedHz": 330.0,
+            "observedHz": 329.9994000441093
+          }
+        ],
+        "timedSilentSlots": 0,
+        "tailSilent": true
+      }
+    },
+    {
+      "file": "firefox-wrong-offline.html",
+      "sha256": "b0f4b9cb43fefc16712b5328b3b3902e6e7438705116ffc2005ed7233d78b317",
+      "reading": {
+        "wholeSourceImagesByteIdentical": 5,
+        "fontsVerified": 3,
+        "fullLicensesVerified": 3,
+        "nativeDownloads": 7,
+        "scripts": 0
+      },
+      "audio": {
+        "samples": 81600,
+        "channels": 1,
+        "sampleRate": 48000,
+        "tones": [
+          {
+            "startSeconds": 0.0,
+            "expectedHz": 330.0,
+            "observedHz": 329.99940004410945
+          },
+          {
+            "startSeconds": 0.9,
+            "expectedHz": 330.0,
+            "observedHz": 329.9994000441093
+          }
+        ],
+        "timedSilentSlots": 0,
+        "tailSilent": true
+      }
+    }
+  ]
+}

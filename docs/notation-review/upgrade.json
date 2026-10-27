@@ -1,0 +1,114 @@
+{
+  "scope": "Authentic previously published eight-room worker to the new nine-room build; held and substituted source page in both browsers; old and new use with actual origin refusing requests",
+  "oldEdition": "6e76d41583dbf6b860e3793a88c53b994b7595958387246cc3e729b572d15eae",
+  "newEdition": "501590e24f3498786c7e3ba9534a2cff02246c8fd53cd195afe45727518af968",
+  "oldFileCount": 139,
+  "newFileCount": 102,
+  "currentWorkerSha256": "31c0ca6b5af32535db667b5b58e8b103a4747bee62d382fd66d43b021d625f49",
+  "records": [
+    {
+      "engine": "chromium",
+      "mode": "hold",
+      "oldEdition": "6e76d41583dbf6b860e3793a88c53b994b7595958387246cc3e729b572d15eae",
+      "newEdition": "501590e24f3498786c7e3ba9534a2cff02246c8fd53cd195afe45727518af968",
+      "before": "This edition is not saved offline. Keep this tab open to continue reading.",
+      "oldOriginRefusedRequests": true,
+      "oldTabReloaded": true,
+      "wrongHttp200Responses": [],
+      "offlineNineRooms": [
+        "index.html",
+        "song.html",
+        "canon.html",
+        "trial.html",
+        "rhythm.html",
+        "tension.html",
+        "vina.html",
+        "notation.html",
+        "halves.html"
+      ],
+      "offlineHTMLSaved": true,
+      "readOnlyInspectorDidNotRecreateDeletedCache": true
+    },
+    {
+      "engine": "chromium",
+      "mode": "wrong",
+      "oldEdition": "6e76d41583dbf6b860e3793a88c53b994b7595958387246cc3e729b572d15eae",
+      "newEdition": "501590e24f3498786c7e3ba9534a2cff02246c8fd53cd195afe45727518af968",
+      "before": "This edition is not saved offline. Keep this tab open to continue reading.",
+      "oldOriginRefusedRequests": true,
+      "oldTabReloaded": true,
+      "wrongHttp200Responses": [
+        {
+          "url": "/pyknon/sources/notation/jan-370.jpg",
+          "status": 200,
+          "wrongSourcePage": true
+        }
+      ],
+      "offlineNineRooms": [
+        "index.html",
+        "song.html",
+        "canon.html",
+        "trial.html",
+        "rhythm.html",
+        "tension.html",
+        "vina.html",
+        "notation.html",
+        "halves.html"
+      ],
+      "offlineHTMLSaved": true,
+      "readOnlyInspectorDidNotRecreateDeletedCache": true
+    },
+    {
+      "engine": "firefox",
+      "mode": "hold",
+      "oldEdition": "6e76d41583dbf6b860e3793a88c53b994b7595958387246cc3e729b572d15eae",
+      "newEdition": "501590e24f3498786c7e3ba9534a2cff02246c8fd53cd195afe45727518af968",
+      "before": "This edition is not saved offline. Keep this tab open to continue reading.",
+      "oldOriginRefusedRequests": true,
+      "oldTabReloaded": true,
+      "wrongHttp200Responses": [],
+      "offlineNineRooms": [
+        "index.html",
+        "song.html",
+        "canon.html",
+        "trial.html",
+        "rhythm.html",
+        "tension.html",
+        "vina.html",
+        "notation.html",
+        "halves.html"
+      ],
+      "offlineHTMLSaved": true,
+      "readOnlyInspectorDidNotRecreateDeletedCache": true
+    },
+    {
+      "engine": "firefox",
+      "mode": "wrong",
+      "oldEdition": "6e76d41583dbf6b860e3793a88c53b994b7595958387246cc3e729b572d15eae",
+      "newEdition": "501590e24f3498786c7e3ba9534a2cff02246c8fd53cd195afe45727518af968",
+      "before": "This edition is not saved offline. Keep this tab open to continue reading.",
+      "oldOriginRefusedRequests": true,
+      "oldTabReloaded": true,
+      "wrongHttp200Responses": [
+        {
+          "url": "/pyknon/sources/notation/jan-370.jpg",
+          "status": 200,
+          "wrongSourcePage": true
+        }
+      ],
+      "offlineNineRooms": [
+        "index.html",
+        "song.html",
+        "canon.html",
+        "trial.html",
+        "rhythm.html",
+        "tension.html",
+        "vina.html",
+        "notation.html",
+        "halves.html"
+      ],
+      "offlineHTMLSaved": true,
+      "readOnlyInspectorDidNotRecreateDeletedCache": true
+    }
+  ]
+}

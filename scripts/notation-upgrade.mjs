@@ -39,6 +39,7 @@ let workerFiles = oldFiles;
 let fault = "none";
 let pending = [];
 let badResponses = [];
+let requestLog = [];
 const mime = {
   ".html": "text/html",
   ".js": "text/javascript",
@@ -67,6 +68,7 @@ const server = http.createServer((request, response) => {
     return;
   }
   const name = decodeURIComponent(url.pathname.slice("/pyknon/".length)) || "index.html";
+  requestLog.push({ name, fault, worker: workerFiles === newFiles ? "new" : "old" });
   const bytes = (name === "sw.js" ? workerFiles : served).get(name);
   if (!bytes) {
     response.writeHead(404).end();
@@ -148,6 +150,7 @@ try {
         fault = "none";
         pending = [];
         badResponses = [];
+        requestLog = [];
         const context = await browser.newContext({ viewport: { width: 375, height: 1000 } });
         try {
           const old = await context.newPage();
@@ -196,10 +199,35 @@ try {
           else
             for (const item of pending.splice(0))
               if (!item.response.destroyed) send(item.response, item.name, item.bytes);
-          await waitUntil(async () => {
-            const reply = await inspect(current);
-            return reply?.edition === newEdition && reply.complete;
-          }, "new complete worker controls");
+          try {
+            await waitUntil(async () => {
+              const reply = await inspect(current);
+              return reply?.edition === newEdition && reply.complete;
+            }, "new complete worker controls");
+          } catch (error) {
+            const diagnostic = await current.evaluate(async () => {
+              const registration = await navigator.serviceWorker.getRegistration();
+              return {
+                status: document.getElementById("offline-status").textContent,
+                states: window.__workerStates,
+                controller: navigator.serviceWorker.controller?.state,
+                installing: registration?.installing?.state,
+                waiting: registration?.waiting?.state,
+                active: registration?.active?.state,
+                caches: await Promise.all(
+                  (await caches.keys()).map(async (name) => ({
+                    name,
+                    files: (await (await caches.open(name)).keys()).length,
+                  })),
+                ),
+              };
+            });
+            await writeFile(
+              path.join(path.dirname(output), `${engine}-${mode}-failure.json`),
+              JSON.stringify({ diagnostic, requests: requestLog }, null, 2),
+            );
+            throw error;
+          }
           await current
             .locator("#offline-status")
             .filter({ hasText: /Ready offline.*nine rooms/ })
