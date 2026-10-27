@@ -1,0 +1,131 @@
+{
+  "title": "Claudii Ptolemaei Harmonicorum libri tres",
+  "editor": "John Wallis",
+  "year": 1682,
+  "chapter": "Harmonics II.2, printed pp.97–101; I.13, pp.62–63",
+  "catalogue": "https://archive.org/details/bim_early-english-books-1641-1700_-harmonicor_ptolomaeus-claudius_1682",
+  "pdf": "https://archive.org/download/bim_early-english-books-1641-1700_-harmonicor_ptolomaeus-claudius_1682/bim_early-english-books-1641-1700_-harmonicor_ptolomaeus-claudius_1682.pdf",
+  "pdfBytes": 189864593,
+  "pdfSha256": "862839d2cd52dfc62004d0f68da4d8381417e8be69e3901db0d5f73568931884",
+  "rights": "Ancient text, Wallis’s 1682 Latin and complete printed pages: public domain in the United States.",
+  "render": {
+    "renderer": "pdftoppm 24.02.0",
+    "scaleTo": 2200,
+    "quality": 88,
+    "wholePages": true
+  },
+  "pages": [
+    {
+      "id": "title",
+      "file": "sources/helikon/wallis-title.jpg",
+      "printedPage": "title",
+      "pdfPage": 1,
+      "width": 1634,
+      "height": 2200,
+      "bytes": 596054,
+      "sha256": "43d42f60041c5774dee605ea9f81f2ed7eeb014ef50c3c1b61bf0fc036cb6aa8"
+    },
+    {
+      "id": "97",
+      "file": "sources/helikon/wallis-97.jpg",
+      "printedPage": "97",
+      "pdfPage": 119,
+      "width": 1625,
+      "height": 2200,
+      "bytes": 654229,
+      "sha256": "d10fd29564796e8e5071551e1adfb4f76401ac6e698d2dc1b89979b6d8b8eba8"
+    },
+    {
+      "id": "98",
+      "file": "sources/helikon/wallis-98.jpg",
+      "printedPage": "98",
+      "pdfPage": 120,
+      "width": 1630,
+      "height": 2200,
+      "bytes": 569665,
+      "sha256": "e9853d943cb73481b5301ff2823bd7826b78dbc6f5b19c0030f0f068fbab9389"
+    },
+    {
+      "id": "99",
+      "file": "sources/helikon/wallis-99.jpg",
+      "printedPage": "99",
+      "pdfPage": 121,
+      "width": 1630,
+      "height": 2200,
+      "bytes": 661255,
+      "sha256": "bca0305993e88f197dcaec5e6315b2e4035e691d2ada6c337d3d7c6e21e114f1"
+    },
+    {
+      "id": "100",
+      "file": "sources/helikon/wallis-100.jpg",
+      "printedPage": "100",
+      "pdfPage": 122,
+      "width": 1621,
+      "height": 2200,
+      "bytes": 683412,
+      "sha256": "6c19175d96147e0d1943f78f7ec4f00c588d5abdc300304270ab73e27dab4715"
+    },
+    {
+      "id": "101",
+      "file": "sources/helikon/wallis-101.jpg",
+      "printedPage": "101",
+      "pdfPage": 123,
+      "width": 1621,
+      "height": 2200,
+      "bytes": 580506,
+      "sha256": "ef19e8041e05595bcc95633be0407218dbff0e02ecf0f490afacf04bd72e36a2"
+    },
+    {
+      "id": "62",
+      "file": "sources/helikon/wallis-62.jpg",
+      "printedPage": "62",
+      "pdfPage": 84,
+      "width": 1609,
+      "height": 2200,
+      "bytes": 683860,
+      "sha256": "80a1a3a9ac3a69ef4752aea363a5832d89abdf0e13aefea9282120700779f74b"
+    },
+    {
+      "id": "63",
+      "file": "sources/helikon/wallis-63.jpg",
+      "printedPage": "63",
+      "pdfPage": 85,
+      "width": 1609,
+      "height": 2200,
+      "bytes": 617084,
+      "sha256": "7840f347871d6a5ed08cf821824380a61b7dd5fa555a979bac7c0b35a87f17c2"
+    }
+  ],
+  "assets": [
+    {
+      "file": "fonts/IBMPlexSans-Regular.woff2",
+      "bytes": 63020,
+      "sha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a"
+    },
+    {
+      "file": "fonts/IBMPlexSans-SemiBold.woff2",
+      "bytes": 67060,
+      "sha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205"
+    },
+    {
+      "file": "fonts/NotoSerif-Regular.ttf",
+      "bytes": 444064,
+      "sha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6"
+    },
+    {
+      "file": "fonts/IBMPlex-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "file": "fonts/NotoSerif-OFL.txt",
+      "bytes": 4396,
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a"
+    },
+    {
+      "file": "sources/helikon/LICENSE.txt",
+      "bytes": 1071,
+      "sha256": "e26144be8673d69c175126ad8dcd9ed78431464f0b97120b799dc75ec7edb647"
+    }
+  ]
+}
