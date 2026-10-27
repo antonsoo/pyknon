@@ -1,0 +1,502 @@
+{
+  "pdf": "reading.pdf",
+  "pdfSha256": "968f07876a0b205b02c759f1741f6a7f042a516b6ae3c3a403675cc58e069334",
+  "htmlSha256": "1b793250f829c045e3388bdac95427d20559519e37b90bbee23ea5e9b370d6a5",
+  "parser": "pypdf 6.18.0",
+  "pages": 25,
+  "documentLanguage": "en",
+  "structureCounts": {
+    "/Document": 1,
+    "/P": 56,
+    "/NonStruct": 281,
+    "/H1": 1,
+    "/Link": 14,
+    "/H2": 6,
+    "/Figure": 18,
+    "/Table": 3,
+    "/Caption": 11,
+    "/TR": 15,
+    "/TH": 22,
+    "/TD": 59,
+    "/Art": 6,
+    "/H3": 6,
+    "/Strong": 12
+  },
+  "boundReadingFields": [
+    {
+      "language": "grc",
+      "text": "Ἐκτίθενται τετράγωνον, ὡς τὸ αβγδ.",
+      "pageContent": [
+        {
+          "page": 7,
+          "mcid": 2
+        }
+      ]
+    },
+    {
+      "language": "la",
+      "text": "Exponunt utique quadratum, ut ABCD.",
+      "pageContent": [
+        {
+          "page": 7,
+          "mcid": 3
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "text": "They set out a square, such as ABCD.",
+      "pageContent": [
+        {
+          "page": 7,
+          "mcid": 4
+        }
+      ]
+    },
+    {
+      "language": "grc",
+      "text": "διελόντες δίχα τὰς αβ καὶ βδ",
+      "pageContent": [
+        {
+          "page": 8,
+          "mcid": 2
+        }
+      ]
+    },
+    {
+      "language": "la",
+      "text": "bisectis AB & BD",
+      "pageContent": [
+        {
+          "page": 8,
+          "mcid": 3
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "text": "having divided AB and BD in half",
+      "pageContent": [
+        {
+          "page": 8,
+          "mcid": 4
+        }
+      ]
+    },
+    {
+      "language": "grc",
+      "text": "πάσας τὰς συμφωνίας, καὶ τὸν τόνον",
+      "pageContent": [
+        {
+          "page": 9,
+          "mcid": 2
+        }
+      ]
+    },
+    {
+      "language": "la",
+      "text": "Consonantiae omnes, & Tonus",
+      "pageContent": [
+        {
+          "page": 9,
+          "mcid": 3
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "text": "all the consonances, and the tone",
+      "pageContent": [
+        {
+          "page": 9,
+          "mcid": 4
+        }
+      ]
+    },
+    {
+      "language": "grc",
+      "text": "τὰς χορδὰς παραλλήλους τε τῇ αγ, καὶ ἰσοτόνους ἀλλήλαις",
+      "pageContent": [
+        {
+          "page": 10,
+          "mcid": 2
+        }
+      ]
+    },
+    {
+      "language": "la",
+      "text": "chordas ipsi AC parallelas, atque inter se aequitonas",
+      "pageContent": [
+        {
+          "page": 10,
+          "mcid": 3
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "text": "the strings parallel to AC and equal in pitch to one another",
+      "pageContent": [
+        {
+          "page": 10,
+          "mcid": 4
+        }
+      ]
+    },
+    {
+      "language": "grc",
+      "text": "τὸ κοινὸν ἔχειν ὑπαγωγέα, καὶ ἕνα, καὶ ἐπὶ μίαν θέσιν",
+      "pageContent": [
+        {
+          "page": 11,
+          "mcid": 2
+        }
+      ]
+    },
+    {
+      "language": "la",
+      "text": "quod commune habeat subductorium, unicumque, & eodem situ positum",
+      "pageContent": [
+        {
+          "page": 11,
+          "mcid": 3
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "text": "having one common movable support, in a single position",
+      "pageContent": [
+        {
+          "page": 11,
+          "mcid": 4
+        }
+      ]
+    },
+    {
+      "language": "grc",
+      "text": "τὰς χορδὰς ὅλας παραφέρειν",
+      "pageContent": [
+        {
+          "page": 12,
+          "mcid": 2
+        }
+      ]
+    },
+    {
+      "language": "la",
+      "text": "quod chordas integras transferre oporteat",
+      "pageContent": [
+        {
+          "page": 12,
+          "mcid": 3
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "text": "moving the strings as wholes",
+      "pageContent": [
+        {
+          "page": 12,
+          "mcid": 4
+        }
+      ]
+    }
+  ],
+  "scopedTableHeaders": [
+    {
+      "text": "Segment",
+      "scope": "/Column"
+    },
+    {
+      "text": "Length",
+      "scope": "/Column"
+    },
+    {
+      "text": "Pitch / full string",
+      "scope": "/Column"
+    },
+    {
+      "text": "Hz",
+      "scope": "/Column"
+    },
+    {
+      "text": "AC",
+      "scope": "/Row"
+    },
+    {
+      "text": "HK",
+      "scope": "/Row"
+    },
+    {
+      "text": "GM",
+      "scope": "/Row"
+    },
+    {
+      "text": "FD",
+      "scope": "/Row"
+    },
+    {
+      "text": "BF",
+      "scope": "/Row"
+    },
+    {
+      "text": "LG",
+      "scope": "/Row"
+    },
+    {
+      "text": "EH",
+      "scope": "/Row"
+    },
+    {
+      "text": "String",
+      "scope": "/Column"
+    },
+    {
+      "text": "Position / width",
+      "scope": "/Column"
+    },
+    {
+      "text": "Actual",
+      "scope": "/Column"
+    },
+    {
+      "text": "Target",
+      "scope": "/Column"
+    },
+    {
+      "text": "Error, cents",
+      "scope": "/Column"
+    },
+    {
+      "text": "1 · end",
+      "scope": "/Row"
+    },
+    {
+      "text": "2 · inner",
+      "scope": "/Row"
+    },
+    {
+      "text": "3 · inner",
+      "scope": "/Row"
+    },
+    {
+      "text": "4 · end",
+      "scope": "/Row"
+    },
+    {
+      "text": "Greek",
+      "scope": "/Row"
+    },
+    {
+      "text": "Latin",
+      "scope": "/Row"
+    }
+  ],
+  "leafFigures": [
+    {
+      "kind": "diagram",
+      "alt": "Helikon construction, stage 5. Source bridge.",
+      "pageContent": [
+        {
+          "page": 2,
+          "mcid": 1
+        }
+      ],
+      "boundImageHashes": []
+    },
+    {
+      "kind": "diagram",
+      "alt": "Four-string enharmonic retuning experiment. 2 of four target notes agree.",
+      "pageContent": [
+        {
+          "page": 4,
+          "mcid": 3
+        }
+      ],
+      "boundImageHashes": []
+    },
+    {
+      "kind": "image",
+      "alt": "Wallis, 1682 · title · PDF p.1 · complete page",
+      "sha256": "43d42f60041c5774dee605ea9f81f2ed7eeb014ef50c3c1b61bf0fc036cb6aa8",
+      "pageContent": [
+        {
+          "page": 13,
+          "mcid": 0
+        }
+      ],
+      "boundImageHashes": ["43d42f60041c5774dee605ea9f81f2ed7eeb014ef50c3c1b61bf0fc036cb6aa8"]
+    },
+    {
+      "kind": "image",
+      "alt": "Wallis, 1682 · printed p.97 · PDF p.119 · complete page",
+      "sha256": "d10fd29564796e8e5071551e1adfb4f76401ac6e698d2dc1b89979b6d8b8eba8",
+      "pageContent": [
+        {
+          "page": 14,
+          "mcid": 0
+        }
+      ],
+      "boundImageHashes": ["d10fd29564796e8e5071551e1adfb4f76401ac6e698d2dc1b89979b6d8b8eba8"]
+    },
+    {
+      "kind": "image",
+      "alt": "Wallis, 1682 · printed p.98 · PDF p.120 · complete page",
+      "sha256": "e9853d943cb73481b5301ff2823bd7826b78dbc6f5b19c0030f0f068fbab9389",
+      "pageContent": [
+        {
+          "page": 15,
+          "mcid": 0
+        }
+      ],
+      "boundImageHashes": ["e9853d943cb73481b5301ff2823bd7826b78dbc6f5b19c0030f0f068fbab9389"]
+    },
+    {
+      "kind": "image",
+      "alt": "Wallis, 1682 · printed p.99 · PDF p.121 · complete page",
+      "sha256": "bca0305993e88f197dcaec5e6315b2e4035e691d2ada6c337d3d7c6e21e114f1",
+      "pageContent": [
+        {
+          "page": 16,
+          "mcid": 0
+        }
+      ],
+      "boundImageHashes": ["bca0305993e88f197dcaec5e6315b2e4035e691d2ada6c337d3d7c6e21e114f1"]
+    },
+    {
+      "kind": "image",
+      "alt": "Wallis, 1682 · printed p.100 · PDF p.122 · complete page",
+      "sha256": "6c19175d96147e0d1943f78f7ec4f00c588d5abdc300304270ab73e27dab4715",
+      "pageContent": [
+        {
+          "page": 17,
+          "mcid": 0
+        }
+      ],
+      "boundImageHashes": ["6c19175d96147e0d1943f78f7ec4f00c588d5abdc300304270ab73e27dab4715"]
+    },
+    {
+      "kind": "image",
+      "alt": "Wallis, 1682 · printed p.101 · PDF p.123 · complete page",
+      "sha256": "ef19e8041e05595bcc95633be0407218dbff0e02ecf0f490afacf04bd72e36a2",
+      "pageContent": [
+        {
+          "page": 18,
+          "mcid": 0
+        }
+      ],
+      "boundImageHashes": ["ef19e8041e05595bcc95633be0407218dbff0e02ecf0f490afacf04bd72e36a2"]
+    },
+    {
+      "kind": "image",
+      "alt": "Wallis, 1682 · printed p.62 · PDF p.84 · complete page",
+      "sha256": "80a1a3a9ac3a69ef4752aea363a5832d89abdf0e13aefea9282120700779f74b",
+      "pageContent": [
+        {
+          "page": 19,
+          "mcid": 0
+        }
+      ],
+      "boundImageHashes": ["80a1a3a9ac3a69ef4752aea363a5832d89abdf0e13aefea9282120700779f74b"]
+    },
+    {
+      "kind": "image",
+      "alt": "Wallis, 1682 · printed p.63 · PDF p.85 · complete page",
+      "sha256": "7840f347871d6a5ed08cf821824380a61b7dd5fa555a979bac7c0b35a87f17c2",
+      "pageContent": [
+        {
+          "page": 20,
+          "mcid": 0
+        }
+      ],
+      "boundImageHashes": ["7840f347871d6a5ed08cf821824380a61b7dd5fa555a979bac7c0b35a87f17c2"]
+    }
+  ],
+  "bookmarks": [
+    {
+      "level": 1,
+      "title": "One bridge. Four strings.",
+      "page": 1,
+      "topPoints": 757.62
+    },
+    {
+      "level": 2,
+      "title": "The source board and your bridge",
+      "page": 1,
+      "topPoints": 522.22815
+    },
+    {
+      "level": 2,
+      "title": "Keep the ends; move the inner strings",
+      "page": 4,
+      "topPoints": 771.22803
+    },
+    {
+      "level": 2,
+      "title": "The line fixes more than its ends",
+      "page": 6,
+      "topPoints": 771.22803
+    },
+    {
+      "level": 2,
+      "title": "Readings and transcription",
+      "page": 6,
+      "topPoints": 346.72827
+    },
+    {
+      "level": 3,
+      "title": "Start with a square",
+      "page": 7,
+      "topPoints": 771.22827
+    },
+    {
+      "level": 3,
+      "title": "Halve two different sides",
+      "page": 8,
+      "topPoints": 771.22827
+    },
+    {
+      "level": 3,
+      "title": "One board, many intervals",
+      "page": 9,
+      "topPoints": 771.22827
+    },
+    {
+      "level": 3,
+      "title": "Place the strings, then the bridge",
+      "page": 10,
+      "topPoints": 771.22827
+    },
+    {
+      "level": 3,
+      "title": "One common support",
+      "page": 11,
+      "topPoints": 770.65826
+    },
+    {
+      "level": 3,
+      "title": "The practical price",
+      "page": 12,
+      "topPoints": 771.22778
+    },
+    {
+      "level": 2,
+      "title": "Whole printed evidence",
+      "page": 12,
+      "topPoints": 358.72781
+    },
+    {
+      "level": 2,
+      "title": "Editable record and attribution",
+      "page": 21,
+      "topPoints": 771.22778
+    }
+  ],
+  "limits": [
+    "Structure and content audit only; no screen-reader playback or PDF/UA certification",
+    "Whole historical page images remain facsimiles; selected passages are transcribed in the reading",
+    "Inline word-note language changes can depend on the PDF producer and reader"
+  ]
+}
