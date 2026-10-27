@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-10-27T22:01:32.979364+00:00",
+  "sourceRevision": "231f43afe54eeffa133ba4b9f4150ef1069358ab",
+  "sourceWorkflowRuns": [
+    {
+      "id": 40591207415,
+      "name": "CI",
+      "url": "https://github.com/antonsoo/pyknon/actions/runs/40591207415",
+      "status": "completed",
+      "conclusion": "failure",
+      "jobs": [
+        {
+          "name": "check",
+          "status": "completed",
+          "conclusion": "failure",
+          "steps": []
+        }
+      ]
+    },
+    {
+      "id": 40591207385,
+      "name": "Pages",
+      "url": "https://github.com/antonsoo/pyknon/actions/runs/40591207385",
+      "status": "completed",
+      "conclusion": "failure",
+      "jobs": [
+        {
+          "name": "deploy",
+          "status": "completed",
+          "conclusion": "failure",
+          "steps": []
+        }
+      ]
+    }
+  ],
+  "legacyPagesBuild": {
+    "status": "built",
+    "commit": "fcf3288f08fbc774bd992fa3830e73dd0b52fa9d",
+    "created_at": "2026-10-27T21:59:35Z",
+    "updated_at": "2026-10-27T22:00:00Z"
+  },
+  "limit": "Source workflow failures with empty step lists are not passing checks. A successful branch Pages build and actual hosted-byte/browser evidence are separate claims."
+}

@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-10-27T22:01:10.600158+00:00",
+  "sourceRevision": "231f43afe54eeffa133ba4b9f4150ef1069358ab",
+  "files": [
+    {
+      "file": "examples/helikon-reading.pdf",
+      "url": "https://raw.githubusercontent.com/antonsoo/pyknon/231f43afe54eeffa133ba4b9f4150ef1069358ab/examples/helikon-reading.pdf",
+      "bytes": 6538697,
+      "sha256": "7bf0e6d9d98fae21e30f2e4b0aaabb977be331b81f2852f61a3f44ac458f8250",
+      "status": 200,
+      "actualBytes": 6538697,
+      "actualSha256": "7bf0e6d9d98fae21e30f2e4b0aaabb977be331b81f2852f61a3f44ac458f8250",
+      "matches": true
+    },
+    {
+      "file": "examples/helikon-reading.html.gz",
+      "url": "https://raw.githubusercontent.com/antonsoo/pyknon/231f43afe54eeffa133ba4b9f4150ef1069358ab/examples/helikon-reading.html.gz",
+      "bytes": 5897878,
+      "sha256": "9fea9305488a75bc1f1de5b63e86c766a2f9e9ec0214c2f1d571331d689a1e63",
+      "status": 200,
+      "actualBytes": 5897878,
+      "actualSha256": "9fea9305488a75bc1f1de5b63e86c766a2f9e9ec0214c2f1d571331d689a1e63",
+      "matches": true
+    },
+    {
+      "file": "docs/assets/helikon-pdf-language.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/pyknon/231f43afe54eeffa133ba4b9f4150ef1069358ab/docs/assets/helikon-pdf-language.png",
+      "bytes": 81233,
+      "sha256": "08d7461742e35960e31b7033554678c06749490285dbb7ccf6be55ef70bbc4f4",
+      "status": 200,
+      "actualBytes": 81233,
+      "actualSha256": "08d7461742e35960e31b7033554678c06749490285dbb7ccf6be55ef70bbc4f4",
+      "matches": true
+    },
+    {
+      "file": "docs/assets/helikon-pdf-table.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/pyknon/231f43afe54eeffa133ba4b9f4150ef1069358ab/docs/assets/helikon-pdf-table.png",
+      "bytes": 147422,
+      "sha256": "593b3a14aff575c9b73dacd92b32b1711d552cf16f13e6452d4e57b92e8b1c44",
+      "status": 200,
+      "actualBytes": 147422,
+      "actualSha256": "593b3a14aff575c9b73dacd92b32b1711d552cf16f13e6452d4e57b92e8b1c44",
+      "matches": true
+    }
+  ]
+}

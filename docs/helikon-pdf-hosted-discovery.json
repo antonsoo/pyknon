@@ -1,0 +1,99 @@
+{
+  "checkedAt": "2026-10-27T22:00:42.296Z",
+  "base": "https://antonsoo.github.io/officina/",
+  "scope": "Native catalogue search -> matching workshop link -> actual public operation -> immutable review heading. Service workers blocked in these navigation contexts. Audio scheduling is observed, not physical speaker output.",
+  "configurations": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "pyknon",
+      "workshop": "helikon",
+      "query": "subductorium",
+      "target": "https://antonsoo.github.io/pyknon/helikon.html?reading=4&page=100#hk-bench",
+      "initialAddress": "https://antonsoo.github.io/pyknon/helikon.html?reading=4&page=100#hk-bench",
+      "sourceWord": "ὑπαγωγέα",
+      "interaction": {
+        "action": "The fixed strings miss two target notes; keyboard fitting puts the inner strings at 1/7 and 1/4; shortening the bridge scale raises the left note to 240 Hz without losing a target ratio; the common-support Greek and Latin and whole source page remain",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/0b658172-59d8-41cf-884e-c5f45a081849",
+          "width": 1621,
+          "height": 2200
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/pyknon/blob/d141e0dca839ac627fb50af52031283844a49f2e/docs/helikon-review.md#try-the-actual-work",
+      "nativeReviewHeadingTop": 124.765625,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "pyknon",
+      "workshop": "helikon",
+      "query": "subductorium",
+      "target": "https://antonsoo.github.io/pyknon/helikon.html?reading=4&page=100#hk-bench",
+      "initialAddress": "https://antonsoo.github.io/pyknon/helikon.html?reading=4&page=100#hk-bench",
+      "sourceWord": "ὑπαγωγέα",
+      "interaction": {
+        "action": "The fixed strings miss two target notes; keyboard fitting puts the inner strings at 1/7 and 1/4; shortening the bridge scale raises the left note to 240 Hz without losing a target ratio; the common-support Greek and Latin and whole source page remain",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/b169226f-f19d-41b7-b576-0ad9a56f11ba",
+          "width": 1621,
+          "height": 2200
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/pyknon/blob/d141e0dca839ac627fb50af52031283844a49f2e/docs/helikon-review.md#try-the-actual-work",
+      "nativeReviewHeadingTop": 507.15625,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "pyknon",
+      "workshop": "helikon",
+      "query": "subductorium",
+      "target": "https://antonsoo.github.io/pyknon/helikon.html?reading=4&page=100#hk-bench",
+      "initialAddress": "https://antonsoo.github.io/pyknon/helikon.html?reading=4&page=100#hk-bench",
+      "sourceWord": "ὑπαγωγέα",
+      "interaction": {
+        "action": "The fixed strings miss two target notes; keyboard fitting puts the inner strings at 1/7 and 1/4; shortening the bridge scale raises the left note to 240 Hz without losing a target ratio; the common-support Greek and Latin and whole source page remain",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/f1434a90-7bd1-48d1-a706-11332c48b877",
+          "width": 1621,
+          "height": 2200
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/pyknon/blob/d141e0dca839ac627fb50af52031283844a49f2e/docs/helikon-review.md#try-the-actual-work",
+      "nativeReviewHeadingTop": 214.1999969482422,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "pyknon",
+      "workshop": "helikon",
+      "query": "subductorium",
+      "target": "https://antonsoo.github.io/pyknon/helikon.html?reading=4&page=100#hk-bench",
+      "initialAddress": "https://antonsoo.github.io/pyknon/helikon.html?reading=4&page=100#hk-bench",
+      "sourceWord": "ὑπαγωγέα",
+      "interaction": {
+        "action": "The fixed strings miss two target notes; keyboard fitting puts the inner strings at 1/7 and 1/4; shortening the bridge scale raises the left note to 240 Hz without losing a target ratio; the common-support Greek and Latin and whole source page remain",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/de2a8e16-2449-430d-a4ec-461cb762b31d",
+          "width": 1621,
+          "height": 2200
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/pyknon/blob/d141e0dca839ac627fb50af52031283844a49f2e/docs/helikon-review.md#try-the-actual-work",
+      "nativeReviewHeadingTop": 399.3999938964844,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    }
+  ]
+}
