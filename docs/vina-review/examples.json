@@ -1,0 +1,38 @@
+[
+  {
+    "file": "examples/two-vinas-reading.html.gz",
+    "bytes": 4049276,
+    "sha256": "c989527b0e40036baf40319e33be14026fd637e2a8f7124bec94e1f73988e37d",
+    "decompressedSha256": "dc9dcfb6538af22422532fc54ff364d95b6ab02398e86553f24044e80ff7b37e"
+  },
+  {
+    "file": "examples/two-vinas-reading.pdf",
+    "bytes": 3356039,
+    "sha256": "ec395bbf33eb1c3f853ad29fbfee528851a344bdf71b9249011b02a8969d968a",
+    "decompressedSha256": null
+  },
+  {
+    "file": "examples/two-vinas-comparison.json",
+    "bytes": 211,
+    "sha256": "e3870c7134a4b0e1b1c61d44da69034dd5fa6e277edbfd5539537de759d4caf7",
+    "decompressedSha256": null
+  },
+  {
+    "file": "examples/two-vinas-pitches.csv",
+    "bytes": 1003,
+    "sha256": "9d46764e4cd671bb0f693b80fa7e97aa7e8c1090088e0d6495b07f86406790ad",
+    "decompressedSha256": null
+  },
+  {
+    "file": "examples/two-vinas-plate.svg",
+    "bytes": 96919,
+    "sha256": "23390422ce537bedf07336bee5ea299fc55a0365b23b972921c34a23bf94e1c9",
+    "decompressedSha256": null
+  },
+  {
+    "file": "examples/two-vinas-modern-comparison.wav",
+    "bytes": 1070444,
+    "sha256": "d2ebade97710066f58cdeaaccad553ac9eac8eb6def890989a334a4c8447ccf3",
+    "decompressedSha256": null
+  }
+]

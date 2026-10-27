@@ -1,0 +1,399 @@
+{
+  "sourceCommit": "ba3d833073678404a7e032cd61f96eaaa65755ab",
+  "freshInstallNode": "24.21.0",
+  "comparisonNode": "26.7.0",
+  "allPathsAndBytesEqual": true,
+  "files": 78,
+  "inventory": [
+    {
+      "path": "assets/IBMPlex-OFL-DekkAUlv.js",
+      "bytes": 4573,
+      "sha256": "df562831a004c245b9f9fa0d952bd942aacad4c35d4838e10c3e1c3ee3f326d3"
+    },
+    {
+      "path": "assets/NotoSerif-OFL-BfJp0Y5l.js",
+      "bytes": 4420,
+      "sha256": "d817862d25fb8983adc9ea1bce36bd055f4102c1dcf110fce69f915d2804b32c"
+    },
+    {
+      "path": "assets/canon--aVgVBMK.js",
+      "bytes": 38431,
+      "sha256": "e4ff2a7f55bfc6cc0752794608c37ebdeb534c0cbe80144e1888eba1dcff8ec0"
+    },
+    {
+      "path": "assets/canon-CgpS1fgs.css",
+      "bytes": 6257,
+      "sha256": "446930f4f53d3e0211f317a517d3e9e0749b009e3aa4c599523847ba4111e28c"
+    },
+    {
+      "path": "assets/main-DoiHvJSu.js",
+      "bytes": 24408,
+      "sha256": "26867a8f83495a09fb777ee949797bd1c0ea6454f33ef36e569fe750426420d4"
+    },
+    {
+      "path": "assets/offline-B5XKbpS2.js",
+      "bytes": 5435,
+      "sha256": "430385e39caeddaa40a8de4e2fde33ae817b6e6f5db73c162bc138c83eef45b6"
+    },
+    {
+      "path": "assets/offline-DSKqIBUv.css",
+      "bytes": 11676,
+      "sha256": "c205d254b5abf16ea22e10b255297e43984ffc125fc5f5299a003809a504f746"
+    },
+    {
+      "path": "assets/rhythm-7l_QjUmq.js",
+      "bytes": 55671,
+      "sha256": "78b09cd27ba17037180c87c2c86aa18bef2eb5365eda4f74404986a14de5ade4"
+    },
+    {
+      "path": "assets/rhythm-BxI1eojA.css",
+      "bytes": 6455,
+      "sha256": "2d5ea1c470ba22b06c0299665346adf011ef4b014ddf9b705e443548ab8f4849"
+    },
+    {
+      "path": "assets/song-DEyxbp_g.js",
+      "bytes": 28755,
+      "sha256": "c7059388426283b10cca4bbd5dce75d188d73f9b062bba72e644080f09be32c0"
+    },
+    {
+      "path": "assets/song-DU6C71Tm.css",
+      "bytes": 6660,
+      "sha256": "e87da18d9b995f447720ef476ca21d54d7562a1d7053e48d3b70705f7ef89b60"
+    },
+    {
+      "path": "assets/tension-BHR0kfAr.js",
+      "bytes": 50708,
+      "sha256": "7a857a22fe782c71ad4cb377d9867ce2b8174f957e2c2a2c307586dd4e5bbe70"
+    },
+    {
+      "path": "assets/tension-Ik-kkgcL.css",
+      "bytes": 7077,
+      "sha256": "9e46c959e8cb7f75f9fefe6ffce55ab2578e0f03668c00385e1be86128207624"
+    },
+    {
+      "path": "assets/tetrachord-BqvDPsjm.js",
+      "bytes": 2038,
+      "sha256": "9676ab0401f96fff23375a6143e159cddb1a7465ee1b529d773a0f81c6c80139"
+    },
+    {
+      "path": "assets/trial-C9QZtLCn.css",
+      "bytes": 6224,
+      "sha256": "864cad158975b48cad28a82baef00ea176f66e13c312afb6d12c9a2d4b9d146e"
+    },
+    {
+      "path": "assets/trial-EpUzpB6W.js",
+      "bytes": 39265,
+      "sha256": "d17a7e68d1e7077bc2f58aa027f4fcd38c4d916386e661950c0167b7d82d0ee6"
+    },
+    {
+      "path": "assets/vina-7cppSWUR.css",
+      "bytes": 6051,
+      "sha256": "efd74657c530035ccc81c4309801c0f9dd4e9ec3549143463c647512efab37f1"
+    },
+    {
+      "path": "assets/vina-DOSUSdKI.js",
+      "bytes": 54529,
+      "sha256": "3aa8d2e6c4ad60a33c89ff2ab096f79ab2b9e600314c4b080e0cf4353212dff6"
+    },
+    {
+      "path": "canon.html",
+      "bytes": 1121,
+      "sha256": "2aee43993d8f0198abe4bdb0d413458eda5134ef23b2e3e48fba4dcbdef7a553"
+    },
+    {
+      "path": "fonts/IBMPlex-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "path": "fonts/IBMPlexSans-Regular.woff2",
+      "bytes": 63020,
+      "sha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a"
+    },
+    {
+      "path": "fonts/IBMPlexSans-SemiBold.woff2",
+      "bytes": 67060,
+      "sha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205"
+    },
+    {
+      "path": "fonts/NotoSerif-OFL.txt",
+      "bytes": 4396,
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a"
+    },
+    {
+      "path": "fonts/NotoSerif-Regular.ttf",
+      "bytes": 444064,
+      "sha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1051,
+      "sha256": "2427afae0caa09996bc0221dc5f9be5e876f52d4cd0913da8044affe014278c3"
+    },
+    {
+      "path": "rhythm.html",
+      "bytes": 1206,
+      "sha256": "d71ee0556a289c99ccd88c252694f0ffb107a512838549bb63b4fbd77ec4a43f"
+    },
+    {
+      "path": "song.html",
+      "bytes": 1122,
+      "sha256": "1f5eb264ac1d7db0c5f420da384cbc2c01ec45cae73bd2694de4a5c3a9bedd48"
+    },
+    {
+      "path": "sources/canon/menge-170.jpg",
+      "bytes": 328144,
+      "sha256": "dcc5aa0766a580e2a3d6e10a4bbccc5bb03042a845ea8263ca2ba47fccc27817"
+    },
+    {
+      "path": "sources/canon/menge-171.jpg",
+      "bytes": 293460,
+      "sha256": "72d4dc1d525c9b2cbb3e1af95e1656dc46f3eca4edd18f56bbf39f75e98bd57d"
+    },
+    {
+      "path": "sources/canon/menge-172.jpg",
+      "bytes": 341043,
+      "sha256": "0262cfa2cb42c56e93a16a32a8f445bd31206a7fcf1216bfd53aaf98a577e522"
+    },
+    {
+      "path": "sources/canon/menge-173.jpg",
+      "bytes": 319301,
+      "sha256": "ce0f45cb57a71a92ed2dacde8677d7979383bfc57c4eb85b4e6ad669c8c5844e"
+    },
+    {
+      "path": "sources/canon/menge-174.jpg",
+      "bytes": 315662,
+      "sha256": "df0a0f90048b46f60fadf024e8248789f87d2ece67cc344f94df2a739e8da130"
+    },
+    {
+      "path": "sources/canon/menge-175.jpg",
+      "bytes": 296605,
+      "sha256": "2edd6567bbf8f54e95fac83d6a2fc84077129dd9d2ec11fef07918129c44d1fc"
+    },
+    {
+      "path": "sources/macran-182.jpg",
+      "bytes": 373644,
+      "sha256": "870edc78b7ed3e08e38bfbe458722a774623562228152b2d9c07ed74c8165697"
+    },
+    {
+      "path": "sources/rhythm/manifest.json",
+      "bytes": 2425,
+      "sha256": "ca7e4a14a6c65e9a0ee3e9bfc7b2d0fbe6db82d8689f504bfa3186c1242c83ac"
+    },
+    {
+      "path": "sources/rhythm/westphal-28.jpg",
+      "bytes": 334264,
+      "sha256": "c455c4d03ceac6dfde47ec08628b5704ef23d31c14e2fa2ca76f7148f1484d54"
+    },
+    {
+      "path": "sources/rhythm/westphal-31.jpg",
+      "bytes": 527474,
+      "sha256": "323add28a636b727597fe6b409f579965ad65c9a36c12f27b8f9bf4b30695056"
+    },
+    {
+      "path": "sources/rhythm/westphal-33.jpg",
+      "bytes": 535721,
+      "sha256": "e99aff7fb72ea74f5cb31f077c990a0f5108493bf20c71bd383f57ce4a07d48e"
+    },
+    {
+      "path": "sources/rhythm/westphal-34.jpg",
+      "bytes": 533950,
+      "sha256": "ae30fe891d856634660a9a3b995b812b04bb5096dcf1c351a8a79637925b1f39"
+    },
+    {
+      "path": "sources/rhythm/westphal-35.jpg",
+      "bytes": 463225,
+      "sha256": "c97c8aa74cff5f0c82ffd76961c8109bd6aa5d95db4f930d78212e94dafdbab7"
+    },
+    {
+      "path": "sources/rhythm/westphal-36.jpg",
+      "bytes": 464115,
+      "sha256": "591624336ea6d720443425ea71d69cc7c49b700fe3697942386b8af1e1208600"
+    },
+    {
+      "path": "sources/rhythm/westphal-37.jpg",
+      "bytes": 503768,
+      "sha256": "9c6d99267e239d061a674e464404e1818067c6a33746b6d9a6df4b900a506f1e"
+    },
+    {
+      "path": "sources/rhythm/westphal-title.jpg",
+      "bytes": 75951,
+      "sha256": "255cc1aaf6044cdf06ae32b5c09aa8e59fac08177a7276c43035dd40fa39988f"
+    },
+    {
+      "path": "sources/seikilos/inscription.jpg",
+      "bytes": 210980,
+      "sha256": "da774306bb3f05873e7126596612e5b623bd9255b0564b36d11bfb1be4826729"
+    },
+    {
+      "path": "sources/seikilos/monro-correction.jpg",
+      "bytes": 32797,
+      "sha256": "6df42768a72811fa199c7d89bd4c4ebbc9fb46d0d1d63e413a6b4c845a60c34d"
+    },
+    {
+      "path": "sources/seikilos/monro-ending.jpg",
+      "bytes": 18620,
+      "sha256": "c2a8ad3dbf2feaebde1b51f25aee415690ec3254c5f65d74daf27405a0d10ac3"
+    },
+    {
+      "path": "sources/seikilos/stele.jpg",
+      "bytes": 64634,
+      "sha256": "9ddb805f113cdb555dde628b40c8c1efc3e9fb6c0b13d42905ab7dfb726b8050"
+    },
+    {
+      "path": "sources/tension/NOTICES.txt",
+      "bytes": 2171,
+      "sha256": "de4408c53564bfb09d4e80e832fd08f39f85212b1d2f0e044fd55b24a5d3ddfb"
+    },
+    {
+      "path": "sources/tension/jan-245.jpg",
+      "bytes": 564124,
+      "sha256": "5e20d60217ddd698bdbee57f4bea74bd3a3c9fdaefaa58bfeb40b500b23583a6"
+    },
+    {
+      "path": "sources/tension/jan-246.jpg",
+      "bytes": 587391,
+      "sha256": "2a5b8357d25c3b41269f1a164665a134c2c17fc8ca569af343a7dd29176395f0"
+    },
+    {
+      "path": "sources/tension/jan-247.jpg",
+      "bytes": 579773,
+      "sha256": "848dc43cc51bb30285d8530b832f92b8bf93a41966abf4b3870798c0d734c34e"
+    },
+    {
+      "path": "sources/tension/jan-248.jpg",
+      "bytes": 582046,
+      "sha256": "5398d7676618daeff10f99bbea5f7e6def15155d26819bf4eab80243cd424543"
+    },
+    {
+      "path": "sources/tension/meibom-10.jpg",
+      "bytes": 743923,
+      "sha256": "1b866e57f0b80c910044bdf9744aab9371fa8dd9df4089da6900cfee566fb842"
+    },
+    {
+      "path": "sources/tension/meibom-11.jpg",
+      "bytes": 739545,
+      "sha256": "5ce85c67b28dc2ef688fb9309f5a614c8997d3173aa1a1acde74b3fb68a2b9ee"
+    },
+    {
+      "path": "sources/tension/meibom-12.jpg",
+      "bytes": 717201,
+      "sha256": "15e401128c904038a81a98564f30248862fb79aba5a4d1ba20d500892ca0a2ff"
+    },
+    {
+      "path": "sources/tension/meibom-13.jpg",
+      "bytes": 703681,
+      "sha256": "2c21c82d858bdae135a9bc2363505c209d34f0c63f0a292c5ef3f1f1cbfa24ca"
+    },
+    {
+      "path": "sources/trial/manifest.json",
+      "bytes": 1589,
+      "sha256": "a25a6ea5291bd08223bddfe2566d7a104b70ce80aaf75d16e8e7de160c4c2d03"
+    },
+    {
+      "path": "sources/trial/wallis-33.jpg",
+      "bytes": 388580,
+      "sha256": "a8f150e64864e4b57e196a74ae7791f277dc14408c24553c4a0b4f157276b76e"
+    },
+    {
+      "path": "sources/trial/wallis-34.jpg",
+      "bytes": 440943,
+      "sha256": "2f5e135b552fdf18d33b2acbd62de63014f4976d4d73119f7057cd80f2a85ad4"
+    },
+    {
+      "path": "sources/trial/wallis-35.jpg",
+      "bytes": 382400,
+      "sha256": "845b1b834be897fb29228cac2f0d9e5d63d2b9ee6e5197c1e5414f6054bec699"
+    },
+    {
+      "path": "sources/trial/wallis-36.jpg",
+      "bytes": 474075,
+      "sha256": "b19f0f0711bbb330e6be15adbdcc8673d5c18a07251041e19e87b179e8ecec3a"
+    },
+    {
+      "path": "sources/trial/wallis-37.jpg",
+      "bytes": 411937,
+      "sha256": "03a75e9a322834a5cef8409dca253df3bc4f9c2f7c80e66e8ae5652a7d5ac136"
+    },
+    {
+      "path": "sources/trial/wallis-38.jpg",
+      "bytes": 316899,
+      "sha256": "d750fde885dfaf57eae7c7ac3fa2c48c2e6bdd99ee1c7f5298935e1254322983"
+    },
+    {
+      "path": "sources/vina/grosset-27.jpg",
+      "bytes": 429690,
+      "sha256": "d8b852b6e94df011a50652f56868508a42795710faed46328c41a157c101ac37"
+    },
+    {
+      "path": "sources/vina/grosset-28.jpg",
+      "bytes": 431366,
+      "sha256": "a91b49178abfeea7daa478843f6d385ff4d0136d2733abdb95bd2bdca66bafe3"
+    },
+    {
+      "path": "sources/vina/grosset-29.jpg",
+      "bytes": 432007,
+      "sha256": "a60790bddea16456a75196c9274597a67b5e43531a65a843748d5397dc513ebe"
+    },
+    {
+      "path": "sources/vina/grosset-57.jpg",
+      "bytes": 366224,
+      "sha256": "df9ad6c7f6670b43d61dc3f52b60a04ea870168478d9518d6b769db707f3c685"
+    },
+    {
+      "path": "sources/vina/grosset-58.jpg",
+      "bytes": 308607,
+      "sha256": "8bcec2a956b7806d12b77dafe0ad7b7cdc94a9cc2987796a8a3bd42866049451"
+    },
+    {
+      "path": "sources/vina/grosset-85.jpg",
+      "bytes": 550402,
+      "sha256": "33fc04ff5c2beea21b25d012c3585359099c0c3299c07c924685433e984ba29c"
+    },
+    {
+      "path": "sources/vina/grosset-86.jpg",
+      "bytes": 559732,
+      "sha256": "b5642515a6952029d66983102499d292f221628721cd82a93c733065c38b39cb"
+    },
+    {
+      "path": "sources/vina/grosset-title.jpg",
+      "bytes": 131027,
+      "sha256": "4f4135b270449c5d6078abc6ab5e9ecd8a1951233c4e76d62e28a3af0b31ab61"
+    },
+    {
+      "path": "sources/vina/manifest.json",
+      "bytes": 3660,
+      "sha256": "ac59be7ee987dc76e345fb2c6ebff41bc4d86a15b890d13b0da84bbbbd027b97"
+    },
+    {
+      "path": "sources/wallis-62.jpg",
+      "bytes": 608756,
+      "sha256": "bb4e8eb52d20cc23cbb91b4e1ff6a8319e8bd0a8092ab8b899d2970087d427c2"
+    },
+    {
+      "path": "sources/wallis-63.jpg",
+      "bytes": 547639,
+      "sha256": "e9d74ef39d02b2dd124792b8ebff2260805ceeead6bde6a3be0adb1a904dbafd"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 12473,
+      "sha256": "a8f67b4316a1f6b07a1e3fb95a0bc45e214bcbebb6c1105693feb27b7c306702"
+    },
+    {
+      "path": "tension.html",
+      "bytes": 1310,
+      "sha256": "6268764ec4fe7694a0fa28155db04dfe6f38aed5ebadb5f24ecb6a04f5e3368e"
+    },
+    {
+      "path": "trial.html",
+      "bytes": 1249,
+      "sha256": "89fbce40c92b0ef2a25d110ee3ce6e0b1cc0399ba6eeb90b26e5ebe352d72545"
+    },
+    {
+      "path": "vina.html",
+      "bytes": 1313,
+      "sha256": "16a5f29b44e9c5ecc87fa888e6f50a0b33626e17f82ecf9e00adcf703d879ee7"
+    }
+  ]
+}

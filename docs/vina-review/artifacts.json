@@ -1,0 +1,64 @@
+{
+  "status": "passed",
+  "contexts": [
+    {
+      "context": "chromium-1440",
+      "htmlBytes": 8052621,
+      "htmlSha256": "dc9dcfb6538af22422532fc54ff364d95b6ab02398e86553f24044e80ff7b37e",
+      "sourceJpegs": 8,
+      "fonts": 3,
+      "svgGroupsMatchActualCsv": 14,
+      "embeddedAudioMatchesNativeWav": true,
+      "nativeRecordsMatchEmbeddedDownloads": true,
+      "fullCodeAndFontNotices": true,
+      "scripts": 0
+    },
+    {
+      "context": "chromium-375",
+      "htmlBytes": 8052621,
+      "htmlSha256": "dc9dcfb6538af22422532fc54ff364d95b6ab02398e86553f24044e80ff7b37e",
+      "sourceJpegs": 8,
+      "fonts": 3,
+      "svgGroupsMatchActualCsv": 14,
+      "embeddedAudioMatchesNativeWav": true,
+      "nativeRecordsMatchEmbeddedDownloads": true,
+      "fullCodeAndFontNotices": true,
+      "scripts": 0
+    },
+    {
+      "context": "firefox-1440",
+      "htmlBytes": 8052621,
+      "htmlSha256": "247ff5861517f6e69213d27e8e6a495d93563882ea58f9279ce045196b8813ff",
+      "sourceJpegs": 8,
+      "fonts": 3,
+      "svgGroupsMatchActualCsv": 14,
+      "embeddedAudioMatchesNativeWav": true,
+      "nativeRecordsMatchEmbeddedDownloads": true,
+      "fullCodeAndFontNotices": true,
+      "scripts": 0
+    },
+    {
+      "context": "firefox-375",
+      "htmlBytes": 8052621,
+      "htmlSha256": "247ff5861517f6e69213d27e8e6a495d93563882ea58f9279ce045196b8813ff",
+      "sourceJpegs": 8,
+      "fonts": 3,
+      "svgGroupsMatchActualCsv": 14,
+      "embeddedAudioMatchesNativeWav": true,
+      "nativeRecordsMatchEmbeddedDownloads": true,
+      "fullCodeAndFontNotices": true,
+      "scripts": 0
+    }
+  ],
+  "print": {
+    "pages": 15,
+    "originalSourceJpegsRecoverableByteForByte": 8,
+    "orderedSourceCaptions": 8,
+    "embeddedFontInstances": 7,
+    "wordsInside25ptMargins": 2033,
+    "wholeSanskritWordsSearchable": true,
+    "javaScript": false,
+    "physicalPrinting": "not tested",
+    "taggedPdfAccessibility": "not established"
+  }
+}

@@ -405,6 +405,6 @@ try {
   await new Promise((resolve) => server.close(resolve));
   await writeFile(
     output,
-    `${JSON.stringify({ scope: "Controlled six-to-seven-room upgrade at 375 px; Chromium authentic late reply before inspector timeout, plus held/substituted precache in both engines; browser offline while local origin remains available", currentWorkerSha256: createHash("sha256").update(newFiles.get("sw.js")).digest("hex"), oldFileCount: oldFiles.size, newFileCount: newFiles.size, records }, null, 2)}\n`,
+    `${JSON.stringify({ scope: "Controlled six-to-seven-room upgrade at 375 px; Chromium authentic late reply before inspector timeout, plus held/substituted precache in both engines; seven-room use with browser offline; optional old-room navigation while the origin refuses requests", currentWorkerSha256: createHash("sha256").update(newFiles.get("sw.js")).digest("hex"), oldFileCount: oldFiles.size, newFileCount: newFiles.size, records }, null, 2)}\n`,
   );
 }

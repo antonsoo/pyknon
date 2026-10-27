@@ -1,0 +1,180 @@
+{
+  "scope": "Controlled six-to-seven-room upgrades at 375 px; held/substituted precache in both engines, actual late old reply in Chromium; old-room navigation while origin refuses requests, followed by seven-room browser-offline use",
+  "currentWorkerSha256": "a8f67b4316a1f6b07a1e3fb95a0bc45e214bcbebb6c1105693feb27b7c306702",
+  "oldFileCount": 65,
+  "newFileCount": 78,
+  "records": [
+    {
+      "engine": "chromium",
+      "mode": "hold",
+      "oldEdition": "5849b27213ca5876f801c249e12d6b0317b35eaea176f464d2e67b39ebe0c926",
+      "newEdition": "2ae29ce5c27911982b1a712d4a202c3825c6d49c33bcc6200027d2709a96193c",
+      "before": "This edition is not saved offline. Keep this tab open to continue reading.",
+      "workerAfter": {
+        "type": "PYKNON_EDITION",
+        "edition": "2ae29ce5c27911982b1a712d4a202c3825c6d49c33bcc6200027d2709a96193c",
+        "complete": true
+      },
+      "after": "Ready offline \u00b7 all seven rooms, audio, diagrams & source scans saved.",
+      "automaticallyAcknowledged": true,
+      "staleReplyIgnored": false,
+      "wrongHttp200Responses": [],
+      "expectedIntegrityConsoleErrors": [],
+      "offlineSevenRooms": [
+        "index.html",
+        "song.html",
+        "canon.html",
+        "trial.html",
+        "rhythm.html",
+        "tension.html",
+        "vina.html"
+      ],
+      "oldRoomUsedWithOriginRefusingRequests": true,
+      "oldStatusDuringUpdate": "Checking offline availability\u2026",
+      "oldOpenTabAcknowledgedThenReloaded": true,
+      "inspectionAfterDeletionDidNotCreateCache": true,
+      "offlineIllustratedReadingSaved": true
+    },
+    {
+      "engine": "chromium",
+      "mode": "wrong",
+      "oldEdition": "5849b27213ca5876f801c249e12d6b0317b35eaea176f464d2e67b39ebe0c926",
+      "newEdition": "2ae29ce5c27911982b1a712d4a202c3825c6d49c33bcc6200027d2709a96193c",
+      "before": "This edition is not saved offline. Keep this tab open to continue reading.",
+      "workerAfter": {
+        "type": "PYKNON_EDITION",
+        "edition": "2ae29ce5c27911982b1a712d4a202c3825c6d49c33bcc6200027d2709a96193c",
+        "complete": true
+      },
+      "after": "Ready offline \u00b7 all seven rooms, audio, diagrams & source scans saved.",
+      "automaticallyAcknowledged": true,
+      "staleReplyIgnored": false,
+      "wrongHttp200Responses": [
+        {
+          "url": "/pyknon/vina.html",
+          "status": 200,
+          "oldEntryInsteadOfNewRoom": true
+        }
+      ],
+      "expectedIntegrityConsoleErrors": [],
+      "offlineSevenRooms": [
+        "index.html",
+        "song.html",
+        "canon.html",
+        "trial.html",
+        "rhythm.html",
+        "tension.html",
+        "vina.html"
+      ],
+      "oldRoomUsedWithOriginRefusingRequests": true,
+      "oldStatusDuringUpdate": "Ready offline \u00b7 all six rooms, audio, diagrams & source scans saved.",
+      "oldOpenTabAcknowledgedThenReloaded": true,
+      "inspectionAfterDeletionDidNotCreateCache": true,
+      "offlineIllustratedReadingSaved": true
+    },
+    {
+      "engine": "chromium",
+      "mode": "late",
+      "oldEdition": "5849b27213ca5876f801c249e12d6b0317b35eaea176f464d2e67b39ebe0c926",
+      "newEdition": "2ae29ce5c27911982b1a712d4a202c3825c6d49c33bcc6200027d2709a96193c",
+      "before": "This edition is not saved offline. Keep this tab open to continue reading.",
+      "workerAfter": {
+        "type": "PYKNON_EDITION",
+        "edition": "2ae29ce5c27911982b1a712d4a202c3825c6d49c33bcc6200027d2709a96193c",
+        "complete": true
+      },
+      "after": "Ready offline \u00b7 all seven rooms, audio, diagrams & source scans saved.",
+      "automaticallyAcknowledged": true,
+      "staleReplyIgnored": true,
+      "wrongHttp200Responses": [],
+      "expectedIntegrityConsoleErrors": [],
+      "offlineSevenRooms": [
+        "index.html",
+        "song.html",
+        "canon.html",
+        "trial.html",
+        "rhythm.html",
+        "tension.html",
+        "vina.html"
+      ],
+      "oldRoomUsedWithOriginRefusingRequests": true,
+      "oldStatusDuringUpdate": "Checking offline availability\u2026",
+      "oldOpenTabAcknowledgedThenReloaded": true,
+      "inspectionAfterDeletionDidNotCreateCache": true,
+      "offlineIllustratedReadingSaved": true
+    },
+    {
+      "engine": "firefox",
+      "mode": "hold",
+      "oldEdition": "5849b27213ca5876f801c249e12d6b0317b35eaea176f464d2e67b39ebe0c926",
+      "newEdition": "2ae29ce5c27911982b1a712d4a202c3825c6d49c33bcc6200027d2709a96193c",
+      "before": "This edition is not saved offline. Keep this tab open to continue reading.",
+      "workerAfter": {
+        "type": "PYKNON_EDITION",
+        "edition": "2ae29ce5c27911982b1a712d4a202c3825c6d49c33bcc6200027d2709a96193c",
+        "complete": true
+      },
+      "after": "Ready offline \u00b7 all seven rooms, audio, diagrams & source scans saved.",
+      "automaticallyAcknowledged": true,
+      "staleReplyIgnored": false,
+      "wrongHttp200Responses": [],
+      "expectedIntegrityConsoleErrors": [],
+      "offlineSevenRooms": [
+        "index.html",
+        "song.html",
+        "canon.html",
+        "trial.html",
+        "rhythm.html",
+        "tension.html",
+        "vina.html"
+      ],
+      "oldRoomUsedWithOriginRefusingRequests": true,
+      "oldStatusDuringUpdate": "Checking offline availability\u2026",
+      "oldOpenTabAcknowledgedThenReloaded": true,
+      "inspectionAfterDeletionDidNotCreateCache": true,
+      "offlineIllustratedReadingSaved": true
+    },
+    {
+      "engine": "firefox",
+      "mode": "wrong",
+      "oldEdition": "5849b27213ca5876f801c249e12d6b0317b35eaea176f464d2e67b39ebe0c926",
+      "newEdition": "2ae29ce5c27911982b1a712d4a202c3825c6d49c33bcc6200027d2709a96193c",
+      "before": "This edition is not saved offline. Keep this tab open to continue reading.",
+      "workerAfter": {
+        "type": "PYKNON_EDITION",
+        "edition": "2ae29ce5c27911982b1a712d4a202c3825c6d49c33bcc6200027d2709a96193c",
+        "complete": true
+      },
+      "after": "Ready offline \u00b7 all seven rooms, audio, diagrams & source scans saved.",
+      "automaticallyAcknowledged": true,
+      "staleReplyIgnored": false,
+      "wrongHttp200Responses": [
+        {
+          "url": "/pyknon/vina.html",
+          "status": 200,
+          "oldEntryInsteadOfNewRoom": true
+        },
+        {
+          "url": "/pyknon/vina.html",
+          "status": 200,
+          "oldEntryInsteadOfNewRoom": true
+        }
+      ],
+      "expectedIntegrityConsoleErrors": [],
+      "offlineSevenRooms": [
+        "index.html",
+        "song.html",
+        "canon.html",
+        "trial.html",
+        "rhythm.html",
+        "tension.html",
+        "vina.html"
+      ],
+      "oldRoomUsedWithOriginRefusingRequests": true,
+      "oldStatusDuringUpdate": "Ready offline \u00b7 all six rooms, audio, diagrams & source scans saved.",
+      "oldOpenTabAcknowledgedThenReloaded": true,
+      "inspectionAfterDeletionDidNotCreateCache": true,
+      "offlineIllustratedReadingSaved": true
+    }
+  ]
+}

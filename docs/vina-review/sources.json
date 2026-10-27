@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "sourcePdf": {
+    "url": "https://archive.org/download/dli.ministry.04243/20900.158%2520A%252081.pdf",
+    "bytes": 7475773,
+    "sha256": "1eb7997ccdeb25bcd92a1269ece6ef634502f2276b46eb78a8a2da1a53465872",
+    "md5": "fa6fac455c6b9b032ec79fbb21d67665"
+  },
+  "renderer": "pdftoppm version 24.02.0",
+  "pages": [
+    {
+      "id": "title",
+      "pdfPage": 163,
+      "bytes": 131027,
+      "sha256": "4f4135b270449c5d6078abc6ab5e9ecd8a1951233c4e76d62e28a3af0b31ab61",
+      "wholeRenderedPageMatches": true
+    },
+    {
+      "id": "27",
+      "pdfPage": 189,
+      "bytes": 429690,
+      "sha256": "d8b852b6e94df011a50652f56868508a42795710faed46328c41a157c101ac37",
+      "wholeRenderedPageMatches": true
+    },
+    {
+      "id": "28",
+      "pdfPage": 190,
+      "bytes": 431366,
+      "sha256": "a91b49178abfeea7daa478843f6d385ff4d0136d2733abdb95bd2bdca66bafe3",
+      "wholeRenderedPageMatches": true
+    },
+    {
+      "id": "29",
+      "pdfPage": 191,
+      "bytes": 432007,
+      "sha256": "a60790bddea16456a75196c9274597a67b5e43531a65a843748d5397dc513ebe",
+      "wholeRenderedPageMatches": true
+    },
+    {
+      "id": "57",
+      "pdfPage": 219,
+      "bytes": 366224,
+      "sha256": "df9ad6c7f6670b43d61dc3f52b60a04ea870168478d9518d6b769db707f3c685",
+      "wholeRenderedPageMatches": true
+    },
+    {
+      "id": "58",
+      "pdfPage": 220,
+      "bytes": 308607,
+      "sha256": "8bcec2a956b7806d12b77dafe0ad7b7cdc94a9cc2987796a8a3bd42866049451",
+      "wholeRenderedPageMatches": true
+    },
+    {
+      "id": "85",
+      "pdfPage": 247,
+      "bytes": 550402,
+      "sha256": "33fc04ff5c2beea21b25d012c3585359099c0c3299c07c924685433e984ba29c",
+      "wholeRenderedPageMatches": true
+    },
+    {
+      "id": "86",
+      "pdfPage": 248,
+      "bytes": 559732,
+      "sha256": "b5642515a6952029d66983102499d292f221628721cd82a93c733065c38b39cb",
+      "wholeRenderedPageMatches": true
+    }
+  ]
+}

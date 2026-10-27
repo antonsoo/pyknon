@@ -44,6 +44,8 @@ With `npm run preview` serving the production build, also run
 `npm run test:vina-integrity -- http://127.0.0.1:4329/pyknon/ /tmp/pyknon-vina-integrity`.
 It completes an older response, substitutes valid but wrong page/font files,
 checks verified retry, edits a pending export and delays a real file import.
+Reproduce the eight whole scans from the identified original PDF with
+`python3 scripts/vina-sources.py --pdf /path/to/original.pdf` (omit `--pdf` to download it).
 For upgrades, pass the previous build and receipt path to
 `npm run test:vina-upgrade -- "$PREVIOUS_DIST" /tmp/vina-upgrade.json`.
 Keep local, clean-build, public-hosting, browser and generated-PCM evidence

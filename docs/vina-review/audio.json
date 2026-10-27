@@ -1,0 +1,332 @@
+{
+  "status": "passed",
+  "files": 16,
+  "method": "Independent frequency-ratio predictions; interpolated zero crossings and full-PCM phase/envelope fit; no application imports",
+  "physicalSpeakers": "not measured",
+  "checks": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "file": "chromium-1440/pair.wav",
+      "sampleRate": 48000,
+      "samples": 249600,
+      "measuredSegments": 3,
+      "maximumAbsoluteFrequencyErrorCents": 9.222169003415648e-5,
+      "pcmRmsOutsideAutomationEdges": 7.907550332501945e-6,
+      "maximumAutomationEdgeSampleDeviation": 1.5564564004394432e-5,
+      "automationEdgeWindowFrames": 128,
+      "wholeToneConstantPhaseRmsDiagnostic": 8.297290491714446e-6,
+      "frequenciesHz": [97.77777777777777, 97.77777777777777, 97.77777777777777],
+      "amplitudes": [0.16000854518265328, 0.16000854518265328, 0.31998657185583057]
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "file": "chromium-1440/fixed.wav",
+      "sampleRate": 48000,
+      "samples": 256801,
+      "measuredSegments": 8,
+      "maximumAbsoluteFrequencyErrorCents": 0.00033966486938082443,
+      "pcmRmsOutsideAutomationEdges": 7.498529449673389e-6,
+      "maximumAutomationEdgeSampleDeviation": 0.005840948809214729,
+      "automationEdgeWindowFrames": 128,
+      "wholeToneConstantPhaseRmsDiagnostic": 7.267834284670434e-5,
+      "frequenciesHz": [
+        110.0, 120.15921349756255, 130.37037037037035, 146.66666666666666, 165.0, 180.2388202463438,
+        195.55555555555554, 220.0
+      ],
+      "amplitudes": [
+        0.16000854518265328, 0.16000854518265328, 0.16000854518265328, 0.16000854518265328,
+        0.16000854518265328, 0.16000854518265328, 0.16000854518265328, 0.16000854518265328
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "file": "chromium-1440/moving.wav",
+      "sampleRate": 48000,
+      "samples": 256801,
+      "measuredSegments": 8,
+      "maximumAbsoluteFrequencyErrorCents": 0.0002986836431137602,
+      "pcmRmsOutsideAutomationEdges": 7.464148720749719e-6,
+      "maximumAutomationEdgeSampleDeviation": 0.006140507079076235,
+      "automationEdgeWindowFrames": 128,
+      "wholeToneConstantPhaseRmsDiagnostic": 7.81586923978792e-5,
+      "frequenciesHz": [
+        97.77777777777777, 106.80818977561115, 115.88477366255142, 130.37037037037035,
+        146.66666666666666, 160.2122846634167, 173.82716049382714, 195.55555555555554
+      ],
+      "amplitudes": [
+        0.16000854518265328, 0.16000854518265328, 0.16000854518265328, 0.16000854518265328,
+        0.16000854518265328, 0.16000854518265328, 0.16000854518265328, 0.16000854518265328
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "file": "chromium-1440/compare.wav",
+      "sampleRate": 48000,
+      "samples": 535200,
+      "measuredSegments": 16,
+      "maximumAbsoluteFrequencyErrorCents": 0.00033966486938082443,
+      "pcmRmsOutsideAutomationEdges": 7.3417368247115036e-6,
+      "maximumAutomationEdgeSampleDeviation": 0.005840948809214729,
+      "automationEdgeWindowFrames": 128,
+      "wholeToneConstantPhaseRmsDiagnostic": 7.158135462983421e-5,
+      "frequenciesHz": [
+        110.0, 122.22222222222223, 130.37037037037035, 146.66666666666666, 165.0,
+        183.33333333333334, 195.55555555555554, 220.0, 110.0, 120.15921349756255,
+        130.37037037037035, 146.66666666666666, 165.0, 180.2388202463438, 195.55555555555554, 220.0
+      ],
+      "amplitudes": [
+        0.16000854518265328, 0.16000854518265328, 0.16000854518265328, 0.16000854518265328,
+        0.16000854518265328, 0.16000854518265328, 0.16000854518265328, 0.16000854518265328,
+        0.16000854518265328, 0.16000854518265328, 0.16000854518265328, 0.16000854518265328,
+        0.16000854518265328, 0.16000854518265328, 0.16000854518265328, 0.16000854518265328
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "file": "chromium-375/pair.wav",
+      "sampleRate": 48000,
+      "samples": 249600,
+      "measuredSegments": 3,
+      "maximumAbsoluteFrequencyErrorCents": 9.222169003415648e-5,
+      "pcmRmsOutsideAutomationEdges": 7.907550332501945e-6,
+      "maximumAutomationEdgeSampleDeviation": 1.5564564004394432e-5,
+      "automationEdgeWindowFrames": 128,
+      "wholeToneConstantPhaseRmsDiagnostic": 8.297290491714446e-6,
+      "frequenciesHz": [97.77777777777777, 97.77777777777777, 97.77777777777777],
+      "amplitudes": [0.16000854518265328, 0.16000854518265328, 0.31998657185583057]
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "file": "chromium-375/fixed.wav",
+      "sampleRate": 48000,
+      "samples": 256801,
+      "measuredSegments": 8,
+      "maximumAbsoluteFrequencyErrorCents": 0.00033966486938082443,
+      "pcmRmsOutsideAutomationEdges": 7.498529449673389e-6,
+      "maximumAutomationEdgeSampleDeviation": 0.005840948809214729,
+      "automationEdgeWindowFrames": 128,
+      "wholeToneConstantPhaseRmsDiagnostic": 7.267834284670434e-5,
+      "frequenciesHz": [
+        110.0, 120.15921349756255, 130.37037037037035, 146.66666666666666, 165.0, 180.2388202463438,
+        195.55555555555554, 220.0
+      ],
+      "amplitudes": [
+        0.16000854518265328, 0.16000854518265328, 0.16000854518265328, 0.16000854518265328,
+        0.16000854518265328, 0.16000854518265328, 0.16000854518265328, 0.16000854518265328
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "file": "chromium-375/moving.wav",
+      "sampleRate": 48000,
+      "samples": 256801,
+      "measuredSegments": 8,
+      "maximumAbsoluteFrequencyErrorCents": 0.0002986836431137602,
+      "pcmRmsOutsideAutomationEdges": 7.464148720749719e-6,
+      "maximumAutomationEdgeSampleDeviation": 0.006140507079076235,
+      "automationEdgeWindowFrames": 128,
+      "wholeToneConstantPhaseRmsDiagnostic": 7.81586923978792e-5,
+      "frequenciesHz": [
+        97.77777777777777, 106.80818977561115, 115.88477366255142, 130.37037037037035,
+        146.66666666666666, 160.2122846634167, 173.82716049382714, 195.55555555555554
+      ],
+      "amplitudes": [
+        0.16000854518265328, 0.16000854518265328, 0.16000854518265328, 0.16000854518265328,
+        0.16000854518265328, 0.16000854518265328, 0.16000854518265328, 0.16000854518265328
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "file": "chromium-375/compare.wav",
+      "sampleRate": 48000,
+      "samples": 535200,
+      "measuredSegments": 16,
+      "maximumAbsoluteFrequencyErrorCents": 0.00033966486938082443,
+      "pcmRmsOutsideAutomationEdges": 7.3417368247115036e-6,
+      "maximumAutomationEdgeSampleDeviation": 0.005840948809214729,
+      "automationEdgeWindowFrames": 128,
+      "wholeToneConstantPhaseRmsDiagnostic": 7.158135462983421e-5,
+      "frequenciesHz": [
+        110.0, 122.22222222222223, 130.37037037037035, 146.66666666666666, 165.0,
+        183.33333333333334, 195.55555555555554, 220.0, 110.0, 120.15921349756255,
+        130.37037037037035, 146.66666666666666, 165.0, 180.2388202463438, 195.55555555555554, 220.0
+      ],
+      "amplitudes": [
+        0.16000854518265328, 0.16000854518265328, 0.16000854518265328, 0.16000854518265328,
+        0.16000854518265328, 0.16000854518265328, 0.16000854518265328, 0.16000854518265328,
+        0.16000854518265328, 0.16000854518265328, 0.16000854518265328, 0.16000854518265328,
+        0.16000854518265328, 0.16000854518265328, 0.16000854518265328, 0.16000854518265328
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "file": "firefox-1440/pair.wav",
+      "sampleRate": 48000,
+      "samples": 249600,
+      "measuredSegments": 3,
+      "maximumAbsoluteFrequencyErrorCents": 0.005321268440768039,
+      "pcmRmsOutsideAutomationEdges": 1.1628225791878332e-5,
+      "maximumAutomationEdgeSampleDeviation": 3.268661822701524e-5,
+      "automationEdgeWindowFrames": 128,
+      "wholeToneConstantPhaseRmsDiagnostic": 0.00015244940065778427,
+      "frequenciesHz": [97.77777777777777, 97.77777777777777, 97.77777777777777],
+      "amplitudes": [0.16000854518265328, 0.16000854518265328, 0.31998657185583057]
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "file": "firefox-1440/fixed.wav",
+      "sampleRate": 48000,
+      "samples": 256801,
+      "measuredSegments": 8,
+      "maximumAbsoluteFrequencyErrorCents": 0.006492791231097444,
+      "pcmRmsOutsideAutomationEdges": 1.0268988242015306e-5,
+      "maximumAutomationEdgeSampleDeviation": 3.4579981918712865e-5,
+      "automationEdgeWindowFrames": 128,
+      "wholeToneConstantPhaseRmsDiagnostic": 3.2872669769981345e-5,
+      "frequenciesHz": [
+        110.0, 120.15921349756255, 130.37037037037035, 146.66666666666666, 165.0, 180.2388202463438,
+        195.55555555555554, 220.0
+      ],
+      "amplitudes": [
+        0.16000854518265328, 0.16000854518265328, 0.16000854518265328, 0.16000854518265328,
+        0.16000854518265328, 0.16000854518265328, 0.16000854518265328, 0.16000854518265328
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "file": "firefox-1440/moving.wav",
+      "sampleRate": 48000,
+      "samples": 256801,
+      "measuredSegments": 8,
+      "maximumAbsoluteFrequencyErrorCents": 0.005692377554466592,
+      "pcmRmsOutsideAutomationEdges": 9.590110340510137e-6,
+      "maximumAutomationEdgeSampleDeviation": 3.456577541429556e-5,
+      "automationEdgeWindowFrames": 128,
+      "wholeToneConstantPhaseRmsDiagnostic": 2.827137081383331e-5,
+      "frequenciesHz": [
+        97.77777777777777, 106.80818977561115, 115.88477366255142, 130.37037037037035,
+        146.66666666666666, 160.2122846634167, 173.82716049382714, 195.55555555555554
+      ],
+      "amplitudes": [
+        0.16000854518265328, 0.16000854518265328, 0.16000854518265328, 0.16000854518265328,
+        0.16000854518265328, 0.16000854518265328, 0.16000854518265328, 0.16000854518265328
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "file": "firefox-1440/compare.wav",
+      "sampleRate": 48000,
+      "samples": 535200,
+      "measuredSegments": 16,
+      "maximumAbsoluteFrequencyErrorCents": 0.006492791231097444,
+      "pcmRmsOutsideAutomationEdges": 9.826609998544798e-6,
+      "maximumAutomationEdgeSampleDeviation": 3.4579981918712865e-5,
+      "automationEdgeWindowFrames": 128,
+      "wholeToneConstantPhaseRmsDiagnostic": 3.0740225639525314e-5,
+      "frequenciesHz": [
+        110.0, 122.22222222222223, 130.37037037037035, 146.66666666666666, 165.0,
+        183.33333333333334, 195.55555555555554, 220.0, 110.0, 120.15921349756255,
+        130.37037037037035, 146.66666666666666, 165.0, 180.2388202463438, 195.55555555555554, 220.0
+      ],
+      "amplitudes": [
+        0.16000854518265328, 0.16000854518265328, 0.16000854518265328, 0.16000854518265328,
+        0.16000854518265328, 0.16000854518265328, 0.16000854518265328, 0.16000854518265328,
+        0.16000854518265328, 0.16000854518265328, 0.16000854518265328, 0.16000854518265328,
+        0.16000854518265328, 0.16000854518265328, 0.16000854518265328, 0.16000854518265328
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "file": "firefox-375/pair.wav",
+      "sampleRate": 48000,
+      "samples": 249600,
+      "measuredSegments": 3,
+      "maximumAbsoluteFrequencyErrorCents": 0.005321268440768039,
+      "pcmRmsOutsideAutomationEdges": 1.1628225791878332e-5,
+      "maximumAutomationEdgeSampleDeviation": 3.268661822701524e-5,
+      "automationEdgeWindowFrames": 128,
+      "wholeToneConstantPhaseRmsDiagnostic": 0.00015244940065778427,
+      "frequenciesHz": [97.77777777777777, 97.77777777777777, 97.77777777777777],
+      "amplitudes": [0.16000854518265328, 0.16000854518265328, 0.31998657185583057]
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "file": "firefox-375/fixed.wav",
+      "sampleRate": 48000,
+      "samples": 256801,
+      "measuredSegments": 8,
+      "maximumAbsoluteFrequencyErrorCents": 0.006492791231097444,
+      "pcmRmsOutsideAutomationEdges": 1.0268988242015306e-5,
+      "maximumAutomationEdgeSampleDeviation": 3.4579981918712865e-5,
+      "automationEdgeWindowFrames": 128,
+      "wholeToneConstantPhaseRmsDiagnostic": 3.2872669769981345e-5,
+      "frequenciesHz": [
+        110.0, 120.15921349756255, 130.37037037037035, 146.66666666666666, 165.0, 180.2388202463438,
+        195.55555555555554, 220.0
+      ],
+      "amplitudes": [
+        0.16000854518265328, 0.16000854518265328, 0.16000854518265328, 0.16000854518265328,
+        0.16000854518265328, 0.16000854518265328, 0.16000854518265328, 0.16000854518265328
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "file": "firefox-375/moving.wav",
+      "sampleRate": 48000,
+      "samples": 256801,
+      "measuredSegments": 8,
+      "maximumAbsoluteFrequencyErrorCents": 0.005692377554466592,
+      "pcmRmsOutsideAutomationEdges": 9.590110340510137e-6,
+      "maximumAutomationEdgeSampleDeviation": 3.456577541429556e-5,
+      "automationEdgeWindowFrames": 128,
+      "wholeToneConstantPhaseRmsDiagnostic": 2.827137081383331e-5,
+      "frequenciesHz": [
+        97.77777777777777, 106.80818977561115, 115.88477366255142, 130.37037037037035,
+        146.66666666666666, 160.2122846634167, 173.82716049382714, 195.55555555555554
+      ],
+      "amplitudes": [
+        0.16000854518265328, 0.16000854518265328, 0.16000854518265328, 0.16000854518265328,
+        0.16000854518265328, 0.16000854518265328, 0.16000854518265328, 0.16000854518265328
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "file": "firefox-375/compare.wav",
+      "sampleRate": 48000,
+      "samples": 535200,
+      "measuredSegments": 16,
+      "maximumAbsoluteFrequencyErrorCents": 0.006492791231097444,
+      "pcmRmsOutsideAutomationEdges": 9.826609998544798e-6,
+      "maximumAutomationEdgeSampleDeviation": 3.4579981918712865e-5,
+      "automationEdgeWindowFrames": 128,
+      "wholeToneConstantPhaseRmsDiagnostic": 3.0740225639525314e-5,
+      "frequenciesHz": [
+        110.0, 122.22222222222223, 130.37037037037035, 146.66666666666666, 165.0,
+        183.33333333333334, 195.55555555555554, 220.0, 110.0, 120.15921349756255,
+        130.37037037037035, 146.66666666666666, 165.0, 180.2388202463438, 195.55555555555554, 220.0
+      ],
+      "amplitudes": [
+        0.16000854518265328, 0.16000854518265328, 0.16000854518265328, 0.16000854518265328,
+        0.16000854518265328, 0.16000854518265328, 0.16000854518265328, 0.16000854518265328,
+        0.16000854518265328, 0.16000854518265328, 0.16000854518265328, 0.16000854518265328,
+        0.16000854518265328, 0.16000854518265328, 0.16000854518265328, 0.16000854518265328
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "base": "http://127.0.0.1:4374/pyknon/",
+  "fixture": "/tmp/claude-1000/vina-dev-fixture",
+  "scope": "Native Vite development; controlled digest change, original bytes restored",
+  "configurations": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "virtualModuleEqualsPublicJson": true,
+      "sourceDigestEditRefusesImageAndExport": true,
+      "restorationRecoversActualNativeReading": true,
+      "directPublicImports": [],
+      "sourceWarnings": [],
+      "pageErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "virtualModuleEqualsPublicJson": true,
+      "sourceDigestEditRefusesImageAndExport": true,
+      "restorationRecoversActualNativeReading": true,
+      "directPublicImports": [],
+      "sourceWarnings": [],
+      "pageErrors": []
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "method": "70-digit Python Decimal, independent frequency-ratio chains; no application imports",
+  "cases": 52,
+  "downloadedCsvRows": 364,
+  "actualSvgGroups": 728
+}

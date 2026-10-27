@@ -35,8 +35,7 @@ service is used.
 
 ## Keep the matches; change the tuning
 
-The new local room is `/pyknon/vina.html`, also reached through **Two vinas**
-in every room's navigation. Publication is reviewed separately.
+Open the **[two-vīṇā room](https://antonsoo.github.io/pyknon/vina.html?tuning=comma&tenth=215&position=2000&root=220&selected=2&sound=pair&reading=3&page=29#vn-bench)**, also reached through **Two vinas** in every room's navigation.
 
 In the two-vīṇā demonstration in _Nāṭyaśāstra_ 28, named notes meet after
 successive lowerings. Two notes receive two counts, two receive three, and
@@ -61,7 +60,19 @@ file, plays its embedded synthetic sound and prints without the site. Native
 WAV, CSV, JSON and a font-embedded SVG are available separately. All seven
 rooms belong to one integrity-checked offline edition.
 
-[Source, interpretation and derivation](docs/vina-model.md).
+![Two modern preparations preserve the named matches while changing pitches](docs/assets/vina-desktop.png)
+
+[Source and derivation](docs/vina-model.md) · [Direct review](docs/vina-review.md) ·
+[Saved reading, gzip](examples/two-vinas-reading.html.gz) ·
+[Fifteen-page PDF](examples/two-vinas-reading.pdf) ·
+[Editable JSON](examples/two-vinas-comparison.json) ·
+[Modern listening WAV](examples/two-vinas-modern-comparison.wav).
+Decompress the HTML to open the complete independent reading. The app saves it directly as HTML.
+
+The related [Grāma bench](https://antonsoo.github.io/grama/) teaches a different
+operation: changing the starting note or lowering Pa alone while the other
+six notes stay fixed. This room follows the longer two-instrument matching
+argument and its remaining numerical freedom.
 
 ## Read a surviving song
 

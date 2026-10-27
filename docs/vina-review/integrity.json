@@ -1,0 +1,32 @@
+{
+  "base": "http://127.0.0.1:4373/pyknon/",
+  "scope": "Production, service workers blocked; actual intercepted responses and native downloads",
+  "cases": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "completedLateSourceResponseIgnored": true,
+      "validWrongJpegRefusedBeforeDisplay": true,
+      "wrongJpegPreventsIllustratedDownload": true,
+      "validWrongFontPreventsSvgAndHtml": true,
+      "verifiedRetriesRecoverNativeFiles": true,
+      "comparisonChangeCancelsPendingExport": true,
+      "playbackStopPreservesPendingExport": true,
+      "comparisonChangePreventsStaleImport": true,
+      "pageErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "completedLateSourceResponseIgnored": true,
+      "validWrongJpegRefusedBeforeDisplay": true,
+      "wrongJpegPreventsIllustratedDownload": true,
+      "validWrongFontPreventsSvgAndHtml": true,
+      "verifiedRetriesRecoverNativeFiles": true,
+      "comparisonChangeCancelsPendingExport": true,
+      "playbackStopPreservesPendingExport": true,
+      "comparisonChangePreventsStaleImport": true,
+      "pageErrors": []
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "format": "pyknon-vina-v1",
+  "state": {
+    "tuning": "quarter",
+    "tenth": 700,
+    "position": 4000,
+    "root": 110,
+    "selected": 0,
+    "sound": "compare",
+    "reading": 5,
+    "page": "29"
+  }
+}
