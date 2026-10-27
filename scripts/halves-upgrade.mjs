@@ -200,7 +200,7 @@ try {
           }, "new complete worker controls");
           await current
             .locator("#offline-status")
-            .filter({ hasText: /Ready offline.*eight rooms/ })
+            .filter({ hasText: /Ready offline.*nine rooms/ })
             .waitFor();
           await old
             .locator("#offline-status")
@@ -209,7 +209,7 @@ try {
           await old.getByRole("button", { name: "Reload saved edition" }).click();
           await old
             .locator("#offline-status")
-            .filter({ hasText: /Ready offline.*eight rooms/ })
+            .filter({ hasText: /Ready offline.*nine rooms/ })
             .waitFor();
           networkAvailable = false;
           server.closeAllConnections();
@@ -229,7 +229,7 @@ try {
             await current.goto(base + room);
             await current
               .locator("#offline-status")
-              .filter({ hasText: /Ready offline.*eight rooms/ })
+              .filter({ hasText: /Ready offline.*nine rooms/ })
               .waitFor();
             rooms.push(room);
           }
@@ -282,6 +282,6 @@ try {
   await new Promise((r) => server.close(r));
   await writeFile(
     output,
-    `${JSON.stringify({ scope: "Authentic previously published seven-room worker to eight rooms; held and substituted source page in both browsers; old and new use with actual origin refusing requests", oldEdition, newEdition, oldFileCount: oldFiles.size, newFileCount: newFiles.size, currentWorkerSha256: createHash("sha256").update(newFiles.get("sw.js")).digest("hex"), records }, null, 2)}\n`,
+    `${JSON.stringify({ scope: "Authentic previously published seven-room worker to the current nine-room build; held and substituted source page in both browsers; old and new use with actual origin refusing requests", oldEdition, newEdition, oldFileCount: oldFiles.size, newFileCount: newFiles.size, currentWorkerSha256: createHash("sha256").update(newFiles.get("sw.js")).digest("hex"), records }, null, 2)}\n`,
   );
 }

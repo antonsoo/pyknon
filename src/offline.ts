@@ -95,7 +95,7 @@ export async function offline(status: HTMLElement): Promise<void> {
     if (currentRevision !== revision || worker !== container.controller) return;
     if (reply?.edition === __PYKNON_EDITION__ && reply.complete) {
       verifiedCurrent = true;
-      status.textContent = "Ready offline · all eight rooms, audio, diagrams & source scans saved.";
+      status.textContent = "Ready offline · all nine rooms, audio, diagrams & source scans saved.";
       reload.hidden = true;
     } else if (reply?.edition === __PYKNON_EDITION__ && !reply.complete) {
       status.textContent = "Offline copy is incomplete. Keep this tab open to continue reading.";

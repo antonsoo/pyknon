@@ -1,0 +1,95 @@
+{
+  "edition": "Karl von Jan, Musici scriptores graeci, Teubner, Leipzig, 1895; Alypius, Eisagoge mousike, pp367–370.",
+  "original": {
+    "url": "https://archive.org/download/musiciscriptoresjank/musiciscriptoresjank.pdf",
+    "catalogue": "https://archive.org/details/musiciscriptoresjank",
+    "bytes": 41700417,
+    "sha256": "a442b3d4bbcf3ab6a8a0872f68ebc8a90e891985bf3fa40f4716767c02fb58e8"
+  },
+  "rights": "Public-domain 1895 edition. Whole scanned pages retained; no manuscript facsimile or ancient absolute-pitch claim.",
+  "derivation": "Poppler pdftoppm; complete pages, longest side 2200 px, JPEG quality 88; no cropping, recolouring or reconstruction.",
+  "pages": [
+    {
+      "id": "title",
+      "pdfPage": 7,
+      "printedPage": "title",
+      "file": "sources/notation/jan-title.jpg",
+      "width": 1273,
+      "height": 2200,
+      "note": "Title, editor and MDCCCXCV (1895).",
+      "bytes": 370720,
+      "sha256": "79e0712031b6eaa6a236bd4297c85ea2f9b20ca8ea41e28e402957f01d42d4b1"
+    },
+    {
+      "id": "367",
+      "pdfPage": 469,
+      "printedPage": "367",
+      "file": "sources/notation/jan-367.jpg",
+      "width": 1372,
+      "height": 2200,
+      "note": "Introduction; bracketed upper/lower notation heading and editorial apparatus.",
+      "bytes": 516652,
+      "sha256": "a442d35d13218aa3a8f9f963d6d0b6be3a0082f67796632077407c55370a3675"
+    },
+    {
+      "id": "368",
+      "pdfPage": 470,
+      "printedPage": "368",
+      "file": "sources/notation/jan-368.jpg",
+      "width": 1372,
+      "height": 2200,
+      "note": "Fixed and movable notes; the complete paired Lydian diatonic table.",
+      "bytes": 557387,
+      "sha256": "4632a15b8553c92048f99c9eb803b39b5167df320e4917f8a7c89402cef6a659"
+    },
+    {
+      "id": "369",
+      "pdfPage": 471,
+      "printedPage": "369",
+      "file": "sources/notation/jan-369.jpg",
+      "width": 1372,
+      "height": 2200,
+      "note": "Names, Greek shape descriptions, sign pairs and the editor’s modern staff.",
+      "bytes": 629414,
+      "sha256": "6861155b7a188c10e2f76d13a595f9b82b2d5ed3cdf789b2913435075abef733"
+    },
+    {
+      "id": "370",
+      "pdfPage": 472,
+      "printedPage": "370",
+      "file": "sources/notation/jan-370.jpg",
+      "width": 1372,
+      "height": 2200,
+      "note": "Hypolydian diatonic names and pairs; compare the functions of sigma and iota.",
+      "bytes": 562080,
+      "sha256": "2ca20ce4ac8f2251e10eeddf603ae97c3c219dfb766c44ff423a84210ead6e85"
+    }
+  ],
+  "assets": [
+    {
+      "file": "fonts/IBMPlexSans-Regular.woff2",
+      "bytes": 63020,
+      "sha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a"
+    },
+    {
+      "file": "fonts/IBMPlexSans-SemiBold.woff2",
+      "bytes": 67060,
+      "sha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205"
+    },
+    {
+      "file": "fonts/NotoSerif-Regular.ttf",
+      "bytes": 444064,
+      "sha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6"
+    },
+    {
+      "file": "fonts/IBMPlex-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "file": "fonts/NotoSerif-OFL.txt",
+      "bytes": 4396,
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a"
+    }
+  ]
+}

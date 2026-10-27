@@ -33,6 +33,29 @@ The published app works offline once its footer confirms the complete edition
 has been saved, including all three source scans. No account or external font
 service is used.
 
+## One shape, two musical alphabets
+
+The new **Musical signs** desk at `/pyknon/notation.html` translates a short
+working line between Alypius’s vocal and instrumental notation. Its starting
+example copies two shapes and changes two notes. Replace either mark with a
+keyboard-operable palette while the printed paired lookup remains visible.
+
+Vocal zeta reads paramesē; instrumental zeta reads one of two other functions.
+The two readings differ by **32:27**, about **294.135 cents**, in the rational
+teaching model, and **300 cents** in the equal-step alternative. The sigma
+control repeats the same pitch. Rows 11 and 14 retain both functional names
+where their sign pair agrees; the app does not turn that agreement into a
+uniquely identified function.
+
+Read six Greek selections with new English and twelve word notes, then inspect
+five complete pages of Jan’s 1895 edition. Keep wrong signs and blanks in JSON,
+CSV, a font-embedded SVG, finite WAV or one script-free illustrated reading.
+The current line and comparison are retained with the complete sources, fonts
+and licenses. A blank slot remains a timed silence.
+
+This room is currently under local review; public publication is a separate
+claim. [Source, model and limits](docs/notation-model.md).
+
 ## Divide a tone; keep the numerical premise
 
 Open **[Three middles](https://antonsoo.github.io/pyknon/halves.html)**.
@@ -240,7 +263,7 @@ _Harmonic Manual_ 6 against a modern ideal string model. The account calls
 - Save an independent HTML reading with generated WAV audio, exact ratios,
   diagrams, all readings, complete source pages, fonts and licenses; reopen
   editable JSON, or export CSV, WAV and a font-embedded SVG.
-- Use all eight rooms offline after the matching complete edition is saved.
+- Use all nine rooms offline after the matching complete edition is saved.
 
 The diagram is a comparison, not a reconstruction of the account's shared peg.
 The fixed-end uniform-string model holds loaded length and linear density fixed;

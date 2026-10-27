@@ -20,6 +20,11 @@ async function filesIn(directory: string): Promise<string[]> {
 export default defineConfig(async ({ command }) => {
   const retainedSources = [
     {
+      request: "virtual:notation-sources",
+      id: "\0retained-source-json:notation.js",
+      file: path.resolve("public/sources/notation/manifest.json"),
+    },
+    {
       request: "virtual:vina-sources",
       id: "\0retained-source-json:vina.js",
       file: path.resolve("public/sources/vina/manifest.json"),
@@ -41,6 +46,7 @@ export default defineConfig(async ({ command }) => {
     "tension.html",
     "vina.html",
     "halves.html",
+    "notation.html",
     "vite.config.ts",
     "tsconfig.json",
     "package.json",
@@ -65,6 +71,7 @@ export default defineConfig(async ({ command }) => {
           tension: "tension.html",
           vina: "vina.html",
           halves: "halves.html",
+          notation: "notation.html",
         },
       },
     },
@@ -81,7 +88,10 @@ export default defineConfig(async ({ command }) => {
           this.addWatchFile(source.file);
           const json = await readFile(source.file, "utf8");
           const parsed = JSON.parse(json);
-          if (source.request === "virtual:halves-sources") {
+          if (
+            source.request === "virtual:halves-sources" ||
+            source.request === "virtual:notation-sources"
+          ) {
             for (const asset of [...parsed.pages, ...parsed.assets]) {
               const bytes = await readFile(`public/${asset.file}`);
               const digest = createHash("sha256").update(bytes).digest("hex");

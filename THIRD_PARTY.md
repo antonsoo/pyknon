@@ -3,6 +3,33 @@
 Pyknon's code, original diagrams and new English explanations are MIT licensed.
 The following material retains its own provenance and terms.
 
+## Alypius notation tables
+
+The notation desk retains five complete pages from Karl von Jan,
+_Musici scriptores graeci_ (Teubner, Leipzig, 1895): the title and Alypius,
+_Eisagoge mousike_, pp367–370. The original public-domain print and scan are
+available from the [complete volume](https://archive.org/details/musiciscriptoresjank).
+The source PDF is 41,700,417 bytes, SHA-256
+`a442b3d4bbcf3ab6a8a0872f68ebc8a90e891985bf3fa40f4716767c02fb58e8`.
+
+The complete-page JPEG derivation, original URL and individual image identities
+are recorded in [the retained manifest](public/sources/notation/manifest.json).
+The pages are resized whole to a 2200 px longest side, JPEG quality 88, without
+cropping, recolouring or reconstructing a sign. Their apparatus and Jan’s modern
+staff transcriptions remain visible. The p367 heading's square brackets and the
+p369/p370 λάβδα/λάμβδα difference are retained in the selected readings.
+
+New Greek selections, English, contextual word notes, regular vector sign
+strokes and short practice lines are project work under MIT. The vector signs
+are teaching drawings, not an extracted Unicode-chart font, ancient manuscript
+facsimiles or a complete universal notation decoder. No modern recording or
+copyrighted score image is bundled. Chosen tunings, reference hertz and equal
+note durations are separately disclosed modern realizations.
+
+The illustrated reading embeds all five identified page images, the original
+font bytes and complete OFL notices. IBM Plex Sans and Noto Serif retain their
+existing font notices below. [Source and model account](docs/notation-model.md).
+
 ## Seikilos song and photographs
 
 The song reader uses the ancient, public-domain inscription on National Museum
