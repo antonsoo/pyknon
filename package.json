@@ -61,7 +61,9 @@
     "test:vina-integrity": "node scripts/vina-integrity.mjs",
     "test:vina-upgrade": "node scripts/vina-upgrade.mjs",
     "verify:vina-files": "python3 scripts/vina-artifacts.py",
-    "verify:vina-audio": "python3 scripts/vina-wave-oracle.py"
+    "verify:vina-audio": "python3 scripts/vina-wave-oracle.py",
+    "verify:halves": "node --import tsx scripts/halves-cases.ts | python3 scripts/halves-oracle.py",
+    "test:halves": "node scripts/halves-browser.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",

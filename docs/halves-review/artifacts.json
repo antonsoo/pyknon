@@ -1,0 +1,53 @@
+{
+  "contexts": [
+    {
+      "context": "chromium-1440",
+      "htmlBytes": 7953060,
+      "wholePageImages": 9,
+      "embeddedFonts": 3,
+      "completeTrilingualReadings": 7,
+      "completeWordNotes": 19,
+      "actualNativeDownloadsMatchEmbedded": 4,
+      "exactCsvExperiments": 11
+    },
+    {
+      "context": "chromium-375",
+      "htmlBytes": 7953060,
+      "wholePageImages": 9,
+      "embeddedFonts": 3,
+      "completeTrilingualReadings": 7,
+      "completeWordNotes": 19,
+      "actualNativeDownloadsMatchEmbedded": 4,
+      "exactCsvExperiments": 11
+    },
+    {
+      "context": "firefox-1440",
+      "htmlBytes": 7953060,
+      "wholePageImages": 9,
+      "embeddedFonts": 3,
+      "completeTrilingualReadings": 7,
+      "completeWordNotes": 19,
+      "actualNativeDownloadsMatchEmbedded": 4,
+      "exactCsvExperiments": 11
+    },
+    {
+      "context": "firefox-375",
+      "htmlBytes": 7953060,
+      "wholePageImages": 9,
+      "embeddedFonts": 3,
+      "completeTrilingualReadings": 7,
+      "completeWordNotes": 19,
+      "actualNativeDownloadsMatchEmbedded": 4,
+      "exactCsvExperiments": 11
+    }
+  ],
+  "print": {
+    "pages": 20,
+    "completeTrilingualReadings": 7,
+    "completeWordNotes": 19,
+    "wholeSourceJpegsRecoverableByteForByte": 9,
+    "wordsWithin25ptMargins": 2389,
+    "physicalPrinting": "not measured",
+    "taggedAccessibility": "not established"
+  }
+}

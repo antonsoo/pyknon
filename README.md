@@ -33,6 +33,25 @@ The published app works offline once its footer confirms the complete edition
 has been saved, including all three source scans. No account or external font
 service is used.
 
+## Divide a tone; keep the numerical premise
+
+Open **[Three middles](https://antonsoo.github.io/pyknon/halves.html)**.
+Seventeen lies halfway between sixteen and eighteen by addition, but
+**17/16 ≠ 18/17**. Compare equal frequency increments, equal ideal string-length
+increments and equal frequency ratios. The middle notes differ. Hear each
+half from the same starting pitch; inspect the exact squared comparison.
+
+Read _Sectio canonis_ III and XVI with Greek, Menge's Latin and new English.
+The “no middle number” argument concerns proportional whole-number means.
+A continuously chosen square root is a different domain. Double the integer
+scale, try the nearest candidates, then test **4,6,9**, whose 9:4 outer ratio
+falls outside the superparticular premise and has a proportional integer mean.
+
+Seven readings, nineteen word notes and nine whole 1916 source pages accompany
+the bench. Keep a script-free HTML edition with those readings, original
+images, fonts, licenses, diagrams, current sound and native editable records.
+[Model and source account](docs/halves-model.md) · [Direct review](docs/halves-review.md).
+
 ## Keep the matches; change the tuning
 
 Open the **[two-vīṇā room](https://antonsoo.github.io/pyknon/vina.html?tuning=comma&tenth=215&position=2000&root=220&selected=2&sound=pair&reading=3&page=29#vn-bench)**, also reached through **Two vinas** in every room's navigation.
@@ -57,7 +76,7 @@ pairing is kept distinct from a claim that the text is corrupt.
 Save the current sound, rulers, all readings and source pages, editable JSON,
 pitch CSV, fonts and licenses in one script-free HTML reading. It opens as a
 file, plays its embedded synthetic sound and prints without the site. Native
-WAV, CSV, JSON and a font-embedded SVG are available separately. All seven
+WAV, CSV, JSON and a font-embedded SVG are available separately. All eight
 rooms belong to one integrity-checked offline edition.
 
 ![Two modern preparations preserve the named matches while changing pitches](docs/assets/vina-desktop.png)
@@ -221,7 +240,7 @@ _Harmonic Manual_ 6 against a modern ideal string model. The account calls
 - Save an independent HTML reading with generated WAV audio, exact ratios,
   diagrams, all readings, complete source pages, fonts and licenses; reopen
   editable JSON, or export CSV, WAV and a font-embedded SVG.
-- Use all seven rooms offline after the matching complete edition is saved.
+- Use all eight rooms offline after the matching complete edition is saved.
 
 The diagram is a comparison, not a reconstruction of the account's shared peg.
 The fixed-end uniform-string model holds loaded length and linear density fixed;

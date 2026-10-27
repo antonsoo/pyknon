@@ -22,6 +22,7 @@ jobs:
       - run: npm run verify:song
       - run: npm run verify:canon
       - run: npm run verify:tension
+      - run: npm run verify:halves
       - run: npm run verify:vina
       - run: npx playwright install --with-deps chromium firefox
       - run: npm run test:browser -- /tmp/pyknon-review/browser.json
@@ -47,3 +48,7 @@ jobs:
           trap 'kill "$VINA_PREVIEW_PID"' EXIT
           curl --fail --retry 10 --retry-connrefused --retry-delay 1 http://127.0.0.1:4329/pyknon/vina.html > /dev/null
           npm run test:vina-integrity -- http://127.0.0.1:4329/pyknon/ /tmp/pyknon-vina-integrity
+      - run: npm run test:halves -- /tmp/pyknon-halves-review
+      - run: python3 scripts/halves-wave-oracle.py /tmp/pyknon-halves-review/review.json
+      - run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - run: python3 scripts/halves-artifacts.py /tmp/pyknon-halves-review

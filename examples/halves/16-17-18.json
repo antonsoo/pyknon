@@ -1,0 +1,16 @@
+{
+  "format": "pyknon-halves",
+  "version": 1,
+  "scope": "numerical-mean-and-modern-sound",
+  "state": {
+    "interval": "tone",
+    "n": 8,
+    "scale": 2,
+    "middle": 17,
+    "method": "integer",
+    "reference": 220,
+    "sound": "halves",
+    "reading": 0,
+    "page": 220
+  }
+}

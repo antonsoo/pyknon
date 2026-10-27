@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-10-27
+
+- Add three middles in one interval: distinguish arithmetic frequency, harmonic
+  frequency from ideal equal lengths, and geometric proportional means.
+- Operate whole-number candidates, invariant scaling, nearest root neighbours
+  and the 4–6–9 control beside Sectio canonis III and XVI.
+- Read seven Greek/Latin/English passages and nineteen word notes against nine
+  verified whole 1916 pages; keep the numerical premise explicit.
+- Save script-free readings with actual sound, editable records, exact squared
+  CSV values, portable diagrams, embedded fonts and complete licenses.
+- Extend the verified complete offline edition to eight rooms. Give phone
+  readers dedicated numerical and pitch diagrams and preserve the visible Greek
+  name in the accessible home-link name.
+
 ## 2026-10-26
 
 - Add the two-vīṇā matching experiment: keep the source's twenty-two counts,

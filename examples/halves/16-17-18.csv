@@ -1,0 +1,4 @@
+"scope","interval","n","scale","method","chosen_integer","reference_hz","point","number_exact","number_squared_numerator","number_squared_denominator","frequency_ratio_squared_numerator","frequency_ratio_squared_denominator","approx_frequency_hz","approx_cents_from_start","comparison_of_halves"
+"numerical-mean-and-modern-sound","tone","8","2","integer","17","220","low","16","256","1","1","1","220.000000000","0.000000000","first larger"
+"numerical-mean-and-modern-sound","tone","8","2","integer","17","220","middle","17","289","1","289","256","233.750000000","104.955409500","first larger"
+"numerical-mean-and-modern-sound","tone","8","2","integer","17","220","high","18","324","1","81","64","247.500000000","203.910001731","first larger"

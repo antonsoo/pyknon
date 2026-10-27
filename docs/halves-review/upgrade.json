@@ -1,0 +1,110 @@
+{
+  "scope": "Authentic previously published seven-room worker to eight rooms; held and substituted source page in both browsers; old and new use with actual origin refusing requests",
+  "oldEdition": "2ae29ce5c27911982b1a712d4a202c3825c6d49c33bcc6200027d2709a96193c",
+  "newEdition": "6e76d41583dbf6b860e3793a88c53b994b7595958387246cc3e729b572d15eae",
+  "oldFileCount": 117,
+  "newFileCount": 92,
+  "currentWorkerSha256": "25055c25242adf11b994f6146c415dba2225b483fb5e36590e13b8809a8beb12",
+  "records": [
+    {
+      "engine": "chromium",
+      "mode": "hold",
+      "oldEdition": "2ae29ce5c27911982b1a712d4a202c3825c6d49c33bcc6200027d2709a96193c",
+      "newEdition": "6e76d41583dbf6b860e3793a88c53b994b7595958387246cc3e729b572d15eae",
+      "before": "This edition is not saved offline. Keep this tab open to continue reading.",
+      "oldOriginRefusedRequests": true,
+      "oldTabReloaded": true,
+      "wrongHttp200Responses": [],
+      "offlineEightRooms": [
+        "index.html",
+        "song.html",
+        "canon.html",
+        "trial.html",
+        "rhythm.html",
+        "tension.html",
+        "vina.html",
+        "halves.html"
+      ],
+      "offlineHTMLSaved": true,
+      "readOnlyInspectorDidNotRecreateDeletedCache": true
+    },
+    {
+      "engine": "chromium",
+      "mode": "wrong",
+      "oldEdition": "2ae29ce5c27911982b1a712d4a202c3825c6d49c33bcc6200027d2709a96193c",
+      "newEdition": "6e76d41583dbf6b860e3793a88c53b994b7595958387246cc3e729b572d15eae",
+      "before": "This edition is not saved offline. Keep this tab open to continue reading.",
+      "oldOriginRefusedRequests": true,
+      "oldTabReloaded": true,
+      "wrongHttp200Responses": [
+        {
+          "url": "/pyknon/sources/halves/menge-162.jpg",
+          "status": 200,
+          "wrongSourcePage": true
+        }
+      ],
+      "offlineEightRooms": [
+        "index.html",
+        "song.html",
+        "canon.html",
+        "trial.html",
+        "rhythm.html",
+        "tension.html",
+        "vina.html",
+        "halves.html"
+      ],
+      "offlineHTMLSaved": true,
+      "readOnlyInspectorDidNotRecreateDeletedCache": true
+    },
+    {
+      "engine": "firefox",
+      "mode": "hold",
+      "oldEdition": "2ae29ce5c27911982b1a712d4a202c3825c6d49c33bcc6200027d2709a96193c",
+      "newEdition": "6e76d41583dbf6b860e3793a88c53b994b7595958387246cc3e729b572d15eae",
+      "before": "This edition is not saved offline. Keep this tab open to continue reading.",
+      "oldOriginRefusedRequests": true,
+      "oldTabReloaded": true,
+      "wrongHttp200Responses": [],
+      "offlineEightRooms": [
+        "index.html",
+        "song.html",
+        "canon.html",
+        "trial.html",
+        "rhythm.html",
+        "tension.html",
+        "vina.html",
+        "halves.html"
+      ],
+      "offlineHTMLSaved": true,
+      "readOnlyInspectorDidNotRecreateDeletedCache": true
+    },
+    {
+      "engine": "firefox",
+      "mode": "wrong",
+      "oldEdition": "2ae29ce5c27911982b1a712d4a202c3825c6d49c33bcc6200027d2709a96193c",
+      "newEdition": "6e76d41583dbf6b860e3793a88c53b994b7595958387246cc3e729b572d15eae",
+      "before": "This edition is not saved offline. Keep this tab open to continue reading.",
+      "oldOriginRefusedRequests": true,
+      "oldTabReloaded": true,
+      "wrongHttp200Responses": [
+        {
+          "url": "/pyknon/sources/halves/menge-162.jpg",
+          "status": 200,
+          "wrongSourcePage": true
+        }
+      ],
+      "offlineEightRooms": [
+        "index.html",
+        "song.html",
+        "canon.html",
+        "trial.html",
+        "rhythm.html",
+        "tension.html",
+        "vina.html",
+        "halves.html"
+      ],
+      "offlineHTMLSaved": true,
+      "readOnlyInspectorDidNotRecreateDeletedCache": true
+    }
+  ]
+}
