@@ -1,0 +1,118 @@
+{
+  "scope": "Previously committed nine-room worker to the new ten-room build; held and substituted source page in both browsers; old and new use with actual origin refusing requests",
+  "oldEdition": "501590e24f3498786c7e3ba9534a2cff02246c8fd53cd195afe45727518af968",
+  "newEdition": "00ca092e38eeb68ba99e632acbebdad59a12cb27e0c166816fa662a7d2720b28",
+  "oldFileCount": 102,
+  "newFileCount": 115,
+  "currentWorkerSha256": "4ad927157b30efc22642e904a491405edd3214414baf744e3af0639edaf7db7c",
+  "records": [
+    {
+      "engine": "chromium",
+      "mode": "hold",
+      "oldEdition": "501590e24f3498786c7e3ba9534a2cff02246c8fd53cd195afe45727518af968",
+      "newEdition": "00ca092e38eeb68ba99e632acbebdad59a12cb27e0c166816fa662a7d2720b28",
+      "before": "This edition is not saved offline. Keep this tab open to continue reading.",
+      "oldOriginRefusedRequests": true,
+      "oldTabReloaded": true,
+      "wrongHttp200Responses": [],
+      "offlineTenRooms": [
+        "index.html",
+        "song.html",
+        "canon.html",
+        "trial.html",
+        "rhythm.html",
+        "tension.html",
+        "vina.html",
+        "notation.html",
+        "halves.html",
+        "helikon.html"
+      ],
+      "offlineHTMLSaved": true,
+      "readOnlyInspectorDidNotRecreateDeletedCache": true
+    },
+    {
+      "engine": "chromium",
+      "mode": "wrong",
+      "oldEdition": "501590e24f3498786c7e3ba9534a2cff02246c8fd53cd195afe45727518af968",
+      "newEdition": "00ca092e38eeb68ba99e632acbebdad59a12cb27e0c166816fa662a7d2720b28",
+      "before": "This edition is not saved offline. Keep this tab open to continue reading.",
+      "oldOriginRefusedRequests": true,
+      "oldTabReloaded": true,
+      "wrongHttp200Responses": [
+        {
+          "url": "/pyknon/sources/helikon/wallis-99.jpg",
+          "status": 200,
+          "wrongSourcePage": true
+        }
+      ],
+      "offlineTenRooms": [
+        "index.html",
+        "song.html",
+        "canon.html",
+        "trial.html",
+        "rhythm.html",
+        "tension.html",
+        "vina.html",
+        "notation.html",
+        "halves.html",
+        "helikon.html"
+      ],
+      "offlineHTMLSaved": true,
+      "readOnlyInspectorDidNotRecreateDeletedCache": true
+    },
+    {
+      "engine": "firefox",
+      "mode": "hold",
+      "oldEdition": "501590e24f3498786c7e3ba9534a2cff02246c8fd53cd195afe45727518af968",
+      "newEdition": "00ca092e38eeb68ba99e632acbebdad59a12cb27e0c166816fa662a7d2720b28",
+      "before": "This edition is not saved offline. Keep this tab open to continue reading.",
+      "oldOriginRefusedRequests": true,
+      "oldTabReloaded": true,
+      "wrongHttp200Responses": [],
+      "offlineTenRooms": [
+        "index.html",
+        "song.html",
+        "canon.html",
+        "trial.html",
+        "rhythm.html",
+        "tension.html",
+        "vina.html",
+        "notation.html",
+        "halves.html",
+        "helikon.html"
+      ],
+      "offlineHTMLSaved": true,
+      "readOnlyInspectorDidNotRecreateDeletedCache": true
+    },
+    {
+      "engine": "firefox",
+      "mode": "wrong",
+      "oldEdition": "501590e24f3498786c7e3ba9534a2cff02246c8fd53cd195afe45727518af968",
+      "newEdition": "00ca092e38eeb68ba99e632acbebdad59a12cb27e0c166816fa662a7d2720b28",
+      "before": "This edition is not saved offline. Keep this tab open to continue reading.",
+      "oldOriginRefusedRequests": true,
+      "oldTabReloaded": true,
+      "wrongHttp200Responses": [
+        {
+          "url": "/pyknon/sources/helikon/wallis-99.jpg",
+          "status": 200,
+          "wrongSourcePage": true
+        }
+      ],
+      "offlineTenRooms": [
+        "index.html",
+        "song.html",
+        "canon.html",
+        "trial.html",
+        "rhythm.html",
+        "tension.html",
+        "vina.html",
+        "notation.html",
+        "halves.html",
+        "helikon.html"
+      ],
+      "offlineHTMLSaved": true,
+      "readOnlyInspectorDidNotRecreateDeletedCache": true
+    }
+  ]
+}

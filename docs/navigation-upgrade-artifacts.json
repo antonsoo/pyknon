@@ -1,0 +1,356 @@
+{
+  "upgradedReadings": [
+    {
+      "engine": "chromium",
+      "fault": "hold",
+      "sourceImagesIdentical": 8,
+      "nativeDownloads": 5,
+      "sounds": [
+        {
+          "duration": 1.7200208333333333,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "start": 0.12,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.3332868301486,
+              "errorCents": -0.0002744587607473387
+            },
+            {
+              "start": 0.86,
+              "expectedHz": 330.0,
+              "measuredHz": 329.9999255011907,
+              "errorCents": -0.00039083299939840065
+            }
+          ],
+          "maxAmplitude": 5243,
+          "silentTail": true
+        },
+        {
+          "duration": 6.660020833333333,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "start": 0.12,
+              "expectedHz": 220.0,
+              "measuredHz": 219.99995330277778,
+              "errorCents": -0.00036747195300587427
+            },
+            {
+              "start": 0.86,
+              "expectedHz": 228.14814814814815,
+              "measuredHz": 228.1481697068475,
+              "errorCents": 0.00016359174023257412
+            },
+            {
+              "start": 1.6,
+              "expectedHz": 234.66666666666666,
+              "measuredHz": 234.66671360892843,
+              "errorCents": 0.0003463126438490223
+            },
+            {
+              "start": 2.34,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.3332868301484,
+              "errorCents": -0.0002744587620927781
+            },
+            {
+              "start": 3.58,
+              "expectedHz": 220.0,
+              "measuredHz": 219.9999717948753,
+              "errorCents": -0.00022195306972094
+            },
+            {
+              "start": 4.32,
+              "expectedHz": 228.14814814814815,
+              "measuredHz": 228.1481468205445,
+              "errorCents": -1.0074123717692904e-5
+            },
+            {
+              "start": 5.06,
+              "expectedHz": 234.66666666666666,
+              "measuredHz": 234.66669442965906,
+              "errorCents": 0.0002048191829886585
+            },
+            {
+              "start": 5.8,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.33334265242604,
+              "errorCents": 5.50006716778553e-5
+            }
+          ],
+          "maxAmplitude": 5243,
+          "silentTail": true
+        }
+      ],
+      "file": {
+        "bytes": 9794648,
+        "sha256": "933e69fffb35fea82b840fe21f90b4f76839e7429502fe2201f8a5323d35db4b"
+      }
+    },
+    {
+      "engine": "chromium",
+      "fault": "wrong",
+      "sourceImagesIdentical": 8,
+      "nativeDownloads": 5,
+      "sounds": [
+        {
+          "duration": 1.7200208333333333,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "start": 0.12,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.3332868301486,
+              "errorCents": -0.0002744587607473387
+            },
+            {
+              "start": 0.86,
+              "expectedHz": 330.0,
+              "measuredHz": 329.9999255011907,
+              "errorCents": -0.00039083299939840065
+            }
+          ],
+          "maxAmplitude": 5243,
+          "silentTail": true
+        },
+        {
+          "duration": 6.660020833333333,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "start": 0.12,
+              "expectedHz": 220.0,
+              "measuredHz": 219.99995330277778,
+              "errorCents": -0.00036747195300587427
+            },
+            {
+              "start": 0.86,
+              "expectedHz": 228.14814814814815,
+              "measuredHz": 228.1481697068475,
+              "errorCents": 0.00016359174023257412
+            },
+            {
+              "start": 1.6,
+              "expectedHz": 234.66666666666666,
+              "measuredHz": 234.66671360892843,
+              "errorCents": 0.0003463126438490223
+            },
+            {
+              "start": 2.34,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.3332868301484,
+              "errorCents": -0.0002744587620927781
+            },
+            {
+              "start": 3.58,
+              "expectedHz": 220.0,
+              "measuredHz": 219.9999717948753,
+              "errorCents": -0.00022195306972094
+            },
+            {
+              "start": 4.32,
+              "expectedHz": 228.14814814814815,
+              "measuredHz": 228.1481468205445,
+              "errorCents": -1.0074123717692904e-5
+            },
+            {
+              "start": 5.06,
+              "expectedHz": 234.66666666666666,
+              "measuredHz": 234.66669442965906,
+              "errorCents": 0.0002048191829886585
+            },
+            {
+              "start": 5.8,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.33334265242604,
+              "errorCents": 5.50006716778553e-5
+            }
+          ],
+          "maxAmplitude": 5243,
+          "silentTail": true
+        }
+      ],
+      "file": {
+        "bytes": 9794648,
+        "sha256": "933e69fffb35fea82b840fe21f90b4f76839e7429502fe2201f8a5323d35db4b"
+      }
+    },
+    {
+      "engine": "firefox",
+      "fault": "hold",
+      "sourceImagesIdentical": 8,
+      "nativeDownloads": 5,
+      "sounds": [
+        {
+          "duration": 1.7200208333333333,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "start": 0.12,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.33359233050686,
+              "errorCents": 0.0015285836165592113
+            },
+            {
+              "start": 0.86,
+              "expectedHz": 330.0,
+              "measuredHz": 329.9994715350548,
+              "errorCents": -0.0027724158771728347
+            }
+          ],
+          "maxAmplitude": 5243,
+          "silentTail": true
+        },
+        {
+          "duration": 6.660020833333333,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "start": 0.12,
+              "expectedHz": 220.0,
+              "measuredHz": 220.00032250323213,
+              "errorCents": 0.0025378553052114146
+            },
+            {
+              "start": 0.86,
+              "expectedHz": 228.14814814814815,
+              "measuredHz": 228.14763894988232,
+              "errorCents": -0.003863903198187571
+            },
+            {
+              "start": 1.6,
+              "expectedHz": 234.66666666666666,
+              "measuredHz": 234.66692015510324,
+              "errorCents": 0.0018700890998368616
+            },
+            {
+              "start": 2.34,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.33359233050675,
+              "errorCents": 0.0015285836157903894
+            },
+            {
+              "start": 3.58,
+              "expectedHz": 220.0,
+              "measuredHz": 220.00032250323247,
+              "errorCents": 0.002537855307902289
+            },
+            {
+              "start": 4.32,
+              "expectedHz": 228.14814814814815,
+              "measuredHz": 228.1476389498821,
+              "errorCents": -0.0038639031999174256
+            },
+            {
+              "start": 5.06,
+              "expectedHz": 234.66666666666666,
+              "measuredHz": 234.66692015510299,
+              "errorCents": 0.0018700890979148077
+            },
+            {
+              "start": 5.8,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.33359233050766,
+              "errorCents": 0.001528583621172141
+            }
+          ],
+          "maxAmplitude": 5243,
+          "silentTail": true
+        }
+      ],
+      "file": {
+        "bytes": 9794648,
+        "sha256": "88e530cb447f2bc0ae743148033ca04610be5b75dd4aa56ee23a0fe9d75e922c"
+      }
+    },
+    {
+      "engine": "firefox",
+      "fault": "wrong",
+      "sourceImagesIdentical": 8,
+      "nativeDownloads": 5,
+      "sounds": [
+        {
+          "duration": 1.7200208333333333,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "start": 0.12,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.33359233050686,
+              "errorCents": 0.0015285836165592113
+            },
+            {
+              "start": 0.86,
+              "expectedHz": 330.0,
+              "measuredHz": 329.9994715350548,
+              "errorCents": -0.0027724158771728347
+            }
+          ],
+          "maxAmplitude": 5243,
+          "silentTail": true
+        },
+        {
+          "duration": 6.660020833333333,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "start": 0.12,
+              "expectedHz": 220.0,
+              "measuredHz": 220.00032250323213,
+              "errorCents": 0.0025378553052114146
+            },
+            {
+              "start": 0.86,
+              "expectedHz": 228.14814814814815,
+              "measuredHz": 228.14763894988232,
+              "errorCents": -0.003863903198187571
+            },
+            {
+              "start": 1.6,
+              "expectedHz": 234.66666666666666,
+              "measuredHz": 234.66692015510324,
+              "errorCents": 0.0018700890998368616
+            },
+            {
+              "start": 2.34,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.33359233050675,
+              "errorCents": 0.0015285836157903894
+            },
+            {
+              "start": 3.58,
+              "expectedHz": 220.0,
+              "measuredHz": 220.00032250323247,
+              "errorCents": 0.002537855307902289
+            },
+            {
+              "start": 4.32,
+              "expectedHz": 228.14814814814815,
+              "measuredHz": 228.1476389498821,
+              "errorCents": -0.0038639031999174256
+            },
+            {
+              "start": 5.06,
+              "expectedHz": 234.66666666666666,
+              "measuredHz": 234.66692015510299,
+              "errorCents": 0.0018700890979148077
+            },
+            {
+              "start": 5.8,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.33359233050766,
+              "errorCents": 0.001528583621172141
+            }
+          ],
+          "maxAmplitude": 5243,
+          "silentTail": true
+        }
+      ],
+      "file": {
+        "bytes": 9794648,
+        "sha256": "88e530cb447f2bc0ae743148033ca04610be5b75dd4aa56ee23a0fe9d75e922c"
+      }
+    }
+  ]
+}

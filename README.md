@@ -32,6 +32,10 @@ and can be printed. Shared URLs preserve genus, reference pitch and direction.
 The published app works offline once its footer confirms the complete edition
 has been saved, including all three source scans. No account or external font
 service is used.
+Once saved, lessons can reload through stalled document responses and temporary
+server errors using their verified copy after a two-second network window. The
+[offline navigation review](docs/offline-navigation.md) records the response
+rules and actual browser evidence.
 
 ## One bridge, four strings
 
