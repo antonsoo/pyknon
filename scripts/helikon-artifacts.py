@@ -10,6 +10,7 @@ import pathlib
 import struct
 import subprocess
 import sys
+import tempfile
 import unicodedata
 import urllib.parse
 import wave
@@ -304,6 +305,16 @@ for record in review["records"]:
     )
 pdf = OUT / "chromium-1440/reading.pdf"
 text = subprocess.check_output(["pdftotext", "-layout", str(pdf), "-"]).decode()
+pdf_info = subprocess.check_output(["pdfinfo", str(pdf)], text=True)
+tagged = any(line.split(":", 1)[1].strip() == "yes" for line in pdf_info.splitlines() if line.startswith("Tagged:"))
+assert tagged, "The retained PDF must contain document tags."
+for path in ["LICENSE", "public/fonts/IBMPlex-OFL.txt", "public/fonts/NotoSerif-OFL.txt"]:
+    assert normalized((ROOT / path).read_text()) in normalized(text), path
+with tempfile.TemporaryDirectory() as tmp:
+    subprocess.run(["pdfimages", "-j", str(pdf), str(pathlib.Path(tmp) / "source")], check=True)
+    source_images = list(pathlib.Path(tmp).glob("*.jpg"))
+    assert len(source_images) == len(m["pages"])
+    assert {hashlib.sha256(p.read_bytes()).hexdigest() for p in source_images} == {p["sha256"] for p in m["pages"]}
 bbox = subprocess.check_output(["pdftotext", "-bbox", str(pdf), "-"])
 doc = ET.fromstring(bbox)
 pages = doc.findall(".//{http://www.w3.org/1999/xhtml}page")
@@ -350,7 +361,9 @@ result = {
         "completeLanguageFields": len(fields),
         "sourceCaptions": len(m["pages"]),
         "wordsWithinMargins": len(words),
-        "tagged": False,
+        "tagged": tagged,
+        "completeLicenses": 3,
+        "originalJpegStreamsIdentical": len(m["pages"]),
         "physicalPrintingVerified": False,
     },
 }

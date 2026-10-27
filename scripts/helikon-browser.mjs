@@ -326,6 +326,8 @@ async function review(engine, browser, width) {
       path: path.join(dir, "reading.pdf"),
       printBackground: true,
       preferCSSPageSize: true,
+      tagged: true,
+      outline: true,
     });
     await document.screenshot({ path: path.join(dir, "portable-opening.png") });
   }

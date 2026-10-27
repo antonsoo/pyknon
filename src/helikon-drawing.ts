@@ -142,22 +142,22 @@ export function retuningBoard(s: HelikonState): string {
 }
 export function sourceTable(s: HelikonState): string {
   const p = sourceInterval(s);
-  return `<table><caption>Sounding lengths on both sides of the bridge · full string = 12</caption><thead><tr><th>Segment</th><th>Length</th><th>Pitch / full string</th><th>Hz</th></tr></thead><tbody>${sourceSegments(
+  return `<table><caption>Sounding lengths on both sides of the bridge · full string = 12</caption><thead><tr><th scope="col">Segment</th><th scope="col">Length</th><th scope="col">Pitch / full string</th><th scope="col">Hz</th></tr></thead><tbody>${sourceSegments(
     s,
   )
     .map(
       (r) =>
-        `<tr${r.id === p.a.id || r.id === p.b.id ? ' class="hk-chosen"' : ""}><th>${r.id}</th><td>${ft(r.units)}</td><td>${ft(r.ratio)}</td><td>${hn(r.hz)}</td></tr>`,
+        `<tr${r.id === p.a.id || r.id === p.b.id ? ' class="hk-chosen"' : ""}><th scope="row">${r.id}</th><td>${ft(r.units)}</td><td>${ft(r.ratio)}</td><td>${hn(r.hz)}</td></tr>`,
     )
     .join("")}</tbody></table>`;
 }
 export function retuningTable(s: HelikonState): string {
-  return `<table><caption>Actual and target frequency ratios share the current leftmost note as 1</caption><thead><tr><th>String</th><th>Position / width</th><th>Actual</th><th>Target</th><th>Error, cents</th></tr></thead><tbody>${retuning(
+  return `<table><caption>Actual and target frequency ratios share the current leftmost note as 1</caption><thead><tr><th scope="col">String</th><th scope="col">Position / width</th><th scope="col">Actual</th><th scope="col">Target</th><th scope="col">Error, cents</th></tr></thead><tbody>${retuning(
     s,
   )
     .map(
       (p) =>
-        `<tr><th>${p.index + 1}${p.index === 0 || p.index === 3 ? " · end" : " · inner"}</th><td>${ft(p.x)}</td><td>${ft(p.actual)}</td><td>${ft(p.target)}</td><td>${p.matches ? "0 · exact" : `${p.centsError > 0 ? "+" : ""}${hn(p.centsError, 2)}`}</td></tr>`,
+        `<tr><th scope="row">${p.index + 1}${p.index === 0 || p.index === 3 ? " · end" : " · inner"}</th><td>${ft(p.x)}</td><td>${ft(p.actual)}</td><td>${ft(p.target)}</td><td>${p.matches ? "0 · exact" : `${p.centsError > 0 ? "+" : ""}${hn(p.centsError, 2)}`}</td></tr>`,
     )
     .join("")}</tbody></table>`;
 }

@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- Retain tagged, bookmarked reading PDFs with Greek/Latin paragraph languages,
+  scoped table headers, described figures and original source-image bytes. Keep
+  short tables together and inspect actual structure-to-content bindings.
+
 - Add the helikon: build Ptolemy’s four-string geometry, hear seven interval
   relations and alter its common bridge with the string positions retained.
 - Keep the two end notes fixed, fit three Archytas divisions by moving the inner

@@ -64,9 +64,11 @@ requests and file imports cannot replace newer choices.
 
 [Source and formulas](docs/helikon-model.md) · [Direct review](docs/helikon-review.md).
 [Actual illustrated reading, gzip](examples/helikon-reading.html.gz) ·
-[21-page PDF](examples/helikon-reading.pdf) ·
+[25-page tagged PDF](examples/helikon-reading.pdf) ·
 [Editable experiment](examples/helikon-experiment.json).
-Decompress the HTML before opening it.
+Decompress the HTML before opening it. The [PDF structure review](docs/helikon-pdf-review.md)
+checks language-tagged passages, heading bookmarks, table scopes and original
+source images; it does not claim PDF/UA certification.
 The [public verification](docs/helikon-publication.md) records canonical files,
 actual browser exports and offline use separately from remote CI.
 `npm run build` writes the complete ten-room edition to

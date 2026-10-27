@@ -87,7 +87,8 @@ the matching controlling worker, not just a registration or an HTTP success.
 
 The PCM check measures generated samples, gain, gaps, duration and silent tails.
 It does not measure speakers, an ancient instrument, practical finger reach or
-a listener’s pitch recognition. The PDF is untagged; physical printing is
+a listener’s pitch recognition. The initial PDF was untagged. The [current structure review](helikon-pdf-review.md)
+checks the tagged, bookmarked replacement; physical printing is
 unverified. English and language notes have not received independent
 philological review. [Source, model and limits](helikon-model.md).
 

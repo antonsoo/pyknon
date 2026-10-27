@@ -1,5 +1,9 @@
 # Public helikon edition
 
+This records the initial public capture. The later [structured PDF review](helikon-pdf-review.md)
+updates the retained reading and print behavior; the older receipts below remain
+evidence of their original edition.
+
 The ten-room edition is available at the [canonical workshop](https://antonsoo.github.io/pyknon/helikon.html).
 This record follows the earlier [local review](helikon-review.md); its public
 claims were checked separately on 27 October 2026.

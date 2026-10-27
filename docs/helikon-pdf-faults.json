@@ -1,0 +1,42 @@
+{
+  "originalPdfSha256": "7bf0e6d9d98fae21e30f2e4b0aaabb977be331b81f2852f61a3f44ac458f8250",
+  "positiveControl": true,
+  "faults": [
+    {
+      "fault": "swapped-language-tags",
+      "rejected": true,
+      "reason": "AssertionError: No correctly ordered grc paragraph bound to the full text: \u1f18\u03ba\u03c4\u03af\u03b8\u03b5\u03bd\u03c4\u03b1\u03b9 \u03c4\u03b5\u03c4\u03c1\u03ac\u03b3\u03c9\u03bd\u03bf\u03bd, \u1f61\u03c2 \u03c4\u1f78 \u03b1\u03b2\u03b3\u03b4.",
+      "changedPdfSha256": "43df4751958ddbf77355bc3ef0936efa2639d8d0f4e5ecf485a82b81ec4656e1"
+    },
+    {
+      "fault": "swapped-source-image-bytes",
+      "rejected": true,
+      "reason": "AssertionError: The figure description is bound to different source-image bytes.",
+      "changedPdfSha256": "0b7bb6da704aaf3648ace752c9aeb0dff98d07cb854a3c803833324576d5b073"
+    },
+    {
+      "fault": "missing-table-header-scope",
+      "rejected": true,
+      "reason": "AssertionError: Wrong PDF table header scope for Segment.",
+      "changedPdfSha256": "cd87fcfbd693928fbfb781455201bd8d30ad45f4d5978d8a36bc734d87aab1ee"
+    },
+    {
+      "fault": "missing-figure-description",
+      "rejected": true,
+      "reason": "AssertionError: A leaf figure has lost or changed its description.",
+      "changedPdfSha256": "83c28feae6eec4d8c1e73912bcd3d0c2ff4b5659c1d49d5774225ac2b1c47fc2"
+    },
+    {
+      "fault": "wrong-bookmark-page",
+      "rejected": true,
+      "reason": "AssertionError: A bookmark points to a page without its heading's content.",
+      "changedPdfSha256": "0cc23a8f5aac7f166d3eeba925cc74fb92db7556591dfb5df3612a8020b926dd"
+    },
+    {
+      "fault": "marked-flag-without-structure",
+      "rejected": true,
+      "reason": "AssertionError: PDF has no logical structure tree.",
+      "changedPdfSha256": "6e17d727af48aafaa60d38ce368b33d312be077a962ac185428e8ac8927771e5"
+    }
+  ]
+}
