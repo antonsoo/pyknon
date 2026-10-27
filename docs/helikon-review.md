@@ -1,5 +1,9 @@
 # Direct review of the helikon workshop
 
+[Subsequent public verification](helikon-publication.md) separately records
+canonical delivery and actual public learner journeys. This local review and
+its original evidence remain unchanged below.
+
 The new `/pyknon/helikon.html` room makes Ptolemy’s four-string geometry
 operable, then asks what must move when its end notes stay fixed and its inner
 target notes change. The first board follows _Harmonics_ II.2; the fourth-span

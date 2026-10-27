@@ -1,0 +1,1272 @@
+{
+  "browserArtifacts": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "sourceImagesIdentical": 8,
+      "fontsIdentical": 3,
+      "completeLicenses": 3,
+      "scriptFreeNativeDownloads": 5,
+      "cacheFiles": 114,
+      "sounds": [
+        {
+          "file": "study.wav",
+          "duration": 6.660020833333333,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "start": 0.12,
+              "expectedHz": 220.0,
+              "measuredHz": 219.99995330277778,
+              "errorCents": -0.00036747195300587427
+            },
+            {
+              "start": 0.86,
+              "expectedHz": 251.42857142857142,
+              "measuredHz": 251.42859013313318,
+              "errorCents": 0.00012879193812086903
+            },
+            {
+              "start": 1.6,
+              "expectedHz": 264.0,
+              "measuredHz": 263.99990650237044,
+              "errorCents": -0.0006131299563126513
+            },
+            {
+              "start": 2.34,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.3332868301484,
+              "errorCents": -0.0002744587620927781
+            },
+            {
+              "start": 3.58,
+              "expectedHz": 220.0,
+              "measuredHz": 219.9999717948753,
+              "errorCents": -0.00022195306972094
+            },
+            {
+              "start": 4.32,
+              "expectedHz": 228.14814814814815,
+              "measuredHz": 228.1481468205445,
+              "errorCents": -1.0074123717692904e-5
+            },
+            {
+              "start": 5.06,
+              "expectedHz": 234.66666666666666,
+              "measuredHz": 234.66669442965906,
+              "errorCents": 0.0002048191829886585
+            },
+            {
+              "start": 5.8,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.33334265242604,
+              "errorCents": 5.50006716778553e-5
+            }
+          ],
+          "maxAmplitude": 5243,
+          "silentTail": true
+        },
+        {
+          "file": "interval.wav",
+          "duration": 1.7200208333333333,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "start": 0.12,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.3332868301486,
+              "errorCents": -0.0002744587607473387
+            },
+            {
+              "start": 0.86,
+              "expectedHz": 330.0,
+              "measuredHz": 329.9999255011907,
+              "errorCents": -0.00039083299939840065
+            }
+          ],
+          "maxAmplitude": 5243,
+          "silentTail": true
+        },
+        {
+          "file": "enharmonic.wav",
+          "duration": 6.660020833333333,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "start": 0.12,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.3332868301486,
+              "errorCents": -0.0002744587607473387
+            },
+            {
+              "start": 0.86,
+              "expectedHz": 335.23809523809524,
+              "measuredHz": 335.2380767294366,
+              "errorCents": -9.558227829810275e-5
+            },
+            {
+              "start": 1.6,
+              "expectedHz": 352.0,
+              "measuredHz": 352.0000000000001,
+              "errorCents": 3.8441118045779003e-13
+            },
+            {
+              "start": 2.34,
+              "expectedHz": 391.1111111111111,
+              "measuredHz": 391.1110551965667,
+              "errorCents": -0.0002475029913172773
+            },
+            {
+              "start": 3.58,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.33328683014867,
+              "errorCents": -0.0002744587603629275
+            },
+            {
+              "start": 4.32,
+              "expectedHz": 304.1975308641975,
+              "measuredHz": 304.19757478847373,
+              "errorCents": 0.00024997966568658187
+            },
+            {
+              "start": 5.06,
+              "expectedHz": 312.8888888888889,
+              "measuredHz": 312.88891241829907,
+              "errorCents": 0.00013018971242367445
+            },
+            {
+              "start": 5.8,
+              "expectedHz": 391.1111111111111,
+              "measuredHz": 391.1110891125131,
+              "errorCents": -9.737571185700052e-5
+            }
+          ],
+          "maxAmplitude": 5243,
+          "silentTail": true
+        },
+        {
+          "file": "chromatic.wav",
+          "duration": 6.660020833333333,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "start": 0.12,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.3332868301486,
+              "errorCents": -0.0002744587607473387
+            },
+            {
+              "start": 0.86,
+              "expectedHz": 335.23809523809524,
+              "measuredHz": 335.2380767294366,
+              "errorCents": -9.558227829810275e-5
+            },
+            {
+              "start": 1.6,
+              "expectedHz": 352.0,
+              "measuredHz": 352.0000000000001,
+              "errorCents": 3.8441118045779003e-13
+            },
+            {
+              "start": 2.34,
+              "expectedHz": 391.1111111111111,
+              "measuredHz": 391.1110551965667,
+              "errorCents": -0.0002475029913172773
+            },
+            {
+              "start": 3.58,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.33328683014867,
+              "errorCents": -0.0002744587603629275
+            },
+            {
+              "start": 4.32,
+              "expectedHz": 304.1975308641975,
+              "measuredHz": 304.19757478847373,
+              "errorCents": 0.00024997966568658187
+            },
+            {
+              "start": 5.06,
+              "expectedHz": 330.0,
+              "measuredHz": 330.00002793706193,
+              "errorCents": 0.0001465623964265499
+            },
+            {
+              "start": 5.8,
+              "expectedHz": 391.1111111111111,
+              "measuredHz": 391.1110891125131,
+              "errorCents": -9.737571185700052e-5
+            }
+          ],
+          "maxAmplitude": 5243,
+          "silentTail": true
+        },
+        {
+          "file": "diatonic.wav",
+          "duration": 6.660020833333333,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "start": 0.12,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.3332868301486,
+              "errorCents": -0.0002744587607473387
+            },
+            {
+              "start": 0.86,
+              "expectedHz": 335.23809523809524,
+              "measuredHz": 335.2380767294366,
+              "errorCents": -9.558227829810275e-5
+            },
+            {
+              "start": 1.6,
+              "expectedHz": 352.0,
+              "measuredHz": 352.0000000000001,
+              "errorCents": 3.8441118045779003e-13
+            },
+            {
+              "start": 2.34,
+              "expectedHz": 391.1111111111111,
+              "measuredHz": 391.1110551965667,
+              "errorCents": -0.0002475029913172773
+            },
+            {
+              "start": 3.58,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.33328683014867,
+              "errorCents": -0.0002744587603629275
+            },
+            {
+              "start": 4.32,
+              "expectedHz": 304.1975308641975,
+              "measuredHz": 304.19757478847373,
+              "errorCents": 0.00024997966568658187
+            },
+            {
+              "start": 5.06,
+              "expectedHz": 347.65432098765433,
+              "measuredHz": 347.65431932377567,
+              "errorCents": -8.285711428096441e-6
+            },
+            {
+              "start": 5.8,
+              "expectedHz": 391.1111111111111,
+              "measuredHz": 391.1110891125131,
+              "errorCents": -9.737571185700052e-5
+            }
+          ],
+          "maxAmplitude": 5243,
+          "silentTail": true
+        }
+      ],
+      "savedFiles": {
+        "chromatic.wav": {
+          "bytes": 639406,
+          "sha256": "c0ae9b9c063082cefd1f23e8730be97143ea636704ae5a7192092f28ca0e990e"
+        },
+        "enharmonic.wav": {
+          "bytes": 639406,
+          "sha256": "36b45ac310816b30a4d671adb6a08073850ff42ac393bbda616b66b0a4d0987c"
+        },
+        "study.csv": {
+          "bytes": 5590,
+          "sha256": "6ebda45587e2d69912d2933fb38892bc563b38c7091c22765154c50cee26d8d2"
+        },
+        "study.svg": {
+          "bytes": 97458,
+          "sha256": "fe621f530ddc276e98eb6721a93c0a02d2416c63e21801ce6df5ef2f0861a2cc"
+        },
+        "reopened.csv": {
+          "bytes": 5590,
+          "sha256": "6ebda45587e2d69912d2933fb38892bc563b38c7091c22765154c50cee26d8d2"
+        },
+        "interval.wav": {
+          "bytes": 165166,
+          "sha256": "4496a563df8059197b44e722f2596572364aeced7a88421bedf8fcccd2c7be75"
+        },
+        "study.html": {
+          "bytes": 9794222,
+          "sha256": "c1f5efcd74d30c58c110826b3dea1d7b0dad61ebf709406965ad321c9b589350"
+        },
+        "study.wav": {
+          "bytes": 639406,
+          "sha256": "b627b576b96730e9570f2910add8af1f91a9ccfeae1d4f750827e9fd3a844d70"
+        },
+        "reopened.svg": {
+          "bytes": 97458,
+          "sha256": "fe621f530ddc276e98eb6721a93c0a02d2416c63e21801ce6df5ef2f0861a2cc"
+        },
+        "study.json": {
+          "bytes": 248,
+          "sha256": "1d026dd9e59c1732eb970e48bc2b7bf71de56dcdef066f3a2fd03872890a6fc2"
+        },
+        "reopened.json": {
+          "bytes": 248,
+          "sha256": "1d026dd9e59c1732eb970e48bc2b7bf71de56dcdef066f3a2fd03872890a6fc2"
+        },
+        "reading.pdf": {
+          "bytes": 6454433,
+          "sha256": "939bd8be287bcd87dc828263f42c2b910e6b50b4edbf8baf84ab2395e3075f03"
+        },
+        "offline.html": {
+          "bytes": 9794190,
+          "sha256": "cd36611394029b1b58e060d7700997e1a889d167b540484ddf55212f24808f7f"
+        },
+        "diatonic.wav": {
+          "bytes": 639406,
+          "sha256": "acc3e8b74756b0decf55e74025be7555be22d7dd5fd04e1921158882ba7941cf"
+        }
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "sourceImagesIdentical": 8,
+      "fontsIdentical": 3,
+      "completeLicenses": 3,
+      "scriptFreeNativeDownloads": 5,
+      "cacheFiles": 114,
+      "sounds": [
+        {
+          "file": "study.wav",
+          "duration": 6.660020833333333,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "start": 0.12,
+              "expectedHz": 220.0,
+              "measuredHz": 219.99995330277778,
+              "errorCents": -0.00036747195300587427
+            },
+            {
+              "start": 0.86,
+              "expectedHz": 251.42857142857142,
+              "measuredHz": 251.42859013313318,
+              "errorCents": 0.00012879193812086903
+            },
+            {
+              "start": 1.6,
+              "expectedHz": 264.0,
+              "measuredHz": 263.99990650237044,
+              "errorCents": -0.0006131299563126513
+            },
+            {
+              "start": 2.34,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.3332868301484,
+              "errorCents": -0.0002744587620927781
+            },
+            {
+              "start": 3.58,
+              "expectedHz": 220.0,
+              "measuredHz": 219.9999717948753,
+              "errorCents": -0.00022195306972094
+            },
+            {
+              "start": 4.32,
+              "expectedHz": 228.14814814814815,
+              "measuredHz": 228.1481468205445,
+              "errorCents": -1.0074123717692904e-5
+            },
+            {
+              "start": 5.06,
+              "expectedHz": 234.66666666666666,
+              "measuredHz": 234.66669442965906,
+              "errorCents": 0.0002048191829886585
+            },
+            {
+              "start": 5.8,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.33334265242604,
+              "errorCents": 5.50006716778553e-5
+            }
+          ],
+          "maxAmplitude": 5243,
+          "silentTail": true
+        },
+        {
+          "file": "interval.wav",
+          "duration": 1.7200208333333333,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "start": 0.12,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.3332868301486,
+              "errorCents": -0.0002744587607473387
+            },
+            {
+              "start": 0.86,
+              "expectedHz": 330.0,
+              "measuredHz": 329.9999255011907,
+              "errorCents": -0.00039083299939840065
+            }
+          ],
+          "maxAmplitude": 5243,
+          "silentTail": true
+        },
+        {
+          "file": "enharmonic.wav",
+          "duration": 6.660020833333333,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "start": 0.12,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.3332868301486,
+              "errorCents": -0.0002744587607473387
+            },
+            {
+              "start": 0.86,
+              "expectedHz": 335.23809523809524,
+              "measuredHz": 335.2380767294366,
+              "errorCents": -9.558227829810275e-5
+            },
+            {
+              "start": 1.6,
+              "expectedHz": 352.0,
+              "measuredHz": 352.0000000000001,
+              "errorCents": 3.8441118045779003e-13
+            },
+            {
+              "start": 2.34,
+              "expectedHz": 391.1111111111111,
+              "measuredHz": 391.1110551965667,
+              "errorCents": -0.0002475029913172773
+            },
+            {
+              "start": 3.58,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.33328683014867,
+              "errorCents": -0.0002744587603629275
+            },
+            {
+              "start": 4.32,
+              "expectedHz": 304.1975308641975,
+              "measuredHz": 304.19757478847373,
+              "errorCents": 0.00024997966568658187
+            },
+            {
+              "start": 5.06,
+              "expectedHz": 312.8888888888889,
+              "measuredHz": 312.88891241829907,
+              "errorCents": 0.00013018971242367445
+            },
+            {
+              "start": 5.8,
+              "expectedHz": 391.1111111111111,
+              "measuredHz": 391.1110891125131,
+              "errorCents": -9.737571185700052e-5
+            }
+          ],
+          "maxAmplitude": 5243,
+          "silentTail": true
+        },
+        {
+          "file": "chromatic.wav",
+          "duration": 6.660020833333333,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "start": 0.12,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.3332868301486,
+              "errorCents": -0.0002744587607473387
+            },
+            {
+              "start": 0.86,
+              "expectedHz": 335.23809523809524,
+              "measuredHz": 335.2380767294366,
+              "errorCents": -9.558227829810275e-5
+            },
+            {
+              "start": 1.6,
+              "expectedHz": 352.0,
+              "measuredHz": 352.0000000000001,
+              "errorCents": 3.8441118045779003e-13
+            },
+            {
+              "start": 2.34,
+              "expectedHz": 391.1111111111111,
+              "measuredHz": 391.1110551965667,
+              "errorCents": -0.0002475029913172773
+            },
+            {
+              "start": 3.58,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.33328683014867,
+              "errorCents": -0.0002744587603629275
+            },
+            {
+              "start": 4.32,
+              "expectedHz": 304.1975308641975,
+              "measuredHz": 304.19757478847373,
+              "errorCents": 0.00024997966568658187
+            },
+            {
+              "start": 5.06,
+              "expectedHz": 330.0,
+              "measuredHz": 330.00002793706193,
+              "errorCents": 0.0001465623964265499
+            },
+            {
+              "start": 5.8,
+              "expectedHz": 391.1111111111111,
+              "measuredHz": 391.1110891125131,
+              "errorCents": -9.737571185700052e-5
+            }
+          ],
+          "maxAmplitude": 5243,
+          "silentTail": true
+        },
+        {
+          "file": "diatonic.wav",
+          "duration": 6.660020833333333,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "start": 0.12,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.3332868301486,
+              "errorCents": -0.0002744587607473387
+            },
+            {
+              "start": 0.86,
+              "expectedHz": 335.23809523809524,
+              "measuredHz": 335.2380767294366,
+              "errorCents": -9.558227829810275e-5
+            },
+            {
+              "start": 1.6,
+              "expectedHz": 352.0,
+              "measuredHz": 352.0000000000001,
+              "errorCents": 3.8441118045779003e-13
+            },
+            {
+              "start": 2.34,
+              "expectedHz": 391.1111111111111,
+              "measuredHz": 391.1110551965667,
+              "errorCents": -0.0002475029913172773
+            },
+            {
+              "start": 3.58,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.33328683014867,
+              "errorCents": -0.0002744587603629275
+            },
+            {
+              "start": 4.32,
+              "expectedHz": 304.1975308641975,
+              "measuredHz": 304.19757478847373,
+              "errorCents": 0.00024997966568658187
+            },
+            {
+              "start": 5.06,
+              "expectedHz": 347.65432098765433,
+              "measuredHz": 347.65431932377567,
+              "errorCents": -8.285711428096441e-6
+            },
+            {
+              "start": 5.8,
+              "expectedHz": 391.1111111111111,
+              "measuredHz": 391.1110891125131,
+              "errorCents": -9.737571185700052e-5
+            }
+          ],
+          "maxAmplitude": 5243,
+          "silentTail": true
+        }
+      ],
+      "savedFiles": {
+        "chromatic.wav": {
+          "bytes": 639406,
+          "sha256": "c0ae9b9c063082cefd1f23e8730be97143ea636704ae5a7192092f28ca0e990e"
+        },
+        "enharmonic.wav": {
+          "bytes": 639406,
+          "sha256": "36b45ac310816b30a4d671adb6a08073850ff42ac393bbda616b66b0a4d0987c"
+        },
+        "study.csv": {
+          "bytes": 5590,
+          "sha256": "6ebda45587e2d69912d2933fb38892bc563b38c7091c22765154c50cee26d8d2"
+        },
+        "study.svg": {
+          "bytes": 97458,
+          "sha256": "fe621f530ddc276e98eb6721a93c0a02d2416c63e21801ce6df5ef2f0861a2cc"
+        },
+        "reopened.csv": {
+          "bytes": 5590,
+          "sha256": "6ebda45587e2d69912d2933fb38892bc563b38c7091c22765154c50cee26d8d2"
+        },
+        "interval.wav": {
+          "bytes": 165166,
+          "sha256": "4496a563df8059197b44e722f2596572364aeced7a88421bedf8fcccd2c7be75"
+        },
+        "study.html": {
+          "bytes": 9794222,
+          "sha256": "c1f5efcd74d30c58c110826b3dea1d7b0dad61ebf709406965ad321c9b589350"
+        },
+        "study.wav": {
+          "bytes": 639406,
+          "sha256": "b627b576b96730e9570f2910add8af1f91a9ccfeae1d4f750827e9fd3a844d70"
+        },
+        "reopened.svg": {
+          "bytes": 97458,
+          "sha256": "fe621f530ddc276e98eb6721a93c0a02d2416c63e21801ce6df5ef2f0861a2cc"
+        },
+        "study.json": {
+          "bytes": 248,
+          "sha256": "1d026dd9e59c1732eb970e48bc2b7bf71de56dcdef066f3a2fd03872890a6fc2"
+        },
+        "reopened.json": {
+          "bytes": 248,
+          "sha256": "1d026dd9e59c1732eb970e48bc2b7bf71de56dcdef066f3a2fd03872890a6fc2"
+        },
+        "offline.html": {
+          "bytes": 9794190,
+          "sha256": "cd36611394029b1b58e060d7700997e1a889d167b540484ddf55212f24808f7f"
+        },
+        "diatonic.wav": {
+          "bytes": 639406,
+          "sha256": "acc3e8b74756b0decf55e74025be7555be22d7dd5fd04e1921158882ba7941cf"
+        }
+      }
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "sourceImagesIdentical": 8,
+      "fontsIdentical": 3,
+      "completeLicenses": 3,
+      "scriptFreeNativeDownloads": 5,
+      "cacheFiles": 114,
+      "sounds": [
+        {
+          "file": "study.wav",
+          "duration": 6.660020833333333,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "start": 0.12,
+              "expectedHz": 220.0,
+              "measuredHz": 220.00032250323213,
+              "errorCents": 0.0025378553052114146
+            },
+            {
+              "start": 0.86,
+              "expectedHz": 251.42857142857142,
+              "measuredHz": 251.42838438310653,
+              "errorCents": -0.0012879188556583919
+            },
+            {
+              "start": 1.6,
+              "expectedHz": 264.0,
+              "measuredHz": 263.9995979606634,
+              "errorCents": -0.0026364572674411196
+            },
+            {
+              "start": 2.34,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.33359233050675,
+              "errorCents": 0.0015285836157903894
+            },
+            {
+              "start": 3.58,
+              "expectedHz": 220.0,
+              "measuredHz": 220.00032250323247,
+              "errorCents": 0.002537855307902289
+            },
+            {
+              "start": 4.32,
+              "expectedHz": 228.14814814814815,
+              "measuredHz": 228.1476389498821,
+              "errorCents": -0.0038639031999174256
+            },
+            {
+              "start": 5.06,
+              "expectedHz": 234.66666666666666,
+              "measuredHz": 234.66692015510299,
+              "errorCents": 0.0018700890979148077
+            },
+            {
+              "start": 5.8,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.33359233050766,
+              "errorCents": 0.001528583621172141
+            }
+          ],
+          "maxAmplitude": 5243,
+          "silentTail": true
+        },
+        {
+          "file": "interval.wav",
+          "duration": 1.7200208333333333,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "start": 0.12,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.33359233050686,
+              "errorCents": 0.0015285836165592113
+            },
+            {
+              "start": 0.86,
+              "expectedHz": 330.0,
+              "measuredHz": 329.9994715350548,
+              "errorCents": -0.0027724158771728347
+            }
+          ],
+          "maxAmplitude": 5243,
+          "silentTail": true
+        },
+        {
+          "file": "enharmonic.wav",
+          "duration": 6.660020833333333,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "start": 0.12,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.33359233050686,
+              "errorCents": 0.0015285836165592113
+            },
+            {
+              "start": 0.86,
+              "expectedHz": 335.23809523809524,
+              "measuredHz": 335.23766953946733,
+              "errorCents": -0.0021983910470153595
+            },
+            {
+              "start": 1.6,
+              "expectedHz": 352.0,
+              "measuredHz": 352.0004102568883,
+              "errorCents": 0.0020177564772856683
+            },
+            {
+              "start": 2.34,
+              "expectedHz": 391.1111111111111,
+              "measuredHz": 391.1104401376334,
+              "errorCents": -0.002970033563231198
+            },
+            {
+              "start": 3.58,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.3335923305071,
+              "errorCents": 0.0015285836177124437
+            },
+            {
+              "start": 4.32,
+              "expectedHz": 304.1975308641975,
+              "measuredHz": 304.19747229851566,
+              "errorCents": -0.0003333061646237831
+            },
+            {
+              "start": 5.06,
+              "expectedHz": 312.8888888888889,
+              "measuredHz": 312.88845769032554,
+              "errorCents": -0.002385850619022372
+            },
+            {
+              "start": 5.8,
+              "expectedHz": 391.1111111111111,
+              "measuredHz": 391.1104401376338,
+              "errorCents": -0.0029700335615013445
+            }
+          ],
+          "maxAmplitude": 5243,
+          "silentTail": true
+        },
+        {
+          "file": "chromatic.wav",
+          "duration": 6.660020833333333,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "start": 0.12,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.33359233050686,
+              "errorCents": 0.0015285836165592113
+            },
+            {
+              "start": 0.86,
+              "expectedHz": 335.23809523809524,
+              "measuredHz": 335.23766953946733,
+              "errorCents": -0.0021983910470153595
+            },
+            {
+              "start": 1.6,
+              "expectedHz": 352.0,
+              "measuredHz": 352.0004102568883,
+              "errorCents": 0.0020177564772856683
+            },
+            {
+              "start": 2.34,
+              "expectedHz": 391.1111111111111,
+              "measuredHz": 391.1104401376334,
+              "errorCents": -0.002970033563231198
+            },
+            {
+              "start": 3.58,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.3335923305071,
+              "errorCents": 0.0015285836177124437
+            },
+            {
+              "start": 4.32,
+              "expectedHz": 304.1975308641975,
+              "measuredHz": 304.19747229851566,
+              "errorCents": -0.0003333061646237831
+            },
+            {
+              "start": 5.06,
+              "expectedHz": 330.0,
+              "measuredHz": 329.9994715350541,
+              "errorCents": -0.0027724158806325407
+            },
+            {
+              "start": 5.8,
+              "expectedHz": 391.1111111111111,
+              "measuredHz": 391.1104401376338,
+              "errorCents": -0.0029700335615013445
+            }
+          ],
+          "maxAmplitude": 5243,
+          "silentTail": true
+        },
+        {
+          "file": "diatonic.wav",
+          "duration": 6.660020833333333,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "start": 0.12,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.33359233050686,
+              "errorCents": 0.0015285836165592113
+            },
+            {
+              "start": 0.86,
+              "expectedHz": 335.23809523809524,
+              "measuredHz": 335.23766953946733,
+              "errorCents": -0.0021983910470153595
+            },
+            {
+              "start": 1.6,
+              "expectedHz": 352.0,
+              "measuredHz": 352.0004102568883,
+              "errorCents": 0.0020177564772856683
+            },
+            {
+              "start": 2.34,
+              "expectedHz": 391.1111111111111,
+              "measuredHz": 391.1104401376334,
+              "errorCents": -0.002970033563231198
+            },
+            {
+              "start": 3.58,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.3335923305071,
+              "errorCents": 0.0015285836177124437
+            },
+            {
+              "start": 4.32,
+              "expectedHz": 304.1975308641975,
+              "measuredHz": 304.19747229851566,
+              "errorCents": -0.0003333061646237831
+            },
+            {
+              "start": 5.06,
+              "expectedHz": 347.65432098765433,
+              "measuredHz": 347.6545891818513,
+              "errorCents": 0.0013355414228203423
+            },
+            {
+              "start": 5.8,
+              "expectedHz": 391.1111111111111,
+              "measuredHz": 391.1104401376338,
+              "errorCents": -0.0029700335615013445
+            }
+          ],
+          "maxAmplitude": 5243,
+          "silentTail": true
+        }
+      ],
+      "savedFiles": {
+        "chromatic.wav": {
+          "bytes": 639406,
+          "sha256": "df9a08433d56b6dfb7ecdeafe2892b74fe4f2d92e734559077220a6509441518"
+        },
+        "enharmonic.wav": {
+          "bytes": 639406,
+          "sha256": "51a976446e5454bc1390d74f3ca495b15a0b54e1c1d9bb1c53ea422bb2a1d128"
+        },
+        "study.csv": {
+          "bytes": 5590,
+          "sha256": "6ebda45587e2d69912d2933fb38892bc563b38c7091c22765154c50cee26d8d2"
+        },
+        "study.svg": {
+          "bytes": 97458,
+          "sha256": "fe621f530ddc276e98eb6721a93c0a02d2416c63e21801ce6df5ef2f0861a2cc"
+        },
+        "reopened.csv": {
+          "bytes": 5590,
+          "sha256": "6ebda45587e2d69912d2933fb38892bc563b38c7091c22765154c50cee26d8d2"
+        },
+        "interval.wav": {
+          "bytes": 165166,
+          "sha256": "5535b783570004bf37950351238683b8e8572bbca2f18fd337bc796335207512"
+        },
+        "study.html": {
+          "bytes": 9794222,
+          "sha256": "895fcee42c7eb39733e1d82022d84b0cfe0e2eba05f06b9a1377106358d1d4f5"
+        },
+        "study.wav": {
+          "bytes": 639406,
+          "sha256": "0c7bfcadbf8a8a71701dc3ecc6a4e2751158826ced0abd27c374f282424c9246"
+        },
+        "reopened.svg": {
+          "bytes": 97458,
+          "sha256": "fe621f530ddc276e98eb6721a93c0a02d2416c63e21801ce6df5ef2f0861a2cc"
+        },
+        "study.json": {
+          "bytes": 248,
+          "sha256": "1d026dd9e59c1732eb970e48bc2b7bf71de56dcdef066f3a2fd03872890a6fc2"
+        },
+        "reopened.json": {
+          "bytes": 248,
+          "sha256": "1d026dd9e59c1732eb970e48bc2b7bf71de56dcdef066f3a2fd03872890a6fc2"
+        },
+        "offline.html": {
+          "bytes": 9794190,
+          "sha256": "ea33b68b50a77f34e93fa40f0513888a5db06c88432b08463fa1d31fe8b1b1f3"
+        },
+        "diatonic.wav": {
+          "bytes": 639406,
+          "sha256": "df03872cd9f628dd1c42c1cb7bb503eaa2c4cf9c210c16b2991184e3446957c1"
+        }
+      }
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "sourceImagesIdentical": 8,
+      "fontsIdentical": 3,
+      "completeLicenses": 3,
+      "scriptFreeNativeDownloads": 5,
+      "cacheFiles": 114,
+      "sounds": [
+        {
+          "file": "study.wav",
+          "duration": 6.660020833333333,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "start": 0.12,
+              "expectedHz": 220.0,
+              "measuredHz": 220.00032250323213,
+              "errorCents": 0.0025378553052114146
+            },
+            {
+              "start": 0.86,
+              "expectedHz": 251.42857142857142,
+              "measuredHz": 251.42838438310653,
+              "errorCents": -0.0012879188556583919
+            },
+            {
+              "start": 1.6,
+              "expectedHz": 264.0,
+              "measuredHz": 263.9995979606634,
+              "errorCents": -0.0026364572674411196
+            },
+            {
+              "start": 2.34,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.33359233050675,
+              "errorCents": 0.0015285836157903894
+            },
+            {
+              "start": 3.58,
+              "expectedHz": 220.0,
+              "measuredHz": 220.00032250323247,
+              "errorCents": 0.002537855307902289
+            },
+            {
+              "start": 4.32,
+              "expectedHz": 228.14814814814815,
+              "measuredHz": 228.1476389498821,
+              "errorCents": -0.0038639031999174256
+            },
+            {
+              "start": 5.06,
+              "expectedHz": 234.66666666666666,
+              "measuredHz": 234.66692015510299,
+              "errorCents": 0.0018700890979148077
+            },
+            {
+              "start": 5.8,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.33359233050766,
+              "errorCents": 0.001528583621172141
+            }
+          ],
+          "maxAmplitude": 5243,
+          "silentTail": true
+        },
+        {
+          "file": "interval.wav",
+          "duration": 1.7200208333333333,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "start": 0.12,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.33359233050686,
+              "errorCents": 0.0015285836165592113
+            },
+            {
+              "start": 0.86,
+              "expectedHz": 330.0,
+              "measuredHz": 329.9994715350548,
+              "errorCents": -0.0027724158771728347
+            }
+          ],
+          "maxAmplitude": 5243,
+          "silentTail": true
+        },
+        {
+          "file": "enharmonic.wav",
+          "duration": 6.660020833333333,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "start": 0.12,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.33359233050686,
+              "errorCents": 0.0015285836165592113
+            },
+            {
+              "start": 0.86,
+              "expectedHz": 335.23809523809524,
+              "measuredHz": 335.23766953946733,
+              "errorCents": -0.0021983910470153595
+            },
+            {
+              "start": 1.6,
+              "expectedHz": 352.0,
+              "measuredHz": 352.0004102568883,
+              "errorCents": 0.0020177564772856683
+            },
+            {
+              "start": 2.34,
+              "expectedHz": 391.1111111111111,
+              "measuredHz": 391.1104401376334,
+              "errorCents": -0.002970033563231198
+            },
+            {
+              "start": 3.58,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.3335923305071,
+              "errorCents": 0.0015285836177124437
+            },
+            {
+              "start": 4.32,
+              "expectedHz": 304.1975308641975,
+              "measuredHz": 304.19747229851566,
+              "errorCents": -0.0003333061646237831
+            },
+            {
+              "start": 5.06,
+              "expectedHz": 312.8888888888889,
+              "measuredHz": 312.88845769032554,
+              "errorCents": -0.002385850619022372
+            },
+            {
+              "start": 5.8,
+              "expectedHz": 391.1111111111111,
+              "measuredHz": 391.1104401376338,
+              "errorCents": -0.0029700335615013445
+            }
+          ],
+          "maxAmplitude": 5243,
+          "silentTail": true
+        },
+        {
+          "file": "chromatic.wav",
+          "duration": 6.660020833333333,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "start": 0.12,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.33359233050686,
+              "errorCents": 0.0015285836165592113
+            },
+            {
+              "start": 0.86,
+              "expectedHz": 335.23809523809524,
+              "measuredHz": 335.23766953946733,
+              "errorCents": -0.0021983910470153595
+            },
+            {
+              "start": 1.6,
+              "expectedHz": 352.0,
+              "measuredHz": 352.0004102568883,
+              "errorCents": 0.0020177564772856683
+            },
+            {
+              "start": 2.34,
+              "expectedHz": 391.1111111111111,
+              "measuredHz": 391.1104401376334,
+              "errorCents": -0.002970033563231198
+            },
+            {
+              "start": 3.58,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.3335923305071,
+              "errorCents": 0.0015285836177124437
+            },
+            {
+              "start": 4.32,
+              "expectedHz": 304.1975308641975,
+              "measuredHz": 304.19747229851566,
+              "errorCents": -0.0003333061646237831
+            },
+            {
+              "start": 5.06,
+              "expectedHz": 330.0,
+              "measuredHz": 329.9994715350541,
+              "errorCents": -0.0027724158806325407
+            },
+            {
+              "start": 5.8,
+              "expectedHz": 391.1111111111111,
+              "measuredHz": 391.1104401376338,
+              "errorCents": -0.0029700335615013445
+            }
+          ],
+          "maxAmplitude": 5243,
+          "silentTail": true
+        },
+        {
+          "file": "diatonic.wav",
+          "duration": 6.660020833333333,
+          "sampleRate": 48000,
+          "tones": [
+            {
+              "start": 0.12,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.33359233050686,
+              "errorCents": 0.0015285836165592113
+            },
+            {
+              "start": 0.86,
+              "expectedHz": 335.23809523809524,
+              "measuredHz": 335.23766953946733,
+              "errorCents": -0.0021983910470153595
+            },
+            {
+              "start": 1.6,
+              "expectedHz": 352.0,
+              "measuredHz": 352.0004102568883,
+              "errorCents": 0.0020177564772856683
+            },
+            {
+              "start": 2.34,
+              "expectedHz": 391.1111111111111,
+              "measuredHz": 391.1104401376334,
+              "errorCents": -0.002970033563231198
+            },
+            {
+              "start": 3.58,
+              "expectedHz": 293.3333333333333,
+              "measuredHz": 293.3335923305071,
+              "errorCents": 0.0015285836177124437
+            },
+            {
+              "start": 4.32,
+              "expectedHz": 304.1975308641975,
+              "measuredHz": 304.19747229851566,
+              "errorCents": -0.0003333061646237831
+            },
+            {
+              "start": 5.06,
+              "expectedHz": 347.65432098765433,
+              "measuredHz": 347.6545891818513,
+              "errorCents": 0.0013355414228203423
+            },
+            {
+              "start": 5.8,
+              "expectedHz": 391.1111111111111,
+              "measuredHz": 391.1104401376338,
+              "errorCents": -0.0029700335615013445
+            }
+          ],
+          "maxAmplitude": 5243,
+          "silentTail": true
+        }
+      ],
+      "savedFiles": {
+        "chromatic.wav": {
+          "bytes": 639406,
+          "sha256": "df9a08433d56b6dfb7ecdeafe2892b74fe4f2d92e734559077220a6509441518"
+        },
+        "enharmonic.wav": {
+          "bytes": 639406,
+          "sha256": "51a976446e5454bc1390d74f3ca495b15a0b54e1c1d9bb1c53ea422bb2a1d128"
+        },
+        "study.csv": {
+          "bytes": 5590,
+          "sha256": "6ebda45587e2d69912d2933fb38892bc563b38c7091c22765154c50cee26d8d2"
+        },
+        "study.svg": {
+          "bytes": 97458,
+          "sha256": "fe621f530ddc276e98eb6721a93c0a02d2416c63e21801ce6df5ef2f0861a2cc"
+        },
+        "reopened.csv": {
+          "bytes": 5590,
+          "sha256": "6ebda45587e2d69912d2933fb38892bc563b38c7091c22765154c50cee26d8d2"
+        },
+        "interval.wav": {
+          "bytes": 165166,
+          "sha256": "5535b783570004bf37950351238683b8e8572bbca2f18fd337bc796335207512"
+        },
+        "study.html": {
+          "bytes": 9794222,
+          "sha256": "895fcee42c7eb39733e1d82022d84b0cfe0e2eba05f06b9a1377106358d1d4f5"
+        },
+        "study.wav": {
+          "bytes": 639406,
+          "sha256": "0c7bfcadbf8a8a71701dc3ecc6a4e2751158826ced0abd27c374f282424c9246"
+        },
+        "reopened.svg": {
+          "bytes": 97458,
+          "sha256": "fe621f530ddc276e98eb6721a93c0a02d2416c63e21801ce6df5ef2f0861a2cc"
+        },
+        "study.json": {
+          "bytes": 248,
+          "sha256": "1d026dd9e59c1732eb970e48bc2b7bf71de56dcdef066f3a2fd03872890a6fc2"
+        },
+        "reopened.json": {
+          "bytes": 248,
+          "sha256": "1d026dd9e59c1732eb970e48bc2b7bf71de56dcdef066f3a2fd03872890a6fc2"
+        },
+        "offline.html": {
+          "bytes": 9794190,
+          "sha256": "ea33b68b50a77f34e93fa40f0513888a5db06c88432b08463fa1d31fe8b1b1f3"
+        },
+        "diatonic.wav": {
+          "bytes": 639406,
+          "sha256": "df03872cd9f628dd1c42c1cb7bb503eaa2c4cf9c210c16b2991184e3446957c1"
+        }
+      }
+    }
+  ],
+  "pdf": {
+    "pages": 21,
+    "completeLanguageFields": 78,
+    "sourceCaptions": 8,
+    "wordsWithinMargins": 1961,
+    "tagged": false,
+    "physicalPrintingVerified": false
+  }
+}

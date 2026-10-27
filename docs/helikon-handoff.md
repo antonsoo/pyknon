@@ -1,5 +1,10 @@
 # Helikon handoff
 
+Subsequently published with the owner's explicit authorization. The
+[public delivery record](helikon-publication.md) retains canonical bytes,
+actual browser/export/offline results and the remote CI boundary. The local
+handoff below records the earlier review and its original publication boundary.
+
 Pyknon now has an operable helikon room: build the square and its four strings,
 hear seven interval relations, alter the common bridge, then fit three
 fourth-span target divisions by moving the two inner strings. The two end

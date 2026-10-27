@@ -35,7 +35,7 @@ service is used.
 
 ## One bridge, four strings
 
-Open **Helikon** from the root workshop, or serve `/pyknon/helikon.html` locally.
+Open [**Helikon**](https://antonsoo.github.io/pyknon/helikon.html) from the root workshop, or serve `/pyknon/helikon.html` locally.
 The new room follows Ptolemy’s _Harmonics_ II.2. A square, two bisections and two
 intersecting lines give seven nonzero sounding segments with six different
 lengths: **12, 9, 8, 6, 4 and 3**. Select and hear seven named interval relations,
@@ -67,8 +67,9 @@ requests and file imports cannot replace newer choices.
 [21-page PDF](examples/helikon-reading.pdf) ·
 [Editable experiment](examples/helikon-experiment.json).
 Decompress the HTML before opening it.
-This addition is prepared locally; the earlier public edition has separate
-publication records. `npm run build` writes the complete ten-room edition to
+The [public verification](docs/helikon-publication.md) records canonical files,
+actual browser exports and offline use separately from remote CI.
+`npm run build` writes the complete ten-room edition to
 `dist/`. Uniform strings, ideal contact geometry and sine tones do not establish
 an ancient instrument’s timbre, practical tuning or physical performance.
 
