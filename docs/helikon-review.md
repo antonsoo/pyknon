@@ -166,4 +166,4 @@ gzip -dc examples/helikon-reading.html.gz > /tmp/pyknon-helikon-reading.html
 
 The artifact receipt identifies the exact original browser file, rather than
 claiming that a handwritten example or separately rebuilt document is the
-browser’s download. The clean-install/build check is recorded separately in the final handoff.
+browser’s download. The [clean-install/build check](helikon-clean-build.json) and [publication handoff](helikon-handoff.md) are retained separately.
