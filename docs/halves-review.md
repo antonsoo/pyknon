@@ -2,7 +2,8 @@
 
 Reviewed 2026-10-26 in Los Angeles; machine receipts use 2026-10-27 UTC.
 The [model account](halves-model.md) identifies the primary source and the
-modern assumptions. Publication is a separate claim recorded below once checked.
+modern assumptions. [Publication](halves-publication.md) separately records the fresh public clone, hosted
+bytes, public browser operation and remote workflow status.
 
 ## Try the actual work
 

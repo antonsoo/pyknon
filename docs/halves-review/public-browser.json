@@ -1,0 +1,1093 @@
+{
+  "checkedAt": "2026-10-27T06:33:15.200Z",
+  "edition": "6e76d41583dbf6b860e3793a88c53b994b7595958387246cc3e729b572d15eae",
+  "scope": "Actual public origin; browser networking disabled for offline reload",
+  "base": "https://antonsoo.github.io/pyknon/",
+  "configurations": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "samples": [
+        {
+          "label": "initial",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "chromium-1440/initial.csv",
+          "result": "M = 17. The first frequency ratio is larger. First 17/16; second 18/17.",
+          "equation": "M² = 289 > AB = 288"
+        },
+        {
+          "label": "frequency",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "frequency",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "chromium-1440/frequency.csv",
+          "result": "M = 17. The first frequency ratio is larger. First 17/16; second 18/17.",
+          "equation": "M² = 289 > AB = 288"
+        },
+        {
+          "label": "length",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "length",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "chromium-1440/length.csv",
+          "result": "M = 288/17. The first frequency ratio is smaller. First 18/17; second 17/16.",
+          "equation": "M² = 82944/289 < AB = 288"
+        },
+        {
+          "label": "ratio",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "ratio",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "chromium-1440/ratio.csv",
+          "result": "M = 12√2. The two frequency ratios are equal. First 3√2/4; second 3√2/4.",
+          "equation": "M² = 288 = AB = 288"
+        },
+        {
+          "label": "doubled",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 4,
+            "middle": 34,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "chromium-1440/doubled.csv",
+          "result": "M = 34. The first frequency ratio is larger. First 17/16; second 18/17.",
+          "equation": "M² = 1156 > AB = 1152"
+        },
+        {
+          "label": "below",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 4,
+            "middle": 33,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "chromium-1440/below.csv",
+          "result": "M = 33. The first frequency ratio is smaller. First 33/32; second 12/11.",
+          "equation": "M² = 1089 < AB = 1152"
+        },
+        {
+          "label": "above",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 4,
+            "middle": 34,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "chromium-1440/above.csv",
+          "result": "M = 34. The first frequency ratio is larger. First 17/16; second 18/17.",
+          "equation": "M² = 1156 > AB = 1152"
+        },
+        {
+          "label": "control-469",
+          "state": {
+            "interval": "square",
+            "n": 8,
+            "scale": 1,
+            "middle": 6,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "chromium-1440/control-469.csv",
+          "result": "M = 6. The two frequency ratios are equal. First 3/2; second 3/2.",
+          "equation": "M² = 36 = AB = 36"
+        },
+        {
+          "label": "source-9-12",
+          "state": {
+            "interval": "fourth",
+            "n": 8,
+            "scale": 3,
+            "middle": 10,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 1,
+            "page": 220
+          },
+          "csv": "chromium-1440/source-9-12.csv",
+          "result": "M = 10. The first frequency ratio is smaller. First 10/9; second 6/5.",
+          "equation": "M² = 100 < AB = 108"
+        },
+        {
+          "label": "largest-scale",
+          "state": {
+            "interval": "custom",
+            "n": 64,
+            "scale": 256,
+            "middle": 16510,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 1,
+            "page": 220
+          },
+          "csv": "chromium-1440/largest-scale.csv",
+          "result": "M = 16510. The first frequency ratio is smaller. First 8255/8192; second 128/127.",
+          "equation": "M² = 272580100 < AB = 272629760"
+        },
+        {
+          "label": "final",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "chromium-1440/final.csv",
+          "result": "M = 17. The first frequency ratio is larger. First 17/16; second 18/17.",
+          "equation": "M² = 289 > AB = 288"
+        }
+      ],
+      "sounds": [
+        {
+          "mode": "halves",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "file": "chromium-1440/halves.wav",
+          "bytes": 474286,
+          "sha256": "430363ef0d39abb5be09eb4ad22c44df3abe2841f943ccac7f81732d4cf485f9"
+        },
+        {
+          "mode": "path",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "integer",
+            "reference": 220,
+            "sound": "path",
+            "reading": 0,
+            "page": 220
+          },
+          "file": "chromium-1440/path.wav",
+          "bytes": 301484,
+          "sha256": "f44cc62407807abd0e1cb65a965f084c65a262d10203aaff1962c2088d1dd3e4"
+        },
+        {
+          "mode": "together",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "integer",
+            "reference": 220,
+            "sound": "together",
+            "reading": 0,
+            "page": 220
+          },
+          "file": "chromium-1440/together.wav",
+          "bytes": 551084,
+          "sha256": "52831368c79a93dd0bdb6a12997deaecd8331ffb9a81bceff4229239158164e3"
+        },
+        {
+          "mode": "control",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "integer",
+            "reference": 220,
+            "sound": "control",
+            "reading": 0,
+            "page": 220
+          },
+          "file": "chromium-1440/control.wav",
+          "bytes": 551084,
+          "sha256": "e9643ae3d89fef41f03f52e395c888b371662fe957b6271fa6d85f85f26f9831"
+        }
+      ],
+      "offlineEntries": 91,
+      "originStopped": false,
+      "browserOffline": true,
+      "nativeJavaScript": false,
+      "accessibilityViolations": 0,
+      "pageErrors": [],
+      "cspErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "samples": [
+        {
+          "label": "initial",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "chromium-375/initial.csv",
+          "result": "M = 17. The first frequency ratio is larger. First 17/16; second 18/17.",
+          "equation": "M² = 289 > AB = 288"
+        },
+        {
+          "label": "frequency",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "frequency",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "chromium-375/frequency.csv",
+          "result": "M = 17. The first frequency ratio is larger. First 17/16; second 18/17.",
+          "equation": "M² = 289 > AB = 288"
+        },
+        {
+          "label": "length",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "length",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "chromium-375/length.csv",
+          "result": "M = 288/17. The first frequency ratio is smaller. First 18/17; second 17/16.",
+          "equation": "M² = 82944/289 < AB = 288"
+        },
+        {
+          "label": "ratio",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "ratio",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "chromium-375/ratio.csv",
+          "result": "M = 12√2. The two frequency ratios are equal. First 3√2/4; second 3√2/4.",
+          "equation": "M² = 288 = AB = 288"
+        },
+        {
+          "label": "doubled",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 4,
+            "middle": 34,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "chromium-375/doubled.csv",
+          "result": "M = 34. The first frequency ratio is larger. First 17/16; second 18/17.",
+          "equation": "M² = 1156 > AB = 1152"
+        },
+        {
+          "label": "below",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 4,
+            "middle": 33,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "chromium-375/below.csv",
+          "result": "M = 33. The first frequency ratio is smaller. First 33/32; second 12/11.",
+          "equation": "M² = 1089 < AB = 1152"
+        },
+        {
+          "label": "above",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 4,
+            "middle": 34,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "chromium-375/above.csv",
+          "result": "M = 34. The first frequency ratio is larger. First 17/16; second 18/17.",
+          "equation": "M² = 1156 > AB = 1152"
+        },
+        {
+          "label": "control-469",
+          "state": {
+            "interval": "square",
+            "n": 8,
+            "scale": 1,
+            "middle": 6,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "chromium-375/control-469.csv",
+          "result": "M = 6. The two frequency ratios are equal. First 3/2; second 3/2.",
+          "equation": "M² = 36 = AB = 36"
+        },
+        {
+          "label": "source-9-12",
+          "state": {
+            "interval": "fourth",
+            "n": 8,
+            "scale": 3,
+            "middle": 10,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 1,
+            "page": 220
+          },
+          "csv": "chromium-375/source-9-12.csv",
+          "result": "M = 10. The first frequency ratio is smaller. First 10/9; second 6/5.",
+          "equation": "M² = 100 < AB = 108"
+        },
+        {
+          "label": "largest-scale",
+          "state": {
+            "interval": "custom",
+            "n": 64,
+            "scale": 256,
+            "middle": 16510,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 1,
+            "page": 220
+          },
+          "csv": "chromium-375/largest-scale.csv",
+          "result": "M = 16510. The first frequency ratio is smaller. First 8255/8192; second 128/127.",
+          "equation": "M² = 272580100 < AB = 272629760"
+        },
+        {
+          "label": "final",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "chromium-375/final.csv",
+          "result": "M = 17. The first frequency ratio is larger. First 17/16; second 18/17.",
+          "equation": "M² = 289 > AB = 288"
+        }
+      ],
+      "sounds": [
+        {
+          "mode": "halves",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "file": "chromium-375/halves.wav",
+          "bytes": 474286,
+          "sha256": "430363ef0d39abb5be09eb4ad22c44df3abe2841f943ccac7f81732d4cf485f9"
+        },
+        {
+          "mode": "path",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "integer",
+            "reference": 220,
+            "sound": "path",
+            "reading": 0,
+            "page": 220
+          },
+          "file": "chromium-375/path.wav",
+          "bytes": 301484,
+          "sha256": "f44cc62407807abd0e1cb65a965f084c65a262d10203aaff1962c2088d1dd3e4"
+        },
+        {
+          "mode": "together",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "integer",
+            "reference": 220,
+            "sound": "together",
+            "reading": 0,
+            "page": 220
+          },
+          "file": "chromium-375/together.wav",
+          "bytes": 551084,
+          "sha256": "52831368c79a93dd0bdb6a12997deaecd8331ffb9a81bceff4229239158164e3"
+        },
+        {
+          "mode": "control",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "integer",
+            "reference": 220,
+            "sound": "control",
+            "reading": 0,
+            "page": 220
+          },
+          "file": "chromium-375/control.wav",
+          "bytes": 551084,
+          "sha256": "e9643ae3d89fef41f03f52e395c888b371662fe957b6271fa6d85f85f26f9831"
+        }
+      ],
+      "offlineEntries": 91,
+      "originStopped": false,
+      "browserOffline": true,
+      "nativeJavaScript": false,
+      "accessibilityViolations": 0,
+      "pageErrors": [],
+      "cspErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "samples": [
+        {
+          "label": "initial",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "firefox-1440/initial.csv",
+          "result": "M = 17. The first frequency ratio is larger. First 17/16; second 18/17.",
+          "equation": "M² = 289 > AB = 288"
+        },
+        {
+          "label": "frequency",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "frequency",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "firefox-1440/frequency.csv",
+          "result": "M = 17. The first frequency ratio is larger. First 17/16; second 18/17.",
+          "equation": "M² = 289 > AB = 288"
+        },
+        {
+          "label": "length",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "length",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "firefox-1440/length.csv",
+          "result": "M = 288/17. The first frequency ratio is smaller. First 18/17; second 17/16.",
+          "equation": "M² = 82944/289 < AB = 288"
+        },
+        {
+          "label": "ratio",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "ratio",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "firefox-1440/ratio.csv",
+          "result": "M = 12√2. The two frequency ratios are equal. First 3√2/4; second 3√2/4.",
+          "equation": "M² = 288 = AB = 288"
+        },
+        {
+          "label": "doubled",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 4,
+            "middle": 34,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "firefox-1440/doubled.csv",
+          "result": "M = 34. The first frequency ratio is larger. First 17/16; second 18/17.",
+          "equation": "M² = 1156 > AB = 1152"
+        },
+        {
+          "label": "below",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 4,
+            "middle": 33,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "firefox-1440/below.csv",
+          "result": "M = 33. The first frequency ratio is smaller. First 33/32; second 12/11.",
+          "equation": "M² = 1089 < AB = 1152"
+        },
+        {
+          "label": "above",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 4,
+            "middle": 34,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "firefox-1440/above.csv",
+          "result": "M = 34. The first frequency ratio is larger. First 17/16; second 18/17.",
+          "equation": "M² = 1156 > AB = 1152"
+        },
+        {
+          "label": "control-469",
+          "state": {
+            "interval": "square",
+            "n": 8,
+            "scale": 1,
+            "middle": 6,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "firefox-1440/control-469.csv",
+          "result": "M = 6. The two frequency ratios are equal. First 3/2; second 3/2.",
+          "equation": "M² = 36 = AB = 36"
+        },
+        {
+          "label": "source-9-12",
+          "state": {
+            "interval": "fourth",
+            "n": 8,
+            "scale": 3,
+            "middle": 10,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 1,
+            "page": 220
+          },
+          "csv": "firefox-1440/source-9-12.csv",
+          "result": "M = 10. The first frequency ratio is smaller. First 10/9; second 6/5.",
+          "equation": "M² = 100 < AB = 108"
+        },
+        {
+          "label": "largest-scale",
+          "state": {
+            "interval": "custom",
+            "n": 64,
+            "scale": 256,
+            "middle": 16510,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 1,
+            "page": 220
+          },
+          "csv": "firefox-1440/largest-scale.csv",
+          "result": "M = 16510. The first frequency ratio is smaller. First 8255/8192; second 128/127.",
+          "equation": "M² = 272580100 < AB = 272629760"
+        },
+        {
+          "label": "final",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "firefox-1440/final.csv",
+          "result": "M = 17. The first frequency ratio is larger. First 17/16; second 18/17.",
+          "equation": "M² = 289 > AB = 288"
+        }
+      ],
+      "sounds": [
+        {
+          "mode": "halves",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "file": "firefox-1440/halves.wav",
+          "bytes": 474286,
+          "sha256": "9bcf481af65b72abbe3e70ab212e4599cd712952dad1f54eacd6e6063d36e4a2"
+        },
+        {
+          "mode": "path",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "integer",
+            "reference": 220,
+            "sound": "path",
+            "reading": 0,
+            "page": 220
+          },
+          "file": "firefox-1440/path.wav",
+          "bytes": 301484,
+          "sha256": "8fa2a1d25f4a4eee7b74479995a50d6d8bdc9cd9608d7a3416ca42a9ab5f07a2"
+        },
+        {
+          "mode": "together",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "integer",
+            "reference": 220,
+            "sound": "together",
+            "reading": 0,
+            "page": 220
+          },
+          "file": "firefox-1440/together.wav",
+          "bytes": 551084,
+          "sha256": "04e27018312bd2c0c4ec6bbbb835f7d660e4968824831b3dadd1ae5850985ffe"
+        },
+        {
+          "mode": "control",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "integer",
+            "reference": 220,
+            "sound": "control",
+            "reading": 0,
+            "page": 220
+          },
+          "file": "firefox-1440/control.wav",
+          "bytes": 551084,
+          "sha256": "b78e395e9f07909f7b2f0dcd7f059d80001ebeb3cc5c43836d44959c652bda63"
+        }
+      ],
+      "offlineEntries": 91,
+      "originStopped": false,
+      "browserOffline": true,
+      "nativeJavaScript": false,
+      "accessibilityViolations": 0,
+      "pageErrors": [],
+      "cspErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "samples": [
+        {
+          "label": "initial",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "firefox-375/initial.csv",
+          "result": "M = 17. The first frequency ratio is larger. First 17/16; second 18/17.",
+          "equation": "M² = 289 > AB = 288"
+        },
+        {
+          "label": "frequency",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "frequency",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "firefox-375/frequency.csv",
+          "result": "M = 17. The first frequency ratio is larger. First 17/16; second 18/17.",
+          "equation": "M² = 289 > AB = 288"
+        },
+        {
+          "label": "length",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "length",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "firefox-375/length.csv",
+          "result": "M = 288/17. The first frequency ratio is smaller. First 18/17; second 17/16.",
+          "equation": "M² = 82944/289 < AB = 288"
+        },
+        {
+          "label": "ratio",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "ratio",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "firefox-375/ratio.csv",
+          "result": "M = 12√2. The two frequency ratios are equal. First 3√2/4; second 3√2/4.",
+          "equation": "M² = 288 = AB = 288"
+        },
+        {
+          "label": "doubled",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 4,
+            "middle": 34,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "firefox-375/doubled.csv",
+          "result": "M = 34. The first frequency ratio is larger. First 17/16; second 18/17.",
+          "equation": "M² = 1156 > AB = 1152"
+        },
+        {
+          "label": "below",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 4,
+            "middle": 33,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "firefox-375/below.csv",
+          "result": "M = 33. The first frequency ratio is smaller. First 33/32; second 12/11.",
+          "equation": "M² = 1089 < AB = 1152"
+        },
+        {
+          "label": "above",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 4,
+            "middle": 34,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "firefox-375/above.csv",
+          "result": "M = 34. The first frequency ratio is larger. First 17/16; second 18/17.",
+          "equation": "M² = 1156 > AB = 1152"
+        },
+        {
+          "label": "control-469",
+          "state": {
+            "interval": "square",
+            "n": 8,
+            "scale": 1,
+            "middle": 6,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "firefox-375/control-469.csv",
+          "result": "M = 6. The two frequency ratios are equal. First 3/2; second 3/2.",
+          "equation": "M² = 36 = AB = 36"
+        },
+        {
+          "label": "source-9-12",
+          "state": {
+            "interval": "fourth",
+            "n": 8,
+            "scale": 3,
+            "middle": 10,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 1,
+            "page": 220
+          },
+          "csv": "firefox-375/source-9-12.csv",
+          "result": "M = 10. The first frequency ratio is smaller. First 10/9; second 6/5.",
+          "equation": "M² = 100 < AB = 108"
+        },
+        {
+          "label": "largest-scale",
+          "state": {
+            "interval": "custom",
+            "n": 64,
+            "scale": 256,
+            "middle": 16510,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 1,
+            "page": 220
+          },
+          "csv": "firefox-375/largest-scale.csv",
+          "result": "M = 16510. The first frequency ratio is smaller. First 8255/8192; second 128/127.",
+          "equation": "M² = 272580100 < AB = 272629760"
+        },
+        {
+          "label": "final",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "csv": "firefox-375/final.csv",
+          "result": "M = 17. The first frequency ratio is larger. First 17/16; second 18/17.",
+          "equation": "M² = 289 > AB = 288"
+        }
+      ],
+      "sounds": [
+        {
+          "mode": "halves",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "integer",
+            "reference": 220,
+            "sound": "halves",
+            "reading": 0,
+            "page": 220
+          },
+          "file": "firefox-375/halves.wav",
+          "bytes": 474286,
+          "sha256": "9bcf481af65b72abbe3e70ab212e4599cd712952dad1f54eacd6e6063d36e4a2"
+        },
+        {
+          "mode": "path",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "integer",
+            "reference": 220,
+            "sound": "path",
+            "reading": 0,
+            "page": 220
+          },
+          "file": "firefox-375/path.wav",
+          "bytes": 301484,
+          "sha256": "8fa2a1d25f4a4eee7b74479995a50d6d8bdc9cd9608d7a3416ca42a9ab5f07a2"
+        },
+        {
+          "mode": "together",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "integer",
+            "reference": 220,
+            "sound": "together",
+            "reading": 0,
+            "page": 220
+          },
+          "file": "firefox-375/together.wav",
+          "bytes": 551084,
+          "sha256": "04e27018312bd2c0c4ec6bbbb835f7d660e4968824831b3dadd1ae5850985ffe"
+        },
+        {
+          "mode": "control",
+          "state": {
+            "interval": "tone",
+            "n": 8,
+            "scale": 2,
+            "middle": 17,
+            "method": "integer",
+            "reference": 220,
+            "sound": "control",
+            "reading": 0,
+            "page": 220
+          },
+          "file": "firefox-375/control.wav",
+          "bytes": 551084,
+          "sha256": "b78e395e9f07909f7b2f0dcd7f059d80001ebeb3cc5c43836d44959c652bda63"
+        }
+      ],
+      "offlineEntries": 91,
+      "originStopped": false,
+      "browserOffline": true,
+      "nativeJavaScript": false,
+      "accessibilityViolations": 0,
+      "pageErrors": [],
+      "cspErrors": []
+    }
+  ],
+  "adversarial": []
+}

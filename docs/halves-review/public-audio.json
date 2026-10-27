@@ -1,0 +1,306 @@
+{
+  "files": 16,
+  "method": "Independent mean formulas; measured zero crossings; complete PCM phase/envelope fits at predicted frequencies; stereo or speakers not measured",
+  "checks": [
+    {
+      "file": "chromium-1440/halves.wav",
+      "samples": 237121,
+      "zeroCrossingMeasurements": [
+        {
+          "expectedHz": 220,
+          "observedHz": 219.99999216482453,
+          "errorCents": -6.165692180339836e-5
+        },
+        {
+          "expectedHz": 233.75,
+          "observedHz": 233.75000031857667,
+          "errorCents": 2.3594900684929562e-6
+        },
+        {
+          "expectedHz": 220,
+          "observedHz": 219.9999921648245,
+          "errorCents": -6.165692199560396e-5
+        },
+        {
+          "expectedHz": 232.94117647058823,
+          "observedHz": 232.94117996836286,
+          "errorCents": 2.5995689406698654e-5
+        }
+      ],
+      "pcmRmsOutside128FrameAutomationEdges": 7.618567912274838e-6,
+      "maximumEdgeDeviation": 1.5713639155024578e-5,
+      "simultaneousExpectedHz": null
+    },
+    {
+      "file": "chromium-1440/path.wav",
+      "samples": 150720,
+      "zeroCrossingMeasurements": [
+        {
+          "expectedHz": 220,
+          "observedHz": 219.99999216482453,
+          "errorCents": -6.165692180339836e-5
+        },
+        {
+          "expectedHz": 233.75,
+          "observedHz": 233.74999908852485,
+          "errorCents": -6.750702991474798e-6
+        },
+        {
+          "expectedHz": 247.5,
+          "observedHz": 247.49998807714283,
+          "errorCents": -8.339901726508016e-5
+        }
+      ],
+      "pcmRmsOutside128FrameAutomationEdges": 7.782181923632462e-6,
+      "maximumEdgeDeviation": 1.563330433651186e-5,
+      "simultaneousExpectedHz": null
+    },
+    {
+      "file": "chromium-1440/together.wav",
+      "samples": 275520,
+      "zeroCrossingMeasurements": [],
+      "pcmRmsOutside128FrameAutomationEdges": 8.538670278667158e-6,
+      "maximumEdgeDeviation": 1.562471359098372e-5,
+      "simultaneousExpectedHz": [233.75, 232.94117647058823]
+    },
+    {
+      "file": "chromium-1440/control.wav",
+      "samples": 275520,
+      "zeroCrossingMeasurements": [
+        {
+          "expectedHz": 233.75,
+          "observedHz": 233.750000597197,
+          "errorCents": 4.423049259910889e-6
+        }
+      ],
+      "pcmRmsOutside128FrameAutomationEdges": 8.524590813148655e-6,
+      "maximumEdgeDeviation": 1.5608673046993427e-5,
+      "simultaneousExpectedHz": [233.75, 233.75]
+    },
+    {
+      "file": "chromium-375/halves.wav",
+      "samples": 237121,
+      "zeroCrossingMeasurements": [
+        {
+          "expectedHz": 220,
+          "observedHz": 219.99999216482453,
+          "errorCents": -6.165692180339836e-5
+        },
+        {
+          "expectedHz": 233.75,
+          "observedHz": 233.75000031857667,
+          "errorCents": 2.3594900684929562e-6
+        },
+        {
+          "expectedHz": 220,
+          "observedHz": 219.9999921648245,
+          "errorCents": -6.165692199560396e-5
+        },
+        {
+          "expectedHz": 232.94117647058823,
+          "observedHz": 232.94117996836286,
+          "errorCents": 2.5995689406698654e-5
+        }
+      ],
+      "pcmRmsOutside128FrameAutomationEdges": 7.618567912274838e-6,
+      "maximumEdgeDeviation": 1.5713639155024578e-5,
+      "simultaneousExpectedHz": null
+    },
+    {
+      "file": "chromium-375/path.wav",
+      "samples": 150720,
+      "zeroCrossingMeasurements": [
+        {
+          "expectedHz": 220,
+          "observedHz": 219.99999216482453,
+          "errorCents": -6.165692180339836e-5
+        },
+        {
+          "expectedHz": 233.75,
+          "observedHz": 233.74999908852485,
+          "errorCents": -6.750702991474798e-6
+        },
+        {
+          "expectedHz": 247.5,
+          "observedHz": 247.49998807714283,
+          "errorCents": -8.339901726508016e-5
+        }
+      ],
+      "pcmRmsOutside128FrameAutomationEdges": 7.782181923632462e-6,
+      "maximumEdgeDeviation": 1.563330433651186e-5,
+      "simultaneousExpectedHz": null
+    },
+    {
+      "file": "chromium-375/together.wav",
+      "samples": 275520,
+      "zeroCrossingMeasurements": [],
+      "pcmRmsOutside128FrameAutomationEdges": 8.538670278667158e-6,
+      "maximumEdgeDeviation": 1.562471359098372e-5,
+      "simultaneousExpectedHz": [233.75, 232.94117647058823]
+    },
+    {
+      "file": "chromium-375/control.wav",
+      "samples": 275520,
+      "zeroCrossingMeasurements": [
+        {
+          "expectedHz": 233.75,
+          "observedHz": 233.750000597197,
+          "errorCents": 4.423049259910889e-6
+        }
+      ],
+      "pcmRmsOutside128FrameAutomationEdges": 8.524590813148655e-6,
+      "maximumEdgeDeviation": 1.5608673046993427e-5,
+      "simultaneousExpectedHz": [233.75, 233.75]
+    },
+    {
+      "file": "firefox-1440/halves.wav",
+      "samples": 237121,
+      "zeroCrossingMeasurements": [
+        {
+          "expectedHz": 220,
+          "observedHz": 220.00036424524674,
+          "errorCents": 0.0028663329607032206
+        },
+        {
+          "expectedHz": 233.75,
+          "observedHz": 233.74939144489798,
+          "errorCents": -0.004507177261092964
+        },
+        {
+          "expectedHz": 220,
+          "observedHz": 220.00036424524674,
+          "errorCents": 0.0028663329607032206
+        },
+        {
+          "expectedHz": 232.94117647058823,
+          "observedHz": 232.94068964244192,
+          "errorCents": -0.0036181423842970946
+        }
+      ],
+      "pcmRmsOutside128FrameAutomationEdges": 1.0898591965223173e-5,
+      "maximumEdgeDeviation": 3.583441185758731e-5,
+      "simultaneousExpectedHz": null
+    },
+    {
+      "file": "firefox-1440/path.wav",
+      "samples": 150720,
+      "zeroCrossingMeasurements": [
+        {
+          "expectedHz": 220,
+          "observedHz": 220.00036424524674,
+          "errorCents": 0.0028663329607032206
+        },
+        {
+          "expectedHz": 233.75,
+          "observedHz": 233.7493902697751,
+          "errorCents": -0.004515880653893158
+        },
+        {
+          "expectedHz": 247.5,
+          "observedHz": 247.50032399052665,
+          "errorCents": 0.0022662750068618304
+        }
+      ],
+      "pcmRmsOutside128FrameAutomationEdges": 1.079951962488708e-5,
+      "maximumEdgeDeviation": 3.583441185758731e-5,
+      "simultaneousExpectedHz": null
+    },
+    {
+      "file": "firefox-1440/together.wav",
+      "samples": 275520,
+      "zeroCrossingMeasurements": [],
+      "pcmRmsOutside128FrameAutomationEdges": 8.6130052711201e-6,
+      "maximumEdgeDeviation": 1.614040808878281e-5,
+      "simultaneousExpectedHz": [233.75, 232.94117647058823]
+    },
+    {
+      "file": "firefox-1440/control.wav",
+      "samples": 275520,
+      "zeroCrossingMeasurements": [
+        {
+          "expectedHz": 233.75,
+          "observedHz": 233.74939202353946,
+          "errorCents": -0.004502891629209963
+        }
+      ],
+      "pcmRmsOutside128FrameAutomationEdges": 2.5483415768459794e-5,
+      "maximumEdgeDeviation": 5.7788045846073055e-5,
+      "simultaneousExpectedHz": [233.75, 233.75]
+    },
+    {
+      "file": "firefox-375/halves.wav",
+      "samples": 237121,
+      "zeroCrossingMeasurements": [
+        {
+          "expectedHz": 220,
+          "observedHz": 220.00036424524674,
+          "errorCents": 0.0028663329607032206
+        },
+        {
+          "expectedHz": 233.75,
+          "observedHz": 233.74939144489798,
+          "errorCents": -0.004507177261092964
+        },
+        {
+          "expectedHz": 220,
+          "observedHz": 220.00036424524674,
+          "errorCents": 0.0028663329607032206
+        },
+        {
+          "expectedHz": 232.94117647058823,
+          "observedHz": 232.94068964244192,
+          "errorCents": -0.0036181423842970946
+        }
+      ],
+      "pcmRmsOutside128FrameAutomationEdges": 1.0898591965223173e-5,
+      "maximumEdgeDeviation": 3.583441185758731e-5,
+      "simultaneousExpectedHz": null
+    },
+    {
+      "file": "firefox-375/path.wav",
+      "samples": 150720,
+      "zeroCrossingMeasurements": [
+        {
+          "expectedHz": 220,
+          "observedHz": 220.00036424524674,
+          "errorCents": 0.0028663329607032206
+        },
+        {
+          "expectedHz": 233.75,
+          "observedHz": 233.7493902697751,
+          "errorCents": -0.004515880653893158
+        },
+        {
+          "expectedHz": 247.5,
+          "observedHz": 247.50032399052665,
+          "errorCents": 0.0022662750068618304
+        }
+      ],
+      "pcmRmsOutside128FrameAutomationEdges": 1.079951962488708e-5,
+      "maximumEdgeDeviation": 3.583441185758731e-5,
+      "simultaneousExpectedHz": null
+    },
+    {
+      "file": "firefox-375/together.wav",
+      "samples": 275520,
+      "zeroCrossingMeasurements": [],
+      "pcmRmsOutside128FrameAutomationEdges": 8.6130052711201e-6,
+      "maximumEdgeDeviation": 1.614040808878281e-5,
+      "simultaneousExpectedHz": [233.75, 232.94117647058823]
+    },
+    {
+      "file": "firefox-375/control.wav",
+      "samples": 275520,
+      "zeroCrossingMeasurements": [
+        {
+          "expectedHz": 233.75,
+          "observedHz": 233.74939202353946,
+          "errorCents": -0.004502891629209963
+        }
+      ],
+      "pcmRmsOutside128FrameAutomationEdges": 2.5483415768459794e-5,
+      "maximumEdgeDeviation": 5.7788045846073055e-5,
+      "simultaneousExpectedHz": [233.75, 233.75]
+    }
+  ]
+}

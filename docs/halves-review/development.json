@@ -1,0 +1,28 @@
+{
+  "records": [
+    {
+      "engine": "chromium",
+      "room": "halves",
+      "devSourceVerified": true
+    },
+    {
+      "engine": "chromium",
+      "room": "vina",
+      "devSourceVerified": true
+    },
+    {
+      "engine": "chromium",
+      "watchedManifestRead": true
+    },
+    {
+      "engine": "firefox",
+      "room": "halves",
+      "devSourceVerified": true
+    },
+    {
+      "engine": "firefox",
+      "room": "vina",
+      "devSourceVerified": true
+    }
+  ]
+}
