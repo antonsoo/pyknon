@@ -18,8 +18,18 @@ async function filesIn(directory: string): Promise<string[]> {
 }
 
 export default defineConfig(async ({ command }) => {
-  const sourceFile = path.resolve("public/sources/vina/manifest.json");
-  const sourceId = "\0retained-source-json:vina.js";
+  const retainedSources = [
+    {
+      request: "virtual:vina-sources",
+      id: "\0retained-source-json:vina.js",
+      file: path.resolve("public/sources/vina/manifest.json"),
+    },
+    {
+      request: "virtual:halves-sources",
+      id: "\0retained-source-json:halves.js",
+      file: path.resolve("public/sources/halves/manifest.json"),
+    },
+  ];
   const inputFiles = [
     ...(await filesIn("src")),
     ...(await filesIn("public")),
@@ -30,6 +40,7 @@ export default defineConfig(async ({ command }) => {
     "rhythm.html",
     "tension.html",
     "vina.html",
+    "halves.html",
     "vite.config.ts",
     "tsconfig.json",
     "package.json",
@@ -53,26 +64,37 @@ export default defineConfig(async ({ command }) => {
           rhythm: "rhythm.html",
           tension: "tension.html",
           vina: "vina.html",
+          halves: "halves.html",
         },
       },
     },
     define: { __PYKNON_EDITION__: JSON.stringify(edition) },
     plugins: [
       {
-        name: "retained-vina-sources",
+        name: "retained-reading-sources",
         resolveId(id: string) {
-          if (id === "virtual:vina-sources") return sourceId;
+          return retainedSources.find((source) => source.request === id)?.id;
         },
         async load(id: string) {
-          if (id !== sourceId) return;
-          this.addWatchFile(sourceFile);
-          const json = await readFile(sourceFile, "utf8");
-          JSON.parse(json);
+          const source = retainedSources.find((source) => source.id === id);
+          if (!source) return;
+          this.addWatchFile(source.file);
+          const json = await readFile(source.file, "utf8");
+          const parsed = JSON.parse(json);
+          if (source.request === "virtual:halves-sources") {
+            for (const asset of [...parsed.pages, ...parsed.assets]) {
+              const bytes = await readFile(`public/${asset.file}`);
+              const digest = createHash("sha256").update(bytes).digest("hex");
+              if (bytes.length !== asset.bytes || digest !== asset.sha256)
+                throw new Error(`Retained source identity differs: ${asset.file}`);
+            }
+          }
           return `export default JSON.parse(${JSON.stringify(json)});`;
         },
         handleHotUpdate(ctx: HmrContext) {
-          if (ctx.file !== sourceFile) return;
-          const module = ctx.server.moduleGraph.getModuleById(sourceId);
+          const source = retainedSources.find((source) => source.file === ctx.file);
+          if (!source) return;
+          const module = ctx.server.moduleGraph.getModuleById(source.id);
           if (module) ctx.server.moduleGraph.invalidateModule(module);
           ctx.server.ws.send({ type: "full-reload" });
           return [];
