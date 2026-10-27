@@ -1,0 +1,48 @@
+{
+  "checkedAt": "2026-10-27T22:48:02.247602+00:00",
+  "sourceRevision": "c117a29ed76bfce1e16bf9c4d5fdaa766a04890f",
+  "node": "24.21.0",
+  "npm": "11.19.0",
+  "commands": [
+    "npm ci",
+    "npm run check",
+    "node scripts/navigation-browser.mjs pyknon dist <receipt>"
+  ],
+  "existingTestsPassed": 36,
+  "runtimeFilesByteIdentical": 115,
+  "runtimeBytes": 31264969,
+  "inventorySha256": "826970b308ed6caae267a0ad51007dc996f658812ffa3c4d1093ca85b315e207",
+  "workerSha256": "4ad927157b30efc22642e904a491405edd3214414baf744e3af0639edaf7db7c",
+  "cleanTreeAfterChecks": true,
+  "nativeExamplesIdentical": {
+    "helikon-diagrams.svg": {
+      "bytes": 97458,
+      "sha256": "fe621f530ddc276e98eb6721a93c0a02d2416c63e21801ce6df5ef2f0861a2cc"
+    },
+    "helikon-experiment.json": {
+      "bytes": 248,
+      "sha256": "1d026dd9e59c1732eb970e48bc2b7bf71de56dcdef066f3a2fd03872890a6fc2"
+    },
+    "helikon-interval.wav": {
+      "bytes": 165166,
+      "sha256": "4496a563df8059197b44e722f2596572364aeced7a88421bedf8fcccd2c7be75"
+    },
+    "helikon-measurements.csv": {
+      "bytes": 5590,
+      "sha256": "6ebda45587e2d69912d2933fb38892bc563b38c7091c22765154c50cee26d8d2"
+    },
+    "helikon-reading.html.gz": {
+      "bytes": 5897878,
+      "sha256": "9fea9305488a75bc1f1de5b63e86c766a2f9e9ec0214c2f1d571331d689a1e63"
+    },
+    "helikon-reading.pdf": {
+      "bytes": 6538697,
+      "sha256": "7bf0e6d9d98fae21e30f2e4b0aaabb977be331b81f2852f61a3f44ac458f8250"
+    },
+    "helikon-retuning.wav": {
+      "bytes": 639406,
+      "sha256": "b627b576b96730e9570f2910add8af1f91a9ccfeae1d4f750827e9fd3a844d70"
+    }
+  },
+  "browserFaultConfigurations": 2
+}

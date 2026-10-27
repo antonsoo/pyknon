@@ -85,6 +85,11 @@ an isolated run with all four transitions completed. The registration observer
 was not changed by this navigation fix; these observations do not establish the
 cause of that earlier timeout.
 
+A [fresh Node 24 checkout](offline-response-clean-build.json) reproduced all
+115 runtime files byte for byte. Its [actual HTTP/browser check](offline-response-clean-browser.json)
+repeated both browser configurations, including the removed-cache boundary.
+All 7 retained native examples survived the clone unchanged.
+
 ## Repeat the controlled check
 
 ```sh
