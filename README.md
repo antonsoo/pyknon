@@ -114,7 +114,7 @@ pairing is kept distinct from a claim that the text is corrupt.
 Save the current sound, rulers, all readings and source pages, editable JSON,
 pitch CSV, fonts and licenses in one script-free HTML reading. It opens as a
 file, plays its embedded synthetic sound and prints without the site. Native
-WAV, CSV, JSON and a font-embedded SVG are available separately. All eight
+WAV, CSV, JSON and a font-embedded SVG are available separately. All nine
 rooms belong to one integrity-checked offline edition.
 
 ![Two modern preparations preserve the named matches while changing pitches](docs/assets/vina-desktop.png)
@@ -150,7 +150,7 @@ included, with photographer credits and licenses.
 - Choose a modern pitch reference and pace. Playback uses equal temperament
   and sine tones; it does not infer an ancient tuning or instrument.
 - Save a verse as WAV, or save an HTML reading with the photograph embedded,
-  all verses and their pitch tables. Both app pages work offline once saved.
+  all verses and their pitch tables. The reader works offline after the complete edition is saved.
 
 The Greek text is normalized; the image shows the surviving lettering.
 The duration reading follows Armand D'Angour's modern transcription. Monro's
@@ -253,11 +253,11 @@ break; the later parallels printed on the same pages remain distinct.
 
 Save native JSON, SVG, scheduled-onset CSV or synthetic WAV. A single
 script-free HTML reading keeps both experiments, all readings and source
-images, font, editable JSON and the selected sound. The whole seven-room edition
+images, font, editable JSON and the selected sound. The whole nine-room edition
 works offline after complete installation. Sine clicks mark positions; their
 short decays do not represent sung note lengths or reconstruct ancient accents.
 
-The original reviewed five-room edition is public; the sixth room has its own review below. [Publication evidence](docs/rhythm-publication.md) identifies the source, Pages commit and canonical hosted files.
+The rhythm room's original [publication evidence](docs/rhythm-publication.md) identifies its source, Pages commit and canonical hosted files.
 [Source and model](docs/rhythm-model.md) · [Direct review](docs/rhythm-review.md) ·
 [Saved reading](examples/rhythm-reading.html) · [Printable reading](examples/rhythm-reading.pdf).
 
@@ -398,7 +398,10 @@ by the new simultaneous-tone signal checker; the site has no runtime dependency.
 during the run. Its screenshots should be inspected, not treated as proof
 merely because a file was produced.
 
-The shared offline status also follows complete edition upgrades across all four rooms; [reproduction and review](docs/offline-upgrade.md).
+The shared status follows the complete nine-room edition. An earlier four-room
+[upgrade reproduction and review](docs/offline-upgrade.md) and the current
+[eight-to-nine-room interruption checks](docs/notation-review.md#failure-and-recovery)
+retain their separate evidence.
 
 ## Contributing and license
 
