@@ -1,0 +1,58 @@
+{
+  "sourcePDF": {
+    "bytes": 189864593,
+    "sha256": "862839d2cd52dfc62004d0f68da4d8381417e8be69e3901db0d5f73568931884"
+  },
+  "renderer": "pdftoppm version 24.02.0",
+  "wholePagesReproducedByteForByte": [
+    {
+      "printedPage": "title",
+      "pdfPage": 1,
+      "bytes": 596054,
+      "sha256": "43d42f60041c5774dee605ea9f81f2ed7eeb014ef50c3c1b61bf0fc036cb6aa8"
+    },
+    {
+      "printedPage": "97",
+      "pdfPage": 119,
+      "bytes": 654229,
+      "sha256": "d10fd29564796e8e5071551e1adfb4f76401ac6e698d2dc1b89979b6d8b8eba8"
+    },
+    {
+      "printedPage": "98",
+      "pdfPage": 120,
+      "bytes": 569665,
+      "sha256": "e9853d943cb73481b5301ff2823bd7826b78dbc6f5b19c0030f0f068fbab9389"
+    },
+    {
+      "printedPage": "99",
+      "pdfPage": 121,
+      "bytes": 661255,
+      "sha256": "bca0305993e88f197dcaec5e6315b2e4035e691d2ada6c337d3d7c6e21e114f1"
+    },
+    {
+      "printedPage": "100",
+      "pdfPage": 122,
+      "bytes": 683412,
+      "sha256": "6c19175d96147e0d1943f78f7ec4f00c588d5abdc300304270ab73e27dab4715"
+    },
+    {
+      "printedPage": "101",
+      "pdfPage": 123,
+      "bytes": 580506,
+      "sha256": "ef19e8041e05595bcc95633be0407218dbff0e02ecf0f490afacf04bd72e36a2"
+    },
+    {
+      "printedPage": "62",
+      "pdfPage": 84,
+      "bytes": 683860,
+      "sha256": "80a1a3a9ac3a69ef4752aea363a5832d89abdf0e13aefea9282120700779f74b"
+    },
+    {
+      "printedPage": "63",
+      "pdfPage": 85,
+      "bytes": 617084,
+      "sha256": "7840f347871d6a5ed08cf821824380a61b7dd5fa555a979bac7c0b35a87f17c2"
+    }
+  ],
+  "verifiedFontsAndLicenses": 6
+}

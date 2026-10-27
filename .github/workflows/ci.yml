@@ -24,6 +24,7 @@ jobs:
       - run: npm run verify:tension
       - run: npm run verify:halves
       - run: npm run verify:vina
+      - run: npm run verify:helikon
       - run: npx playwright install --with-deps chromium firefox
       - run: npm run test:browser -- /tmp/pyknon-review/browser.json
       - run: python3 scripts/audio-oracle.py /tmp/pyknon-review/browser.json
@@ -60,10 +61,29 @@ jobs:
           curl --fail --retry 10 --retry-connrefused --retry-delay 1 http://127.0.0.1:4444/pyknon/notation.html > /dev/null
           npm run test:notation -- http://127.0.0.1:4444/pyknon/ /tmp/pyknon-notation-review
           npm run verify:notation-files -- /tmp/pyknon-notation-review /tmp/pyknon-notation-review/artifacts.json
-      - name: Retain old offline work during an interrupted notation upgrade
+      - name: Review helikon geometry, native artifacts and verified source failures
         run: |
-          git fetch origin 20effb5d92b4e09971af933685e6e9856a8c4b54
-          mkdir -p "$RUNNER_TEMP/pyknon-before-notation"
-          git archive 20effb5d92b4e09971af933685e6e9856a8c4b54 | tar -x -C "$RUNNER_TEMP/pyknon-before-notation"
-          npm run test:notation-upgrade -- "$RUNNER_TEMP/pyknon-before-notation" dist /tmp/pyknon-notation-upgrade/review.json
-          npm run verify:notation-files -- --upgrade /tmp/pyknon-notation-upgrade /tmp/pyknon-notation-upgrade/artifacts.json
+          npm exec vite preview -- --host 127.0.0.1 --port 4362 --strictPort > /tmp/pyknon-helikon-preview.log 2>&1 &
+          HELIKON_PREVIEW_PID=$!
+          trap 'kill "$HELIKON_PREVIEW_PID"' EXIT
+          curl --fail --retry 10 --retry-connrefused --retry-delay 1 http://127.0.0.1:4362/pyknon/helikon.html > /dev/null
+          npm run test:helikon -- http://127.0.0.1:4362/pyknon/ /tmp/pyknon-helikon-review
+          npm run verify:helikon-files -- /tmp/pyknon-helikon-review
+          npm run test:helikon-integrity -- http://127.0.0.1:4362/pyknon/ /tmp/pyknon-helikon-integrity
+      - name: Verify styled development pages under their actual policies
+        run: |
+          npm run dev -- --port 4364 > /tmp/pyknon-helikon-development.log 2>&1 &
+          HELIKON_DEV_PID=$!
+          trap 'kill "$HELIKON_DEV_PID"' EXIT
+          curl --fail --retry 10 --retry-connrefused --retry-delay 1 http://127.0.0.1:4364/pyknon/helikon.html > /dev/null
+          npm run test:helikon-development -- http://127.0.0.1:4364/pyknon/ /tmp/pyknon-helikon-development
+      - name: Retain old offline work during an interrupted helikon upgrade
+        run: |
+          git fetch origin ba97e9c0f805eb8aa737b6c7d9a354b6154e9ff6
+          HELIKON_PREVIOUS_DIR="$RUNNER_TEMP/pyknon-before-helikon"
+          mkdir -p "$HELIKON_PREVIOUS_DIR"
+          git archive ba97e9c0f805eb8aa737b6c7d9a354b6154e9ff6 | tar -x -C "$HELIKON_PREVIOUS_DIR"
+          npm ci --prefix "$HELIKON_PREVIOUS_DIR"
+          npm --prefix "$HELIKON_PREVIOUS_DIR" run build
+          npm run test:helikon-upgrade -- "$HELIKON_PREVIOUS_DIR/dist" dist /tmp/pyknon-helikon-upgrade/review.json
+          npm run verify:helikon-files -- /tmp/pyknon-helikon-upgrade --upgrade

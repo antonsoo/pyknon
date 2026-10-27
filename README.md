@@ -33,6 +33,45 @@ The published app works offline once its footer confirms the complete edition
 has been saved, including all three source scans. No account or external font
 service is used.
 
+## One bridge, four strings
+
+Open **Helikon** from the root workshop, or serve `/pyknon/helikon.html` locally.
+The new room follows Ptolemy’s _Harmonics_ II.2. A square, two bisections and two
+intersecting lines give seven nonzero sounding segments with six different
+lengths: **12, 9, 8, 6, 4 and 3**. Select and hear seven named interval relations,
+then alter the bridge while retaining every string’s position.
+
+![The source’s seven sounding segments and the selected whole tone](docs/assets/helikon-desktop.png)
+
+Keep a fourth between the two end strings. The original inner positions must
+then produce **8/7** and **6/5**, regardless of the whole tuning’s pitch. Fit
+Archytas’s enharmonic target instead: the inner strings must move to **1/7**
+and **1/4** of the board’s width. Chromatic and diatonic targets retain the
+first position but require **4/9** and **5/8** for the other. Shorten all sounding
+lengths and hear the complete tuning rise; the interval errors remain fixed.
+
+This reduced four-string challenge is a modern analogy of the movable-string
+principle. Ptolemy’s extended octachord construction remains visible in its
+complete source pages. Six Greek/Latin/English readings, twelve contextual word
+notes and the original Greek-to-Latin diagram-letter mapping connect the
+operations to his argument and practical comments.
+
+Keep strict editable JSON, exact fractional CSV, a font-embedded SVG, a WAV
+comparison, or one script-free illustrated reading with both sound comparisons,
+all eight whole 1682 pages, native files, fonts and full licenses. Source pages,
+fonts and licenses are verified before viewing or export. Interrupted source
+requests and file imports cannot replace newer choices.
+
+[Source and formulas](docs/helikon-model.md) · [Direct review](docs/helikon-review.md).
+[Actual illustrated reading, gzip](examples/helikon-reading.html.gz) ·
+[21-page PDF](examples/helikon-reading.pdf) ·
+[Editable experiment](examples/helikon-experiment.json).
+Decompress the HTML before opening it.
+This addition is prepared locally; the earlier public edition has separate
+publication records. `npm run build` writes the complete ten-room edition to
+`dist/`. Uniform strings, ideal contact geometry and sine tones do not establish
+an ancient instrument’s timbre, practical tuning or physical performance.
+
 ## One shape, two musical alphabets
 
 The **[Musical signs desk](https://antonsoo.github.io/pyknon/notation.html#translation)** translates a short
@@ -114,7 +153,7 @@ pairing is kept distinct from a claim that the text is corrupt.
 Save the current sound, rulers, all readings and source pages, editable JSON,
 pitch CSV, fonts and licenses in one script-free HTML reading. It opens as a
 file, plays its embedded synthetic sound and prints without the site. Native
-WAV, CSV, JSON and a font-embedded SVG are available separately. All nine
+WAV, CSV, JSON and a font-embedded SVG are available separately. All ten
 rooms belong to one integrity-checked offline edition.
 
 ![Two modern preparations preserve the named matches while changing pitches](docs/assets/vina-desktop.png)
@@ -253,7 +292,7 @@ break; the later parallels printed on the same pages remain distinct.
 
 Save native JSON, SVG, scheduled-onset CSV or synthetic WAV. A single
 script-free HTML reading keeps both experiments, all readings and source
-images, font, editable JSON and the selected sound. The whole nine-room edition
+images, font, editable JSON and the selected sound. The whole ten-room edition
 works offline after complete installation. Sine clicks mark positions; their
 short decays do not represent sung note lengths or reconstruct ancient accents.
 
@@ -278,7 +317,7 @@ _Harmonic Manual_ 6 against a modern ideal string model. The account calls
 - Save an independent HTML reading with generated WAV audio, exact ratios,
   diagrams, all readings, complete source pages, fonts and licenses; reopen
   editable JSON, or export CSV, WAV and a font-embedded SVG.
-- Use all nine rooms offline after the matching complete edition is saved.
+- Use all ten rooms offline after the matching complete edition is saved.
 
 The diagram is a comparison, not a reconstruction of the account's shared peg.
 The fixed-end uniform-string model holds loaded length and linear density fixed;
@@ -398,7 +437,7 @@ by the new simultaneous-tone signal checker; the site has no runtime dependency.
 during the run. Its screenshots should be inspected, not treated as proof
 merely because a file was produced.
 
-The shared status follows the complete nine-room edition. An earlier four-room
+The shared status follows the complete ten-room edition. An earlier four-room
 [upgrade reproduction and review](docs/offline-upgrade.md) and the current
 [eight-to-nine-room interruption checks](docs/notation-review.md#failure-and-recovery)
 retain their separate evidence.

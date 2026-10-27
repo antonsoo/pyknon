@@ -1,0 +1,11 @@
+{
+  "oracle": "Python fractions; independently intersected lines; primary p.63 length numbers",
+  "checked": {
+    "sourceBoards": 32,
+    "sourceSegments": 224,
+    "intervals": 224,
+    "retuningBoards": 21105,
+    "notes": 84420,
+    "exactFits": 21
+  }
+}

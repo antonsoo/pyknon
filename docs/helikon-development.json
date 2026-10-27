@@ -1,0 +1,365 @@
+{
+  "scope": "All ten actual Vite development pages; verified nonce styles and preserved original policies; both browsers and widths",
+  "records": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "room": "/pyknon/index.html",
+      "nonceStyles": 0,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "room": "/pyknon/song.html",
+      "nonceStyles": 0,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "room": "/pyknon/canon.html",
+      "nonceStyles": 0,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "room": "/pyknon/trial.html",
+      "nonceStyles": 2,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "room": "/pyknon/rhythm.html",
+      "nonceStyles": 2,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "room": "/pyknon/tension.html",
+      "nonceStyles": 2,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "room": "/pyknon/vina.html",
+      "nonceStyles": 2,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "room": "/pyknon/halves.html",
+      "nonceStyles": 2,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "room": "/pyknon/notation.html",
+      "nonceStyles": 2,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "room": "/pyknon/helikon.html",
+      "nonceStyles": 2,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "room": "/pyknon/index.html",
+      "nonceStyles": 0,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "room": "/pyknon/song.html",
+      "nonceStyles": 0,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "room": "/pyknon/canon.html",
+      "nonceStyles": 0,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "room": "/pyknon/trial.html",
+      "nonceStyles": 2,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "room": "/pyknon/rhythm.html",
+      "nonceStyles": 2,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "room": "/pyknon/tension.html",
+      "nonceStyles": 2,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "room": "/pyknon/vina.html",
+      "nonceStyles": 2,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "room": "/pyknon/halves.html",
+      "nonceStyles": 2,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "room": "/pyknon/notation.html",
+      "nonceStyles": 2,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "room": "/pyknon/helikon.html",
+      "nonceStyles": 2,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "room": "/pyknon/index.html",
+      "nonceStyles": 0,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "room": "/pyknon/song.html",
+      "nonceStyles": 0,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "room": "/pyknon/canon.html",
+      "nonceStyles": 0,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "room": "/pyknon/trial.html",
+      "nonceStyles": 2,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "room": "/pyknon/rhythm.html",
+      "nonceStyles": 2,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "room": "/pyknon/tension.html",
+      "nonceStyles": 2,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "room": "/pyknon/vina.html",
+      "nonceStyles": 2,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "room": "/pyknon/halves.html",
+      "nonceStyles": 2,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "room": "/pyknon/notation.html",
+      "nonceStyles": 2,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "room": "/pyknon/helikon.html",
+      "nonceStyles": 2,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "room": "/pyknon/index.html",
+      "nonceStyles": 0,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "room": "/pyknon/song.html",
+      "nonceStyles": 0,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "room": "/pyknon/canon.html",
+      "nonceStyles": 0,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "room": "/pyknon/trial.html",
+      "nonceStyles": 2,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "room": "/pyknon/rhythm.html",
+      "nonceStyles": 2,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "room": "/pyknon/tension.html",
+      "nonceStyles": 2,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "room": "/pyknon/vina.html",
+      "nonceStyles": 2,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "room": "/pyknon/halves.html",
+      "nonceStyles": 2,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "room": "/pyknon/notation.html",
+      "nonceStyles": 2,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "room": "/pyknon/helikon.html",
+      "nonceStyles": 2,
+      "styled": true,
+      "overflow": false,
+      "originalPolicyPreservedExceptMatchingDevNonce": true
+    }
+  ]
+}

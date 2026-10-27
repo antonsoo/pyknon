@@ -1,0 +1,16 @@
+{
+  "format": "pyknon-helikon",
+  "version": 1,
+  "state": {
+    "stage": 4,
+    "bridge": 12,
+    "pair": 3,
+    "target": "enharmonic",
+    "x1": 252,
+    "x2": 336,
+    "scale": 12,
+    "reference": 220,
+    "reading": 5,
+    "page": "98"
+  }
+}

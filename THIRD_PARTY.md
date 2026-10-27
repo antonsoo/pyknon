@@ -328,3 +328,27 @@ separate identities are retained rather than treating older lower resolution
 renders as interchangeable. Ideal string-length comparisons link to
 [OpenStax](https://openstax.org/books/university-physics-volume-1/pages/16-6-standing-waves-and-resonance),
 without bundling its text or illustrations.
+
+## Ptolemy’s helikon, Wallis 1682
+
+`public/sources/helikon/` retains the complete title, printed pp.97–101
+(_Harmonics_ II.2) and pp.62–63 (I.13, the Archytas report) from the
+[Internet Archive scan](https://archive.org/details/bim_early-english-books-1641-1700_-harmonicor_ptolomaeus-claudius_1682).
+The ancient Greek, Wallis’s early modern Latin, diagrams and 1682 publication
+are public domain in the United States. The new English, notes and vector
+geometry are original MIT-licensed work. The modern challenge is a reduced
+four-string analogy, not Ptolemy’s full extended octachord or a recovered
+performance. No modern copyrighted English translation is bundled.
+
+The manifest records the original 189,864,593-byte PDF, its SHA-256, all eight
+complete page identities and the Poppler 24.02.0 rendering parameters.
+These copies of pp.62–63 were independently rendered from that PDF; the older
+root-room JPEGs retain their own identities and are unchanged.
+Barred Greek segment letters, line breaks, end-of-line hyphens, Latin ligatures
+and long s are normalized as described in each reading. The displayed diagram
+uses Wallis’s Latin letters and provides their actual Greek mapping.
+
+The standalone reading embeds the same three IBM Plex Sans / Noto Serif font
+files and full SIL OFL 1.1 notices described above. SVG exports embed Plex and
+its full font license, plus the original-work MIT notice. Complete source
+images, fonts and licenses are verified before embedding.

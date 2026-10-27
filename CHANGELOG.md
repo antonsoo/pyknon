@@ -2,6 +2,18 @@
 
 ## Unreleased
 
+- Add the helikon: build Ptolemy’s four-string geometry, hear seven interval
+  relations and alter its common bridge with the string positions retained.
+- Keep the two end notes fixed, fit three Archytas divisions by moving the inner
+  strings, and transpose the whole tuning without erasing its interval errors.
+- Read six Greek/Latin/English excerpts and twelve word notes beside eight whole
+  1682 pages, with exact source and font identities checked before use.
+- Save editable records, fractional CSV, a font-embedded SVG, WAV and a script-free
+  illustrated reading; preserve newer settings against late source/import responses.
+- Extend the complete offline edition from nine rooms to ten.
+- Keep the source checksum inside saved phone readings and nonce-authorize Vite’s
+  injected development styles while preserving production page policies.
+
 - Translate actual working signs between Alypius’s vocal and instrumental
   alphabets, retaining copied-shape mistakes and ambiguous table functions.
 - Read six Greek selections, twelve word notes and five complete 1895 pages;
@@ -59,6 +71,18 @@
   readiness, recover missed activation claims, and preserve older Pages assets.
 
 ## Unreleased
+
+- Add the helikon: build Ptolemy’s four-string geometry, hear seven interval
+  relations and alter its common bridge with the string positions retained.
+- Keep the two end notes fixed, fit three Archytas divisions by moving the inner
+  strings, and transpose the whole tuning without erasing its interval errors.
+- Read six Greek/Latin/English excerpts and twelve word notes beside eight whole
+  1682 pages, with exact source and font identities checked before use.
+- Save editable records, fractional CSV, a font-embedded SVG, WAV and a script-free
+  illustrated reading; preserve newer settings against late source/import responses.
+- Extend the complete offline edition from nine rooms to ten.
+- Keep the source checksum inside saved phone readings and nonce-authorize Vite’s
+  injected development styles while preserving production page policies.
 
 - Follow the _Sectio canonis_ proof that six 9:8 tones exceed an octave, with
   linked pitch routes, original integer progression and enlarged comparisons.

@@ -1,0 +1,24 @@
+{
+  "records": [
+    {
+      "engine": "chromium",
+      "lateSourceIgnored": true,
+      "wrongHttp200PageRejected": true,
+      "wrongHttp200FontRejected": true,
+      "sourceAndFontRecovery": true,
+      "saveRetainedCapturedSettings": true,
+      "lateImportDidNotReplaceCurrentSettings": true,
+      "stopCancelledPendingAudioResume": true
+    },
+    {
+      "engine": "firefox",
+      "lateSourceIgnored": true,
+      "wrongHttp200PageRejected": true,
+      "wrongHttp200FontRejected": true,
+      "sourceAndFontRecovery": true,
+      "saveRetainedCapturedSettings": true,
+      "lateImportDidNotReplaceCurrentSettings": true,
+      "stopCancelledPendingAudioResume": true
+    }
+  ]
+}
