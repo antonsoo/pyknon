@@ -1,4 +1,8 @@
 declare const __PYKNON_EDITION__: string;
+declare module "virtual:helikon-sources" {
+  const sources: typeof import("../public/sources/helikon/manifest.json");
+  export default sources;
+}
 declare module "virtual:notation-sources" {
   const sources: typeof import("../public/sources/notation/manifest.json");
   export default sources;

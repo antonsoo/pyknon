@@ -20,6 +20,11 @@ async function filesIn(directory: string): Promise<string[]> {
 export default defineConfig(async ({ command }) => {
   const retainedSources = [
     {
+      request: "virtual:helikon-sources",
+      id: "\0retained-source-json:helikon.js",
+      file: path.resolve("public/sources/helikon/manifest.json"),
+    },
+    {
       request: "virtual:notation-sources",
       id: "\0retained-source-json:notation.js",
       file: path.resolve("public/sources/notation/manifest.json"),
@@ -47,6 +52,7 @@ export default defineConfig(async ({ command }) => {
     "vina.html",
     "halves.html",
     "notation.html",
+    "helikon.html",
     "vite.config.ts",
     "tsconfig.json",
     "package.json",
@@ -72,6 +78,7 @@ export default defineConfig(async ({ command }) => {
           vina: "vina.html",
           halves: "halves.html",
           notation: "notation.html",
+          helikon: "helikon.html",
         },
       },
     },
@@ -90,6 +97,7 @@ export default defineConfig(async ({ command }) => {
           const parsed = JSON.parse(json);
           if (
             source.request === "virtual:halves-sources" ||
+            source.request === "virtual:helikon-sources" ||
             source.request === "virtual:notation-sources"
           ) {
             for (const asset of [...parsed.pages, ...parsed.assets]) {

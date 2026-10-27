@@ -69,7 +69,13 @@
     "test:halves": "node scripts/halves-browser.mjs",
     "test:notation": "node scripts/notation-browser.mjs",
     "verify:notation-files": "python3 scripts/notation-artifacts.py",
-    "test:notation-upgrade": "node scripts/notation-upgrade.mjs"
+    "test:notation-upgrade": "node scripts/notation-upgrade.mjs",
+    "verify:helikon": "node --import tsx scripts/helikon-cases.ts | python3 scripts/helikon-oracle.py",
+    "verify:helikon-sources": "python3 scripts/helikon-sources.py",
+    "test:helikon": "node scripts/helikon-browser.mjs",
+    "test:helikon-integrity": "node scripts/helikon-integrity.mjs",
+    "test:helikon-upgrade": "node scripts/helikon-upgrade.mjs",
+    "verify:helikon-files": "python3 scripts/helikon-artifacts.py"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",
