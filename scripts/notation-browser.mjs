@@ -348,11 +348,21 @@ async function review(engine, browser, width) {
     .getAttribute("href");
   assert.equal(new URL(portableLink).search, new URL(link).search);
   if (engine === "chromium" && width === 1440) {
+    await saved.emulateMedia({ media: "print" });
+    const plotTops = await saved
+      .locator(".ns-frame .nt-frame-plot")
+      .evaluateAll((nodes) => nodes.map((node) => node.getBoundingClientRect().top));
+    assert.equal(plotTops.length, 2);
+    assert(
+      Math.abs(plotTops[0] - plotTops[1]) < 1,
+      "Paired plots must share an origin even when captions wrap",
+    );
     await saved.pdf({
       path: path.join(folder, "translation.pdf"),
       format: "A4",
       printBackground: true,
     });
+    await saved.emulateMedia({ media: "screen" });
     await saved.screenshot({ path: path.join(folder, "portable.png") });
   }
   assert.deepEqual(requests, []);
