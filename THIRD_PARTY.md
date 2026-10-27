@@ -249,3 +249,29 @@ No contemporary translation is reproduced. The new English translations,
 notes and diagrams are MIT. Meibom's Latin is retained as his translation,
 including its difference from Greek “equally twisted”. The saved reading
 embeds IBM Plex Sans and Noto Serif with their complete SIL OFL notices.
+
+## Two vīṇās: Sanskrit counts and a modern interpretation
+
+Grosset's _Contribution à l'étude de la musique hindoue_ (1888), in _Mélanges
+de philologie indo-européenne_, Bibliothèque de la Faculté des Lettres de Lyon 6,
+is public domain. Eight whole page renderings, original PDF identity and exact
+rendering parameters are retained in `public/sources/vina/manifest.json`.
+The source is the National Library of India scan at
+[Internet Archive](https://archive.org/details/dli.ministry.04243).
+New transcriptions normalize the printed romanization to IAST; the editorial
+brackets, target-list order and omissions are explained. English and contextual
+word notes are new. No later English translation is bundled.
+
+The numerical family is credited to
+[Bernard Bel's mathematical discussion](https://bolprocessor.org/wp-content/uploads/Bharata-paper.pdf)
+(1984; revised 1988 and December 2020), pp.4–11. It is linked, not bundled.
+The implementation derives its own ratio chains and identifies the pure fourths,
+fifths, free parameter and modern sound as extra assumptions. It does not claim
+a scholarly consensus, a recovered twenty-two-frequency table or a rule for
+present-day Indian performance. Details are in [the model note](docs/vina-model.md).
+
+The portable reading verifies and embeds the existing IBM Plex Sans and Noto
+Serif files and their complete OFL notices. Noto supplies whole Sanskrit words
+in prose and reading text; typography does not depend on host-installed fonts.
+The standalone SVG's visible text uses its embedded Plex font. Source pages
+retain their historical commentary without adopting its wider claims.

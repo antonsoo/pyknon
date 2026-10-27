@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-10-26
+
+- Add the two-vīṇā matching experiment: keep the source's twenty-two counts,
+  hear two different modern preparations and find the boundary where stages merge.
+- Read romanized Sanskrit, new English and twelve contextual word notes against
+  eight complete 1888 pages; distinguish target lists from an ordered pairing.
+- Save independent readings with actual WAV audio, verified sources and fonts,
+  plus native pitch CSV, editable JSON and SVG. Extend the offline edition to seven rooms.
+- Keep the controlling complete edition ready during a pending update; require
+  the newly loaded page to match its own edition before declaring readiness.
+
 ## 2026-10-25
 
 - Add Nicomachus’s weighted-string account: keep the source numbers fixed,

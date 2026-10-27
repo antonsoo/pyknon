@@ -33,6 +33,36 @@ The published app works offline once its footer confirms the complete edition
 has been saved, including all three source scans. No account or external font
 service is used.
 
+## Keep the matches; change the tuning
+
+The new local room is `/pyknon/vina.html`, also reached through **Two vinas**
+in every room's navigation. Publication is reviewed separately.
+
+In the two-vīṇā demonstration in _Nāṭyaśāstra_ 28, named notes meet after
+successive lowerings. Two notes receive two counts, two receive three, and
+three receive four: 2×2 + 2×3 + 3×4 = 22. Does that determine one exact tuning?
+
+Our explicit modern model follows Bernard Bel's algebraic reading and adds
+pure fourths and fifths. At the second stage, Ga meets Ri. Change the
+preparation from a 21.51-cent reference difference to 50.98 cents: the same
+match survives, but at a modern Sa of 220 Hz it moves from **244.4444 Hz to
+240.3184 Hz**. Hear both preparations. At the upper boundary, the second and
+third stages merge; beyond it, the nominal third lowering would raise pitch.
+The source does not prescribe either preset or all twenty-two frequencies.
+
+Read nine passages in the edition's romanized Sanskrit and new English,
+twelve contextual word notes, and eight complete 1888 printed pages. The
+source lists two targets without saying “respectively”; a test of one ordered
+pairing is kept distinct from a claim that the text is corrupt.
+
+Save the current sound, rulers, all readings and source pages, editable JSON,
+pitch CSV, fonts and licenses in one script-free HTML reading. It opens as a
+file, plays its embedded synthetic sound and prints without the site. Native
+WAV, CSV, JSON and a font-embedded SVG are available separately. All seven
+rooms belong to one integrity-checked offline edition.
+
+[Source, interpretation and derivation](docs/vina-model.md).
+
 ## Read a surviving song
 
 Open the **[Seikilos song reader](https://antonsoo.github.io/pyknon/song.html?s=3&a=220&pace=150#reader)**.
@@ -155,7 +185,7 @@ break; the later parallels printed on the same pages remain distinct.
 
 Save native JSON, SVG, scheduled-onset CSV or synthetic WAV. A single
 script-free HTML reading keeps both experiments, all readings and source
-images, font, editable JSON and the selected sound. The whole six-room edition
+images, font, editable JSON and the selected sound. The whole seven-room edition
 works offline after complete installation. Sine clicks mark positions; their
 short decays do not represent sung note lengths or reconstruct ancient accents.
 
@@ -180,7 +210,7 @@ _Harmonic Manual_ 6 against a modern ideal string model. The account calls
 - Save an independent HTML reading with generated WAV audio, exact ratios,
   diagrams, all readings, complete source pages, fonts and licenses; reopen
   editable JSON, or export CSV, WAV and a font-embedded SVG.
-- Use all six rooms offline after the matching complete edition is saved.
+- Use all seven rooms offline after the matching complete edition is saved.
 
 The diagram is a comparison, not a reconstruction of the account's shared peg.
 The fixed-end uniform-string model holds loaded length and linear density fixed;

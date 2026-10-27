@@ -1,7 +1,7 @@
 import { createHash } from "node:crypto";
 import { readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { defineConfig } from "vite";
+import { defineConfig, type HmrContext } from "vite";
 
 const base = "/pyknon/";
 
@@ -18,6 +18,8 @@ async function filesIn(directory: string): Promise<string[]> {
 }
 
 export default defineConfig(async ({ command }) => {
+  const sourceFile = path.resolve("public/sources/vina/manifest.json");
+  const sourceId = "\0retained-source-json:vina.js";
   const inputFiles = [
     ...(await filesIn("src")),
     ...(await filesIn("public")),
@@ -27,6 +29,7 @@ export default defineConfig(async ({ command }) => {
     "trial.html",
     "rhythm.html",
     "tension.html",
+    "vina.html",
     "vite.config.ts",
     "tsconfig.json",
     "package.json",
@@ -49,11 +52,32 @@ export default defineConfig(async ({ command }) => {
           trial: "trial.html",
           rhythm: "rhythm.html",
           tension: "tension.html",
+          vina: "vina.html",
         },
       },
     },
     define: { __PYKNON_EDITION__: JSON.stringify(edition) },
     plugins: [
+      {
+        name: "retained-vina-sources",
+        resolveId(id: string) {
+          if (id === "virtual:vina-sources") return sourceId;
+        },
+        async load(id: string) {
+          if (id !== sourceId) return;
+          this.addWatchFile(sourceFile);
+          const json = await readFile(sourceFile, "utf8");
+          JSON.parse(json);
+          return `export default JSON.parse(${JSON.stringify(json)});`;
+        },
+        handleHotUpdate(ctx: HmrContext) {
+          if (ctx.file !== sourceFile) return;
+          const module = ctx.server.moduleGraph.getModuleById(sourceId);
+          if (module) ctx.server.moduleGraph.invalidateModule(module);
+          ctx.server.ws.send({ type: "full-reload" });
+          return [];
+        },
+      },
       {
         name: "offline-listening-room",
         apply: "build",
@@ -90,6 +114,12 @@ self.addEventListener("activate", event => {
   event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key.startsWith("pyknon-") && key !== CACHE).map(key => caches.delete(key)))).then(() => self.clients.claim()));
 });
 self.addEventListener("message", event => {
+  if (event.data?.type === "PYKNON_ACTIVATE" && event.data.edition === EDITION) {
+    // The page asks only after this worker's inspector confirms a complete,
+    // matching waiting edition. Readiness still requires the actual controller.
+    event.waitUntil(self.skipWaiting());
+    return;
+  }
   if (event.data?.type === "PYKNON_CLAIM" && event.data.edition === EDITION) {
     event.waitUntil(self.clients.claim());
     return;

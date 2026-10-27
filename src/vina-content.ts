@@ -3,7 +3,7 @@ export const VINA_SOURCE = "https://archive.org/details/dli.ministry.04243";
 export const VINA_LIMITS =
   "The source gives note names, counts and matching relations. This workshop follows Bernard Bel's algebraic reading and adds exact modern 4:3 fourths and 3:2 fifths. The remaining offset is a chosen parameter. Cents, 110/220 Hz references and sine tones are modern; no ancient melody, vīṇā shape, timbre or twenty-two-pitch frequency table is reconstructed. The layered Nāṭyaśāstra is attributed to Bharata; this is not a securely dated laboratory report by one identified experimenter.";
 export const VINA_NORMALIZATION =
-  "Sanskrit is transcribed from Grosset's 1888 romanized edition, not from a later English translation. Old ç is normalized to ś; diacritics, spacing, joined line breaks and punctuation are normalized. Internal omissions use … . The editor's square brackets remain marked. His reversed target list in the second lowering is retained and discussed, rather than silently repaired. The numerical model pairs notes by pitch under the stated modern interpretation.";
+  "Sanskrit is transcribed from Grosset's 1888 romanized edition, not from a later English translation. Old ç is normalized to ś; diacritics, spacing, joined line breaks and punctuation are normalized. Internal omissions use … . The editor's square brackets remain marked. The printed target-list order in the second lowering is retained and discussed. The numerical model pairs notes by pitch under the stated modern interpretation.";
 export const VINA_READINGS = [
   {
     title: "Two grāmas, twenty-two counts",
@@ -33,14 +33,14 @@ export const VINA_READINGS = [
     note: "The ellipsis omits Grosset's long compound about comparable dimensions, strings, playing/adjustment and daṇḍa. Read the complete printed clause. Vīṇe is a dual form; the name does not identify the shape of a modern fretted vīṇā. The opening square bracket is the 1888 editor's. The model treats the subsequent retuning as a shift of the whole pitch system, following Bel; the drawn rails are comparison rulers, not physical instruments.",
   },
   {
-    title: "The two-count match—and a reversed list",
+    title: "Two names are not a pairing rule",
     page: "29",
     language: "sa-Latn",
     original:
       "punar api tadvad evāpakarṣād gāndhāraniṣādavantāv itarasyāṃ dhaivatarṣabhau praviśato dviśrutyadhikatvāt.",
     english:
       "With a further lowering, the Ga and Ni notes of one enter Dha and Ri on the other, through the two-śruti difference.",
-    note: "The printed target order is Dha–Ri. Its French translation keeps that order and marks doubt. Our modern model instead matches Ga→Ri and Ni→Dha, as in Bel's interpretation. These are the pitch-ordered pairs, not a silent claim that this page prints them in that order. The following comparison makes the literal reversed pairing fail visibly.",
+    note: "The printed target order is Dha–Ri. The Sanskrit does not add our English word 'respectively'. Our model pairs Ga→Ri and Ni→Dha, following Bel's pitch interpretation. Pairing both lists in their written order instead fails in this model. That conditional comparison does not prove the text corrupt: a list of two targets is not necessarily an instruction to pair them in order. Grosset's French preserves the order; his broader doubt about the demonstration appears in note 36.",
   },
   {
     title: "The next two notes",

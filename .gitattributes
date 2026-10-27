@@ -1,0 +1,2 @@
+# Native comparison CSV retains its RFC 4180 CRLF record terminators.
+*.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

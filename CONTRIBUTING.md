@@ -25,3 +25,27 @@ For the Seikilos reader, also run `npm run verify:song`,
 Inspect the contact sheet of all source selections as well as the page views.
 The museum photographs and annotated presentations are CC BY-SA 4.0; preserve
 those credits and terms independently of the MIT code license.
+
+For the two-vīṇā room, keep the source count list, a modern acoustic assumption
+and a proposed historical interpretation separate. The reference difference
+is a free modern parameter; do not describe the presets as frequencies
+specified by Bharata. Primary-language list order alone does not add the
+English word “respectively”. Read `docs/vina-model.md` before changing pairings.
+
+```sh
+npm run verify:vina
+npm run test:vina -- /tmp/pyknon-vina-review
+python3 scripts/vina-oracle.py --browser /tmp/pyknon-vina-review/review.json
+npm run verify:vina-files -- /tmp/pyknon-vina-review
+uv run --python 3.12 --with numpy==2.4.4 python3 scripts/vina-wave-oracle.py /tmp/pyknon-vina-review/review.json
+```
+
+With `npm run preview` serving the production build, also run
+`npm run test:vina-integrity -- http://127.0.0.1:4329/pyknon/ /tmp/pyknon-vina-integrity`.
+It completes an older response, substitutes valid but wrong page/font files,
+checks verified retry, edits a pending export and delays a real file import.
+For upgrades, pass the previous build and receipt path to
+`npm run test:vina-upgrade -- "$PREVIOUS_DIST" /tmp/vina-upgrade.json`.
+Keep local, clean-build, public-hosting, browser and generated-PCM evidence
+separate. Physical speakers and historical instrument performance are not
+measured by the WAV oracle.

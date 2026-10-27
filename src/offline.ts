@@ -73,10 +73,9 @@ export async function offline(status: HTMLElement): Promise<void> {
   };
   const refresh = async () => {
     const currentRevision = ++revision;
-    if (registration?.installing || registration?.waiting) {
-      pending();
-      return;
-    }
+    // A pending update does not erase the controlling edition's complete
+    // cache. Inspect the controller first: an older page can remain ready,
+    // while a newly fetched page still fails its own edition comparison.
     const worker = container.controller;
     if (!worker) {
       pending();
@@ -96,7 +95,7 @@ export async function offline(status: HTMLElement): Promise<void> {
     if (currentRevision !== revision || worker !== container.controller) return;
     if (reply?.edition === __PYKNON_EDITION__ && reply.complete) {
       verifiedCurrent = true;
-      status.textContent = "Ready offline · all six rooms, audio, diagrams & source scans saved.";
+      status.textContent = "Ready offline · all seven rooms, audio, diagrams & source scans saved.";
       reload.hidden = true;
     } else if (reply?.edition === __PYKNON_EDITION__ && !reply.complete) {
       status.textContent = "Offline copy is incomplete. Keep this tab open to continue reading.";
@@ -114,6 +113,22 @@ export async function offline(status: HTMLElement): Promise<void> {
     let activated = worker.state === "activated";
     const changed = () => {
       if (worker.state === "activated") activated = true;
+      if (worker.state === "installed") {
+        // A completed update can remain waiting after its install callback.
+        // Inspect its complete cache and schedule an activation retry after the
+        // installed notification settles. Only this page's edition can answer.
+        void inspectWorker(worker).then((reply) => {
+          if (
+            reply?.edition === __PYKNON_EDITION__ &&
+            reply.complete &&
+            worker.state === "installed"
+          )
+            setTimeout(() => {
+              if (worker.state === "installed")
+                worker.postMessage({ type: "PYKNON_ACTIVATE", edition: __PYKNON_EDITION__ });
+            }, 100);
+        });
+      }
       if (worker.state === "redundant" && !activated) installFailed = true;
       void refresh();
     };

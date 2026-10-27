@@ -2,7 +2,7 @@
   "name": "@antonsoloviev/pyknon",
   "version": "0.1.0",
   "private": true,
-  "description": "Hear ancient Greek musical arguments, test ideal strings, and read their printed Greek and Latin evidence.",
+  "description": "Hear ancient Greek and Sanskrit musical arguments, operate explicit models, and read the printed evidence.",
   "type": "module",
   "author": "Anton Soloviev <anton@praviel.com>",
   "license": "MIT",
@@ -23,7 +23,11 @@
     "rhythm",
     "aristoxenus",
     "nicomachus",
-    "acoustics"
+    "acoustics",
+    "sanskrit",
+    "natyasastra",
+    "bharata",
+    "indian-music"
   ],
   "engines": {
     "node": ">=24"
@@ -51,7 +55,13 @@
     "verify:tension": "node --import tsx scripts/tension-cases.ts | python3 scripts/tension-oracle.py",
     "verify:tension-sources": "python3 scripts/tension-sources.py",
     "test:tension": "node scripts/tension-browser.mjs",
-    "test:tension-upgrade": "node scripts/tension-upgrade.mjs"
+    "test:tension-upgrade": "node scripts/tension-upgrade.mjs",
+    "verify:vina": "node --import tsx scripts/vina-cases.ts | python3 scripts/vina-oracle.py",
+    "test:vina": "node scripts/vina-browser.mjs",
+    "test:vina-integrity": "node scripts/vina-integrity.mjs",
+    "test:vina-upgrade": "node scripts/vina-upgrade.mjs",
+    "verify:vina-files": "python3 scripts/vina-artifacts.py",
+    "verify:vina-audio": "python3 scripts/vina-wave-oracle.py"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",

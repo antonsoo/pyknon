@@ -71,7 +71,7 @@ async function save(page, selector, file) {
 async function ready(page) {
   await page
     .locator("#offline-status")
-    .filter({ hasText: /Ready offline.*six rooms/ })
+    .filter({ hasText: /Ready offline.*rooms/ })
     .waitFor({ timeout: 60000 });
 }
 async function scan(page, id) {

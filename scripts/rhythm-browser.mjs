@@ -374,7 +374,7 @@ for (const [name, type] of [
           await page.goto(base + room);
           await page
             .locator("#offline-status")
-            .filter({ hasText: /Ready offline.*six rooms/ })
+            .filter({ hasText: /Ready offline.*rooms/ })
             .waitFor();
           await fits(page);
           if (room !== "rhythm.html")

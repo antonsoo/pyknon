@@ -108,7 +108,7 @@ for (const [name, engine] of [
           .waitFor();
         await page
           .locator("#offline-status")
-          .filter({ hasText: /Ready offline.*six rooms/ })
+          .filter({ hasText: /Ready offline.*rooms/ })
           .waitFor({ timeout: 60000 });
         results.push({
           browser: name,

@@ -50,7 +50,9 @@ experiment or instrument construction is inferred from this activity.
 The second-lowering clause on p.29 lists Ga–Ni entering Dha–Ri. The French
 translation on pp.57–58 follows this order and marks doubt. Pairing those lists
 literally in their written order does not produce the model's coincidences.
-The workshop shows the resulting mismatches explicitly.
+The workshop shows the resulting mismatches explicitly. The Sanskrit does not
+add the English word "respectively": this test of a possible ordered pairing
+does not prove a corrupt text or disagreement about the two target names.
 
 Our model instead pairs Ga→Ri and Ni→Dha, following Bernard Bel's modern
 algebraic interpretation. This is a disclosed interpretive choice, not a silent
