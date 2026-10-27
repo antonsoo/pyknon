@@ -1,7 +1,8 @@
 # Two vinas: direct review
 
 Reviewed 2026-10-26 in Los Angeles. Source, local production, a fresh installation
-and portable files are recorded here; public hosting is a separate boundary.
+and portable files are recorded here; the [publication record](vina-publication.md)
+separately identifies the public clone, hosted bytes and public browser journeys.
 
 ## What changed for the learner
 
