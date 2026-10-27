@@ -275,3 +275,29 @@ Serif files and their complete OFL notices. Noto supplies whole Sanskrit words
 in prose and reading text; typography does not depend on host-installed fonts.
 The standalone SVG's visible text uses its embedded Plex font. Source pages
 retain their historical commentary without adopting its wider claims.
+
+## Three middles: Sectio canonis III and XVI
+
+Heinrich Menge, _Euclidis opera omnia_ VIII, _Phaenomena et scripta musica_
+(Teubner, Leipzig, **1916**), title and printed pp.162–163, 172–177. The title's
+MCMXVI supplies the specific volume date. University of California copy,
+[Internet Archive](https://archive.org/details/euclidisoperaomn08eucl).
+Nine complete mechanically rendered pages retain apparatus and diagrams.
+Their PDF leaf mapping, original file identity, renderer and individual hashes
+are in `public/sources/halves/manifest.json`.
+
+The ancient text and 1916 publication are public domain in the United States.
+Menge's Latin is his modern scholarly translation. New Greek/Latin
+transcriptions, English, contextual notes, code and diagrams are MIT.
+Normalization, selected excerpts, authorship limits and mathematical domain are
+explained in [the model account](docs/halves-model.md). No later copyrighted
+English translation is bundled. This is a modern frequency realization of a
+numerical argument, not a reconstructed performance or instrument.
+
+The complete portable reading embeds IBM Plex Sans and Noto Serif with their
+full OFL notices, as well as the complete MIT notice. New higher resolution
+whole-page images share an original volume with the six-tones room; their
+separate identities are retained rather than treating older lower resolution
+renders as interchangeable. Ideal string-length comparisons link to
+[OpenStax](https://openstax.org/books/university-physics-volume-1/pages/16-6-standing-waves-and-resonance),
+without bundling its text or illustrations.
