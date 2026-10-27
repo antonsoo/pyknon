@@ -75,7 +75,8 @@
     "test:helikon": "node scripts/helikon-browser.mjs",
     "test:helikon-integrity": "node scripts/helikon-integrity.mjs",
     "test:helikon-upgrade": "node scripts/helikon-upgrade.mjs",
-    "verify:helikon-files": "python3 scripts/helikon-artifacts.py"
+    "verify:helikon-files": "python3 scripts/helikon-artifacts.py",
+    "test:helikon-development": "node scripts/helikon-development.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",

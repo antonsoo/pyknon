@@ -1,4 +1,4 @@
-import { createHash } from "node:crypto";
+import { createHash, randomBytes } from "node:crypto";
 import { readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { defineConfig, type HmrContext } from "vite";
@@ -18,6 +18,7 @@ async function filesIn(directory: string): Promise<string[]> {
 }
 
 export default defineConfig(async ({ command }) => {
+  const developmentStyleNonce = randomBytes(18).toString("base64");
   const retainedSources = [
     {
       request: "virtual:helikon-sources",
@@ -66,6 +67,7 @@ export default defineConfig(async ({ command }) => {
   const edition = command === "build" ? inputHash.digest("hex") : "development";
   return {
     base,
+    html: command === "serve" ? { cspNonce: developmentStyleNonce } : {},
     build: {
       rollupOptions: {
         input: {
@@ -84,6 +86,21 @@ export default defineConfig(async ({ command }) => {
     },
     define: { __PYKNON_EDITION__: JSON.stringify(edition) },
     plugins: [
+      {
+        name: "development-style-policy",
+        apply: "serve",
+        transformIndexHtml: {
+          order: "pre",
+          handler(html: string) {
+            // Vite's dev client inserts styles. Give those styles its nonce;
+            // production keeps the source HTML's strict external-style policy.
+            return html.replace(
+              "style-src 'self';",
+              `style-src 'self' 'nonce-${developmentStyleNonce}';`,
+            );
+          },
+        },
+      },
       {
         name: "retained-reading-sources",
         resolveId(id: string) {
