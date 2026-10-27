@@ -1,0 +1,124 @@
+{
+  "title": "Euclidis opera omnia VIII: Phaenomena et scripta musica",
+  "editor": "Heinrich Menge",
+  "year": 1916,
+  "publisher": "B. G. Teubner, Leipzig",
+  "copy": "University of California copy digitized by Internet Archive",
+  "catalogue": "https://archive.org/details/euclidisoperaomn08eucl",
+  "pdf": "https://archive.org/download/euclidisoperaomn08eucl/euclidisoperaomn08eucl.pdf",
+  "pdfBytes": 19695338,
+  "pdfSha256": "eecde1f0c7164eae8497c17566746e9c4d38e3e09878a0a9d11caf0753fcddb8",
+  "rights": "Ancient text and 1916 publication: public domain in the United States. Latin is Menge’s modern scholarly translation.",
+  "render": {
+    "renderer": "pdftoppm 24.02.0",
+    "scaleTo": 2200,
+    "quality": 88,
+    "wholePages": true
+  },
+  "pages": [
+    {
+      "file": "sources/halves/menge-title.jpg",
+      "printedPage": "title",
+      "pdfPage": 7,
+      "label": "Title · Menge, 1916",
+      "bytes": 287091,
+      "sha256": "b5550b9206543d3b19969f8657d4a7abd08971c0994e6c0638265ad7a09ff067"
+    },
+    {
+      "file": "sources/halves/menge-162.jpg",
+      "printedPage": "162",
+      "pdfPage": 220,
+      "label": "III · Greek and complete apparatus",
+      "bytes": 577067,
+      "sha256": "1c443dcbab8b7e91a0f612488f455d7ee5e57f0de9ab10474e839e218995cba0"
+    },
+    {
+      "file": "sources/halves/menge-163.jpg",
+      "printedPage": "163",
+      "pdfPage": 221,
+      "label": "III · Menge’s Latin and complete apparatus",
+      "bytes": 598544,
+      "sha256": "088f14683c17e143b4394eab1f25430552195a0dd897e6dc515beb24868af8d2"
+    },
+    {
+      "file": "sources/halves/menge-172.jpg",
+      "printedPage": "172",
+      "pdfPage": 230,
+      "label": "XI–XII · Greek musical premises",
+      "bytes": 531244,
+      "sha256": "80661acab2e36424f8c3585efd4035cbfd0100f05ed74fe139c7e8993447c96c"
+    },
+    {
+      "file": "sources/halves/menge-173.jpg",
+      "printedPage": "173",
+      "pdfPage": 231,
+      "label": "XI–XII · Latin musical premises",
+      "bytes": 493963,
+      "sha256": "7ca7cd06a852a44ea78fe3d9bb945a52871ea56580c1609f8ee32e9387c58929"
+    },
+    {
+      "file": "sources/halves/menge-174.jpg",
+      "printedPage": "174",
+      "pdfPage": 232,
+      "label": "XIII–XV · Greek tone argument",
+      "bytes": 484520,
+      "sha256": "ce853cef6a6087ca72982dcde0453581039bfb9d3f9c318991361c964208d4db"
+    },
+    {
+      "file": "sources/halves/menge-175.jpg",
+      "printedPage": "175",
+      "pdfPage": 233,
+      "label": "XIII–XV · Latin tone argument",
+      "bytes": 460696,
+      "sha256": "2c9499faabfb9e278b4ecd5a97b1b2519963c71192e234140b200ba36a08eff9"
+    },
+    {
+      "file": "sources/halves/menge-176.jpg",
+      "printedPage": "176",
+      "pdfPage": 234,
+      "label": "XVI · Greek claim and numerical premise",
+      "bytes": 462870,
+      "sha256": "82d807ed3ead1db60020a87ac1fcf88d393a2b2b7226e4632f16185a33a085ca"
+    },
+    {
+      "file": "sources/halves/menge-177.jpg",
+      "printedPage": "177",
+      "pdfPage": 235,
+      "label": "XVI · Latin claim and numerical premise",
+      "bytes": 438106,
+      "sha256": "2b737ce053682cf32e202fe6671531ff509c3d962d659865b7a986e349709b7d"
+    }
+  ],
+  "assets": [
+    {
+      "file": "fonts/IBMPlexSans-Regular.woff2",
+      "bytes": 63020,
+      "sha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a"
+    },
+    {
+      "file": "fonts/IBMPlexSans-SemiBold.woff2",
+      "bytes": 67060,
+      "sha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205"
+    },
+    {
+      "file": "fonts/NotoSerif-Regular.ttf",
+      "bytes": 444064,
+      "sha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6"
+    },
+    {
+      "file": "fonts/IBMPlex-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "file": "fonts/NotoSerif-OFL.txt",
+      "bytes": 4396,
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a"
+    },
+    {
+      "file": "halves-LICENSE.txt",
+      "bytes": 1071,
+      "sha256": "e26144be8673d69c175126ad8dcd9ed78431464f0b97120b799dc75ec7edb647"
+    }
+  ]
+}
