@@ -4,7 +4,7 @@
   "private": true,
   "description": "Decode Greek musical signs, compare source-grounded ancient musical arguments, and keep operable readings with their printed evidence.",
   "type": "module",
-  "author": "Anton Soloviev <anton@praviel.com>",
+  "author": "Anthony Mercer <anthony@praviel.com>",
   "license": "MIT",
   "repository": {
     "type": "git",

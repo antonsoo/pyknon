@@ -453,6 +453,6 @@ retain their separate evidence.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Changes to historical claims need a
 source; changes to audio need signal-level evidence. Code and original diagrams
-are MIT © 2026 Anton Soloviev. Museum photographs and their annotated
+are MIT © 2026 Anthony Mercer. Museum photographs and their annotated
 presentations are CC BY-SA 4.0; public-domain scans and OFL fonts retain their
 notices. See [THIRD_PARTY.md](THIRD_PARTY.md).
