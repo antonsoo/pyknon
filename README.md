@@ -8,7 +8,7 @@ loss audible, visible and traceable to a source: Ptolemy's report of Archytas,
 with Greek and Latin pages from a 1682 edition.
 
 [Open the listening workbench](https://antonsoo.github.io/pyknon/?g=enharmonic&a=220&d=up#listen)
-· [MIT license](LICENSE)
+· [PolyForm Noncommercial license](LICENSE)
 · [Source and model](docs/model.md)
 
 ![The enharmonic pitch ruler: two ancient notes converge on the same modern key](docs/assets/listening-desktop.png)
@@ -451,8 +451,10 @@ retain their separate evidence.
 
 ## Contributing and license
 
+New versions are released under the [PolyForm Noncommercial License 1.0.0](LICENSE). It is free for any noncommercial purpose, including personal study, teaching and research, and for use by charities, schools, universities, research organizations and government institutions. Commercial use needs written permission from Anthony Mercer (anthony@praviel.com). Versions up to commit [`0d27ede`](https://github.com/antonsoo/pyknon/tree/0d27ede) (2026-11-01) were released under the MIT License, and copies of those versions keep it.
+
 See [CONTRIBUTING.md](CONTRIBUTING.md). Changes to historical claims need a
 source; changes to audio need signal-level evidence. Code and original diagrams
-are MIT © 2026 Anthony Mercer. Museum photographs and their annotated
+are PolyForm Noncommercial © 2026 Anthony Mercer. Museum photographs and their annotated
 presentations are CC BY-SA 4.0; public-domain scans and OFL fonts retain their
 notices. See [THIRD_PARTY.md](THIRD_PARTY.md).

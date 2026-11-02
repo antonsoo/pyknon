@@ -1,6 +1,6 @@
 # Sources and third-party material
 
-Pyknon's code, original diagrams and new English explanations are MIT licensed.
+Pyknon's code, original diagrams and new English explanations are licensed under PolyForm Noncommercial.
 The following material retains its own provenance and terms.
 
 ## Alypius notation tables
@@ -20,7 +20,7 @@ staff transcriptions remain visible. The p367 heading's square brackets and the
 p369/p370 λάβδα/λάμβδα difference are retained in the selected readings.
 
 New Greek selections, English, contextual word notes, regular vector sign
-strokes and short practice lines are project work under MIT. The vector signs
+strokes and short practice lines are project work under PolyForm Noncommercial. The vector signs
 are teaching drawings, not an extracted Unicode-chart font, ancient manuscript
 facsimiles or a complete universal notation decoder. No modern recording or
 copyrighted score image is bundled. Chosen tunings, reference hertz and equal
@@ -273,7 +273,7 @@ domain. The exact original PDF and JPEG identities, correct PDF/Archive leaf
 mappings, and Poppler rendering parameters are in `src/tension-sources.json`.
 Full provenance, normalization and rights: `public/sources/tension/NOTICES.txt`.
 No contemporary translation is reproduced. The new English translations,
-notes and diagrams are MIT. Meibom's Latin is retained as his translation,
+notes and diagrams are PolyForm Noncommercial. Meibom's Latin is retained as his translation,
 including its difference from Greek “equally twisted”. The saved reading
 embeds IBM Plex Sans and Noto Serif with their complete SIL OFL notices.
 
@@ -315,14 +315,14 @@ are in `public/sources/halves/manifest.json`.
 
 The ancient text and 1916 publication are public domain in the United States.
 Menge's Latin is his modern scholarly translation. New Greek/Latin
-transcriptions, English, contextual notes, code and diagrams are MIT.
+transcriptions, English, contextual notes, code and diagrams are PolyForm Noncommercial.
 Normalization, selected excerpts, authorship limits and mathematical domain are
 explained in [the model account](docs/halves-model.md). No later copyrighted
 English translation is bundled. This is a modern frequency realization of a
 numerical argument, not a reconstructed performance or instrument.
 
 The complete portable reading embeds IBM Plex Sans and Noto Serif with their
-full OFL notices, as well as the complete MIT notice. New higher resolution
+full OFL notices, as well as the complete PolyForm Noncommercial notice. New higher resolution
 whole-page images share an original volume with the six-tones room; their
 separate identities are retained rather than treating older lower resolution
 renders as interchangeable. Ideal string-length comparisons link to
@@ -336,7 +336,7 @@ without bundling its text or illustrations.
 [Internet Archive scan](https://archive.org/details/bim_early-english-books-1641-1700_-harmonicor_ptolomaeus-claudius_1682).
 The ancient Greek, Wallis’s early modern Latin, diagrams and 1682 publication
 are public domain in the United States. The new English, notes and vector
-geometry are original MIT-licensed work. The modern challenge is a reduced
+geometry are original work under PolyForm Noncommercial. The modern challenge is a reduced
 four-string analogy, not Ptolemy’s full extended octachord or a recovered
 performance. No modern copyrighted English translation is bundled.
 
@@ -350,5 +350,5 @@ uses Wallis’s Latin letters and provides their actual Greek mapping.
 
 The standalone reading embeds the same three IBM Plex Sans / Noto Serif font
 files and full SIL OFL 1.1 notices described above. SVG exports embed Plex and
-its full font license, plus the original-work MIT notice. Complete source
+its full font license, plus the original-work PolyForm Noncommercial notice. Complete source
 images, fonts and licenses are verified before embedding.

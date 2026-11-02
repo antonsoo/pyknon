@@ -24,7 +24,7 @@ For the Seikilos reader, also run `npm run verify:song`,
 `python3 scripts/song-oracle.py /tmp/pyknon-song-review/browser.json`.
 Inspect the contact sheet of all source selections as well as the page views.
 The museum photographs and annotated presentations are CC BY-SA 4.0; preserve
-those credits and terms independently of the MIT code license.
+those credits and terms independently of the PolyForm Noncommercial code license.
 
 For the two-vīṇā room, keep the source count list, a modern acoustic assumption
 and a proposed historical interpretation separate. The reference difference

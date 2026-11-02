@@ -61,7 +61,7 @@ export function notationFrameSheet(s: NotationState, font: string, fontLicense: 
     })
     .join(
       "",
-    )}<text x="42" y="661" font-size="16">${ne(frame.anchorDescription)}</text><text x="42" y="694" font-size="15">Hypolydian / Lydian mesē: ${ne(frame.meseRelation)}; selected sign: ${ne(frame.signRelation)}.</text><text x="42" y="730" font-size="13">One common current logarithmic pitch scale. Chosen Lydian mesē: ${s.reference} Hz. No ancient hertz is measured.</text><text x="42" y="759" font-size="13">Inspect both complete source pages for their actual forms and apparatus. Two possible functions remain where printed.</text><text x="42" y="793" font-size="12">New diagrams and code: MIT, Anton Soloviev 2026. Plex: SIL OFL 1.1. Full notices and editable state in metadata.</text></svg>`;
+    )}<text x="42" y="661" font-size="16">${ne(frame.anchorDescription)}</text><text x="42" y="694" font-size="15">Hypolydian / Lydian mesē: ${ne(frame.meseRelation)}; selected sign: ${ne(frame.signRelation)}.</text><text x="42" y="730" font-size="13">One common current logarithmic pitch scale. Chosen Lydian mesē: ${s.reference} Hz. No ancient hertz is measured.</text><text x="42" y="759" font-size="13">Inspect both complete source pages for their actual forms and apparatus. Two possible functions remain where printed.</text><text x="42" y="793" font-size="12">New diagrams and code: PolyForm NC, Anthony Mercer 2026. Plex: SIL OFL 1.1. Full notices and editable state in metadata.</text></svg>`;
 }
 export function currentSourceBands(s: NotationState): readonly (readonly [number, number])[] {
   if (s.sourceContext === "frame") return frameBands(s, s.page);
