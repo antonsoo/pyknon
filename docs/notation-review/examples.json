@@ -8,13 +8,13 @@
     },
     {
       "path": "examples/musical-signs-reading.html.gz",
-      "bytes": 3655324,
-      "sha256": "2baf176def4e1048ef6c5c0dfbece0b1bfe0833f6db702295837b1b134c4c339"
+      "bytes": 3659366,
+      "sha256": "c4622aa5a7174825b58189f2dba2770de98757a1ee4d4a7746b56cdbc5f7f049"
     },
     {
       "path": "examples/musical-signs-reading.pdf",
-      "bytes": 3921771,
-      "sha256": "c0dd2cde638c9dcdaab0eea8fa32def37d4fe818a0dbbb51795127d4dfa30e89"
+      "bytes": 3922595,
+      "sha256": "0cc334f86db468c61151d9267f3cc8b4046416ba2f522f42e6b999b911f1673e"
     },
     {
       "path": "examples/musical-signs-tables.csv",
@@ -23,8 +23,8 @@
     },
     {
       "path": "examples/musical-signs-tables.svg",
-      "bytes": 95285,
-      "sha256": "649fe5eca9081c949711434f1dcc8fa88ee1691486cefd745d1c93362932bd7c"
+      "bytes": 98929,
+      "sha256": "ef89fb36fad03ffef1fce73a7eda98e0c1663c0d5c5f7a844dabd935b43eceac"
     },
     {
       "path": "examples/musical-signs-translation.csv",
@@ -38,8 +38,8 @@
     },
     {
       "path": "examples/musical-signs.svg",
-      "bytes": 101509,
-      "sha256": "8a05ed5f01f2af714ea853f4d9714c133a3d647aa842ddf4757e8ae27e352f61"
+      "bytes": 105153,
+      "sha256": "002ff3f01715789963fbaf337d7d2c887b4e3d3c7adf6b0d86997ab317ffc635"
     }
   ]
 }

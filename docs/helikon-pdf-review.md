@@ -1,6 +1,8 @@
 # A structured reading that keeps its evidence
 
-The current [retained PDF](../examples/helikon-reading.pdf) has 25 pages.
+The current [retained PDF](../examples/helikon-reading.pdf) has 27 pages since its
+2026-11-25 regeneration ([details](regeneration-2026-11-25.md)); it had 25 when this
+review was written.
 Headings have nested bookmarks; the main Greek and Latin paragraphs retain
 language tags, with English inherited from the document. Numeric and letter
 mapping tables retain explicit row/column header scopes. Diagrams and whole

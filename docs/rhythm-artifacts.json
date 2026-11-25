@@ -23,13 +23,13 @@
     },
     {
       "file": "examples/rhythm-reading.html",
-      "bytes": 7245411,
-      "sha256": "77dbb2433276efba5bc1c1ababe8b744de70fc05085b59015f5b75ab3d4731d7"
+      "bytes": 7245430,
+      "sha256": "234681d53824cf415f642032dcc4372755904b3a5fd601baa97cb6f73f785eac"
     },
     {
       "file": "examples/rhythm-reading.pdf",
-      "bytes": 3562533,
-      "sha256": "a484c3dc0521cac6d0ecff8bc42b7b6001d07af1a550b7566d99aa51928b908f"
+      "bytes": 3562607,
+      "sha256": "abe7633599a59a936b2d743c70b712453fc820d245702e3083159e0dcec98394"
     },
     {
       "file": "examples/rhythm-score.svg",

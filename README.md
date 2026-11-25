@@ -68,7 +68,7 @@ requests and file imports cannot replace newer choices.
 
 [Source and formulas](docs/helikon-model.md) · [Direct review](docs/helikon-review.md).
 [Actual illustrated reading, gzip](examples/helikon-reading.html.gz) ·
-[25-page tagged PDF](examples/helikon-reading.pdf) ·
+[27-page tagged PDF](examples/helikon-reading.pdf) ·
 [Editable experiment](examples/helikon-experiment.json).
 Decompress the HTML before opening it. The [PDF structure review](docs/helikon-pdf-review.md)
 checks language-tagged passages, heading bookmarks, table scopes and original
@@ -417,7 +417,8 @@ The checks exercise the model, actual controls and actual audio files:
   The measured maximum frequency error was below 0.009 cents; the acceptance
   tolerance is 0.02 cents. This measures generated PCM, not physical speakers.
 
-[Verification record](docs/verification.md) separates local source/build
+[Verification record](docs/verification.md) (and the [2026-11-25 regeneration
+of the retained examples](docs/regeneration-2026-11-25.md)) separates local source/build
 review from public hosting. [A saved study](examples/enharmonic-220.html) and
 [its A/B WAV](examples/enharmonic-220.wav) are real browser exports.
 

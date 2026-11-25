@@ -34,8 +34,8 @@
     },
     {
       "file": "examples/tension-reading.pdf",
-      "bytes": 5387298,
-      "sha256": "b7d44322e2d323e4505d22cb0fd61a408b897e0299d520ecb7bf8b97dd25d98a"
+      "bytes": 5387327,
+      "sha256": "93c95a7c345d3afd8568035eebbb9bb2d22af58239b0e1a50c4e29be66668614"
     },
     {
       "file": "examples/tension-original-weights.wav",
@@ -44,8 +44,8 @@
     },
     {
       "file": "examples/tension-reading.html.gz",
-      "bytes": 5784484,
-      "sha256": "e925bb0f37e5e2418c8f856574a5cd66680014d987ae100e69a434d24f1cf4c9",
+      "bytes": 5778965,
+      "sha256": "71cf8e39a49956f2b2ca5b776bb9a49de77676d4f9886d22f5bf61ea08861ef1",
       "uncompressedSha256": "7ca57f80df1e36a37ed53ebcf419945fff1e0aa5c09b99c85db91db88b57bcd1"
     }
   ]

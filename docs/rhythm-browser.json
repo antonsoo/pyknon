@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-24T21:23:06.584Z",
+  "checkedAt": "2026-11-25T21:48:41.615Z",
   "scope": "Local production, real browser operations and native files. Offline checks destroy the local origin's connections and disable browser networking. No deployment claim.",
   "base": null,
-  "workerSha256": "174bfd96c29a7c52f37e51f74a66873cfc5edbd6e364f4d51c2949752393d181",
+  "workerSha256": "7b3853fd9959dadebe0d641e5be88bb364f80631a09163f0ae98368e0e975d3e",
   "configurations": [
     {
       "browser": "chromium",
@@ -62,9 +62,16 @@
       "clickTimeSnapshot": true,
       "comparisonWavSha256": "6f2e6cd5022f45a3aca126b1f58640dbe1df8908c22a88fe9773c38c29d0ebca",
       "betweenWavSha256": "e16901333ba74fefb56d296131ba1d53abbde3139b9673af90b130c5600762a4",
-      "readingSha256": "77dbb2433276efba5bc1c1ababe8b744de70fc05085b59015f5b75ab3d4731d7",
+      "readingSha256": "234681d53824cf415f642032dcc4372755904b3a5fd601baa97cb6f73f785eac",
       "offlineOriginDisabled": true,
-      "offlineRooms": ["index.html", "song.html", "canon.html", "trial.html", "rhythm.html"],
+      "offlineRooms": [
+        "index.html",
+        "song.html",
+        "canon.html",
+        "trial.html",
+        "tension.html",
+        "rhythm.html"
+      ],
       "offlineIllustratedReading": true,
       "axeViolations": 0,
       "portableRemoteRequests": [],
@@ -129,9 +136,16 @@
       "clickTimeSnapshot": true,
       "comparisonWavSha256": "6f2e6cd5022f45a3aca126b1f58640dbe1df8908c22a88fe9773c38c29d0ebca",
       "betweenWavSha256": "e16901333ba74fefb56d296131ba1d53abbde3139b9673af90b130c5600762a4",
-      "readingSha256": "77dbb2433276efba5bc1c1ababe8b744de70fc05085b59015f5b75ab3d4731d7",
+      "readingSha256": "234681d53824cf415f642032dcc4372755904b3a5fd601baa97cb6f73f785eac",
       "offlineOriginDisabled": true,
-      "offlineRooms": ["index.html", "song.html", "canon.html", "trial.html", "rhythm.html"],
+      "offlineRooms": [
+        "index.html",
+        "song.html",
+        "canon.html",
+        "trial.html",
+        "tension.html",
+        "rhythm.html"
+      ],
       "offlineIllustratedReading": true,
       "axeViolations": 0,
       "portableRemoteRequests": [],
@@ -147,43 +161,43 @@
       "liveScheduledOscillators": [
         {
           "hz": 720,
-          "start": 0.16290249433106574,
-          "stops": [0.28290249433106573]
+          "start": 0.18031746031746032,
+          "stops": [0.3003174603174603]
         },
         {
           "hz": 480,
-          "start": 1.0629024943310659,
-          "stops": [1.1829024943310658]
+          "start": 1.0803174603174603,
+          "stops": [1.2003174603174602]
         },
         {
           "hz": 720,
-          "start": 1.9629024943310658,
-          "stops": [2.0829024943310657]
+          "start": 1.9803174603174603,
+          "stops": [2.10031746031746]
         },
         {
           "hz": 480,
-          "start": 2.8629024943310655,
-          "stops": [2.9829024943310656]
+          "start": 2.88031746031746,
+          "stops": [3.00031746031746]
         },
         {
           "hz": 720,
-          "start": 4.212902494331066,
-          "stops": [4.332902494331066]
+          "start": 4.23031746031746,
+          "stops": [4.35031746031746]
         },
         {
           "hz": 480,
-          "start": 4.812902494331065,
-          "stops": [4.932902494331065]
+          "start": 4.83031746031746,
+          "stops": [4.95031746031746]
         },
         {
           "hz": 720,
-          "start": 6.012902494331065,
-          "stops": [6.1329024943310655]
+          "start": 6.03031746031746,
+          "stops": [6.15031746031746]
         },
         {
           "hz": 480,
-          "start": 6.612902494331065,
-          "stops": [6.732902494331065]
+          "start": 6.6303174603174595,
+          "stops": [6.75031746031746]
         }
       ],
       "controlChangeStopsActualOscillators": true,
@@ -196,9 +210,16 @@
       "clickTimeSnapshot": true,
       "comparisonWavSha256": "ea19a85cf1910b796d87c826a0326f5b8f44732690438ea6f4b9e978bb7b5834",
       "betweenWavSha256": "5c580de5397411074dbcbb082b4509a312f735725b5c23f4aaac4aacce7942eb",
-      "readingSha256": "4c345d8315b8b99b45cb0de1e0298e0e32208c73cd7463847ac9f9cfb7105fd8",
+      "readingSha256": "64c3e3bae0be44d5ac3757ba464b3450c1a36c6fef343d9cd2c90b6d62979251",
       "offlineOriginDisabled": true,
-      "offlineRooms": ["index.html", "song.html", "canon.html", "trial.html", "rhythm.html"],
+      "offlineRooms": [
+        "index.html",
+        "song.html",
+        "canon.html",
+        "trial.html",
+        "tension.html",
+        "rhythm.html"
+      ],
       "offlineIllustratedReading": true,
       "axeViolations": 0,
       "portableRemoteRequests": [],
@@ -214,43 +235,43 @@
       "liveScheduledOscillators": [
         {
           "hz": 720,
-          "start": 0.1890249433106576,
-          "stops": [0.3090249433106576]
+          "start": 0.19192743764172335,
+          "stops": [0.31192743764172337]
         },
         {
           "hz": 480,
-          "start": 1.0890249433106576,
-          "stops": [1.2090249433106575]
+          "start": 1.0919274376417234,
+          "stops": [1.2119274376417235]
         },
         {
           "hz": 720,
-          "start": 1.9890249433106575,
-          "stops": [2.1090249433106574]
+          "start": 1.9919274376417233,
+          "stops": [2.1119274376417234]
         },
         {
           "hz": 480,
-          "start": 2.8890249433106576,
-          "stops": [3.0090249433106577]
+          "start": 2.891927437641723,
+          "stops": [3.0119274376417233]
         },
         {
           "hz": 720,
-          "start": 4.239024943310658,
-          "stops": [4.359024943310658]
+          "start": 4.241927437641723,
+          "stops": [4.361927437641723]
         },
         {
           "hz": 480,
-          "start": 4.839024943310657,
-          "stops": [4.9590249433106575]
+          "start": 4.841927437641723,
+          "stops": [4.961927437641723]
         },
         {
           "hz": 720,
-          "start": 6.0390249433106575,
-          "stops": [6.159024943310658]
+          "start": 6.041927437641723,
+          "stops": [6.161927437641723]
         },
         {
           "hz": 480,
-          "start": 6.639024943310657,
-          "stops": [6.759024943310657]
+          "start": 6.641927437641723,
+          "stops": [6.761927437641723]
         }
       ],
       "controlChangeStopsActualOscillators": true,
@@ -263,9 +284,16 @@
       "clickTimeSnapshot": true,
       "comparisonWavSha256": "ea19a85cf1910b796d87c826a0326f5b8f44732690438ea6f4b9e978bb7b5834",
       "betweenWavSha256": "5c580de5397411074dbcbb082b4509a312f735725b5c23f4aaac4aacce7942eb",
-      "readingSha256": "4c345d8315b8b99b45cb0de1e0298e0e32208c73cd7463847ac9f9cfb7105fd8",
+      "readingSha256": "64c3e3bae0be44d5ac3757ba464b3450c1a36c6fef343d9cd2c90b6d62979251",
       "offlineOriginDisabled": true,
-      "offlineRooms": ["index.html", "song.html", "canon.html", "trial.html", "rhythm.html"],
+      "offlineRooms": [
+        "index.html",
+        "song.html",
+        "canon.html",
+        "trial.html",
+        "tension.html",
+        "rhythm.html"
+      ],
       "offlineIllustratedReading": true,
       "axeViolations": 0,
       "portableRemoteRequests": [],
