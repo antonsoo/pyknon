@@ -32,5 +32,5 @@ punctuation are normalized; Latin long s and ae/oe ligatures are normalized,
 & is retained. Ellipses are explicitly shown when internal text is omitted.
 The printed Latin aeque graves is preserved beside equally twisted Greek.
 New English translations, word notes and physical-model diagrams are
-MIT, copyright (c) 2026 Anton Soloviev. The modern physical comparison is
+PolyForm Noncommercial, copyright (c) 2026 Anthony Mercer. The modern physical comparison is
 not a recovered ancient experiment, timbre, melody or proof.
