@@ -1,5 +1,5 @@
 {
-  "name": "@antonsoloviev/pyknon",
+  "name": "@anthonymercer/pyknon",
   "version": "0.2.0",
   "private": true,
   "description": "Decode Greek musical signs, compare source-grounded ancient musical arguments, and keep operable readings with their printed evidence.",
