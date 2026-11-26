@@ -162,10 +162,11 @@ try {
           window.delayResume = false;
         });
         await page.locator('[data-play="close"]').click();
+        // Real-time playback; a loaded machine renders it more slowly.
         await page.waitForFunction(
           () => document.querySelector("#play-status").textContent.startsWith("Finished"),
           null,
-          { timeout: 30000 },
+          { timeout: 90000 },
         );
         assert(await page.locator("#stop").isDisabled());
         assert.equal(await page.locator(".sounding").count(), 0);

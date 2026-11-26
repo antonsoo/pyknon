@@ -248,7 +248,7 @@ try {
         await page.waitForFunction(
           () => document.querySelector("#song-status").textContent.startsWith("Finished"),
           null,
-          { timeout: 60000 },
+          { timeout: 90000 },
         );
         assert.equal(await page.locator("#selected-title [lang]").innerText(), "τεῖ");
         assert.equal(

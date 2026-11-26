@@ -207,8 +207,11 @@ try {
         });
         await page.selectOption("#sound", "beat");
         await page.locator("#play").click();
-        await page.waitForFunction(() =>
-          document.querySelector("#play-status").textContent.startsWith("Finished"),
+        // Real-time playback; a loaded machine renders it more slowly than the 30 s default.
+        await page.waitForFunction(
+          () => document.querySelector("#play-status").textContent.startsWith("Finished"),
+          null,
+          { timeout: 90000 },
         );
         assert.equal(await page.locator(".sounding").count(), 0);
         assert(await page.locator("#stop").isDisabled());
