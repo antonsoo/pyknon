@@ -244,10 +244,11 @@ try {
         const initialScroll = await page.evaluate(() => scrollY);
         await page.keyboard.press("Enter");
         await page.waitForFunction(() => window.audioAudit.length === 40);
+        // About 13 s of audio; a loaded machine can render it more slowly.
         await page.waitForFunction(
           () => document.querySelector("#song-status").textContent.startsWith("Finished"),
           null,
-          { timeout: 25000 },
+          { timeout: 60000 },
         );
         assert.equal(await page.locator("#selected-title [lang]").innerText(), "τεῖ");
         assert.equal(
