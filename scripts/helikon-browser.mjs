@@ -212,6 +212,8 @@ async function review(engine, browser, width) {
   await shared.close();
   const restoredURL = page.url();
   await keyboard(page, "#hk-fit");
+  // The fit rewrites the address after the key press; wait for it rather than racing.
+  await page.waitForFunction((before) => location.href !== before, restoredURL);
   const fittedURL = page.url();
   assert.notEqual(restoredURL, fittedURL);
   await page.goBack();
